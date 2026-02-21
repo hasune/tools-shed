@@ -19,19 +19,45 @@ export default function ToolLayout({
   description,
   children,
 }: ToolLayoutProps) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: toolName,
+    description: description,
+    url: `https://tools-shed.com/${categorySlug}/${toolSlug}`,
+    applicationCategory: "UtilitiesApplication",
+    operatingSystem: "Any",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    provider: {
+      "@type": "Organization",
+      name: "ToolsShed",
+      url: "https://tools-shed.com",
+    },
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
+      <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-gray-300 transition-colors">
           Home
         </Link>
-        <span>/</span>
+        <span aria-hidden="true">/</span>
         <Link href={`/${categorySlug}`} className="hover:text-gray-300 transition-colors">
           {categoryName}
         </Link>
-        <span>/</span>
-        <span className="text-gray-300">{toolName}</span>
+        <span aria-hidden="true">/</span>
+        <span className="text-gray-300" aria-current="page">{toolName}</span>
       </nav>
 
       {/* Tool Header */}

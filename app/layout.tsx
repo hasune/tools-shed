@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free online tools for developers, students, and professionals. JSON Formatter, Base64, UUID Generator, Unit Converters, and more.",
   keywords: ["online tools", "free tools", "developer tools", "unit converter", "calculator"],
+  verification: {
+    google: "YKiR-JRznSp190FRPKxepdKt1G3Fs4IM1X_lH-n3ZHA",
+  },
   authors: [{ name: "ToolsShed" }],
   creator: "ToolsShed",
   openGraph: {

@@ -261,14 +261,31 @@ export default function NewToolPage() {
 
 ---
 
-## SEO 설정
+## SEO 설정 현황
 
-- **sitemap.xml**: `app/sitemap.ts` → 빌드 시 자동 생성
+### 적용 완료
+- **metadataBase**: `https://tools-shed.com` → canonical URL, OG 이미지 절대경로 자동 해결
+- **sitemap.xml**: `app/sitemap.ts` → 빌드 시 자동 생성 (도구 17개 + 카테고리 6개 + About/Privacy)
 - **robots.txt**: `app/robots.ts` → 빌드 시 자동 생성
-- **BASE_URL**: 현재 `"https://tools-shed.com"` (플레이스홀더)
-  → 실제 도메인 확정 후 `sitemap.ts`, `robots.ts` 두 파일 모두 수정 필요
-- **페이지별 메타**: 각 `page.tsx`의 `generateMetadata()` 또는 `metadata` export로 관리
-- **OG 태그**: `app/layout.tsx`에서 기본값 설정, 각 도구 페이지에서 오버라이드
+- **JSON-LD 구조화 데이터**: `ToolLayout.tsx`에서 모든 도구 페이지에 `WebApplication` 스키마 자동 삽입
+- **Favicon**: SVG data URI emoji 방식 (`🛠️`)
+- **Breadcrumb**: `aria-label`, `aria-current` 접근성 마크업 적용
+- **Google Search Console**: 등록 완료, sitemap 제출 완료
+- **Google Analytics 4**: G-3N423K0N2Q (`@next/third-parties` 사용)
+
+### 남은 SEO 과제
+- **OG 이미지** (`/public/og-image.png`): 아직 미생성. 1200×630px 이미지 필요.
+  SNS 공유 시 미리보기에 표시됨. Figma 또는 Canva로 제작 권장.
+- **각 tool 페이지 OG 태그 개별화**: 현재 모든 도구 페이지가 layout.tsx 기본값을 상속.
+  트래픽이 생기면 도구별 `openGraph.title/description` 추가 고려.
+- **관련 도구 내부 링크**: 도구 페이지 하단에 같은 카테고리의 다른 도구 링크 추가 시
+  크롤러 발견율 및 체류시간 개선 가능.
+- **www → non-www 리다이렉트**: Vercel 대시보드에서 primary domain 설정 확인 권장.
+
+### SEO 원칙
+- 새 page.tsx 작성 시 `title`은 60자 이내, `description`은 150자 이내로 작성
+- `keywords` 배열은 실제 검색 의도 기반으로 작성 (브랜드명 X, 기능 키워드 O)
+- 모든 `h1`은 페이지당 하나, 도구명과 일치시킬 것
 
 ---
 
@@ -305,6 +322,8 @@ vercel --prod     # 수동 프로덕션 배포
 - [x] Google Analytics 4 설치 (G-3N423K0N2Q) ✅
 - [x] Privacy Policy 페이지 추가 (`/privacy`) ✅
 - [x] About 페이지 추가 (`/about`) ✅
+- [x] SEO 개선 (metadataBase, JSON-LD, favicon, sitemap 업데이트) ✅
+- [ ] OG 이미지 제작 → `/public/og-image.png` 추가 (1200×630px)
 - [ ] Google AdSense 새 도메인 승인 신청 (2~4주 후 인덱싱 확인 뒤)
 - [ ] AdSense 승인 후 `ToolLayout.tsx`의 실제 slot ID 입력
 - [ ] Giscus GitHub App 설치 확인 (https://github.com/apps/giscus)
@@ -323,6 +342,37 @@ vercel --prod     # 수동 프로덕션 배포
 ### Phase 3 (장기)
 - [ ] Neon DB + Auth.js (즐겨찾기 저장 기능)
 - [ ] 다국어 지원 검토
+
+---
+
+## 보안 주의사항
+
+### GitHub Public 저장소여도 안전한 값들
+아래 값들은 어차피 **브라우저 HTML 소스에 노출**되는 프론트엔드 식별자이므로 코드에 직접 작성해도 무방:
+
+| 값 | 위치 | 이유 |
+|----|------|------|
+| AdSense Publisher ID (`ca-pub-...`) | `AdSlot.tsx`, `layout.tsx` | HTML 소스에 항상 노출됨 |
+| GA 측정 ID (`G-3N423K0N2Q`) | `layout.tsx` | 프론트엔드 식별자, 공개 정보 |
+| Giscus Repo ID / Category ID | `GiscusComments.tsx` | giscus.app에서 누구나 조회 가능 |
+| Search Console 인증 코드 | `layout.tsx` | `<meta>` 태그로 공개됨 |
+
+### 절대로 코드에 직접 쓰면 안 되는 값들
+Phase 2에서 DB/인증 추가 시 아래 값들은 반드시 **Vercel 환경변수**로 관리:
+
+```
+# .env.local (로컬 전용, .gitignore에 이미 포함됨)
+DATABASE_URL=postgres://...       # Neon DB connection string
+NEXTAUTH_SECRET=...               # Auth.js 시크릿
+NEXTAUTH_URL=https://tools-shed.com
+```
+
+- Vercel 환경변수 설정: 대시보드 → Settings → Environment Variables
+- `.env.local`은 절대 `git add` 하지 말 것 (`.gitignore`에 이미 포함됨)
+- `NEXT_PUBLIC_` 접두사가 붙은 변수는 브라우저에 노출됨 → 시크릿 값에 사용 금지
+
+### 현재 이 프로젝트의 보안 위험도: **낮음**
+서버/DB가 없는 순수 정적 사이트이므로 코드가 전부 공개되어도 악용 불가.
 
 ---
 

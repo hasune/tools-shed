@@ -272,12 +272,11 @@ export default function NewToolPage() {
 - **Breadcrumb**: `aria-label`, `aria-current` 접근성 마크업 적용
 - **Google Search Console**: 등록 완료, sitemap 제출 완료
 - **Google Analytics 4**: G-3N423K0N2Q (`@next/third-parties` 사용)
+- **OG 이미지**: `app/opengraph-image.tsx` (홈 정적) + `app/[category]/[tool]/opengraph-image.tsx` (도구별 동적, Edge runtime)
 
 ### 남은 SEO 과제
-- **OG 이미지** (`/public/og-image.png`): 아직 미생성. 1200×630px 이미지 필요.
-  SNS 공유 시 미리보기에 표시됨. Figma 또는 Canva로 제작 권장.
-- **각 tool 페이지 OG 태그 개별화**: 현재 모든 도구 페이지가 layout.tsx 기본값을 상속.
-  트래픽이 생기면 도구별 `openGraph.title/description` 추가 고려.
+- **각 tool 페이지 OG 태그 개별화**: 현재 OG 이미지는 동적으로 각 도구명/설명/아이콘을 반영하여 생성됨.
+  추가로 `openGraph.title/description` 텍스트 메타 태그도 도구별로 세분화하면 더 좋음.
 - **관련 도구 내부 링크**: 도구 페이지 하단에 같은 카테고리의 다른 도구 링크 추가 시
   크롤러 발견율 및 체류시간 개선 가능.
 - **www → non-www 리다이렉트**: Vercel 대시보드에서 primary domain 설정 확인 권장.
@@ -323,7 +322,7 @@ vercel --prod     # 수동 프로덕션 배포
 - [x] Privacy Policy 페이지 추가 (`/privacy`) ✅
 - [x] About 페이지 추가 (`/about`) ✅
 - [x] SEO 개선 (metadataBase, JSON-LD, favicon, sitemap 업데이트) ✅
-- [ ] OG 이미지 제작 → `/public/og-image.png` 추가 (1200×630px)
+- [x] OG 이미지 제작 → `app/opengraph-image.tsx` (홈) + `app/[category]/[tool]/opengraph-image.tsx` (도구별 동적 생성, Next.js ImageResponse / Edge runtime) ✅
 - [ ] Google AdSense 새 도메인 승인 신청 (2~4주 후 인덱싱 확인 뒤)
 - [ ] AdSense 승인 후 `ToolLayout.tsx`의 실제 slot ID 입력
 - [ ] Giscus GitHub App 설치 확인 (https://github.com/apps/giscus)

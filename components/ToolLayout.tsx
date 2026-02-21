@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import AdSlot from "./AdSlot";
 import GiscusComments from "./GiscusComments";
 
@@ -11,7 +12,7 @@ interface ToolLayoutProps {
   children: React.ReactNode;
 }
 
-export default function ToolLayout({
+export default async function ToolLayout({
   toolName,
   toolSlug,
   categoryName,
@@ -19,6 +20,8 @@ export default function ToolLayout({
   description,
   children,
 }: ToolLayoutProps) {
+  const t = await getTranslations("ToolLayout");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -48,12 +51,12 @@ export default function ToolLayout({
       />
 
       {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-gray-500 mb-6">
+      <nav aria-label={t("breadcrumbLabel")} className="flex items-center gap-2 text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-gray-300 transition-colors">
-          Home
+          {t("home")}
         </Link>
         <span aria-hidden="true">/</span>
-        <Link href={`/${categorySlug}`} className="hover:text-gray-300 transition-colors">
+        <Link href={`/${categorySlug}` as Parameters<typeof Link>[0]["href"]} className="hover:text-gray-300 transition-colors">
           {categoryName}
         </Link>
         <span aria-hidden="true">/</span>

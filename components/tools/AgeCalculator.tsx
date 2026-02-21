@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function AgeCalculator() {
+  const t = useTranslations("AgeCalculator");
+
   const [birthDate, setBirthDate] = useState("");
   const [targetDate, setTargetDate] = useState(new Date().toISOString().split("T")[0]);
   const [result, setResult] = useState<{
@@ -31,7 +34,6 @@ export default function AgeCalculator() {
     const totalDays = Math.floor((target.getTime() - birth.getTime()) / (1000 * 60 * 60 * 24));
     const totalMonths = years * 12 + months;
 
-    // Next birthday
     const nextBD = new Date(target.getFullYear(), birth.getMonth(), birth.getDate());
     if (nextBD <= target) nextBD.setFullYear(nextBD.getFullYear() + 1);
     const daysUntilBirthday = Math.floor((nextBD.getTime() - target.getTime()) / (1000 * 60 * 60 * 24));
@@ -47,7 +49,7 @@ export default function AgeCalculator() {
     <div className="space-y-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="space-y-1">
-          <label className="text-sm font-medium text-gray-300">Date of Birth</label>
+          <label className="text-sm font-medium text-gray-300">{t("birthDateLabel")}</label>
           <input
             type="date"
             value={birthDate}
@@ -57,7 +59,7 @@ export default function AgeCalculator() {
           />
         </div>
         <div className="space-y-1">
-          <label className="text-sm font-medium text-gray-300">Age at date</label>
+          <label className="text-sm font-medium text-gray-300">{t("ageDateLabel")}</label>
           <input
             type="date"
             value={targetDate}
@@ -71,7 +73,7 @@ export default function AgeCalculator() {
         onClick={calculate}
         className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2.5 rounded-lg transition-colors"
       >
-        Calculate Age
+        {t("calculateButton")}
       </button>
 
       {result && (
@@ -79,30 +81,33 @@ export default function AgeCalculator() {
           {/* Main Result */}
           <div className="bg-gray-900 border border-indigo-500/30 rounded-xl p-6 text-center">
             <div className="text-5xl font-bold text-white mb-1">{result.years}</div>
-            <div className="text-gray-400 text-lg">years old</div>
+            <div className="text-gray-400 text-lg">{t("yearsOld")}</div>
             <div className="mt-2 text-indigo-400 text-lg">
               {result.months > 0 || result.days > 0
-                ? `${result.months > 0 ? `${result.months} month${result.months !== 1 ? "s" : ""}` : ""} ${result.days > 0 ? `${result.days} day${result.days !== 1 ? "s" : ""}` : ""}`.trim()
-                : "Exactly!"}
+                ? [
+                    result.months > 0 ? (result.months === 1 ? t("month", { count: result.months }) : t("months", { count: result.months })) : "",
+                    result.days > 0 ? (result.days === 1 ? t("day", { count: result.days }) : t("days", { count: result.days })) : "",
+                  ].filter(Boolean).join(" ")
+                : t("exactly")}
             </div>
           </div>
 
           {/* Details */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {[
-              { label: "Total days", value: result.totalDays.toLocaleString() },
-              { label: "Total months", value: result.totalMonths.toLocaleString() },
-              { label: "Days until birthday", value: result.daysUntilBirthday === 0 ? "🎂 Today!" : result.daysUntilBirthday.toString() },
+              { labelKey: "totalDays" as const, value: result.totalDays.toLocaleString() },
+              { labelKey: "totalMonths" as const, value: result.totalMonths.toLocaleString() },
+              { labelKey: "daysUntilBirthday" as const, value: result.daysUntilBirthday === 0 ? t("todayBirthday") : result.daysUntilBirthday.toString() },
             ].map((item) => (
-              <div key={item.label} className="bg-gray-900 border border-gray-700 rounded-lg p-3 text-center">
+              <div key={item.labelKey} className="bg-gray-900 border border-gray-700 rounded-lg p-3 text-center">
                 <div className="text-xl font-bold text-indigo-400">{item.value}</div>
-                <div className="text-xs text-gray-500 mt-1">{item.label}</div>
+                <div className="text-xs text-gray-500 mt-1">{t(item.labelKey)}</div>
               </div>
             ))}
           </div>
 
           <div className="text-center text-sm text-gray-400">
-            Next birthday: <span className="text-indigo-400">{result.nextBirthday}</span>
+            {t("nextBirthday")} <span className="text-indigo-400">{result.nextBirthday}</span>
           </div>
         </div>
       )}

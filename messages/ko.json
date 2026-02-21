@@ -1,0 +1,495 @@
+{
+  "Header": {
+    "developer": "개발자",
+    "converters": "단위 변환",
+    "text": "텍스트",
+    "finance": "금융",
+    "health": "건강",
+    "time": "시간",
+    "toggleMenu": "메뉴 토글"
+  },
+  "Footer": {
+    "tagline": "전 세계 개발자, 학생, 전문가를 위한 무료 온라인 도구.",
+    "copyright": "© {year} ToolsShed. All rights reserved.",
+    "about": "소개",
+    "privacyPolicy": "개인정보 처리방침",
+    "developer": "개발자",
+    "converters": "단위 변환",
+    "tools": "도구",
+    "jsonFormatter": "JSON Formatter",
+    "base64": "Base64",
+    "uuidGenerator": "UUID Generator",
+    "hashGenerator": "Hash Generator",
+    "length": "길이",
+    "weight": "무게",
+    "temperature": "온도",
+    "bmiCalculator": "BMI Calculator",
+    "passwordGenerator": "비밀번호 생성기",
+    "timezoneConverter": "시간대 변환",
+    "compoundInterest": "복리 계산"
+  },
+  "HomePage": {
+    "heroTitle": "누구나 쓰는 무료 온라인 도구",
+    "heroTitleHighlight": "Everyone",
+    "heroSubtitle": "프라이버시 친화적인 유용한 도구 모음. 회원가입 불필요, 브라우저에서 즉시 실행.",
+    "noRegistration": "회원가입 불필요",
+    "noDataSent": "서버로 데이터 전송 없음",
+    "alwaysFree": "항상 무료",
+    "popularTools": "인기 도구",
+    "whyTitle": "왜 ToolsShed인가?",
+    "privacyFirstTitle": "프라이버시 우선",
+    "privacyFirstDesc": "모든 계산은 브라우저에서 실행됩니다. 데이터가 서버로 전송되는 일은 없습니다.",
+    "instantResultsTitle": "즉시 결과",
+    "instantResultsDesc": "로딩 없음. 입력하는 즉시 결과가 표시되며, 서버 통신도 필요 없습니다.",
+    "worksEverywhereTitle": "어디서나 사용 가능",
+    "worksEverywhereDesc": "모바일 친화적, 설치 불필요. 열기만 하면 바로 사용 가능.",
+    "moreTools": "+{count}개 더 →",
+    "metadata": {
+      "title": "ToolsShed - 무료 온라인 도구",
+      "description": "개발자, 학생, 전문가를 위한 무료 온라인 도구. JSON Formatter, Base64, UUID Generator, 단위 변환 등."
+    }
+  },
+  "Categories": {
+    "developer": {
+      "name": "개발자 도구",
+      "description": "JSON, Base64, UUID, 해시 생성 등 개발에 필요한 도구."
+    },
+    "converters": {
+      "name": "단위 변환",
+      "description": "길이, 무게, 온도 등 단위 간 변환 도구."
+    },
+    "text": {
+      "name": "텍스트 도구",
+      "description": "텍스트 조작, 카운팅, 변환 도구."
+    },
+    "finance": {
+      "name": "금융 도구",
+      "description": "이자, 퍼센트, 대출, 투자 계산기."
+    },
+    "health": {
+      "name": "건강 도구",
+      "description": "BMI, 칼로리, 피트니스 지표 계산기."
+    },
+    "time": {
+      "name": "시간 도구",
+      "description": "시간대 변환, 나이 계산, 날짜 유틸리티."
+    }
+  },
+  "Tools": {
+    "json-formatter": {
+      "name": "JSON Formatter & Validator",
+      "description": "JSON 데이터 포맷, 검증, 정리.",
+      "metaTitle": "JSON Formatter & Validator",
+      "metaDescription": "구문 검사와 함께 JSON 데이터를 포맷하고 검증하고 정리합니다. 무료 온라인 JSON 포매터 — 서버 업로드 없이 브라우저에서 실행."
+    },
+    "uuid-generator": {
+      "name": "UUID Generator",
+      "description": "애플리케이션에서 사용할 랜덤 UUID(v4) 생성.",
+      "metaTitle": "UUID Generator",
+      "metaDescription": "브라우저에서 랜덤 UUID(v4)를 즉시 생성. 무료, 회원가입 불필요."
+    },
+    "base64": {
+      "name": "Base64 Encoder / Decoder",
+      "description": "텍스트나 파일을 Base64로 인코딩하고 Base64 문자열을 디코딩.",
+      "metaTitle": "Base64 Encoder / Decoder",
+      "metaDescription": "텍스트나 파일을 Base64로 인코딩하고 디코딩. 무료 온라인 Base64 도구."
+    },
+    "url-encoder": {
+      "name": "URL Encoder / Decoder",
+      "description": "URL과 쿼리 파라미터를 인코딩하고 디코딩.",
+      "metaTitle": "URL Encoder / Decoder",
+      "metaDescription": "URL과 쿼리 파라미터를 인코딩하고 디코딩. 무료 온라인 URL 인코딩 도구."
+    },
+    "hash-generator": {
+      "name": "Hash Generator",
+      "description": "MD5, SHA-256, SHA-512 암호 해시 생성.",
+      "metaTitle": "Hash Generator",
+      "metaDescription": "MD5, SHA-256, SHA-512 해시를 클라이언트 사이드에서 생성. 데이터가 브라우저를 떠나지 않습니다."
+    },
+    "jwt-decoder": {
+      "name": "JWT Decoder",
+      "description": "서명 검증 없이 JWT 페이로드를 디코딩하고 확인.",
+      "metaTitle": "JWT Decoder",
+      "metaDescription": "JWT 헤더와 페이로드를 디코딩하고 확인. 무료 브라우저 기반 JWT 인스펙터."
+    },
+    "length-converter": {
+      "name": "길이 변환",
+      "description": "미터, 피트, 인치, 마일, 킬로미터 등 변환.",
+      "metaTitle": "길이 변환",
+      "metaDescription": "미터, 피트, 인치, 마일, 킬로미터 변환. 무료 온라인 길이 변환 도구."
+    },
+    "weight-converter": {
+      "name": "무게 변환",
+      "description": "킬로그램, 파운드, 온스, 그램 등 변환.",
+      "metaTitle": "무게 변환",
+      "metaDescription": "킬로그램, 파운드, 온스, 그램 변환. 무료 온라인 무게 변환 도구."
+    },
+    "temperature-converter": {
+      "name": "온도 변환",
+      "description": "섭씨, 화씨, 켈빈 변환.",
+      "metaTitle": "온도 변환",
+      "metaDescription": "섭씨, 화씨, 켈빈 변환. 무료 온라인 온도 변환 도구."
+    },
+    "word-counter": {
+      "name": "단어 및 문자 카운터",
+      "description": "텍스트의 단어, 문자, 문장, 단락 수 카운트.",
+      "metaTitle": "단어 및 문자 카운터",
+      "metaDescription": "단어, 문자, 문장, 단락 수 카운트. 무료 온라인 단어 카운터."
+    },
+    "case-converter": {
+      "name": "대소문자 변환",
+      "description": "텍스트를 UPPERCASE, lowercase, Title Case, camelCase 등으로 변환.",
+      "metaTitle": "대소문자 변환",
+      "metaDescription": "텍스트를 UPPERCASE, lowercase, Title Case, camelCase, snake_case 등으로 변환."
+    },
+    "password-generator": {
+      "name": "비밀번호 생성기",
+      "description": "커스터마이징 가능한 옵션으로 강력한 비밀번호 생성.",
+      "metaTitle": "비밀번호 생성기",
+      "metaDescription": "길이와 문자 종류를 설정해 강력한 비밀번호 생성."
+    },
+    "compound-interest": {
+      "name": "복리 계산기",
+      "description": "시간에 따른 투자의 복리 성장 계산.",
+      "metaTitle": "복리 계산기",
+      "metaDescription": "투자의 복리 성장을 계산. 무료 온라인 복리 계산 도구."
+    },
+    "percentage-calculator": {
+      "name": "퍼센트 계산기",
+      "description": "퍼센트, 변화율, 팁 금액 계산.",
+      "metaTitle": "퍼센트 계산기",
+      "metaDescription": "퍼센트, 변화율, 팁 금액 계산. 무료 온라인 퍼센트 계산 도구."
+    },
+    "bmi-calculator": {
+      "name": "BMI Calculator",
+      "description": "미터법과 야드파운드법으로 BMI 계산.",
+      "metaTitle": "BMI Calculator",
+      "metaDescription": "미터법 또는 야드파운드법으로 체질량지수(BMI) 계산. 무료 온라인 BMI 계산 도구."
+    },
+    "age-calculator": {
+      "name": "나이 계산기",
+      "description": "생년월일로 정확한 나이를 년, 월, 일로 계산.",
+      "metaTitle": "나이 계산기",
+      "metaDescription": "생년월일로 정확한 나이를 년, 월, 일로 계산. 무료 온라인 나이 계산 도구."
+    },
+    "timezone-converter": {
+      "name": "시간대 변환",
+      "description": "전 세계 다양한 시간대 간 시간 변환.",
+      "metaTitle": "시간대 변환",
+      "metaDescription": "전 세계 다양한 시간대 간 시간 변환. 무료 온라인 시간대 변환 도구."
+    }
+  },
+  "Common": {
+    "copy": "복사",
+    "copied": "복사됨!",
+    "clear": "지우기",
+    "calculate": "계산",
+    "generate": "생성",
+    "sample": "샘플",
+    "result": "결과"
+  },
+  "ToolLayout": {
+    "home": "홈",
+    "breadcrumbLabel": "브레드크럼"
+  },
+  "JsonFormatter": {
+    "indent": "들여쓰기:",
+    "twoSpaces": "2칸",
+    "fourSpaces": "4칸",
+    "oneSpace": "1칸",
+    "inputLabel": "입력 JSON",
+    "inputPlaceholder": "JSON을 여기에 붙여넣으세요...",
+    "outputLabel": "출력",
+    "formatButton": "포맷 / 검증",
+    "minifyButton": "최소화",
+    "validJson": "유효한 JSON"
+  },
+  "UuidGenerator": {
+    "count": "개수:",
+    "uppercase": "대문자",
+    "includeHyphens": "하이픈 포함",
+    "generateButton": "UUID 생성",
+    "generateButtonPlural": "UUID 생성",
+    "generated": "{count}개 UUID 생성됨",
+    "generatedPlural": "{count}개 UUID 생성됨",
+    "copyAll": "모두 복사",
+    "copiedAll": "모두 복사됨!",
+    "infoText": "UUID는 crypto.randomUUID()(v4)를 사용하여 생성됩니다 — 암호학적으로 안전한 랜덤 값이며, 모두 브라우저 내에서 생성됩니다."
+  },
+  "Base64Tool": {
+    "encodeTab": "인코딩",
+    "decodeTab": "디코딩",
+    "encodeInputLabel": "인코딩할 텍스트",
+    "decodeInputLabel": "디코딩할 Base64",
+    "encodePlaceholder": "인코딩할 텍스트를 입력하세요...",
+    "decodePlaceholder": "디코딩할 Base64 문자열을 입력하세요...",
+    "encodeButton": "인코딩",
+    "decodeButton": "디코딩",
+    "resultLabel": "결과",
+    "infoText": "유니코드 텍스트를 지원합니다. 인코딩/디코딩은 모두 브라우저 내에서 처리됩니다 — 어떤 서버에도 데이터가 전송되지 않습니다."
+  },
+  "UrlEncoderDecoder": {
+    "encodeTab": "인코딩",
+    "decodeTab": "디코딩",
+    "typeLabel": "유형:",
+    "encodeInputLabel": "인코딩할 텍스트 / URL",
+    "decodeInputLabel": "디코딩할 인코딩된 URL",
+    "encodePlaceholder": "텍스트 또는 URL을 입력하세요...",
+    "decodePlaceholder": "인코딩된 URL을 입력하세요...",
+    "loadSample": "샘플 불러오기",
+    "encodeButton": "인코딩",
+    "decodeButton": "디코딩",
+    "resultLabel": "결과",
+    "swapTitle": "입력/출력을 바꾸고 모드 전환"
+  },
+  "HashGenerator": {
+    "inputLabel": "해시할 텍스트",
+    "inputPlaceholder": "해시를 생성할 텍스트를 입력하세요...",
+    "generateButton": "해시 생성",
+    "generating": "생성 중...",
+    "disclaimer": "MD5는 클라이언트 사이드에서 계산됩니다. SHA-256과 SHA-512는 브라우저의 네이티브 crypto.subtle API를 사용합니다. 데이터가 브라우저를 떠나지 않습니다."
+  },
+  "JwtDecoder": {
+    "inputLabel": "JWT 토큰",
+    "inputPlaceholder": "JWT 토큰을 여기에 붙여넣으세요...",
+    "loadSample": "샘플 불러오기",
+    "decodeButton": "JWT 디코딩",
+    "headerLabel": "헤더",
+    "payloadLabel": "페이로드",
+    "signatureLabel": "서명",
+    "signatureNotVerified": "(미검증)",
+    "tokenExpired": "⚠️ 토큰이 만료되었습니다",
+    "tokenValid": "✅ 토큰이 만료되지 않았습니다",
+    "notVerifiedNote": "이 도구는 JWT를 디코딩만 합니다 — 서명을 검증하지 않습니다. 민감한 토큰을 공유하지 마세요."
+  },
+  "UnitConverter": {
+    "clearButton": "지우기"
+  },
+  "TemperatureConverter": {
+    "celsius": "섭씨 (°C)",
+    "fahrenheit": "화씨 (°F)",
+    "kelvin": "켈빈 (K)",
+    "clearButton": "지우기",
+    "commonTemps": "대표 온도",
+    "waterFreezes": "물의 어는점",
+    "roomTemp": "실온",
+    "bodyTemp": "체온",
+    "waterBoils": "물의 끓는점",
+    "absoluteZero": "절대 영도",
+    "ovenMedium": "오븐 (중간 온도)"
+  },
+  "WordCounter": {
+    "inputLabel": "텍스트",
+    "inputPlaceholder": "여기에 텍스트를 입력하거나 붙여넣으세요...",
+    "words": "단어",
+    "characters": "문자",
+    "charsNoSpaces": "문자 (공백 제외)",
+    "sentences": "문장",
+    "paragraphs": "단락",
+    "lines": "줄",
+    "readingTime": "읽기 시간",
+    "readingTimeValue": "약 {minutes}분"
+  },
+  "CaseConverter": {
+    "inputLabel": "입력 텍스트",
+    "inputPlaceholder": "변환할 텍스트를 입력하거나 붙여넣으세요...",
+    "resultPlaceholder": "결과가 여기에 표시됩니다..."
+  },
+  "PasswordGenerator": {
+    "lengthLabel": "길이: {length}",
+    "uppercase": "대문자",
+    "lowercase": "소문자",
+    "numbers": "숫자",
+    "symbols": "특수문자",
+    "generateCount": "생성 개수:",
+    "passwordSingular": "{count}개",
+    "passwordPlural": "{count}개",
+    "generateButton": "생성",
+    "strengthLabel": "강도",
+    "strengthWeak": "약함",
+    "strengthFair": "보통",
+    "strengthGood": "양호",
+    "strengthStrong": "강함"
+  },
+  "CompoundInterest": {
+    "principalLabel": "초기 원금 ($)",
+    "rateLabel": "연이율 (%)",
+    "yearsLabel": "기간 (년)",
+    "compoundFrequencyLabel": "복리 주기",
+    "monthlyContributionLabel": "월 납입액 ($)",
+    "monthlyContributionOptional": "(선택)",
+    "daily": "매일",
+    "monthly": "매월",
+    "quarterly": "분기별",
+    "semiAnnually": "반년별",
+    "annually": "매년",
+    "calculateButton": "계산",
+    "finalAmount": "최종 금액",
+    "interestEarned": "발생 이자",
+    "totalInvested": "총 투자액"
+  },
+  "PercentageCalculator": {
+    "percentOf": "수의 %",
+    "percentChange": "변화율",
+    "whatPercent": "X는 Y의 몇 %?",
+    "tipCalculator": "팁 계산",
+    "percentageLabel": "퍼센트 (%)",
+    "numberLabel": "수",
+    "originalValueLabel": "원래 값",
+    "newValueLabel": "새 값",
+    "partLabel": "부분 (X)",
+    "wholeLabel": "전체 (Y)",
+    "billAmountLabel": "청구 금액 ($)",
+    "tipPercentLabel": "팁 (%)",
+    "numberOfPeopleLabel": "인원 수"
+  },
+  "BmiCalculator": {
+    "metricTab": "미터법 (kg/cm)",
+    "imperialTab": "야드파운드법 (lb/ft)",
+    "weightLabelMetric": "체중 (kg)",
+    "weightLabelImperial": "체중 (lbs)",
+    "heightLabelMetric": "키 (cm)",
+    "heightLabelImperial": "키 (ft / in)",
+    "calculateButton": "BMI 계산",
+    "clearButton": "지우기",
+    "categoriesTitle": "BMI 분류",
+    "underweight": "저체중",
+    "normalWeight": "정상 체중",
+    "overweight": "과체중",
+    "obese": "비만",
+    "underweightRange": "< 18.5",
+    "normalRange": "18.5 – 24.9",
+    "overweightRange": "25 – 29.9",
+    "obeseRange": "≥ 30",
+    "underweightDesc": "BMI 18.5 미만",
+    "normalWeightDesc": "BMI 18.5 – 24.9",
+    "overweightDesc": "BMI 25 – 29.9",
+    "obeseDesc": "BMI 30 이상"
+  },
+  "AgeCalculator": {
+    "birthDateLabel": "생년월일",
+    "ageDateLabel": "기준 날짜",
+    "calculateButton": "나이 계산",
+    "yearsOld": "세",
+    "exactly": "딱 맞아요!",
+    "month": "{count}개월",
+    "months": "{count}개월",
+    "day": "{count}일",
+    "days": "{count}일",
+    "totalDays": "총 일수",
+    "totalMonths": "총 개월 수",
+    "daysUntilBirthday": "생일까지 남은 날",
+    "todayBirthday": "🎂 Today!",
+    "nextBirthday": "다음 생일:"
+  },
+  "TimezoneConverter": {
+    "currentTime": "현재 시간 (브라우저)",
+    "dateTimeLabel": "날짜 및 시간",
+    "sourceTimezoneLabel": "기준 시간대",
+    "convertButton": "변환",
+    "useNowButton": "현재 시간 사용",
+    "resultsLabel": "결과"
+  },
+  "LocaleSwitcher": {
+    "label": "언어"
+  },
+  "AboutPage": {
+    "title": "ToolsShed 소개",
+    "subtitle": "무료, 빠르고, 프라이버시 친화적인 도구 — 회원가입 불필요, 데이터 수집 없음.",
+    "whatIsTitle": "ToolsShed란?",
+    "whatIsText": "ToolsShed는 개발자, 학생, 전문가를 위한 무료 온라인 도구 모음입니다. JSON 포맷, 단위 변환, 비밀번호 생성, 복리 계산 등 모든 것이 여기서 무료로, 즉시 사용 가능합니다.",
+    "philosophyTitle": "우리의 철학",
+    "privacyFirstTitle": "프라이버시 우선",
+    "privacyFirstDesc": "모든 도구는 브라우저 내에서 완전히 실행됩니다. 입력한 내용이 서버로 전송되는 일은 없습니다.",
+    "noFrictionTitle": "마찰 없음",
+    "noFrictionDesc": "회원가입 없음, 계정 없음, 유료 플랜 없음. 도구를 열고 즉시 사용하세요.",
+    "builtForEveryoneTitle": "모두를 위해 만들어졌다",
+    "builtForEveryoneDesc": "뉴욕, 런던, 도쿄 어디서든 동일하게 작동하는 글로벌 도구.",
+    "byTheNumbersTitle": "숫자로 보기",
+    "freeToolsLabel": "무료 도구",
+    "categoriesLabel": "카테고리",
+    "signUpsLabel": "필요한 회원가입",
+    "techStackTitle": "기술 스택",
+    "techStackText": "ToolsShed는 최신 오픈소스 기술로 만들어졌습니다:",
+    "techNext": "Next.js 16 — 정적 사이트 생성 지원 React 프레임워크",
+    "techTs": "TypeScript — 타입 안전한 코드",
+    "techTailwind": "Tailwind CSS — 유틸리티 우선 스타일링",
+    "techVercel": "Vercel — 글로벌 엣지 호스팅",
+    "techGiscus": "Giscus — GitHub Discussions 기반 댓글",
+    "openSourceTitle": "오픈 소스",
+    "openSourceText": "ToolsShed는 오픈 소스입니다. 버그를 발견하거나 도구를 제안하고 싶다면 기여를 환영합니다.",
+    "viewOnGitHub": "GitHub에서 보기",
+    "browseTools": "← 도구 둘러보기",
+    "privacyPolicy": "개인정보 처리방침",
+    "metadata": {
+      "title": "소개",
+      "description": "ToolsShed 소개 — 무료 프라이버시 친화적인 온라인 도구 모음."
+    }
+  },
+  "NotFound": {
+    "title": "도구를 찾을 수 없음",
+    "description": "찾는 도구가 아직 없지만, 계속 추가하고 있습니다!",
+    "browseAllTools": "모든 도구 보기"
+  },
+  "PrivacyPage": {
+    "title": "개인정보 처리방침",
+    "lastUpdated": "최종 업데이트: {date}",
+    "backToTools": "← 도구로 돌아가기",
+    "overviewTitle": "개요",
+    "overviewText1": "ToolsShed(이하 '당사')는 tools-shed.com을 운영합니다. 이 페이지는 서비스 이용 시 개인정보의 수집, 사용, 공개에 관한 방침을 안내합니다.",
+    "overviewText2": "요약: ToolsShed의 모든 도구는 브라우저에서 완전히 실행됩니다. 도구에 입력한 데이터는 당사 서버에 저장, 전송, 처리되지 않습니다.",
+    "shortVersionLabel": "요약:",
+    "noCollectTitle": "1. 수집하지 않는 데이터",
+    "noCollectText": "ToolsShed 도구는 모두 클라이언트 사이드에서 작동합니다. 즉:",
+    "noCollectItem1": "JSON Formatter, Base64 등에 붙여넣은 텍스트",
+    "noCollectItem2": "비밀번호 생성기로 생성한 비밀번호",
+    "noCollectItem3": "BMI Calculator에 입력한 건강 데이터",
+    "noCollectItem4": "계산기에 입력한 금융 데이터",
+    "noCollectItem5": "도구에 제공한 기타 입력 데이터",
+    "noCollectFooter": "이 데이터는 기기를 벗어나거나 어떤 서버에도 전송되지 않습니다.",
+    "analyticsTitle": "2. Google Analytics",
+    "analyticsText1": "Google Analytics 4를 사용하여 방문자가 사이트를 어떻게 이용하는지 파악합니다(예: 인기 도구, 체류 시간, 방문 국가 등). 이 데이터는 익명화 및 집계됩니다.",
+    "analyticsText2": "Google Analytics가 수집할 수 있는 정보:",
+    "analyticsItem1": "방문 페이지 및 체류 시간",
+    "analyticsItem2": "대략적인 지리적 위치 (국가/도시 수준)",
+    "analyticsItem3": "브라우저 유형 및 기기 유형",
+    "analyticsItem4": "유입 웹사이트",
+    "analyticsOptOut": "Google Analytics는 쿠키를 사용합니다. 다음 브라우저 애드온으로 거부할 수 있습니다:",
+    "analyticsOptOutLink": "Google Analytics 차단 브라우저 부가기능",
+    "analyticsPrivacy": "자세한 내용은 다음을 참조하세요:",
+    "analyticsPrivacyLink": "Google 개인정보 처리방침",
+    "adsenseTitle": "3. Google AdSense",
+    "adsenseText1": "Google AdSense를 사용하여 광고를 표시합니다. Google AdSense는 당사 사이트 또는 다른 사이트의 이전 방문 기록을 기반으로 광고를 게재하기 위해 쿠키를 사용합니다.",
+    "adsenseText2": "Google의 광고 쿠키 사용으로 Google 및 파트너사가 사이트 방문을 기반으로 광고를 게재합니다. 개인화 광고는 여기서 거부할 수 있습니다:",
+    "adsenseOptOutLink": "Google 광고 설정",
+    "commentsTitle": "4. 댓글 (Giscus)",
+    "commentsText1": "댓글 시스템은 Giscus를 사용하며, 댓글은 GitHub Discussions에 저장됩니다. 댓글을 남기려면 GitHub 계정으로 로그인해야 합니다. 댓글과 GitHub 프로필 정보는 GitHub에 공개됩니다.",
+    "commentsText2": "자세한 내용은 다음을 참조하세요:",
+    "commentsPrivacyLink": "GitHub 개인정보 처리방침",
+    "commentsText3": ".",
+    "cookiesTitle": "5. 쿠키",
+    "cookiesText": "다음과 같은 쿠키를 사용합니다:",
+    "cookieColName": "쿠키",
+    "cookieColPurpose": "목적",
+    "cookieColProvider": "제공자",
+    "cookie1Name": "_ga, _ga_*",
+    "cookie1Purpose": "방문 분석",
+    "cookie1Provider": "Google Analytics",
+    "cookie2Name": "IDE, NID",
+    "cookie2Purpose": "광고 개인화",
+    "cookie2Provider": "Google AdSense",
+    "thirdPartyTitle": "6. 제3자 링크",
+    "thirdPartyText": "당사 사이트에는 외부 사이트 링크가 포함될 수 있습니다. 해당 사이트의 개인정보 처리 방침이나 콘텐츠에 대해 책임지지 않습니다. 외부 사이트 방문 시 개인정보 처리방침을 확인하시기 바랍니다.",
+    "childrenTitle": "7. 아동의 개인정보",
+    "childrenText": "ToolsShed는 13세 미만 아동을 대상으로 하지 않습니다. 13세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다.",
+    "changesTitle": "8. 방침 변경",
+    "changesText": "이 개인정보 처리방침은 수시로 업데이트될 수 있습니다. 변경 사항은 '최종 업데이트' 날짜와 함께 이 페이지에 게시됩니다. 변경 후 서비스를 계속 이용하면 업데이트된 방침에 동의한 것으로 간주합니다.",
+    "contactTitle": "9. 문의",
+    "contactText1": "이 개인정보 처리방침에 대해 궁금한 점이 있으면 다음 GitHub 저장소에 이슈를 등록해 주세요:",
+    "contactLink": "GitHub 저장소",
+    "metadata": {
+      "title": "개인정보 처리방침",
+      "description": "ToolsShed 개인정보 처리방침 — 데이터 처리 방법."
+    }
+  }
+}

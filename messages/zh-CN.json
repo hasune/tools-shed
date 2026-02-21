@@ -1,0 +1,495 @@
+{
+  "Header": {
+    "developer": "开发者",
+    "converters": "单位换算",
+    "text": "文本",
+    "finance": "金融",
+    "health": "健康",
+    "time": "时间",
+    "toggleMenu": "切换菜单"
+  },
+  "Footer": {
+    "tagline": "为全球开发者、学生和专业人士提供的免费在线工具。",
+    "copyright": "© {year} ToolsShed. All rights reserved.",
+    "about": "关于",
+    "privacyPolicy": "隐私政策",
+    "developer": "开发者",
+    "converters": "单位换算",
+    "tools": "工具",
+    "jsonFormatter": "JSON Formatter",
+    "base64": "Base64",
+    "uuidGenerator": "UUID Generator",
+    "hashGenerator": "Hash Generator",
+    "length": "长度",
+    "weight": "重量",
+    "temperature": "温度",
+    "bmiCalculator": "BMI Calculator",
+    "passwordGenerator": "密码生成器",
+    "timezoneConverter": "时区转换",
+    "compoundInterest": "复利计算"
+  },
+  "HomePage": {
+    "heroTitle": "人人可用的免费在线工具",
+    "heroTitleHighlight": "Everyone",
+    "heroSubtitle": "实用、注重隐私的工具集合。无需注册，在浏览器中即时运行。",
+    "noRegistration": "无需注册",
+    "noDataSent": "不向服务器发送数据",
+    "alwaysFree": "永久免费",
+    "popularTools": "热门工具",
+    "whyTitle": "为什么选择 ToolsShed？",
+    "privacyFirstTitle": "隐私优先",
+    "privacyFirstDesc": "所有计算均在浏览器中运行，数据不会发送到服务器。",
+    "instantResultsTitle": "即时结果",
+    "instantResultsDesc": "无需加载，输入即显示结果，无服务器往返延迟。",
+    "worksEverywhereTitle": "随处可用",
+    "worksEverywhereDesc": "移动端友好，无需安装，打开即用。",
+    "moreTools": "+{count} 个 →",
+    "metadata": {
+      "title": "ToolsShed - 免费在线工具",
+      "description": "为开发者、学生和专业人士提供的免费在线工具。JSON Formatter、Base64、UUID Generator、单位换算等。"
+    }
+  },
+  "Categories": {
+    "developer": {
+      "name": "开发者工具",
+      "description": "JSON、Base64、UUID、哈希生成等开发必备工具。"
+    },
+    "converters": {
+      "name": "单位换算",
+      "description": "长度、重量、温度等单位之间的换算工具。"
+    },
+    "text": {
+      "name": "文本工具",
+      "description": "文本处理、统计和转换工具。"
+    },
+    "finance": {
+      "name": "金融工具",
+      "description": "利息、百分比、贷款和投资计算器。"
+    },
+    "health": {
+      "name": "健康工具",
+      "description": "BMI、卡路里和健身指标计算器。"
+    },
+    "time": {
+      "name": "时间工具",
+      "description": "时区转换、年龄计算和日期工具。"
+    }
+  },
+  "Tools": {
+    "json-formatter": {
+      "name": "JSON Formatter & Validator",
+      "description": "格式化、验证和美化 JSON 数据。",
+      "metaTitle": "JSON Formatter & Validator",
+      "metaDescription": "带语法检查的 JSON 数据格式化、验证和美化工具。免费在线 JSON 格式化器 — 在浏览器中运行，无需上传服务器。"
+    },
+    "uuid-generator": {
+      "name": "UUID Generator",
+      "description": "为应用程序生成随机 UUID（v4）。",
+      "metaTitle": "UUID Generator",
+      "metaDescription": "在浏览器中即时生成随机 UUID（v4）。免费，无需注册。"
+    },
+    "base64": {
+      "name": "Base64 Encoder / Decoder",
+      "description": "将文本或文件编码为 Base64，或解码 Base64 字符串。",
+      "metaTitle": "Base64 Encoder / Decoder",
+      "metaDescription": "将文本或文件编码为 Base64，或解码 Base64 字符串。免费在线 Base64 工具。"
+    },
+    "url-encoder": {
+      "name": "URL Encoder / Decoder",
+      "description": "对 URL 和查询参数进行编码和解码。",
+      "metaTitle": "URL Encoder / Decoder",
+      "metaDescription": "对 URL 和查询参数进行编码和解码。免费在线 URL 编码工具。"
+    },
+    "hash-generator": {
+      "name": "Hash Generator",
+      "description": "生成 MD5、SHA-256 和 SHA-512 加密哈希值。",
+      "metaTitle": "Hash Generator",
+      "metaDescription": "在客户端生成 MD5、SHA-256 和 SHA-512 哈希值，数据不离开浏览器。"
+    },
+    "jwt-decoder": {
+      "name": "JWT Decoder",
+      "description": "无需签名验证，解码并查看 JWT 载荷。",
+      "metaTitle": "JWT Decoder",
+      "metaDescription": "解码并查看 JWT 头部和载荷。免费的浏览器端 JWT 检查工具。"
+    },
+    "length-converter": {
+      "name": "长度换算",
+      "description": "米、英尺、英寸、英里、千米等单位换算。",
+      "metaTitle": "长度换算",
+      "metaDescription": "米、英尺、英寸、英里和千米之间的换算。免费在线长度换算工具。"
+    },
+    "weight-converter": {
+      "name": "重量换算",
+      "description": "千克、磅、盎司、克等单位换算。",
+      "metaTitle": "重量换算",
+      "metaDescription": "千克、磅、盎司和克之间的换算。免费在线重量换算工具。"
+    },
+    "temperature-converter": {
+      "name": "温度换算",
+      "description": "摄氏度、华氏度和开尔文之间的换算。",
+      "metaTitle": "温度换算",
+      "metaDescription": "摄氏度、华氏度和开尔文之间的换算。免费在线温度换算工具。"
+    },
+    "word-counter": {
+      "name": "字数和字符统计",
+      "description": "统计文本中的单词、字符、句子和段落数。",
+      "metaTitle": "字数和字符统计",
+      "metaDescription": "统计单词、字符、句子和段落数。免费在线字数统计工具。"
+    },
+    "case-converter": {
+      "name": "大小写转换",
+      "description": "将文本转换为 UPPERCASE、lowercase、Title Case、camelCase 等格式。",
+      "metaTitle": "大小写转换",
+      "metaDescription": "将文本转换为 UPPERCASE、lowercase、Title Case、camelCase、snake_case 等格式。"
+    },
+    "password-generator": {
+      "name": "密码生成器",
+      "description": "使用可自定义选项生成强密码。",
+      "metaTitle": "密码生成器",
+      "metaDescription": "自定义长度和字符类型，生成强密码。"
+    },
+    "compound-interest": {
+      "name": "复利计算器",
+      "description": "计算投资随时间增长的复利。",
+      "metaTitle": "复利计算器",
+      "metaDescription": "计算投资的复利增长。免费在线复利计算工具。"
+    },
+    "percentage-calculator": {
+      "name": "百分比计算器",
+      "description": "计算百分比、变化率和小费金额。",
+      "metaTitle": "百分比计算器",
+      "metaDescription": "计算百分比、变化率和小费金额。免费在线百分比计算工具。"
+    },
+    "bmi-calculator": {
+      "name": "BMI Calculator",
+      "description": "使用公制和英制单位计算体质指数。",
+      "metaTitle": "BMI Calculator",
+      "metaDescription": "使用公制或英制单位计算体质指数（BMI）。免费在线 BMI 计算工具。"
+    },
+    "age-calculator": {
+      "name": "年龄计算器",
+      "description": "根据出生日期精确计算年龄（年、月、日）。",
+      "metaTitle": "年龄计算器",
+      "metaDescription": "根据出生日期精确计算年龄（年、月、日）。免费在线年龄计算工具。"
+    },
+    "timezone-converter": {
+      "name": "时区转换",
+      "description": "在世界各地不同时区之间转换时间。",
+      "metaTitle": "时区转换",
+      "metaDescription": "在世界各地不同时区之间转换时间。免费在线时区转换工具。"
+    }
+  },
+  "Common": {
+    "copy": "复制",
+    "copied": "已复制！",
+    "clear": "清除",
+    "calculate": "计算",
+    "generate": "生成",
+    "sample": "示例",
+    "result": "结果"
+  },
+  "ToolLayout": {
+    "home": "首页",
+    "breadcrumbLabel": "面包屑导航"
+  },
+  "JsonFormatter": {
+    "indent": "缩进：",
+    "twoSpaces": "2个空格",
+    "fourSpaces": "4个空格",
+    "oneSpace": "1个空格",
+    "inputLabel": "输入 JSON",
+    "inputPlaceholder": "将 JSON 粘贴到此处...",
+    "outputLabel": "输出",
+    "formatButton": "格式化 / 验证",
+    "minifyButton": "压缩",
+    "validJson": "有效的 JSON"
+  },
+  "UuidGenerator": {
+    "count": "数量：",
+    "uppercase": "大写",
+    "includeHyphens": "包含连字符",
+    "generateButton": "生成 UUID",
+    "generateButtonPlural": "生成 UUID",
+    "generated": "已生成 {count} 个 UUID",
+    "generatedPlural": "已生成 {count} 个 UUID",
+    "copyAll": "全部复制",
+    "copiedAll": "全部已复制！",
+    "infoText": "UUID 使用 crypto.randomUUID()（v4）生成 — 加密随机，完全在浏览器中生成。"
+  },
+  "Base64Tool": {
+    "encodeTab": "编码",
+    "decodeTab": "解码",
+    "encodeInputLabel": "要编码的文本",
+    "decodeInputLabel": "要解码的 Base64",
+    "encodePlaceholder": "输入要编码的文本...",
+    "decodePlaceholder": "输入要解码的 Base64 字符串...",
+    "encodeButton": "编码",
+    "decodeButton": "解码",
+    "resultLabel": "结果",
+    "infoText": "支持 Unicode 文本。编码/解码完全在浏览器中进行 — 不向任何服务器发送数据。"
+  },
+  "UrlEncoderDecoder": {
+    "encodeTab": "编码",
+    "decodeTab": "解码",
+    "typeLabel": "类型：",
+    "encodeInputLabel": "要编码的文本 / URL",
+    "decodeInputLabel": "要解码的已编码 URL",
+    "encodePlaceholder": "输入文本或 URL...",
+    "decodePlaceholder": "输入已编码的 URL...",
+    "loadSample": "加载示例",
+    "encodeButton": "编码",
+    "decodeButton": "解码",
+    "resultLabel": "结果",
+    "swapTitle": "交换输入/输出并切换模式"
+  },
+  "HashGenerator": {
+    "inputLabel": "要哈希的文本",
+    "inputPlaceholder": "输入要生成哈希值的文本...",
+    "generateButton": "生成哈希值",
+    "generating": "生成中...",
+    "disclaimer": "MD5 在客户端计算。SHA-256 和 SHA-512 使用浏览器原生的 crypto.subtle API。数据不会离开浏览器。"
+  },
+  "JwtDecoder": {
+    "inputLabel": "JWT 令牌",
+    "inputPlaceholder": "将 JWT 令牌粘贴到此处...",
+    "loadSample": "加载示例",
+    "decodeButton": "解码 JWT",
+    "headerLabel": "头部",
+    "payloadLabel": "载荷",
+    "signatureLabel": "签名",
+    "signatureNotVerified": "（未验证）",
+    "tokenExpired": "⚠️ 令牌已过期",
+    "tokenValid": "✅ 令牌未过期",
+    "notVerifiedNote": "此工具仅解码 JWT，不验证签名。请勿共享敏感令牌。"
+  },
+  "UnitConverter": {
+    "clearButton": "清除"
+  },
+  "TemperatureConverter": {
+    "celsius": "摄氏度 (°C)",
+    "fahrenheit": "华氏度 (°F)",
+    "kelvin": "开尔文 (K)",
+    "clearButton": "清除",
+    "commonTemps": "常见温度",
+    "waterFreezes": "水的冰点",
+    "roomTemp": "室温",
+    "bodyTemp": "体温",
+    "waterBoils": "水的沸点",
+    "absoluteZero": "绝对零度",
+    "ovenMedium": "烤箱（中温）"
+  },
+  "WordCounter": {
+    "inputLabel": "文本内容",
+    "inputPlaceholder": "在此输入或粘贴文本...",
+    "words": "单词数",
+    "characters": "字符数",
+    "charsNoSpaces": "字符数（不含空格）",
+    "sentences": "句子数",
+    "paragraphs": "段落数",
+    "lines": "行数",
+    "readingTime": "阅读时间",
+    "readingTimeValue": "约 {minutes} 分钟"
+  },
+  "CaseConverter": {
+    "inputLabel": "输入文本",
+    "inputPlaceholder": "输入或粘贴要转换的文本...",
+    "resultPlaceholder": "结果将显示在此处..."
+  },
+  "PasswordGenerator": {
+    "lengthLabel": "长度: {length}",
+    "uppercase": "大写字母",
+    "lowercase": "小写字母",
+    "numbers": "数字",
+    "symbols": "符号",
+    "generateCount": "生成数量：",
+    "passwordSingular": "{count} 个密码",
+    "passwordPlural": "{count} 个密码",
+    "generateButton": "生成",
+    "strengthLabel": "强度",
+    "strengthWeak": "弱",
+    "strengthFair": "一般",
+    "strengthGood": "良好",
+    "strengthStrong": "强"
+  },
+  "CompoundInterest": {
+    "principalLabel": "初始本金 ($)",
+    "rateLabel": "年利率 (%)",
+    "yearsLabel": "期限（年）",
+    "compoundFrequencyLabel": "复利频率",
+    "monthlyContributionLabel": "每月定投 ($)",
+    "monthlyContributionOptional": "（可选）",
+    "daily": "每日",
+    "monthly": "每月",
+    "quarterly": "每季度",
+    "semiAnnually": "每半年",
+    "annually": "每年",
+    "calculateButton": "计算",
+    "finalAmount": "最终金额",
+    "interestEarned": "获得利息",
+    "totalInvested": "总投入"
+  },
+  "PercentageCalculator": {
+    "percentOf": "数值的 %",
+    "percentChange": "变化率",
+    "whatPercent": "X 是 Y 的百分之几？",
+    "tipCalculator": "小费计算",
+    "percentageLabel": "百分比 (%)",
+    "numberLabel": "数值",
+    "originalValueLabel": "原始值",
+    "newValueLabel": "新值",
+    "partLabel": "部分 (X)",
+    "wholeLabel": "总量 (Y)",
+    "billAmountLabel": "账单金额 ($)",
+    "tipPercentLabel": "小费 (%)",
+    "numberOfPeopleLabel": "人数"
+  },
+  "BmiCalculator": {
+    "metricTab": "公制 (kg/cm)",
+    "imperialTab": "英制 (lb/ft)",
+    "weightLabelMetric": "体重 (kg)",
+    "weightLabelImperial": "体重 (lbs)",
+    "heightLabelMetric": "身高 (cm)",
+    "heightLabelImperial": "身高 (ft / in)",
+    "calculateButton": "计算 BMI",
+    "clearButton": "清除",
+    "categoriesTitle": "BMI 分类",
+    "underweight": "体重不足",
+    "normalWeight": "正常体重",
+    "overweight": "超重",
+    "obese": "肥胖",
+    "underweightRange": "< 18.5",
+    "normalRange": "18.5 – 24.9",
+    "overweightRange": "25 – 29.9",
+    "obeseRange": "≥ 30",
+    "underweightDesc": "BMI 低于 18.5",
+    "normalWeightDesc": "BMI 18.5 – 24.9",
+    "overweightDesc": "BMI 25 – 29.9",
+    "obeseDesc": "BMI 30 及以上"
+  },
+  "AgeCalculator": {
+    "birthDateLabel": "出生日期",
+    "ageDateLabel": "计算至日期",
+    "calculateButton": "计算年龄",
+    "yearsOld": "岁",
+    "exactly": "整整！",
+    "month": "{count} 个月",
+    "months": "{count} 个月",
+    "day": "{count} 天",
+    "days": "{count} 天",
+    "totalDays": "总天数",
+    "totalMonths": "总月数",
+    "daysUntilBirthday": "距生日还有",
+    "todayBirthday": "🎂 Today!",
+    "nextBirthday": "下一个生日："
+  },
+  "TimezoneConverter": {
+    "currentTime": "当前时间（浏览器）",
+    "dateTimeLabel": "日期和时间",
+    "sourceTimezoneLabel": "源时区",
+    "convertButton": "转换",
+    "useNowButton": "使用当前时间",
+    "resultsLabel": "结果"
+  },
+  "LocaleSwitcher": {
+    "label": "语言"
+  },
+  "AboutPage": {
+    "title": "关于 ToolsShed",
+    "subtitle": "免费、快速、注重隐私的工具 — 无需注册，不收集数据。",
+    "whatIsTitle": "什么是 ToolsShed？",
+    "whatIsText": "ToolsShed 是一个不断增长的免费在线工具集合，面向开发者、学生和专业人士。无论您需要格式化 JSON、换算单位、生成密码还是计算复利，这里应有尽有，免费且即时可用。",
+    "philosophyTitle": "我们的理念",
+    "privacyFirstTitle": "隐私优先",
+    "privacyFirstDesc": "所有工具完全在浏览器中运行，您输入的任何内容都不会发送到服务器。",
+    "noFrictionTitle": "零门槛",
+    "noFrictionDesc": "无需注册，无需账户，无付费墙。打开工具即刻使用。",
+    "builtForEveryoneTitle": "为所有人而建",
+    "builtForEveryoneDesc": "无国界的工具，无论您在纽约、伦敦还是东京，使用体验完全相同。",
+    "byTheNumbersTitle": "数据一览",
+    "freeToolsLabel": "免费工具",
+    "categoriesLabel": "分类",
+    "signUpsLabel": "所需注册",
+    "techStackTitle": "技术栈",
+    "techStackText": "ToolsShed 使用现代开源技术构建：",
+    "techNext": "Next.js 16 — 支持静态站点生成的 React 框架",
+    "techTs": "TypeScript — 类型安全的代码",
+    "techTailwind": "Tailwind CSS — 实用优先的样式",
+    "techVercel": "Vercel — 全球边缘托管",
+    "techGiscus": "Giscus — 基于 GitHub Discussions 的评论系统",
+    "openSourceTitle": "开源",
+    "openSourceText": "ToolsShed 是开源项目。发现 bug？想建议新工具？欢迎贡献。",
+    "viewOnGitHub": "在 GitHub 上查看",
+    "browseTools": "← 浏览工具",
+    "privacyPolicy": "隐私政策",
+    "metadata": {
+      "title": "关于",
+      "description": "了解 ToolsShed — 一个免费、注重隐私的在线工具集合。"
+    }
+  },
+  "NotFound": {
+    "title": "未找到该工具",
+    "description": "您查找的工具尚不存在 — 但我们一直在添加新工具！",
+    "browseAllTools": "浏览所有工具"
+  },
+  "PrivacyPage": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：{date}",
+    "backToTools": "← 返回工具",
+    "overviewTitle": "概述",
+    "overviewText1": "ToolsShed（以下简称\"我们\"）运营 tools-shed.com 网站。本页面告知您我们在您使用服务时关于个人信息收集、使用和披露的政策。",
+    "overviewText2": "简而言之：ToolsShed 上的所有工具完全在浏览器中运行。您在工具中输入的任何数据都不会在我们的服务器上存储、传输或处理。",
+    "shortVersionLabel": "简而言之：",
+    "noCollectTitle": "1. 我们不收集的数据",
+    "noCollectText": "ToolsShed 工具完全在客户端运行，这意味着：",
+    "noCollectItem1": "您粘贴到 JSON Formatter、Base64 或其他工具中的文本",
+    "noCollectItem2": "密码生成器生成的密码",
+    "noCollectItem3": "输入 BMI Calculator 的健康数据",
+    "noCollectItem4": "输入计算器的财务数据",
+    "noCollectItem5": "您提供给工具的任何其他输入",
+    "noCollectFooter": "这些数据不会离开您的设备，也不会发送到任何服务器。",
+    "analyticsTitle": "2. Google Analytics",
+    "analyticsText1": "我们使用 Google Analytics 4 了解访问者如何与网站互动（例如哪些工具最受欢迎、访问时长、访客来自哪些国家）。此数据是匿名且聚合的。",
+    "analyticsText2": "Google Analytics 可能收集：",
+    "analyticsItem1": "访问的页面和停留时间",
+    "analyticsItem2": "大致地理位置（国家/城市级别）",
+    "analyticsItem3": "浏览器类型和设备类型",
+    "analyticsItem4": "来源网站",
+    "analyticsOptOut": "Google Analytics 使用 Cookie。您可以通过安装以下插件选择退出：",
+    "analyticsOptOutLink": "Google Analytics 退出浏览器插件",
+    "analyticsPrivacy": "更多信息，请参阅",
+    "analyticsPrivacyLink": "Google 隐私政策",
+    "adsenseTitle": "3. Google AdSense",
+    "adsenseText1": "我们使用 Google AdSense 展示广告。Google AdSense 使用 Cookie，根据您对本网站或其他网站的访问记录投放广告。",
+    "adsenseText2": "Google 使用广告 Cookie，使其及其合作伙伴能够根据您对本站及其他网站的访问记录投放广告。您可以通过以下方式退出个性化广告：",
+    "adsenseOptOutLink": "Google 广告设置",
+    "commentsTitle": "4. 评论（Giscus）",
+    "commentsText1": "我们的评论系统由 Giscus 提供支持，评论以 GitHub Discussions 的形式存储。如果您选择留下评论，需使用 GitHub 账户登录。您的评论和 GitHub 个人资料信息将在 GitHub 上公开可见。",
+    "commentsText2": "详情请参阅",
+    "commentsPrivacyLink": "GitHub 隐私声明",
+    "commentsText3": "。",
+    "cookiesTitle": "5. Cookie",
+    "cookiesText": "我们使用以下类型的 Cookie：",
+    "cookieColName": "Cookie",
+    "cookieColPurpose": "用途",
+    "cookieColProvider": "提供方",
+    "cookie1Name": "_ga, _ga_*",
+    "cookie1Purpose": "分析追踪",
+    "cookie1Provider": "Google Analytics",
+    "cookie2Name": "IDE, NID",
+    "cookie2Purpose": "广告个性化",
+    "cookie2Provider": "Google AdSense",
+    "thirdPartyTitle": "6. 第三方链接",
+    "thirdPartyText": "本网站可能包含外部网站链接。我们对这些网站的隐私实践或内容不承担责任。建议您在访问外部网站时查阅其隐私政策。",
+    "childrenTitle": "7. 儿童隐私",
+    "childrenText": "ToolsShed 不面向 13 岁以下儿童。我们不会故意收集 13 岁以下儿童的个人信息。",
+    "changesTitle": "8. 政策变更",
+    "changesText": "我们可能会不时更新本隐私政策。变更内容将在本页面发布，并更新\"最后更新\"日期。变更后继续使用本网站即视为接受更新后的政策。",
+    "contactTitle": "9. 联系我们",
+    "contactText1": "如果您对本隐私政策有任何疑问，请在我们的",
+    "contactLink": "GitHub 仓库",
+    "metadata": {
+      "title": "隐私政策",
+      "description": "ToolsShed 隐私政策 — 我们如何处理您的数据。"
+    }
+  }
+}

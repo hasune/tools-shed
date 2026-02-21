@@ -1,10 +1,22 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const t = useTranslations("Header");
+
+  const navLinks = [
+    { href: "/developer" as const, labelKey: "developer" as const },
+    { href: "/converters" as const, labelKey: "converters" as const },
+    { href: "/text" as const, labelKey: "text" as const },
+    { href: "/finance" as const, labelKey: "finance" as const },
+    { href: "/health" as const, labelKey: "health" as const },
+    { href: "/time" as const, labelKey: "time" as const },
+  ];
 
   return (
     <header className="bg-gray-900 border-b border-gray-800 sticky top-0 z-50">
@@ -20,31 +32,23 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-6">
-            <Link href="/developer" className="text-gray-400 hover:text-white text-sm transition-colors">
-              Developer
-            </Link>
-            <Link href="/converters" className="text-gray-400 hover:text-white text-sm transition-colors">
-              Converters
-            </Link>
-            <Link href="/text" className="text-gray-400 hover:text-white text-sm transition-colors">
-              Text
-            </Link>
-            <Link href="/finance" className="text-gray-400 hover:text-white text-sm transition-colors">
-              Finance
-            </Link>
-            <Link href="/health" className="text-gray-400 hover:text-white text-sm transition-colors">
-              Health
-            </Link>
-            <Link href="/time" className="text-gray-400 hover:text-white text-sm transition-colors">
-              Time
-            </Link>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-gray-400 hover:text-white text-sm transition-colors"
+              >
+                {t(link.labelKey)}
+              </Link>
+            ))}
+            <LocaleSwitcher />
           </nav>
 
           {/* Mobile menu button */}
           <button
             className="md:hidden text-gray-400 hover:text-white"
             onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
+            aria-label={t("toggleMenu")}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {menuOpen ? (
@@ -60,23 +64,19 @@ export default function Header() {
         {menuOpen && (
           <div className="md:hidden py-4 border-t border-gray-800">
             <nav className="flex flex-col gap-3">
-              {[
-                { href: "/developer", label: "Developer" },
-                { href: "/converters", label: "Converters" },
-                { href: "/text", label: "Text" },
-                { href: "/finance", label: "Finance" },
-                { href: "/health", label: "Health" },
-                { href: "/time", label: "Time" },
-              ].map((link) => (
+              {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   className="text-gray-400 hover:text-white text-sm py-1 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
-                  {link.label}
+                  {t(link.labelKey)}
                 </Link>
               ))}
+              <div className="pt-2 border-t border-gray-800">
+                <LocaleSwitcher />
+              </div>
             </nav>
           </div>
         )}

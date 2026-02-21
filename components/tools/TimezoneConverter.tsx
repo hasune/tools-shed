@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 const POPULAR_TIMEZONES = [
   { label: "UTC", tz: "UTC" },
@@ -38,7 +39,19 @@ function formatInTz(date: Date, tz: string): string {
   }
 }
 
+function getTimezoneOffset(tz: string, date: Date): number {
+  try {
+    const utcDate = new Date(date.toLocaleString("en-US", { timeZone: "UTC" }));
+    const tzDate = new Date(date.toLocaleString("en-US", { timeZone: tz }));
+    return utcDate.getTime() - tzDate.getTime();
+  } catch {
+    return 0;
+  }
+}
+
 export default function TimezoneConverter() {
+  const t = useTranslations("TimezoneConverter");
+
   const [inputDate, setInputDate] = useState(() => {
     const now = new Date();
     return now.toISOString().slice(0, 16);
@@ -53,8 +66,6 @@ export default function TimezoneConverter() {
   }, []);
 
   const convert = () => {
-    // Parse the input datetime as if it's in sourceTimezone
-    // We use a trick: create a date string, then adjust for the TZ offset
     const localDate = new Date(inputDate);
     const tzOffsetMs = getTimezoneOffset(sourceTimezone, localDate);
     const utcDate = new Date(localDate.getTime() - tzOffsetMs);
@@ -76,7 +87,7 @@ export default function TimezoneConverter() {
     <div className="space-y-5">
       {/* Current Time Display */}
       <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 text-center">
-        <div className="text-sm text-gray-500 mb-1">Current time (your browser)</div>
+        <div className="text-sm text-gray-500 mb-1">{t("currentTime")}</div>
         <div className="text-xl font-mono text-indigo-400">
           {now.toLocaleString("en-US", { hour12: true, hour: "2-digit", minute: "2-digit", second: "2-digit" })}
         </div>
@@ -85,7 +96,7 @@ export default function TimezoneConverter() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="space-y-1">
-          <label className="text-sm font-medium text-gray-300">Date & Time</label>
+          <label className="text-sm font-medium text-gray-300">{t("dateTimeLabel")}</label>
           <input
             type="datetime-local"
             value={inputDate}
@@ -94,7 +105,7 @@ export default function TimezoneConverter() {
           />
         </div>
         <div className="space-y-1">
-          <label className="text-sm font-medium text-gray-300">Source timezone</label>
+          <label className="text-sm font-medium text-gray-300">{t("sourceTimezoneLabel")}</label>
           <select
             value={sourceTimezone}
             onChange={(e) => setSourceTimezone(e.target.value)}
@@ -112,19 +123,19 @@ export default function TimezoneConverter() {
           onClick={convert}
           className="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2.5 rounded-lg transition-colors"
         >
-          Convert
+          {t("convertButton")}
         </button>
         <button
           onClick={useCurrentTime}
           className="px-4 bg-gray-700 hover:bg-gray-600 text-white text-sm rounded-lg transition-colors"
         >
-          Use now
+          {t("useNowButton")}
         </button>
       </div>
 
       {results.length > 0 && (
         <div className="space-y-2">
-          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide">Results</h3>
+          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wide">{t("resultsLabel")}</h3>
           <div className="space-y-2">
             {results.map((r) => (
               <div key={r.tz} className="flex items-center justify-between bg-gray-900 border border-gray-700 rounded-lg px-4 py-3">
@@ -137,14 +148,4 @@ export default function TimezoneConverter() {
       )}
     </div>
   );
-}
-
-function getTimezoneOffset(tz: string, date: Date): number {
-  try {
-    const utcDate = new Date(date.toLocaleString("en-US", { timeZone: "UTC" }));
-    const tzDate = new Date(date.toLocaleString("en-US", { timeZone: tz }));
-    return utcDate.getTime() - tzDate.getTime();
-  } catch {
-    return 0;
-  }
 }

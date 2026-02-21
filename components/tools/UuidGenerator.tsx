@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useTranslations } from "next-intl";
 
 function generateUuidV4(): string {
   if (typeof crypto !== "undefined" && crypto.randomUUID) {
     return crypto.randomUUID();
   }
-  // Fallback
   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
     const r = (Math.random() * 16) | 0;
     const v = c === "x" ? r : (r & 0x3) | 0x8;
@@ -15,6 +15,9 @@ function generateUuidV4(): string {
 }
 
 export default function UuidGenerator() {
+  const t = useTranslations("UuidGenerator");
+  const tCommon = useTranslations("Common");
+
   const [uuids, setUuids] = useState<string[]>([generateUuidV4()]);
   const [count, setCount] = useState(1);
   const [uppercase, setUppercase] = useState(false);
@@ -51,7 +54,7 @@ export default function UuidGenerator() {
       {/* Options */}
       <div className="flex flex-wrap items-center gap-4">
         <div className="flex items-center gap-2">
-          <label className="text-gray-400 text-sm">Count:</label>
+          <label className="text-gray-400 text-sm">{t("count")}</label>
           <select
             value={count}
             onChange={(e) => setCount(Number(e.target.value))}
@@ -70,7 +73,7 @@ export default function UuidGenerator() {
             onChange={(e) => setUppercase(e.target.checked)}
             className="w-4 h-4 rounded accent-indigo-500"
           />
-          <span className="text-gray-400 text-sm">Uppercase</span>
+          <span className="text-gray-400 text-sm">{t("uppercase")}</span>
         </label>
 
         <label className="flex items-center gap-2 cursor-pointer">
@@ -80,7 +83,7 @@ export default function UuidGenerator() {
             onChange={(e) => setHyphens(e.target.checked)}
             className="w-4 h-4 rounded accent-indigo-500"
           />
-          <span className="text-gray-400 text-sm">Include hyphens</span>
+          <span className="text-gray-400 text-sm">{t("includeHyphens")}</span>
         </label>
       </div>
 
@@ -89,19 +92,21 @@ export default function UuidGenerator() {
         onClick={generate}
         className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-3 rounded-lg transition-colors text-lg"
       >
-        Generate UUID{count > 1 ? "s" : ""}
+        {count > 1 ? t("generateButtonPlural") : t("generateButton")}
       </button>
 
       {/* Results */}
       <div className="space-y-2">
         <div className="flex items-center justify-between">
-          <span className="text-sm text-gray-400">{uuids.length} UUID{uuids.length > 1 ? "s" : ""} generated</span>
+          <span className="text-sm text-gray-400">
+            {uuids.length > 1 ? t("generatedPlural", { count: uuids.length }) : t("generated", { count: uuids.length })}
+          </span>
           {uuids.length > 1 && (
             <button
               onClick={copyAll}
               className="text-xs px-3 py-1.5 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors"
             >
-              {copiedAll ? "Copied all!" : "Copy all"}
+              {copiedAll ? t("copiedAll") : t("copyAll")}
             </button>
           )}
         </div>
@@ -117,7 +122,7 @@ export default function UuidGenerator() {
                 onClick={() => copyOne(uuid, i)}
                 className="ml-3 text-xs px-2 py-1 bg-gray-700 hover:bg-indigo-600 text-gray-300 hover:text-white rounded transition-colors flex-shrink-0"
               >
-                {copiedIndex === i ? "✓" : "Copy"}
+                {copiedIndex === i ? "✓" : tCommon("copy")}
               </button>
             </div>
           ))}
@@ -126,7 +131,7 @@ export default function UuidGenerator() {
 
       {/* Info */}
       <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 text-sm text-gray-400">
-        <p>UUIDs are generated using <code className="text-indigo-400">crypto.randomUUID()</code> (v4) — cryptographically random, generated entirely in your browser.</p>
+        <p>{t("infoText")}</p>
       </div>
     </div>
   );

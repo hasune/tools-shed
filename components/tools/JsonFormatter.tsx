@@ -1,8 +1,12 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import { useTranslations } from "next-intl";
 
 export default function JsonFormatter() {
+  const t = useTranslations("JsonFormatter");
+  const tCommon = useTranslations("Common");
+
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
   const [error, setError] = useState("");
@@ -67,15 +71,15 @@ export default function JsonFormatter() {
       {/* Controls */}
       <div className="flex flex-wrap items-center gap-3">
         <div className="flex items-center gap-2">
-          <label className="text-gray-400 text-sm">Indent:</label>
+          <label className="text-gray-400 text-sm">{t("indent")}</label>
           <select
             value={indent}
             onChange={(e) => setIndent(Number(e.target.value))}
             className="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg px-3 py-1.5 focus:outline-none focus:border-indigo-500"
           >
-            <option value={2}>2 spaces</option>
-            <option value={4}>4 spaces</option>
-            <option value={1}>1 space</option>
+            <option value={2}>{t("twoSpaces")}</option>
+            <option value={4}>{t("fourSpaces")}</option>
+            <option value={1}>{t("oneSpace")}</option>
           </select>
         </div>
         <div className="flex gap-2 ml-auto">
@@ -83,13 +87,13 @@ export default function JsonFormatter() {
             onClick={loadSample}
             className="text-sm px-3 py-1.5 text-gray-400 hover:text-white border border-gray-600 hover:border-gray-500 rounded-lg transition-colors"
           >
-            Sample
+            {tCommon("sample")}
           </button>
           <button
             onClick={clear}
             className="text-sm px-3 py-1.5 text-gray-400 hover:text-white border border-gray-600 hover:border-gray-500 rounded-lg transition-colors"
           >
-            Clear
+            {tCommon("clear")}
           </button>
         </div>
       </div>
@@ -98,11 +102,11 @@ export default function JsonFormatter() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Input */}
         <div className="space-y-2">
-          <label className="text-sm font-medium text-gray-300">Input JSON</label>
+          <label className="text-sm font-medium text-gray-300">{t("inputLabel")}</label>
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder='Paste your JSON here...\n\n{"key": "value"}'
+            placeholder={t("inputPlaceholder")}
             className="w-full h-72 bg-gray-900 border border-gray-600 text-gray-100 text-sm font-mono rounded-lg p-3 resize-none focus:outline-none focus:border-indigo-500 placeholder-gray-600"
             spellCheck={false}
           />
@@ -111,13 +115,13 @@ export default function JsonFormatter() {
         {/* Output */}
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <label className="text-sm font-medium text-gray-300">Output</label>
+            <label className="text-sm font-medium text-gray-300">{t("outputLabel")}</label>
             {output && (
               <button
                 onClick={copy}
                 className="text-xs px-2 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded transition-colors"
               >
-                {copied ? "Copied!" : "Copy"}
+                {copied ? tCommon("copied") : tCommon("copy")}
               </button>
             )}
           </div>
@@ -141,13 +145,13 @@ export default function JsonFormatter() {
           onClick={format}
           className="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2.5 rounded-lg transition-colors"
         >
-          Format / Validate
+          {t("formatButton")}
         </button>
         <button
           onClick={minify}
           className="flex-1 bg-gray-700 hover:bg-gray-600 text-white font-medium py-2.5 rounded-lg transition-colors"
         >
-          Minify
+          {t("minifyButton")}
         </button>
       </div>
 
@@ -157,7 +161,7 @@ export default function JsonFormatter() {
           <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
           </svg>
-          Valid JSON
+          {t("validJson")}
         </div>
       )}
     </div>

@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface JwtPayload {
   [key: string]: unknown;
 }
 
 function base64UrlDecode(str: string): string {
-  // Replace URL-safe chars and add padding
   const base64 = str.replace(/-/g, "+").replace(/_/g, "/");
   const padded = base64 + "=".repeat((4 - (base64.length % 4)) % 4);
   return atob(padded);
@@ -54,6 +54,9 @@ const SAMPLE_JWT =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJleHAiOjE5MDAwMDAwMDB9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
 
 export default function JwtDecoder() {
+  const t = useTranslations("JwtDecoder");
+  const tCommon = useTranslations("Common");
+
   const [input, setInput] = useState("");
   const [decoded, setDecoded] = useState<ReturnType<typeof decodeJwt>>(null);
   const [error, setError] = useState("");
@@ -92,18 +95,18 @@ export default function JwtDecoder() {
       {/* Input */}
       <div className="space-y-2">
         <div className="flex items-center justify-between">
-          <label className="text-sm font-medium text-gray-300">JWT Token</label>
+          <label className="text-sm font-medium text-gray-300">{t("inputLabel")}</label>
           <button
             onClick={loadSample}
             className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
           >
-            Load sample
+            {tCommon("sample")}
           </button>
         </div>
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Paste your JWT token here..."
+          placeholder={t("inputPlaceholder")}
           className="w-full h-28 bg-gray-900 border border-gray-600 text-gray-100 text-sm font-mono rounded-lg p-3 resize-none focus:outline-none focus:border-indigo-500 placeholder-gray-600 break-all"
           spellCheck={false}
         />
@@ -113,7 +116,7 @@ export default function JwtDecoder() {
         onClick={decode}
         className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2.5 rounded-lg transition-colors"
       >
-        Decode JWT
+        {t("decodeButton")}
       </button>
 
       {error && (
@@ -127,14 +130,14 @@ export default function JwtDecoder() {
           {/* Expiry Status */}
           {expiredStatus !== null && (
             <div className={`flex items-center gap-2 text-sm px-3 py-2 rounded-lg ${expiredStatus ? "bg-red-950/30 border border-red-800 text-red-400" : "bg-green-950/30 border border-green-800 text-green-400"}`}>
-              <span>{expiredStatus ? "⚠️ Token is EXPIRED" : "✅ Token is NOT expired"}</span>
+              <span>{expiredStatus ? t("tokenExpired") : t("tokenValid")}</span>
             </div>
           )}
 
           {/* Header */}
           <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden">
             <div className="px-4 py-2 bg-gray-800 border-b border-gray-700">
-              <span className="text-xs font-semibold text-pink-400 uppercase tracking-wider">Header</span>
+              <span className="text-xs font-semibold text-pink-400 uppercase tracking-wider">{t("headerLabel")}</span>
             </div>
             <div className="p-4">
               <JsonView data={decoded.header} />
@@ -144,7 +147,7 @@ export default function JwtDecoder() {
           {/* Payload */}
           <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden">
             <div className="px-4 py-2 bg-gray-800 border-b border-gray-700">
-              <span className="text-xs font-semibold text-indigo-400 uppercase tracking-wider">Payload</span>
+              <span className="text-xs font-semibold text-indigo-400 uppercase tracking-wider">{t("payloadLabel")}</span>
             </div>
             <div className="p-4">
               <JsonView data={decoded.payload} />
@@ -154,8 +157,8 @@ export default function JwtDecoder() {
           {/* Signature */}
           <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden">
             <div className="px-4 py-2 bg-gray-800 border-b border-gray-700">
-              <span className="text-xs font-semibold text-yellow-400 uppercase tracking-wider">Signature</span>
-              <span className="text-xs text-gray-500 ml-2">(not verified)</span>
+              <span className="text-xs font-semibold text-yellow-400 uppercase tracking-wider">{t("signatureLabel")}</span>
+              <span className="text-xs text-gray-500 ml-2">{t("signatureNotVerified")}</span>
             </div>
             <div className="p-4">
               <code className="text-xs font-mono text-yellow-300 break-all">{decoded.signature}</code>
@@ -165,7 +168,7 @@ export default function JwtDecoder() {
       )}
 
       <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 text-sm text-gray-400">
-        <p>This tool only <strong className="text-gray-300">decodes</strong> the JWT — it does NOT verify the signature. Never share sensitive tokens.</p>
+        <p>{t("notVerifiedNote")}</p>
       </div>
     </div>
   );

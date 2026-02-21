@@ -1,15 +1,18 @@
 "use client";
 
 import { useState } from "react";
-
-function getBmiCategory(bmi: number): { label: string; color: string; description: string } {
-  if (bmi < 18.5) return { label: "Underweight", color: "text-blue-400", description: "BMI less than 18.5" };
-  if (bmi < 25) return { label: "Normal weight", color: "text-green-400", description: "BMI 18.5 – 24.9" };
-  if (bmi < 30) return { label: "Overweight", color: "text-yellow-400", description: "BMI 25 – 29.9" };
-  return { label: "Obese", color: "text-red-400", description: "BMI 30 or greater" };
-}
+import { useTranslations } from "next-intl";
 
 export default function BmiCalculator() {
+  const t = useTranslations("BmiCalculator");
+
+  const getBmiCategory = (bmi: number): { labelKey: "underweight" | "normalWeight" | "overweight" | "obese"; descKey: "underweightDesc" | "normalWeightDesc" | "overweightDesc" | "obeseDesc"; color: string } => {
+    if (bmi < 18.5) return { labelKey: "underweight", descKey: "underweightDesc", color: "text-blue-400" };
+    if (bmi < 25) return { labelKey: "normalWeight", descKey: "normalWeightDesc", color: "text-green-400" };
+    if (bmi < 30) return { labelKey: "overweight", descKey: "overweightDesc", color: "text-yellow-400" };
+    return { labelKey: "obese", descKey: "obeseDesc", color: "text-red-400" };
+  };
+
   const [unit, setUnit] = useState<"metric" | "imperial">("metric");
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
@@ -40,6 +43,13 @@ export default function BmiCalculator() {
 
   const category = bmi ? getBmiCategory(bmi) : null;
 
+  const chartRows: { labelKey: "underweight" | "normalWeight" | "overweight" | "obese"; rangeKey: "underweightRange" | "normalRange" | "overweightRange" | "obeseRange"; color: string }[] = [
+    { labelKey: "underweight", rangeKey: "underweightRange", color: "bg-blue-500" },
+    { labelKey: "normalWeight", rangeKey: "normalRange", color: "bg-green-500" },
+    { labelKey: "overweight", rangeKey: "overweightRange", color: "bg-yellow-500" },
+    { labelKey: "obese", rangeKey: "obeseRange", color: "bg-red-500" },
+  ];
+
   return (
     <div className="space-y-5">
       {/* Unit Toggle */}
@@ -48,11 +58,11 @@ export default function BmiCalculator() {
           <button
             key={u}
             onClick={() => { setUnit(u); setBmi(null); }}
-            className={`px-5 py-2 rounded-md text-sm font-medium transition-colors capitalize ${
+            className={`px-5 py-2 rounded-md text-sm font-medium transition-colors ${
               unit === u ? "bg-indigo-600 text-white" : "text-gray-400 hover:text-white"
             }`}
           >
-            {u === "metric" ? "Metric (kg/cm)" : "Imperial (lb/ft)"}
+            {u === "metric" ? t("metricTab") : t("imperialTab")}
           </button>
         ))}
       </div>
@@ -61,7 +71,7 @@ export default function BmiCalculator() {
         {/* Weight */}
         <div className="space-y-1">
           <label className="text-sm font-medium text-gray-300">
-            Weight ({unit === "metric" ? "kg" : "lbs"})
+            {unit === "metric" ? t("weightLabelMetric") : t("weightLabelImperial")}
           </label>
           <input
             type="number"
@@ -75,7 +85,7 @@ export default function BmiCalculator() {
         {/* Height */}
         {unit === "metric" ? (
           <div className="space-y-1">
-            <label className="text-sm font-medium text-gray-300">Height (cm)</label>
+            <label className="text-sm font-medium text-gray-300">{t("heightLabelMetric")}</label>
             <input
               type="number"
               value={height}
@@ -86,7 +96,7 @@ export default function BmiCalculator() {
           </div>
         ) : (
           <div className="space-y-1">
-            <label className="text-sm font-medium text-gray-300">Height (ft / in)</label>
+            <label className="text-sm font-medium text-gray-300">{t("heightLabelImperial")}</label>
             <div className="flex gap-2">
               <input
                 type="number"
@@ -112,13 +122,13 @@ export default function BmiCalculator() {
           onClick={calculate}
           className="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2.5 rounded-lg transition-colors"
         >
-          Calculate BMI
+          {t("calculateButton")}
         </button>
         <button
           onClick={clear}
           className="px-4 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors"
         >
-          Clear
+          {t("clearButton")}
         </button>
       </div>
 
@@ -126,25 +136,20 @@ export default function BmiCalculator() {
       {bmi && category && (
         <div className="bg-gray-900 border border-gray-700 rounded-xl p-6 text-center">
           <div className="text-6xl font-bold text-white mb-2">{bmi}</div>
-          <div className={`text-xl font-semibold mb-1 ${category.color}`}>{category.label}</div>
-          <div className="text-gray-500 text-sm">{category.description}</div>
+          <div className={`text-xl font-semibold mb-1 ${category.color}`}>{t(category.labelKey)}</div>
+          <div className="text-gray-500 text-sm">{t(category.descKey)}</div>
         </div>
       )}
 
       {/* BMI Chart */}
       <div className="bg-gray-900 border border-gray-700 rounded-lg p-4">
-        <h3 className="text-sm font-semibold text-gray-300 mb-3">BMI Categories</h3>
+        <h3 className="text-sm font-semibold text-gray-300 mb-3">{t("categoriesTitle")}</h3>
         <div className="space-y-2">
-          {[
-            { label: "Underweight", range: "< 18.5", color: "bg-blue-500" },
-            { label: "Normal weight", range: "18.5 – 24.9", color: "bg-green-500" },
-            { label: "Overweight", range: "25 – 29.9", color: "bg-yellow-500" },
-            { label: "Obese", range: "≥ 30", color: "bg-red-500" },
-          ].map((row) => (
-            <div key={row.label} className="flex items-center gap-3 text-sm">
+          {chartRows.map((row) => (
+            <div key={row.labelKey} className="flex items-center gap-3 text-sm">
               <div className={`w-3 h-3 rounded-full ${row.color} flex-shrink-0`} />
-              <span className="text-gray-300 w-32">{row.label}</span>
-              <span className="text-gray-500 font-mono">{row.range}</span>
+              <span className="text-gray-300 w-32">{t(row.labelKey)}</span>
+              <span className="text-gray-500 font-mono">{t(row.rangeKey)}</span>
             </div>
           ))}
         </div>

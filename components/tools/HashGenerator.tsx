@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 async function hashText(text: string, algorithm: string): Promise<string> {
   const encoder = new TextEncoder();
@@ -66,6 +67,9 @@ function md5(input: string): string {
 }
 
 export default function HashGenerator() {
+  const t = useTranslations("HashGenerator");
+  const tCommon = useTranslations("Common");
+
   const [input, setInput] = useState("");
   const [hashes, setHashes] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(false);
@@ -102,11 +106,11 @@ export default function HashGenerator() {
     <div className="space-y-4">
       {/* Input */}
       <div className="space-y-2">
-        <label className="text-sm font-medium text-gray-300">Text to hash</label>
+        <label className="text-sm font-medium text-gray-300">{t("inputLabel")}</label>
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter text to generate hashes..."
+          placeholder={t("inputPlaceholder")}
           className="w-full h-32 bg-gray-900 border border-gray-600 text-gray-100 text-sm font-mono rounded-lg p-3 resize-none focus:outline-none focus:border-indigo-500 placeholder-gray-600"
           spellCheck={false}
         />
@@ -117,7 +121,7 @@ export default function HashGenerator() {
         disabled={!input || loading}
         className="w-full bg-indigo-600 hover:bg-indigo-500 disabled:bg-gray-700 disabled:cursor-not-allowed text-white font-medium py-2.5 rounded-lg transition-colors"
       >
-        {loading ? "Generating..." : "Generate Hashes"}
+        {loading ? t("generating") : t("generateButton")}
       </button>
 
       {/* Hash Results */}
@@ -131,7 +135,7 @@ export default function HashGenerator() {
                   onClick={() => copy(algo, hash)}
                   className="text-xs px-2 py-1 bg-gray-700 hover:bg-indigo-600 text-gray-300 hover:text-white rounded transition-colors"
                 >
-                  {copiedKey === algo ? "Copied!" : "Copy"}
+                  {copiedKey === algo ? tCommon("copied") : tCommon("copy")}
                 </button>
               </div>
               <code className="text-xs font-mono text-gray-300 break-all">{hash}</code>
@@ -141,7 +145,7 @@ export default function HashGenerator() {
       )}
 
       <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 text-sm text-gray-400">
-        <p>MD5 is computed client-side. SHA-256 and SHA-512 use the browser&apos;s native <code className="text-indigo-400">crypto.subtle</code> API. No data leaves your browser.</p>
+        <p>{t("disclaimer")}</p>
       </div>
     </div>
   );

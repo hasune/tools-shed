@@ -1,12 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 function round(n: number) {
   return parseFloat(n.toPrecision(7));
 }
 
 export default function TemperatureConverter() {
+  const t = useTranslations("TemperatureConverter");
+
   const [celsius, setCelsius] = useState("");
   const [fahrenheit, setFahrenheit] = useState("");
   const [kelvin, setKelvin] = useState("");
@@ -52,9 +55,18 @@ export default function TemperatureConverter() {
   const clear = () => { setCelsius(""); setFahrenheit(""); setKelvin(""); };
 
   const fields = [
-    { label: "Celsius (°C)", value: celsius, onChange: handleCelsius },
-    { label: "Fahrenheit (°F)", value: fahrenheit, onChange: handleFahrenheit },
-    { label: "Kelvin (K)", value: kelvin, onChange: handleKelvin },
+    { labelKey: "celsius" as const, value: celsius, onChange: handleCelsius },
+    { labelKey: "fahrenheit" as const, value: fahrenheit, onChange: handleFahrenheit },
+    { labelKey: "kelvin" as const, value: kelvin, onChange: handleKelvin },
+  ];
+
+  const commonTemps = [
+    { labelKey: "waterFreezes" as const, c: 0 },
+    { labelKey: "roomTemp" as const, c: 22 },
+    { labelKey: "bodyTemp" as const, c: 37 },
+    { labelKey: "waterBoils" as const, c: 100 },
+    { labelKey: "absoluteZero" as const, c: -273.15 },
+    { labelKey: "ovenMedium" as const, c: 180 },
   ];
 
   return (
@@ -64,13 +76,13 @@ export default function TemperatureConverter() {
           onClick={clear}
           className="text-sm px-3 py-1.5 text-gray-400 hover:text-white border border-gray-600 hover:border-gray-500 rounded-lg transition-colors"
         >
-          Clear
+          {t("clearButton")}
         </button>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {fields.map((field) => (
-          <div key={field.label} className="space-y-1">
-            <label className="text-sm font-medium text-gray-400">{field.label}</label>
+          <div key={field.labelKey} className="space-y-1">
+            <label className="text-sm font-medium text-gray-400">{t(field.labelKey)}</label>
             <input
               type="number"
               value={field.value}
@@ -84,22 +96,15 @@ export default function TemperatureConverter() {
 
       {/* Common Temps Reference */}
       <div className="mt-6 bg-gray-900 border border-gray-700 rounded-lg p-4">
-        <h3 className="text-sm font-semibold text-gray-300 mb-3">Common Temperatures</h3>
+        <h3 className="text-sm font-semibold text-gray-300 mb-3">{t("commonTemps")}</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
-          {[
-            { label: "Water freezes", c: 0 },
-            { label: "Room temp", c: 22 },
-            { label: "Body temp", c: 37 },
-            { label: "Water boils", c: 100 },
-            { label: "Absolute zero", c: -273.15 },
-            { label: "Oven (medium)", c: 180 },
-          ].map((ref) => (
+          {commonTemps.map((ref) => (
             <button
-              key={ref.label}
+              key={ref.labelKey}
               onClick={() => handleCelsius(String(ref.c))}
               className="text-left p-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors"
             >
-              <div className="text-gray-400">{ref.label}</div>
+              <div className="text-gray-400">{t(ref.labelKey)}</div>
               <div className="text-indigo-400 font-mono">{ref.c}°C</div>
             </button>
           ))}

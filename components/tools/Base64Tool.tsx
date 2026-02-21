@@ -1,8 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function Base64Tool() {
+  const t = useTranslations("Base64Tool");
+  const tCommon = useTranslations("Common");
+
   const [mode, setMode] = useState<"encode" | "decode">("encode");
   const [input, setInput] = useState("");
   const [output, setOutput] = useState("");
@@ -66,7 +70,7 @@ export default function Base64Tool() {
                 : "text-gray-400 hover:text-white"
             }`}
           >
-            {m}
+            {m === "encode" ? t("encodeTab") : t("decodeTab")}
           </button>
         ))}
       </div>
@@ -74,12 +78,12 @@ export default function Base64Tool() {
       {/* Input */}
       <div className="space-y-2">
         <label className="text-sm font-medium text-gray-300">
-          {mode === "encode" ? "Text to encode" : "Base64 to decode"}
+          {mode === "encode" ? t("encodeInputLabel") : t("decodeInputLabel")}
         </label>
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder={mode === "encode" ? "Enter text to encode..." : "Enter Base64 string to decode..."}
+          placeholder={mode === "encode" ? t("encodePlaceholder") : t("decodePlaceholder")}
           className="w-full h-36 bg-gray-900 border border-gray-600 text-gray-100 text-sm font-mono rounded-lg p-3 resize-none focus:outline-none focus:border-indigo-500 placeholder-gray-600"
           spellCheck={false}
         />
@@ -91,7 +95,7 @@ export default function Base64Tool() {
           onClick={process}
           className="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2.5 rounded-lg transition-colors capitalize"
         >
-          {mode}
+          {mode === "encode" ? t("encodeButton") : t("decodeButton")}
         </button>
         {output && (
           <button
@@ -106,7 +110,7 @@ export default function Base64Tool() {
           onClick={clear}
           className="px-4 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors"
         >
-          Clear
+          {tCommon("clear")}
         </button>
       </div>
 
@@ -114,13 +118,13 @@ export default function Base64Tool() {
       {(output || error) && (
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <label className="text-sm font-medium text-gray-300">Result</label>
+            <label className="text-sm font-medium text-gray-300">{t("resultLabel")}</label>
             {output && (
               <button
                 onClick={copy}
                 className="text-xs px-2 py-1 bg-indigo-600 hover:bg-indigo-500 text-white rounded transition-colors"
               >
-                {copied ? "Copied!" : "Copy"}
+                {copied ? tCommon("copied") : tCommon("copy")}
               </button>
             )}
           </div>
@@ -138,7 +142,7 @@ export default function Base64Tool() {
 
       {/* Info */}
       <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 text-sm text-gray-400">
-        <p>Supports Unicode text. Encoding/decoding happens entirely in your browser — no data is sent to any server.</p>
+        <p>{t("infoText")}</p>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface Unit {
   label: string;
@@ -38,6 +39,7 @@ interface UnitConverterProps {
 }
 
 export default function UnitConverter({ type, precision = 6 }: UnitConverterProps) {
+  const t = useTranslations("UnitConverter");
   const units = UNIT_SETS[type];
   const [values, setValues] = useState<Record<string, string>>({});
 
@@ -74,7 +76,7 @@ export default function UnitConverter({ type, precision = 6 }: UnitConverterProp
           onClick={clear}
           className="text-sm px-3 py-1.5 text-gray-400 hover:text-white border border-gray-600 hover:border-gray-500 rounded-lg transition-colors"
         >
-          Clear
+          {t("clearButton")}
         </button>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

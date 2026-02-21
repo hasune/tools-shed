@@ -1,10 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 type Mode = "percent-of" | "percent-change" | "what-percent" | "tip";
 
 export default function PercentageCalculator() {
+  const t = useTranslations("PercentageCalculator");
+
   const [mode, setMode] = useState<Mode>("percent-of");
   const [a, setA] = useState("");
   const [b, setB] = useState("");
@@ -44,11 +47,11 @@ export default function PercentageCalculator() {
     })(),
   };
 
-  const modes = [
-    { id: "percent-of" as Mode, label: "% of number" },
-    { id: "percent-change" as Mode, label: "% change" },
-    { id: "what-percent" as Mode, label: "What % is X of Y?" },
-    { id: "tip" as Mode, label: "Tip calculator" },
+  const modes: { id: Mode; labelKey: "percentOf" | "percentChange" | "whatPercent" | "tipCalculator" }[] = [
+    { id: "percent-of", labelKey: "percentOf" },
+    { id: "percent-change", labelKey: "percentChange" },
+    { id: "what-percent", labelKey: "whatPercent" },
+    { id: "tip", labelKey: "tipCalculator" },
   ];
 
   return (
@@ -63,7 +66,7 @@ export default function PercentageCalculator() {
               mode === m.id ? "bg-indigo-600 text-white" : "bg-gray-800 text-gray-400 hover:text-white"
             }`}
           >
-            {m.label}
+            {t(m.labelKey)}
           </button>
         ))}
       </div>
@@ -73,12 +76,12 @@ export default function PercentageCalculator() {
         {mode === "percent-of" && (
           <>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Percentage (%)</label>
+              <label className="text-sm text-gray-300">{t("percentageLabel")}</label>
               <input type="number" value={a} onChange={(e) => setA(e.target.value)} placeholder="e.g. 15"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Number</label>
+              <label className="text-sm text-gray-300">{t("numberLabel")}</label>
               <input type="number" value={b} onChange={(e) => setB(e.target.value)} placeholder="e.g. 200"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
@@ -87,12 +90,12 @@ export default function PercentageCalculator() {
         {mode === "percent-change" && (
           <>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Original value</label>
+              <label className="text-sm text-gray-300">{t("originalValueLabel")}</label>
               <input type="number" value={a} onChange={(e) => setA(e.target.value)} placeholder="e.g. 100"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">New value</label>
+              <label className="text-sm text-gray-300">{t("newValueLabel")}</label>
               <input type="number" value={b} onChange={(e) => setB(e.target.value)} placeholder="e.g. 120"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
@@ -101,12 +104,12 @@ export default function PercentageCalculator() {
         {mode === "what-percent" && (
           <>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Part (X)</label>
+              <label className="text-sm text-gray-300">{t("partLabel")}</label>
               <input type="number" value={a} onChange={(e) => setA(e.target.value)} placeholder="e.g. 30"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Whole (Y)</label>
+              <label className="text-sm text-gray-300">{t("wholeLabel")}</label>
               <input type="number" value={b} onChange={(e) => setB(e.target.value)} placeholder="e.g. 200"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
@@ -115,17 +118,17 @@ export default function PercentageCalculator() {
         {mode === "tip" && (
           <>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Bill amount ($)</label>
+              <label className="text-sm text-gray-300">{t("billAmountLabel")}</label>
               <input type="number" value={a} onChange={(e) => setA(e.target.value)} placeholder="e.g. 50"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
             <div className="space-y-1">
-              <label className="text-sm text-gray-300">Tip (%)</label>
+              <label className="text-sm text-gray-300">{t("tipPercentLabel")}</label>
               <input type="number" value={b} onChange={(e) => setB(e.target.value)} placeholder="15"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>
             <div className="space-y-1 sm:col-span-2">
-              <label className="text-sm text-gray-300">Number of people</label>
+              <label className="text-sm text-gray-300">{t("numberOfPeopleLabel")}</label>
               <input type="number" value={c} onChange={(e) => setC(e.target.value)} placeholder="1"
                 className="w-full bg-gray-900 border border-gray-600 text-white text-sm rounded-lg px-3 py-2.5 focus:outline-none focus:border-indigo-500 placeholder-gray-600" />
             </div>

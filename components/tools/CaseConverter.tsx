@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 function toTitleCase(str: string): string {
   return str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase());
@@ -40,6 +41,9 @@ const CASES = [
 ];
 
 export default function CaseConverter() {
+  const t = useTranslations("CaseConverter");
+  const tCommon = useTranslations("Common");
+
   const [input, setInput] = useState("");
   const [copied, setCopied] = useState<string | null>(null);
 
@@ -53,11 +57,11 @@ export default function CaseConverter() {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <label className="text-sm font-medium text-gray-300">Input text</label>
+        <label className="text-sm font-medium text-gray-300">{t("inputLabel")}</label>
         <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Type or paste text to convert..."
+          placeholder={t("inputPlaceholder")}
           className="w-full h-28 bg-gray-900 border border-gray-600 text-gray-100 text-sm rounded-lg p-3 resize-none focus:outline-none focus:border-indigo-500 placeholder-gray-600"
         />
       </div>
@@ -74,12 +78,12 @@ export default function CaseConverter() {
                     onClick={() => copy(result, label)}
                     className="text-xs px-2 py-0.5 bg-gray-700 hover:bg-indigo-600 text-gray-300 hover:text-white rounded transition-colors"
                   >
-                    {copied === label ? "✓" : "Copy"}
+                    {copied === label ? "✓" : tCommon("copy")}
                   </button>
                 )}
               </div>
               <p className="text-sm text-gray-300 font-mono break-words min-h-5">
-                {result || <span className="text-gray-600">Result will appear here...</span>}
+                {result || <span className="text-gray-600">{t("resultPlaceholder")}</span>}
               </p>
             </div>
           );

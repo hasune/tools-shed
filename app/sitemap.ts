@@ -2,42 +2,64 @@ import { MetadataRoute } from "next";
 import { tools, categories } from "@/lib/tools";
 
 const BASE_URL = "https://tools-shed.com";
+const LOCALES = ["en", "ja", "ko", "zh-CN", "es"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const toolPages = tools.map((tool) => ({
-    url: `${BASE_URL}/${tool.categorySlug}/${tool.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
-  }));
+  const entries: MetadataRoute.Sitemap = [];
 
-  const categoryPages = categories.map((category) => ({
-    url: `${BASE_URL}/${category.slug}`,
+  // Root redirect (points to /en)
+  entries.push({
+    url: BASE_URL,
     lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+    changeFrequency: "weekly",
+    priority: 1,
+  });
 
-  return [
-    {
-      url: BASE_URL,
+  for (const locale of LOCALES) {
+    // Home per locale
+    entries.push({
+      url: `${BASE_URL}/${locale}`,
       lastModified: new Date(),
       changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${BASE_URL}/about`,
+      priority: locale === "en" ? 1 : 0.9,
+    });
+
+    // About
+    entries.push({
+      url: `${BASE_URL}/${locale}/about`,
       lastModified: new Date(),
-      changeFrequency: "monthly" as const,
+      changeFrequency: "monthly",
       priority: 0.5,
-    },
-    {
-      url: `${BASE_URL}/privacy`,
+    });
+
+    // Privacy
+    entries.push({
+      url: `${BASE_URL}/${locale}/privacy`,
       lastModified: new Date(),
-      changeFrequency: "monthly" as const,
+      changeFrequency: "monthly",
       priority: 0.3,
-    },
-    ...categoryPages,
-    ...toolPages,
-  ];
+    });
+
+    // Category pages
+    for (const category of categories) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/${category.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.7,
+      });
+    }
+
+    // Tool pages
+    for (const tool of tools) {
+      entries.push({
+        url: `${BASE_URL}/${locale}/${tool.categorySlug}/${tool.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.8,
+      });
+    }
+  }
+
+  return entries;
 }

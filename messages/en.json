@@ -1,0 +1,495 @@
+{
+  "Header": {
+    "developer": "Developer",
+    "converters": "Converters",
+    "text": "Text",
+    "finance": "Finance",
+    "health": "Health",
+    "time": "Time",
+    "toggleMenu": "Toggle menu"
+  },
+  "Footer": {
+    "tagline": "Free online tools for developers, students, and professionals worldwide.",
+    "copyright": "© {year} ToolsShed. All rights reserved.",
+    "about": "About",
+    "privacyPolicy": "Privacy Policy",
+    "developer": "Developer",
+    "converters": "Converters",
+    "tools": "Tools",
+    "jsonFormatter": "JSON Formatter",
+    "base64": "Base64",
+    "uuidGenerator": "UUID Generator",
+    "hashGenerator": "Hash Generator",
+    "length": "Length",
+    "weight": "Weight",
+    "temperature": "Temperature",
+    "bmiCalculator": "BMI Calculator",
+    "passwordGenerator": "Password Generator",
+    "timezoneConverter": "Timezone Converter",
+    "compoundInterest": "Compound Interest"
+  },
+  "HomePage": {
+    "heroTitle": "Free Online Tools for",
+    "heroTitleHighlight": "Everyone",
+    "heroSubtitle": "A collection of useful, privacy-friendly tools. No sign-up required. Works in your browser, instantly.",
+    "noRegistration": "No registration",
+    "noDataSent": "No data sent to server",
+    "alwaysFree": "Always free",
+    "popularTools": "Popular Tools",
+    "whyTitle": "Why ToolsShed?",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstDesc": "All calculations run in your browser. No data is ever sent to our servers.",
+    "instantResultsTitle": "Instant Results",
+    "instantResultsDesc": "No loading spinners. Results appear as you type with zero server roundtrips.",
+    "worksEverywhereTitle": "Works Everywhere",
+    "worksEverywhereDesc": "Mobile-friendly, no installation required. Just open and use.",
+    "moreTools": "+{count} more →",
+    "metadata": {
+      "title": "ToolsShed - Free Online Tools",
+      "description": "Free online tools for developers, students, and professionals. JSON Formatter, Base64, UUID Generator, Unit Converters, and more."
+    }
+  },
+  "Categories": {
+    "developer": {
+      "name": "Developer Tools",
+      "description": "Essential tools for developers: JSON, Base64, UUID, hashing, and more."
+    },
+    "converters": {
+      "name": "Unit Converters",
+      "description": "Convert between units of length, weight, temperature, and more."
+    },
+    "text": {
+      "name": "Text Tools",
+      "description": "Tools for text manipulation, counting, and conversion."
+    },
+    "finance": {
+      "name": "Finance Tools",
+      "description": "Calculators for interest, percentages, loans, and investments."
+    },
+    "health": {
+      "name": "Health Tools",
+      "description": "Health calculators for BMI, calories, and fitness metrics."
+    },
+    "time": {
+      "name": "Time Tools",
+      "description": "Time zone converters, age calculators, and date utilities."
+    }
+  },
+  "Tools": {
+    "json-formatter": {
+      "name": "JSON Formatter & Validator",
+      "description": "Format, validate, and beautify JSON data.",
+      "metaTitle": "JSON Formatter & Validator",
+      "metaDescription": "Format, validate, and beautify JSON data with syntax checking. Free online JSON formatter — works in your browser with no server uploads."
+    },
+    "uuid-generator": {
+      "name": "UUID Generator",
+      "description": "Generate random UUIDs (v4) for use in your applications.",
+      "metaTitle": "UUID Generator",
+      "metaDescription": "Generate random UUIDs (v4) instantly in your browser. Free, no sign-up required."
+    },
+    "base64": {
+      "name": "Base64 Encoder / Decoder",
+      "description": "Encode text or files to Base64 and decode Base64 strings.",
+      "metaTitle": "Base64 Encoder / Decoder",
+      "metaDescription": "Encode text or files to Base64 and decode Base64 strings. Free online Base64 tool."
+    },
+    "url-encoder": {
+      "name": "URL Encoder / Decoder",
+      "description": "Encode and decode URLs and query parameters.",
+      "metaTitle": "URL Encoder / Decoder",
+      "metaDescription": "Encode and decode URLs and query parameters. Free online URL encoding tool."
+    },
+    "hash-generator": {
+      "name": "Hash Generator",
+      "description": "Generate MD5, SHA-256, and SHA-512 cryptographic hashes.",
+      "metaTitle": "Hash Generator",
+      "metaDescription": "Generate MD5, SHA-256, and SHA-512 hashes client-side. No data leaves your browser."
+    },
+    "jwt-decoder": {
+      "name": "JWT Decoder",
+      "description": "Decode and inspect JSON Web Token payloads without signature verification.",
+      "metaTitle": "JWT Decoder",
+      "metaDescription": "Decode and inspect JWT headers and payloads. Free, browser-based JWT inspector."
+    },
+    "length-converter": {
+      "name": "Length Converter",
+      "description": "Convert between meters, feet, inches, miles, kilometers, and more.",
+      "metaTitle": "Length Converter",
+      "metaDescription": "Convert between meters, feet, inches, miles, and kilometers. Free online length converter."
+    },
+    "weight-converter": {
+      "name": "Weight Converter",
+      "description": "Convert between kilograms, pounds, ounces, grams, and more.",
+      "metaTitle": "Weight Converter",
+      "metaDescription": "Convert between kilograms, pounds, ounces, and grams. Free online weight converter."
+    },
+    "temperature-converter": {
+      "name": "Temperature Converter",
+      "description": "Convert between Celsius, Fahrenheit, and Kelvin.",
+      "metaTitle": "Temperature Converter",
+      "metaDescription": "Convert between Celsius, Fahrenheit, and Kelvin. Free online temperature converter."
+    },
+    "word-counter": {
+      "name": "Word & Character Counter",
+      "description": "Count words, characters, sentences, and paragraphs in your text.",
+      "metaTitle": "Word & Character Counter",
+      "metaDescription": "Count words, characters, sentences, and paragraphs. Free online word counter."
+    },
+    "case-converter": {
+      "name": "Case Converter",
+      "description": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, and more.",
+      "metaTitle": "Case Converter",
+      "metaDescription": "Convert text between UPPERCASE, lowercase, Title Case, camelCase, snake_case, and more."
+    },
+    "password-generator": {
+      "name": "Password Generator",
+      "description": "Generate strong, secure passwords with customizable options.",
+      "metaTitle": "Password Generator",
+      "metaDescription": "Generate strong, secure passwords with customizable length and character types."
+    },
+    "compound-interest": {
+      "name": "Compound Interest Calculator",
+      "description": "Calculate compound interest growth for investments over time.",
+      "metaTitle": "Compound Interest Calculator",
+      "metaDescription": "Calculate compound interest growth for investments. Free online compound interest calculator."
+    },
+    "percentage-calculator": {
+      "name": "Percentage Calculator",
+      "description": "Calculate percentages, percentage change, and tip amounts.",
+      "metaTitle": "Percentage Calculator",
+      "metaDescription": "Calculate percentages, percentage change, and tip amounts. Free online percentage calculator."
+    },
+    "bmi-calculator": {
+      "name": "BMI Calculator",
+      "description": "Calculate Body Mass Index with metric and imperial units.",
+      "metaTitle": "BMI Calculator",
+      "metaDescription": "Calculate your Body Mass Index (BMI) with metric or imperial units. Free online BMI calculator."
+    },
+    "age-calculator": {
+      "name": "Age Calculator",
+      "description": "Calculate exact age in years, months, and days from a birth date.",
+      "metaTitle": "Age Calculator",
+      "metaDescription": "Calculate your exact age in years, months, and days from a birth date. Free online age calculator."
+    },
+    "timezone-converter": {
+      "name": "Timezone Converter",
+      "description": "Convert time between different time zones around the world.",
+      "metaTitle": "Timezone Converter",
+      "metaDescription": "Convert time between different time zones around the world. Free online timezone converter."
+    }
+  },
+  "Common": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear": "Clear",
+    "calculate": "Calculate",
+    "generate": "Generate",
+    "sample": "Sample",
+    "result": "Result"
+  },
+  "ToolLayout": {
+    "home": "Home",
+    "breadcrumbLabel": "Breadcrumb"
+  },
+  "JsonFormatter": {
+    "indent": "Indent:",
+    "twoSpaces": "2 spaces",
+    "fourSpaces": "4 spaces",
+    "oneSpace": "1 space",
+    "inputLabel": "Input JSON",
+    "inputPlaceholder": "Paste your JSON here...",
+    "outputLabel": "Output",
+    "formatButton": "Format / Validate",
+    "minifyButton": "Minify",
+    "validJson": "Valid JSON"
+  },
+  "UuidGenerator": {
+    "count": "Count:",
+    "uppercase": "Uppercase",
+    "includeHyphens": "Include hyphens",
+    "generateButton": "Generate UUID",
+    "generateButtonPlural": "Generate UUIDs",
+    "generated": "{count} UUID generated",
+    "generatedPlural": "{count} UUIDs generated",
+    "copyAll": "Copy all",
+    "copiedAll": "Copied all!",
+    "infoText": "UUIDs are generated using crypto.randomUUID() (v4) — cryptographically random, generated entirely in your browser."
+  },
+  "Base64Tool": {
+    "encodeTab": "encode",
+    "decodeTab": "decode",
+    "encodeInputLabel": "Text to encode",
+    "decodeInputLabel": "Base64 to decode",
+    "encodePlaceholder": "Enter text to encode...",
+    "decodePlaceholder": "Enter Base64 string to decode...",
+    "encodeButton": "Encode",
+    "decodeButton": "Decode",
+    "resultLabel": "Result",
+    "infoText": "Supports Unicode text. Encoding/decoding happens entirely in your browser — no data is sent to any server."
+  },
+  "UrlEncoderDecoder": {
+    "encodeTab": "encode",
+    "decodeTab": "decode",
+    "typeLabel": "Type:",
+    "encodeInputLabel": "Text / URL to encode",
+    "decodeInputLabel": "Encoded URL to decode",
+    "encodePlaceholder": "Enter text or URL...",
+    "decodePlaceholder": "Enter encoded URL...",
+    "loadSample": "Load sample",
+    "encodeButton": "Encode",
+    "decodeButton": "Decode",
+    "resultLabel": "Result",
+    "swapTitle": "Swap input/output and switch mode"
+  },
+  "HashGenerator": {
+    "inputLabel": "Text to hash",
+    "inputPlaceholder": "Enter text to generate hashes...",
+    "generateButton": "Generate Hashes",
+    "generating": "Generating...",
+    "disclaimer": "MD5 is computed client-side. SHA-256 and SHA-512 use the browser's native crypto.subtle API. No data leaves your browser."
+  },
+  "JwtDecoder": {
+    "inputLabel": "JWT Token",
+    "inputPlaceholder": "Paste your JWT token here...",
+    "loadSample": "Load sample",
+    "decodeButton": "Decode JWT",
+    "headerLabel": "Header",
+    "payloadLabel": "Payload",
+    "signatureLabel": "Signature",
+    "signatureNotVerified": "(not verified)",
+    "tokenExpired": "⚠️ Token is EXPIRED",
+    "tokenValid": "✅ Token is NOT expired",
+    "notVerifiedNote": "This tool only decodes the JWT — it does NOT verify the signature. Never share sensitive tokens."
+  },
+  "UnitConverter": {
+    "clearButton": "Clear"
+  },
+  "TemperatureConverter": {
+    "celsius": "Celsius (°C)",
+    "fahrenheit": "Fahrenheit (°F)",
+    "kelvin": "Kelvin (K)",
+    "clearButton": "Clear",
+    "commonTemps": "Common Temperatures",
+    "waterFreezes": "Water freezes",
+    "roomTemp": "Room temp",
+    "bodyTemp": "Body temp",
+    "waterBoils": "Water boils",
+    "absoluteZero": "Absolute zero",
+    "ovenMedium": "Oven (medium)"
+  },
+  "WordCounter": {
+    "inputLabel": "Your text",
+    "inputPlaceholder": "Start typing or paste your text here...",
+    "words": "Words",
+    "characters": "Characters",
+    "charsNoSpaces": "Chars (no spaces)",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "lines": "Lines",
+    "readingTime": "Reading time",
+    "readingTimeValue": "~{minutes} min"
+  },
+  "CaseConverter": {
+    "inputLabel": "Input text",
+    "inputPlaceholder": "Type or paste text to convert...",
+    "resultPlaceholder": "Result will appear here..."
+  },
+  "PasswordGenerator": {
+    "lengthLabel": "Length: {length}",
+    "uppercase": "Uppercase",
+    "lowercase": "Lowercase",
+    "numbers": "Numbers",
+    "symbols": "Symbols",
+    "generateCount": "Generate:",
+    "passwordSingular": "{count} password",
+    "passwordPlural": "{count} passwords",
+    "generateButton": "Generate",
+    "strengthLabel": "Strength",
+    "strengthWeak": "Weak",
+    "strengthFair": "Fair",
+    "strengthGood": "Good",
+    "strengthStrong": "Strong"
+  },
+  "CompoundInterest": {
+    "principalLabel": "Initial Principal ($)",
+    "rateLabel": "Annual Interest Rate (%)",
+    "yearsLabel": "Time Period (years)",
+    "compoundFrequencyLabel": "Compound Frequency",
+    "monthlyContributionLabel": "Monthly Contribution ($)",
+    "monthlyContributionOptional": "(optional)",
+    "daily": "Daily",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "semiAnnually": "Semi-annually",
+    "annually": "Annually",
+    "calculateButton": "Calculate",
+    "finalAmount": "Final Amount",
+    "interestEarned": "Interest Earned",
+    "totalInvested": "Total Invested"
+  },
+  "PercentageCalculator": {
+    "percentOf": "% of number",
+    "percentChange": "% change",
+    "whatPercent": "What % is X of Y?",
+    "tipCalculator": "Tip calculator",
+    "percentageLabel": "Percentage (%)",
+    "numberLabel": "Number",
+    "originalValueLabel": "Original value",
+    "newValueLabel": "New value",
+    "partLabel": "Part (X)",
+    "wholeLabel": "Whole (Y)",
+    "billAmountLabel": "Bill amount ($)",
+    "tipPercentLabel": "Tip (%)",
+    "numberOfPeopleLabel": "Number of people"
+  },
+  "BmiCalculator": {
+    "metricTab": "Metric (kg/cm)",
+    "imperialTab": "Imperial (lb/ft)",
+    "weightLabelMetric": "Weight (kg)",
+    "weightLabelImperial": "Weight (lbs)",
+    "heightLabelMetric": "Height (cm)",
+    "heightLabelImperial": "Height (ft / in)",
+    "calculateButton": "Calculate BMI",
+    "clearButton": "Clear",
+    "categoriesTitle": "BMI Categories",
+    "underweight": "Underweight",
+    "normalWeight": "Normal weight",
+    "overweight": "Overweight",
+    "obese": "Obese",
+    "underweightRange": "< 18.5",
+    "normalRange": "18.5 – 24.9",
+    "overweightRange": "25 – 29.9",
+    "obeseRange": "≥ 30",
+    "underweightDesc": "BMI less than 18.5",
+    "normalWeightDesc": "BMI 18.5 – 24.9",
+    "overweightDesc": "BMI 25 – 29.9",
+    "obeseDesc": "BMI 30 or greater"
+  },
+  "AgeCalculator": {
+    "birthDateLabel": "Date of Birth",
+    "ageDateLabel": "Age at date",
+    "calculateButton": "Calculate Age",
+    "yearsOld": "years old",
+    "exactly": "Exactly!",
+    "month": "{count} month",
+    "months": "{count} months",
+    "day": "{count} day",
+    "days": "{count} days",
+    "totalDays": "Total days",
+    "totalMonths": "Total months",
+    "daysUntilBirthday": "Days until birthday",
+    "todayBirthday": "🎂 Today!",
+    "nextBirthday": "Next birthday:"
+  },
+  "TimezoneConverter": {
+    "currentTime": "Current time (your browser)",
+    "dateTimeLabel": "Date & Time",
+    "sourceTimezoneLabel": "Source timezone",
+    "convertButton": "Convert",
+    "useNowButton": "Use now",
+    "resultsLabel": "Results"
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "AboutPage": {
+    "title": "About ToolsShed",
+    "subtitle": "Free, fast, and privacy-friendly tools — no sign-up, no data collection.",
+    "whatIsTitle": "What is ToolsShed?",
+    "whatIsText": "ToolsShed is a growing collection of free online tools for developers, students, and professionals. Whether you need to format JSON, convert units, generate a password, or calculate compound interest — it's all here, free, and instant.",
+    "philosophyTitle": "Our Philosophy",
+    "privacyFirstTitle": "Privacy First",
+    "privacyFirstDesc": "Every tool runs entirely in your browser. Nothing you type is ever sent to a server.",
+    "noFrictionTitle": "No Friction",
+    "noFrictionDesc": "No sign-up, no account, no paywall. Open the tool and use it instantly.",
+    "builtForEveryoneTitle": "Built for Everyone",
+    "builtForEveryoneDesc": "Country-neutral tools that work the same whether you're in New York, London, or Tokyo.",
+    "byTheNumbersTitle": "By the Numbers",
+    "freeToolsLabel": "Free tools",
+    "categoriesLabel": "Categories",
+    "signUpsLabel": "Sign-ups required",
+    "techStackTitle": "Tech Stack",
+    "techStackText": "ToolsShed is built with modern, open-source technologies:",
+    "techNext": "Next.js 16 — React framework with static site generation",
+    "techTs": "TypeScript — Type-safe code",
+    "techTailwind": "Tailwind CSS — Utility-first styling",
+    "techVercel": "Vercel — Global edge hosting",
+    "techGiscus": "Giscus — GitHub Discussions-powered comments",
+    "openSourceTitle": "Open Source",
+    "openSourceText": "ToolsShed is open source. Found a bug? Want to suggest a tool? Contributions are welcome.",
+    "viewOnGitHub": "View on GitHub",
+    "browseTools": "← Browse Tools",
+    "privacyPolicy": "Privacy Policy",
+    "metadata": {
+      "title": "About",
+      "description": "Learn about ToolsShed — a collection of free, privacy-friendly online tools."
+    }
+  },
+  "NotFound": {
+    "title": "Tool Not Found",
+    "description": "The tool you're looking for doesn't exist yet — but we're always adding more!",
+    "browseAllTools": "Browse all tools"
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: {date}",
+    "backToTools": "← Back to Tools",
+    "overviewTitle": "Overview",
+    "overviewText1": "ToolsShed (\"we\", \"us\", or \"our\") operates the website tools-shed.com. This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our service.",
+    "overviewText2": "The short version: All tools on ToolsShed run entirely in your browser. We do not store, transmit, or process any data you enter into our tools on our servers.",
+    "shortVersionLabel": "The short version:",
+    "noCollectTitle": "1. Data We Do NOT Collect",
+    "noCollectText": "ToolsShed tools operate entirely client-side. This means:",
+    "noCollectItem1": "Text you paste into JSON Formatter, Base64, or any other tool",
+    "noCollectItem2": "Passwords generated by the Password Generator",
+    "noCollectItem3": "Health data entered into the BMI Calculator",
+    "noCollectItem4": "Financial data entered into calculators",
+    "noCollectItem5": "Any other input you provide to our tools",
+    "noCollectFooter": "None of this data ever leaves your device or is sent to any server.",
+    "analyticsTitle": "2. Google Analytics",
+    "analyticsText1": "We use Google Analytics 4 to understand how visitors interact with our site (e.g., which tools are most popular, how long visitors stay, which countries visitors come from). This data is anonymous and aggregated.",
+    "analyticsText2": "Google Analytics may collect:",
+    "analyticsItem1": "Pages visited and time spent",
+    "analyticsItem2": "General geographic location (country/city level)",
+    "analyticsItem3": "Browser type and device type",
+    "analyticsItem4": "Referring website",
+    "analyticsOptOut": "Google Analytics uses cookies. You can opt out by installing the",
+    "analyticsOptOutLink": "Google Analytics Opt-out Browser Add-on",
+    "analyticsPrivacy": "For more information, see",
+    "analyticsPrivacyLink": "Google's Privacy Policy",
+    "adsenseTitle": "3. Google AdSense",
+    "adsenseText1": "We use Google AdSense to display advertisements. Google AdSense uses cookies to serve ads based on your prior visits to our website or other websites on the internet.",
+    "adsenseText2": "Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the internet. You may opt out of personalized advertising by visiting",
+    "adsenseOptOutLink": "Google Ads Settings",
+    "commentsTitle": "4. Comments (Giscus)",
+    "commentsText1": "Our comment system is powered by Giscus, which stores comments as GitHub Discussions. If you choose to leave a comment, you must sign in with a GitHub account. Your comment and GitHub profile information will be publicly visible on GitHub.",
+    "commentsText2": "See",
+    "commentsPrivacyLink": "GitHub's Privacy Statement",
+    "commentsText3": "for details.",
+    "cookiesTitle": "5. Cookies",
+    "cookiesText": "We use the following types of cookies:",
+    "cookieColName": "Cookie",
+    "cookieColPurpose": "Purpose",
+    "cookieColProvider": "Provider",
+    "cookie1Name": "_ga, _ga_*",
+    "cookie1Purpose": "Analytics tracking",
+    "cookie1Provider": "Google Analytics",
+    "cookie2Name": "IDE, NID",
+    "cookie2Purpose": "Ad personalization",
+    "cookie2Provider": "Google AdSense",
+    "thirdPartyTitle": "6. Third-Party Links",
+    "thirdPartyText": "Our website may contain links to external sites. We are not responsible for the privacy practices or content of those sites. We encourage you to review the privacy policies of any external sites you visit.",
+    "childrenTitle": "7. Children's Privacy",
+    "childrenText": "ToolsShed is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13.",
+    "changesTitle": "8. Changes to This Policy",
+    "changesText": "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated \"Last updated\" date. Continued use of the site after changes constitutes acceptance of the updated policy.",
+    "contactTitle": "9. Contact",
+    "contactText1": "If you have any questions about this Privacy Policy, please open an issue on our",
+    "contactLink": "GitHub repository",
+    "metadata": {
+      "title": "Privacy Policy",
+      "description": "Privacy Policy for ToolsShed — how we handle your data."
+    }
+  }
+}

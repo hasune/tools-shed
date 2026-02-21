@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { tools, categories } from "@/lib/tools";
 
 const BASE_URL = "https://tools-shed.com";
-const LOCALES = ["en", "ja", "ko", "zh-CN", "es", "pt-BR", "fr", "de", "ru", "it"];
+const LOCALES = ["en", "ja", "ko", "zh-CN", "es", "pt-BR", "fr", "de", "ru", "it", "tr", "id"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

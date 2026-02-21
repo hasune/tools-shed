@@ -1,0 +1,495 @@
+{
+  "Header": {
+    "developer": "Entwickler",
+    "converters": "Konverter",
+    "text": "Text",
+    "finance": "Finanzen",
+    "health": "Gesundheit",
+    "time": "Zeit",
+    "toggleMenu": "Menü umschalten"
+  },
+  "Footer": {
+    "tagline": "Kostenlose Online-Tools für Entwickler, Studenten und Fachleute weltweit.",
+    "copyright": "© {year} ToolsShed. Alle Rechte vorbehalten.",
+    "about": "Über uns",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "developer": "Entwickler",
+    "converters": "Konverter",
+    "tools": "Tools",
+    "jsonFormatter": "JSON-Formatierer",
+    "base64": "Base64",
+    "uuidGenerator": "UUID-Generator",
+    "hashGenerator": "Hash-Generator",
+    "length": "Länge",
+    "weight": "Gewicht",
+    "temperature": "Temperatur",
+    "bmiCalculator": "BMI-Rechner",
+    "passwordGenerator": "Passwort-Generator",
+    "timezoneConverter": "Zeitzonenkonverter",
+    "compoundInterest": "Zinseszins"
+  },
+  "HomePage": {
+    "heroTitle": "Kostenlose Online-Tools für",
+    "heroTitleHighlight": "Alle",
+    "heroSubtitle": "Eine Sammlung nützlicher, datenschutzfreundlicher Tools. Keine Anmeldung erforderlich. Funktioniert sofort in Ihrem Browser.",
+    "noRegistration": "Keine Registrierung",
+    "noDataSent": "Keine Daten an Server gesendet",
+    "alwaysFree": "Immer kostenlos",
+    "popularTools": "Beliebte Tools",
+    "whyTitle": "Warum ToolsShed?",
+    "privacyFirstTitle": "Datenschutz an erster Stelle",
+    "privacyFirstDesc": "Alle Berechnungen laufen in Ihrem Browser. Es werden keine Daten an unsere Server gesendet.",
+    "instantResultsTitle": "Sofortige Ergebnisse",
+    "instantResultsDesc": "Kein Laden. Ergebnisse erscheinen während der Eingabe, ohne Serveranfragen.",
+    "worksEverywhereTitle": "Überall nutzbar",
+    "worksEverywhereDesc": "Mobilfreundlich, keine Installation erforderlich. Einfach öffnen und verwenden.",
+    "moreTools": "+{count} mehr →",
+    "metadata": {
+      "title": "ToolsShed - Kostenlose Online-Tools",
+      "description": "Kostenlose Online-Tools für Entwickler, Studenten und Fachleute. JSON-Formatierer, Base64, UUID-Generator, Einheitenkonverter und mehr."
+    }
+  },
+  "Categories": {
+    "developer": {
+      "name": "Entwickler-Tools",
+      "description": "Unverzichtbare Tools für Entwickler: JSON, Base64, UUID, Hashing und mehr."
+    },
+    "converters": {
+      "name": "Einheitenkonverter",
+      "description": "Konvertieren Sie zwischen Längen-, Gewichts-, Temperatureinheiten und mehr."
+    },
+    "text": {
+      "name": "Text-Tools",
+      "description": "Tools zur Textbearbeitung, -zählung und -konvertierung."
+    },
+    "finance": {
+      "name": "Finanz-Tools",
+      "description": "Rechner für Zinsen, Prozentsätze, Kredite und Investitionen."
+    },
+    "health": {
+      "name": "Gesundheits-Tools",
+      "description": "Rechner für BMI, Kalorien und Fitness-Metriken."
+    },
+    "time": {
+      "name": "Zeit-Tools",
+      "description": "Zeitzonenkonverter, Altersrechner und Datums-Utilities."
+    }
+  },
+  "Tools": {
+    "json-formatter": {
+      "name": "JSON-Formatierer & Validator",
+      "description": "Formatieren, validieren und verschönern Sie JSON-Daten.",
+      "metaTitle": "JSON-Formatierer & Validator",
+      "metaDescription": "Formatieren, validieren und verschönern Sie JSON-Daten mit Syntaxprüfung. Kostenloser Online-JSON-Formatierer — funktioniert in Ihrem Browser ohne Server-Upload."
+    },
+    "uuid-generator": {
+      "name": "UUID-Generator",
+      "description": "Generieren Sie zufällige UUIDs (v4) für Ihre Anwendungen.",
+      "metaTitle": "UUID-Generator",
+      "metaDescription": "Generieren Sie sofort zufällige UUIDs (v4) in Ihrem Browser. Kostenlos, keine Anmeldung erforderlich."
+    },
+    "base64": {
+      "name": "Base64 Encoder / Decoder",
+      "description": "Codieren Sie Text oder Dateien in Base64 und decodieren Sie Base64-Strings.",
+      "metaTitle": "Base64 Encoder / Decoder",
+      "metaDescription": "Codieren Sie Text oder Dateien in Base64 und decodieren Sie Base64-Strings. Kostenloses Online-Base64-Tool."
+    },
+    "url-encoder": {
+      "name": "URL-Encoder / Decoder",
+      "description": "Codieren und decodieren Sie URLs und Query-Parameter.",
+      "metaTitle": "URL-Encoder / Decoder",
+      "metaDescription": "Codieren und decodieren Sie URLs und Query-Parameter. Kostenloses Online-URL-Codierungstool."
+    },
+    "hash-generator": {
+      "name": "Hash-Generator",
+      "description": "Generieren Sie kryptografische MD5-, SHA-256- und SHA-512-Hashes.",
+      "metaTitle": "Hash-Generator",
+      "metaDescription": "Generieren Sie MD5-, SHA-256- und SHA-512-Hashes clientseitig. Keine Daten verlassen Ihren Browser."
+    },
+    "jwt-decoder": {
+      "name": "JWT-Decoder",
+      "description": "Decodieren und inspizieren Sie JSON Web Token Payloads ohne Signaturverifizierung.",
+      "metaTitle": "JWT-Decoder",
+      "metaDescription": "Decodieren und inspizieren Sie JWT-Header und Payloads. Kostenloser browserbasierter JWT-Inspektor."
+    },
+    "length-converter": {
+      "name": "Längenkonverter",
+      "description": "Konvertieren Sie zwischen Meter, Fuß, Zoll, Meilen, Kilometern und mehr.",
+      "metaTitle": "Längenkonverter",
+      "metaDescription": "Konvertieren Sie zwischen Meter, Fuß, Zoll, Meilen und Kilometern. Kostenloser Online-Längenkonverter."
+    },
+    "weight-converter": {
+      "name": "Gewichtskonverter",
+      "description": "Konvertieren Sie zwischen Kilogramm, Pfund, Unzen, Gramm und mehr.",
+      "metaTitle": "Gewichtskonverter",
+      "metaDescription": "Konvertieren Sie zwischen Kilogramm, Pfund, Unzen und Gramm. Kostenloser Online-Gewichtskonverter."
+    },
+    "temperature-converter": {
+      "name": "Temperaturkonverter",
+      "description": "Konvertieren Sie zwischen Celsius, Fahrenheit und Kelvin.",
+      "metaTitle": "Temperaturkonverter",
+      "metaDescription": "Konvertieren Sie zwischen Celsius, Fahrenheit und Kelvin. Kostenloser Online-Temperaturkonverter."
+    },
+    "word-counter": {
+      "name": "Wort- und Zeichenzähler",
+      "description": "Zählen Sie Wörter, Zeichen, Sätze und Absätze in Ihrem Text.",
+      "metaTitle": "Wort- und Zeichenzähler",
+      "metaDescription": "Zählen Sie Wörter, Zeichen, Sätze und Absätze. Kostenloser Online-Wortzähler."
+    },
+    "case-converter": {
+      "name": "Schreibweise-Konverter",
+      "description": "Konvertieren Sie Text in GROSSBUCHSTABEN, kleinbuchstaben, Titelformat, camelCase und mehr.",
+      "metaTitle": "Schreibweise-Konverter",
+      "metaDescription": "Konvertieren Sie Text zwischen GROSSBUCHSTABEN, kleinbuchstaben, Titelformat, camelCase, snake_case und mehr."
+    },
+    "password-generator": {
+      "name": "Passwort-Generator",
+      "description": "Generieren Sie starke, sichere Passwörter mit anpassbaren Optionen.",
+      "metaTitle": "Passwort-Generator",
+      "metaDescription": "Generieren Sie starke, sichere Passwörter mit anpassbarer Länge und Zeichentypen."
+    },
+    "compound-interest": {
+      "name": "Zinseszinsrechner",
+      "description": "Berechnen Sie das Zinseszinswachstum für Investitionen über die Zeit.",
+      "metaTitle": "Zinseszinsrechner",
+      "metaDescription": "Berechnen Sie das Zinseszinswachstum für Investitionen. Kostenloser Online-Zinseszinsrechner."
+    },
+    "percentage-calculator": {
+      "name": "Prozentrechner",
+      "description": "Berechnen Sie Prozentsätze, prozentuale Änderungen und Trinkgeldbeträge.",
+      "metaTitle": "Prozentrechner",
+      "metaDescription": "Berechnen Sie Prozentsätze, prozentuale Änderungen und Trinkgeldbeträge. Kostenloser Online-Prozentrechner."
+    },
+    "bmi-calculator": {
+      "name": "BMI-Rechner",
+      "description": "Berechnen Sie den Body-Mass-Index mit metrischen und imperialen Einheiten.",
+      "metaTitle": "BMI-Rechner",
+      "metaDescription": "Berechnen Sie Ihren Body-Mass-Index (BMI) mit metrischen oder imperialen Einheiten. Kostenloser Online-BMI-Rechner."
+    },
+    "age-calculator": {
+      "name": "Altersrechner",
+      "description": "Berechnen Sie das genaue Alter in Jahren, Monaten und Tagen aus einem Geburtsdatum.",
+      "metaTitle": "Altersrechner",
+      "metaDescription": "Berechnen Sie Ihr genaues Alter in Jahren, Monaten und Tagen aus einem Geburtsdatum. Kostenloser Online-Altersrechner."
+    },
+    "timezone-converter": {
+      "name": "Zeitzonenkonverter",
+      "description": "Konvertieren Sie die Zeit zwischen verschiedenen Zeitzonen weltweit.",
+      "metaTitle": "Zeitzonenkonverter",
+      "metaDescription": "Konvertieren Sie die Zeit zwischen verschiedenen Zeitzonen weltweit. Kostenloser Online-Zeitzonenkonverter."
+    }
+  },
+  "Common": {
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "clear": "Löschen",
+    "calculate": "Berechnen",
+    "generate": "Generieren",
+    "sample": "Beispiel",
+    "result": "Ergebnis"
+  },
+  "ToolLayout": {
+    "home": "Startseite",
+    "breadcrumbLabel": "Navigation"
+  },
+  "JsonFormatter": {
+    "indent": "Einrückung:",
+    "twoSpaces": "2 Leerzeichen",
+    "fourSpaces": "4 Leerzeichen",
+    "oneSpace": "1 Leerzeichen",
+    "inputLabel": "JSON-Eingabe",
+    "inputPlaceholder": "JSON hier einfügen...",
+    "outputLabel": "Ausgabe",
+    "formatButton": "Formatieren / Validieren",
+    "minifyButton": "Minifizieren",
+    "validJson": "Gültiges JSON"
+  },
+  "UuidGenerator": {
+    "count": "Anzahl:",
+    "uppercase": "Großbuchstaben",
+    "includeHyphens": "Bindestriche einschließen",
+    "generateButton": "UUID generieren",
+    "generateButtonPlural": "UUIDs generieren",
+    "generated": "{count} UUID generiert",
+    "generatedPlural": "{count} UUIDs generiert",
+    "copyAll": "Alle kopieren",
+    "copiedAll": "Alle kopiert!",
+    "infoText": "UUIDs werden mit crypto.randomUUID() (v4) generiert — kryptografisch zufällig, vollständig in Ihrem Browser generiert."
+  },
+  "Base64Tool": {
+    "encodeTab": "codieren",
+    "decodeTab": "decodieren",
+    "encodeInputLabel": "Zu codierender Text",
+    "decodeInputLabel": "Zu decodierender Base64",
+    "encodePlaceholder": "Text zum Codieren eingeben...",
+    "decodePlaceholder": "Base64-String zum Decodieren eingeben...",
+    "encodeButton": "Codieren",
+    "decodeButton": "Decodieren",
+    "resultLabel": "Ergebnis",
+    "infoText": "Unterstützt Unicode-Text. Codierung/Decodierung erfolgt vollständig in Ihrem Browser — keine Daten werden an einen Server gesendet."
+  },
+  "UrlEncoderDecoder": {
+    "encodeTab": "codieren",
+    "decodeTab": "decodieren",
+    "typeLabel": "Typ:",
+    "encodeInputLabel": "Text / URL zum Codieren",
+    "decodeInputLabel": "Codierte URL zum Decodieren",
+    "encodePlaceholder": "Text oder URL eingeben...",
+    "decodePlaceholder": "Codierte URL eingeben...",
+    "loadSample": "Beispiel laden",
+    "encodeButton": "Codieren",
+    "decodeButton": "Decodieren",
+    "resultLabel": "Ergebnis",
+    "swapTitle": "Eingabe/Ausgabe tauschen und Modus wechseln"
+  },
+  "HashGenerator": {
+    "inputLabel": "Zu hashender Text",
+    "inputPlaceholder": "Text zur Hash-Generierung eingeben...",
+    "generateButton": "Hashes generieren",
+    "generating": "Generiere...",
+    "disclaimer": "MD5 wird clientseitig berechnet. SHA-256 und SHA-512 verwenden die native crypto.subtle API des Browsers. Keine Daten verlassen Ihren Browser."
+  },
+  "JwtDecoder": {
+    "inputLabel": "JWT-Token",
+    "inputPlaceholder": "JWT-Token hier einfügen...",
+    "loadSample": "Beispiel laden",
+    "decodeButton": "JWT decodieren",
+    "headerLabel": "Header",
+    "payloadLabel": "Payload",
+    "signatureLabel": "Signatur",
+    "signatureNotVerified": "(nicht verifiziert)",
+    "tokenExpired": "⚠️ Token ABGELAUFEN",
+    "tokenValid": "✅ Token NICHT abgelaufen",
+    "notVerifiedNote": "Dieses Tool decodiert nur den JWT — es verifiziert NICHT die Signatur. Teilen Sie niemals sensible Tokens."
+  },
+  "UnitConverter": {
+    "clearButton": "Löschen"
+  },
+  "TemperatureConverter": {
+    "celsius": "Celsius (°C)",
+    "fahrenheit": "Fahrenheit (°F)",
+    "kelvin": "Kelvin (K)",
+    "clearButton": "Löschen",
+    "commonTemps": "Häufige Temperaturen",
+    "waterFreezes": "Wasser gefriert",
+    "roomTemp": "Raumtemperatur",
+    "bodyTemp": "Körpertemperatur",
+    "waterBoils": "Wasser kocht",
+    "absoluteZero": "Absoluter Nullpunkt",
+    "ovenMedium": "Ofen (mittel)"
+  },
+  "WordCounter": {
+    "inputLabel": "Ihr Text",
+    "inputPlaceholder": "Hier tippen oder Text einfügen...",
+    "words": "Wörter",
+    "characters": "Zeichen",
+    "charsNoSpaces": "Zeichen (ohne Leerzeichen)",
+    "sentences": "Sätze",
+    "paragraphs": "Absätze",
+    "lines": "Zeilen",
+    "readingTime": "Lesezeit",
+    "readingTimeValue": "~{minutes} Min."
+  },
+  "CaseConverter": {
+    "inputLabel": "Eingabetext",
+    "inputPlaceholder": "Text zum Konvertieren eingeben oder einfügen...",
+    "resultPlaceholder": "Ergebnis erscheint hier..."
+  },
+  "PasswordGenerator": {
+    "lengthLabel": "Länge: {length}",
+    "uppercase": "Großbuchstaben",
+    "lowercase": "Kleinbuchstaben",
+    "numbers": "Zahlen",
+    "symbols": "Symbole",
+    "generateCount": "Generieren:",
+    "passwordSingular": "{count} Passwort",
+    "passwordPlural": "{count} Passwörter",
+    "generateButton": "Generieren",
+    "strengthLabel": "Stärke",
+    "strengthWeak": "Schwach",
+    "strengthFair": "Mäßig",
+    "strengthGood": "Gut",
+    "strengthStrong": "Stark"
+  },
+  "CompoundInterest": {
+    "principalLabel": "Anfangskapital ($)",
+    "rateLabel": "Jährlicher Zinssatz (%)",
+    "yearsLabel": "Zeitraum (Jahre)",
+    "compoundFrequencyLabel": "Zinseszinsfrequenz",
+    "monthlyContributionLabel": "Monatlicher Beitrag ($)",
+    "monthlyContributionOptional": "(optional)",
+    "daily": "Täglich",
+    "monthly": "Monatlich",
+    "quarterly": "Vierteljährlich",
+    "semiAnnually": "Halbjährlich",
+    "annually": "Jährlich",
+    "calculateButton": "Berechnen",
+    "finalAmount": "Endbetrag",
+    "interestEarned": "Verdiente Zinsen",
+    "totalInvested": "Gesamt investiert"
+  },
+  "PercentageCalculator": {
+    "percentOf": "% einer Zahl",
+    "percentChange": "% Änderung",
+    "whatPercent": "X ist welcher % von Y?",
+    "tipCalculator": "Trinkgeldrechner",
+    "percentageLabel": "Prozentsatz (%)",
+    "numberLabel": "Zahl",
+    "originalValueLabel": "Ursprünglicher Wert",
+    "newValueLabel": "Neuer Wert",
+    "partLabel": "Teil (X)",
+    "wholeLabel": "Ganzes (Y)",
+    "billAmountLabel": "Rechnungsbetrag ($)",
+    "tipPercentLabel": "Trinkgeld (%)",
+    "numberOfPeopleLabel": "Anzahl der Personen"
+  },
+  "BmiCalculator": {
+    "metricTab": "Metrisch (kg/cm)",
+    "imperialTab": "Imperial (lb/ft)",
+    "weightLabelMetric": "Gewicht (kg)",
+    "weightLabelImperial": "Gewicht (lbs)",
+    "heightLabelMetric": "Größe (cm)",
+    "heightLabelImperial": "Größe (ft / in)",
+    "calculateButton": "BMI berechnen",
+    "clearButton": "Löschen",
+    "categoriesTitle": "BMI-Kategorien",
+    "underweight": "Untergewicht",
+    "normalWeight": "Normalgewicht",
+    "overweight": "Übergewicht",
+    "obese": "Adipositas",
+    "underweightRange": "< 18,5",
+    "normalRange": "18,5 – 24,9",
+    "overweightRange": "25 – 29,9",
+    "obeseRange": "≥ 30",
+    "underweightDesc": "BMI unter 18,5",
+    "normalWeightDesc": "BMI 18,5 – 24,9",
+    "overweightDesc": "BMI 25 – 29,9",
+    "obeseDesc": "BMI 30 oder höher"
+  },
+  "AgeCalculator": {
+    "birthDateLabel": "Geburtsdatum",
+    "ageDateLabel": "Alter am Datum",
+    "calculateButton": "Alter berechnen",
+    "yearsOld": "Jahre alt",
+    "exactly": "Genau!",
+    "month": "{count} Monat",
+    "months": "{count} Monate",
+    "day": "{count} Tag",
+    "days": "{count} Tage",
+    "totalDays": "Tage gesamt",
+    "totalMonths": "Monate gesamt",
+    "daysUntilBirthday": "Tage bis zum Geburtstag",
+    "todayBirthday": "🎂 Heute!",
+    "nextBirthday": "Nächster Geburtstag:"
+  },
+  "TimezoneConverter": {
+    "currentTime": "Aktuelle Zeit (Ihr Browser)",
+    "dateTimeLabel": "Datum & Uhrzeit",
+    "sourceTimezoneLabel": "Quellzeitzone",
+    "convertButton": "Konvertieren",
+    "useNowButton": "Jetzt verwenden",
+    "resultsLabel": "Ergebnisse"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache"
+  },
+  "AboutPage": {
+    "title": "Über ToolsShed",
+    "subtitle": "Kostenlose, schnelle und datenschutzfreundliche Tools — keine Anmeldung, keine Datenerfassung.",
+    "whatIsTitle": "Was ist ToolsShed?",
+    "whatIsText": "ToolsShed ist eine wachsende Sammlung kostenloser Online-Tools für Entwickler, Studenten und Fachleute. Ob Sie JSON formatieren, Einheiten konvertieren, ein Passwort generieren oder Zinseszins berechnen möchten — alles ist hier, kostenlos und sofort verfügbar.",
+    "philosophyTitle": "Unsere Philosophie",
+    "privacyFirstTitle": "Datenschutz an erster Stelle",
+    "privacyFirstDesc": "Jedes Tool läuft vollständig in Ihrem Browser. Nichts, was Sie eingeben, wird jemals an einen Server gesendet.",
+    "noFrictionTitle": "Ohne Hindernisse",
+    "noFrictionDesc": "Keine Anmeldung, kein Konto, keine Bezahlschranke. Tool öffnen und sofort verwenden.",
+    "builtForEveryoneTitle": "Für alle gebaut",
+    "builtForEveryoneDesc": "Länderneutrale Tools, die überall gleich funktionieren — in New York, London oder Tokio.",
+    "byTheNumbersTitle": "In Zahlen",
+    "freeToolsLabel": "Kostenlose Tools",
+    "categoriesLabel": "Kategorien",
+    "signUpsLabel": "Erforderliche Anmeldungen",
+    "techStackTitle": "Tech-Stack",
+    "techStackText": "ToolsShed wird mit modernen, Open-Source-Technologien entwickelt:",
+    "techNext": "Next.js 16 — React-Framework mit statischer Site-Generierung",
+    "techTs": "TypeScript — Typsicherer Code",
+    "techTailwind": "Tailwind CSS — Utility-first Styling",
+    "techVercel": "Vercel — Globales Edge-Hosting",
+    "techGiscus": "Giscus — GitHub Discussions-basierte Kommentare",
+    "openSourceTitle": "Open Source",
+    "openSourceText": "ToolsShed ist Open Source. Einen Bug gefunden? Möchten Sie ein Tool vorschlagen? Beiträge sind willkommen.",
+    "viewOnGitHub": "Auf GitHub ansehen",
+    "browseTools": "← Tools durchsuchen",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "metadata": {
+      "title": "Über uns",
+      "description": "Erfahren Sie mehr über ToolsShed — eine Sammlung kostenloser, datenschutzfreundlicher Online-Tools."
+    }
+  },
+  "NotFound": {
+    "title": "Tool nicht gefunden",
+    "description": "Das gesuchte Tool existiert noch nicht — aber wir fügen ständig neue hinzu!",
+    "browseAllTools": "Alle Tools durchsuchen"
+  },
+  "PrivacyPage": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: {date}",
+    "backToTools": "← Zurück zu den Tools",
+    "overviewTitle": "Übersicht",
+    "overviewText1": "ToolsShed (\"wir\", \"uns\" oder \"unser\") betreibt die Website tools-shed.com. Diese Seite informiert Sie über unsere Richtlinien zur Erfassung, Nutzung und Offenlegung personenbezogener Daten, wenn Sie unseren Dienst nutzen.",
+    "overviewText2": "Die Kurzversion: Alle Tools von ToolsShed laufen vollständig in Ihrem Browser. Wir speichern, übertragen oder verarbeiten keine Daten, die Sie in unsere Tools eingeben, auf unseren Servern.",
+    "shortVersionLabel": "Die Kurzversion:",
+    "noCollectTitle": "1. Daten, die wir NICHT erfassen",
+    "noCollectText": "ToolsShed-Tools arbeiten vollständig clientseitig. Das bedeutet:",
+    "noCollectItem1": "Text, den Sie in den JSON-Formatierer, Base64 oder ein anderes Tool einfügen",
+    "noCollectItem2": "Vom Passwort-Generator generierte Passwörter",
+    "noCollectItem3": "Gesundheitsdaten, die in den BMI-Rechner eingegeben werden",
+    "noCollectItem4": "Finanzdaten, die in Rechner eingegeben werden",
+    "noCollectItem5": "Jede andere Eingabe, die Sie in unsere Tools machen",
+    "noCollectFooter": "Keine dieser Daten verlässt Ihr Gerät oder wird an einen Server gesendet.",
+    "analyticsTitle": "2. Google Analytics",
+    "analyticsText1": "Wir verwenden Google Analytics 4, um zu verstehen, wie Besucher mit unserer Website interagieren. Diese Daten sind anonym und aggregiert.",
+    "analyticsText2": "Google Analytics kann erfassen:",
+    "analyticsItem1": "Besuchte Seiten und verbrachte Zeit",
+    "analyticsItem2": "Allgemeiner geografischer Standort (Länder-/Stadtebene)",
+    "analyticsItem3": "Browser- und Gerätetyp",
+    "analyticsItem4": "Verweisende Website",
+    "analyticsOptOut": "Google Analytics verwendet Cookies. Sie können sich abmelden, indem Sie das",
+    "analyticsOptOutLink": "Google Analytics Opt-out-Browser-Add-on",
+    "analyticsPrivacy": "Weitere Informationen finden Sie in",
+    "analyticsPrivacyLink": "Googles Datenschutzrichtlinie",
+    "adsenseTitle": "3. Google AdSense",
+    "adsenseText1": "Wir verwenden Google AdSense zur Anzeige von Werbung. Google AdSense verwendet Cookies, um Anzeigen basierend auf Ihren vorherigen Besuchen zu schalten.",
+    "adsenseText2": "Sie können personalisierte Werbung deaktivieren, indem Sie",
+    "adsenseOptOutLink": "Google Ads-Einstellungen",
+    "commentsTitle": "4. Kommentare (Giscus)",
+    "commentsText1": "Unser Kommentarsystem wird von Giscus betrieben, das Kommentare als GitHub Discussions speichert. Wenn Sie einen Kommentar hinterlassen möchten, müssen Sie sich mit einem GitHub-Konto anmelden.",
+    "commentsText2": "Weitere Informationen finden Sie in",
+    "commentsPrivacyLink": "GitHubs Datenschutzerklärung",
+    "commentsText3": ".",
+    "cookiesTitle": "5. Cookies",
+    "cookiesText": "Wir verwenden die folgenden Cookie-Typen:",
+    "cookieColName": "Cookie",
+    "cookieColPurpose": "Zweck",
+    "cookieColProvider": "Anbieter",
+    "cookie1Name": "_ga, _ga_*",
+    "cookie1Purpose": "Analyse-Tracking",
+    "cookie1Provider": "Google Analytics",
+    "cookie2Name": "IDE, NID",
+    "cookie2Purpose": "Anzeigenpersonalisierung",
+    "cookie2Provider": "Google AdSense",
+    "thirdPartyTitle": "6. Links zu Drittanbietern",
+    "thirdPartyText": "Unsere Website kann Links zu externen Websites enthalten. Wir sind nicht verantwortlich für die Datenschutzpraktiken oder den Inhalt dieser Websites.",
+    "childrenTitle": "7. Datenschutz für Kinder",
+    "childrenText": "ToolsShed richtet sich nicht an Kinder unter 13 Jahren. Wir erfassen wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren.",
+    "changesTitle": "8. Änderungen dieser Richtlinie",
+    "changesText": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Datum veröffentlicht.",
+    "contactTitle": "9. Kontakt",
+    "contactText1": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, eröffnen Sie bitte ein Issue in unserem",
+    "contactLink": "GitHub-Repository",
+    "metadata": {
+      "title": "Datenschutzrichtlinie",
+      "description": "Datenschutzrichtlinie von ToolsShed — wie wir mit Ihren Daten umgehen."
+    }
+  }
+}

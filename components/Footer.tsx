@@ -77,9 +77,14 @@ export default function Footer() {
           <p className="text-gray-500 text-sm">
             © {currentYear} ToolsShed. All rights reserved.
           </p>
-          <p className="text-gray-500 text-sm">
-            Free tools, no account required.
-          </p>
+          <div className="flex items-center gap-4">
+            <Link href="/about" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">
+              About
+            </Link>
+            <Link href="/privacy" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

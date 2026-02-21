@@ -301,7 +301,11 @@ vercel --prod     # 수동 프로덕션 배포
 ### 즉시 해야 할 것
 - [x] 커스텀 도메인 연결 (`tools-shed.com` ✅)
 - [x] `sitemap.ts`, `robots.ts`의 BASE_URL을 실제 도메인으로 교체
-- [ ] Google AdSense 새 도메인 승인 신청
+- [x] Google Search Console 등록 + sitemap 제출 ✅
+- [x] Google Analytics 4 설치 (G-3N423K0N2Q) ✅
+- [x] Privacy Policy 페이지 추가 (`/privacy`) ✅
+- [x] About 페이지 추가 (`/about`) ✅
+- [ ] Google AdSense 새 도메인 승인 신청 (2~4주 후 인덱싱 확인 뒤)
 - [ ] AdSense 승인 후 `ToolLayout.tsx`의 실제 slot ID 입력
 - [ ] Giscus GitHub App 설치 확인 (https://github.com/apps/giscus)
 

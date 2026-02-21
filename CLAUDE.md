@@ -36,7 +36,7 @@
 | GitHub 저장소 | https://github.com/hasune/tools-shed |
 | Vercel 프로덕션 URL | https://tools-shed.vercel.app |
 | Vercel 프로젝트명 | cadenzas-projects/tools-shed |
-| 커스텀 도메인 | 미설정 (TODO) |
+| 커스텀 도메인 | https://tools-shed.com ✅ |
 | 배포 방식 | `git push` → Vercel 자동 배포 (GitHub 연동됨) |
 
 > **배포 명령어**: `git push origin main` 만으로 자동 배포됨.
@@ -299,8 +299,8 @@ vercel --prod     # 수동 프로덕션 배포
 ## TODO / Phase 2 작업
 
 ### 즉시 해야 할 것
-- [ ] 커스텀 도메인 연결 (Vercel 설정)
-- [ ] `sitemap.ts`, `robots.ts`의 BASE_URL을 실제 도메인으로 교체
+- [x] 커스텀 도메인 연결 (`tools-shed.com` ✅)
+- [x] `sitemap.ts`, `robots.ts`의 BASE_URL을 실제 도메인으로 교체
 - [ ] Google AdSense 새 도메인 승인 신청
 - [ ] AdSense 승인 후 `ToolLayout.tsx`의 실제 slot ID 입력
 - [ ] Giscus GitHub App 설치 확인 (https://github.com/apps/giscus)

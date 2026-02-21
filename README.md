@@ -14,7 +14,7 @@
 
 ## ✨ Live Demo
 
-**→ [tools-shed.vercel.app](https://tools-shed.vercel.app)**
+**→ [tools-shed.com](https://tools-shed.com)**
 
 ---
 

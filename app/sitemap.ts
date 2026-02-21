@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { tools, categories } from "@/lib/tools";
 
-const BASE_URL = "https://tools-shed.com"; // TODO: Replace with actual domain
+const BASE_URL = "https://tools-shed.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const toolPages = tools.map((tool) => ({

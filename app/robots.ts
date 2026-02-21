@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://tools-shed.com"; // TODO: Replace with actual domain
+const BASE_URL = "https://tools-shed.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {

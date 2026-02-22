@@ -24,6 +24,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         routing.locales.map((l) => [l, `https://tools-shed.com/${l}/developer/jwt-decoder`])
       ),
     },
+    openGraph: {
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      url: `https://tools-shed.com/${locale}/developer/jwt-decoder`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+    },
   };
 }
 

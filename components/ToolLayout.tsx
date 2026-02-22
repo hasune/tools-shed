@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import AdSlot from "./AdSlot";
 import GiscusComments from "./GiscusComments";
@@ -21,13 +21,16 @@ export default async function ToolLayout({
   children,
 }: ToolLayoutProps) {
   const t = await getTranslations("ToolLayout");
+  const locale = await getLocale();
 
-  const jsonLd = {
+  const toolUrl = `https://tools-shed.com/${locale}/${categorySlug}/${toolSlug}`;
+
+  const webAppJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: toolName,
     description: description,
-    url: `https://tools-shed.com/${categorySlug}/${toolSlug}`,
+    url: toolUrl,
     applicationCategory: "UtilitiesApplication",
     operatingSystem: "Any",
     offers: {
@@ -42,12 +45,41 @@ export default async function ToolLayout({
     },
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `https://tools-shed.com/${locale}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: categoryName,
+        item: `https://tools-shed.com/${locale}/${categorySlug}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: toolName,
+        item: toolUrl,
+      },
+    ],
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       {/* Breadcrumb */}

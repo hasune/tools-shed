@@ -6,6 +6,7 @@
     "finance": "財務",
     "health": "健康",
     "time": "時間",
+    "math": "数学",
     "toggleMenu": "メニューを切り替え"
   },
   "Footer": {
@@ -73,6 +74,10 @@
     "time": {
       "name": "時間ツール",
       "description": "タイムゾーン変換・年齢計算・日付ユーティリティ。"
+    },
+    "math": {
+      "name": "数学ツール",
+      "description": "方程式、数論、科学計算のためのツール。"
     }
   },
   "Tools": {
@@ -321,6 +326,78 @@
       "description": "時間・分・秒を加算または減算して所要時間を計算。",
       "metaTitle": "時間計算機",
       "metaDescription": "時間・分・秒の所要時間を加算または減算。無料オンライン時間計算ツール。"
+    },
+    "scientific-calculator": {
+      "name": "関数電卓",
+      "description": "三角関数、対数、べき乗などを備えた高機能電卓。",
+      "metaTitle": "関数電卓",
+      "metaDescription": "sin・cos・tan・log・sqrtなど多機能な関数電卓。ブラウザで即座に動作する無料オンラインツール。"
+    },
+    "gcd-lcm": {
+      "name": "最大公約数・最小公倍数計算",
+      "description": "複数の数値の最大公約数と最小公倍数を計算します。",
+      "metaTitle": "最大公約数・最小公倍数計算",
+      "metaDescription": "複数の数値の最大公約数（GCD）と最小公倍数（LCM）をステップごとに計算。無料オンライン数学計算ツール。"
+    },
+    "quadratic-solver": {
+      "name": "二次方程式ソルバー",
+      "description": "ax² + bx + c = 0 をステップごとに解きます。",
+      "metaTitle": "二次方程式ソルバー",
+      "metaDescription": "二次方程式 ax² + bx + c = 0 を解いて実数根・複素根・頂点を表示。無料オンライン数学計算ツール。"
+    },
+    "cron-parser": {
+      "name": "Cron式パーサー",
+      "description": "Cron式を解析して次回実行時刻を表示します。",
+      "metaTitle": "Cron式パーサー",
+      "metaDescription": "Cron式をわかりやすく解説し、次回スケジュール実行時刻を表示する無料オンラインツール。"
+    },
+    "json-to-typescript": {
+      "name": "JSON → TypeScript変換",
+      "description": "JSONオブジェクトからTypeScriptインターフェースを自動生成。",
+      "metaTitle": "JSON to TypeScript インターフェース生成",
+      "metaDescription": "JSONをTypeScriptインターフェースに自動変換。ブラウザで即座に動作する無料オンラインツール。"
+    },
+    "sql-formatter": {
+      "name": "SQLフォーマッター",
+      "description": "SQLクエリを見やすく整形・整理します。",
+      "metaTitle": "SQLフォーマッター",
+      "metaDescription": "SQLクエリをインデントとキーワード大文字化で整形する無料オンラインツール。サーバーへのアップロード不要。"
+    },
+    "string-escape": {
+      "name": "文字列エスケープ / アンエスケープ",
+      "description": "JSON・JavaScript・HTML向けに文字列をエスケープ/アンエスケープします。",
+      "metaTitle": "文字列エスケープ / アンエスケープ",
+      "metaDescription": "JSON・JavaScript・HTML用に文字列をエスケープ/アンエスケープ。バックスラッシュや特殊文字を即座に処理。"
+    },
+    "text-to-binary": {
+      "name": "テキスト → 2進数 / 16進数変換",
+      "description": "テキストを2進数・16進数・8進数・10進数に変換します。",
+      "metaTitle": "テキスト → 2進数 / 16進数変換",
+      "metaDescription": "テキストを2進数・16進数・8進数・10進数に変換。逆変換も対応。無料オンラインエンコーディングツール。"
+    },
+    "random-name-generator": {
+      "name": "ランダム名前ジェネレーター",
+      "description": "テストやプレースホルダー用にランダムな名前を生成します。",
+      "metaTitle": "ランダム名前ジェネレーター",
+      "metaDescription": "ランダムな名・姓・フルネームを生成。テストデータやダミーデータセットに最適。無料オンラインツール。"
+    },
+    "tip-calculator": {
+      "name": "チップ計算",
+      "description": "チップ額を計算し、複数人で割り勘します。",
+      "metaTitle": "チップ計算",
+      "metaDescription": "チップ額の計算と複数人での割り勘が簡単にできる無料オンラインツール。"
+    },
+    "running-pace": {
+      "name": "ランニングペース計算",
+      "description": "任意の距離のランニングペース・速度・時間・距離を計算します。",
+      "metaTitle": "ランニングペース計算",
+      "metaDescription": "ランニングペース・完走時間・距離を計算。5K・10K・ハーフ・フルマラソンに対応。無料オンラインツール。"
+    },
+    "water-intake": {
+      "name": "水分摂取量計算",
+      "description": "体重と活動量に基づいた1日の推奨水分摂取量を計算します。",
+      "metaTitle": "水分摂取量計算",
+      "metaDescription": "体重と活動レベルに基づいた1日の推奨水分摂取量を計算する無料オンラインツール。"
     }
   },
   "Common": {
@@ -734,6 +811,163 @@
     "clearButton": "クリア",
     "resultLabel": "結果",
     "totalSeconds": "総秒数"
+  },
+  "ScientificCalculator": {
+    "degMode": "度",
+    "radMode": "ラジアン",
+    "clearButton": "C",
+    "clearEntryButton": "CE",
+    "historyLabel": "履歴",
+    "noHistory": "まだ計算履歴がありません"
+  },
+  "GcdLcm": {
+    "inputLabel": "数値を入力（カンマ区切り）",
+    "inputPlaceholder": "例: 12, 18, 24",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "gcdLabel": "最大公約数（GCD）",
+    "lcmLabel": "最小公倍数（LCM）",
+    "stepsLabel": "計算ステップ"
+  },
+  "QuadraticSolver": {
+    "coefficientA": "a（x²の係数）",
+    "coefficientB": "b（xの係数）",
+    "coefficientC": "c（定数）",
+    "solveButton": "解く",
+    "clearButton": "クリア",
+    "discriminantLabel": "判別式（Δ）",
+    "rootsLabel": "解",
+    "twoRoots": "2つの実数解",
+    "oneRoot": "重解（実数）",
+    "complexRoots": "2つの複素数解",
+    "vertexLabel": "頂点",
+    "axisLabel": "軸の方程式",
+    "noSolution": "解なし（aは0にできません）"
+  },
+  "CronParser": {
+    "inputLabel": "Cron式",
+    "inputPlaceholder": "例: 0 9 * * 1-5",
+    "parseButton": "解析",
+    "clearButton": "クリア",
+    "explanationLabel": "説明",
+    "nextRunsLabel": "次の5回の実行時刻",
+    "invalidCron": "無効なCron式です",
+    "minuteLabel": "分",
+    "hourLabel": "時",
+    "dayOfMonthLabel": "日",
+    "monthLabel": "月",
+    "dayOfWeekLabel": "曜日",
+    "everyMinute": "毎分",
+    "everyHour": "毎時",
+    "everyDay": "毎日",
+    "everyMonth": "毎月",
+    "everyDayOfWeek": "毎曜日"
+  },
+  "JsonToTypescript": {
+    "inputLabel": "JSON入力",
+    "inputPlaceholder": "JSONをここに貼り付けてください...",
+    "outputLabel": "TypeScriptインターフェース",
+    "convertButton": "変換",
+    "clearButton": "クリア",
+    "rootInterfaceName": "ルートインターフェース名",
+    "rootInterfaceNamePlaceholder": "例: MyInterface",
+    "invalidJson": "無効なJSONです"
+  },
+  "SqlFormatter": {
+    "inputLabel": "SQL入力",
+    "inputPlaceholder": "SQLクエリをここに貼り付けてください...",
+    "outputLabel": "整形済みSQL",
+    "formatButton": "整形",
+    "clearButton": "クリア",
+    "uppercaseKeywords": "キーワードを大文字にする"
+  },
+  "StringEscape": {
+    "jsonTab": "JSON",
+    "jsTab": "JavaScript",
+    "htmlTab": "HTML",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "escapeButton": "エスケープ",
+    "unescapeButton": "アンエスケープ"
+  },
+  "TextToBinary": {
+    "textTab": "テキスト → エンコード",
+    "binaryTab": "エンコード → テキスト",
+    "inputLabel": "入力テキスト",
+    "outputLabel": "出力",
+    "convertButton": "変換",
+    "clearButton": "クリア",
+    "binaryLabel": "2進数",
+    "hexLabel": "16進数",
+    "octalLabel": "8進数",
+    "decimalLabel": "10進数（ASCII）",
+    "separatorLabel": "区切り文字",
+    "spaceSeparator": "スペース",
+    "dashSeparator": "ダッシュ",
+    "noneSeparator": "なし",
+    "inputPlaceholder": "変換するテキストを入力...",
+    "binaryInputPlaceholder": "2進数・16進数などのエンコード済みテキストを入力..."
+  },
+  "RandomNameGenerator": {
+    "countLabel": "件数",
+    "genderLabel": "性別",
+    "genderAny": "すべて",
+    "genderMale": "男性",
+    "genderFemale": "女性",
+    "typeLabel": "名前の種類",
+    "typeFullName": "フルネーム",
+    "typeFirstName": "名前のみ",
+    "typeLastName": "苗字のみ",
+    "generateButton": "生成",
+    "copyAllButton": "すべてコピー"
+  },
+  "TipCalculator": {
+    "billAmountLabel": "請求金額",
+    "tipPercentageLabel": "チップ率",
+    "numberOfPeopleLabel": "人数",
+    "tipAmountLabel": "チップ額",
+    "totalLabel": "合計",
+    "perPersonLabel": "1人あたり",
+    "customTip": "カスタム",
+    "calculateButton": "計算"
+  },
+  "RunningPace": {
+    "paceTab": "ペースを求める",
+    "timeTab": "タイムを求める",
+    "distanceTab": "距離を求める",
+    "distanceLabel": "距離",
+    "timeLabel": "タイム",
+    "paceLabel": "ペース",
+    "hoursLabel": "時間",
+    "minutesLabel": "分",
+    "secondsLabel": "秒",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "unitKm": "キロメートル",
+    "unitMi": "マイル",
+    "customDistance": "カスタム",
+    "resultLabel": "結果",
+    "commonDistances": "主要距離"
+  },
+  "WaterIntake": {
+    "weightLabel": "体重",
+    "weightUnitKg": "kg",
+    "weightUnitLb": "lb",
+    "activityLabel": "活動レベル",
+    "activitySedentary": "座りがち（ほぼ運動なし）",
+    "activityLight": "軽い活動（週1〜3日）",
+    "activityModerate": "中程度（週3〜5日）",
+    "activityActive": "活発（週6〜7日）",
+    "activityVeryActive": "非常に活発（毎日ハードに運動）",
+    "climateLabel": "気候",
+    "climateTemperate": "温暖",
+    "climateHot": "暑い / 湿度が高い",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "dailyIntakeLabel": "1日の推奨摂取量",
+    "glassesLabel": "コップ目安（250mL換算）",
+    "noteLabel": "注意",
+    "noteText": "これは目安の値です。医師の指示・気候・個人の健康状態に応じて調整してください。"
   },
   "ColorConverter": {
     "invalidColor": "無効なカラー値です",

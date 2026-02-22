@@ -16,6 +16,7 @@ export default function Header() {
     { href: "/finance" as const, labelKey: "finance" as const },
     { href: "/health" as const, labelKey: "health" as const },
     { href: "/time" as const, labelKey: "time" as const },
+    { href: "/math" as const, labelKey: "math" as const },
   ];
 
   return (

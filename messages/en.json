@@ -6,6 +6,7 @@
     "finance": "Finance",
     "health": "Health",
     "time": "Time",
+    "math": "Math",
     "toggleMenu": "Toggle menu"
   },
   "Footer": {
@@ -73,6 +74,10 @@
     "time": {
       "name": "Time Tools",
       "description": "Time zone converters, age calculators, and date utilities."
+    },
+    "math": {
+      "name": "Math Tools",
+      "description": "Calculators for equations, number theory, and scientific computing."
     }
   },
   "Tools": {
@@ -321,6 +326,78 @@
       "description": "Add or subtract hours, minutes, and seconds to calculate time durations.",
       "metaTitle": "Time Duration Calculator",
       "metaDescription": "Add or subtract time durations in hours, minutes, and seconds. Free online time duration calculator."
+    },
+    "scientific-calculator": {
+      "name": "Scientific Calculator",
+      "description": "Advanced calculator with trigonometry, logarithms, powers, and more.",
+      "metaTitle": "Scientific Calculator",
+      "metaDescription": "Free online scientific calculator with sin, cos, tan, log, sqrt, and more. Works in your browser instantly."
+    },
+    "gcd-lcm": {
+      "name": "GCD & LCM Calculator",
+      "description": "Calculate the Greatest Common Divisor and Least Common Multiple of multiple numbers.",
+      "metaTitle": "GCD & LCM Calculator",
+      "metaDescription": "Calculate the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of multiple numbers with step-by-step solutions."
+    },
+    "quadratic-solver": {
+      "name": "Quadratic Equation Solver",
+      "description": "Solve quadratic equations ax² + bx + c = 0 with step-by-step solutions.",
+      "metaTitle": "Quadratic Equation Solver",
+      "metaDescription": "Solve quadratic equations ax² + bx + c = 0. Get real and complex roots with step-by-step solutions. Free online quadratic calculator."
+    },
+    "cron-parser": {
+      "name": "Cron Expression Parser",
+      "description": "Parse and explain cron expressions with next scheduled execution times.",
+      "metaTitle": "Cron Expression Parser",
+      "metaDescription": "Parse and explain cron expressions in plain English. See the next scheduled execution times instantly. Free online cron parser."
+    },
+    "json-to-typescript": {
+      "name": "JSON to TypeScript",
+      "description": "Convert JSON objects to TypeScript interfaces automatically.",
+      "metaTitle": "JSON to TypeScript Interface Generator",
+      "metaDescription": "Convert JSON to TypeScript interfaces automatically. Paste your JSON and get clean TypeScript types instantly. Free online tool."
+    },
+    "sql-formatter": {
+      "name": "SQL Formatter",
+      "description": "Format and beautify SQL queries for better readability.",
+      "metaTitle": "SQL Formatter",
+      "metaDescription": "Format and beautify SQL queries with proper indentation and keyword casing. Free online SQL formatter — no server uploads."
+    },
+    "string-escape": {
+      "name": "String Escape / Unescape",
+      "description": "Escape and unescape strings for JSON, JavaScript, and HTML contexts.",
+      "metaTitle": "String Escape / Unescape",
+      "metaDescription": "Escape and unescape strings for JSON, JavaScript, and HTML. Handle backslashes, quotes, and special characters instantly."
+    },
+    "text-to-binary": {
+      "name": "Text to Binary / Hex",
+      "description": "Convert text to binary, hexadecimal, octal, and decimal encodings.",
+      "metaTitle": "Text to Binary / Hex Converter",
+      "metaDescription": "Convert text to binary, hexadecimal, octal, and decimal. Decode binary or hex back to text. Free online encoding converter."
+    },
+    "random-name-generator": {
+      "name": "Random Name Generator",
+      "description": "Generate random first names, last names, or full names for testing and placeholders.",
+      "metaTitle": "Random Name Generator",
+      "metaDescription": "Generate random first names, last names, or full names. Perfect for testing, placeholder data, and dummy datasets."
+    },
+    "tip-calculator": {
+      "name": "Tip Calculator",
+      "description": "Calculate tip amounts and split the bill between multiple people.",
+      "metaTitle": "Tip Calculator",
+      "metaDescription": "Calculate tip amounts and split the bill between any number of people. Free online tip and bill splitter."
+    },
+    "running-pace": {
+      "name": "Running Pace Calculator",
+      "description": "Calculate running pace, speed, time, and distance for any race distance.",
+      "metaTitle": "Running Pace Calculator",
+      "metaDescription": "Calculate your running pace, finish time, or distance. Supports 5K, 10K, half marathon, and full marathon. Free online running calculator."
+    },
+    "water-intake": {
+      "name": "Water Intake Calculator",
+      "description": "Calculate your recommended daily water intake based on weight and activity level.",
+      "metaTitle": "Water Intake Calculator",
+      "metaDescription": "Calculate your recommended daily water intake based on weight and activity level. Free online hydration calculator."
     }
   },
   "Common": {
@@ -734,6 +811,163 @@
     "clearButton": "Clear",
     "resultLabel": "Result",
     "totalSeconds": "Total seconds"
+  },
+  "ScientificCalculator": {
+    "degMode": "DEG",
+    "radMode": "RAD",
+    "clearButton": "C",
+    "clearEntryButton": "CE",
+    "historyLabel": "History",
+    "noHistory": "No calculations yet"
+  },
+  "GcdLcm": {
+    "inputLabel": "Enter numbers (comma-separated)",
+    "inputPlaceholder": "e.g. 12, 18, 24",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "gcdLabel": "GCD (Greatest Common Divisor)",
+    "lcmLabel": "LCM (Least Common Multiple)",
+    "stepsLabel": "Steps"
+  },
+  "QuadraticSolver": {
+    "coefficientA": "a (coefficient of x²)",
+    "coefficientB": "b (coefficient of x)",
+    "coefficientC": "c (constant)",
+    "solveButton": "Solve",
+    "clearButton": "Clear",
+    "discriminantLabel": "Discriminant (Δ)",
+    "rootsLabel": "Roots",
+    "twoRoots": "Two real roots",
+    "oneRoot": "One real root (repeated)",
+    "complexRoots": "Two complex roots",
+    "vertexLabel": "Vertex",
+    "axisLabel": "Axis of symmetry",
+    "noSolution": "No solution (a cannot be 0)"
+  },
+  "CronParser": {
+    "inputLabel": "Cron Expression",
+    "inputPlaceholder": "e.g. 0 9 * * 1-5",
+    "parseButton": "Parse",
+    "clearButton": "Clear",
+    "explanationLabel": "Explanation",
+    "nextRunsLabel": "Next 5 scheduled runs",
+    "invalidCron": "Invalid cron expression",
+    "minuteLabel": "Minute",
+    "hourLabel": "Hour",
+    "dayOfMonthLabel": "Day of Month",
+    "monthLabel": "Month",
+    "dayOfWeekLabel": "Day of Week",
+    "everyMinute": "every minute",
+    "everyHour": "every hour",
+    "everyDay": "every day",
+    "everyMonth": "every month",
+    "everyDayOfWeek": "every day of the week"
+  },
+  "JsonToTypescript": {
+    "inputLabel": "JSON Input",
+    "inputPlaceholder": "Paste your JSON here...",
+    "outputLabel": "TypeScript Interface",
+    "convertButton": "Convert",
+    "clearButton": "Clear",
+    "rootInterfaceName": "Root interface name",
+    "rootInterfaceNamePlaceholder": "e.g. MyInterface",
+    "invalidJson": "Invalid JSON"
+  },
+  "SqlFormatter": {
+    "inputLabel": "SQL Input",
+    "inputPlaceholder": "Paste your SQL query here...",
+    "outputLabel": "Formatted SQL",
+    "formatButton": "Format",
+    "clearButton": "Clear",
+    "uppercaseKeywords": "Uppercase keywords"
+  },
+  "StringEscape": {
+    "jsonTab": "JSON",
+    "jsTab": "JavaScript",
+    "htmlTab": "HTML",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "escapeButton": "Escape",
+    "unescapeButton": "Unescape"
+  },
+  "TextToBinary": {
+    "textTab": "Text → Encoding",
+    "binaryTab": "Encoding → Text",
+    "inputLabel": "Input text",
+    "outputLabel": "Output",
+    "convertButton": "Convert",
+    "clearButton": "Clear",
+    "binaryLabel": "Binary",
+    "hexLabel": "Hexadecimal",
+    "octalLabel": "Octal",
+    "decimalLabel": "Decimal (ASCII)",
+    "separatorLabel": "Separator",
+    "spaceSeparator": "Space",
+    "dashSeparator": "Dash",
+    "noneSeparator": "None",
+    "inputPlaceholder": "Enter text to convert...",
+    "binaryInputPlaceholder": "Enter binary, hex, or other encoded text..."
+  },
+  "RandomNameGenerator": {
+    "countLabel": "Count",
+    "genderLabel": "Gender",
+    "genderAny": "Any",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "typeLabel": "Name type",
+    "typeFullName": "Full name",
+    "typeFirstName": "First name only",
+    "typeLastName": "Last name only",
+    "generateButton": "Generate",
+    "copyAllButton": "Copy All"
+  },
+  "TipCalculator": {
+    "billAmountLabel": "Bill amount",
+    "tipPercentageLabel": "Tip percentage",
+    "numberOfPeopleLabel": "Number of people",
+    "tipAmountLabel": "Tip amount",
+    "totalLabel": "Total",
+    "perPersonLabel": "Per person",
+    "customTip": "Custom",
+    "calculateButton": "Calculate"
+  },
+  "RunningPace": {
+    "paceTab": "Find Pace",
+    "timeTab": "Find Time",
+    "distanceTab": "Find Distance",
+    "distanceLabel": "Distance",
+    "timeLabel": "Time",
+    "paceLabel": "Pace",
+    "hoursLabel": "Hours",
+    "minutesLabel": "Minutes",
+    "secondsLabel": "Seconds",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "unitKm": "Kilometers",
+    "unitMi": "Miles",
+    "customDistance": "Custom",
+    "resultLabel": "Result",
+    "commonDistances": "Common distances"
+  },
+  "WaterIntake": {
+    "weightLabel": "Weight",
+    "weightUnitKg": "kg",
+    "weightUnitLb": "lb",
+    "activityLabel": "Activity level",
+    "activitySedentary": "Sedentary (little or no exercise)",
+    "activityLight": "Light (exercise 1-3 days/week)",
+    "activityModerate": "Moderate (exercise 3-5 days/week)",
+    "activityActive": "Active (exercise 6-7 days/week)",
+    "activityVeryActive": "Very active (hard exercise daily)",
+    "climateLabel": "Climate",
+    "climateTemperate": "Temperate",
+    "climateHot": "Hot / Humid",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "dailyIntakeLabel": "Daily recommended intake",
+    "glassesLabel": "Approx. glasses (250 mL each)",
+    "noteLabel": "Note",
+    "noteText": "This is an estimate. Adjust based on your doctor's advice, climate, and individual health conditions."
   },
   "ColorConverter": {
     "invalidColor": "Invalid color value",

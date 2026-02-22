@@ -1,91 +1,1131 @@
 {
-  "Header": { "developer": "Pengembang", "converters": "Konverter", "text": "Teks", "finance": "Keuangan", "health": "Kesehatan", "time": "Waktu", "toggleMenu": "Buka/tutup menu" },
-  "Footer": { "tagline": "Alat online gratis untuk pengembang, pelajar, dan profesional di seluruh dunia.", "copyright": "© {year} ToolsShed. Semua hak dilindungi.", "about": "Tentang", "privacyPolicy": "Kebijakan Privasi", "developer": "Pengembang", "converters": "Konverter", "tools": "Alat", "jsonFormatter": "Pemformat JSON", "base64": "Base64", "uuidGenerator": "Generator UUID", "hashGenerator": "Generator Hash", "length": "Panjang", "weight": "Berat", "temperature": "Suhu", "bmiCalculator": "Kalkulator BMI", "passwordGenerator": "Generator Kata Sandi", "timezoneConverter": "Konverter Zona Waktu", "compoundInterest": "Bunga Majemuk" },
-  "HomePage": { "heroTitle": "Alat Online Gratis untuk", "heroTitleHighlight": "Semua Orang", "heroSubtitle": "Kumpulan alat yang berguna dan ramah privasi. Tidak perlu mendaftar. Bekerja di browser Anda, seketika.", "noRegistration": "Tanpa pendaftaran", "noDataSent": "Tidak ada data yang dikirim ke server", "alwaysFree": "Selalu gratis", "popularTools": "Alat Populer", "whyTitle": "Mengapa ToolsShed?", "privacyFirstTitle": "Privasi Utama", "privacyFirstDesc": "Semua perhitungan berjalan di browser Anda. Tidak ada data yang pernah dikirim ke server kami.", "instantResultsTitle": "Hasil Instan", "instantResultsDesc": "Tanpa loading. Hasil muncul saat Anda mengetik, tanpa permintaan server.", "worksEverywhereTitle": "Bekerja di Mana Saja", "worksEverywhereDesc": "Ramah mobile, tidak perlu instalasi. Buka dan gunakan.", "moreTools": "+{count} lainnya →", "metadata": { "title": "ToolsShed - Alat Online Gratis", "description": "Alat online gratis untuk pengembang, pelajar, dan profesional. Pemformat JSON, Base64, Generator UUID, Konverter Satuan, dan banyak lagi." } },
-  "Categories": { "developer": { "name": "Alat Pengembang", "description": "Alat penting untuk pengembang: JSON, Base64, UUID, hashing, dan banyak lagi." }, "converters": { "name": "Konverter Satuan", "description": "Konversi antara satuan panjang, berat, suhu, dan lainnya." }, "text": { "name": "Alat Teks", "description": "Alat untuk manipulasi, penghitungan, dan konversi teks." }, "finance": { "name": "Alat Keuangan", "description": "Kalkulator untuk bunga, persentase, pinjaman, dan investasi." }, "health": { "name": "Alat Kesehatan", "description": "Kalkulator BMI, kalori, dan metrik kebugaran." }, "time": { "name": "Alat Waktu", "description": "Konverter zona waktu, kalkulator usia, dan utilitas tanggal." } },
-  "Tools": {
-    "json-formatter": { "name": "Pemformat & Validator JSON", "description": "Format, validasi, dan percantik data JSON.", "metaTitle": "Pemformat & Validator JSON", "metaDescription": "Format, validasi, dan percantik data JSON dengan pemeriksaan sintaks. Pemformat JSON online gratis." },
-    "uuid-generator": { "name": "Generator UUID", "description": "Buat UUID acak (v4) untuk aplikasi Anda.", "metaTitle": "Generator UUID", "metaDescription": "Buat UUID acak (v4) secara instan di browser Anda. Gratis, tanpa pendaftaran." },
-    "base64": { "name": "Enkoder / Dekoder Base64", "description": "Enkode teks atau file ke Base64 dan dekode string Base64.", "metaTitle": "Enkoder / Dekoder Base64", "metaDescription": "Enkode teks atau file ke Base64 dan dekode string Base64. Alat Base64 online gratis." },
-    "url-encoder": { "name": "Enkoder / Dekoder URL", "description": "Enkode dan dekode URL serta parameter query.", "metaTitle": "Enkoder / Dekoder URL", "metaDescription": "Enkode dan dekode URL serta parameter query. Alat enkoding URL online gratis." },
-    "hash-generator": { "name": "Generator Hash", "description": "Buat hash kriptografis MD5, SHA-256, dan SHA-512.", "metaTitle": "Generator Hash", "metaDescription": "Buat hash MD5, SHA-256, dan SHA-512 di sisi klien. Tidak ada data yang meninggalkan browser Anda." },
-    "jwt-decoder": { "name": "Dekoder JWT", "description": "Dekode dan periksa payload JSON Web Token tanpa verifikasi tanda tangan.", "metaTitle": "Dekoder JWT", "metaDescription": "Dekode dan periksa header dan payload JWT. Inspektor JWT berbasis browser gratis." },
-    "length-converter": { "name": "Konverter Panjang", "description": "Konversi antara meter, kaki, inci, mil, kilometer, dan lainnya.", "metaTitle": "Konverter Panjang", "metaDescription": "Konversi antara meter, kaki, inci, mil, dan kilometer. Konverter panjang online gratis." },
-    "weight-converter": { "name": "Konverter Berat", "description": "Konversi antara kilogram, pound, ons, gram, dan lainnya.", "metaTitle": "Konverter Berat", "metaDescription": "Konversi antara kilogram, pound, ons, dan gram. Konverter berat online gratis." },
-    "temperature-converter": { "name": "Konverter Suhu", "description": "Konversi antara Celsius, Fahrenheit, dan Kelvin.", "metaTitle": "Konverter Suhu", "metaDescription": "Konversi antara Celsius, Fahrenheit, dan Kelvin. Konverter suhu online gratis." },
-    "word-counter": { "name": "Penghitung Kata & Karakter", "description": "Hitung kata, karakter, kalimat, dan paragraf dalam teks Anda.", "metaTitle": "Penghitung Kata & Karakter", "metaDescription": "Hitung kata, karakter, kalimat, dan paragraf. Penghitung kata online gratis." },
-    "case-converter": { "name": "Konverter Huruf Besar/Kecil", "description": "Konversi teks ke HURUF BESAR, huruf kecil, Judul, camelCase, dan lainnya.", "metaTitle": "Konverter Huruf Besar/Kecil", "metaDescription": "Konversi teks antara HURUF BESAR, huruf kecil, Judul, camelCase, snake_case, dan lainnya." },
-    "password-generator": { "name": "Generator Kata Sandi", "description": "Buat kata sandi yang kuat dan aman dengan opsi yang dapat disesuaikan.", "metaTitle": "Generator Kata Sandi", "metaDescription": "Buat kata sandi yang kuat dan aman dengan panjang dan jenis karakter yang dapat disesuaikan." },
-    "compound-interest": { "name": "Kalkulator Bunga Majemuk", "description": "Hitung pertumbuhan bunga majemuk untuk investasi dari waktu ke waktu.", "metaTitle": "Kalkulator Bunga Majemuk", "metaDescription": "Hitung pertumbuhan bunga majemuk untuk investasi. Kalkulator bunga majemuk online gratis." },
-    "percentage-calculator": { "name": "Kalkulator Persentase", "description": "Hitung persentase, perubahan persentase, dan jumlah tip.", "metaTitle": "Kalkulator Persentase", "metaDescription": "Hitung persentase, perubahan persentase, dan jumlah tip. Kalkulator persentase online gratis." },
-    "bmi-calculator": { "name": "Kalkulator BMI", "description": "Hitung Indeks Massa Tubuh dengan satuan metrik dan imperial.", "metaTitle": "Kalkulator BMI", "metaDescription": "Hitung Indeks Massa Tubuh (BMI) Anda dengan satuan metrik atau imperial. Kalkulator BMI online gratis." },
-    "age-calculator": { "name": "Kalkulator Usia", "description": "Hitung usia tepat dalam tahun, bulan, dan hari dari tanggal lahir.", "metaTitle": "Kalkulator Usia", "metaDescription": "Hitung usia tepat Anda dalam tahun, bulan, dan hari dari tanggal lahir. Kalkulator usia online gratis." },
-    "timezone-converter": { "name": "Konverter Zona Waktu", "description": "Konversi waktu antara zona waktu berbeda di seluruh dunia.", "metaTitle": "Konverter Zona Waktu", "metaDescription": "Konversi waktu antara zona waktu berbeda di seluruh dunia. Konverter zona waktu online gratis." },
-    "color-converter": { "name": "Konverter Warna", "description": "Konversi warna antara format HEX, RGB, dan HSL secara instan.", "metaTitle": "Konverter Warna — HEX, RGB, HSL", "metaDescription": "Konversi warna antara format HEX, RGB, dan HSL secara instan. Konverter warna online gratis — bekerja di browser Anda." },
-    "number-base-converter": { "name": "Konverter Basis Bilangan", "description": "Konversi bilangan antara biner, oktal, desimal, dan heksadesimal.", "metaTitle": "Konverter Basis Bilangan", "metaDescription": "Konversi bilangan antara biner (Base 2), oktal (Base 8), desimal (Base 10), dan heksadesimal (Base 16). Konverter basis bilangan online gratis." },
-    "regex-tester": { "name": "Penguji RegEx", "description": "Uji dan debug ekspresi reguler dengan sorotan kecocokan secara langsung.", "metaTitle": "Penguji RegEx", "metaDescription": "Uji dan debug ekspresi reguler dengan sorotan kecocokan secara langsung. Penguji RegEx online gratis — tidak perlu mendaftar." },
-    "markdown-preview": { "name": "Pratinjau Markdown", "description": "Tulis Markdown dan pratinjau hasil render secara real time.", "metaTitle": "Pratinjau Markdown", "metaDescription": "Tulis Markdown dan pratinjau hasil render secara instan. Editor Markdown online gratis dengan pratinjau langsung." },
-    "unix-timestamp": { "name": "Konverter Timestamp Unix", "description": "Konversi antara timestamp Unix dan tanggal yang mudah dibaca.", "metaTitle": "Konverter Timestamp Unix", "metaDescription": "Konversi timestamp Unix ke tanggal yang mudah dibaca dan sebaliknya. Konverter timestamp Unix online gratis." },
-    "csv-json": { "name": "CSV ↔ JSON Converter", "description": "Konversi data CSV ke JSON dan array JSON kembali ke format CSV.", "metaTitle": "CSV to JSON Converter", "metaDescription": "Konversi CSV ke JSON dan JSON ke CSV secara instan di browser Anda. Konverter CSV JSON online gratis — tidak perlu mengunggah." },
-    "diff-checker": { "name": "Diff Checker", "description": "Bandingkan dua teks dan sorot perbedaannya baris per baris.", "metaTitle": "Diff Checker — Compare Two Texts", "metaDescription": "Bandingkan dua teks dan sorot penambahan, penghapusan, dan perubahan. Diff checker online gratis — bekerja sepenuhnya di browser Anda." },
-    "lorem-ipsum": { "name": "Generator Lorem Ipsum", "description": "Buat teks Lorem Ipsum sebagai placeholder untuk desain dan pengembangan.", "metaTitle": "Lorem Ipsum Generator", "metaDescription": "Buat teks placeholder Lorem Ipsum berdasarkan paragraf, kalimat, atau kata. Generator Lorem Ipsum online gratis." },
-    "html-encoder": { "name": "HTML Encoder / Decoder", "description": "Enkode karakter khusus ke entitas HTML dan dekode kembali.", "metaTitle": "HTML Encoder / Decoder", "metaDescription": "Enkode karakter khusus ke entitas HTML dan dekode entitas HTML kembali ke teks. HTML encoder decoder online gratis." },
-    "yaml-json": { "name": "YAML ↔ JSON Converter", "description": "Konversi antara format YAML dan JSON secara instan.", "metaTitle": "YAML to JSON Converter", "metaDescription": "Konversi YAML ke JSON dan JSON ke YAML secara instan di browser Anda. Konverter YAML JSON online gratis." },
-    "data-storage-converter": { "name": "Konverter Penyimpanan Data", "description": "Konversi antara byte, kilobyte, megabyte, gigabyte, terabyte, dan lainnya.", "metaTitle": "Data Storage Converter", "metaDescription": "Konversi antara byte, KB, MB, GB, TB dan satuan biner (KiB, MiB, GiB). Konverter penyimpanan data online gratis." },
-    "speed-converter": { "name": "Konverter Kecepatan", "description": "Konversi antara km/jam, mph, m/s, knot, dan satuan kecepatan lainnya.", "metaTitle": "Speed Converter", "metaDescription": "Konversi antara km/jam, mph, m/s, knot, dan kaki per detik. Konverter kecepatan online gratis." },
-    "area-converter": { "name": "Konverter Luas", "description": "Konversi antara meter persegi, kaki persegi, acre, hektar, dan lainnya.", "metaTitle": "Area Converter", "metaDescription": "Konversi antara meter persegi, kaki persegi, acre, hektar, dan lainnya. Konverter luas online gratis." },
-    "volume-converter": { "name": "Konverter Volume", "description": "Konversi antara liter, galon, ons cairan, meter kubik, dan lainnya.", "metaTitle": "Volume Converter", "metaDescription": "Konversi antara liter, galon, ons cairan, cangkir, dan meter kubik. Konverter volume online gratis." },
-    "slug-generator": { "name": "Generator Slug", "description": "Ubah teks apa pun menjadi slug yang bersih dan ramah URL.", "metaTitle": "Slug Generator", "metaDescription": "Ubah teks apa pun menjadi slug yang ramah URL. Generator slug online gratis untuk permalink yang ramah SEO." },
-    "text-repeater": { "name": "Pengulang Teks", "description": "Ulangi teks atau karakter apa pun sebanyak jumlah yang ditentukan.", "metaTitle": "Text Repeater", "metaDescription": "Ulangi teks, kata, atau karakter apa pun berapa kali pun dengan pemisah khusus. Pengulang teks online gratis." },
-    "discount-calculator": { "name": "Kalkulator Diskon", "description": "Hitung harga jual, jumlah diskon, dan penghematan secara instan.", "metaTitle": "Discount Calculator", "metaDescription": "Hitung harga jual dan penghematan dari persentase diskon berapa pun. Kalkulator diskon dan harga jual online gratis." },
-    "loan-calculator": { "name": "Kalkulator Pinjaman", "description": "Hitung cicilan bulanan, total bunga, dan amortisasi pinjaman.", "metaTitle": "Loan Calculator", "metaDescription": "Hitung cicilan pinjaman bulanan, total bunga, dan jadwal amortisasi lengkap. Kalkulator pinjaman dan KPR online gratis." },
-    "roi-calculator": { "name": "Kalkulator ROI", "description": "Hitung return on investment dan ROI tahunan untuk investasi apa pun.", "metaTitle": "ROI Calculator", "metaDescription": "Hitung return on investment (ROI) dan ROI tahunan untuk investasi apa pun. Kalkulator ROI online gratis." },
-    "tdee-calculator": { "name": "Kalkulator TDEE", "description": "Hitung Total Daily Energy Expenditure dan kebutuhan kalori harian Anda.", "metaTitle": "TDEE Calculator — Daily Calorie Calculator", "metaDescription": "Hitung Total Daily Energy Expenditure (TDEE) dan kebutuhan kalori harian berdasarkan tingkat aktivitas. Kalkulator TDEE online gratis." },
-    "ideal-weight": { "name": "Kalkulator Berat Ideal", "description": "Hitung berat badan ideal Anda berdasarkan tinggi badan menggunakan beberapa formula.", "metaTitle": "Ideal Weight Calculator", "metaDescription": "Hitung berat badan ideal Anda menggunakan formula Robinson, Miller, Devine, dan Hamwi. Kalkulator berat ideal online gratis." },
-    "body-fat": { "name": "Kalkulator Lemak Tubuh", "description": "Perkirakan persentase lemak tubuh menggunakan metode U.S. Navy.", "metaTitle": "Body Fat Calculator", "metaDescription": "Perkirakan persentase lemak tubuh Anda menggunakan metode U.S. Navy. Kalkulator lemak tubuh online gratis untuk pria dan wanita." },
-    "date-difference": { "name": "Kalkulator Selisih Tanggal", "description": "Hitung jumlah hari, minggu, dan bulan yang tepat antara dua tanggal.", "metaTitle": "Date Difference Calculator", "metaDescription": "Hitung jumlah hari, minggu, dan bulan yang tepat antara dua tanggal apa pun. Kalkulator selisih tanggal online gratis." },
-    "time-duration": { "name": "Kalkulator Durasi Waktu", "description": "Tambah atau kurangi jam, menit, dan detik untuk menghitung durasi waktu.", "metaTitle": "Time Duration Calculator", "metaDescription": "Tambah atau kurangi durasi waktu dalam jam, menit, dan detik. Kalkulator durasi waktu online gratis." }
+  "Header": {
+    "developer": "Pengembang",
+    "converters": "Konverter",
+    "text": "Teks",
+    "finance": "Keuangan",
+    "health": "Kesehatan",
+    "time": "Waktu",
+    "math": "Matematika",
+    "toggleMenu": "Buka/tutup menu"
   },
-  "Common": { "copy": "Salin", "copied": "Disalin!", "clear": "Hapus", "calculate": "Hitung", "generate": "Buat", "sample": "Contoh", "result": "Hasil" },
-  "ToolLayout": { "home": "Beranda", "breadcrumbLabel": "Navigasi" },
-  "JsonFormatter": { "indent": "Indentasi:", "twoSpaces": "2 spasi", "fourSpaces": "4 spasi", "oneSpace": "1 spasi", "inputLabel": "JSON Masukan", "inputPlaceholder": "Tempel JSON Anda di sini...", "outputLabel": "Keluaran", "formatButton": "Format / Validasi", "minifyButton": "Minify", "validJson": "JSON Valid" },
-  "UuidGenerator": { "count": "Jumlah:", "uppercase": "Huruf besar", "includeHyphens": "Sertakan tanda hubung", "generateButton": "Buat UUID", "generateButtonPlural": "Buat UUID", "generated": "{count} UUID dibuat", "generatedPlural": "{count} UUID dibuat", "copyAll": "Salin semua", "copiedAll": "Semua disalin!", "infoText": "UUID dibuat menggunakan crypto.randomUUID() (v4) — acak secara kriptografis, dibuat sepenuhnya di browser Anda." },
-  "Base64Tool": { "encodeTab": "enkode", "decodeTab": "dekode", "encodeInputLabel": "Teks yang akan diencode", "decodeInputLabel": "Base64 yang akan didecode", "encodePlaceholder": "Masukkan teks untuk diencode...", "decodePlaceholder": "Masukkan string Base64 untuk didecode...", "encodeButton": "Enkode", "decodeButton": "Dekode", "resultLabel": "Hasil", "infoText": "Mendukung teks Unicode. Enkoding/dekoding terjadi sepenuhnya di browser Anda — tidak ada data yang dikirim ke server mana pun." },
-  "UrlEncoderDecoder": { "encodeTab": "enkode", "decodeTab": "dekode", "typeLabel": "Tipe:", "encodeInputLabel": "Teks / URL yang akan diencode", "decodeInputLabel": "URL terenkode yang akan didecode", "encodePlaceholder": "Masukkan teks atau URL...", "decodePlaceholder": "Masukkan URL terenkode...", "loadSample": "Muat contoh", "encodeButton": "Enkode", "decodeButton": "Dekode", "resultLabel": "Hasil", "swapTitle": "Tukar masukan/keluaran dan ganti mode" },
-  "HashGenerator": { "inputLabel": "Teks yang akan di-hash", "inputPlaceholder": "Masukkan teks untuk membuat hash...", "generateButton": "Buat Hash", "generating": "Membuat...", "disclaimer": "MD5 dihitung di sisi klien. SHA-256 dan SHA-512 menggunakan API crypto.subtle bawaan browser. Tidak ada data yang meninggalkan browser Anda." },
-  "JwtDecoder": { "inputLabel": "Token JWT", "inputPlaceholder": "Tempel token JWT Anda di sini...", "loadSample": "Muat contoh", "decodeButton": "Dekode JWT", "headerLabel": "Header", "payloadLabel": "Payload", "signatureLabel": "Tanda Tangan", "signatureNotVerified": "(tidak diverifikasi)", "tokenExpired": "⚠️ Token KADALUARSA", "tokenValid": "✅ Token BELUM kadaluarsa", "notVerifiedNote": "Alat ini hanya mendekode JWT — TIDAK memverifikasi tanda tangan. Jangan pernah berbagi token sensitif." },
-  "UnitConverter": { "clearButton": "Hapus" },
-  "TemperatureConverter": { "celsius": "Celsius (°C)", "fahrenheit": "Fahrenheit (°F)", "kelvin": "Kelvin (K)", "clearButton": "Hapus", "commonTemps": "Suhu Umum", "waterFreezes": "Air membeku", "roomTemp": "Suhu ruangan", "bodyTemp": "Suhu tubuh", "waterBoils": "Air mendidih", "absoluteZero": "Nol mutlak", "ovenMedium": "Oven (sedang)" },
-  "WordCounter": { "inputLabel": "Teks Anda", "inputPlaceholder": "Mulai mengetik atau tempel teks Anda di sini...", "words": "Kata", "characters": "Karakter", "charsNoSpaces": "Karakter (tanpa spasi)", "sentences": "Kalimat", "paragraphs": "Paragraf", "lines": "Baris", "readingTime": "Waktu membaca", "readingTimeValue": "~{minutes} mnt" },
-  "CaseConverter": { "inputLabel": "Teks masukan", "inputPlaceholder": "Ketik atau tempel teks untuk dikonversi...", "resultPlaceholder": "Hasil akan muncul di sini..." },
-  "PasswordGenerator": { "lengthLabel": "Panjang: {length}", "uppercase": "Huruf besar", "lowercase": "Huruf kecil", "numbers": "Angka", "symbols": "Simbol", "generateCount": "Buat:", "passwordSingular": "{count} kata sandi", "passwordPlural": "{count} kata sandi", "generateButton": "Buat", "strengthLabel": "Kekuatan", "strengthWeak": "Lemah", "strengthFair": "Cukup", "strengthGood": "Baik", "strengthStrong": "Kuat" },
-  "CompoundInterest": { "principalLabel": "Modal Awal ($)", "rateLabel": "Suku Bunga Tahunan (%)", "yearsLabel": "Jangka Waktu (tahun)", "compoundFrequencyLabel": "Frekuensi Penggabungan", "monthlyContributionLabel": "Kontribusi Bulanan ($)", "monthlyContributionOptional": "(opsional)", "daily": "Harian", "monthly": "Bulanan", "quarterly": "Triwulanan", "semiAnnually": "Setengah Tahunan", "annually": "Tahunan", "calculateButton": "Hitung", "finalAmount": "Jumlah Akhir", "interestEarned": "Bunga yang Diperoleh", "totalInvested": "Total Diinvestasikan" },
-  "PercentageCalculator": { "percentOf": "% dari angka", "percentChange": "% perubahan", "whatPercent": "X adalah berapa % dari Y?", "tipCalculator": "Kalkulator tip", "percentageLabel": "Persentase (%)", "numberLabel": "Angka", "originalValueLabel": "Nilai asli", "newValueLabel": "Nilai baru", "partLabel": "Bagian (X)", "wholeLabel": "Keseluruhan (Y)", "billAmountLabel": "Jumlah tagihan ($)", "tipPercentLabel": "Tip (%)", "numberOfPeopleLabel": "Jumlah orang" },
-  "BmiCalculator": { "metricTab": "Metrik (kg/cm)", "imperialTab": "Imperial (lb/ft)", "weightLabelMetric": "Berat (kg)", "weightLabelImperial": "Berat (lbs)", "heightLabelMetric": "Tinggi (cm)", "heightLabelImperial": "Tinggi (ft / in)", "calculateButton": "Hitung BMI", "clearButton": "Hapus", "categoriesTitle": "Kategori BMI", "underweight": "Kekurangan berat badan", "normalWeight": "Berat normal", "overweight": "Kelebihan berat badan", "obese": "Obesitas", "underweightRange": "< 18,5", "normalRange": "18,5 – 24,9", "overweightRange": "25 – 29,9", "obeseRange": "≥ 30", "underweightDesc": "BMI kurang dari 18,5", "normalWeightDesc": "BMI 18,5 – 24,9", "overweightDesc": "BMI 25 – 29,9", "obeseDesc": "BMI 30 atau lebih" },
-  "AgeCalculator": { "birthDateLabel": "Tanggal Lahir", "ageDateLabel": "Usia pada tanggal", "calculateButton": "Hitung Usia", "yearsOld": "tahun", "exactly": "Tepat!", "month": "{count} bulan", "months": "{count} bulan", "day": "{count} hari", "days": "{count} hari", "totalDays": "Total hari", "totalMonths": "Total bulan", "daysUntilBirthday": "Hari hingga ulang tahun", "todayBirthday": "🎂 Hari ini!", "nextBirthday": "Ulang tahun berikutnya:" },
-  "TimezoneConverter": { "currentTime": "Waktu saat ini (browser Anda)", "dateTimeLabel": "Tanggal & Waktu", "sourceTimezoneLabel": "Zona waktu sumber", "convertButton": "Konversi", "useNowButton": "Gunakan sekarang", "resultsLabel": "Hasil" },
-  "CsvJson": { "csvToJsonTab": "CSV → JSON", "jsonToCsvTab": "JSON → CSV", "inputLabel": "Masukan", "outputLabel": "Keluaran", "convertButton": "Konversi", "loadSample": "Muat contoh", "delimiterLabel": "Pembatas", "comma": "Koma (,)", "semicolon": "Titik koma (;)", "tab": "Tab (\\t)", "firstRowHeader": "Baris pertama adalah header", "invalidCsv": "Format CSV tidak valid", "invalidJson": "Masukan harus berupa array JSON dari objek" },
-  "DiffChecker": { "originalLabel": "Asli", "modifiedLabel": "Dimodifikasi", "compareButton": "Bandingkan", "clearButton": "Hapus", "noChanges": "Tidak ada perbedaan ditemukan — teks identik.", "addedLabel": "Ditambahkan", "removedLabel": "Dihapus", "unchangedLabel": "Tidak berubah", "linesLabel": "baris" },
-  "LoremIpsum": { "typeLabel": "Buat", "paragraphs": "Paragraf", "sentences": "Kalimat", "words": "Kata", "countLabel": "Jumlah:", "generateButton": "Buat", "startWithLoremIpsum": "Mulai dengan «Lorem ipsum»", "outputLabel": "Teks yang dibuat" },
-  "HtmlEncoder": { "encodeTab": "Enkode", "decodeTab": "Dekode", "inputLabel": "Masukan", "outputLabel": "Keluaran", "encodeButton": "Enkode", "decodeButton": "Dekode", "loadSample": "Muat contoh" },
-  "YamlJson": { "yamlToJsonTab": "YAML → JSON", "jsonToYamlTab": "JSON → YAML", "inputLabel": "Masukan", "outputLabel": "Keluaran", "convertButton": "Konversi", "loadSample": "Muat contoh", "indentLabel": "Indentasi:", "twoSpaces": "2 spasi", "fourSpaces": "4 spasi", "invalidYaml": "YAML tidak valid", "invalidJson": "JSON tidak valid" },
-  "SlugGenerator": { "inputLabel": "Teks", "inputPlaceholder": "Masukkan teks untuk diubah menjadi slug...", "outputLabel": "Slug", "separatorLabel": "Pemisah", "hyphen": "Tanda hubung (-)", "underscore": "Garis bawah (_)", "lowercaseLabel": "Huruf kecil" },
-  "TextRepeater": { "inputLabel": "Teks yang akan diulang", "inputPlaceholder": "Masukkan teks di sini...", "countLabel": "Ulang:", "separatorLabel": "Pemisah", "newline": "Baris baru", "space": "Spasi", "none": "Tidak ada", "custom": "Kustom", "customSeparatorLabel": "Pemisah kustom", "outputLabel": "Hasil" },
-  "DiscountCalculator": { "originalPriceLabel": "Harga asli", "discountLabel": "Diskon (%)", "calculateButton": "Hitung", "clearButton": "Hapus", "salePrice": "Harga jual", "youSave": "Anda hemat", "discountAmount": "Jumlah diskon" },
-  "LoanCalculator": { "loanAmountLabel": "Jumlah pinjaman", "annualRateLabel": "Suku bunga tahunan (%)", "loanTermLabel": "Jangka waktu pinjaman", "years": "Tahun", "months": "Bulan", "calculateButton": "Hitung", "monthlyPayment": "Cicilan bulanan", "totalPayment": "Total pembayaran", "totalInterest": "Total bunga", "amortizationTitle": "Jadwal amortisasi", "month": "Bulan", "principal": "Pokok", "interest": "Bunga", "balance": "Saldo" },
-  "RoiCalculator": { "initialInvestmentLabel": "Investasi awal", "finalValueLabel": "Nilai akhir", "timePeriodLabel": "Periode waktu (tahun)", "calculateButton": "Hitung", "clearButton": "Hapus", "roi": "ROI", "annualizedRoi": "ROI tahunan", "totalProfit": "Total keuntungan", "totalReturn": "Total pengembalian" },
-  "TdeeCalculator": { "ageLabel": "Usia", "genderLabel": "Jenis kelamin", "male": "Laki-laki", "female": "Perempuan", "weightLabel": "Berat badan", "heightLabel": "Tinggi badan", "metricTab": "Metrik", "imperialTab": "Imperial", "activityLabel": "Tingkat aktivitas", "sedentary": "Kurang gerak (sedikit atau tidak ada olahraga)", "lightlyActive": "Sedikit aktif (1–3 hari/minggu)", "moderatelyActive": "Cukup aktif (3–5 hari/minggu)", "veryActive": "Sangat aktif (6–7 hari/minggu)", "extraActive": "Sangat aktif sekali (olahraga keras setiap hari)", "calculateButton": "Hitung", "tdee": "TDEE", "bmr": "BMR (Laju Metabolisme Basal)", "weightLoss": "Penurunan berat (−500 kkal/hari)", "maintenance": "Pemeliharaan", "weightGain": "Penambahan berat (+500 kkal/hari)", "caloriesPerDay": "kkal/hari" },
-  "IdealWeight": { "heightLabel": "Tinggi badan", "genderLabel": "Jenis kelamin", "male": "Laki-laki", "female": "Perempuan", "metricTab": "Metrik (cm)", "imperialTab": "Imperial (ft/in)", "calculateButton": "Hitung", "clearButton": "Hapus", "resultsTitle": "Rentang berat ideal", "robinson": "Robinson (1983)", "miller": "Miller (1983)", "devine": "Devine (1974)", "hamwi": "Hamwi (1964)", "healthyBmi": "Rentang BMI sehat (18,5–24,9)" },
-  "BodyFat": { "metricTab": "Metrik (cm)", "imperialTab": "Imperial (in)", "genderLabel": "Jenis kelamin", "male": "Laki-laki", "female": "Perempuan", "heightLabel": "Tinggi badan", "neckLabel": "Lingkar leher", "waistLabel": "Lingkar pinggang", "hipLabel": "Lingkar pinggul", "hipNote": "(khusus wanita)", "calculateButton": "Hitung", "clearButton": "Hapus", "bodyFatPercent": "Lemak tubuh", "category": "Kategori", "methodNote": "Dihitung menggunakan metode U.S. Navy", "essentialFat": "Lemak esensial", "athletes": "Atlet", "fitness": "Kebugaran", "acceptable": "Dapat diterima", "obese": "Obesitas" },
-  "DateDifference": { "startDateLabel": "Tanggal mulai", "endDateLabel": "Tanggal selesai", "calculateButton": "Hitung", "clearButton": "Hapus", "useToday": "Hari ini", "totalDays": "Total hari", "workingDays": "Hari kerja (Sen–Jum)", "weeks": "Minggu", "months": "Bulan", "years": "Tahun" },
-  "TimeDuration": { "addTab": "Tambah waktu", "subtractTab": "Kurangi waktu", "baseTimeLabel": "Waktu mulai (JJ:MM:DD)", "durationLabel": "Durasi", "hoursLabel": "Jam", "minutesLabel": "Menit", "secondsLabel": "Detik", "calculateButton": "Hitung", "clearButton": "Hapus", "resultLabel": "Hasil", "totalSeconds": "Total detik" },
-  "ColorConverter": { "invalidColor": "Nilai warna tidak valid", "hue": "Rona", "saturation": "Saturasi", "lightness": "Kecerahan", "colorPickerLabel": "Pilih warna:" },
-  "NumberBaseConverter": { "decimalLabel": "Desimal", "binaryLabel": "Biner", "octalLabel": "Oktal", "hexLabel": "Heksadesimal", "base2": "Base 2", "base8": "Base 8", "base10": "Base 10", "base16": "Base 16", "inputPlaceholder": "Masukkan angka..." },
-  "UnixTimestamp": { "currentTimestamp": "Timestamp Unix saat ini", "secondsSince": "Detik sejak 1 Jan 1970 (UTC)", "tsToDate": "Timestamp → Tanggal", "dateToTs": "Tanggal → Timestamp", "timestampPlaceholder": "mis. 1700000000", "useNow": "Gunakan sekarang", "localTime": "Waktu lokal", "utcTime": "Waktu UTC", "relative": "Relatif", "seconds": "Detik (Unix)", "milliseconds": "Milidetik", "invalidTimestamp": "Timestamp tidak valid", "justNow": "baru saja", "minutesAgo": "menit yang lalu", "hoursAgo": "jam yang lalu", "daysAgo": "hari yang lalu" },
-  "MarkdownPreview": { "editorLabel": "Markdown", "previewLabel": "Pratinjau", "placeholder": "Tulis Markdown Anda di sini..." },
-  "RegexTester": { "patternLabel": "Ekspresi Reguler", "patternPlaceholder": "Masukkan pola regex...", "flagGlobal": "global", "flagCaseInsensitive": "tidak peka huruf besar/kecil", "flagMultiline": "multibaris", "flagDotAll": "dot all", "testStringLabel": "String Uji", "testStringPlaceholder": "Masukkan teks untuk diuji...", "matchesLabel": "Kecocokan", "matchSingular": "kecocokan", "matchPlural": "kecocokan", "matchDetailsLabel": "Detail Kecocokan", "emptyMatch": "(kosong)", "index": "indeks" },
-  "LocaleSwitcher": { "label": "Bahasa" },
-  "AboutPage": { "title": "Tentang ToolsShed", "subtitle": "Alat gratis, cepat, dan ramah privasi — tanpa pendaftaran, tanpa pengumpulan data.", "whatIsTitle": "Apa itu ToolsShed?", "whatIsText": "ToolsShed adalah kumpulan alat online gratis yang terus berkembang untuk pengembang, pelajar, dan profesional. Baik Anda perlu memformat JSON, mengonversi satuan, membuat kata sandi, atau menghitung bunga majemuk — semuanya ada di sini, gratis dan instan.", "philosophyTitle": "Filosofi Kami", "privacyFirstTitle": "Privasi Utama", "privacyFirstDesc": "Setiap alat berjalan sepenuhnya di browser Anda. Tidak ada yang Anda ketik yang pernah dikirim ke server.", "noFrictionTitle": "Tanpa Hambatan", "noFrictionDesc": "Tanpa pendaftaran, tanpa akun, tanpa paywall. Buka alat dan gunakan seketika.", "builtForEveryoneTitle": "Dibangun untuk Semua Orang", "builtForEveryoneDesc": "Alat yang netral yang bekerja sama di New York, London, atau Tokyo.", "byTheNumbersTitle": "Dalam Angka", "freeToolsLabel": "Alat gratis", "categoriesLabel": "Kategori", "signUpsLabel": "Pendaftaran diperlukan", "techStackTitle": "Tech Stack", "techStackText": "ToolsShed dibangun dengan teknologi modern dan open-source:", "techNext": "Next.js 16 — Framework React dengan pembuatan situs statis", "techTs": "TypeScript — Kode yang aman secara tipe", "techTailwind": "Tailwind CSS — Styling utility-first", "techVercel": "Vercel — Hosting edge global", "techGiscus": "Giscus — Komentar berbasis GitHub Discussions", "openSourceTitle": "Open Source", "openSourceText": "ToolsShed bersifat open source. Menemukan bug? Ingin menyarankan alat? Kontribusi disambut.", "viewOnGitHub": "Lihat di GitHub", "browseTools": "← Telusuri Alat", "privacyPolicy": "Kebijakan Privasi", "metadata": { "title": "Tentang", "description": "Pelajari tentang ToolsShed — kumpulan alat online gratis dan ramah privasi." } },
-  "NotFound": { "title": "Alat Tidak Ditemukan", "description": "Alat yang Anda cari belum ada — tetapi kami selalu menambahkan lebih banyak!", "browseAllTools": "Telusuri semua alat" },
-  "PrivacyPage": { "title": "Kebijakan Privasi", "lastUpdated": "Terakhir diperbarui: {date}", "backToTools": "← Kembali ke Alat", "overviewTitle": "Ikhtisar", "overviewText1": "ToolsShed (\"kami\") mengoperasikan situs web tools-shed.com. Halaman ini memberi tahu Anda tentang kebijakan kami mengenai pengumpulan, penggunaan, dan pengungkapan informasi pribadi saat Anda menggunakan layanan kami.", "overviewText2": "Versi singkat: Semua alat di ToolsShed berjalan sepenuhnya di browser Anda. Kami tidak menyimpan, mengirimkan, atau memproses data apa pun yang Anda masukkan ke alat kami di server kami.", "shortVersionLabel": "Versi singkat:", "noCollectTitle": "1. Data yang TIDAK Kami Kumpulkan", "noCollectText": "Alat ToolsShed beroperasi sepenuhnya di sisi klien. Ini berarti:", "noCollectItem1": "Teks yang Anda tempel ke Pemformat JSON, Base64, atau alat lainnya", "noCollectItem2": "Kata sandi yang dihasilkan oleh Generator Kata Sandi", "noCollectItem3": "Data kesehatan yang dimasukkan ke Kalkulator BMI", "noCollectItem4": "Data keuangan yang dimasukkan ke kalkulator", "noCollectItem5": "Masukan lain apa pun yang Anda berikan ke alat kami", "noCollectFooter": "Tidak ada data ini yang meninggalkan perangkat Anda atau dikirim ke server mana pun.", "analyticsTitle": "2. Google Analytics", "analyticsText1": "Kami menggunakan Google Analytics 4 untuk memahami bagaimana pengunjung berinteraksi dengan situs kami. Data ini anonim dan teragregasi.", "analyticsText2": "Google Analytics dapat mengumpulkan:", "analyticsItem1": "Halaman yang dikunjungi dan waktu yang dihabiskan", "analyticsItem2": "Lokasi geografis umum (tingkat negara/kota)", "analyticsItem3": "Jenis browser dan perangkat", "analyticsItem4": "Situs perujuk", "analyticsOptOut": "Google Analytics menggunakan cookie. Anda dapat memilih keluar dengan memasang", "analyticsOptOutLink": "Add-on Browser Opt-out Google Analytics", "analyticsPrivacy": "Untuk informasi lebih lanjut, lihat", "analyticsPrivacyLink": "Kebijakan Privasi Google", "adsenseTitle": "3. Google AdSense", "adsenseText1": "Kami menggunakan Google AdSense untuk menampilkan iklan. Google AdSense menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan Anda sebelumnya.", "adsenseText2": "Anda dapat memilih keluar dari iklan yang dipersonalisasi dengan mengunjungi", "adsenseOptOutLink": "Setelan Iklan Google", "commentsTitle": "4. Komentar (Giscus)", "commentsText1": "Sistem komentar kami didukung oleh Giscus, yang menyimpan komentar sebagai GitHub Discussions. Jika Anda memilih untuk meninggalkan komentar, Anda harus masuk dengan akun GitHub.", "commentsText2": "Lihat", "commentsPrivacyLink": "Pernyataan Privasi GitHub", "commentsText3": "untuk detailnya.", "cookiesTitle": "5. Cookie", "cookiesText": "Kami menggunakan jenis cookie berikut:", "cookieColName": "Cookie", "cookieColPurpose": "Tujuan", "cookieColProvider": "Penyedia", "cookie1Name": "_ga, _ga_*", "cookie1Purpose": "Pelacakan analitik", "cookie1Provider": "Google Analytics", "cookie2Name": "IDE, NID", "cookie2Purpose": "Personalisasi iklan", "cookie2Provider": "Google AdSense", "thirdPartyTitle": "6. Tautan Pihak Ketiga", "thirdPartyText": "Situs web kami mungkin berisi tautan ke situs eksternal. Kami tidak bertanggung jawab atas praktik privasi atau konten situs tersebut.", "childrenTitle": "7. Privasi Anak-anak", "childrenText": "ToolsShed tidak ditujukan untuk anak-anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun.", "changesTitle": "8. Perubahan pada Kebijakan Ini", "changesText": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diposting di halaman ini dengan tanggal yang diperbarui.", "contactTitle": "9. Kontak", "contactText1": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan buka issue di", "contactLink": "repositori GitHub kami", "metadata": { "title": "Kebijakan Privasi", "description": "Kebijakan Privasi ToolsShed — bagaimana kami menangani data Anda." } }
+  "Footer": {
+    "tagline": "Alat online gratis untuk pengembang, pelajar, dan profesional di seluruh dunia.",
+    "copyright": "© {year} ToolsShed. Semua hak dilindungi.",
+    "about": "Tentang",
+    "privacyPolicy": "Kebijakan Privasi",
+    "developer": "Pengembang",
+    "converters": "Konverter",
+    "tools": "Alat",
+    "jsonFormatter": "Pemformat JSON",
+    "base64": "Base64",
+    "uuidGenerator": "Generator UUID",
+    "hashGenerator": "Generator Hash",
+    "length": "Panjang",
+    "weight": "Berat",
+    "temperature": "Suhu",
+    "bmiCalculator": "Kalkulator BMI",
+    "passwordGenerator": "Generator Kata Sandi",
+    "timezoneConverter": "Konverter Zona Waktu",
+    "compoundInterest": "Bunga Majemuk"
+  },
+  "HomePage": {
+    "heroTitle": "Alat Online Gratis untuk",
+    "heroTitleHighlight": "Semua Orang",
+    "heroSubtitle": "Kumpulan alat yang berguna dan ramah privasi. Tidak perlu mendaftar. Bekerja di browser Anda, seketika.",
+    "noRegistration": "Tanpa pendaftaran",
+    "noDataSent": "Tidak ada data yang dikirim ke server",
+    "alwaysFree": "Selalu gratis",
+    "popularTools": "Alat Populer",
+    "whyTitle": "Mengapa ToolsShed?",
+    "privacyFirstTitle": "Privasi Utama",
+    "privacyFirstDesc": "Semua perhitungan berjalan di browser Anda. Tidak ada data yang pernah dikirim ke server kami.",
+    "instantResultsTitle": "Hasil Instan",
+    "instantResultsDesc": "Tanpa loading. Hasil muncul saat Anda mengetik, tanpa permintaan server.",
+    "worksEverywhereTitle": "Bekerja di Mana Saja",
+    "worksEverywhereDesc": "Ramah mobile, tidak perlu instalasi. Buka dan gunakan.",
+    "moreTools": "+{count} lainnya →",
+    "metadata": {
+      "title": "ToolsShed - Alat Online Gratis",
+      "description": "Alat online gratis untuk pengembang, pelajar, dan profesional. Pemformat JSON, Base64, Generator UUID, Konverter Satuan, dan banyak lagi."
+    }
+  },
+  "Categories": {
+    "developer": {
+      "name": "Alat Pengembang",
+      "description": "Alat penting untuk pengembang: JSON, Base64, UUID, hashing, dan banyak lagi."
+    },
+    "converters": {
+      "name": "Konverter Satuan",
+      "description": "Konversi antara satuan panjang, berat, suhu, dan lainnya."
+    },
+    "text": {
+      "name": "Alat Teks",
+      "description": "Alat untuk manipulasi, penghitungan, dan konversi teks."
+    },
+    "finance": {
+      "name": "Alat Keuangan",
+      "description": "Kalkulator untuk bunga, persentase, pinjaman, dan investasi."
+    },
+    "health": {
+      "name": "Alat Kesehatan",
+      "description": "Kalkulator BMI, kalori, dan metrik kebugaran."
+    },
+    "time": {
+      "name": "Alat Waktu",
+      "description": "Konverter zona waktu, kalkulator usia, dan utilitas tanggal."
+    },
+    "math": {
+      "name": "Alat Matematika",
+      "description": "Kalkulator untuk persamaan, teori bilangan, dan komputasi ilmiah."
+    }
+  },
+  "Tools": {
+    "json-formatter": {
+      "name": "Pemformat & Validator JSON",
+      "description": "Format, validasi, dan percantik data JSON.",
+      "metaTitle": "Pemformat & Validator JSON",
+      "metaDescription": "Format, validasi, dan percantik data JSON dengan pemeriksaan sintaks. Pemformat JSON online gratis."
+    },
+    "uuid-generator": {
+      "name": "Generator UUID",
+      "description": "Buat UUID acak (v4) untuk aplikasi Anda.",
+      "metaTitle": "Generator UUID",
+      "metaDescription": "Buat UUID acak (v4) secara instan di browser Anda. Gratis, tanpa pendaftaran."
+    },
+    "base64": {
+      "name": "Enkoder / Dekoder Base64",
+      "description": "Enkode teks atau file ke Base64 dan dekode string Base64.",
+      "metaTitle": "Enkoder / Dekoder Base64",
+      "metaDescription": "Enkode teks atau file ke Base64 dan dekode string Base64. Alat Base64 online gratis."
+    },
+    "url-encoder": {
+      "name": "Enkoder / Dekoder URL",
+      "description": "Enkode dan dekode URL serta parameter query.",
+      "metaTitle": "Enkoder / Dekoder URL",
+      "metaDescription": "Enkode dan dekode URL serta parameter query. Alat enkoding URL online gratis."
+    },
+    "hash-generator": {
+      "name": "Generator Hash",
+      "description": "Buat hash kriptografis MD5, SHA-256, dan SHA-512.",
+      "metaTitle": "Generator Hash",
+      "metaDescription": "Buat hash MD5, SHA-256, dan SHA-512 di sisi klien. Tidak ada data yang meninggalkan browser Anda."
+    },
+    "jwt-decoder": {
+      "name": "Dekoder JWT",
+      "description": "Dekode dan periksa payload JSON Web Token tanpa verifikasi tanda tangan.",
+      "metaTitle": "Dekoder JWT",
+      "metaDescription": "Dekode dan periksa header dan payload JWT. Inspektor JWT berbasis browser gratis."
+    },
+    "length-converter": {
+      "name": "Konverter Panjang",
+      "description": "Konversi antara meter, kaki, inci, mil, kilometer, dan lainnya.",
+      "metaTitle": "Konverter Panjang",
+      "metaDescription": "Konversi antara meter, kaki, inci, mil, dan kilometer. Konverter panjang online gratis."
+    },
+    "weight-converter": {
+      "name": "Konverter Berat",
+      "description": "Konversi antara kilogram, pound, ons, gram, dan lainnya.",
+      "metaTitle": "Konverter Berat",
+      "metaDescription": "Konversi antara kilogram, pound, ons, dan gram. Konverter berat online gratis."
+    },
+    "temperature-converter": {
+      "name": "Konverter Suhu",
+      "description": "Konversi antara Celsius, Fahrenheit, dan Kelvin.",
+      "metaTitle": "Konverter Suhu",
+      "metaDescription": "Konversi antara Celsius, Fahrenheit, dan Kelvin. Konverter suhu online gratis."
+    },
+    "word-counter": {
+      "name": "Penghitung Kata & Karakter",
+      "description": "Hitung kata, karakter, kalimat, dan paragraf dalam teks Anda.",
+      "metaTitle": "Penghitung Kata & Karakter",
+      "metaDescription": "Hitung kata, karakter, kalimat, dan paragraf. Penghitung kata online gratis."
+    },
+    "case-converter": {
+      "name": "Konverter Huruf Besar/Kecil",
+      "description": "Konversi teks ke HURUF BESAR, huruf kecil, Judul, camelCase, dan lainnya.",
+      "metaTitle": "Konverter Huruf Besar/Kecil",
+      "metaDescription": "Konversi teks antara HURUF BESAR, huruf kecil, Judul, camelCase, snake_case, dan lainnya."
+    },
+    "password-generator": {
+      "name": "Generator Kata Sandi",
+      "description": "Buat kata sandi yang kuat dan aman dengan opsi yang dapat disesuaikan.",
+      "metaTitle": "Generator Kata Sandi",
+      "metaDescription": "Buat kata sandi yang kuat dan aman dengan panjang dan jenis karakter yang dapat disesuaikan."
+    },
+    "compound-interest": {
+      "name": "Kalkulator Bunga Majemuk",
+      "description": "Hitung pertumbuhan bunga majemuk untuk investasi dari waktu ke waktu.",
+      "metaTitle": "Kalkulator Bunga Majemuk",
+      "metaDescription": "Hitung pertumbuhan bunga majemuk untuk investasi. Kalkulator bunga majemuk online gratis."
+    },
+    "percentage-calculator": {
+      "name": "Kalkulator Persentase",
+      "description": "Hitung persentase, perubahan persentase, dan jumlah tip.",
+      "metaTitle": "Kalkulator Persentase",
+      "metaDescription": "Hitung persentase, perubahan persentase, dan jumlah tip. Kalkulator persentase online gratis."
+    },
+    "bmi-calculator": {
+      "name": "Kalkulator BMI",
+      "description": "Hitung Indeks Massa Tubuh dengan satuan metrik dan imperial.",
+      "metaTitle": "Kalkulator BMI",
+      "metaDescription": "Hitung Indeks Massa Tubuh (BMI) Anda dengan satuan metrik atau imperial. Kalkulator BMI online gratis."
+    },
+    "age-calculator": {
+      "name": "Kalkulator Usia",
+      "description": "Hitung usia tepat dalam tahun, bulan, dan hari dari tanggal lahir.",
+      "metaTitle": "Kalkulator Usia",
+      "metaDescription": "Hitung usia tepat Anda dalam tahun, bulan, dan hari dari tanggal lahir. Kalkulator usia online gratis."
+    },
+    "timezone-converter": {
+      "name": "Konverter Zona Waktu",
+      "description": "Konversi waktu antara zona waktu berbeda di seluruh dunia.",
+      "metaTitle": "Konverter Zona Waktu",
+      "metaDescription": "Konversi waktu antara zona waktu berbeda di seluruh dunia. Konverter zona waktu online gratis."
+    },
+    "color-converter": {
+      "name": "Konverter Warna",
+      "description": "Konversi warna antara format HEX, RGB, dan HSL secara instan.",
+      "metaTitle": "Konverter Warna — HEX, RGB, HSL",
+      "metaDescription": "Konversi warna antara format HEX, RGB, dan HSL secara instan. Konverter warna online gratis — bekerja di browser Anda."
+    },
+    "number-base-converter": {
+      "name": "Konverter Basis Bilangan",
+      "description": "Konversi bilangan antara biner, oktal, desimal, dan heksadesimal.",
+      "metaTitle": "Konverter Basis Bilangan",
+      "metaDescription": "Konversi bilangan antara biner (Base 2), oktal (Base 8), desimal (Base 10), dan heksadesimal (Base 16). Konverter basis bilangan online gratis."
+    },
+    "regex-tester": {
+      "name": "Penguji RegEx",
+      "description": "Uji dan debug ekspresi reguler dengan sorotan kecocokan secara langsung.",
+      "metaTitle": "Penguji RegEx",
+      "metaDescription": "Uji dan debug ekspresi reguler dengan sorotan kecocokan secara langsung. Penguji RegEx online gratis — tidak perlu mendaftar."
+    },
+    "markdown-preview": {
+      "name": "Pratinjau Markdown",
+      "description": "Tulis Markdown dan pratinjau hasil render secara real time.",
+      "metaTitle": "Pratinjau Markdown",
+      "metaDescription": "Tulis Markdown dan pratinjau hasil render secara instan. Editor Markdown online gratis dengan pratinjau langsung."
+    },
+    "unix-timestamp": {
+      "name": "Konverter Timestamp Unix",
+      "description": "Konversi antara timestamp Unix dan tanggal yang mudah dibaca.",
+      "metaTitle": "Konverter Timestamp Unix",
+      "metaDescription": "Konversi timestamp Unix ke tanggal yang mudah dibaca dan sebaliknya. Konverter timestamp Unix online gratis."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON Converter",
+      "description": "Konversi data CSV ke JSON dan array JSON kembali ke format CSV.",
+      "metaTitle": "CSV to JSON Converter",
+      "metaDescription": "Konversi CSV ke JSON dan JSON ke CSV secara instan di browser Anda. Konverter CSV JSON online gratis — tidak perlu mengunggah."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "Bandingkan dua teks dan sorot perbedaannya baris per baris.",
+      "metaTitle": "Diff Checker — Compare Two Texts",
+      "metaDescription": "Bandingkan dua teks dan sorot penambahan, penghapusan, dan perubahan. Diff checker online gratis — bekerja sepenuhnya di browser Anda."
+    },
+    "lorem-ipsum": {
+      "name": "Generator Lorem Ipsum",
+      "description": "Buat teks Lorem Ipsum sebagai placeholder untuk desain dan pengembangan.",
+      "metaTitle": "Lorem Ipsum Generator",
+      "metaDescription": "Buat teks placeholder Lorem Ipsum berdasarkan paragraf, kalimat, atau kata. Generator Lorem Ipsum online gratis."
+    },
+    "html-encoder": {
+      "name": "HTML Encoder / Decoder",
+      "description": "Enkode karakter khusus ke entitas HTML dan dekode kembali.",
+      "metaTitle": "HTML Encoder / Decoder",
+      "metaDescription": "Enkode karakter khusus ke entitas HTML dan dekode entitas HTML kembali ke teks. HTML encoder decoder online gratis."
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON Converter",
+      "description": "Konversi antara format YAML dan JSON secara instan.",
+      "metaTitle": "YAML to JSON Converter",
+      "metaDescription": "Konversi YAML ke JSON dan JSON ke YAML secara instan di browser Anda. Konverter YAML JSON online gratis."
+    },
+    "data-storage-converter": {
+      "name": "Konverter Penyimpanan Data",
+      "description": "Konversi antara byte, kilobyte, megabyte, gigabyte, terabyte, dan lainnya.",
+      "metaTitle": "Data Storage Converter",
+      "metaDescription": "Konversi antara byte, KB, MB, GB, TB dan satuan biner (KiB, MiB, GiB). Konverter penyimpanan data online gratis."
+    },
+    "speed-converter": {
+      "name": "Konverter Kecepatan",
+      "description": "Konversi antara km/jam, mph, m/s, knot, dan satuan kecepatan lainnya.",
+      "metaTitle": "Speed Converter",
+      "metaDescription": "Konversi antara km/jam, mph, m/s, knot, dan kaki per detik. Konverter kecepatan online gratis."
+    },
+    "area-converter": {
+      "name": "Konverter Luas",
+      "description": "Konversi antara meter persegi, kaki persegi, acre, hektar, dan lainnya.",
+      "metaTitle": "Area Converter",
+      "metaDescription": "Konversi antara meter persegi, kaki persegi, acre, hektar, dan lainnya. Konverter luas online gratis."
+    },
+    "volume-converter": {
+      "name": "Konverter Volume",
+      "description": "Konversi antara liter, galon, ons cairan, meter kubik, dan lainnya.",
+      "metaTitle": "Volume Converter",
+      "metaDescription": "Konversi antara liter, galon, ons cairan, cangkir, dan meter kubik. Konverter volume online gratis."
+    },
+    "slug-generator": {
+      "name": "Generator Slug",
+      "description": "Ubah teks apa pun menjadi slug yang bersih dan ramah URL.",
+      "metaTitle": "Slug Generator",
+      "metaDescription": "Ubah teks apa pun menjadi slug yang ramah URL. Generator slug online gratis untuk permalink yang ramah SEO."
+    },
+    "text-repeater": {
+      "name": "Pengulang Teks",
+      "description": "Ulangi teks atau karakter apa pun sebanyak jumlah yang ditentukan.",
+      "metaTitle": "Text Repeater",
+      "metaDescription": "Ulangi teks, kata, atau karakter apa pun berapa kali pun dengan pemisah khusus. Pengulang teks online gratis."
+    },
+    "discount-calculator": {
+      "name": "Kalkulator Diskon",
+      "description": "Hitung harga jual, jumlah diskon, dan penghematan secara instan.",
+      "metaTitle": "Discount Calculator",
+      "metaDescription": "Hitung harga jual dan penghematan dari persentase diskon berapa pun. Kalkulator diskon dan harga jual online gratis."
+    },
+    "loan-calculator": {
+      "name": "Kalkulator Pinjaman",
+      "description": "Hitung cicilan bulanan, total bunga, dan amortisasi pinjaman.",
+      "metaTitle": "Loan Calculator",
+      "metaDescription": "Hitung cicilan pinjaman bulanan, total bunga, dan jadwal amortisasi lengkap. Kalkulator pinjaman dan KPR online gratis."
+    },
+    "roi-calculator": {
+      "name": "Kalkulator ROI",
+      "description": "Hitung return on investment dan ROI tahunan untuk investasi apa pun.",
+      "metaTitle": "ROI Calculator",
+      "metaDescription": "Hitung return on investment (ROI) dan ROI tahunan untuk investasi apa pun. Kalkulator ROI online gratis."
+    },
+    "tdee-calculator": {
+      "name": "Kalkulator TDEE",
+      "description": "Hitung Total Daily Energy Expenditure dan kebutuhan kalori harian Anda.",
+      "metaTitle": "TDEE Calculator — Daily Calorie Calculator",
+      "metaDescription": "Hitung Total Daily Energy Expenditure (TDEE) dan kebutuhan kalori harian berdasarkan tingkat aktivitas. Kalkulator TDEE online gratis."
+    },
+    "ideal-weight": {
+      "name": "Kalkulator Berat Ideal",
+      "description": "Hitung berat badan ideal Anda berdasarkan tinggi badan menggunakan beberapa formula.",
+      "metaTitle": "Ideal Weight Calculator",
+      "metaDescription": "Hitung berat badan ideal Anda menggunakan formula Robinson, Miller, Devine, dan Hamwi. Kalkulator berat ideal online gratis."
+    },
+    "body-fat": {
+      "name": "Kalkulator Lemak Tubuh",
+      "description": "Perkirakan persentase lemak tubuh menggunakan metode U.S. Navy.",
+      "metaTitle": "Body Fat Calculator",
+      "metaDescription": "Perkirakan persentase lemak tubuh Anda menggunakan metode U.S. Navy. Kalkulator lemak tubuh online gratis untuk pria dan wanita."
+    },
+    "date-difference": {
+      "name": "Kalkulator Selisih Tanggal",
+      "description": "Hitung jumlah hari, minggu, dan bulan yang tepat antara dua tanggal.",
+      "metaTitle": "Date Difference Calculator",
+      "metaDescription": "Hitung jumlah hari, minggu, dan bulan yang tepat antara dua tanggal apa pun. Kalkulator selisih tanggal online gratis."
+    },
+    "time-duration": {
+      "name": "Kalkulator Durasi Waktu",
+      "description": "Tambah atau kurangi jam, menit, dan detik untuk menghitung durasi waktu.",
+      "metaTitle": "Time Duration Calculator",
+      "metaDescription": "Tambah atau kurangi durasi waktu dalam jam, menit, dan detik. Kalkulator durasi waktu online gratis."
+    },
+    "scientific-calculator": {
+      "name": "Kalkulator Ilmiah",
+      "description": "Kalkulator canggih dengan trigonometri, logaritma, pangkat, dan lebih banyak lagi.",
+      "metaTitle": "Kalkulator Ilmiah",
+      "metaDescription": "Kalkulator ilmiah online gratis dengan sin, cos, tan, log, sqrt, dan lainnya. Langsung berjalan di browser."
+    },
+    "gcd-lcm": {
+      "name": "Kalkulator FPB dan KPK",
+      "description": "Menghitung Faktor Persekutuan Terbesar dan Kelipatan Persekutuan Terkecil.",
+      "metaTitle": "Kalkulator FPB dan KPK",
+      "metaDescription": "Hitung FPB dan KPK dari beberapa angka dengan solusi langkah demi langkah. Alat matematika online gratis."
+    },
+    "quadratic-solver": {
+      "name": "Pemecah Persamaan Kuadrat",
+      "description": "Memecahkan persamaan kuadrat ax² + bx + c = 0 dengan solusi langkah demi langkah.",
+      "metaTitle": "Pemecah Persamaan Kuadrat",
+      "metaDescription": "Pecahkan ax²+bx+c=0 dan dapatkan akar real atau kompleks dengan langkah detail. Alat gratis."
+    },
+    "cron-parser": {
+      "name": "Parser Ekspresi Cron",
+      "description": "Mengurai ekspresi cron dan menampilkan waktu eksekusi terjadwal berikutnya.",
+      "metaTitle": "Parser Ekspresi Cron",
+      "metaDescription": "Jelaskan ekspresi cron dengan bahasa sederhana dan tampilkan 5 eksekusi berikutnya. Alat online gratis."
+    },
+    "json-to-typescript": {
+      "name": "JSON ke TypeScript",
+      "description": "Mengonversi objek JSON menjadi antarmuka TypeScript secara otomatis.",
+      "metaTitle": "Generator Antarmuka JSON ke TypeScript",
+      "metaDescription": "Konversi JSON ke antarmuka TypeScript secara otomatis. Alat online gratis, tanpa unggah file."
+    },
+    "sql-formatter": {
+      "name": "Pemformat SQL",
+      "description": "Memformat dan memperindah kueri SQL untuk keterbacaan yang lebih baik.",
+      "metaTitle": "Pemformat SQL",
+      "metaDescription": "Format kueri SQL dengan indentasi dan kata kunci huruf besar. Pemformat SQL online gratis."
+    },
+    "string-escape": {
+      "name": "Escape / Unescape String",
+      "description": "Melakukan escape dan unescape string untuk JSON, JavaScript, dan HTML.",
+      "metaTitle": "Escape / Unescape String",
+      "metaDescription": "Escape dan unescape string untuk JSON, JavaScript, dan HTML. Tangani karakter khusus secara instan."
+    },
+    "text-to-binary": {
+      "name": "Teks ke Biner / Heksadesimal",
+      "description": "Mengonversi teks ke representasi biner, heksadesimal, oktal, dan desimal.",
+      "metaTitle": "Konverter Teks ke Biner / Heksadesimal",
+      "metaDescription": "Konversi teks ke biner, heksadesimal, oktal, dan desimal. Decode kembali ke teks. Alat online gratis."
+    },
+    "random-name-generator": {
+      "name": "Generator Nama Acak",
+      "description": "Menghasilkan nama bahasa Inggris acak untuk pengujian dan placeholder.",
+      "metaTitle": "Generator Nama Acak",
+      "metaDescription": "Hasilkan nama depan, belakang, atau nama lengkap acak dalam bahasa Inggris. Ideal untuk data uji."
+    },
+    "tip-calculator": {
+      "name": "Kalkulator Tip",
+      "description": "Menghitung jumlah tip dan membagi tagihan di antara beberapa orang.",
+      "metaTitle": "Kalkulator Tip",
+      "metaDescription": "Hitung tip dan bagi tagihan di antara sejumlah orang. Kalkulator online gratis."
+    },
+    "running-pace": {
+      "name": "Kalkulator Kecepatan Lari",
+      "description": "Menghitung kecepatan lari, waktu, dan jarak untuk semua jarak lomba.",
+      "metaTitle": "Kalkulator Kecepatan Lari",
+      "metaDescription": "Hitung kecepatan lari, waktu finish, atau jarak. Mendukung 5K, 10K, setengah dan maraton penuh."
+    },
+    "water-intake": {
+      "name": "Kalkulator Asupan Air",
+      "description": "Menghitung asupan air harian yang direkomendasikan berdasarkan berat dan tingkat aktivitas.",
+      "metaTitle": "Kalkulator Asupan Air",
+      "metaDescription": "Hitung asupan air harian yang direkomendasikan berdasarkan berat dan tingkat aktivitas. Alat online gratis."
+    }
+  },
+  "Common": {
+    "copy": "Salin",
+    "copied": "Disalin!",
+    "clear": "Hapus",
+    "calculate": "Hitung",
+    "generate": "Buat",
+    "sample": "Contoh",
+    "result": "Hasil"
+  },
+  "ToolLayout": {
+    "home": "Beranda",
+    "breadcrumbLabel": "Navigasi"
+  },
+  "JsonFormatter": {
+    "indent": "Indentasi:",
+    "twoSpaces": "2 spasi",
+    "fourSpaces": "4 spasi",
+    "oneSpace": "1 spasi",
+    "inputLabel": "JSON Masukan",
+    "inputPlaceholder": "Tempel JSON Anda di sini...",
+    "outputLabel": "Keluaran",
+    "formatButton": "Format / Validasi",
+    "minifyButton": "Minify",
+    "validJson": "JSON Valid"
+  },
+  "UuidGenerator": {
+    "count": "Jumlah:",
+    "uppercase": "Huruf besar",
+    "includeHyphens": "Sertakan tanda hubung",
+    "generateButton": "Buat UUID",
+    "generateButtonPlural": "Buat UUID",
+    "generated": "{count} UUID dibuat",
+    "generatedPlural": "{count} UUID dibuat",
+    "copyAll": "Salin semua",
+    "copiedAll": "Semua disalin!",
+    "infoText": "UUID dibuat menggunakan crypto.randomUUID() (v4) — acak secara kriptografis, dibuat sepenuhnya di browser Anda."
+  },
+  "Base64Tool": {
+    "encodeTab": "enkode",
+    "decodeTab": "dekode",
+    "encodeInputLabel": "Teks yang akan diencode",
+    "decodeInputLabel": "Base64 yang akan didecode",
+    "encodePlaceholder": "Masukkan teks untuk diencode...",
+    "decodePlaceholder": "Masukkan string Base64 untuk didecode...",
+    "encodeButton": "Enkode",
+    "decodeButton": "Dekode",
+    "resultLabel": "Hasil",
+    "infoText": "Mendukung teks Unicode. Enkoding/dekoding terjadi sepenuhnya di browser Anda — tidak ada data yang dikirim ke server mana pun."
+  },
+  "UrlEncoderDecoder": {
+    "encodeTab": "enkode",
+    "decodeTab": "dekode",
+    "typeLabel": "Tipe:",
+    "encodeInputLabel": "Teks / URL yang akan diencode",
+    "decodeInputLabel": "URL terenkode yang akan didecode",
+    "encodePlaceholder": "Masukkan teks atau URL...",
+    "decodePlaceholder": "Masukkan URL terenkode...",
+    "loadSample": "Muat contoh",
+    "encodeButton": "Enkode",
+    "decodeButton": "Dekode",
+    "resultLabel": "Hasil",
+    "swapTitle": "Tukar masukan/keluaran dan ganti mode"
+  },
+  "HashGenerator": {
+    "inputLabel": "Teks yang akan di-hash",
+    "inputPlaceholder": "Masukkan teks untuk membuat hash...",
+    "generateButton": "Buat Hash",
+    "generating": "Membuat...",
+    "disclaimer": "MD5 dihitung di sisi klien. SHA-256 dan SHA-512 menggunakan API crypto.subtle bawaan browser. Tidak ada data yang meninggalkan browser Anda."
+  },
+  "JwtDecoder": {
+    "inputLabel": "Token JWT",
+    "inputPlaceholder": "Tempel token JWT Anda di sini...",
+    "loadSample": "Muat contoh",
+    "decodeButton": "Dekode JWT",
+    "headerLabel": "Header",
+    "payloadLabel": "Payload",
+    "signatureLabel": "Tanda Tangan",
+    "signatureNotVerified": "(tidak diverifikasi)",
+    "tokenExpired": "⚠️ Token KADALUARSA",
+    "tokenValid": "✅ Token BELUM kadaluarsa",
+    "notVerifiedNote": "Alat ini hanya mendekode JWT — TIDAK memverifikasi tanda tangan. Jangan pernah berbagi token sensitif."
+  },
+  "UnitConverter": {
+    "clearButton": "Hapus"
+  },
+  "TemperatureConverter": {
+    "celsius": "Celsius (°C)",
+    "fahrenheit": "Fahrenheit (°F)",
+    "kelvin": "Kelvin (K)",
+    "clearButton": "Hapus",
+    "commonTemps": "Suhu Umum",
+    "waterFreezes": "Air membeku",
+    "roomTemp": "Suhu ruangan",
+    "bodyTemp": "Suhu tubuh",
+    "waterBoils": "Air mendidih",
+    "absoluteZero": "Nol mutlak",
+    "ovenMedium": "Oven (sedang)"
+  },
+  "WordCounter": {
+    "inputLabel": "Teks Anda",
+    "inputPlaceholder": "Mulai mengetik atau tempel teks Anda di sini...",
+    "words": "Kata",
+    "characters": "Karakter",
+    "charsNoSpaces": "Karakter (tanpa spasi)",
+    "sentences": "Kalimat",
+    "paragraphs": "Paragraf",
+    "lines": "Baris",
+    "readingTime": "Waktu membaca",
+    "readingTimeValue": "~{minutes} mnt"
+  },
+  "CaseConverter": {
+    "inputLabel": "Teks masukan",
+    "inputPlaceholder": "Ketik atau tempel teks untuk dikonversi...",
+    "resultPlaceholder": "Hasil akan muncul di sini..."
+  },
+  "PasswordGenerator": {
+    "lengthLabel": "Panjang: {length}",
+    "uppercase": "Huruf besar",
+    "lowercase": "Huruf kecil",
+    "numbers": "Angka",
+    "symbols": "Simbol",
+    "generateCount": "Buat:",
+    "passwordSingular": "{count} kata sandi",
+    "passwordPlural": "{count} kata sandi",
+    "generateButton": "Buat",
+    "strengthLabel": "Kekuatan",
+    "strengthWeak": "Lemah",
+    "strengthFair": "Cukup",
+    "strengthGood": "Baik",
+    "strengthStrong": "Kuat"
+  },
+  "CompoundInterest": {
+    "principalLabel": "Modal Awal ($)",
+    "rateLabel": "Suku Bunga Tahunan (%)",
+    "yearsLabel": "Jangka Waktu (tahun)",
+    "compoundFrequencyLabel": "Frekuensi Penggabungan",
+    "monthlyContributionLabel": "Kontribusi Bulanan ($)",
+    "monthlyContributionOptional": "(opsional)",
+    "daily": "Harian",
+    "monthly": "Bulanan",
+    "quarterly": "Triwulanan",
+    "semiAnnually": "Setengah Tahunan",
+    "annually": "Tahunan",
+    "calculateButton": "Hitung",
+    "finalAmount": "Jumlah Akhir",
+    "interestEarned": "Bunga yang Diperoleh",
+    "totalInvested": "Total Diinvestasikan"
+  },
+  "PercentageCalculator": {
+    "percentOf": "% dari angka",
+    "percentChange": "% perubahan",
+    "whatPercent": "X adalah berapa % dari Y?",
+    "tipCalculator": "Kalkulator tip",
+    "percentageLabel": "Persentase (%)",
+    "numberLabel": "Angka",
+    "originalValueLabel": "Nilai asli",
+    "newValueLabel": "Nilai baru",
+    "partLabel": "Bagian (X)",
+    "wholeLabel": "Keseluruhan (Y)",
+    "billAmountLabel": "Jumlah tagihan ($)",
+    "tipPercentLabel": "Tip (%)",
+    "numberOfPeopleLabel": "Jumlah orang"
+  },
+  "BmiCalculator": {
+    "metricTab": "Metrik (kg/cm)",
+    "imperialTab": "Imperial (lb/ft)",
+    "weightLabelMetric": "Berat (kg)",
+    "weightLabelImperial": "Berat (lbs)",
+    "heightLabelMetric": "Tinggi (cm)",
+    "heightLabelImperial": "Tinggi (ft / in)",
+    "calculateButton": "Hitung BMI",
+    "clearButton": "Hapus",
+    "categoriesTitle": "Kategori BMI",
+    "underweight": "Kekurangan berat badan",
+    "normalWeight": "Berat normal",
+    "overweight": "Kelebihan berat badan",
+    "obese": "Obesitas",
+    "underweightRange": "< 18,5",
+    "normalRange": "18,5 – 24,9",
+    "overweightRange": "25 – 29,9",
+    "obeseRange": "≥ 30",
+    "underweightDesc": "BMI kurang dari 18,5",
+    "normalWeightDesc": "BMI 18,5 – 24,9",
+    "overweightDesc": "BMI 25 – 29,9",
+    "obeseDesc": "BMI 30 atau lebih"
+  },
+  "AgeCalculator": {
+    "birthDateLabel": "Tanggal Lahir",
+    "ageDateLabel": "Usia pada tanggal",
+    "calculateButton": "Hitung Usia",
+    "yearsOld": "tahun",
+    "exactly": "Tepat!",
+    "month": "{count} bulan",
+    "months": "{count} bulan",
+    "day": "{count} hari",
+    "days": "{count} hari",
+    "totalDays": "Total hari",
+    "totalMonths": "Total bulan",
+    "daysUntilBirthday": "Hari hingga ulang tahun",
+    "todayBirthday": "🎂 Hari ini!",
+    "nextBirthday": "Ulang tahun berikutnya:"
+  },
+  "TimezoneConverter": {
+    "currentTime": "Waktu saat ini (browser Anda)",
+    "dateTimeLabel": "Tanggal & Waktu",
+    "sourceTimezoneLabel": "Zona waktu sumber",
+    "convertButton": "Konversi",
+    "useNowButton": "Gunakan sekarang",
+    "resultsLabel": "Hasil"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "Masukan",
+    "outputLabel": "Keluaran",
+    "convertButton": "Konversi",
+    "loadSample": "Muat contoh",
+    "delimiterLabel": "Pembatas",
+    "comma": "Koma (,)",
+    "semicolon": "Titik koma (;)",
+    "tab": "Tab (\\t)",
+    "firstRowHeader": "Baris pertama adalah header",
+    "invalidCsv": "Format CSV tidak valid",
+    "invalidJson": "Masukan harus berupa array JSON dari objek"
+  },
+  "DiffChecker": {
+    "originalLabel": "Asli",
+    "modifiedLabel": "Dimodifikasi",
+    "compareButton": "Bandingkan",
+    "clearButton": "Hapus",
+    "noChanges": "Tidak ada perbedaan ditemukan — teks identik.",
+    "addedLabel": "Ditambahkan",
+    "removedLabel": "Dihapus",
+    "unchangedLabel": "Tidak berubah",
+    "linesLabel": "baris"
+  },
+  "LoremIpsum": {
+    "typeLabel": "Buat",
+    "paragraphs": "Paragraf",
+    "sentences": "Kalimat",
+    "words": "Kata",
+    "countLabel": "Jumlah:",
+    "generateButton": "Buat",
+    "startWithLoremIpsum": "Mulai dengan «Lorem ipsum»",
+    "outputLabel": "Teks yang dibuat"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "Enkode",
+    "decodeTab": "Dekode",
+    "inputLabel": "Masukan",
+    "outputLabel": "Keluaran",
+    "encodeButton": "Enkode",
+    "decodeButton": "Dekode",
+    "loadSample": "Muat contoh"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "Masukan",
+    "outputLabel": "Keluaran",
+    "convertButton": "Konversi",
+    "loadSample": "Muat contoh",
+    "indentLabel": "Indentasi:",
+    "twoSpaces": "2 spasi",
+    "fourSpaces": "4 spasi",
+    "invalidYaml": "YAML tidak valid",
+    "invalidJson": "JSON tidak valid"
+  },
+  "SlugGenerator": {
+    "inputLabel": "Teks",
+    "inputPlaceholder": "Masukkan teks untuk diubah menjadi slug...",
+    "outputLabel": "Slug",
+    "separatorLabel": "Pemisah",
+    "hyphen": "Tanda hubung (-)",
+    "underscore": "Garis bawah (_)",
+    "lowercaseLabel": "Huruf kecil"
+  },
+  "TextRepeater": {
+    "inputLabel": "Teks yang akan diulang",
+    "inputPlaceholder": "Masukkan teks di sini...",
+    "countLabel": "Ulang:",
+    "separatorLabel": "Pemisah",
+    "newline": "Baris baru",
+    "space": "Spasi",
+    "none": "Tidak ada",
+    "custom": "Kustom",
+    "customSeparatorLabel": "Pemisah kustom",
+    "outputLabel": "Hasil"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "Harga asli",
+    "discountLabel": "Diskon (%)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "salePrice": "Harga jual",
+    "youSave": "Anda hemat",
+    "discountAmount": "Jumlah diskon"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "Jumlah pinjaman",
+    "annualRateLabel": "Suku bunga tahunan (%)",
+    "loanTermLabel": "Jangka waktu pinjaman",
+    "years": "Tahun",
+    "months": "Bulan",
+    "calculateButton": "Hitung",
+    "monthlyPayment": "Cicilan bulanan",
+    "totalPayment": "Total pembayaran",
+    "totalInterest": "Total bunga",
+    "amortizationTitle": "Jadwal amortisasi",
+    "month": "Bulan",
+    "principal": "Pokok",
+    "interest": "Bunga",
+    "balance": "Saldo"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "Investasi awal",
+    "finalValueLabel": "Nilai akhir",
+    "timePeriodLabel": "Periode waktu (tahun)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "roi": "ROI",
+    "annualizedRoi": "ROI tahunan",
+    "totalProfit": "Total keuntungan",
+    "totalReturn": "Total pengembalian"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "Usia",
+    "genderLabel": "Jenis kelamin",
+    "male": "Laki-laki",
+    "female": "Perempuan",
+    "weightLabel": "Berat badan",
+    "heightLabel": "Tinggi badan",
+    "metricTab": "Metrik",
+    "imperialTab": "Imperial",
+    "activityLabel": "Tingkat aktivitas",
+    "sedentary": "Kurang gerak (sedikit atau tidak ada olahraga)",
+    "lightlyActive": "Sedikit aktif (1–3 hari/minggu)",
+    "moderatelyActive": "Cukup aktif (3–5 hari/minggu)",
+    "veryActive": "Sangat aktif (6–7 hari/minggu)",
+    "extraActive": "Sangat aktif sekali (olahraga keras setiap hari)",
+    "calculateButton": "Hitung",
+    "tdee": "TDEE",
+    "bmr": "BMR (Laju Metabolisme Basal)",
+    "weightLoss": "Penurunan berat (−500 kkal/hari)",
+    "maintenance": "Pemeliharaan",
+    "weightGain": "Penambahan berat (+500 kkal/hari)",
+    "caloriesPerDay": "kkal/hari"
+  },
+  "IdealWeight": {
+    "heightLabel": "Tinggi badan",
+    "genderLabel": "Jenis kelamin",
+    "male": "Laki-laki",
+    "female": "Perempuan",
+    "metricTab": "Metrik (cm)",
+    "imperialTab": "Imperial (ft/in)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "resultsTitle": "Rentang berat ideal",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "Rentang BMI sehat (18,5–24,9)"
+  },
+  "BodyFat": {
+    "metricTab": "Metrik (cm)",
+    "imperialTab": "Imperial (in)",
+    "genderLabel": "Jenis kelamin",
+    "male": "Laki-laki",
+    "female": "Perempuan",
+    "heightLabel": "Tinggi badan",
+    "neckLabel": "Lingkar leher",
+    "waistLabel": "Lingkar pinggang",
+    "hipLabel": "Lingkar pinggul",
+    "hipNote": "(khusus wanita)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "bodyFatPercent": "Lemak tubuh",
+    "category": "Kategori",
+    "methodNote": "Dihitung menggunakan metode U.S. Navy",
+    "essentialFat": "Lemak esensial",
+    "athletes": "Atlet",
+    "fitness": "Kebugaran",
+    "acceptable": "Dapat diterima",
+    "obese": "Obesitas"
+  },
+  "DateDifference": {
+    "startDateLabel": "Tanggal mulai",
+    "endDateLabel": "Tanggal selesai",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "useToday": "Hari ini",
+    "totalDays": "Total hari",
+    "workingDays": "Hari kerja (Sen–Jum)",
+    "weeks": "Minggu",
+    "months": "Bulan",
+    "years": "Tahun"
+  },
+  "TimeDuration": {
+    "addTab": "Tambah waktu",
+    "subtractTab": "Kurangi waktu",
+    "baseTimeLabel": "Waktu mulai (JJ:MM:DD)",
+    "durationLabel": "Durasi",
+    "hoursLabel": "Jam",
+    "minutesLabel": "Menit",
+    "secondsLabel": "Detik",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "resultLabel": "Hasil",
+    "totalSeconds": "Total detik"
+  },
+  "ScientificCalculator": {
+    "degMode": "DEG",
+    "radMode": "RAD",
+    "clearButton": "C",
+    "clearEntryButton": "CE",
+    "historyLabel": "Riwayat",
+    "noHistory": "Belum ada perhitungan"
+  },
+  "GcdLcm": {
+    "inputLabel": "Masukkan angka (pisahkan dengan koma)",
+    "inputPlaceholder": "Mis. 12, 18, 24",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "gcdLabel": "FPB (Faktor Persekutuan Terbesar)",
+    "lcmLabel": "KPK (Kelipatan Persekutuan Terkecil)",
+    "stepsLabel": "Langkah-langkah"
+  },
+  "QuadraticSolver": {
+    "coefficientA": "a (koefisien x²)",
+    "coefficientB": "b (koefisien x)",
+    "coefficientC": "c (konstanta)",
+    "solveButton": "Pecahkan",
+    "clearButton": "Hapus",
+    "discriminantLabel": "Diskriminan (Δ)",
+    "rootsLabel": "Akar",
+    "twoRoots": "Dua akar real berbeda",
+    "oneRoot": "Satu akar real (kembar)",
+    "complexRoots": "Dua akar kompleks",
+    "vertexLabel": "Titik puncak",
+    "axisLabel": "Sumbu simetri",
+    "noSolution": "Tidak ada solusi (a tidak boleh 0)"
+  },
+  "CronParser": {
+    "inputLabel": "Ekspresi Cron",
+    "inputPlaceholder": "Mis. 0 9 * * 1-5",
+    "parseButton": "Urai",
+    "clearButton": "Hapus",
+    "explanationLabel": "Penjelasan",
+    "nextRunsLabel": "5 eksekusi berikutnya",
+    "invalidCron": "Ekspresi Cron tidak valid",
+    "minuteLabel": "Menit",
+    "hourLabel": "Jam",
+    "dayOfMonthLabel": "Hari dalam bulan",
+    "monthLabel": "Bulan",
+    "dayOfWeekLabel": "Hari dalam minggu",
+    "everyMinute": "setiap menit",
+    "everyHour": "setiap jam",
+    "everyDay": "setiap hari",
+    "everyMonth": "setiap bulan",
+    "everyDayOfWeek": "setiap hari dalam seminggu"
+  },
+  "JsonToTypescript": {
+    "inputLabel": "Input JSON",
+    "inputPlaceholder": "Tempel JSON Anda di sini...",
+    "outputLabel": "Antarmuka TypeScript",
+    "convertButton": "Konversi",
+    "clearButton": "Hapus",
+    "rootInterfaceName": "Nama antarmuka root",
+    "rootInterfaceNamePlaceholder": "Mis. MyInterface",
+    "invalidJson": "JSON tidak valid"
+  },
+  "SqlFormatter": {
+    "inputLabel": "Input SQL",
+    "inputPlaceholder": "Tempel kueri SQL Anda di sini...",
+    "outputLabel": "SQL terformat",
+    "formatButton": "Format",
+    "clearButton": "Hapus",
+    "uppercaseKeywords": "Kata kunci huruf besar"
+  },
+  "StringEscape": {
+    "jsonTab": "JSON",
+    "jsTab": "JavaScript",
+    "htmlTab": "HTML",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "escapeButton": "Escape",
+    "unescapeButton": "Unescape"
+  },
+  "TextToBinary": {
+    "textTab": "Teks → Enkoding",
+    "binaryTab": "Enkoding → Teks",
+    "inputLabel": "Teks input",
+    "outputLabel": "Output",
+    "convertButton": "Konversi",
+    "clearButton": "Hapus",
+    "binaryLabel": "Biner",
+    "hexLabel": "Heksadesimal",
+    "octalLabel": "Oktal",
+    "decimalLabel": "Desimal (ASCII)",
+    "separatorLabel": "Pemisah",
+    "spaceSeparator": "Spasi",
+    "dashSeparator": "Strip",
+    "noneSeparator": "Tidak ada",
+    "inputPlaceholder": "Masukkan teks untuk dikonversi...",
+    "binaryInputPlaceholder": "Masukkan teks dalam biner, hex, atau enkoding lain..."
+  },
+  "RandomNameGenerator": {
+    "countLabel": "Jumlah",
+    "genderLabel": "Jenis kelamin",
+    "genderAny": "Semua",
+    "genderMale": "Laki-laki",
+    "genderFemale": "Perempuan",
+    "typeLabel": "Jenis nama",
+    "typeFullName": "Nama lengkap",
+    "typeFirstName": "Nama depan saja",
+    "typeLastName": "Nama belakang saja",
+    "generateButton": "Hasilkan",
+    "copyAllButton": "Salin semua"
+  },
+  "TipCalculator": {
+    "billAmountLabel": "Jumlah tagihan",
+    "tipPercentageLabel": "Persentase tip",
+    "numberOfPeopleLabel": "Jumlah orang",
+    "tipAmountLabel": "Jumlah tip",
+    "totalLabel": "Total",
+    "perPersonLabel": "Per orang",
+    "customTip": "Kustom",
+    "calculateButton": "Hitung"
+  },
+  "RunningPace": {
+    "paceTab": "Cari kecepatan",
+    "timeTab": "Cari waktu",
+    "distanceTab": "Cari jarak",
+    "distanceLabel": "Jarak",
+    "timeLabel": "Waktu",
+    "paceLabel": "Kecepatan",
+    "hoursLabel": "Jam",
+    "minutesLabel": "Menit",
+    "secondsLabel": "Detik",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "unitKm": "Kilometer",
+    "unitMi": "Mil",
+    "customDistance": "Kustom",
+    "resultLabel": "Hasil",
+    "commonDistances": "Jarak umum"
+  },
+  "WaterIntake": {
+    "weightLabel": "Berat",
+    "weightUnitKg": "kg",
+    "weightUnitLb": "lb",
+    "activityLabel": "Tingkat aktivitas",
+    "activitySedentary": "Tidak aktif (sedikit atau tanpa olahraga)",
+    "activityLight": "Ringan (olahraga 1-3 hari/minggu)",
+    "activityModerate": "Sedang (olahraga 3-5 hari/minggu)",
+    "activityActive": "Aktif (olahraga 6-7 hari/minggu)",
+    "activityVeryActive": "Sangat aktif (olahraga berat setiap hari)",
+    "climateLabel": "Iklim",
+    "climateTemperate": "Sedang",
+    "climateHot": "Panas / Lembap",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "dailyIntakeLabel": "Asupan harian yang direkomendasikan",
+    "glassesLabel": "Sekitar gelas (masing-masing 250 mL)",
+    "noteLabel": "Catatan",
+    "noteText": "Ini adalah perkiraan. Sesuaikan berdasarkan saran dokter, iklim, dan kondisi kesehatan individu."
+  },
+  "ColorConverter": {
+    "invalidColor": "Nilai warna tidak valid",
+    "hue": "Rona",
+    "saturation": "Saturasi",
+    "lightness": "Kecerahan",
+    "colorPickerLabel": "Pilih warna:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Desimal",
+    "binaryLabel": "Biner",
+    "octalLabel": "Oktal",
+    "hexLabel": "Heksadesimal",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Masukkan angka..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Timestamp Unix saat ini",
+    "secondsSince": "Detik sejak 1 Jan 1970 (UTC)",
+    "tsToDate": "Timestamp → Tanggal",
+    "dateToTs": "Tanggal → Timestamp",
+    "timestampPlaceholder": "mis. 1700000000",
+    "useNow": "Gunakan sekarang",
+    "localTime": "Waktu lokal",
+    "utcTime": "Waktu UTC",
+    "relative": "Relatif",
+    "seconds": "Detik (Unix)",
+    "milliseconds": "Milidetik",
+    "invalidTimestamp": "Timestamp tidak valid",
+    "justNow": "baru saja",
+    "minutesAgo": "menit yang lalu",
+    "hoursAgo": "jam yang lalu",
+    "daysAgo": "hari yang lalu"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Pratinjau",
+    "placeholder": "Tulis Markdown Anda di sini..."
+  },
+  "RegexTester": {
+    "patternLabel": "Ekspresi Reguler",
+    "patternPlaceholder": "Masukkan pola regex...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "tidak peka huruf besar/kecil",
+    "flagMultiline": "multibaris",
+    "flagDotAll": "dot all",
+    "testStringLabel": "String Uji",
+    "testStringPlaceholder": "Masukkan teks untuk diuji...",
+    "matchesLabel": "Kecocokan",
+    "matchSingular": "kecocokan",
+    "matchPlural": "kecocokan",
+    "matchDetailsLabel": "Detail Kecocokan",
+    "emptyMatch": "(kosong)",
+    "index": "indeks"
+  },
+  "LocaleSwitcher": {
+    "label": "Bahasa"
+  },
+  "AboutPage": {
+    "title": "Tentang ToolsShed",
+    "subtitle": "Alat gratis, cepat, dan ramah privasi — tanpa pendaftaran, tanpa pengumpulan data.",
+    "whatIsTitle": "Apa itu ToolsShed?",
+    "whatIsText": "ToolsShed adalah kumpulan alat online gratis yang terus berkembang untuk pengembang, pelajar, dan profesional. Baik Anda perlu memformat JSON, mengonversi satuan, membuat kata sandi, atau menghitung bunga majemuk — semuanya ada di sini, gratis dan instan.",
+    "philosophyTitle": "Filosofi Kami",
+    "privacyFirstTitle": "Privasi Utama",
+    "privacyFirstDesc": "Setiap alat berjalan sepenuhnya di browser Anda. Tidak ada yang Anda ketik yang pernah dikirim ke server.",
+    "noFrictionTitle": "Tanpa Hambatan",
+    "noFrictionDesc": "Tanpa pendaftaran, tanpa akun, tanpa paywall. Buka alat dan gunakan seketika.",
+    "builtForEveryoneTitle": "Dibangun untuk Semua Orang",
+    "builtForEveryoneDesc": "Alat yang netral yang bekerja sama di New York, London, atau Tokyo.",
+    "byTheNumbersTitle": "Dalam Angka",
+    "freeToolsLabel": "Alat gratis",
+    "categoriesLabel": "Kategori",
+    "signUpsLabel": "Pendaftaran diperlukan",
+    "techStackTitle": "Tech Stack",
+    "techStackText": "ToolsShed dibangun dengan teknologi modern dan open-source:",
+    "techNext": "Next.js 16 — Framework React dengan pembuatan situs statis",
+    "techTs": "TypeScript — Kode yang aman secara tipe",
+    "techTailwind": "Tailwind CSS — Styling utility-first",
+    "techVercel": "Vercel — Hosting edge global",
+    "techGiscus": "Giscus — Komentar berbasis GitHub Discussions",
+    "openSourceTitle": "Open Source",
+    "openSourceText": "ToolsShed bersifat open source. Menemukan bug? Ingin menyarankan alat? Kontribusi disambut.",
+    "viewOnGitHub": "Lihat di GitHub",
+    "browseTools": "← Telusuri Alat",
+    "privacyPolicy": "Kebijakan Privasi",
+    "metadata": {
+      "title": "Tentang",
+      "description": "Pelajari tentang ToolsShed — kumpulan alat online gratis dan ramah privasi."
+    }
+  },
+  "NotFound": {
+    "title": "Alat Tidak Ditemukan",
+    "description": "Alat yang Anda cari belum ada — tetapi kami selalu menambahkan lebih banyak!",
+    "browseAllTools": "Telusuri semua alat"
+  },
+  "PrivacyPage": {
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: {date}",
+    "backToTools": "← Kembali ke Alat",
+    "overviewTitle": "Ikhtisar",
+    "overviewText1": "ToolsShed (\"kami\") mengoperasikan situs web tools-shed.com. Halaman ini memberi tahu Anda tentang kebijakan kami mengenai pengumpulan, penggunaan, dan pengungkapan informasi pribadi saat Anda menggunakan layanan kami.",
+    "overviewText2": "Versi singkat: Semua alat di ToolsShed berjalan sepenuhnya di browser Anda. Kami tidak menyimpan, mengirimkan, atau memproses data apa pun yang Anda masukkan ke alat kami di server kami.",
+    "shortVersionLabel": "Versi singkat:",
+    "noCollectTitle": "1. Data yang TIDAK Kami Kumpulkan",
+    "noCollectText": "Alat ToolsShed beroperasi sepenuhnya di sisi klien. Ini berarti:",
+    "noCollectItem1": "Teks yang Anda tempel ke Pemformat JSON, Base64, atau alat lainnya",
+    "noCollectItem2": "Kata sandi yang dihasilkan oleh Generator Kata Sandi",
+    "noCollectItem3": "Data kesehatan yang dimasukkan ke Kalkulator BMI",
+    "noCollectItem4": "Data keuangan yang dimasukkan ke kalkulator",
+    "noCollectItem5": "Masukan lain apa pun yang Anda berikan ke alat kami",
+    "noCollectFooter": "Tidak ada data ini yang meninggalkan perangkat Anda atau dikirim ke server mana pun.",
+    "analyticsTitle": "2. Google Analytics",
+    "analyticsText1": "Kami menggunakan Google Analytics 4 untuk memahami bagaimana pengunjung berinteraksi dengan situs kami. Data ini anonim dan teragregasi.",
+    "analyticsText2": "Google Analytics dapat mengumpulkan:",
+    "analyticsItem1": "Halaman yang dikunjungi dan waktu yang dihabiskan",
+    "analyticsItem2": "Lokasi geografis umum (tingkat negara/kota)",
+    "analyticsItem3": "Jenis browser dan perangkat",
+    "analyticsItem4": "Situs perujuk",
+    "analyticsOptOut": "Google Analytics menggunakan cookie. Anda dapat memilih keluar dengan memasang",
+    "analyticsOptOutLink": "Add-on Browser Opt-out Google Analytics",
+    "analyticsPrivacy": "Untuk informasi lebih lanjut, lihat",
+    "analyticsPrivacyLink": "Kebijakan Privasi Google",
+    "adsenseTitle": "3. Google AdSense",
+    "adsenseText1": "Kami menggunakan Google AdSense untuk menampilkan iklan. Google AdSense menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan Anda sebelumnya.",
+    "adsenseText2": "Anda dapat memilih keluar dari iklan yang dipersonalisasi dengan mengunjungi",
+    "adsenseOptOutLink": "Setelan Iklan Google",
+    "commentsTitle": "4. Komentar (Giscus)",
+    "commentsText1": "Sistem komentar kami didukung oleh Giscus, yang menyimpan komentar sebagai GitHub Discussions. Jika Anda memilih untuk meninggalkan komentar, Anda harus masuk dengan akun GitHub.",
+    "commentsText2": "Lihat",
+    "commentsPrivacyLink": "Pernyataan Privasi GitHub",
+    "commentsText3": "untuk detailnya.",
+    "cookiesTitle": "5. Cookie",
+    "cookiesText": "Kami menggunakan jenis cookie berikut:",
+    "cookieColName": "Cookie",
+    "cookieColPurpose": "Tujuan",
+    "cookieColProvider": "Penyedia",
+    "cookie1Name": "_ga, _ga_*",
+    "cookie1Purpose": "Pelacakan analitik",
+    "cookie1Provider": "Google Analytics",
+    "cookie2Name": "IDE, NID",
+    "cookie2Purpose": "Personalisasi iklan",
+    "cookie2Provider": "Google AdSense",
+    "thirdPartyTitle": "6. Tautan Pihak Ketiga",
+    "thirdPartyText": "Situs web kami mungkin berisi tautan ke situs eksternal. Kami tidak bertanggung jawab atas praktik privasi atau konten situs tersebut.",
+    "childrenTitle": "7. Privasi Anak-anak",
+    "childrenText": "ToolsShed tidak ditujukan untuk anak-anak di bawah 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun.",
+    "changesTitle": "8. Perubahan pada Kebijakan Ini",
+    "changesText": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diposting di halaman ini dengan tanggal yang diperbarui.",
+    "contactTitle": "9. Kontak",
+    "contactText1": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan buka issue di",
+    "contactLink": "repositori GitHub kami",
+    "metadata": {
+      "title": "Kebijakan Privasi",
+      "description": "Kebijakan Privasi ToolsShed — bagaimana kami menangani data Anda."
+    }
+  }
 }

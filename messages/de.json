@@ -6,6 +6,7 @@
     "finance": "Finanzen",
     "health": "Gesundheit",
     "time": "Zeit",
+    "math": "Mathe",
     "toggleMenu": "Menü umschalten"
   },
   "Footer": {
@@ -73,6 +74,10 @@
     "time": {
       "name": "Zeit-Tools",
       "description": "Zeitzonenkonverter, Altersrechner und Datums-Utilities."
+    },
+    "math": {
+      "name": "Mathematik-Tools",
+      "description": "Rechner für Gleichungen, Zahlentheorie und wissenschaftliche Berechnungen."
     }
   },
   "Tools": {
@@ -321,6 +326,78 @@
       "description": "Addieren oder subtrahieren Sie Stunden, Minuten und Sekunden zur Berechnung von Zeitdauern.",
       "metaTitle": "Time Duration Calculator",
       "metaDescription": "Addieren oder subtrahieren Sie Zeitdauern in Stunden, Minuten und Sekunden. Kostenloser Online-Zeitdauerrechner."
+    },
+    "scientific-calculator": {
+      "name": "Wissenschaftlicher Taschenrechner",
+      "description": "Erweiterter Rechner mit Trigonometrie, Logarithmen, Potenzen und mehr.",
+      "metaTitle": "Wissenschaftlicher Taschenrechner",
+      "metaDescription": "Kostenloser Online-Wissenschaftsrechner mit sin, cos, tan, log, sqrt und mehr. Funktioniert direkt im Browser."
+    },
+    "gcd-lcm": {
+      "name": "GGT und KGV Rechner",
+      "description": "Berechnet den Größten Gemeinsamen Teiler und das Kleinste Gemeinsame Vielfache.",
+      "metaTitle": "GGT und KGV Rechner",
+      "metaDescription": "Berechnen Sie GGT und KGV mehrerer Zahlen mit schrittweisen Lösungen. Kostenloses Online-Mathematiktool."
+    },
+    "quadratic-solver": {
+      "name": "Quadratische Gleichung lösen",
+      "description": "Löst quadratische Gleichungen ax² + bx + c = 0 mit schrittweisen Lösungen.",
+      "metaTitle": "Quadratische Gleichung Rechner",
+      "metaDescription": "Lösen Sie ax²+bx+c=0 und erhalten Sie reelle oder komplexe Wurzeln mit detaillierten Schritten. Kostenloses Tool."
+    },
+    "cron-parser": {
+      "name": "Cron-Ausdruck Parser",
+      "description": "Analysiert Cron-Ausdrücke und zeigt die nächsten geplanten Ausführungszeiten.",
+      "metaTitle": "Cron-Ausdruck Parser",
+      "metaDescription": "Cron-Ausdrücke in einfacher Sprache erklären und die nächsten 5 Ausführungszeiten anzeigen. Kostenloses Online-Tool."
+    },
+    "json-to-typescript": {
+      "name": "JSON zu TypeScript",
+      "description": "Konvertiert JSON-Objekte automatisch in TypeScript-Interfaces.",
+      "metaTitle": "JSON zu TypeScript Interface Generator",
+      "metaDescription": "JSON automatisch in TypeScript-Interfaces umwandeln. Kostenloses Online-Tool, kein Upload nötig."
+    },
+    "sql-formatter": {
+      "name": "SQL Formatter",
+      "description": "Formatiert und verschönert SQL-Abfragen für bessere Lesbarkeit.",
+      "metaTitle": "SQL Formatter",
+      "metaDescription": "SQL-Abfragen mit Einrückung und Großbuchstaben-Keywords formatieren. Kostenloser Online-SQL-Formatter."
+    },
+    "string-escape": {
+      "name": "String Escape / Unescape",
+      "description": "Strings für JSON-, JavaScript- und HTML-Kontexte escapen und unescapen.",
+      "metaTitle": "String Escape / Unescape",
+      "metaDescription": "Strings für JSON, JavaScript und HTML escapen und unescapen. Sonderzeichen sofort verarbeiten."
+    },
+    "text-to-binary": {
+      "name": "Text zu Binär / Hexadezimal",
+      "description": "Konvertiert Text in Binär-, Hexadezimal-, Oktal- und Dezimaldarstellung.",
+      "metaTitle": "Text zu Binär / Hexadezimal Konverter",
+      "metaDescription": "Text in Binär, Hexadezimal, Oktal und Dezimal umwandeln und zurückdecodieren. Kostenloses Online-Tool."
+    },
+    "random-name-generator": {
+      "name": "Zufallsnamengenerator",
+      "description": "Generiert zufällige englische Namen für Tests und Platzhalter.",
+      "metaTitle": "Zufallsnamengenerator",
+      "metaDescription": "Zufällige englische Vor-, Nach- oder Vollnamen generieren. Ideal für Testdaten und Dummy-Datensätze."
+    },
+    "tip-calculator": {
+      "name": "Trinkgeldrechner",
+      "description": "Berechnet den Trinkgeldbetrag und teilt die Rechnung auf mehrere Personen auf.",
+      "metaTitle": "Trinkgeldrechner",
+      "metaDescription": "Trinkgeld berechnen und die Rechnung auf beliebig viele Personen aufteilen. Kostenloser Online-Rechner."
+    },
+    "running-pace": {
+      "name": "Lauftempo Rechner",
+      "description": "Berechnet Lauftempo, Geschwindigkeit, Zeit und Distanz für jede Streckenlänge.",
+      "metaTitle": "Lauftempo Rechner",
+      "metaDescription": "Lauftempo, Zielzeit oder Distanz berechnen. Unterstützt 5K, 10K, Halbmarathon und Marathon."
+    },
+    "water-intake": {
+      "name": "Wasserbedarfsrechner",
+      "description": "Berechnet die empfohlene tägliche Wasseraufnahme basierend auf Gewicht und Aktivität.",
+      "metaTitle": "Wasserbedarfsrechner",
+      "metaDescription": "Empfohlene tägliche Wasseraufnahme nach Gewicht und Aktivitätslevel berechnen. Kostenloser Online-Rechner."
     }
   },
   "Common": {
@@ -734,6 +811,163 @@
     "clearButton": "Löschen",
     "resultLabel": "Ergebnis",
     "totalSeconds": "Sekunden gesamt"
+  },
+  "ScientificCalculator": {
+    "degMode": "DEG",
+    "radMode": "RAD",
+    "clearButton": "C",
+    "clearEntryButton": "CE",
+    "historyLabel": "Verlauf",
+    "noHistory": "Noch keine Berechnungen"
+  },
+  "GcdLcm": {
+    "inputLabel": "Zahlen eingeben (kommagetrennt)",
+    "inputPlaceholder": "z. B. 12, 18, 24",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "gcdLabel": "GGT (Größter Gemeinsamer Teiler)",
+    "lcmLabel": "KGV (Kleinstes Gemeinsames Vielfaches)",
+    "stepsLabel": "Schritte"
+  },
+  "QuadraticSolver": {
+    "coefficientA": "a (Koeffizient von x²)",
+    "coefficientB": "b (Koeffizient von x)",
+    "coefficientC": "c (Konstante)",
+    "solveButton": "Lösen",
+    "clearButton": "Löschen",
+    "discriminantLabel": "Diskriminante (Δ)",
+    "rootsLabel": "Wurzeln",
+    "twoRoots": "Zwei verschiedene reelle Wurzeln",
+    "oneRoot": "Eine reelle Wurzel (doppelt)",
+    "complexRoots": "Zwei komplexe Wurzeln",
+    "vertexLabel": "Scheitelpunkt",
+    "axisLabel": "Symmetrieachse",
+    "noSolution": "Keine Lösung (a darf nicht 0 sein)"
+  },
+  "CronParser": {
+    "inputLabel": "Cron-Ausdruck",
+    "inputPlaceholder": "z. B. 0 9 * * 1-5",
+    "parseButton": "Analysieren",
+    "clearButton": "Löschen",
+    "explanationLabel": "Erklärung",
+    "nextRunsLabel": "Nächste 5 Ausführungen",
+    "invalidCron": "Ungültiger Cron-Ausdruck",
+    "minuteLabel": "Minute",
+    "hourLabel": "Stunde",
+    "dayOfMonthLabel": "Tag des Monats",
+    "monthLabel": "Monat",
+    "dayOfWeekLabel": "Wochentag",
+    "everyMinute": "jede Minute",
+    "everyHour": "jede Stunde",
+    "everyDay": "jeden Tag",
+    "everyMonth": "jeden Monat",
+    "everyDayOfWeek": "jeden Wochentag"
+  },
+  "JsonToTypescript": {
+    "inputLabel": "JSON-Eingabe",
+    "inputPlaceholder": "JSON hier einfügen...",
+    "outputLabel": "TypeScript-Interface",
+    "convertButton": "Konvertieren",
+    "clearButton": "Löschen",
+    "rootInterfaceName": "Name des Root-Interfaces",
+    "rootInterfaceNamePlaceholder": "z. B. MyInterface",
+    "invalidJson": "Ungültiges JSON"
+  },
+  "SqlFormatter": {
+    "inputLabel": "SQL-Eingabe",
+    "inputPlaceholder": "SQL-Abfrage hier einfügen...",
+    "outputLabel": "Formatiertes SQL",
+    "formatButton": "Formatieren",
+    "clearButton": "Löschen",
+    "uppercaseKeywords": "Keywords großschreiben"
+  },
+  "StringEscape": {
+    "jsonTab": "JSON",
+    "jsTab": "JavaScript",
+    "htmlTab": "HTML",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "escapeButton": "Escapen",
+    "unescapeButton": "Unescapen"
+  },
+  "TextToBinary": {
+    "textTab": "Text → Kodierung",
+    "binaryTab": "Kodierung → Text",
+    "inputLabel": "Eingabetext",
+    "outputLabel": "Ausgabe",
+    "convertButton": "Konvertieren",
+    "clearButton": "Löschen",
+    "binaryLabel": "Binär",
+    "hexLabel": "Hexadezimal",
+    "octalLabel": "Oktal",
+    "decimalLabel": "Dezimal (ASCII)",
+    "separatorLabel": "Trennzeichen",
+    "spaceSeparator": "Leerzeichen",
+    "dashSeparator": "Bindestrich",
+    "noneSeparator": "Keines",
+    "inputPlaceholder": "Zu konvertierenden Text eingeben...",
+    "binaryInputPlaceholder": "Binär-, Hex- oder anderen kodierten Text eingeben..."
+  },
+  "RandomNameGenerator": {
+    "countLabel": "Anzahl",
+    "genderLabel": "Geschlecht",
+    "genderAny": "Beliebig",
+    "genderMale": "Männlich",
+    "genderFemale": "Weiblich",
+    "typeLabel": "Namenstyp",
+    "typeFullName": "Vollständiger Name",
+    "typeFirstName": "Nur Vorname",
+    "typeLastName": "Nur Nachname",
+    "generateButton": "Generieren",
+    "copyAllButton": "Alles kopieren"
+  },
+  "TipCalculator": {
+    "billAmountLabel": "Rechnungsbetrag",
+    "tipPercentageLabel": "Trinkgeldprozentsatz",
+    "numberOfPeopleLabel": "Anzahl Personen",
+    "tipAmountLabel": "Trinkgeldbetrag",
+    "totalLabel": "Gesamt",
+    "perPersonLabel": "Pro Person",
+    "customTip": "Benutzerdefiniert",
+    "calculateButton": "Berechnen"
+  },
+  "RunningPace": {
+    "paceTab": "Tempo berechnen",
+    "timeTab": "Zeit berechnen",
+    "distanceTab": "Distanz berechnen",
+    "distanceLabel": "Distanz",
+    "timeLabel": "Zeit",
+    "paceLabel": "Tempo",
+    "hoursLabel": "Stunden",
+    "minutesLabel": "Minuten",
+    "secondsLabel": "Sekunden",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "unitKm": "Kilometer",
+    "unitMi": "Meilen",
+    "customDistance": "Benutzerdefiniert",
+    "resultLabel": "Ergebnis",
+    "commonDistances": "Typische Distanzen"
+  },
+  "WaterIntake": {
+    "weightLabel": "Gewicht",
+    "weightUnitKg": "kg",
+    "weightUnitLb": "lb",
+    "activityLabel": "Aktivitätslevel",
+    "activitySedentary": "Sitzend (wenig oder kein Sport)",
+    "activityLight": "Leicht (Sport 1-3 Tage/Woche)",
+    "activityModerate": "Moderat (Sport 3-5 Tage/Woche)",
+    "activityActive": "Aktiv (Sport 6-7 Tage/Woche)",
+    "activityVeryActive": "Sehr aktiv (täglicher intensiver Sport)",
+    "climateLabel": "Klima",
+    "climateTemperate": "Gemäßigt",
+    "climateHot": "Heiß / Feucht",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "dailyIntakeLabel": "Empfohlene tägliche Aufnahme",
+    "glassesLabel": "Ca. Gläser (je 250 mL)",
+    "noteLabel": "Hinweis",
+    "noteText": "Dies ist eine Schätzung. Passen Sie die Menge nach ärztlichem Rat, Klima und persönlichem Gesundheitszustand an."
   },
   "ColorConverter": {
     "invalidColor": "Ungültiger Farbwert",

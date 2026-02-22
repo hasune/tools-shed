@@ -1,91 +1,1131 @@
 {
-  "Header": { "developer": "Geliştirici", "converters": "Dönüştürücüler", "text": "Metin", "finance": "Finans", "health": "Sağlık", "time": "Zaman", "toggleMenu": "Menüyü aç/kapat" },
-  "Footer": { "tagline": "Dünya genelindeki geliştiriciler, öğrenciler ve profesyoneller için ücretsiz çevrimiçi araçlar.", "copyright": "© {year} ToolsShed. Tüm hakları saklıdır.", "about": "Hakkında", "privacyPolicy": "Gizlilik Politikası", "developer": "Geliştirici", "converters": "Dönüştürücüler", "tools": "Araçlar", "jsonFormatter": "JSON Formatlayıcı", "base64": "Base64", "uuidGenerator": "UUID Oluşturucu", "hashGenerator": "Hash Oluşturucu", "length": "Uzunluk", "weight": "Ağırlık", "temperature": "Sıcaklık", "bmiCalculator": "VKİ Hesaplayıcı", "passwordGenerator": "Şifre Oluşturucu", "timezoneConverter": "Saat Dilimi Dönüştürücü", "compoundInterest": "Bileşik Faiz" },
-  "HomePage": { "heroTitle": "Herkes İçin Ücretsiz", "heroTitleHighlight": "Çevrimiçi Araçlar", "heroSubtitle": "Kullanışlı, gizlilik dostu araçlar koleksiyonu. Kayıt gerekmez. Tarayıcınızda anında çalışır.", "noRegistration": "Kayıt yok", "noDataSent": "Sunucuya veri gönderilmez", "alwaysFree": "Her zaman ücretsiz", "popularTools": "Popüler Araçlar", "whyTitle": "Neden ToolsShed?", "privacyFirstTitle": "Gizlilik Önce Gelir", "privacyFirstDesc": "Tüm hesaplamalar tarayıcınızda yapılır. Hiçbir veri sunucularımıza gönderilmez.", "instantResultsTitle": "Anında Sonuçlar", "instantResultsDesc": "Yükleme yok. Siz yazarken sonuçlar görünür, sunucuya istek olmadan.", "worksEverywhereTitle": "Her Yerde Çalışır", "worksEverywhereDesc": "Mobil uyumlu, kurulum gerektirmez. Açın ve kullanın.", "moreTools": "+{count} daha →", "metadata": { "title": "ToolsShed - Ücretsiz Çevrimiçi Araçlar", "description": "Geliştiriciler, öğrenciler ve profesyoneller için ücretsiz çevrimiçi araçlar. JSON Formatlayıcı, Base64, UUID Oluşturucu, Birim Dönüştürücüler ve daha fazlası." } },
-  "Categories": { "developer": { "name": "Geliştirici Araçları", "description": "Geliştiriciler için temel araçlar: JSON, Base64, UUID, hashing ve daha fazlası." }, "converters": { "name": "Birim Dönüştürücüler", "description": "Uzunluk, ağırlık, sıcaklık ve daha fazla birim arasında dönüştürün." }, "text": { "name": "Metin Araçları", "description": "Metin düzenleme, sayma ve dönüştürme araçları." }, "finance": { "name": "Finans Araçları", "description": "Faiz, yüzdeler, krediler ve yatırımlar için hesaplayıcılar." }, "health": { "name": "Sağlık Araçları", "description": "VKİ, kalori ve fitness metrikleri hesaplayıcıları." }, "time": { "name": "Zaman Araçları", "description": "Saat dilimi dönüştürücüler, yaş hesaplayıcılar ve tarih araçları." } },
-  "Tools": {
-    "json-formatter": { "name": "JSON Formatlayıcı ve Doğrulayıcı", "description": "JSON verilerini formatlayın, doğrulayın ve güzelleştirin.", "metaTitle": "JSON Formatlayıcı ve Doğrulayıcı", "metaDescription": "Sözdizimi kontrolüyle JSON verilerini formatlayın, doğrulayın ve güzelleştirin. Ücretsiz çevrimiçi JSON formatlayıcı." },
-    "uuid-generator": { "name": "UUID Oluşturucu", "description": "Uygulamalarınız için rastgele UUID'ler (v4) oluşturun.", "metaTitle": "UUID Oluşturucu", "metaDescription": "Tarayıcınızda anında rastgele UUID'ler (v4) oluşturun. Ücretsiz, kayıt gerekmez." },
-    "base64": { "name": "Base64 Kodlayıcı / Çözücü", "description": "Metni veya dosyaları Base64'e kodlayın ve Base64 dizelerini çözün.", "metaTitle": "Base64 Kodlayıcı / Çözücü", "metaDescription": "Metni veya dosyaları Base64'e kodlayın ve Base64 dizelerini çözün. Ücretsiz çevrimiçi Base64 aracı." },
-    "url-encoder": { "name": "URL Kodlayıcı / Çözücü", "description": "URL'leri ve sorgu parametrelerini kodlayın ve çözün.", "metaTitle": "URL Kodlayıcı / Çözücü", "metaDescription": "URL'leri ve sorgu parametrelerini kodlayın ve çözün. Ücretsiz çevrimiçi URL kodlama aracı." },
-    "hash-generator": { "name": "Hash Oluşturucu", "description": "MD5, SHA-256 ve SHA-512 kriptografik hashler oluşturun.", "metaTitle": "Hash Oluşturucu", "metaDescription": "İstemci tarafında MD5, SHA-256 ve SHA-512 hashler oluşturun. Hiçbir veri tarayıcınızı terk etmez." },
-    "jwt-decoder": { "name": "JWT Çözücü", "description": "İmza doğrulaması olmadan JSON Web Token yüklerini çözün ve inceleyin.", "metaTitle": "JWT Çözücü", "metaDescription": "JWT başlıklarını ve yüklerini çözün ve inceleyin. Ücretsiz tarayıcı tabanlı JWT inceleyici." },
-    "length-converter": { "name": "Uzunluk Dönüştürücü", "description": "Metre, feet, inç, mil, kilometre ve daha fazlası arasında dönüştürün.", "metaTitle": "Uzunluk Dönüştürücü", "metaDescription": "Metre, feet, inç, mil ve kilometre arasında dönüştürün. Ücretsiz çevrimiçi uzunluk dönüştürücü." },
-    "weight-converter": { "name": "Ağırlık Dönüştürücü", "description": "Kilogram, pound, ons, gram ve daha fazlası arasında dönüştürün.", "metaTitle": "Ağırlık Dönüştürücü", "metaDescription": "Kilogram, pound, ons ve gram arasında dönüştürün. Ücretsiz çevrimiçi ağırlık dönüştürücü." },
-    "temperature-converter": { "name": "Sıcaklık Dönüştürücü", "description": "Celsius, Fahrenheit ve Kelvin arasında dönüştürün.", "metaTitle": "Sıcaklık Dönüştürücü", "metaDescription": "Celsius, Fahrenheit ve Kelvin arasında dönüştürün. Ücretsiz çevrimiçi sıcaklık dönüştürücü." },
-    "word-counter": { "name": "Kelime ve Karakter Sayacı", "description": "Metninizde kelime, karakter, cümle ve paragraf sayın.", "metaTitle": "Kelime ve Karakter Sayacı", "metaDescription": "Kelime, karakter, cümle ve paragraf sayın. Ücretsiz çevrimiçi kelime sayacı." },
-    "case-converter": { "name": "Büyük/Küçük Harf Dönüştürücü", "description": "Metni BÜYÜK HARF, küçük harf, Başlık Durumu, camelCase ve daha fazlasına dönüştürün.", "metaTitle": "Büyük/Küçük Harf Dönüştürücü", "metaDescription": "Metni BÜYÜK HARF, küçük harf, Başlık Durumu, camelCase, snake_case ve daha fazlası arasında dönüştürün." },
-    "password-generator": { "name": "Şifre Oluşturucu", "description": "Özelleştirilebilir seçeneklerle güçlü, güvenli şifreler oluşturun.", "metaTitle": "Şifre Oluşturucu", "metaDescription": "Özelleştirilebilir uzunluk ve karakter türleriyle güçlü, güvenli şifreler oluşturun." },
-    "compound-interest": { "name": "Bileşik Faiz Hesaplayıcı", "description": "Zaman içinde yatırımlar için bileşik faiz büyümesini hesaplayın.", "metaTitle": "Bileşik Faiz Hesaplayıcı", "metaDescription": "Yatırımlar için bileşik faiz büyümesini hesaplayın. Ücretsiz çevrimiçi bileşik faiz hesaplayıcı." },
-    "percentage-calculator": { "name": "Yüzde Hesaplayıcı", "description": "Yüzdeleri, yüzde değişimlerini ve bahşiş miktarlarını hesaplayın.", "metaTitle": "Yüzde Hesaplayıcı", "metaDescription": "Yüzdeleri, yüzde değişimlerini ve bahşiş miktarlarını hesaplayın. Ücretsiz çevrimiçi yüzde hesaplayıcı." },
-    "bmi-calculator": { "name": "VKİ Hesaplayıcı", "description": "Metrik ve imperial birimlerle Vücut Kitle İndeksini hesaplayın.", "metaTitle": "VKİ Hesaplayıcı", "metaDescription": "Metrik veya imperial birimlerle Vücut Kitle İndeksinizi (VKİ) hesaplayın. Ücretsiz çevrimiçi VKİ hesaplayıcı." },
-    "age-calculator": { "name": "Yaş Hesaplayıcı", "description": "Doğum tarihinden itibaren yıl, ay ve gün olarak kesin yaşı hesaplayın.", "metaTitle": "Yaş Hesaplayıcı", "metaDescription": "Doğum tarihinden itibaren yıl, ay ve gün olarak kesin yaşınızı hesaplayın. Ücretsiz çevrimiçi yaş hesaplayıcı." },
-    "timezone-converter": { "name": "Saat Dilimi Dönüştürücü", "description": "Dünya genelindeki farklı saat dilimleri arasında saati dönüştürün.", "metaTitle": "Saat Dilimi Dönüştürücü", "metaDescription": "Dünya genelindeki farklı saat dilimleri arasında saati dönüştürün. Ücretsiz çevrimiçi saat dilimi dönüştürücü." },
-    "color-converter": { "name": "Renk Dönüştürücü", "description": "Renkleri HEX, RGB ve HSL formatları arasında anında dönüştürün.", "metaTitle": "Renk Dönüştürücü — HEX, RGB, HSL", "metaDescription": "Renkleri HEX, RGB ve HSL formatları arasında anında dönüştürün. Ücretsiz çevrimiçi renk dönüştürücü — tarayıcınızda çalışır." },
-    "number-base-converter": { "name": "Sayı Tabanı Dönüştürücü", "description": "Sayıları ikili, sekizli, onlu ve onaltılı sistem arasında dönüştürün.", "metaTitle": "Sayı Tabanı Dönüştürücü", "metaDescription": "Sayıları ikili (Base 2), sekizli (Base 8), onlu (Base 10) ve onaltılı (Base 16) sistem arasında dönüştürün. Ücretsiz çevrimiçi sayı tabanı dönüştürücü." },
-    "regex-tester": { "name": "RegEx Test Aracı", "description": "Düzenli ifadeleri canlı eşleşme vurgulamasıyla test edin ve hata ayıklayın.", "metaTitle": "RegEx Test Aracı", "metaDescription": "Düzenli ifadeleri canlı eşleşme vurgulamasıyla test edin ve hata ayıklayın. Ücretsiz çevrimiçi RegEx test aracı — kayıt gerekmez." },
-    "markdown-preview": { "name": "Markdown Önizleme", "description": "Markdown yazın ve gerçek zamanlı olarak işlenmiş çıktıyı önizleyin.", "metaTitle": "Markdown Önizleme", "metaDescription": "Markdown yazın ve işlenmiş çıktıyı anında önizleyin. Ücretsiz çevrimiçi Markdown editörü ve canlı önizleyici." },
-    "unix-timestamp": { "name": "Unix Zaman Damgası Dönüştürücü", "description": "Unix zaman damgaları ile insan tarafından okunabilir tarihler arasında dönüştürün.", "metaTitle": "Unix Zaman Damgası Dönüştürücü", "metaDescription": "Unix zaman damgalarını insan tarafından okunabilir tarihlere ve tersine dönüştürün. Ücretsiz çevrimiçi Unix zaman damgası dönüştürücü." },
-    "csv-json": { "name": "CSV ↔ JSON Dönüştürücü", "description": "CSV verilerini JSON'a ve JSON dizilerini tekrar CSV formatına dönüştürün.", "metaTitle": "CSV to JSON Converter", "metaDescription": "CSV'yi JSON'a ve JSON'ı CSV'ye tarayıcınızda anında dönüştürün. Ücretsiz çevrimiçi CSV JSON dönüştürücü — yükleme gerekmez." },
-    "diff-checker": { "name": "Diff Checker", "description": "İki metni karşılaştırın ve farklılıkları satır satır vurgulayın.", "metaTitle": "Diff Checker — Compare Two Texts", "metaDescription": "İki metni karşılaştırın ve eklemeleri, silmeleri ve değişiklikleri vurgulayın. Ücretsiz çevrimiçi diff checker — tamamen tarayıcınızda çalışır." },
-    "lorem-ipsum": { "name": "Lorem Ipsum Oluşturucu", "description": "Tasarım ve geliştirme için Lorem Ipsum yer tutucu metin oluşturun.", "metaTitle": "Lorem Ipsum Generator", "metaDescription": "Paragraf, cümle veya kelime bazında Lorem Ipsum yer tutucu metin oluşturun. Ücretsiz çevrimiçi Lorem Ipsum oluşturucu." },
-    "html-encoder": { "name": "HTML Encoder / Decoder", "description": "Özel karakterleri HTML varlıklarına kodlayın ve geri çözün.", "metaTitle": "HTML Encoder / Decoder", "metaDescription": "Özel karakterleri HTML varlıklarına kodlayın ve HTML varlıklarını metne geri çözün. Ücretsiz çevrimiçi HTML encoder decoder." },
-    "yaml-json": { "name": "YAML ↔ JSON Dönüştürücü", "description": "YAML ve JSON formatları arasında anında dönüştürün.", "metaTitle": "YAML to JSON Converter", "metaDescription": "YAML'ı JSON'a ve JSON'ı YAML'a tarayıcınızda anında dönüştürün. Ücretsiz çevrimiçi YAML JSON dönüştürücü." },
-    "data-storage-converter": { "name": "Veri Depolama Dönüştürücü", "description": "Bayt, kilobayt, megabayt, gigabayt, terabayt ve daha fazlası arasında dönüştürün.", "metaTitle": "Data Storage Converter", "metaDescription": "Bayt, KB, MB, GB, TB ve ikili birimler (KiB, MiB, GiB) arasında dönüştürün. Ücretsiz çevrimiçi veri depolama dönüştürücü." },
-    "speed-converter": { "name": "Hız Dönüştürücü", "description": "km/s, mph, m/s, knot ve diğer hız birimleri arasında dönüştürün.", "metaTitle": "Speed Converter", "metaDescription": "km/s, mph, m/s, knot ve feet/saniye arasında dönüştürün. Ücretsiz çevrimiçi hız dönüştürücü." },
-    "area-converter": { "name": "Alan Dönüştürücü", "description": "Metrekare, fit kare, dönüm, hektar ve daha fazlası arasında dönüştürün.", "metaTitle": "Area Converter", "metaDescription": "Metrekare, fit kare, dönüm, hektar ve daha fazlası arasında dönüştürün. Ücretsiz çevrimiçi alan dönüştürücü." },
-    "volume-converter": { "name": "Hacim Dönüştürücü", "description": "Litre, galon, sıvı ons, metreküp ve daha fazlası arasında dönüştürün.", "metaTitle": "Volume Converter", "metaDescription": "Litre, galon, sıvı ons, bardak ve metreküp arasında dönüştürün. Ücretsiz çevrimiçi hacim dönüştürücü." },
-    "slug-generator": { "name": "Slug Oluşturucu", "description": "Herhangi bir metni temiz, URL dostu bir slug'a dönüştürün.", "metaTitle": "Slug Generator", "metaDescription": "Herhangi bir metni temiz URL dostu bir slug'a dönüştürün. SEO dostu kalıcı bağlantılar için ücretsiz çevrimiçi slug oluşturucu." },
-    "text-repeater": { "name": "Metin Tekrarlayıcı", "description": "Herhangi bir metin veya karakteri belirli sayıda tekrarlayın.", "metaTitle": "Text Repeater", "metaDescription": "Herhangi bir metni, kelimeyi veya karakteri özel ayırıcıyla istediğiniz kadar tekrarlayın. Ücretsiz çevrimiçi metin tekrarlayıcı." },
-    "discount-calculator": { "name": "İndirim Hesaplayıcı", "description": "İndirimli fiyatları, indirim miktarlarını ve tasarrufları anında hesaplayın.", "metaTitle": "Discount Calculator", "metaDescription": "Herhangi bir indirim yüzdesinden indirimli fiyat ve tasarruf hesaplayın. Ücretsiz çevrimiçi indirim ve indirimli fiyat hesaplayıcı." },
-    "loan-calculator": { "name": "Kredi Hesaplayıcı", "description": "Krediler için aylık ödemeleri, toplam faizi ve itfa planını hesaplayın.", "metaTitle": "Loan Calculator", "metaDescription": "Aylık kredi ödemelerini, toplam faizi ve tam itfa planını hesaplayın. Ücretsiz çevrimiçi kredi ve ipotek hesaplayıcı." },
-    "roi-calculator": { "name": "ROI Hesaplayıcı", "description": "Herhangi bir yatırım için yatırım getirisini ve yıllıklaştırılmış ROI'yi hesaplayın.", "metaTitle": "ROI Calculator", "metaDescription": "Herhangi bir yatırım için yatırım getirisini (ROI) ve yıllıklaştırılmış ROI'yi hesaplayın. Ücretsiz çevrimiçi ROI hesaplayıcı." },
-    "tdee-calculator": { "name": "TDEE Hesaplayıcı", "description": "Toplam Günlük Enerji Harcamanızı ve günlük kalori ihtiyacınızı hesaplayın.", "metaTitle": "TDEE Calculator — Daily Calorie Calculator", "metaDescription": "Aktivite düzeyine göre Toplam Günlük Enerji Harcamanızı (TDEE) ve günlük kalori ihtiyacınızı hesaplayın. Ücretsiz çevrimiçi TDEE hesaplayıcı." },
-    "ideal-weight": { "name": "İdeal Kilo Hesaplayıcı", "description": "Birden fazla formül kullanarak boya göre ideal vücut ağırlığınızı hesaplayın.", "metaTitle": "Ideal Weight Calculator", "metaDescription": "Robinson, Miller, Devine ve Hamwi formüllerini kullanarak ideal vücut ağırlığınızı hesaplayın. Ücretsiz çevrimiçi ideal kilo hesaplayıcı." },
-    "body-fat": { "name": "Vücut Yağ Oranı Hesaplayıcı", "description": "ABD Donanma yöntemini kullanarak vücut yağ yüzdesini tahmin edin.", "metaTitle": "Body Fat Calculator", "metaDescription": "U.S. Navy yöntemini kullanarak vücut yağ yüzdenizi tahmin edin. Erkekler ve kadınlar için ücretsiz çevrimiçi vücut yağ hesaplayıcı." },
-    "date-difference": { "name": "Tarih Farkı Hesaplayıcı", "description": "İki tarih arasındaki gün, hafta ve ay sayısını kesin olarak hesaplayın.", "metaTitle": "Date Difference Calculator", "metaDescription": "Herhangi iki tarih arasındaki gün, hafta ve ay sayısını kesin olarak hesaplayın. Ücretsiz çevrimiçi tarih farkı hesaplayıcı." },
-    "time-duration": { "name": "Süre Hesaplayıcı", "description": "Zaman sürelerini hesaplamak için saat, dakika ve saniye ekleyin veya çıkarın.", "metaTitle": "Time Duration Calculator", "metaDescription": "Saat, dakika ve saniye cinsinden zaman sürelerini ekleyin veya çıkarın. Ücretsiz çevrimiçi süre hesaplayıcı." }
+  "Header": {
+    "developer": "Geliştirici",
+    "converters": "Dönüştürücüler",
+    "text": "Metin",
+    "finance": "Finans",
+    "health": "Sağlık",
+    "time": "Zaman",
+    "math": "Matematik",
+    "toggleMenu": "Menüyü aç/kapat"
   },
-  "Common": { "copy": "Kopyala", "copied": "Kopyalandı!", "clear": "Temizle", "calculate": "Hesapla", "generate": "Oluştur", "sample": "Örnek", "result": "Sonuç" },
-  "ToolLayout": { "home": "Ana Sayfa", "breadcrumbLabel": "Gezinme" },
-  "JsonFormatter": { "indent": "Girinti:", "twoSpaces": "2 boşluk", "fourSpaces": "4 boşluk", "oneSpace": "1 boşluk", "inputLabel": "Giriş JSON", "inputPlaceholder": "JSON'unuzu buraya yapıştırın...", "outputLabel": "Çıkış", "formatButton": "Formatla / Doğrula", "minifyButton": "Küçült", "validJson": "Geçerli JSON" },
-  "UuidGenerator": { "count": "Adet:", "uppercase": "Büyük harf", "includeHyphens": "Tire dahil et", "generateButton": "UUID Oluştur", "generateButtonPlural": "UUID'ler Oluştur", "generated": "{count} UUID oluşturuldu", "generatedPlural": "{count} UUID oluşturuldu", "copyAll": "Tümünü kopyala", "copiedAll": "Tümü kopyalandı!", "infoText": "UUID'ler crypto.randomUUID() (v4) kullanılarak oluşturulur — kriptografik olarak rastgele, tamamen tarayıcınızda üretilir." },
-  "Base64Tool": { "encodeTab": "kodla", "decodeTab": "çöz", "encodeInputLabel": "Kodlanacak metin", "decodeInputLabel": "Çözülecek Base64", "encodePlaceholder": "Kodlanacak metni girin...", "decodePlaceholder": "Çözülecek Base64 dizesini girin...", "encodeButton": "Kodla", "decodeButton": "Çöz", "resultLabel": "Sonuç", "infoText": "Unicode metni destekler. Kodlama/çözme tamamen tarayıcınızda gerçekleşir — hiçbir veri sunucuya gönderilmez." },
-  "UrlEncoderDecoder": { "encodeTab": "kodla", "decodeTab": "çöz", "typeLabel": "Tür:", "encodeInputLabel": "Kodlanacak metin / URL", "decodeInputLabel": "Çözülecek kodlanmış URL", "encodePlaceholder": "Metin veya URL girin...", "decodePlaceholder": "Kodlanmış URL girin...", "loadSample": "Örnek yükle", "encodeButton": "Kodla", "decodeButton": "Çöz", "resultLabel": "Sonuç", "swapTitle": "Giriş/çıkışı değiştir ve modu değiştir" },
-  "HashGenerator": { "inputLabel": "Hashlenecek metin", "inputPlaceholder": "Hash oluşturmak için metin girin...", "generateButton": "Hash Oluştur", "generating": "Oluşturuluyor...", "disclaimer": "MD5 istemci tarafında hesaplanır. SHA-256 ve SHA-512 tarayıcının yerel crypto.subtle API'sini kullanır. Hiçbir veri tarayıcınızı terk etmez." },
-  "JwtDecoder": { "inputLabel": "JWT Token", "inputPlaceholder": "JWT tokenınızı buraya yapıştırın...", "loadSample": "Örnek yükle", "decodeButton": "JWT'yi Çöz", "headerLabel": "Başlık", "payloadLabel": "Yük", "signatureLabel": "İmza", "signatureNotVerified": "(doğrulanmadı)", "tokenExpired": "⚠️ Token SÜRESİ DOLMUŞ", "tokenValid": "✅ Token SÜRESİ DOLMAMIS", "notVerifiedNote": "Bu araç yalnızca JWT'yi çözer — imzayı DOĞRULAMAZ. Hassas tokenleri asla paylaşmayın." },
-  "UnitConverter": { "clearButton": "Temizle" },
-  "TemperatureConverter": { "celsius": "Celsius (°C)", "fahrenheit": "Fahrenheit (°F)", "kelvin": "Kelvin (K)", "clearButton": "Temizle", "commonTemps": "Yaygın Sıcaklıklar", "waterFreezes": "Su donar", "roomTemp": "Oda sıcaklığı", "bodyTemp": "Vücut sıcaklığı", "waterBoils": "Su kaynar", "absoluteZero": "Mutlak sıfır", "ovenMedium": "Fırın (orta)" },
-  "WordCounter": { "inputLabel": "Metniniz", "inputPlaceholder": "Yazmaya başlayın veya metni buraya yapıştırın...", "words": "Kelimeler", "characters": "Karakterler", "charsNoSpaces": "Karakterler (boşluksuz)", "sentences": "Cümleler", "paragraphs": "Paragraflar", "lines": "Satırlar", "readingTime": "Okuma süresi", "readingTimeValue": "~{minutes} dk" },
-  "CaseConverter": { "inputLabel": "Giriş metni", "inputPlaceholder": "Dönüştürülecek metni yazın veya yapıştırın...", "resultPlaceholder": "Sonuç burada görünecek..." },
-  "PasswordGenerator": { "lengthLabel": "Uzunluk: {length}", "uppercase": "Büyük harfler", "lowercase": "Küçük harfler", "numbers": "Sayılar", "symbols": "Semboller", "generateCount": "Oluştur:", "passwordSingular": "{count} şifre", "passwordPlural": "{count} şifre", "generateButton": "Oluştur", "strengthLabel": "Güç", "strengthWeak": "Zayıf", "strengthFair": "Orta", "strengthGood": "İyi", "strengthStrong": "Güçlü" },
-  "CompoundInterest": { "principalLabel": "Başlangıç Anaparası ($)", "rateLabel": "Yıllık Faiz Oranı (%)", "yearsLabel": "Süre (yıl)", "compoundFrequencyLabel": "Bileşim Sıklığı", "monthlyContributionLabel": "Aylık Katkı ($)", "monthlyContributionOptional": "(isteğe bağlı)", "daily": "Günlük", "monthly": "Aylık", "quarterly": "Üç Aylık", "semiAnnually": "Altı Aylık", "annually": "Yıllık", "calculateButton": "Hesapla", "finalAmount": "Son Tutar", "interestEarned": "Kazanılan Faiz", "totalInvested": "Toplam Yatırım" },
-  "PercentageCalculator": { "percentOf": "Sayının %'si", "percentChange": "% değişim", "whatPercent": "X, Y'nin yüzde kaçı?", "tipCalculator": "Bahşiş hesaplayıcı", "percentageLabel": "Yüzde (%)", "numberLabel": "Sayı", "originalValueLabel": "Orijinal değer", "newValueLabel": "Yeni değer", "partLabel": "Kısım (X)", "wholeLabel": "Bütün (Y)", "billAmountLabel": "Fatura tutarı ($)", "tipPercentLabel": "Bahşiş (%)", "numberOfPeopleLabel": "Kişi sayısı" },
-  "BmiCalculator": { "metricTab": "Metrik (kg/cm)", "imperialTab": "İmperial (lb/ft)", "weightLabelMetric": "Ağırlık (kg)", "weightLabelImperial": "Ağırlık (lbs)", "heightLabelMetric": "Boy (cm)", "heightLabelImperial": "Boy (ft / in)", "calculateButton": "VKİ Hesapla", "clearButton": "Temizle", "categoriesTitle": "VKİ Kategorileri", "underweight": "Zayıf", "normalWeight": "Normal ağırlık", "overweight": "Fazla kilolu", "obese": "Obez", "underweightRange": "< 18,5", "normalRange": "18,5 – 24,9", "overweightRange": "25 – 29,9", "obeseRange": "≥ 30", "underweightDesc": "VKİ 18,5'ten az", "normalWeightDesc": "VKİ 18,5 – 24,9", "overweightDesc": "VKİ 25 – 29,9", "obeseDesc": "VKİ 30 veya daha fazla" },
-  "AgeCalculator": { "birthDateLabel": "Doğum Tarihi", "ageDateLabel": "Tarihteki yaş", "calculateButton": "Yaş Hesapla", "yearsOld": "yaşında", "exactly": "Tam olarak!", "month": "{count} ay", "months": "{count} ay", "day": "{count} gün", "days": "{count} gün", "totalDays": "Toplam gün", "totalMonths": "Toplam ay", "daysUntilBirthday": "Doğum gününe kalan gün", "todayBirthday": "🎂 Bugün!", "nextBirthday": "Sonraki doğum günü:" },
-  "TimezoneConverter": { "currentTime": "Şu anki saat (tarayıcınız)", "dateTimeLabel": "Tarih ve Saat", "sourceTimezoneLabel": "Kaynak saat dilimi", "convertButton": "Dönüştür", "useNowButton": "Şimdiyi kullan", "resultsLabel": "Sonuçlar" },
-  "CsvJson": { "csvToJsonTab": "CSV → JSON", "jsonToCsvTab": "JSON → CSV", "inputLabel": "Giriş", "outputLabel": "Çıkış", "convertButton": "Dönüştür", "loadSample": "Örnek yükle", "delimiterLabel": "Ayırıcı", "comma": "Virgül (,)", "semicolon": "Noktalı virgül (;)", "tab": "Sekme (\\t)", "firstRowHeader": "İlk satır başlık", "invalidCsv": "Geçersiz CSV formatı", "invalidJson": "Giriş bir JSON nesne dizisi olmalıdır" },
-  "DiffChecker": { "originalLabel": "Orijinal", "modifiedLabel": "Değiştirilmiş", "compareButton": "Karşılaştır", "clearButton": "Temizle", "noChanges": "Fark bulunamadı — metinler aynı.", "addedLabel": "Eklenen", "removedLabel": "Silinen", "unchangedLabel": "Değişmeyen", "linesLabel": "satır" },
-  "LoremIpsum": { "typeLabel": "Oluştur", "paragraphs": "Paragraflar", "sentences": "Cümleler", "words": "Kelimeler", "countLabel": "Adet:", "generateButton": "Oluştur", "startWithLoremIpsum": "«Lorem ipsum» ile başlat", "outputLabel": "Oluşturulan metin" },
-  "HtmlEncoder": { "encodeTab": "Kodla", "decodeTab": "Çöz", "inputLabel": "Giriş", "outputLabel": "Çıkış", "encodeButton": "Kodla", "decodeButton": "Çöz", "loadSample": "Örnek yükle" },
-  "YamlJson": { "yamlToJsonTab": "YAML → JSON", "jsonToYamlTab": "JSON → YAML", "inputLabel": "Giriş", "outputLabel": "Çıkış", "convertButton": "Dönüştür", "loadSample": "Örnek yükle", "indentLabel": "Girinti:", "twoSpaces": "2 boşluk", "fourSpaces": "4 boşluk", "invalidYaml": "Geçersiz YAML", "invalidJson": "Geçersiz JSON" },
-  "SlugGenerator": { "inputLabel": "Metin", "inputPlaceholder": "Slug'a dönüştürülecek metin girin...", "outputLabel": "Slug", "separatorLabel": "Ayırıcı", "hyphen": "Tire (-)", "underscore": "Alt çizgi (_)", "lowercaseLabel": "Küçük harf" },
-  "TextRepeater": { "inputLabel": "Tekrarlanacak metin", "inputPlaceholder": "Metni buraya girin...", "countLabel": "Tekrar:", "separatorLabel": "Ayırıcı", "newline": "Yeni satır", "space": "Boşluk", "none": "Yok", "custom": "Özel", "customSeparatorLabel": "Özel ayırıcı", "outputLabel": "Sonuç" },
-  "DiscountCalculator": { "originalPriceLabel": "Orijinal fiyat", "discountLabel": "İndirim (%)", "calculateButton": "Hesapla", "clearButton": "Temizle", "salePrice": "İndirimli fiyat", "youSave": "Tasarruf ettiğiniz", "discountAmount": "İndirim miktarı" },
-  "LoanCalculator": { "loanAmountLabel": "Kredi miktarı", "annualRateLabel": "Yıllık faiz oranı (%)", "loanTermLabel": "Kredi süresi", "years": "Yıl", "months": "Ay", "calculateButton": "Hesapla", "monthlyPayment": "Aylık ödeme", "totalPayment": "Toplam ödeme", "totalInterest": "Toplam faiz", "amortizationTitle": "İtfa planı", "month": "Ay", "principal": "Anapara", "interest": "Faiz", "balance": "Bakiye" },
-  "RoiCalculator": { "initialInvestmentLabel": "Başlangıç yatırımı", "finalValueLabel": "Son değer", "timePeriodLabel": "Süre (yıl)", "calculateButton": "Hesapla", "clearButton": "Temizle", "roi": "ROI", "annualizedRoi": "Yıllıklaştırılmış ROI", "totalProfit": "Toplam kâr", "totalReturn": "Toplam getiri" },
-  "TdeeCalculator": { "ageLabel": "Yaş", "genderLabel": "Cinsiyet", "male": "Erkek", "female": "Kadın", "weightLabel": "Ağırlık", "heightLabel": "Boy", "metricTab": "Metrik", "imperialTab": "İmperial", "activityLabel": "Aktivite düzeyi", "sedentary": "Hareketsiz (az veya hiç egzersiz yok)", "lightlyActive": "Hafif aktif (haftada 1–3 gün)", "moderatelyActive": "Orta düzeyde aktif (haftada 3–5 gün)", "veryActive": "Çok aktif (haftada 6–7 gün)", "extraActive": "Ekstra aktif (her gün yoğun egzersiz)", "calculateButton": "Hesapla", "tdee": "TDEE", "bmr": "BMR (Bazal Metabolizma Hızı)", "weightLoss": "Kilo kaybı (günde −500 kcal)", "maintenance": "Kilo koruma", "weightGain": "Kilo alma (günde +500 kcal)", "caloriesPerDay": "kcal/gün" },
-  "IdealWeight": { "heightLabel": "Boy", "genderLabel": "Cinsiyet", "male": "Erkek", "female": "Kadın", "metricTab": "Metrik (cm)", "imperialTab": "İmperial (ft/in)", "calculateButton": "Hesapla", "clearButton": "Temizle", "resultsTitle": "İdeal kilo aralığı", "robinson": "Robinson (1983)", "miller": "Miller (1983)", "devine": "Devine (1974)", "hamwi": "Hamwi (1964)", "healthyBmi": "Sağlıklı BMI aralığı (18,5–24,9)" },
-  "BodyFat": { "metricTab": "Metrik (cm)", "imperialTab": "İmperial (in)", "genderLabel": "Cinsiyet", "male": "Erkek", "female": "Kadın", "heightLabel": "Boy", "neckLabel": "Boyun çevresi", "waistLabel": "Bel çevresi", "hipLabel": "Kalça çevresi", "hipNote": "(yalnızca kadınlar için)", "calculateButton": "Hesapla", "clearButton": "Temizle", "bodyFatPercent": "Vücut yağı", "category": "Kategori", "methodNote": "U.S. Navy yöntemiyle hesaplanmıştır", "essentialFat": "Temel yağ", "athletes": "Sporcular", "fitness": "Fitness", "acceptable": "Kabul edilebilir", "obese": "Obez" },
-  "DateDifference": { "startDateLabel": "Başlangıç tarihi", "endDateLabel": "Bitiş tarihi", "calculateButton": "Hesapla", "clearButton": "Temizle", "useToday": "Bugün", "totalDays": "Toplam gün", "workingDays": "İş günleri (Pzt–Cum)", "weeks": "Hafta", "months": "Ay", "years": "Yıl" },
-  "TimeDuration": { "addTab": "Süre ekle", "subtractTab": "Süre çıkar", "baseTimeLabel": "Başlangıç saati (SS:DD:SN)", "durationLabel": "Süre", "hoursLabel": "Saat", "minutesLabel": "Dakika", "secondsLabel": "Saniye", "calculateButton": "Hesapla", "clearButton": "Temizle", "resultLabel": "Sonuç", "totalSeconds": "Toplam saniye" },
-  "ColorConverter": { "invalidColor": "Geçersiz renk değeri", "hue": "Ton", "saturation": "Doygunluk", "lightness": "Parlaklık", "colorPickerLabel": "Bir renk seçin:" },
-  "NumberBaseConverter": { "decimalLabel": "Ondalık", "binaryLabel": "İkili", "octalLabel": "Sekizli", "hexLabel": "Onaltılık", "base2": "Base 2", "base8": "Base 8", "base10": "Base 10", "base16": "Base 16", "inputPlaceholder": "Bir sayı girin..." },
-  "UnixTimestamp": { "currentTimestamp": "Mevcut Unix zaman damgası", "secondsSince": "1 Ocak 1970'den bu yana geçen saniyeler (UTC)", "tsToDate": "Zaman Damgası → Tarih", "dateToTs": "Tarih → Zaman Damgası", "timestampPlaceholder": "örn. 1700000000", "useNow": "Şimdiyi kullan", "localTime": "Yerel saat", "utcTime": "UTC saati", "relative": "Göreceli", "seconds": "Saniyeler (Unix)", "milliseconds": "Milisaniyeler", "invalidTimestamp": "Geçersiz zaman damgası", "justNow": "az önce", "minutesAgo": "dakika önce", "hoursAgo": "saat önce", "daysAgo": "gün önce" },
-  "MarkdownPreview": { "editorLabel": "Markdown", "previewLabel": "Önizleme", "placeholder": "Markdown'ınızı buraya yazın..." },
-  "RegexTester": { "patternLabel": "Düzenli İfade", "patternPlaceholder": "Regex deseni girin...", "flagGlobal": "global", "flagCaseInsensitive": "büyük/küçük harf duyarsız", "flagMultiline": "çok satırlı", "flagDotAll": "dot all", "testStringLabel": "Test Dizesi", "testStringPlaceholder": "Test edilecek metin girin...", "matchesLabel": "Eşleşmeler", "matchSingular": "eşleşme", "matchPlural": "eşleşme", "matchDetailsLabel": "Eşleşme Ayrıntıları", "emptyMatch": "(boş)", "index": "indeks" },
-  "LocaleSwitcher": { "label": "Dil" },
-  "AboutPage": { "title": "ToolsShed Hakkında", "subtitle": "Ücretsiz, hızlı ve gizlilik dostu araçlar — kayıt yok, veri toplama yok.", "whatIsTitle": "ToolsShed Nedir?", "whatIsText": "ToolsShed, geliştiriciler, öğrenciler ve profesyoneller için büyüyen bir ücretsiz çevrimiçi araçlar koleksiyonudur. JSON formatlamak, birimleri dönüştürmek, şifre oluşturmak veya bileşik faiz hesaplamak istiyorsanız — hepsi burada, ücretsiz ve anında.", "philosophyTitle": "Felsefemiz", "privacyFirstTitle": "Gizlilik Önce Gelir", "privacyFirstDesc": "Her araç tamamen tarayıcınızda çalışır. Yazdığınız hiçbir şey hiçbir zaman bir sunucuya gönderilmez.", "noFrictionTitle": "Sürtünme Yok", "noFrictionDesc": "Kayıt yok, hesap yok, ücretli duvar yok. Aracı açın ve anında kullanın.", "builtForEveryoneTitle": "Herkes İçin Yapıldı", "builtForEveryoneDesc": "New York, Londra veya Tokyo'da aynı şekilde çalışan ülkeden bağımsız araçlar.", "byTheNumbersTitle": "Sayılarla", "freeToolsLabel": "Ücretsiz araç", "categoriesLabel": "Kategori", "signUpsLabel": "Gerekli kayıt", "techStackTitle": "Teknoloji Yığını", "techStackText": "ToolsShed modern, açık kaynaklı teknolojilerle oluşturulmuştur:", "techNext": "Next.js 16 — Statik site oluşturmalı React çerçevesi", "techTs": "TypeScript — Tür güvenli kod", "techTailwind": "Tailwind CSS — Yardımcı program öncelikli stil", "techVercel": "Vercel — Global edge hosting", "techGiscus": "Giscus — GitHub Discussions tabanlı yorumlar", "openSourceTitle": "Açık Kaynak", "openSourceText": "ToolsShed açık kaynaktır. Bir hata mı buldunuz? Bir araç önermek ister misiniz? Katkılar memnuniyetle karşılanır.", "viewOnGitHub": "GitHub'da Görüntüle", "browseTools": "← Araçlara Göz At", "privacyPolicy": "Gizlilik Politikası", "metadata": { "title": "Hakkında", "description": "ToolsShed hakkında bilgi edinin — ücretsiz, gizlilik dostu çevrimiçi araçlar koleksiyonu." } },
-  "NotFound": { "title": "Araç Bulunamadı", "description": "Aradığınız araç henüz mevcut değil — ama sürekli yenilerini ekliyoruz!", "browseAllTools": "Tüm araçlara göz at" },
-  "PrivacyPage": { "title": "Gizlilik Politikası", "lastUpdated": "Son güncelleme: {date}", "backToTools": "← Araçlara Geri Dön", "overviewTitle": "Genel Bakış", "overviewText1": "ToolsShed (\"biz\", \"bizi\" veya \"bizim\") tools-shed.com web sitesini işletmektedir. Bu sayfa, hizmetimizi kullandığınızda kişisel bilgilerin toplanması, kullanılması ve ifşa edilmesine ilişkin politikalarımız hakkında sizi bilgilendirmektedir.", "overviewText2": "Kısa versiyon: ToolsShed'deki tüm araçlar tamamen tarayıcınızda çalışır. Araçlarımıza girdiğiniz hiçbir veriyi sunucularımızda depolamıyor, iletmiyor veya işlemiyoruz.", "shortVersionLabel": "Kısa versiyon:", "noCollectTitle": "1. Toplamadığımız Veriler", "noCollectText": "ToolsShed araçları tamamen istemci tarafında çalışır. Bu şu anlama gelir:", "noCollectItem1": "JSON Formatlayıcı, Base64 veya başka bir araca yapıştırdığınız metin", "noCollectItem2": "Şifre Oluşturucu tarafından üretilen şifreler", "noCollectItem3": "VKİ Hesaplayıcıya girilen sağlık verileri", "noCollectItem4": "Hesaplayıcılara girilen finansal veriler", "noCollectItem5": "Araçlarımıza sağladığınız diğer girdiler", "noCollectFooter": "Bu verilerin hiçbiri cihazınızı terk etmez veya herhangi bir sunucuya gönderilmez.", "analyticsTitle": "2. Google Analytics", "analyticsText1": "Ziyaretçilerin sitemizle nasıl etkileşim kurduğunu anlamak için Google Analytics 4 kullanıyoruz. Bu veriler anonimdir ve toplulaştırılmıştır.", "analyticsText2": "Google Analytics şunları toplayabilir:", "analyticsItem1": "Ziyaret edilen sayfalar ve geçirilen süre", "analyticsItem2": "Genel coğrafi konum (ülke/şehir düzeyi)", "analyticsItem3": "Tarayıcı türü ve cihaz türü", "analyticsItem4": "Yönlendiren web sitesi", "analyticsOptOut": "Google Analytics çerezler kullanır. Çıkış yapmak için", "analyticsOptOutLink": "Google Analytics Devre Dışı Bırakma Tarayıcı Eklentisi'ni", "analyticsPrivacy": "Daha fazla bilgi için bkz.", "analyticsPrivacyLink": "Google'ın Gizlilik Politikası", "adsenseTitle": "3. Google AdSense", "adsenseText1": "Reklam görüntülemek için Google AdSense kullanıyoruz. Google AdSense, önceki ziyaretlerinize dayalı reklamlar sunmak için çerezler kullanır.", "adsenseText2": "Kişiselleştirilmiş reklamları devre dışı bırakmak için", "adsenseOptOutLink": "Google Reklam Ayarları'nı", "commentsTitle": "4. Yorumlar (Giscus)", "commentsText1": "Yorum sistemimiz, yorumları GitHub Discussions olarak depolayan Giscus tarafından desteklenmektedir. Yorum bırakmayı seçerseniz, GitHub hesabıyla giriş yapmanız gerekir.", "commentsText2": "Ayrıntılar için bkz.", "commentsPrivacyLink": "GitHub'ın Gizlilik Bildirimi", "commentsText3": ".", "cookiesTitle": "5. Çerezler", "cookiesText": "Aşağıdaki çerez türlerini kullanıyoruz:", "cookieColName": "Çerez", "cookieColPurpose": "Amaç", "cookieColProvider": "Sağlayıcı", "cookie1Name": "_ga, _ga_*", "cookie1Purpose": "Analitik izleme", "cookie1Provider": "Google Analytics", "cookie2Name": "IDE, NID", "cookie2Purpose": "Reklam kişiselleştirme", "cookie2Provider": "Google AdSense", "thirdPartyTitle": "6. Üçüncü Taraf Bağlantıları", "thirdPartyText": "Web sitemiz harici sitelere bağlantılar içerebilir. Bu sitelerin gizlilik uygulamalarından veya içeriğinden sorumlu değiliz.", "childrenTitle": "7. Çocukların Gizliliği", "childrenText": "ToolsShed 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz.", "changesTitle": "8. Bu Politikadaki Değişiklikler", "changesText": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler güncellenmiş tarihle bu sayfada yayınlanacaktır.", "contactTitle": "9. İletişim", "contactText1": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen", "contactLink": "GitHub depomuzdaki", "metadata": { "title": "Gizlilik Politikası", "description": "ToolsShed Gizlilik Politikası — verilerinizi nasıl işlediğimiz." } }
+  "Footer": {
+    "tagline": "Dünya genelindeki geliştiriciler, öğrenciler ve profesyoneller için ücretsiz çevrimiçi araçlar.",
+    "copyright": "© {year} ToolsShed. Tüm hakları saklıdır.",
+    "about": "Hakkında",
+    "privacyPolicy": "Gizlilik Politikası",
+    "developer": "Geliştirici",
+    "converters": "Dönüştürücüler",
+    "tools": "Araçlar",
+    "jsonFormatter": "JSON Formatlayıcı",
+    "base64": "Base64",
+    "uuidGenerator": "UUID Oluşturucu",
+    "hashGenerator": "Hash Oluşturucu",
+    "length": "Uzunluk",
+    "weight": "Ağırlık",
+    "temperature": "Sıcaklık",
+    "bmiCalculator": "VKİ Hesaplayıcı",
+    "passwordGenerator": "Şifre Oluşturucu",
+    "timezoneConverter": "Saat Dilimi Dönüştürücü",
+    "compoundInterest": "Bileşik Faiz"
+  },
+  "HomePage": {
+    "heroTitle": "Herkes İçin Ücretsiz",
+    "heroTitleHighlight": "Çevrimiçi Araçlar",
+    "heroSubtitle": "Kullanışlı, gizlilik dostu araçlar koleksiyonu. Kayıt gerekmez. Tarayıcınızda anında çalışır.",
+    "noRegistration": "Kayıt yok",
+    "noDataSent": "Sunucuya veri gönderilmez",
+    "alwaysFree": "Her zaman ücretsiz",
+    "popularTools": "Popüler Araçlar",
+    "whyTitle": "Neden ToolsShed?",
+    "privacyFirstTitle": "Gizlilik Önce Gelir",
+    "privacyFirstDesc": "Tüm hesaplamalar tarayıcınızda yapılır. Hiçbir veri sunucularımıza gönderilmez.",
+    "instantResultsTitle": "Anında Sonuçlar",
+    "instantResultsDesc": "Yükleme yok. Siz yazarken sonuçlar görünür, sunucuya istek olmadan.",
+    "worksEverywhereTitle": "Her Yerde Çalışır",
+    "worksEverywhereDesc": "Mobil uyumlu, kurulum gerektirmez. Açın ve kullanın.",
+    "moreTools": "+{count} daha →",
+    "metadata": {
+      "title": "ToolsShed - Ücretsiz Çevrimiçi Araçlar",
+      "description": "Geliştiriciler, öğrenciler ve profesyoneller için ücretsiz çevrimiçi araçlar. JSON Formatlayıcı, Base64, UUID Oluşturucu, Birim Dönüştürücüler ve daha fazlası."
+    }
+  },
+  "Categories": {
+    "developer": {
+      "name": "Geliştirici Araçları",
+      "description": "Geliştiriciler için temel araçlar: JSON, Base64, UUID, hashing ve daha fazlası."
+    },
+    "converters": {
+      "name": "Birim Dönüştürücüler",
+      "description": "Uzunluk, ağırlık, sıcaklık ve daha fazla birim arasında dönüştürün."
+    },
+    "text": {
+      "name": "Metin Araçları",
+      "description": "Metin düzenleme, sayma ve dönüştürme araçları."
+    },
+    "finance": {
+      "name": "Finans Araçları",
+      "description": "Faiz, yüzdeler, krediler ve yatırımlar için hesaplayıcılar."
+    },
+    "health": {
+      "name": "Sağlık Araçları",
+      "description": "VKİ, kalori ve fitness metrikleri hesaplayıcıları."
+    },
+    "time": {
+      "name": "Zaman Araçları",
+      "description": "Saat dilimi dönüştürücüler, yaş hesaplayıcılar ve tarih araçları."
+    },
+    "math": {
+      "name": "Matematik Araçları",
+      "description": "Denklemler, sayı teorisi ve bilimsel hesaplamalar için araçlar."
+    }
+  },
+  "Tools": {
+    "json-formatter": {
+      "name": "JSON Formatlayıcı ve Doğrulayıcı",
+      "description": "JSON verilerini formatlayın, doğrulayın ve güzelleştirin.",
+      "metaTitle": "JSON Formatlayıcı ve Doğrulayıcı",
+      "metaDescription": "Sözdizimi kontrolüyle JSON verilerini formatlayın, doğrulayın ve güzelleştirin. Ücretsiz çevrimiçi JSON formatlayıcı."
+    },
+    "uuid-generator": {
+      "name": "UUID Oluşturucu",
+      "description": "Uygulamalarınız için rastgele UUID'ler (v4) oluşturun.",
+      "metaTitle": "UUID Oluşturucu",
+      "metaDescription": "Tarayıcınızda anında rastgele UUID'ler (v4) oluşturun. Ücretsiz, kayıt gerekmez."
+    },
+    "base64": {
+      "name": "Base64 Kodlayıcı / Çözücü",
+      "description": "Metni veya dosyaları Base64'e kodlayın ve Base64 dizelerini çözün.",
+      "metaTitle": "Base64 Kodlayıcı / Çözücü",
+      "metaDescription": "Metni veya dosyaları Base64'e kodlayın ve Base64 dizelerini çözün. Ücretsiz çevrimiçi Base64 aracı."
+    },
+    "url-encoder": {
+      "name": "URL Kodlayıcı / Çözücü",
+      "description": "URL'leri ve sorgu parametrelerini kodlayın ve çözün.",
+      "metaTitle": "URL Kodlayıcı / Çözücü",
+      "metaDescription": "URL'leri ve sorgu parametrelerini kodlayın ve çözün. Ücretsiz çevrimiçi URL kodlama aracı."
+    },
+    "hash-generator": {
+      "name": "Hash Oluşturucu",
+      "description": "MD5, SHA-256 ve SHA-512 kriptografik hashler oluşturun.",
+      "metaTitle": "Hash Oluşturucu",
+      "metaDescription": "İstemci tarafında MD5, SHA-256 ve SHA-512 hashler oluşturun. Hiçbir veri tarayıcınızı terk etmez."
+    },
+    "jwt-decoder": {
+      "name": "JWT Çözücü",
+      "description": "İmza doğrulaması olmadan JSON Web Token yüklerini çözün ve inceleyin.",
+      "metaTitle": "JWT Çözücü",
+      "metaDescription": "JWT başlıklarını ve yüklerini çözün ve inceleyin. Ücretsiz tarayıcı tabanlı JWT inceleyici."
+    },
+    "length-converter": {
+      "name": "Uzunluk Dönüştürücü",
+      "description": "Metre, feet, inç, mil, kilometre ve daha fazlası arasında dönüştürün.",
+      "metaTitle": "Uzunluk Dönüştürücü",
+      "metaDescription": "Metre, feet, inç, mil ve kilometre arasında dönüştürün. Ücretsiz çevrimiçi uzunluk dönüştürücü."
+    },
+    "weight-converter": {
+      "name": "Ağırlık Dönüştürücü",
+      "description": "Kilogram, pound, ons, gram ve daha fazlası arasında dönüştürün.",
+      "metaTitle": "Ağırlık Dönüştürücü",
+      "metaDescription": "Kilogram, pound, ons ve gram arasında dönüştürün. Ücretsiz çevrimiçi ağırlık dönüştürücü."
+    },
+    "temperature-converter": {
+      "name": "Sıcaklık Dönüştürücü",
+      "description": "Celsius, Fahrenheit ve Kelvin arasında dönüştürün.",
+      "metaTitle": "Sıcaklık Dönüştürücü",
+      "metaDescription": "Celsius, Fahrenheit ve Kelvin arasında dönüştürün. Ücretsiz çevrimiçi sıcaklık dönüştürücü."
+    },
+    "word-counter": {
+      "name": "Kelime ve Karakter Sayacı",
+      "description": "Metninizde kelime, karakter, cümle ve paragraf sayın.",
+      "metaTitle": "Kelime ve Karakter Sayacı",
+      "metaDescription": "Kelime, karakter, cümle ve paragraf sayın. Ücretsiz çevrimiçi kelime sayacı."
+    },
+    "case-converter": {
+      "name": "Büyük/Küçük Harf Dönüştürücü",
+      "description": "Metni BÜYÜK HARF, küçük harf, Başlık Durumu, camelCase ve daha fazlasına dönüştürün.",
+      "metaTitle": "Büyük/Küçük Harf Dönüştürücü",
+      "metaDescription": "Metni BÜYÜK HARF, küçük harf, Başlık Durumu, camelCase, snake_case ve daha fazlası arasında dönüştürün."
+    },
+    "password-generator": {
+      "name": "Şifre Oluşturucu",
+      "description": "Özelleştirilebilir seçeneklerle güçlü, güvenli şifreler oluşturun.",
+      "metaTitle": "Şifre Oluşturucu",
+      "metaDescription": "Özelleştirilebilir uzunluk ve karakter türleriyle güçlü, güvenli şifreler oluşturun."
+    },
+    "compound-interest": {
+      "name": "Bileşik Faiz Hesaplayıcı",
+      "description": "Zaman içinde yatırımlar için bileşik faiz büyümesini hesaplayın.",
+      "metaTitle": "Bileşik Faiz Hesaplayıcı",
+      "metaDescription": "Yatırımlar için bileşik faiz büyümesini hesaplayın. Ücretsiz çevrimiçi bileşik faiz hesaplayıcı."
+    },
+    "percentage-calculator": {
+      "name": "Yüzde Hesaplayıcı",
+      "description": "Yüzdeleri, yüzde değişimlerini ve bahşiş miktarlarını hesaplayın.",
+      "metaTitle": "Yüzde Hesaplayıcı",
+      "metaDescription": "Yüzdeleri, yüzde değişimlerini ve bahşiş miktarlarını hesaplayın. Ücretsiz çevrimiçi yüzde hesaplayıcı."
+    },
+    "bmi-calculator": {
+      "name": "VKİ Hesaplayıcı",
+      "description": "Metrik ve imperial birimlerle Vücut Kitle İndeksini hesaplayın.",
+      "metaTitle": "VKİ Hesaplayıcı",
+      "metaDescription": "Metrik veya imperial birimlerle Vücut Kitle İndeksinizi (VKİ) hesaplayın. Ücretsiz çevrimiçi VKİ hesaplayıcı."
+    },
+    "age-calculator": {
+      "name": "Yaş Hesaplayıcı",
+      "description": "Doğum tarihinden itibaren yıl, ay ve gün olarak kesin yaşı hesaplayın.",
+      "metaTitle": "Yaş Hesaplayıcı",
+      "metaDescription": "Doğum tarihinden itibaren yıl, ay ve gün olarak kesin yaşınızı hesaplayın. Ücretsiz çevrimiçi yaş hesaplayıcı."
+    },
+    "timezone-converter": {
+      "name": "Saat Dilimi Dönüştürücü",
+      "description": "Dünya genelindeki farklı saat dilimleri arasında saati dönüştürün.",
+      "metaTitle": "Saat Dilimi Dönüştürücü",
+      "metaDescription": "Dünya genelindeki farklı saat dilimleri arasında saati dönüştürün. Ücretsiz çevrimiçi saat dilimi dönüştürücü."
+    },
+    "color-converter": {
+      "name": "Renk Dönüştürücü",
+      "description": "Renkleri HEX, RGB ve HSL formatları arasında anında dönüştürün.",
+      "metaTitle": "Renk Dönüştürücü — HEX, RGB, HSL",
+      "metaDescription": "Renkleri HEX, RGB ve HSL formatları arasında anında dönüştürün. Ücretsiz çevrimiçi renk dönüştürücü — tarayıcınızda çalışır."
+    },
+    "number-base-converter": {
+      "name": "Sayı Tabanı Dönüştürücü",
+      "description": "Sayıları ikili, sekizli, onlu ve onaltılı sistem arasında dönüştürün.",
+      "metaTitle": "Sayı Tabanı Dönüştürücü",
+      "metaDescription": "Sayıları ikili (Base 2), sekizli (Base 8), onlu (Base 10) ve onaltılı (Base 16) sistem arasında dönüştürün. Ücretsiz çevrimiçi sayı tabanı dönüştürücü."
+    },
+    "regex-tester": {
+      "name": "RegEx Test Aracı",
+      "description": "Düzenli ifadeleri canlı eşleşme vurgulamasıyla test edin ve hata ayıklayın.",
+      "metaTitle": "RegEx Test Aracı",
+      "metaDescription": "Düzenli ifadeleri canlı eşleşme vurgulamasıyla test edin ve hata ayıklayın. Ücretsiz çevrimiçi RegEx test aracı — kayıt gerekmez."
+    },
+    "markdown-preview": {
+      "name": "Markdown Önizleme",
+      "description": "Markdown yazın ve gerçek zamanlı olarak işlenmiş çıktıyı önizleyin.",
+      "metaTitle": "Markdown Önizleme",
+      "metaDescription": "Markdown yazın ve işlenmiş çıktıyı anında önizleyin. Ücretsiz çevrimiçi Markdown editörü ve canlı önizleyici."
+    },
+    "unix-timestamp": {
+      "name": "Unix Zaman Damgası Dönüştürücü",
+      "description": "Unix zaman damgaları ile insan tarafından okunabilir tarihler arasında dönüştürün.",
+      "metaTitle": "Unix Zaman Damgası Dönüştürücü",
+      "metaDescription": "Unix zaman damgalarını insan tarafından okunabilir tarihlere ve tersine dönüştürün. Ücretsiz çevrimiçi Unix zaman damgası dönüştürücü."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON Dönüştürücü",
+      "description": "CSV verilerini JSON'a ve JSON dizilerini tekrar CSV formatına dönüştürün.",
+      "metaTitle": "CSV to JSON Converter",
+      "metaDescription": "CSV'yi JSON'a ve JSON'ı CSV'ye tarayıcınızda anında dönüştürün. Ücretsiz çevrimiçi CSV JSON dönüştürücü — yükleme gerekmez."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "İki metni karşılaştırın ve farklılıkları satır satır vurgulayın.",
+      "metaTitle": "Diff Checker — Compare Two Texts",
+      "metaDescription": "İki metni karşılaştırın ve eklemeleri, silmeleri ve değişiklikleri vurgulayın. Ücretsiz çevrimiçi diff checker — tamamen tarayıcınızda çalışır."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Oluşturucu",
+      "description": "Tasarım ve geliştirme için Lorem Ipsum yer tutucu metin oluşturun.",
+      "metaTitle": "Lorem Ipsum Generator",
+      "metaDescription": "Paragraf, cümle veya kelime bazında Lorem Ipsum yer tutucu metin oluşturun. Ücretsiz çevrimiçi Lorem Ipsum oluşturucu."
+    },
+    "html-encoder": {
+      "name": "HTML Encoder / Decoder",
+      "description": "Özel karakterleri HTML varlıklarına kodlayın ve geri çözün.",
+      "metaTitle": "HTML Encoder / Decoder",
+      "metaDescription": "Özel karakterleri HTML varlıklarına kodlayın ve HTML varlıklarını metne geri çözün. Ücretsiz çevrimiçi HTML encoder decoder."
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON Dönüştürücü",
+      "description": "YAML ve JSON formatları arasında anında dönüştürün.",
+      "metaTitle": "YAML to JSON Converter",
+      "metaDescription": "YAML'ı JSON'a ve JSON'ı YAML'a tarayıcınızda anında dönüştürün. Ücretsiz çevrimiçi YAML JSON dönüştürücü."
+    },
+    "data-storage-converter": {
+      "name": "Veri Depolama Dönüştürücü",
+      "description": "Bayt, kilobayt, megabayt, gigabayt, terabayt ve daha fazlası arasında dönüştürün.",
+      "metaTitle": "Data Storage Converter",
+      "metaDescription": "Bayt, KB, MB, GB, TB ve ikili birimler (KiB, MiB, GiB) arasında dönüştürün. Ücretsiz çevrimiçi veri depolama dönüştürücü."
+    },
+    "speed-converter": {
+      "name": "Hız Dönüştürücü",
+      "description": "km/s, mph, m/s, knot ve diğer hız birimleri arasında dönüştürün.",
+      "metaTitle": "Speed Converter",
+      "metaDescription": "km/s, mph, m/s, knot ve feet/saniye arasında dönüştürün. Ücretsiz çevrimiçi hız dönüştürücü."
+    },
+    "area-converter": {
+      "name": "Alan Dönüştürücü",
+      "description": "Metrekare, fit kare, dönüm, hektar ve daha fazlası arasında dönüştürün.",
+      "metaTitle": "Area Converter",
+      "metaDescription": "Metrekare, fit kare, dönüm, hektar ve daha fazlası arasında dönüştürün. Ücretsiz çevrimiçi alan dönüştürücü."
+    },
+    "volume-converter": {
+      "name": "Hacim Dönüştürücü",
+      "description": "Litre, galon, sıvı ons, metreküp ve daha fazlası arasında dönüştürün.",
+      "metaTitle": "Volume Converter",
+      "metaDescription": "Litre, galon, sıvı ons, bardak ve metreküp arasında dönüştürün. Ücretsiz çevrimiçi hacim dönüştürücü."
+    },
+    "slug-generator": {
+      "name": "Slug Oluşturucu",
+      "description": "Herhangi bir metni temiz, URL dostu bir slug'a dönüştürün.",
+      "metaTitle": "Slug Generator",
+      "metaDescription": "Herhangi bir metni temiz URL dostu bir slug'a dönüştürün. SEO dostu kalıcı bağlantılar için ücretsiz çevrimiçi slug oluşturucu."
+    },
+    "text-repeater": {
+      "name": "Metin Tekrarlayıcı",
+      "description": "Herhangi bir metin veya karakteri belirli sayıda tekrarlayın.",
+      "metaTitle": "Text Repeater",
+      "metaDescription": "Herhangi bir metni, kelimeyi veya karakteri özel ayırıcıyla istediğiniz kadar tekrarlayın. Ücretsiz çevrimiçi metin tekrarlayıcı."
+    },
+    "discount-calculator": {
+      "name": "İndirim Hesaplayıcı",
+      "description": "İndirimli fiyatları, indirim miktarlarını ve tasarrufları anında hesaplayın.",
+      "metaTitle": "Discount Calculator",
+      "metaDescription": "Herhangi bir indirim yüzdesinden indirimli fiyat ve tasarruf hesaplayın. Ücretsiz çevrimiçi indirim ve indirimli fiyat hesaplayıcı."
+    },
+    "loan-calculator": {
+      "name": "Kredi Hesaplayıcı",
+      "description": "Krediler için aylık ödemeleri, toplam faizi ve itfa planını hesaplayın.",
+      "metaTitle": "Loan Calculator",
+      "metaDescription": "Aylık kredi ödemelerini, toplam faizi ve tam itfa planını hesaplayın. Ücretsiz çevrimiçi kredi ve ipotek hesaplayıcı."
+    },
+    "roi-calculator": {
+      "name": "ROI Hesaplayıcı",
+      "description": "Herhangi bir yatırım için yatırım getirisini ve yıllıklaştırılmış ROI'yi hesaplayın.",
+      "metaTitle": "ROI Calculator",
+      "metaDescription": "Herhangi bir yatırım için yatırım getirisini (ROI) ve yıllıklaştırılmış ROI'yi hesaplayın. Ücretsiz çevrimiçi ROI hesaplayıcı."
+    },
+    "tdee-calculator": {
+      "name": "TDEE Hesaplayıcı",
+      "description": "Toplam Günlük Enerji Harcamanızı ve günlük kalori ihtiyacınızı hesaplayın.",
+      "metaTitle": "TDEE Calculator — Daily Calorie Calculator",
+      "metaDescription": "Aktivite düzeyine göre Toplam Günlük Enerji Harcamanızı (TDEE) ve günlük kalori ihtiyacınızı hesaplayın. Ücretsiz çevrimiçi TDEE hesaplayıcı."
+    },
+    "ideal-weight": {
+      "name": "İdeal Kilo Hesaplayıcı",
+      "description": "Birden fazla formül kullanarak boya göre ideal vücut ağırlığınızı hesaplayın.",
+      "metaTitle": "Ideal Weight Calculator",
+      "metaDescription": "Robinson, Miller, Devine ve Hamwi formüllerini kullanarak ideal vücut ağırlığınızı hesaplayın. Ücretsiz çevrimiçi ideal kilo hesaplayıcı."
+    },
+    "body-fat": {
+      "name": "Vücut Yağ Oranı Hesaplayıcı",
+      "description": "ABD Donanma yöntemini kullanarak vücut yağ yüzdesini tahmin edin.",
+      "metaTitle": "Body Fat Calculator",
+      "metaDescription": "U.S. Navy yöntemini kullanarak vücut yağ yüzdenizi tahmin edin. Erkekler ve kadınlar için ücretsiz çevrimiçi vücut yağ hesaplayıcı."
+    },
+    "date-difference": {
+      "name": "Tarih Farkı Hesaplayıcı",
+      "description": "İki tarih arasındaki gün, hafta ve ay sayısını kesin olarak hesaplayın.",
+      "metaTitle": "Date Difference Calculator",
+      "metaDescription": "Herhangi iki tarih arasındaki gün, hafta ve ay sayısını kesin olarak hesaplayın. Ücretsiz çevrimiçi tarih farkı hesaplayıcı."
+    },
+    "time-duration": {
+      "name": "Süre Hesaplayıcı",
+      "description": "Zaman sürelerini hesaplamak için saat, dakika ve saniye ekleyin veya çıkarın.",
+      "metaTitle": "Time Duration Calculator",
+      "metaDescription": "Saat, dakika ve saniye cinsinden zaman sürelerini ekleyin veya çıkarın. Ücretsiz çevrimiçi süre hesaplayıcı."
+    },
+    "scientific-calculator": {
+      "name": "Bilimsel Hesap Makinesi",
+      "description": "Trigonometri, logaritma, kuvvet ve daha fazlasını içeren gelişmiş hesap makinesi.",
+      "metaTitle": "Bilimsel Hesap Makinesi",
+      "metaDescription": "Sin, cos, tan, log, sqrt ve daha fazlasını destekleyen ücretsiz online bilimsel hesap makinesi."
+    },
+    "gcd-lcm": {
+      "name": "EBOB ve EKOK Hesaplayıcı",
+      "description": "Birden fazla sayının En Büyük Ortak Bölen ve En Küçük Ortak Katını hesaplar.",
+      "metaTitle": "EBOB ve EKOK Hesaplayıcı",
+      "metaDescription": "Birden fazla sayının EBOB ve EKOK değerlerini adım adım hesaplayın. Ücretsiz online matematik aracı."
+    },
+    "quadratic-solver": {
+      "name": "İkinci Dereceden Denklem Çözücü",
+      "description": "ax² + bx + c = 0 ikinci dereceden denklemleri adım adım çözer.",
+      "metaTitle": "İkinci Dereceden Denklem Çözücü",
+      "metaDescription": "ax²+bx+c=0 denklemini çözün ve gerçek ya da karmaşık kökleri adım adım görün. Ücretsiz araç."
+    },
+    "cron-parser": {
+      "name": "Cron İfadesi Ayrıştırıcı",
+      "description": "Cron ifadelerini analiz eder ve sonraki zamanlanan çalışma zamanlarını gösterir.",
+      "metaTitle": "Cron İfadesi Ayrıştırıcı",
+      "metaDescription": "Cron ifadelerini sade bir dilde açıklayan ve sonraki 5 çalışma zamanını gösteren ücretsiz online araç."
+    },
+    "json-to-typescript": {
+      "name": "JSON'dan TypeScript'e",
+      "description": "JSON nesnelerini otomatik olarak TypeScript arayüzlerine dönüştürür.",
+      "metaTitle": "JSON'dan TypeScript Arayüz Üretici",
+      "metaDescription": "JSON'u otomatik olarak TypeScript arayüzlerine dönüştürün. Yükleme gerektirmeyen ücretsiz online araç."
+    },
+    "sql-formatter": {
+      "name": "SQL Biçimlendirici",
+      "description": "SQL sorgularını daha iyi okunabilirlik için biçimlendirir ve güzelleştirir.",
+      "metaTitle": "SQL Biçimlendirici",
+      "metaDescription": "SQL sorgularını girintileme ve büyük harf anahtar kelimeleriyle biçimlendirin. Ücretsiz online SQL biçimlendirici."
+    },
+    "string-escape": {
+      "name": "Dize Kaçış / Kaçış Kaldırma",
+      "description": "JSON, JavaScript ve HTML için dizeleri kaçış ve kaçış kaldırma işlemi yapar.",
+      "metaTitle": "Dize Kaçış / Kaçış Kaldırma",
+      "metaDescription": "JSON, JavaScript ve HTML için dize kaçış ve kaçış kaldırma. Özel karakterleri anında işleyin."
+    },
+    "text-to-binary": {
+      "name": "Metinden İkiliye / Onaltılıya",
+      "description": "Metni ikili, onaltılı, sekizli ve onluk sayı sistemlerine dönüştürür.",
+      "metaTitle": "Metin İkili / Onaltılı Dönüştürücü",
+      "metaDescription": "Metni ikili, onaltılı, sekizli ve onluk sisteme dönüştürün ve geri çözümleyin. Ücretsiz online araç."
+    },
+    "random-name-generator": {
+      "name": "Rastgele İsim Üretici",
+      "description": "Test ve yer tutucu veriler için rastgele İngilizce isimler üretir.",
+      "metaTitle": "Rastgele İsim Üretici",
+      "metaDescription": "Rastgele İngilizce ad, soyad veya tam isim oluşturun. Test verileri için idealdir."
+    },
+    "tip-calculator": {
+      "name": "Bahşiş Hesaplayıcı",
+      "description": "Bahşiş tutarını hesaplar ve hesabı birden fazla kişiye böler.",
+      "metaTitle": "Bahşiş Hesaplayıcı",
+      "metaDescription": "Bahşiş tutarını hesaplayın ve hesabı istediğiniz sayıda kişiye bölün. Ücretsiz online hesaplayıcı."
+    },
+    "running-pace": {
+      "name": "Koşu Temposu Hesaplayıcı",
+      "description": "Herhangi bir mesafe için koşu temposu, hız, süre ve mesafeyi hesaplar.",
+      "metaTitle": "Koşu Temposu Hesaplayıcı",
+      "metaDescription": "Koşu temponuzu, bitiş sürenizi veya mesafenizi hesaplayın. 5K, 10K, yarı ve tam maraton desteklenir."
+    },
+    "water-intake": {
+      "name": "Su Tüketimi Hesaplayıcı",
+      "description": "Kilo ve aktivite düzeyine göre günlük önerilen su tüketimini hesaplar.",
+      "metaTitle": "Su Tüketimi Hesaplayıcı",
+      "metaDescription": "Kilo ve aktivite düzeyine göre günlük önerilen su tüketimini hesaplayın. Ücretsiz online araç."
+    }
+  },
+  "Common": {
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!",
+    "clear": "Temizle",
+    "calculate": "Hesapla",
+    "generate": "Oluştur",
+    "sample": "Örnek",
+    "result": "Sonuç"
+  },
+  "ToolLayout": {
+    "home": "Ana Sayfa",
+    "breadcrumbLabel": "Gezinme"
+  },
+  "JsonFormatter": {
+    "indent": "Girinti:",
+    "twoSpaces": "2 boşluk",
+    "fourSpaces": "4 boşluk",
+    "oneSpace": "1 boşluk",
+    "inputLabel": "Giriş JSON",
+    "inputPlaceholder": "JSON'unuzu buraya yapıştırın...",
+    "outputLabel": "Çıkış",
+    "formatButton": "Formatla / Doğrula",
+    "minifyButton": "Küçült",
+    "validJson": "Geçerli JSON"
+  },
+  "UuidGenerator": {
+    "count": "Adet:",
+    "uppercase": "Büyük harf",
+    "includeHyphens": "Tire dahil et",
+    "generateButton": "UUID Oluştur",
+    "generateButtonPlural": "UUID'ler Oluştur",
+    "generated": "{count} UUID oluşturuldu",
+    "generatedPlural": "{count} UUID oluşturuldu",
+    "copyAll": "Tümünü kopyala",
+    "copiedAll": "Tümü kopyalandı!",
+    "infoText": "UUID'ler crypto.randomUUID() (v4) kullanılarak oluşturulur — kriptografik olarak rastgele, tamamen tarayıcınızda üretilir."
+  },
+  "Base64Tool": {
+    "encodeTab": "kodla",
+    "decodeTab": "çöz",
+    "encodeInputLabel": "Kodlanacak metin",
+    "decodeInputLabel": "Çözülecek Base64",
+    "encodePlaceholder": "Kodlanacak metni girin...",
+    "decodePlaceholder": "Çözülecek Base64 dizesini girin...",
+    "encodeButton": "Kodla",
+    "decodeButton": "Çöz",
+    "resultLabel": "Sonuç",
+    "infoText": "Unicode metni destekler. Kodlama/çözme tamamen tarayıcınızda gerçekleşir — hiçbir veri sunucuya gönderilmez."
+  },
+  "UrlEncoderDecoder": {
+    "encodeTab": "kodla",
+    "decodeTab": "çöz",
+    "typeLabel": "Tür:",
+    "encodeInputLabel": "Kodlanacak metin / URL",
+    "decodeInputLabel": "Çözülecek kodlanmış URL",
+    "encodePlaceholder": "Metin veya URL girin...",
+    "decodePlaceholder": "Kodlanmış URL girin...",
+    "loadSample": "Örnek yükle",
+    "encodeButton": "Kodla",
+    "decodeButton": "Çöz",
+    "resultLabel": "Sonuç",
+    "swapTitle": "Giriş/çıkışı değiştir ve modu değiştir"
+  },
+  "HashGenerator": {
+    "inputLabel": "Hashlenecek metin",
+    "inputPlaceholder": "Hash oluşturmak için metin girin...",
+    "generateButton": "Hash Oluştur",
+    "generating": "Oluşturuluyor...",
+    "disclaimer": "MD5 istemci tarafında hesaplanır. SHA-256 ve SHA-512 tarayıcının yerel crypto.subtle API'sini kullanır. Hiçbir veri tarayıcınızı terk etmez."
+  },
+  "JwtDecoder": {
+    "inputLabel": "JWT Token",
+    "inputPlaceholder": "JWT tokenınızı buraya yapıştırın...",
+    "loadSample": "Örnek yükle",
+    "decodeButton": "JWT'yi Çöz",
+    "headerLabel": "Başlık",
+    "payloadLabel": "Yük",
+    "signatureLabel": "İmza",
+    "signatureNotVerified": "(doğrulanmadı)",
+    "tokenExpired": "⚠️ Token SÜRESİ DOLMUŞ",
+    "tokenValid": "✅ Token SÜRESİ DOLMAMIS",
+    "notVerifiedNote": "Bu araç yalnızca JWT'yi çözer — imzayı DOĞRULAMAZ. Hassas tokenleri asla paylaşmayın."
+  },
+  "UnitConverter": {
+    "clearButton": "Temizle"
+  },
+  "TemperatureConverter": {
+    "celsius": "Celsius (°C)",
+    "fahrenheit": "Fahrenheit (°F)",
+    "kelvin": "Kelvin (K)",
+    "clearButton": "Temizle",
+    "commonTemps": "Yaygın Sıcaklıklar",
+    "waterFreezes": "Su donar",
+    "roomTemp": "Oda sıcaklığı",
+    "bodyTemp": "Vücut sıcaklığı",
+    "waterBoils": "Su kaynar",
+    "absoluteZero": "Mutlak sıfır",
+    "ovenMedium": "Fırın (orta)"
+  },
+  "WordCounter": {
+    "inputLabel": "Metniniz",
+    "inputPlaceholder": "Yazmaya başlayın veya metni buraya yapıştırın...",
+    "words": "Kelimeler",
+    "characters": "Karakterler",
+    "charsNoSpaces": "Karakterler (boşluksuz)",
+    "sentences": "Cümleler",
+    "paragraphs": "Paragraflar",
+    "lines": "Satırlar",
+    "readingTime": "Okuma süresi",
+    "readingTimeValue": "~{minutes} dk"
+  },
+  "CaseConverter": {
+    "inputLabel": "Giriş metni",
+    "inputPlaceholder": "Dönüştürülecek metni yazın veya yapıştırın...",
+    "resultPlaceholder": "Sonuç burada görünecek..."
+  },
+  "PasswordGenerator": {
+    "lengthLabel": "Uzunluk: {length}",
+    "uppercase": "Büyük harfler",
+    "lowercase": "Küçük harfler",
+    "numbers": "Sayılar",
+    "symbols": "Semboller",
+    "generateCount": "Oluştur:",
+    "passwordSingular": "{count} şifre",
+    "passwordPlural": "{count} şifre",
+    "generateButton": "Oluştur",
+    "strengthLabel": "Güç",
+    "strengthWeak": "Zayıf",
+    "strengthFair": "Orta",
+    "strengthGood": "İyi",
+    "strengthStrong": "Güçlü"
+  },
+  "CompoundInterest": {
+    "principalLabel": "Başlangıç Anaparası ($)",
+    "rateLabel": "Yıllık Faiz Oranı (%)",
+    "yearsLabel": "Süre (yıl)",
+    "compoundFrequencyLabel": "Bileşim Sıklığı",
+    "monthlyContributionLabel": "Aylık Katkı ($)",
+    "monthlyContributionOptional": "(isteğe bağlı)",
+    "daily": "Günlük",
+    "monthly": "Aylık",
+    "quarterly": "Üç Aylık",
+    "semiAnnually": "Altı Aylık",
+    "annually": "Yıllık",
+    "calculateButton": "Hesapla",
+    "finalAmount": "Son Tutar",
+    "interestEarned": "Kazanılan Faiz",
+    "totalInvested": "Toplam Yatırım"
+  },
+  "PercentageCalculator": {
+    "percentOf": "Sayının %'si",
+    "percentChange": "% değişim",
+    "whatPercent": "X, Y'nin yüzde kaçı?",
+    "tipCalculator": "Bahşiş hesaplayıcı",
+    "percentageLabel": "Yüzde (%)",
+    "numberLabel": "Sayı",
+    "originalValueLabel": "Orijinal değer",
+    "newValueLabel": "Yeni değer",
+    "partLabel": "Kısım (X)",
+    "wholeLabel": "Bütün (Y)",
+    "billAmountLabel": "Fatura tutarı ($)",
+    "tipPercentLabel": "Bahşiş (%)",
+    "numberOfPeopleLabel": "Kişi sayısı"
+  },
+  "BmiCalculator": {
+    "metricTab": "Metrik (kg/cm)",
+    "imperialTab": "İmperial (lb/ft)",
+    "weightLabelMetric": "Ağırlık (kg)",
+    "weightLabelImperial": "Ağırlık (lbs)",
+    "heightLabelMetric": "Boy (cm)",
+    "heightLabelImperial": "Boy (ft / in)",
+    "calculateButton": "VKİ Hesapla",
+    "clearButton": "Temizle",
+    "categoriesTitle": "VKİ Kategorileri",
+    "underweight": "Zayıf",
+    "normalWeight": "Normal ağırlık",
+    "overweight": "Fazla kilolu",
+    "obese": "Obez",
+    "underweightRange": "< 18,5",
+    "normalRange": "18,5 – 24,9",
+    "overweightRange": "25 – 29,9",
+    "obeseRange": "≥ 30",
+    "underweightDesc": "VKİ 18,5'ten az",
+    "normalWeightDesc": "VKİ 18,5 – 24,9",
+    "overweightDesc": "VKİ 25 – 29,9",
+    "obeseDesc": "VKİ 30 veya daha fazla"
+  },
+  "AgeCalculator": {
+    "birthDateLabel": "Doğum Tarihi",
+    "ageDateLabel": "Tarihteki yaş",
+    "calculateButton": "Yaş Hesapla",
+    "yearsOld": "yaşında",
+    "exactly": "Tam olarak!",
+    "month": "{count} ay",
+    "months": "{count} ay",
+    "day": "{count} gün",
+    "days": "{count} gün",
+    "totalDays": "Toplam gün",
+    "totalMonths": "Toplam ay",
+    "daysUntilBirthday": "Doğum gününe kalan gün",
+    "todayBirthday": "🎂 Bugün!",
+    "nextBirthday": "Sonraki doğum günü:"
+  },
+  "TimezoneConverter": {
+    "currentTime": "Şu anki saat (tarayıcınız)",
+    "dateTimeLabel": "Tarih ve Saat",
+    "sourceTimezoneLabel": "Kaynak saat dilimi",
+    "convertButton": "Dönüştür",
+    "useNowButton": "Şimdiyi kullan",
+    "resultsLabel": "Sonuçlar"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "Giriş",
+    "outputLabel": "Çıkış",
+    "convertButton": "Dönüştür",
+    "loadSample": "Örnek yükle",
+    "delimiterLabel": "Ayırıcı",
+    "comma": "Virgül (,)",
+    "semicolon": "Noktalı virgül (;)",
+    "tab": "Sekme (\\t)",
+    "firstRowHeader": "İlk satır başlık",
+    "invalidCsv": "Geçersiz CSV formatı",
+    "invalidJson": "Giriş bir JSON nesne dizisi olmalıdır"
+  },
+  "DiffChecker": {
+    "originalLabel": "Orijinal",
+    "modifiedLabel": "Değiştirilmiş",
+    "compareButton": "Karşılaştır",
+    "clearButton": "Temizle",
+    "noChanges": "Fark bulunamadı — metinler aynı.",
+    "addedLabel": "Eklenen",
+    "removedLabel": "Silinen",
+    "unchangedLabel": "Değişmeyen",
+    "linesLabel": "satır"
+  },
+  "LoremIpsum": {
+    "typeLabel": "Oluştur",
+    "paragraphs": "Paragraflar",
+    "sentences": "Cümleler",
+    "words": "Kelimeler",
+    "countLabel": "Adet:",
+    "generateButton": "Oluştur",
+    "startWithLoremIpsum": "«Lorem ipsum» ile başlat",
+    "outputLabel": "Oluşturulan metin"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "Kodla",
+    "decodeTab": "Çöz",
+    "inputLabel": "Giriş",
+    "outputLabel": "Çıkış",
+    "encodeButton": "Kodla",
+    "decodeButton": "Çöz",
+    "loadSample": "Örnek yükle"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "Giriş",
+    "outputLabel": "Çıkış",
+    "convertButton": "Dönüştür",
+    "loadSample": "Örnek yükle",
+    "indentLabel": "Girinti:",
+    "twoSpaces": "2 boşluk",
+    "fourSpaces": "4 boşluk",
+    "invalidYaml": "Geçersiz YAML",
+    "invalidJson": "Geçersiz JSON"
+  },
+  "SlugGenerator": {
+    "inputLabel": "Metin",
+    "inputPlaceholder": "Slug'a dönüştürülecek metin girin...",
+    "outputLabel": "Slug",
+    "separatorLabel": "Ayırıcı",
+    "hyphen": "Tire (-)",
+    "underscore": "Alt çizgi (_)",
+    "lowercaseLabel": "Küçük harf"
+  },
+  "TextRepeater": {
+    "inputLabel": "Tekrarlanacak metin",
+    "inputPlaceholder": "Metni buraya girin...",
+    "countLabel": "Tekrar:",
+    "separatorLabel": "Ayırıcı",
+    "newline": "Yeni satır",
+    "space": "Boşluk",
+    "none": "Yok",
+    "custom": "Özel",
+    "customSeparatorLabel": "Özel ayırıcı",
+    "outputLabel": "Sonuç"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "Orijinal fiyat",
+    "discountLabel": "İndirim (%)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "salePrice": "İndirimli fiyat",
+    "youSave": "Tasarruf ettiğiniz",
+    "discountAmount": "İndirim miktarı"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "Kredi miktarı",
+    "annualRateLabel": "Yıllık faiz oranı (%)",
+    "loanTermLabel": "Kredi süresi",
+    "years": "Yıl",
+    "months": "Ay",
+    "calculateButton": "Hesapla",
+    "monthlyPayment": "Aylık ödeme",
+    "totalPayment": "Toplam ödeme",
+    "totalInterest": "Toplam faiz",
+    "amortizationTitle": "İtfa planı",
+    "month": "Ay",
+    "principal": "Anapara",
+    "interest": "Faiz",
+    "balance": "Bakiye"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "Başlangıç yatırımı",
+    "finalValueLabel": "Son değer",
+    "timePeriodLabel": "Süre (yıl)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "roi": "ROI",
+    "annualizedRoi": "Yıllıklaştırılmış ROI",
+    "totalProfit": "Toplam kâr",
+    "totalReturn": "Toplam getiri"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "Yaş",
+    "genderLabel": "Cinsiyet",
+    "male": "Erkek",
+    "female": "Kadın",
+    "weightLabel": "Ağırlık",
+    "heightLabel": "Boy",
+    "metricTab": "Metrik",
+    "imperialTab": "İmperial",
+    "activityLabel": "Aktivite düzeyi",
+    "sedentary": "Hareketsiz (az veya hiç egzersiz yok)",
+    "lightlyActive": "Hafif aktif (haftada 1–3 gün)",
+    "moderatelyActive": "Orta düzeyde aktif (haftada 3–5 gün)",
+    "veryActive": "Çok aktif (haftada 6–7 gün)",
+    "extraActive": "Ekstra aktif (her gün yoğun egzersiz)",
+    "calculateButton": "Hesapla",
+    "tdee": "TDEE",
+    "bmr": "BMR (Bazal Metabolizma Hızı)",
+    "weightLoss": "Kilo kaybı (günde −500 kcal)",
+    "maintenance": "Kilo koruma",
+    "weightGain": "Kilo alma (günde +500 kcal)",
+    "caloriesPerDay": "kcal/gün"
+  },
+  "IdealWeight": {
+    "heightLabel": "Boy",
+    "genderLabel": "Cinsiyet",
+    "male": "Erkek",
+    "female": "Kadın",
+    "metricTab": "Metrik (cm)",
+    "imperialTab": "İmperial (ft/in)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "resultsTitle": "İdeal kilo aralığı",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "Sağlıklı BMI aralığı (18,5–24,9)"
+  },
+  "BodyFat": {
+    "metricTab": "Metrik (cm)",
+    "imperialTab": "İmperial (in)",
+    "genderLabel": "Cinsiyet",
+    "male": "Erkek",
+    "female": "Kadın",
+    "heightLabel": "Boy",
+    "neckLabel": "Boyun çevresi",
+    "waistLabel": "Bel çevresi",
+    "hipLabel": "Kalça çevresi",
+    "hipNote": "(yalnızca kadınlar için)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "bodyFatPercent": "Vücut yağı",
+    "category": "Kategori",
+    "methodNote": "U.S. Navy yöntemiyle hesaplanmıştır",
+    "essentialFat": "Temel yağ",
+    "athletes": "Sporcular",
+    "fitness": "Fitness",
+    "acceptable": "Kabul edilebilir",
+    "obese": "Obez"
+  },
+  "DateDifference": {
+    "startDateLabel": "Başlangıç tarihi",
+    "endDateLabel": "Bitiş tarihi",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "useToday": "Bugün",
+    "totalDays": "Toplam gün",
+    "workingDays": "İş günleri (Pzt–Cum)",
+    "weeks": "Hafta",
+    "months": "Ay",
+    "years": "Yıl"
+  },
+  "TimeDuration": {
+    "addTab": "Süre ekle",
+    "subtractTab": "Süre çıkar",
+    "baseTimeLabel": "Başlangıç saati (SS:DD:SN)",
+    "durationLabel": "Süre",
+    "hoursLabel": "Saat",
+    "minutesLabel": "Dakika",
+    "secondsLabel": "Saniye",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "resultLabel": "Sonuç",
+    "totalSeconds": "Toplam saniye"
+  },
+  "ScientificCalculator": {
+    "degMode": "DERECE",
+    "radMode": "RAD",
+    "clearButton": "C",
+    "clearEntryButton": "CE",
+    "historyLabel": "Geçmiş",
+    "noHistory": "Henüz hesaplama yok"
+  },
+  "GcdLcm": {
+    "inputLabel": "Sayıları girin (virgülle ayrılmış)",
+    "inputPlaceholder": "Örn. 12, 18, 24",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "gcdLabel": "EBOB (En Büyük Ortak Bölen)",
+    "lcmLabel": "EKOK (En Küçük Ortak Kat)",
+    "stepsLabel": "Adımlar"
+  },
+  "QuadraticSolver": {
+    "coefficientA": "a (x²'nin katsayısı)",
+    "coefficientB": "b (x'in katsayısı)",
+    "coefficientC": "c (sabit terim)",
+    "solveButton": "Çöz",
+    "clearButton": "Temizle",
+    "discriminantLabel": "Diskriminant (Δ)",
+    "rootsLabel": "Kökler",
+    "twoRoots": "İki farklı gerçek kök",
+    "oneRoot": "Tek gerçek kök (çift kök)",
+    "complexRoots": "İki karmaşık kök",
+    "vertexLabel": "Tepe noktası",
+    "axisLabel": "Simetri ekseni",
+    "noSolution": "Çözüm yok (a sıfır olamaz)"
+  },
+  "CronParser": {
+    "inputLabel": "Cron İfadesi",
+    "inputPlaceholder": "Örn. 0 9 * * 1-5",
+    "parseButton": "Ayrıştır",
+    "clearButton": "Temizle",
+    "explanationLabel": "Açıklama",
+    "nextRunsLabel": "Sonraki 5 çalışma zamanı",
+    "invalidCron": "Geçersiz Cron ifadesi",
+    "minuteLabel": "Dakika",
+    "hourLabel": "Saat",
+    "dayOfMonthLabel": "Ayın günü",
+    "monthLabel": "Ay",
+    "dayOfWeekLabel": "Haftanın günü",
+    "everyMinute": "her dakika",
+    "everyHour": "her saat",
+    "everyDay": "her gün",
+    "everyMonth": "her ay",
+    "everyDayOfWeek": "haftanın her günü"
+  },
+  "JsonToTypescript": {
+    "inputLabel": "JSON Girişi",
+    "inputPlaceholder": "JSON'u buraya yapıştırın...",
+    "outputLabel": "TypeScript Arayüzü",
+    "convertButton": "Dönüştür",
+    "clearButton": "Temizle",
+    "rootInterfaceName": "Kök arayüz adı",
+    "rootInterfaceNamePlaceholder": "Örn. MyInterface",
+    "invalidJson": "Geçersiz JSON"
+  },
+  "SqlFormatter": {
+    "inputLabel": "SQL Girişi",
+    "inputPlaceholder": "SQL sorgunuzu buraya yapıştırın...",
+    "outputLabel": "Biçimlendirilmiş SQL",
+    "formatButton": "Biçimlendir",
+    "clearButton": "Temizle",
+    "uppercaseKeywords": "Anahtar kelimeleri büyük harf yap"
+  },
+  "StringEscape": {
+    "jsonTab": "JSON",
+    "jsTab": "JavaScript",
+    "htmlTab": "HTML",
+    "inputLabel": "Giriş",
+    "outputLabel": "Çıkış",
+    "escapeButton": "Kaçış Uygula",
+    "unescapeButton": "Kaçışı Kaldır"
+  },
+  "TextToBinary": {
+    "textTab": "Metin → Kodlama",
+    "binaryTab": "Kodlama → Metin",
+    "inputLabel": "Giriş metni",
+    "outputLabel": "Çıkış",
+    "convertButton": "Dönüştür",
+    "clearButton": "Temizle",
+    "binaryLabel": "İkili",
+    "hexLabel": "Onaltılı",
+    "octalLabel": "Sekizli",
+    "decimalLabel": "Onluk (ASCII)",
+    "separatorLabel": "Ayraç",
+    "spaceSeparator": "Boşluk",
+    "dashSeparator": "Tire",
+    "noneSeparator": "Yok",
+    "inputPlaceholder": "Dönüştürülecek metni girin...",
+    "binaryInputPlaceholder": "İkili, onaltılı veya başka kodlama formatında metin girin..."
+  },
+  "RandomNameGenerator": {
+    "countLabel": "Adet",
+    "genderLabel": "Cinsiyet",
+    "genderAny": "Herhangi",
+    "genderMale": "Erkek",
+    "genderFemale": "Kadın",
+    "typeLabel": "İsim türü",
+    "typeFullName": "Tam isim",
+    "typeFirstName": "Yalnızca ad",
+    "typeLastName": "Yalnızca soyad",
+    "generateButton": "Üret",
+    "copyAllButton": "Tümünü kopyala"
+  },
+  "TipCalculator": {
+    "billAmountLabel": "Hesap tutarı",
+    "tipPercentageLabel": "Bahşiş yüzdesi",
+    "numberOfPeopleLabel": "Kişi sayısı",
+    "tipAmountLabel": "Bahşiş tutarı",
+    "totalLabel": "Toplam",
+    "perPersonLabel": "Kişi başı",
+    "customTip": "Özel",
+    "calculateButton": "Hesapla"
+  },
+  "RunningPace": {
+    "paceTab": "Tempo bul",
+    "timeTab": "Süre bul",
+    "distanceTab": "Mesafe bul",
+    "distanceLabel": "Mesafe",
+    "timeLabel": "Süre",
+    "paceLabel": "Tempo",
+    "hoursLabel": "Saat",
+    "minutesLabel": "Dakika",
+    "secondsLabel": "Saniye",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "unitKm": "Kilometre",
+    "unitMi": "Mil",
+    "customDistance": "Özel",
+    "resultLabel": "Sonuç",
+    "commonDistances": "Yaygın mesafeler"
+  },
+  "WaterIntake": {
+    "weightLabel": "Kilo",
+    "weightUnitKg": "kg",
+    "weightUnitLb": "lb",
+    "activityLabel": "Aktivite düzeyi",
+    "activitySedentary": "Hareketsiz (çok az egzersiz)",
+    "activityLight": "Hafif (haftada 1-3 gün)",
+    "activityModerate": "Orta (haftada 3-5 gün)",
+    "activityActive": "Aktif (haftada 6-7 gün)",
+    "activityVeryActive": "Çok aktif (her gün yoğun egzersiz)",
+    "climateLabel": "İklim",
+    "climateTemperate": "Ilıman",
+    "climateHot": "Sıcak / Nemli",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "dailyIntakeLabel": "Günlük önerilen alım",
+    "glassesLabel": "Yaklaşık bardak (her biri 250 mL)",
+    "noteLabel": "Not",
+    "noteText": "Bu bir tahmindir. Doktor tavsiyesi, iklim ve bireysel sağlık durumunuza göre ayarlayın."
+  },
+  "ColorConverter": {
+    "invalidColor": "Geçersiz renk değeri",
+    "hue": "Ton",
+    "saturation": "Doygunluk",
+    "lightness": "Parlaklık",
+    "colorPickerLabel": "Bir renk seçin:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Ondalık",
+    "binaryLabel": "İkili",
+    "octalLabel": "Sekizli",
+    "hexLabel": "Onaltılık",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Bir sayı girin..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Mevcut Unix zaman damgası",
+    "secondsSince": "1 Ocak 1970'den bu yana geçen saniyeler (UTC)",
+    "tsToDate": "Zaman Damgası → Tarih",
+    "dateToTs": "Tarih → Zaman Damgası",
+    "timestampPlaceholder": "örn. 1700000000",
+    "useNow": "Şimdiyi kullan",
+    "localTime": "Yerel saat",
+    "utcTime": "UTC saati",
+    "relative": "Göreceli",
+    "seconds": "Saniyeler (Unix)",
+    "milliseconds": "Milisaniyeler",
+    "invalidTimestamp": "Geçersiz zaman damgası",
+    "justNow": "az önce",
+    "minutesAgo": "dakika önce",
+    "hoursAgo": "saat önce",
+    "daysAgo": "gün önce"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Önizleme",
+    "placeholder": "Markdown'ınızı buraya yazın..."
+  },
+  "RegexTester": {
+    "patternLabel": "Düzenli İfade",
+    "patternPlaceholder": "Regex deseni girin...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "büyük/küçük harf duyarsız",
+    "flagMultiline": "çok satırlı",
+    "flagDotAll": "dot all",
+    "testStringLabel": "Test Dizesi",
+    "testStringPlaceholder": "Test edilecek metin girin...",
+    "matchesLabel": "Eşleşmeler",
+    "matchSingular": "eşleşme",
+    "matchPlural": "eşleşme",
+    "matchDetailsLabel": "Eşleşme Ayrıntıları",
+    "emptyMatch": "(boş)",
+    "index": "indeks"
+  },
+  "LocaleSwitcher": {
+    "label": "Dil"
+  },
+  "AboutPage": {
+    "title": "ToolsShed Hakkında",
+    "subtitle": "Ücretsiz, hızlı ve gizlilik dostu araçlar — kayıt yok, veri toplama yok.",
+    "whatIsTitle": "ToolsShed Nedir?",
+    "whatIsText": "ToolsShed, geliştiriciler, öğrenciler ve profesyoneller için büyüyen bir ücretsiz çevrimiçi araçlar koleksiyonudur. JSON formatlamak, birimleri dönüştürmek, şifre oluşturmak veya bileşik faiz hesaplamak istiyorsanız — hepsi burada, ücretsiz ve anında.",
+    "philosophyTitle": "Felsefemiz",
+    "privacyFirstTitle": "Gizlilik Önce Gelir",
+    "privacyFirstDesc": "Her araç tamamen tarayıcınızda çalışır. Yazdığınız hiçbir şey hiçbir zaman bir sunucuya gönderilmez.",
+    "noFrictionTitle": "Sürtünme Yok",
+    "noFrictionDesc": "Kayıt yok, hesap yok, ücretli duvar yok. Aracı açın ve anında kullanın.",
+    "builtForEveryoneTitle": "Herkes İçin Yapıldı",
+    "builtForEveryoneDesc": "New York, Londra veya Tokyo'da aynı şekilde çalışan ülkeden bağımsız araçlar.",
+    "byTheNumbersTitle": "Sayılarla",
+    "freeToolsLabel": "Ücretsiz araç",
+    "categoriesLabel": "Kategori",
+    "signUpsLabel": "Gerekli kayıt",
+    "techStackTitle": "Teknoloji Yığını",
+    "techStackText": "ToolsShed modern, açık kaynaklı teknolojilerle oluşturulmuştur:",
+    "techNext": "Next.js 16 — Statik site oluşturmalı React çerçevesi",
+    "techTs": "TypeScript — Tür güvenli kod",
+    "techTailwind": "Tailwind CSS — Yardımcı program öncelikli stil",
+    "techVercel": "Vercel — Global edge hosting",
+    "techGiscus": "Giscus — GitHub Discussions tabanlı yorumlar",
+    "openSourceTitle": "Açık Kaynak",
+    "openSourceText": "ToolsShed açık kaynaktır. Bir hata mı buldunuz? Bir araç önermek ister misiniz? Katkılar memnuniyetle karşılanır.",
+    "viewOnGitHub": "GitHub'da Görüntüle",
+    "browseTools": "← Araçlara Göz At",
+    "privacyPolicy": "Gizlilik Politikası",
+    "metadata": {
+      "title": "Hakkında",
+      "description": "ToolsShed hakkında bilgi edinin — ücretsiz, gizlilik dostu çevrimiçi araçlar koleksiyonu."
+    }
+  },
+  "NotFound": {
+    "title": "Araç Bulunamadı",
+    "description": "Aradığınız araç henüz mevcut değil — ama sürekli yenilerini ekliyoruz!",
+    "browseAllTools": "Tüm araçlara göz at"
+  },
+  "PrivacyPage": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: {date}",
+    "backToTools": "← Araçlara Geri Dön",
+    "overviewTitle": "Genel Bakış",
+    "overviewText1": "ToolsShed (\"biz\", \"bizi\" veya \"bizim\") tools-shed.com web sitesini işletmektedir. Bu sayfa, hizmetimizi kullandığınızda kişisel bilgilerin toplanması, kullanılması ve ifşa edilmesine ilişkin politikalarımız hakkında sizi bilgilendirmektedir.",
+    "overviewText2": "Kısa versiyon: ToolsShed'deki tüm araçlar tamamen tarayıcınızda çalışır. Araçlarımıza girdiğiniz hiçbir veriyi sunucularımızda depolamıyor, iletmiyor veya işlemiyoruz.",
+    "shortVersionLabel": "Kısa versiyon:",
+    "noCollectTitle": "1. Toplamadığımız Veriler",
+    "noCollectText": "ToolsShed araçları tamamen istemci tarafında çalışır. Bu şu anlama gelir:",
+    "noCollectItem1": "JSON Formatlayıcı, Base64 veya başka bir araca yapıştırdığınız metin",
+    "noCollectItem2": "Şifre Oluşturucu tarafından üretilen şifreler",
+    "noCollectItem3": "VKİ Hesaplayıcıya girilen sağlık verileri",
+    "noCollectItem4": "Hesaplayıcılara girilen finansal veriler",
+    "noCollectItem5": "Araçlarımıza sağladığınız diğer girdiler",
+    "noCollectFooter": "Bu verilerin hiçbiri cihazınızı terk etmez veya herhangi bir sunucuya gönderilmez.",
+    "analyticsTitle": "2. Google Analytics",
+    "analyticsText1": "Ziyaretçilerin sitemizle nasıl etkileşim kurduğunu anlamak için Google Analytics 4 kullanıyoruz. Bu veriler anonimdir ve toplulaştırılmıştır.",
+    "analyticsText2": "Google Analytics şunları toplayabilir:",
+    "analyticsItem1": "Ziyaret edilen sayfalar ve geçirilen süre",
+    "analyticsItem2": "Genel coğrafi konum (ülke/şehir düzeyi)",
+    "analyticsItem3": "Tarayıcı türü ve cihaz türü",
+    "analyticsItem4": "Yönlendiren web sitesi",
+    "analyticsOptOut": "Google Analytics çerezler kullanır. Çıkış yapmak için",
+    "analyticsOptOutLink": "Google Analytics Devre Dışı Bırakma Tarayıcı Eklentisi'ni",
+    "analyticsPrivacy": "Daha fazla bilgi için bkz.",
+    "analyticsPrivacyLink": "Google'ın Gizlilik Politikası",
+    "adsenseTitle": "3. Google AdSense",
+    "adsenseText1": "Reklam görüntülemek için Google AdSense kullanıyoruz. Google AdSense, önceki ziyaretlerinize dayalı reklamlar sunmak için çerezler kullanır.",
+    "adsenseText2": "Kişiselleştirilmiş reklamları devre dışı bırakmak için",
+    "adsenseOptOutLink": "Google Reklam Ayarları'nı",
+    "commentsTitle": "4. Yorumlar (Giscus)",
+    "commentsText1": "Yorum sistemimiz, yorumları GitHub Discussions olarak depolayan Giscus tarafından desteklenmektedir. Yorum bırakmayı seçerseniz, GitHub hesabıyla giriş yapmanız gerekir.",
+    "commentsText2": "Ayrıntılar için bkz.",
+    "commentsPrivacyLink": "GitHub'ın Gizlilik Bildirimi",
+    "commentsText3": ".",
+    "cookiesTitle": "5. Çerezler",
+    "cookiesText": "Aşağıdaki çerez türlerini kullanıyoruz:",
+    "cookieColName": "Çerez",
+    "cookieColPurpose": "Amaç",
+    "cookieColProvider": "Sağlayıcı",
+    "cookie1Name": "_ga, _ga_*",
+    "cookie1Purpose": "Analitik izleme",
+    "cookie1Provider": "Google Analytics",
+    "cookie2Name": "IDE, NID",
+    "cookie2Purpose": "Reklam kişiselleştirme",
+    "cookie2Provider": "Google AdSense",
+    "thirdPartyTitle": "6. Üçüncü Taraf Bağlantıları",
+    "thirdPartyText": "Web sitemiz harici sitelere bağlantılar içerebilir. Bu sitelerin gizlilik uygulamalarından veya içeriğinden sorumlu değiliz.",
+    "childrenTitle": "7. Çocukların Gizliliği",
+    "childrenText": "ToolsShed 13 yaşın altındaki çocuklara yönelik değildir. 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamıyoruz.",
+    "changesTitle": "8. Bu Politikadaki Değişiklikler",
+    "changesText": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler güncellenmiş tarihle bu sayfada yayınlanacaktır.",
+    "contactTitle": "9. İletişim",
+    "contactText1": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen",
+    "contactLink": "GitHub depomuzdaki",
+    "metadata": {
+      "title": "Gizlilik Politikası",
+      "description": "ToolsShed Gizlilik Politikası — verilerinizi nasıl işlediğimiz."
+    }
+  }
 }

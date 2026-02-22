@@ -6,6 +6,7 @@
     "finance": "금융",
     "health": "건강",
     "time": "시간",
+    "math": "수학",
     "toggleMenu": "메뉴 토글"
   },
   "Footer": {
@@ -73,6 +74,10 @@
     "time": {
       "name": "시간 도구",
       "description": "시간대 변환, 나이 계산, 날짜 유틸리티."
+    },
+    "math": {
+      "name": "수학 도구",
+      "description": "방정식, 정수론, 과학적 계산을 위한 계산기 모음."
     }
   },
   "Tools": {
@@ -321,6 +326,78 @@
       "description": "시, 분, 초를 더하거나 빼서 소요 시간을 계산.",
       "metaTitle": "시간 계산기",
       "metaDescription": "시, 분, 초 단위의 시간을 더하거나 빼기. 무료 온라인 시간 계산기."
+    },
+    "scientific-calculator": {
+      "name": "공학용 계산기",
+      "description": "삼각함수, 로그, 거듭제곱 등을 지원하는 고급 계산기.",
+      "metaTitle": "공학용 계산기",
+      "metaDescription": "sin·cos·tan·log·sqrt 등 다양한 함수를 지원하는 무료 온라인 공학용 계산기."
+    },
+    "gcd-lcm": {
+      "name": "최대공약수·최소공배수 계산기",
+      "description": "여러 숫자의 최대공약수와 최소공배수를 계산합니다.",
+      "metaTitle": "최대공약수·최소공배수 계산기",
+      "metaDescription": "여러 숫자의 GCD·LCM을 단계별 풀이와 함께 계산하는 무료 온라인 수학 도구."
+    },
+    "quadratic-solver": {
+      "name": "이차방정식 풀이기",
+      "description": "ax² + bx + c = 0을 단계별로 풀어줍니다.",
+      "metaTitle": "이차방정식 풀이기",
+      "metaDescription": "이차방정식 ax²+bx+c=0의 실수·복소수 근과 꼭짓점을 단계별로 계산하는 무료 도구."
+    },
+    "cron-parser": {
+      "name": "Cron 표현식 파서",
+      "description": "Cron 표현식을 분석하고 다음 실행 시각을 표시합니다.",
+      "metaTitle": "Cron 표현식 파서",
+      "metaDescription": "Cron 표현식을 쉬운 말로 설명하고 다음 5회 실행 시각을 보여주는 무료 온라인 도구."
+    },
+    "json-to-typescript": {
+      "name": "JSON → TypeScript 변환",
+      "description": "JSON 객체에서 TypeScript 인터페이스를 자동 생성합니다.",
+      "metaTitle": "JSON to TypeScript 인터페이스 생성기",
+      "metaDescription": "JSON을 TypeScript 인터페이스로 자동 변환하는 무료 온라인 도구."
+    },
+    "sql-formatter": {
+      "name": "SQL 포맷터",
+      "description": "SQL 쿼리를 보기 좋게 정렬하고 정리합니다.",
+      "metaTitle": "SQL 포맷터",
+      "metaDescription": "SQL 쿼리를 들여쓰기와 키워드 대소문자 설정으로 정리하는 무료 온라인 포맷터."
+    },
+    "string-escape": {
+      "name": "문자열 이스케이프 / 언이스케이프",
+      "description": "JSON, JavaScript, HTML용 문자열을 이스케이프하거나 되돌립니다.",
+      "metaTitle": "문자열 이스케이프 / 언이스케이프",
+      "metaDescription": "JSON·JavaScript·HTML용 문자열 이스케이프 및 언이스케이프 무료 온라인 도구."
+    },
+    "text-to-binary": {
+      "name": "텍스트 → 2진수 / 16진수 변환",
+      "description": "텍스트를 2진수, 16진수, 8진수, 10진수로 변환합니다.",
+      "metaTitle": "텍스트 → 2진수 / 16진수 변환기",
+      "metaDescription": "텍스트를 2진수·16진수·8진수·10진수로 변환하고 역변환도 지원하는 무료 온라인 도구."
+    },
+    "random-name-generator": {
+      "name": "랜덤 이름 생성기",
+      "description": "테스트나 플레이스홀더용 랜덤 이름을 생성합니다.",
+      "metaTitle": "랜덤 이름 생성기",
+      "metaDescription": "랜덤 영문 이름(이름/성/풀네임)을 생성하는 무료 온라인 도구."
+    },
+    "tip-calculator": {
+      "name": "팁 계산기",
+      "description": "팁 금액을 계산하고 여러 명이 나눌 수 있습니다.",
+      "metaTitle": "팁 계산기",
+      "metaDescription": "팁 금액 계산과 인원별 분할 계산을 지원하는 무료 온라인 팁 계산기."
+    },
+    "running-pace": {
+      "name": "러닝 페이스 계산기",
+      "description": "모든 레이스 거리의 페이스, 속도, 시간, 거리를 계산합니다.",
+      "metaTitle": "러닝 페이스 계산기",
+      "metaDescription": "러닝 페이스·완주 시간·거리를 계산. 5K·10K·하프·풀 마라톤 지원. 무료 온라인 도구."
+    },
+    "water-intake": {
+      "name": "수분 섭취량 계산기",
+      "description": "체중과 활동 수준을 기반으로 하루 권장 수분 섭취량을 계산합니다.",
+      "metaTitle": "수분 섭취량 계산기",
+      "metaDescription": "체중과 활동량 기반 하루 권장 수분 섭취량을 계산하는 무료 온라인 도구."
     }
   },
   "Common": {
@@ -734,6 +811,163 @@
     "clearButton": "지우기",
     "resultLabel": "결과",
     "totalSeconds": "총 초"
+  },
+  "ScientificCalculator": {
+    "degMode": "도",
+    "radMode": "라디안",
+    "clearButton": "C",
+    "clearEntryButton": "CE",
+    "historyLabel": "계산 기록",
+    "noHistory": "아직 계산 기록이 없습니다"
+  },
+  "GcdLcm": {
+    "inputLabel": "숫자 입력 (쉼표로 구분)",
+    "inputPlaceholder": "예: 12, 18, 24",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "gcdLabel": "최대공약수 (GCD)",
+    "lcmLabel": "최소공배수 (LCM)",
+    "stepsLabel": "풀이 단계"
+  },
+  "QuadraticSolver": {
+    "coefficientA": "a (x²의 계수)",
+    "coefficientB": "b (x의 계수)",
+    "coefficientC": "c (상수)",
+    "solveButton": "풀기",
+    "clearButton": "초기화",
+    "discriminantLabel": "판별식 (Δ)",
+    "rootsLabel": "근",
+    "twoRoots": "서로 다른 두 실수 근",
+    "oneRoot": "중근 (실수)",
+    "complexRoots": "두 허수 근",
+    "vertexLabel": "꼭짓점",
+    "axisLabel": "축의 방정식",
+    "noSolution": "해 없음 (a는 0이 될 수 없습니다)"
+  },
+  "CronParser": {
+    "inputLabel": "Cron 표현식",
+    "inputPlaceholder": "예: 0 9 * * 1-5",
+    "parseButton": "분석",
+    "clearButton": "초기화",
+    "explanationLabel": "설명",
+    "nextRunsLabel": "다음 5회 실행 시각",
+    "invalidCron": "유효하지 않은 Cron 표현식입니다",
+    "minuteLabel": "분",
+    "hourLabel": "시",
+    "dayOfMonthLabel": "일",
+    "monthLabel": "월",
+    "dayOfWeekLabel": "요일",
+    "everyMinute": "매 분",
+    "everyHour": "매 시",
+    "everyDay": "매 일",
+    "everyMonth": "매 월",
+    "everyDayOfWeek": "모든 요일"
+  },
+  "JsonToTypescript": {
+    "inputLabel": "JSON 입력",
+    "inputPlaceholder": "JSON을 여기에 붙여넣으세요...",
+    "outputLabel": "TypeScript 인터페이스",
+    "convertButton": "변환",
+    "clearButton": "초기화",
+    "rootInterfaceName": "루트 인터페이스 이름",
+    "rootInterfaceNamePlaceholder": "예: MyInterface",
+    "invalidJson": "유효하지 않은 JSON입니다"
+  },
+  "SqlFormatter": {
+    "inputLabel": "SQL 입력",
+    "inputPlaceholder": "SQL 쿼리를 여기에 붙여넣으세요...",
+    "outputLabel": "정리된 SQL",
+    "formatButton": "정렬",
+    "clearButton": "초기화",
+    "uppercaseKeywords": "키워드 대문자로"
+  },
+  "StringEscape": {
+    "jsonTab": "JSON",
+    "jsTab": "JavaScript",
+    "htmlTab": "HTML",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "escapeButton": "이스케이프",
+    "unescapeButton": "언이스케이프"
+  },
+  "TextToBinary": {
+    "textTab": "텍스트 → 인코딩",
+    "binaryTab": "인코딩 → 텍스트",
+    "inputLabel": "입력 텍스트",
+    "outputLabel": "출력",
+    "convertButton": "변환",
+    "clearButton": "초기화",
+    "binaryLabel": "2진수",
+    "hexLabel": "16진수",
+    "octalLabel": "8진수",
+    "decimalLabel": "10진수 (ASCII)",
+    "separatorLabel": "구분자",
+    "spaceSeparator": "공백",
+    "dashSeparator": "대시",
+    "noneSeparator": "없음",
+    "inputPlaceholder": "변환할 텍스트 입력...",
+    "binaryInputPlaceholder": "2진수, 16진수 등 인코딩된 텍스트 입력..."
+  },
+  "RandomNameGenerator": {
+    "countLabel": "생성 개수",
+    "genderLabel": "성별",
+    "genderAny": "전체",
+    "genderMale": "남성",
+    "genderFemale": "여성",
+    "typeLabel": "이름 유형",
+    "typeFullName": "풀네임",
+    "typeFirstName": "이름만",
+    "typeLastName": "성만",
+    "generateButton": "생성",
+    "copyAllButton": "전체 복사"
+  },
+  "TipCalculator": {
+    "billAmountLabel": "청구 금액",
+    "tipPercentageLabel": "팁 비율",
+    "numberOfPeopleLabel": "인원 수",
+    "tipAmountLabel": "팁 금액",
+    "totalLabel": "합계",
+    "perPersonLabel": "1인당",
+    "customTip": "직접 입력",
+    "calculateButton": "계산"
+  },
+  "RunningPace": {
+    "paceTab": "페이스 계산",
+    "timeTab": "시간 계산",
+    "distanceTab": "거리 계산",
+    "distanceLabel": "거리",
+    "timeLabel": "시간",
+    "paceLabel": "페이스",
+    "hoursLabel": "시간",
+    "minutesLabel": "분",
+    "secondsLabel": "초",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "unitKm": "킬로미터",
+    "unitMi": "마일",
+    "customDistance": "직접 입력",
+    "resultLabel": "결과",
+    "commonDistances": "주요 거리"
+  },
+  "WaterIntake": {
+    "weightLabel": "체중",
+    "weightUnitKg": "kg",
+    "weightUnitLb": "lb",
+    "activityLabel": "활동 수준",
+    "activitySedentary": "비활동적 (운동 거의 없음)",
+    "activityLight": "가벼운 활동 (주 1~3일)",
+    "activityModerate": "보통 활동 (주 3~5일)",
+    "activityActive": "활발함 (주 6~7일)",
+    "activityVeryActive": "매우 활발 (매일 강도 높은 운동)",
+    "climateLabel": "기후",
+    "climateTemperate": "온대",
+    "climateHot": "덥고 습함",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "dailyIntakeLabel": "1일 권장 섭취량",
+    "glassesLabel": "컵 기준 (250mL)",
+    "noteLabel": "참고",
+    "noteText": "이 수치는 추정값입니다. 의사의 조언, 기후, 개인 건강 상태에 따라 조정하세요."
   },
   "ColorConverter": {
     "invalidColor": "유효하지 않은 색상 값입니다",

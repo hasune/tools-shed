@@ -72,6 +72,33 @@ export const tools: Tool[] = [
     icon: "JWT",
     keywords: ["jwt", "json web token", "decode", "payload", "auth", "bearer"],
   },
+  {
+    slug: "color-converter",
+    name: "Color Converter",
+    description: "Convert colors between HEX, RGB, and HSL formats instantly.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "🎨",
+    keywords: ["color", "hex", "rgb", "hsl", "converter", "palette", "css color"],
+  },
+  {
+    slug: "number-base-converter",
+    name: "Number Base Converter",
+    description: "Convert numbers between binary, octal, decimal, and hexadecimal.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "01",
+    keywords: ["binary", "octal", "decimal", "hexadecimal", "base", "convert", "number base"],
+  },
+  {
+    slug: "regex-tester",
+    name: "RegEx Tester",
+    description: "Test and debug regular expressions with live match highlighting.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: ".*",
+    keywords: ["regex", "regular expression", "test", "match", "pattern", "debug"],
+  },
   // Unit Converters
   {
     slug: "length-converter",
@@ -128,6 +155,15 @@ export const tools: Tool[] = [
     icon: "🔒",
     keywords: ["password", "generate", "secure", "random", "strong", "security"],
   },
+  {
+    slug: "markdown-preview",
+    name: "Markdown Preview",
+    description: "Write Markdown and preview the rendered output in real time.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "MD",
+    keywords: ["markdown", "preview", "render", "html", "editor", "md"],
+  },
   // Finance Tools
   {
     slug: "compound-interest",
@@ -175,6 +211,15 @@ export const tools: Tool[] = [
     categorySlug: "time",
     icon: "🌍",
     keywords: ["timezone", "time zone", "convert", "world time", "utc", "gmt"],
+  },
+  {
+    slug: "unix-timestamp",
+    name: "Unix Timestamp Converter",
+    description: "Convert between Unix timestamps and human-readable dates.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "⏱️",
+    keywords: ["unix", "timestamp", "epoch", "date", "convert", "time", "posix"],
   },
 ];
 

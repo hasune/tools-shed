@@ -177,6 +177,36 @@
       "description": "Konvertieren Sie die Zeit zwischen verschiedenen Zeitzonen weltweit.",
       "metaTitle": "Zeitzonenkonverter",
       "metaDescription": "Konvertieren Sie die Zeit zwischen verschiedenen Zeitzonen weltweit. Kostenloser Online-Zeitzonenkonverter."
+    },
+    "color-converter": {
+      "name": "Farbkonverter",
+      "description": "Konvertieren Sie Farben sofort zwischen HEX-, RGB- und HSL-Formaten.",
+      "metaTitle": "Farbkonverter — HEX, RGB, HSL",
+      "metaDescription": "Konvertieren Sie Farben sofort zwischen HEX-, RGB- und HSL-Formaten. Kostenloser Online-Farbkonverter — funktioniert in Ihrem Browser."
+    },
+    "number-base-converter": {
+      "name": "Zahlenbasis-Konverter",
+      "description": "Konvertieren Sie Zahlen zwischen Binär, Oktal, Dezimal und Hexadezimal.",
+      "metaTitle": "Zahlenbasis-Konverter",
+      "metaDescription": "Konvertieren Sie Zahlen zwischen Binär (Basis 2), Oktal (Basis 8), Dezimal (Basis 10) und Hexadezimal (Basis 16). Kostenloser Online-Zahlenbasis-Konverter."
+    },
+    "regex-tester": {
+      "name": "RegEx-Tester",
+      "description": "Testen und debuggen Sie reguläre Ausdrücke mit Live-Übereinstimmungshervorhebung.",
+      "metaTitle": "RegEx-Tester",
+      "metaDescription": "Testen und debuggen Sie reguläre Ausdrücke mit Live-Übereinstimmungshervorhebung. Kostenloser Online-RegEx-Tester — keine Anmeldung erforderlich."
+    },
+    "markdown-preview": {
+      "name": "Markdown-Vorschau",
+      "description": "Schreiben Sie Markdown und sehen Sie die gerenderte Ausgabe in Echtzeit.",
+      "metaTitle": "Markdown-Vorschau",
+      "metaDescription": "Schreiben Sie Markdown und sehen Sie die gerenderte Ausgabe sofort. Kostenloser Online-Markdown-Editor mit Live-Vorschau."
+    },
+    "unix-timestamp": {
+      "name": "Unix-Zeitstempel-Konverter",
+      "description": "Konvertieren Sie zwischen Unix-Zeitstempeln und menschenlesbaren Datumsangaben.",
+      "metaTitle": "Unix-Zeitstempel-Konverter",
+      "metaDescription": "Konvertieren Sie Unix-Zeitstempel in menschenlesbare Datumsangaben und umgekehrt. Kostenloser Online-Unix-Zeitstempel-Konverter."
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "Konvertieren",
     "useNowButton": "Jetzt verwenden",
     "resultsLabel": "Ergebnisse"
+  },
+  "ColorConverter": {
+    "invalidColor": "Ungültiger Farbwert",
+    "hue": "Farbton",
+    "saturation": "Sättigung",
+    "lightness": "Helligkeit",
+    "colorPickerLabel": "Farbe auswählen:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Dezimal",
+    "binaryLabel": "Binär",
+    "octalLabel": "Oktal",
+    "hexLabel": "Hexadezimal",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Zahl eingeben..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Aktueller Unix-Zeitstempel",
+    "secondsSince": "Sekunden seit dem 1. Januar 1970 (UTC)",
+    "tsToDate": "Timestamp → Datum",
+    "dateToTs": "Datum → Timestamp",
+    "timestampPlaceholder": "z. B. 1700000000",
+    "useNow": "Jetzt verwenden",
+    "localTime": "Ortszeit",
+    "utcTime": "UTC-Zeit",
+    "relative": "Relativ",
+    "seconds": "Sekunden (Unix)",
+    "milliseconds": "Millisekunden",
+    "invalidTimestamp": "Ungültiger Zeitstempel",
+    "justNow": "gerade eben",
+    "minutesAgo": "Minuten her",
+    "hoursAgo": "Stunden her",
+    "daysAgo": "Tage her"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Vorschau",
+    "placeholder": "Markdown hier eingeben..."
+  },
+  "RegexTester": {
+    "patternLabel": "Regulärer Ausdruck",
+    "patternPlaceholder": "Muster für regulären Ausdruck eingeben...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "Groß-/Kleinschreibung ignorieren",
+    "flagMultiline": "mehrzeilig",
+    "flagDotAll": "Punkt alles",
+    "testStringLabel": "Testzeichenkette",
+    "testStringPlaceholder": "Text zum Testen eingeben...",
+    "matchesLabel": "Treffer",
+    "matchSingular": "Treffer",
+    "matchPlural": "Treffer",
+    "matchDetailsLabel": "Trefferdetails",
+    "emptyMatch": "(leer)",
+    "index": "Index"
   },
   "LocaleSwitcher": {
     "label": "Sprache"

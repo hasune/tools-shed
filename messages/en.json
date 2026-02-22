@@ -177,6 +177,36 @@
       "description": "Convert time between different time zones around the world.",
       "metaTitle": "Timezone Converter",
       "metaDescription": "Convert time between different time zones around the world. Free online timezone converter."
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "Convert colors between HEX, RGB, and HSL formats instantly.",
+      "metaTitle": "Color Converter — HEX, RGB, HSL",
+      "metaDescription": "Convert colors between HEX, RGB, and HSL formats instantly. Free online color converter — works in your browser."
+    },
+    "number-base-converter": {
+      "name": "Number Base Converter",
+      "description": "Convert numbers between binary, octal, decimal, and hexadecimal.",
+      "metaTitle": "Number Base Converter",
+      "metaDescription": "Convert numbers between binary (base 2), octal (base 8), decimal (base 10), and hexadecimal (base 16). Free online number base converter."
+    },
+    "regex-tester": {
+      "name": "RegEx Tester",
+      "description": "Test and debug regular expressions with live match highlighting.",
+      "metaTitle": "RegEx Tester",
+      "metaDescription": "Test and debug regular expressions with live match highlighting. Free online regex tester — no sign-up required."
+    },
+    "markdown-preview": {
+      "name": "Markdown Preview",
+      "description": "Write Markdown and preview the rendered output in real time.",
+      "metaTitle": "Markdown Preview",
+      "metaDescription": "Write Markdown and instantly preview the rendered output. Free online Markdown editor and live previewer."
+    },
+    "unix-timestamp": {
+      "name": "Unix Timestamp Converter",
+      "description": "Convert between Unix timestamps and human-readable dates.",
+      "metaTitle": "Unix Timestamp Converter",
+      "metaDescription": "Convert Unix timestamps to human-readable dates and vice versa. Free online Unix timestamp converter."
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "Convert",
     "useNowButton": "Use now",
     "resultsLabel": "Results"
+  },
+  "ColorConverter": {
+    "invalidColor": "Invalid color value",
+    "hue": "Hue",
+    "saturation": "Saturation",
+    "lightness": "Lightness",
+    "colorPickerLabel": "Pick a color:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Decimal",
+    "binaryLabel": "Binary",
+    "octalLabel": "Octal",
+    "hexLabel": "Hexadecimal",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Enter a number..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Current Unix timestamp",
+    "secondsSince": "Seconds since Jan 1, 1970 (UTC)",
+    "tsToDate": "Timestamp → Date",
+    "dateToTs": "Date → Timestamp",
+    "timestampPlaceholder": "e.g. 1700000000",
+    "useNow": "Use now",
+    "localTime": "Local time",
+    "utcTime": "UTC time",
+    "relative": "Relative",
+    "seconds": "Seconds (Unix)",
+    "milliseconds": "Milliseconds",
+    "invalidTimestamp": "Invalid timestamp",
+    "justNow": "just now",
+    "minutesAgo": "minutes ago",
+    "hoursAgo": "hours ago",
+    "daysAgo": "days ago"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Preview",
+    "placeholder": "Write your Markdown here..."
+  },
+  "RegexTester": {
+    "patternLabel": "Regular Expression",
+    "patternPlaceholder": "Enter regex pattern...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "case insensitive",
+    "flagMultiline": "multiline",
+    "flagDotAll": "dot all",
+    "testStringLabel": "Test String",
+    "testStringPlaceholder": "Enter text to test against...",
+    "matchesLabel": "Matches",
+    "matchSingular": "match",
+    "matchPlural": "matches",
+    "matchDetailsLabel": "Match Details",
+    "emptyMatch": "(empty)",
+    "index": "index"
   },
   "LocaleSwitcher": {
     "label": "Language"

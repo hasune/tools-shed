@@ -177,6 +177,36 @@
       "description": "Convierte la hora entre diferentes zonas horarias del mundo.",
       "metaTitle": "Conversor de zonas horarias",
       "metaDescription": "Convierte la hora entre diferentes zonas horarias del mundo. Conversor de zonas horarias gratuito en línea."
+    },
+    "color-converter": {
+      "name": "Conversor de colores",
+      "description": "Convierte colores entre formatos HEX, RGB y HSL al instante.",
+      "metaTitle": "Conversor de colores — HEX, RGB, HSL",
+      "metaDescription": "Convierte colores entre formatos HEX, RGB y HSL al instante. Conversor de colores gratuito en línea — funciona en tu navegador."
+    },
+    "number-base-converter": {
+      "name": "Conversor de base numérica",
+      "description": "Convierte números entre binario, octal, decimal y hexadecimal.",
+      "metaTitle": "Conversor de base numérica",
+      "metaDescription": "Convierte números entre binario (base 2), octal (base 8), decimal (base 10) y hexadecimal (base 16). Conversor de base numérica gratuito en línea."
+    },
+    "regex-tester": {
+      "name": "Probador de RegEx",
+      "description": "Prueba y depura expresiones regulares con resaltado de coincidencias en tiempo real.",
+      "metaTitle": "Probador de RegEx",
+      "metaDescription": "Prueba y depura expresiones regulares con resaltado de coincidencias en tiempo real. Probador de RegEx gratuito en línea — sin registro."
+    },
+    "markdown-preview": {
+      "name": "Vista previa de Markdown",
+      "description": "Escribe Markdown y previsualiza el resultado renderizado en tiempo real.",
+      "metaTitle": "Vista previa de Markdown",
+      "metaDescription": "Escribe Markdown y previsualiza el resultado renderizado al instante. Editor de Markdown gratuito en línea con vista previa en vivo."
+    },
+    "unix-timestamp": {
+      "name": "Conversor de marca de tiempo Unix",
+      "description": "Convierte entre marcas de tiempo Unix y fechas legibles por humanos.",
+      "metaTitle": "Conversor de marca de tiempo Unix",
+      "metaDescription": "Convierte marcas de tiempo Unix a fechas legibles por humanos y viceversa. Conversor de marca de tiempo Unix gratuito en línea."
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "Convertir",
     "useNowButton": "Usar ahora",
     "resultsLabel": "Resultados"
+  },
+  "ColorConverter": {
+    "invalidColor": "Valor de color no válido",
+    "hue": "Tono",
+    "saturation": "Saturación",
+    "lightness": "Luminosidad",
+    "colorPickerLabel": "Elige un color:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Decimal",
+    "binaryLabel": "Binario",
+    "octalLabel": "Octal",
+    "hexLabel": "Hexadecimal",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Introduce un número..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Marca de tiempo Unix actual",
+    "secondsSince": "Segundos desde el 1 de enero de 1970 (UTC)",
+    "tsToDate": "Timestamp → Fecha",
+    "dateToTs": "Fecha → Timestamp",
+    "timestampPlaceholder": "p. ej. 1700000000",
+    "useNow": "Usar ahora",
+    "localTime": "Hora local",
+    "utcTime": "Hora UTC",
+    "relative": "Relativo",
+    "seconds": "Segundos (Unix)",
+    "milliseconds": "Milisegundos",
+    "invalidTimestamp": "Marca de tiempo no válida",
+    "justNow": "ahora mismo",
+    "minutesAgo": "minutos atrás",
+    "hoursAgo": "horas atrás",
+    "daysAgo": "días atrás"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Vista previa",
+    "placeholder": "Escribe tu Markdown aquí..."
+  },
+  "RegexTester": {
+    "patternLabel": "Expresión regular",
+    "patternPlaceholder": "Introduce el patrón de expresión regular...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "sin distinción de mayúsculas",
+    "flagMultiline": "multilínea",
+    "flagDotAll": "punto todo",
+    "testStringLabel": "Cadena de prueba",
+    "testStringPlaceholder": "Introduce el texto a probar...",
+    "matchesLabel": "Coincidencias",
+    "matchSingular": "coincidencia",
+    "matchPlural": "coincidencias",
+    "matchDetailsLabel": "Detalles de coincidencias",
+    "emptyMatch": "(vacío)",
+    "index": "índice"
   },
   "LocaleSwitcher": {
     "label": "Idioma"

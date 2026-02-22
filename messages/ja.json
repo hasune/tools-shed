@@ -177,6 +177,36 @@
       "description": "世界中の異なるタイムゾーン間で時間を変換。",
       "metaTitle": "タイムゾーン変換",
       "metaDescription": "世界中の異なるタイムゾーン間で時間を変換。無料オンラインタイムゾーン変換ツール。"
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "HEX、RGB、HSL形式間で色を即座に変換。",
+      "metaTitle": "Color Converter — HEX, RGB, HSL",
+      "metaDescription": "HEX、RGB、HSL形式間で色を即座に変換。無料オンラインカラーコンバーター — ブラウザで動作。"
+    },
+    "number-base-converter": {
+      "name": "Number Base Converter",
+      "description": "2進数、8進数、10進数、16進数間で数値を変換。",
+      "metaTitle": "Number Base Converter",
+      "metaDescription": "2進数（Base 2）、8進数（Base 8）、10進数（Base 10）、16進数（Base 16）間で数値を変換。無料オンライン進数変換ツール。"
+    },
+    "regex-tester": {
+      "name": "RegEx Tester",
+      "description": "ライブマッチハイライト付きで正規表現をテスト・デバッグ。",
+      "metaTitle": "RegEx Tester",
+      "metaDescription": "ライブマッチハイライト付きで正規表現をテスト・デバッグ。無料オンライン正規表現テスター — 登録不要。"
+    },
+    "markdown-preview": {
+      "name": "Markdown Preview",
+      "description": "Markdownを書いてレンダリング結果をリアルタイムでプレビュー。",
+      "metaTitle": "Markdown Preview",
+      "metaDescription": "Markdownを書いてレンダリング結果を即座にプレビュー。無料オンラインMarkdownエディターとライブプレビュー。"
+    },
+    "unix-timestamp": {
+      "name": "Unix Timestamp Converter",
+      "description": "Unixタイムスタンプと人間が読める日付形式を相互変換。",
+      "metaTitle": "Unix Timestamp Converter",
+      "metaDescription": "Unixタイムスタンプを人間が読める日付に変換し、またその逆も可能。無料オンラインUnixタイムスタンプ変換ツール。"
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "変換",
     "useNowButton": "現在時刻を使用",
     "resultsLabel": "結果"
+  },
+  "ColorConverter": {
+    "invalidColor": "無効なカラー値です",
+    "hue": "色相",
+    "saturation": "彩度",
+    "lightness": "明度",
+    "colorPickerLabel": "色を選択："
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "10進数",
+    "binaryLabel": "2進数",
+    "octalLabel": "8進数",
+    "hexLabel": "16進数",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "数値を入力してください..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "現在のUnixタイムスタンプ",
+    "secondsSince": "1970年1月1日（UTC）からの経過秒数",
+    "tsToDate": "タイムスタンプ → 日付",
+    "dateToTs": "日付 → タイムスタンプ",
+    "timestampPlaceholder": "例：1700000000",
+    "useNow": "現在時刻を使用",
+    "localTime": "ローカル時刻",
+    "utcTime": "UTC時刻",
+    "relative": "相対時間",
+    "seconds": "秒（Unix）",
+    "milliseconds": "ミリ秒",
+    "invalidTimestamp": "無効なタイムスタンプ",
+    "justNow": "たった今",
+    "minutesAgo": "分前",
+    "hoursAgo": "時間前",
+    "daysAgo": "日前"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "プレビュー",
+    "placeholder": "ここにMarkdownを入力してください..."
+  },
+  "RegexTester": {
+    "patternLabel": "正規表現",
+    "patternPlaceholder": "正規表現パターンを入力してください...",
+    "flagGlobal": "グローバル",
+    "flagCaseInsensitive": "大文字小文字を無視",
+    "flagMultiline": "複数行",
+    "flagDotAll": "ドットオール",
+    "testStringLabel": "テスト文字列",
+    "testStringPlaceholder": "テストするテキストを入力してください...",
+    "matchesLabel": "マッチ",
+    "matchSingular": "件",
+    "matchPlural": "件",
+    "matchDetailsLabel": "マッチの詳細",
+    "emptyMatch": "（空）",
+    "index": "インデックス"
   },
   "LocaleSwitcher": {
     "label": "言語"

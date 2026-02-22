@@ -177,6 +177,36 @@
       "description": "전 세계 다양한 시간대 간 시간 변환.",
       "metaTitle": "시간대 변환",
       "metaDescription": "전 세계 다양한 시간대 간 시간 변환. 무료 온라인 시간대 변환 도구."
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "HEX, RGB, HSL 형식 간 색상을 즉시 변환.",
+      "metaTitle": "Color Converter — HEX, RGB, HSL",
+      "metaDescription": "HEX, RGB, HSL 형식 간 색상을 즉시 변환. 무료 온라인 색상 변환기 — 브라우저에서 실행."
+    },
+    "number-base-converter": {
+      "name": "Number Base Converter",
+      "description": "2진수, 8진수, 10진수, 16진수 간 숫자 변환.",
+      "metaTitle": "Number Base Converter",
+      "metaDescription": "2진수(Base 2), 8진수(Base 8), 10진수(Base 10), 16진수(Base 16) 간 숫자 변환. 무료 온라인 진법 변환 도구."
+    },
+    "regex-tester": {
+      "name": "RegEx Tester",
+      "description": "실시간 매치 하이라이팅으로 정규 표현식을 테스트하고 디버그.",
+      "metaTitle": "RegEx Tester",
+      "metaDescription": "실시간 매치 하이라이팅으로 정규 표현식을 테스트하고 디버그. 무료 온라인 정규식 테스터 — 회원가입 불필요."
+    },
+    "markdown-preview": {
+      "name": "Markdown Preview",
+      "description": "Markdown을 작성하고 렌더링 결과를 실시간으로 미리보기.",
+      "metaTitle": "Markdown Preview",
+      "metaDescription": "Markdown을 작성하고 렌더링 결과를 즉시 미리보기. 무료 온라인 Markdown 편집기 및 실시간 미리보기."
+    },
+    "unix-timestamp": {
+      "name": "Unix Timestamp Converter",
+      "description": "Unix 타임스탬프와 사람이 읽을 수 있는 날짜 간 상호 변환.",
+      "metaTitle": "Unix Timestamp Converter",
+      "metaDescription": "Unix 타임스탬프를 사람이 읽을 수 있는 날짜로 변환하고 그 반대도 가능. 무료 온라인 Unix 타임스탬프 변환 도구."
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "변환",
     "useNowButton": "현재 시간 사용",
     "resultsLabel": "결과"
+  },
+  "ColorConverter": {
+    "invalidColor": "유효하지 않은 색상 값입니다",
+    "hue": "색조",
+    "saturation": "채도",
+    "lightness": "명도",
+    "colorPickerLabel": "색상 선택:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "10진수",
+    "binaryLabel": "2진수",
+    "octalLabel": "8진수",
+    "hexLabel": "16진수",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "숫자를 입력하세요..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "현재 Unix 타임스탬프",
+    "secondsSince": "1970년 1월 1일(UTC)부터 경과한 초",
+    "tsToDate": "타임스탬프 → 날짜",
+    "dateToTs": "날짜 → 타임스탬프",
+    "timestampPlaceholder": "예: 1700000000",
+    "useNow": "현재 시간 사용",
+    "localTime": "로컬 시간",
+    "utcTime": "UTC 시간",
+    "relative": "상대 시간",
+    "seconds": "초 (Unix)",
+    "milliseconds": "밀리초",
+    "invalidTimestamp": "유효하지 않은 타임스탬프",
+    "justNow": "방금 전",
+    "minutesAgo": "분 전",
+    "hoursAgo": "시간 전",
+    "daysAgo": "일 전"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "미리보기",
+    "placeholder": "여기에 Markdown을 입력하세요..."
+  },
+  "RegexTester": {
+    "patternLabel": "정규 표현식",
+    "patternPlaceholder": "정규식 패턴을 입력하세요...",
+    "flagGlobal": "전역",
+    "flagCaseInsensitive": "대소문자 무시",
+    "flagMultiline": "여러 줄",
+    "flagDotAll": "dot all",
+    "testStringLabel": "테스트 문자열",
+    "testStringPlaceholder": "테스트할 텍스트를 입력하세요...",
+    "matchesLabel": "매치",
+    "matchSingular": "개",
+    "matchPlural": "개",
+    "matchDetailsLabel": "매치 세부 정보",
+    "emptyMatch": "(빈 문자열)",
+    "index": "인덱스"
   },
   "LocaleSwitcher": {
     "label": "언어"

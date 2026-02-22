@@ -177,6 +177,36 @@
       "description": "在世界各地不同时区之间转换时间。",
       "metaTitle": "时区转换",
       "metaDescription": "在世界各地不同时区之间转换时间。免费在线时区转换工具。"
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "在 HEX、RGB 和 HSL 格式之间即时转换颜色。",
+      "metaTitle": "Color Converter — HEX, RGB, HSL",
+      "metaDescription": "在 HEX、RGB 和 HSL 格式之间即时转换颜色。免费在线颜色转换器 — 在浏览器中运行。"
+    },
+    "number-base-converter": {
+      "name": "Number Base Converter",
+      "description": "在二进制、八进制、十进制和十六进制之间转换数字。",
+      "metaTitle": "Number Base Converter",
+      "metaDescription": "在二进制（Base 2）、八进制（Base 8）、十进制（Base 10）和十六进制（Base 16）之间转换数字。免费在线进制转换工具。"
+    },
+    "regex-tester": {
+      "name": "RegEx Tester",
+      "description": "通过实时匹配高亮来测试和调试正则表达式。",
+      "metaTitle": "RegEx Tester",
+      "metaDescription": "通过实时匹配高亮来测试和调试正则表达式。免费在线正则表达式测试器 — 无需注册。"
+    },
+    "markdown-preview": {
+      "name": "Markdown Preview",
+      "description": "编写 Markdown 并实时预览渲染效果。",
+      "metaTitle": "Markdown Preview",
+      "metaDescription": "编写 Markdown 并即时预览渲染效果。免费在线 Markdown 编辑器和实时预览器。"
+    },
+    "unix-timestamp": {
+      "name": "Unix Timestamp Converter",
+      "description": "在 Unix 时间戳和人类可读日期之间相互转换。",
+      "metaTitle": "Unix Timestamp Converter",
+      "metaDescription": "将 Unix 时间戳转换为人类可读的日期，反之亦然。免费在线 Unix 时间戳转换工具。"
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "转换",
     "useNowButton": "使用当前时间",
     "resultsLabel": "结果"
+  },
+  "ColorConverter": {
+    "invalidColor": "无效的颜色值",
+    "hue": "色相",
+    "saturation": "饱和度",
+    "lightness": "亮度",
+    "colorPickerLabel": "选择颜色："
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "十进制",
+    "binaryLabel": "二进制",
+    "octalLabel": "八进制",
+    "hexLabel": "十六进制",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "输入一个数字..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "当前 Unix 时间戳",
+    "secondsSince": "自 1970 年 1 月 1 日（UTC）以来的秒数",
+    "tsToDate": "时间戳 → 日期",
+    "dateToTs": "日期 → 时间戳",
+    "timestampPlaceholder": "例如：1700000000",
+    "useNow": "使用当前时间",
+    "localTime": "本地时间",
+    "utcTime": "UTC 时间",
+    "relative": "相对时间",
+    "seconds": "秒（Unix）",
+    "milliseconds": "毫秒",
+    "invalidTimestamp": "无效的时间戳",
+    "justNow": "刚刚",
+    "minutesAgo": "分钟前",
+    "hoursAgo": "小时前",
+    "daysAgo": "天前"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "预览",
+    "placeholder": "在此输入 Markdown..."
+  },
+  "RegexTester": {
+    "patternLabel": "正则表达式",
+    "patternPlaceholder": "输入正则表达式...",
+    "flagGlobal": "全局",
+    "flagCaseInsensitive": "忽略大小写",
+    "flagMultiline": "多行",
+    "flagDotAll": "dot all",
+    "testStringLabel": "测试字符串",
+    "testStringPlaceholder": "输入要测试的文本...",
+    "matchesLabel": "匹配",
+    "matchSingular": "处匹配",
+    "matchPlural": "处匹配",
+    "matchDetailsLabel": "匹配详情",
+    "emptyMatch": "（空）",
+    "index": "索引"
   },
   "LocaleSwitcher": {
     "label": "语言"

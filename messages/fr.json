@@ -177,6 +177,36 @@
       "description": "Convertissez l'heure entre différents fuseaux horaires dans le monde.",
       "metaTitle": "Convertisseur de fuseau horaire",
       "metaDescription": "Convertissez l'heure entre différents fuseaux horaires dans le monde. Convertisseur de fuseau horaire en ligne gratuit."
+    },
+    "color-converter": {
+      "name": "Convertisseur de couleurs",
+      "description": "Convertissez les couleurs entre les formats HEX, RGB et HSL instantanément.",
+      "metaTitle": "Convertisseur de couleurs — HEX, RGB, HSL",
+      "metaDescription": "Convertissez les couleurs entre les formats HEX, RGB et HSL instantanément. Convertisseur de couleurs en ligne gratuit — fonctionne dans votre navigateur."
+    },
+    "number-base-converter": {
+      "name": "Convertisseur de base numérique",
+      "description": "Convertissez des nombres entre binaire, octal, décimal et hexadécimal.",
+      "metaTitle": "Convertisseur de base numérique",
+      "metaDescription": "Convertissez des nombres entre binaire (base 2), octal (base 8), décimal (base 10) et hexadécimal (base 16). Convertisseur de base numérique en ligne gratuit."
+    },
+    "regex-tester": {
+      "name": "Testeur de RegEx",
+      "description": "Testez et déboguez des expressions régulières avec mise en surbrillance des correspondances en direct.",
+      "metaTitle": "Testeur de RegEx",
+      "metaDescription": "Testez et déboguez des expressions régulières avec mise en surbrillance des correspondances en direct. Testeur de RegEx en ligne gratuit — sans inscription."
+    },
+    "markdown-preview": {
+      "name": "Aperçu Markdown",
+      "description": "Rédigez du Markdown et prévisualisez le rendu en temps réel.",
+      "metaTitle": "Aperçu Markdown",
+      "metaDescription": "Rédigez du Markdown et prévisualisez instantanément le rendu. Éditeur Markdown en ligne gratuit avec aperçu en direct."
+    },
+    "unix-timestamp": {
+      "name": "Convertisseur d'horodatage Unix",
+      "description": "Convertissez entre les horodatages Unix et les dates lisibles par l'homme.",
+      "metaTitle": "Convertisseur d'horodatage Unix",
+      "metaDescription": "Convertissez les horodatages Unix en dates lisibles par l'homme et vice-versa. Convertisseur d'horodatage Unix en ligne gratuit."
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "Convertir",
     "useNowButton": "Utiliser maintenant",
     "resultsLabel": "Résultats"
+  },
+  "ColorConverter": {
+    "invalidColor": "Valeur de couleur invalide",
+    "hue": "Teinte",
+    "saturation": "Saturation",
+    "lightness": "Luminosité",
+    "colorPickerLabel": "Choisissez une couleur :"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Décimal",
+    "binaryLabel": "Binaire",
+    "octalLabel": "Octal",
+    "hexLabel": "Hexadécimal",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Entrez un nombre..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Horodatage Unix actuel",
+    "secondsSince": "Secondes depuis le 1er janvier 1970 (UTC)",
+    "tsToDate": "Timestamp → Date",
+    "dateToTs": "Date → Timestamp",
+    "timestampPlaceholder": "ex. 1700000000",
+    "useNow": "Utiliser maintenant",
+    "localTime": "Heure locale",
+    "utcTime": "Heure UTC",
+    "relative": "Relatif",
+    "seconds": "Secondes (Unix)",
+    "milliseconds": "Millisecondes",
+    "invalidTimestamp": "Horodatage invalide",
+    "justNow": "à l'instant",
+    "minutesAgo": "minutes",
+    "hoursAgo": "heures",
+    "daysAgo": "jours"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Aperçu",
+    "placeholder": "Rédigez votre Markdown ici..."
+  },
+  "RegexTester": {
+    "patternLabel": "Expression régulière",
+    "patternPlaceholder": "Entrez le motif d'expression régulière...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "insensible à la casse",
+    "flagMultiline": "multiligne",
+    "flagDotAll": "point tout",
+    "testStringLabel": "Chaîne de test",
+    "testStringPlaceholder": "Entrez le texte à tester...",
+    "matchesLabel": "Correspondances",
+    "matchSingular": "correspondance",
+    "matchPlural": "correspondances",
+    "matchDetailsLabel": "Détails des correspondances",
+    "emptyMatch": "(vide)",
+    "index": "index"
   },
   "LocaleSwitcher": {
     "label": "Langue"

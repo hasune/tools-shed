@@ -177,6 +177,36 @@
       "description": "Converta horários entre diferentes fusos horários ao redor do mundo.",
       "metaTitle": "Conversor de Fuso Horário",
       "metaDescription": "Converta horários entre diferentes fusos horários ao redor do mundo. Conversor de fuso horário online gratuito."
+    },
+    "color-converter": {
+      "name": "Conversor de Cores",
+      "description": "Converta cores entre os formatos HEX, RGB e HSL instantaneamente.",
+      "metaTitle": "Conversor de Cores — HEX, RGB, HSL",
+      "metaDescription": "Converta cores entre os formatos HEX, RGB e HSL instantaneamente. Conversor de cores online gratuito — funciona no seu navegador."
+    },
+    "number-base-converter": {
+      "name": "Conversor de Base Numérica",
+      "description": "Converta números entre binário, octal, decimal e hexadecimal.",
+      "metaTitle": "Conversor de Base Numérica",
+      "metaDescription": "Converta números entre binário (base 2), octal (base 8), decimal (base 10) e hexadecimal (base 16). Conversor de base numérica online gratuito."
+    },
+    "regex-tester": {
+      "name": "Testador de RegEx",
+      "description": "Teste e depure expressões regulares com destaque de correspondências em tempo real.",
+      "metaTitle": "Testador de RegEx",
+      "metaDescription": "Teste e depure expressões regulares com destaque de correspondências em tempo real. Testador de RegEx online gratuito — sem cadastro."
+    },
+    "markdown-preview": {
+      "name": "Visualizador de Markdown",
+      "description": "Escreva Markdown e visualize o resultado renderizado em tempo real.",
+      "metaTitle": "Visualizador de Markdown",
+      "metaDescription": "Escreva Markdown e visualize instantaneamente o resultado renderizado. Editor de Markdown online gratuito com visualização ao vivo."
+    },
+    "unix-timestamp": {
+      "name": "Conversor de Timestamp Unix",
+      "description": "Converta entre timestamps Unix e datas legíveis por humanos.",
+      "metaTitle": "Conversor de Timestamp Unix",
+      "metaDescription": "Converta timestamps Unix para datas legíveis por humanos e vice-versa. Conversor de timestamp Unix online gratuito."
     }
   },
   "Common": {
@@ -389,6 +419,63 @@
     "convertButton": "Converter",
     "useNowButton": "Usar agora",
     "resultsLabel": "Resultados"
+  },
+  "ColorConverter": {
+    "invalidColor": "Valor de cor inválido",
+    "hue": "Matiz",
+    "saturation": "Saturação",
+    "lightness": "Luminosidade",
+    "colorPickerLabel": "Escolha uma cor:"
+  },
+  "NumberBaseConverter": {
+    "decimalLabel": "Decimal",
+    "binaryLabel": "Binário",
+    "octalLabel": "Octal",
+    "hexLabel": "Hexadecimal",
+    "base2": "Base 2",
+    "base8": "Base 8",
+    "base10": "Base 10",
+    "base16": "Base 16",
+    "inputPlaceholder": "Digite um número..."
+  },
+  "UnixTimestamp": {
+    "currentTimestamp": "Timestamp Unix atual",
+    "secondsSince": "Segundos desde 1 de janeiro de 1970 (UTC)",
+    "tsToDate": "Timestamp → Data",
+    "dateToTs": "Data → Timestamp",
+    "timestampPlaceholder": "ex.: 1700000000",
+    "useNow": "Usar agora",
+    "localTime": "Hora local",
+    "utcTime": "Hora UTC",
+    "relative": "Relativo",
+    "seconds": "Segundos (Unix)",
+    "milliseconds": "Milissegundos",
+    "invalidTimestamp": "Timestamp inválido",
+    "justNow": "agora mesmo",
+    "minutesAgo": "minutos atrás",
+    "hoursAgo": "horas atrás",
+    "daysAgo": "dias atrás"
+  },
+  "MarkdownPreview": {
+    "editorLabel": "Markdown",
+    "previewLabel": "Visualização",
+    "placeholder": "Escreva seu Markdown aqui..."
+  },
+  "RegexTester": {
+    "patternLabel": "Expressão Regular",
+    "patternPlaceholder": "Digite o padrão de expressão regular...",
+    "flagGlobal": "global",
+    "flagCaseInsensitive": "sem distinção de maiúsculas",
+    "flagMultiline": "multilinha",
+    "flagDotAll": "ponto tudo",
+    "testStringLabel": "String de teste",
+    "testStringPlaceholder": "Digite o texto para testar...",
+    "matchesLabel": "Correspondências",
+    "matchSingular": "correspondência",
+    "matchPlural": "correspondências",
+    "matchDetailsLabel": "Detalhes das correspondências",
+    "emptyMatch": "(vazio)",
+    "index": "índice"
   },
   "LocaleSwitcher": {
     "label": "Idioma"

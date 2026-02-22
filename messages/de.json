@@ -207,6 +207,120 @@
       "description": "Konvertieren Sie zwischen Unix-Zeitstempeln und menschenlesbaren Datumsangaben.",
       "metaTitle": "Unix-Zeitstempel-Konverter",
       "metaDescription": "Konvertieren Sie Unix-Zeitstempel in menschenlesbare Datumsangaben und umgekehrt. Kostenloser Online-Unix-Zeitstempel-Konverter."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON Converter",
+      "description": "Konvertieren Sie CSV-Daten in JSON und JSON-Arrays zurück in das CSV-Format.",
+      "metaTitle": "CSV to JSON Converter",
+      "metaDescription": "Konvertieren Sie CSV in JSON und JSON in CSV sofort in Ihrem Browser. Kostenloser Online-CSV-JSON-Konverter — kein Upload erforderlich."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "Vergleichen Sie zwei Texte und heben Sie die Unterschiede zeilenweise hervor.",
+      "metaTitle": "Diff Checker — Compare Two Texts",
+      "metaDescription": "Vergleichen Sie zwei Texte und heben Sie Hinzufügungen, Löschungen und Änderungen hervor. Kostenloser Online-Diff-Checker — funktioniert vollständig in Ihrem Browser."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Generator",
+      "description": "Generieren Sie Lorem-Ipsum-Platzhaltertext für Design und Entwicklung.",
+      "metaTitle": "Lorem Ipsum Generator",
+      "metaDescription": "Generieren Sie Lorem-Ipsum-Platzhaltertext nach Absätzen, Sätzen oder Wörtern. Kostenloser Online-Lorem-Ipsum-Generator."
+    },
+    "html-encoder": {
+      "name": "HTML Encoder / Decoder",
+      "description": "Codieren Sie Sonderzeichen in HTML-Entitäten und decodieren Sie sie zurück.",
+      "metaTitle": "HTML Encoder / Decoder",
+      "metaDescription": "Codieren Sie Sonderzeichen in HTML-Entitäten und decodieren Sie HTML-Entitäten zurück in Text. Kostenloser Online-HTML-Encoder-Decoder."
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON Converter",
+      "description": "Konvertieren Sie sofort zwischen YAML- und JSON-Formaten.",
+      "metaTitle": "YAML to JSON Converter",
+      "metaDescription": "Konvertieren Sie YAML in JSON und JSON in YAML sofort in Ihrem Browser. Kostenloser Online-YAML-JSON-Konverter."
+    },
+    "data-storage-converter": {
+      "name": "Datenspeicher-Konverter",
+      "description": "Konvertieren Sie zwischen Bytes, Kilobytes, Megabytes, Gigabytes, Terabytes und mehr.",
+      "metaTitle": "Data Storage Converter",
+      "metaDescription": "Konvertieren Sie zwischen Bytes, KB, MB, GB, TB und binären Einheiten (KiB, MiB, GiB). Kostenloser Online-Datenspeicher-Konverter."
+    },
+    "speed-converter": {
+      "name": "Geschwindigkeitskonverter",
+      "description": "Konvertieren Sie zwischen km/h, mph, m/s, Knoten und anderen Geschwindigkeitseinheiten.",
+      "metaTitle": "Speed Converter",
+      "metaDescription": "Konvertieren Sie zwischen km/h, mph, m/s, Knoten und Fuß pro Sekunde. Kostenloser Online-Geschwindigkeitskonverter."
+    },
+    "area-converter": {
+      "name": "Flächenkonverter",
+      "description": "Konvertieren Sie zwischen Quadratmetern, Quadratfuß, Acres, Hektar und mehr.",
+      "metaTitle": "Area Converter",
+      "metaDescription": "Konvertieren Sie zwischen Quadratmetern, Quadratfuß, Acres, Hektar und mehr. Kostenloser Online-Flächenkonverter."
+    },
+    "volume-converter": {
+      "name": "Volumenkonverter",
+      "description": "Konvertieren Sie zwischen Litern, Gallonen, Flüssigunzen, Kubikmetern und mehr.",
+      "metaTitle": "Volume Converter",
+      "metaDescription": "Konvertieren Sie zwischen Litern, Gallonen, Flüssigunzen, Tassen und Kubikmetern. Kostenloser Online-Volumenkonverter."
+    },
+    "slug-generator": {
+      "name": "Slug Generator",
+      "description": "Konvertieren Sie beliebigen Text in einen sauberen, URL-freundlichen Slug.",
+      "metaTitle": "Slug Generator",
+      "metaDescription": "Konvertieren Sie beliebigen Text in einen sauberen, URL-freundlichen Slug. Kostenloser Online-Slug-Generator für SEO-freundliche Permalinks."
+    },
+    "text-repeater": {
+      "name": "Text-Wiederholer",
+      "description": "Wiederholen Sie beliebigen Text oder ein Zeichen eine bestimmte Anzahl von Malen.",
+      "metaTitle": "Text Repeater",
+      "metaDescription": "Wiederholen Sie beliebigen Text, ein Wort oder ein Zeichen beliebig oft mit einem benutzerdefinierten Trennzeichen. Kostenloser Online-Text-Wiederholer."
+    },
+    "discount-calculator": {
+      "name": "Rabattrechner",
+      "description": "Berechnen Sie Sonderpreise, Rabattbeträge und Ersparnisse sofort.",
+      "metaTitle": "Discount Calculator",
+      "metaDescription": "Berechnen Sie den Sonderpreis und die Ersparnis bei jedem Rabattprozentsatz. Kostenloser Online-Rabattrechner."
+    },
+    "loan-calculator": {
+      "name": "Kreditrechner",
+      "description": "Berechnen Sie monatliche Raten, Gesamtzinsen und Tilgungsplan für Kredite.",
+      "metaTitle": "Loan Calculator",
+      "metaDescription": "Berechnen Sie monatliche Raten, Gesamtzinsen und den vollständigen Tilgungsplan. Kostenloser Online-Kredit- und Hypothekenrechner."
+    },
+    "roi-calculator": {
+      "name": "ROI Calculator",
+      "description": "Berechnen Sie den Return on Investment und annualisierten ROI für jede Investition.",
+      "metaTitle": "ROI Calculator",
+      "metaDescription": "Berechnen Sie den Return on Investment (ROI) und annualisierten ROI für jede Investition. Kostenloser Online-ROI-Rechner."
+    },
+    "tdee-calculator": {
+      "name": "TDEE Calculator",
+      "description": "Berechnen Sie Ihren gesamten täglichen Energieverbrauch und Ihren täglichen Kalorienbedarf.",
+      "metaTitle": "TDEE Calculator — Daily Calorie Calculator",
+      "metaDescription": "Berechnen Sie Ihren gesamten täglichen Energieverbrauch (TDEE) und Kalorienbedarf basierend auf dem Aktivitätsniveau. Kostenloser Online-TDEE-Rechner."
+    },
+    "ideal-weight": {
+      "name": "Idealgewichtsrechner",
+      "description": "Berechnen Sie Ihr ideales Körpergewicht basierend auf Ihrer Körpergröße mit mehreren Formeln.",
+      "metaTitle": "Ideal Weight Calculator",
+      "metaDescription": "Berechnen Sie Ihr ideales Körpergewicht mit den Formeln Robinson, Miller, Devine und Hamwi. Kostenloser Online-Idealgewichtsrechner."
+    },
+    "body-fat": {
+      "name": "Körperfettrechner",
+      "description": "Schätzen Sie den Körperfettanteil mit der U.S.-Navy-Methode.",
+      "metaTitle": "Body Fat Calculator",
+      "metaDescription": "Schätzen Sie Ihren Körperfettanteil mit der U.S. Navy-Methode. Kostenloser Online-Körperfettrechner für Männer und Frauen."
+    },
+    "date-difference": {
+      "name": "Datumsdifferenzrechner",
+      "description": "Berechnen Sie die genaue Anzahl von Tagen, Wochen und Monaten zwischen zwei Datumsangaben.",
+      "metaTitle": "Date Difference Calculator",
+      "metaDescription": "Berechnen Sie die genaue Anzahl von Tagen, Wochen und Monaten zwischen zwei beliebigen Datumsangaben. Kostenloser Online-Datumsdifferenzrechner."
+    },
+    "time-duration": {
+      "name": "Zeitdauerrechner",
+      "description": "Addieren oder subtrahieren Sie Stunden, Minuten und Sekunden zur Berechnung von Zeitdauern.",
+      "metaTitle": "Time Duration Calculator",
+      "metaDescription": "Addieren oder subtrahieren Sie Zeitdauern in Stunden, Minuten und Sekunden. Kostenloser Online-Zeitdauerrechner."
     }
   },
   "Common": {
@@ -419,6 +533,207 @@
     "convertButton": "Konvertieren",
     "useNowButton": "Jetzt verwenden",
     "resultsLabel": "Ergebnisse"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "convertButton": "Konvertieren",
+    "loadSample": "Beispiel laden",
+    "delimiterLabel": "Trennzeichen",
+    "comma": "Komma (,)",
+    "semicolon": "Semikolon (;)",
+    "tab": "Tabulator (\\t)",
+    "firstRowHeader": "Erste Zeile ist Kopfzeile",
+    "invalidCsv": "Ungültiges CSV-Format",
+    "invalidJson": "Eingabe muss ein JSON-Array von Objekten sein"
+  },
+  "DiffChecker": {
+    "originalLabel": "Original",
+    "modifiedLabel": "Geändert",
+    "compareButton": "Vergleichen",
+    "clearButton": "Löschen",
+    "noChanges": "Keine Unterschiede gefunden — Texte sind identisch.",
+    "addedLabel": "Hinzugefügt",
+    "removedLabel": "Entfernt",
+    "unchangedLabel": "Unverändert",
+    "linesLabel": "Zeilen"
+  },
+  "LoremIpsum": {
+    "typeLabel": "Generieren",
+    "paragraphs": "Absätze",
+    "sentences": "Sätze",
+    "words": "Wörter",
+    "countLabel": "Anzahl:",
+    "generateButton": "Generieren",
+    "startWithLoremIpsum": "Mit \"Lorem ipsum\" beginnen",
+    "outputLabel": "Generierter Text"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "Codieren",
+    "decodeTab": "Decodieren",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "encodeButton": "Codieren",
+    "decodeButton": "Decodieren",
+    "loadSample": "Beispiel laden"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "convertButton": "Konvertieren",
+    "loadSample": "Beispiel laden",
+    "indentLabel": "Einrückung:",
+    "twoSpaces": "2 Leerzeichen",
+    "fourSpaces": "4 Leerzeichen",
+    "invalidYaml": "Ungültiges YAML",
+    "invalidJson": "Ungültiges JSON"
+  },
+  "SlugGenerator": {
+    "inputLabel": "Text",
+    "inputPlaceholder": "Text zum Konvertieren in Slug eingeben...",
+    "outputLabel": "Slug",
+    "separatorLabel": "Trennzeichen",
+    "hyphen": "Bindestrich (-)",
+    "underscore": "Unterstrich (_)",
+    "lowercaseLabel": "Kleinbuchstaben"
+  },
+  "TextRepeater": {
+    "inputLabel": "Zu wiederholender Text",
+    "inputPlaceholder": "Text hier eingeben...",
+    "countLabel": "Wiederholen:",
+    "separatorLabel": "Trennzeichen",
+    "newline": "Neue Zeile",
+    "space": "Leerzeichen",
+    "none": "Keines",
+    "custom": "Benutzerdefiniert",
+    "customSeparatorLabel": "Benutzerdefiniertes Trennzeichen",
+    "outputLabel": "Ergebnis"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "Ursprünglicher Preis",
+    "discountLabel": "Rabatt (%)",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "salePrice": "Sonderpreis",
+    "youSave": "Sie sparen",
+    "discountAmount": "Rabattbetrag"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "Kreditbetrag",
+    "annualRateLabel": "Jährlicher Zinssatz (%)",
+    "loanTermLabel": "Kreditlaufzeit",
+    "years": "Jahre",
+    "months": "Monate",
+    "calculateButton": "Berechnen",
+    "monthlyPayment": "Monatliche Rate",
+    "totalPayment": "Gesamtzahlung",
+    "totalInterest": "Gesamtzinsen",
+    "amortizationTitle": "Tilgungsplan",
+    "month": "Monat",
+    "principal": "Tilgung",
+    "interest": "Zinsen",
+    "balance": "Restschuld"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "Anfangsinvestition",
+    "finalValueLabel": "Endwert",
+    "timePeriodLabel": "Zeitraum (Jahre)",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "roi": "ROI",
+    "annualizedRoi": "Annualisierter ROI",
+    "totalProfit": "Gesamtgewinn",
+    "totalReturn": "Gesamtertrag"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "Alter",
+    "genderLabel": "Geschlecht",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "weightLabel": "Gewicht",
+    "heightLabel": "Größe",
+    "metricTab": "Metrisch",
+    "imperialTab": "Imperial",
+    "activityLabel": "Aktivitätsniveau",
+    "sedentary": "Sitzend (wenig oder keine Bewegung)",
+    "lightlyActive": "Leicht aktiv (1–3 Tage/Woche)",
+    "moderatelyActive": "Mäßig aktiv (3–5 Tage/Woche)",
+    "veryActive": "Sehr aktiv (6–7 Tage/Woche)",
+    "extraActive": "Extrem aktiv (tägliches intensives Training)",
+    "calculateButton": "Berechnen",
+    "tdee": "TDEE",
+    "bmr": "BMR (Grundumsatz)",
+    "weightLoss": "Gewichtsabnahme (−500 kcal/Tag)",
+    "maintenance": "Gewichtserhalt",
+    "weightGain": "Gewichtszunahme (+500 kcal/Tag)",
+    "caloriesPerDay": "kcal/Tag"
+  },
+  "IdealWeight": {
+    "heightLabel": "Größe",
+    "genderLabel": "Geschlecht",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "metricTab": "Metrisch (cm)",
+    "imperialTab": "Imperial (ft/in)",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "resultsTitle": "Idealgewichtsbereich",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "Gesunder BMI-Bereich (18,5–24,9)"
+  },
+  "BodyFat": {
+    "metricTab": "Metrisch (cm)",
+    "imperialTab": "Imperial (in)",
+    "genderLabel": "Geschlecht",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "heightLabel": "Größe",
+    "neckLabel": "Halsumfang",
+    "waistLabel": "Taillenumfang",
+    "hipLabel": "Hüftumfang",
+    "hipNote": "(nur Frauen)",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "bodyFatPercent": "Körperfett",
+    "category": "Kategorie",
+    "methodNote": "Berechnet mit der U.S. Navy-Methode",
+    "essentialFat": "Essenzielles Fett",
+    "athletes": "Sportler",
+    "fitness": "Fitness",
+    "acceptable": "Akzeptabel",
+    "obese": "Adipositas"
+  },
+  "DateDifference": {
+    "startDateLabel": "Startdatum",
+    "endDateLabel": "Enddatum",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "useToday": "Heute",
+    "totalDays": "Tage gesamt",
+    "workingDays": "Arbeitstage (Mo–Fr)",
+    "weeks": "Wochen",
+    "months": "Monate",
+    "years": "Jahre"
+  },
+  "TimeDuration": {
+    "addTab": "Zeit addieren",
+    "subtractTab": "Zeit subtrahieren",
+    "baseTimeLabel": "Startzeit (HH:MM:SS)",
+    "durationLabel": "Dauer",
+    "hoursLabel": "Stunden",
+    "minutesLabel": "Minuten",
+    "secondsLabel": "Sekunden",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "resultLabel": "Ergebnis",
+    "totalSeconds": "Sekunden gesamt"
   },
   "ColorConverter": {
     "invalidColor": "Ungültiger Farbwert",

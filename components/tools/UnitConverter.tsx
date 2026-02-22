@@ -31,10 +31,52 @@ const UNIT_SETS: Record<string, Unit[]> = {
     { label: "Stone (st)", toBase: (v) => v * 6.35029, fromBase: (v) => v / 6.35029 },
     { label: "US Ton (short ton)", toBase: (v) => v * 907.185, fromBase: (v) => v / 907.185 },
   ],
+  "data-storage": [
+    { label: "Byte (B)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Kilobyte (KB)", toBase: (v) => v * 1e3, fromBase: (v) => v / 1e3 },
+    { label: "Megabyte (MB)", toBase: (v) => v * 1e6, fromBase: (v) => v / 1e6 },
+    { label: "Gigabyte (GB)", toBase: (v) => v * 1e9, fromBase: (v) => v / 1e9 },
+    { label: "Terabyte (TB)", toBase: (v) => v * 1e12, fromBase: (v) => v / 1e12 },
+    { label: "Petabyte (PB)", toBase: (v) => v * 1e15, fromBase: (v) => v / 1e15 },
+    { label: "Kibibyte (KiB)", toBase: (v) => v * 1024, fromBase: (v) => v / 1024 },
+    { label: "Mebibyte (MiB)", toBase: (v) => v * 1048576, fromBase: (v) => v / 1048576 },
+    { label: "Gibibyte (GiB)", toBase: (v) => v * 1073741824, fromBase: (v) => v / 1073741824 },
+    { label: "Tebibyte (TiB)", toBase: (v) => v * 1099511627776, fromBase: (v) => v / 1099511627776 },
+  ],
+  speed: [
+    { label: "Meter/second (m/s)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Kilometer/hour (km/h)", toBase: (v) => v / 3.6, fromBase: (v) => v * 3.6 },
+    { label: "Mile/hour (mph)", toBase: (v) => v * 0.44704, fromBase: (v) => v / 0.44704 },
+    { label: "Knot (kn)", toBase: (v) => v * 0.514444, fromBase: (v) => v / 0.514444 },
+    { label: "Foot/second (ft/s)", toBase: (v) => v * 0.3048, fromBase: (v) => v / 0.3048 },
+    { label: "Mach (at sea level)", toBase: (v) => v * 340.29, fromBase: (v) => v / 340.29 },
+  ],
+  area: [
+    { label: "Square Meter (m²)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Square Kilometer (km²)", toBase: (v) => v * 1e6, fromBase: (v) => v / 1e6 },
+    { label: "Square Mile (mi²)", toBase: (v) => v * 2589988.11, fromBase: (v) => v / 2589988.11 },
+    { label: "Square Yard (yd²)", toBase: (v) => v * 0.836127, fromBase: (v) => v / 0.836127 },
+    { label: "Square Foot (ft²)", toBase: (v) => v * 0.092903, fromBase: (v) => v / 0.092903 },
+    { label: "Square Inch (in²)", toBase: (v) => v * 0.00064516, fromBase: (v) => v / 0.00064516 },
+    { label: "Acre", toBase: (v) => v * 4046.86, fromBase: (v) => v / 4046.86 },
+    { label: "Hectare (ha)", toBase: (v) => v * 10000, fromBase: (v) => v / 10000 },
+  ],
+  volume: [
+    { label: "Liter (L)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Milliliter (mL)", toBase: (v) => v / 1000, fromBase: (v) => v * 1000 },
+    { label: "Cubic Meter (m³)", toBase: (v) => v * 1000, fromBase: (v) => v / 1000 },
+    { label: "Cubic Centimeter (cm³)", toBase: (v) => v / 1000, fromBase: (v) => v * 1000 },
+    { label: "US Gallon (gal)", toBase: (v) => v * 3.78541, fromBase: (v) => v / 3.78541 },
+    { label: "US Quart (qt)", toBase: (v) => v * 0.946353, fromBase: (v) => v / 0.946353 },
+    { label: "US Pint (pt)", toBase: (v) => v * 0.473176, fromBase: (v) => v / 0.473176 },
+    { label: "US Cup", toBase: (v) => v * 0.236588, fromBase: (v) => v / 0.236588 },
+    { label: "US Fluid Ounce (fl oz)", toBase: (v) => v * 0.0295735, fromBase: (v) => v / 0.0295735 },
+    { label: "Imperial Gallon", toBase: (v) => v * 4.54609, fromBase: (v) => v / 4.54609 },
+  ],
 };
 
 interface UnitConverterProps {
-  type: "length" | "weight";
+  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume";
   precision?: number;
 }
 

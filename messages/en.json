@@ -207,6 +207,120 @@
       "description": "Convert between Unix timestamps and human-readable dates.",
       "metaTitle": "Unix Timestamp Converter",
       "metaDescription": "Convert Unix timestamps to human-readable dates and vice versa. Free online Unix timestamp converter."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON Converter",
+      "description": "Convert CSV data to JSON and JSON arrays back to CSV format.",
+      "metaTitle": "CSV to JSON Converter",
+      "metaDescription": "Convert CSV to JSON and JSON to CSV instantly in your browser. Free online CSV JSON converter — no upload required."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "Compare two texts and highlight the differences line by line.",
+      "metaTitle": "Diff Checker — Compare Two Texts",
+      "metaDescription": "Compare two texts and highlight additions, removals, and changes. Free online diff checker — works entirely in your browser."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Generator",
+      "description": "Generate placeholder Lorem Ipsum text for design and development.",
+      "metaTitle": "Lorem Ipsum Generator",
+      "metaDescription": "Generate Lorem Ipsum placeholder text by paragraphs, sentences, or words. Free online Lorem Ipsum generator."
+    },
+    "html-encoder": {
+      "name": "HTML Encoder / Decoder",
+      "description": "Encode special characters to HTML entities and decode them back.",
+      "metaTitle": "HTML Encoder / Decoder",
+      "metaDescription": "Encode special characters to HTML entities and decode HTML entities back to text. Free online HTML encoder decoder."
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON Converter",
+      "description": "Convert between YAML and JSON formats instantly.",
+      "metaTitle": "YAML to JSON Converter",
+      "metaDescription": "Convert YAML to JSON and JSON to YAML instantly in your browser. Free online YAML JSON converter."
+    },
+    "data-storage-converter": {
+      "name": "Data Storage Converter",
+      "description": "Convert between bytes, kilobytes, megabytes, gigabytes, terabytes, and more.",
+      "metaTitle": "Data Storage Converter",
+      "metaDescription": "Convert between bytes, KB, MB, GB, TB and binary units (KiB, MiB, GiB). Free online data storage converter."
+    },
+    "speed-converter": {
+      "name": "Speed Converter",
+      "description": "Convert between km/h, mph, m/s, knots, and other speed units.",
+      "metaTitle": "Speed Converter",
+      "metaDescription": "Convert between km/h, mph, m/s, knots, and feet per second. Free online speed converter."
+    },
+    "area-converter": {
+      "name": "Area Converter",
+      "description": "Convert between square meters, square feet, acres, hectares, and more.",
+      "metaTitle": "Area Converter",
+      "metaDescription": "Convert between square meters, square feet, acres, hectares, and more. Free online area converter."
+    },
+    "volume-converter": {
+      "name": "Volume Converter",
+      "description": "Convert between liters, gallons, fluid ounces, cubic meters, and more.",
+      "metaTitle": "Volume Converter",
+      "metaDescription": "Convert between liters, gallons, fluid ounces, cups, and cubic meters. Free online volume converter."
+    },
+    "slug-generator": {
+      "name": "Slug Generator",
+      "description": "Convert any text into a clean, URL-friendly slug.",
+      "metaTitle": "Slug Generator",
+      "metaDescription": "Convert any text into a clean URL-friendly slug. Free online slug generator for SEO-friendly permalinks."
+    },
+    "text-repeater": {
+      "name": "Text Repeater",
+      "description": "Repeat any text or character a specified number of times.",
+      "metaTitle": "Text Repeater",
+      "metaDescription": "Repeat any text, word, or character any number of times with a custom separator. Free online text repeater."
+    },
+    "discount-calculator": {
+      "name": "Discount Calculator",
+      "description": "Calculate sale prices, discount amounts, and savings instantly.",
+      "metaTitle": "Discount Calculator",
+      "metaDescription": "Calculate sale price and savings from any discount percentage. Free online discount and sale price calculator."
+    },
+    "loan-calculator": {
+      "name": "Loan Calculator",
+      "description": "Calculate monthly payments, total interest, and amortization for loans.",
+      "metaTitle": "Loan Calculator",
+      "metaDescription": "Calculate monthly loan payments, total interest, and full amortization schedule. Free online loan and mortgage calculator."
+    },
+    "roi-calculator": {
+      "name": "ROI Calculator",
+      "description": "Calculate return on investment and annualized ROI for any investment.",
+      "metaTitle": "ROI Calculator",
+      "metaDescription": "Calculate return on investment (ROI) and annualized ROI for any investment. Free online ROI calculator."
+    },
+    "tdee-calculator": {
+      "name": "TDEE Calculator",
+      "description": "Calculate your Total Daily Energy Expenditure and daily calorie needs.",
+      "metaTitle": "TDEE Calculator — Daily Calorie Calculator",
+      "metaDescription": "Calculate your Total Daily Energy Expenditure (TDEE) and daily calorie needs based on activity level. Free online TDEE calculator."
+    },
+    "ideal-weight": {
+      "name": "Ideal Weight Calculator",
+      "description": "Calculate your ideal body weight based on height using multiple formulas.",
+      "metaTitle": "Ideal Weight Calculator",
+      "metaDescription": "Calculate your ideal body weight using Robinson, Miller, Devine, and Hamwi formulas. Free online ideal weight calculator."
+    },
+    "body-fat": {
+      "name": "Body Fat Calculator",
+      "description": "Estimate body fat percentage using the U.S. Navy method.",
+      "metaTitle": "Body Fat Calculator",
+      "metaDescription": "Estimate your body fat percentage using the U.S. Navy method. Free online body fat calculator for men and women."
+    },
+    "date-difference": {
+      "name": "Date Difference Calculator",
+      "description": "Calculate the exact number of days, weeks, and months between two dates.",
+      "metaTitle": "Date Difference Calculator",
+      "metaDescription": "Calculate the exact number of days, weeks, and months between any two dates. Free online date difference calculator."
+    },
+    "time-duration": {
+      "name": "Time Duration Calculator",
+      "description": "Add or subtract hours, minutes, and seconds to calculate time durations.",
+      "metaTitle": "Time Duration Calculator",
+      "metaDescription": "Add or subtract time durations in hours, minutes, and seconds. Free online time duration calculator."
     }
   },
   "Common": {
@@ -419,6 +533,207 @@
     "convertButton": "Convert",
     "useNowButton": "Use now",
     "resultsLabel": "Results"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "convertButton": "Convert",
+    "loadSample": "Load sample",
+    "delimiterLabel": "Delimiter",
+    "comma": "Comma (,)",
+    "semicolon": "Semicolon (;)",
+    "tab": "Tab (\\t)",
+    "firstRowHeader": "First row is header",
+    "invalidCsv": "Invalid CSV format",
+    "invalidJson": "Input must be a JSON array of objects"
+  },
+  "DiffChecker": {
+    "originalLabel": "Original",
+    "modifiedLabel": "Modified",
+    "compareButton": "Compare",
+    "clearButton": "Clear",
+    "noChanges": "No differences found — texts are identical.",
+    "addedLabel": "Added",
+    "removedLabel": "Removed",
+    "unchangedLabel": "Unchanged",
+    "linesLabel": "lines"
+  },
+  "LoremIpsum": {
+    "typeLabel": "Generate",
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "words": "Words",
+    "countLabel": "Count:",
+    "generateButton": "Generate",
+    "startWithLoremIpsum": "Start with \"Lorem ipsum\"",
+    "outputLabel": "Generated text"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "Encode",
+    "decodeTab": "Decode",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "encodeButton": "Encode",
+    "decodeButton": "Decode",
+    "loadSample": "Load sample"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "convertButton": "Convert",
+    "loadSample": "Load sample",
+    "indentLabel": "Indent:",
+    "twoSpaces": "2 spaces",
+    "fourSpaces": "4 spaces",
+    "invalidYaml": "Invalid YAML",
+    "invalidJson": "Invalid JSON"
+  },
+  "SlugGenerator": {
+    "inputLabel": "Text",
+    "inputPlaceholder": "Enter text to convert to slug...",
+    "outputLabel": "Slug",
+    "separatorLabel": "Separator",
+    "hyphen": "Hyphen (-)",
+    "underscore": "Underscore (_)",
+    "lowercaseLabel": "Lowercase"
+  },
+  "TextRepeater": {
+    "inputLabel": "Text to repeat",
+    "inputPlaceholder": "Enter text here...",
+    "countLabel": "Repeat:",
+    "separatorLabel": "Separator",
+    "newline": "New line",
+    "space": "Space",
+    "none": "None",
+    "custom": "Custom",
+    "customSeparatorLabel": "Custom separator",
+    "outputLabel": "Result"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "Original price",
+    "discountLabel": "Discount (%)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "salePrice": "Sale price",
+    "youSave": "You save",
+    "discountAmount": "Discount amount"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "Loan amount",
+    "annualRateLabel": "Annual interest rate (%)",
+    "loanTermLabel": "Loan term",
+    "years": "Years",
+    "months": "Months",
+    "calculateButton": "Calculate",
+    "monthlyPayment": "Monthly payment",
+    "totalPayment": "Total payment",
+    "totalInterest": "Total interest",
+    "amortizationTitle": "Amortization schedule",
+    "month": "Month",
+    "principal": "Principal",
+    "interest": "Interest",
+    "balance": "Balance"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "Initial investment",
+    "finalValueLabel": "Final value",
+    "timePeriodLabel": "Time period (years)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "roi": "ROI",
+    "annualizedRoi": "Annualized ROI",
+    "totalProfit": "Total profit",
+    "totalReturn": "Total return"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "Age",
+    "genderLabel": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "weightLabel": "Weight",
+    "heightLabel": "Height",
+    "metricTab": "Metric",
+    "imperialTab": "Imperial",
+    "activityLabel": "Activity level",
+    "sedentary": "Sedentary (little or no exercise)",
+    "lightlyActive": "Lightly active (1–3 days/week)",
+    "moderatelyActive": "Moderately active (3–5 days/week)",
+    "veryActive": "Very active (6–7 days/week)",
+    "extraActive": "Extra active (hard exercise daily)",
+    "calculateButton": "Calculate",
+    "tdee": "TDEE",
+    "bmr": "BMR (Basal Metabolic Rate)",
+    "weightLoss": "Weight loss (−500 kcal/day)",
+    "maintenance": "Maintenance",
+    "weightGain": "Weight gain (+500 kcal/day)",
+    "caloriesPerDay": "kcal/day"
+  },
+  "IdealWeight": {
+    "heightLabel": "Height",
+    "genderLabel": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "metricTab": "Metric (cm)",
+    "imperialTab": "Imperial (ft/in)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "resultsTitle": "Ideal weight range",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "Healthy BMI range (18.5–24.9)"
+  },
+  "BodyFat": {
+    "metricTab": "Metric (cm)",
+    "imperialTab": "Imperial (in)",
+    "genderLabel": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "heightLabel": "Height",
+    "neckLabel": "Neck circumference",
+    "waistLabel": "Waist circumference",
+    "hipLabel": "Hip circumference",
+    "hipNote": "(women only)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "bodyFatPercent": "Body Fat",
+    "category": "Category",
+    "methodNote": "Calculated using the U.S. Navy method",
+    "essentialFat": "Essential fat",
+    "athletes": "Athletes",
+    "fitness": "Fitness",
+    "acceptable": "Acceptable",
+    "obese": "Obese"
+  },
+  "DateDifference": {
+    "startDateLabel": "Start date",
+    "endDateLabel": "End date",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "useToday": "Today",
+    "totalDays": "Total days",
+    "workingDays": "Working days (Mon–Fri)",
+    "weeks": "Weeks",
+    "months": "Months",
+    "years": "Years"
+  },
+  "TimeDuration": {
+    "addTab": "Add time",
+    "subtractTab": "Subtract time",
+    "baseTimeLabel": "Start time (HH:MM:SS)",
+    "durationLabel": "Duration",
+    "hoursLabel": "Hours",
+    "minutesLabel": "Minutes",
+    "secondsLabel": "Seconds",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "resultLabel": "Result",
+    "totalSeconds": "Total seconds"
   },
   "ColorConverter": {
     "invalidColor": "Invalid color value",

@@ -207,6 +207,120 @@
       "description": "Unix 타임스탬프와 사람이 읽을 수 있는 날짜 간 상호 변환.",
       "metaTitle": "Unix Timestamp Converter",
       "metaDescription": "Unix 타임스탬프를 사람이 읽을 수 있는 날짜로 변환하고 그 반대도 가능. 무료 온라인 Unix 타임스탬프 변환 도구."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON 변환기",
+      "description": "CSV 데이터를 JSON으로 변환하고 JSON 배열을 CSV 형식으로 변환.",
+      "metaTitle": "CSV to JSON 변환기",
+      "metaDescription": "CSV를 JSON으로, JSON을 CSV로 브라우저에서 즉시 변환. 무료 온라인 CSV JSON 변환기 — 업로드 불필요."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "두 텍스트를 비교하고 줄 단위로 차이점을 하이라이트.",
+      "metaTitle": "Diff Checker — 두 텍스트 비교",
+      "metaDescription": "두 텍스트를 비교하고 추가, 삭제, 변경 사항을 하이라이트. 무료 온라인 Diff Checker — 브라우저에서 완전히 동작."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum 생성기",
+      "description": "디자인 및 개발용 Lorem Ipsum 플레이스홀더 텍스트를 생성.",
+      "metaTitle": "Lorem Ipsum 생성기",
+      "metaDescription": "단락, 문장, 단어 단위로 Lorem Ipsum 플레이스홀더 텍스트를 생성. 무료 온라인 Lorem Ipsum 생성기."
+    },
+    "html-encoder": {
+      "name": "HTML 인코더 / 디코더",
+      "description": "특수 문자를 HTML 엔티티로 인코딩하고 다시 디코딩.",
+      "metaTitle": "HTML 인코더 / 디코더",
+      "metaDescription": "특수 문자를 HTML 엔티티로 인코딩하고 HTML 엔티티를 텍스트로 디코딩. 무료 온라인 HTML 인코더 디코더."
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON 변환기",
+      "description": "YAML과 JSON 형식을 즉시 상호 변환.",
+      "metaTitle": "YAML to JSON 변환기",
+      "metaDescription": "YAML을 JSON으로, JSON을 YAML로 브라우저에서 즉시 변환. 무료 온라인 YAML JSON 변환기."
+    },
+    "data-storage-converter": {
+      "name": "데이터 저장 용량 변환",
+      "description": "바이트, 킬로바이트, 메가바이트, 기가바이트, 테라바이트 등을 변환.",
+      "metaTitle": "데이터 저장 용량 변환",
+      "metaDescription": "바이트, KB, MB, GB, TB 및 바이너리 단위(KiB, MiB, GiB) 변환. 무료 온라인 데이터 저장 용량 변환 도구."
+    },
+    "speed-converter": {
+      "name": "속도 변환",
+      "description": "km/h, mph, m/s, 노트 등 속도 단위 변환.",
+      "metaTitle": "속도 변환",
+      "metaDescription": "km/h, mph, m/s, 노트, 초속 피트 변환. 무료 온라인 속도 변환 도구."
+    },
+    "area-converter": {
+      "name": "면적 변환",
+      "description": "제곱미터, 제곱피트, 에이커, 헥타르 등을 변환.",
+      "metaTitle": "면적 변환",
+      "metaDescription": "제곱미터, 제곱피트, 에이커, 헥타르 등을 변환. 무료 온라인 면적 변환 도구."
+    },
+    "volume-converter": {
+      "name": "부피 변환",
+      "description": "리터, 갤런, 액량 온스, 세제곱미터 등을 변환.",
+      "metaTitle": "부피 변환",
+      "metaDescription": "리터, 갤런, 액량 온스, 컵, 세제곱미터 변환. 무료 온라인 부피 변환 도구."
+    },
+    "slug-generator": {
+      "name": "슬러그 생성기",
+      "description": "텍스트를 URL 친화적인 슬러그로 변환.",
+      "metaTitle": "슬러그 생성기",
+      "metaDescription": "텍스트를 URL 친화적인 슬러그로 변환. SEO 친화적인 퍼머링크를 위한 무료 온라인 슬러그 생성기."
+    },
+    "text-repeater": {
+      "name": "텍스트 반복기",
+      "description": "텍스트나 문자를 지정한 횟수만큼 반복.",
+      "metaTitle": "텍스트 반복기",
+      "metaDescription": "텍스트, 단어, 문자를 사용자 지정 구분자로 원하는 횟수만큼 반복. 무료 온라인 텍스트 반복기."
+    },
+    "discount-calculator": {
+      "name": "할인 계산기",
+      "description": "세일 가격, 할인 금액, 절약액을 즉시 계산.",
+      "metaTitle": "할인 계산기",
+      "metaDescription": "할인율로부터 세일 가격과 절약액을 계산. 무료 온라인 할인 및 세일 가격 계산기."
+    },
+    "loan-calculator": {
+      "name": "대출 계산기",
+      "description": "월 상환액, 총 이자, 대출 상환 스케줄을 계산.",
+      "metaTitle": "대출 계산기",
+      "metaDescription": "월 대출 상환액, 총 이자, 전체 상환 스케줄을 계산. 무료 온라인 대출 및 모기지 계산기."
+    },
+    "roi-calculator": {
+      "name": "ROI 계산기",
+      "description": "투자의 ROI와 연간 환산 ROI를 계산.",
+      "metaTitle": "ROI 계산기",
+      "metaDescription": "투자의 투자 수익률(ROI)과 연간 환산 ROI를 계산. 무료 온라인 ROI 계산기."
+    },
+    "tdee-calculator": {
+      "name": "TDEE 계산기",
+      "description": "하루 총 에너지 소비량(TDEE)과 하루 칼로리 필요량을 계산.",
+      "metaTitle": "TDEE 계산기 — 일일 칼로리 계산기",
+      "metaDescription": "활동 수준에 따른 하루 총 에너지 소비량(TDEE)과 칼로리 필요량을 계산. 무료 온라인 TDEE 계산기."
+    },
+    "ideal-weight": {
+      "name": "이상 체중 계산기",
+      "description": "여러 계산식을 사용하여 키에 따른 이상 체중을 계산.",
+      "metaTitle": "이상 체중 계산기",
+      "metaDescription": "Robinson, Miller, Devine, Hamwi 공식을 사용하여 이상 체중을 계산. 무료 온라인 이상 체중 계산기."
+    },
+    "body-fat": {
+      "name": "체지방률 계산기",
+      "description": "U.S. Navy 방법을 사용하여 체지방률을 추정.",
+      "metaTitle": "체지방률 계산기",
+      "metaDescription": "U.S. Navy 방법을 사용하여 체지방률을 추정. 남녀 모두 사용 가능한 무료 온라인 체지방률 계산기."
+    },
+    "date-difference": {
+      "name": "날짜 차이 계산기",
+      "description": "두 날짜 사이의 정확한 일수, 주수, 월수를 계산.",
+      "metaTitle": "날짜 차이 계산기",
+      "metaDescription": "임의의 두 날짜 사이의 정확한 일수, 주수, 월수를 계산. 무료 온라인 날짜 차이 계산기."
+    },
+    "time-duration": {
+      "name": "시간 계산기",
+      "description": "시, 분, 초를 더하거나 빼서 소요 시간을 계산.",
+      "metaTitle": "시간 계산기",
+      "metaDescription": "시, 분, 초 단위의 시간을 더하거나 빼기. 무료 온라인 시간 계산기."
     }
   },
   "Common": {
@@ -419,6 +533,207 @@
     "convertButton": "변환",
     "useNowButton": "현재 시간 사용",
     "resultsLabel": "결과"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "convertButton": "변환",
+    "loadSample": "샘플 불러오기",
+    "delimiterLabel": "구분자",
+    "comma": "쉼표 (,)",
+    "semicolon": "세미콜론 (;)",
+    "tab": "탭 (\\t)",
+    "firstRowHeader": "첫 번째 행을 헤더로 사용",
+    "invalidCsv": "잘못된 CSV 형식",
+    "invalidJson": "입력은 JSON 객체 배열이어야 합니다"
+  },
+  "DiffChecker": {
+    "originalLabel": "원본",
+    "modifiedLabel": "수정본",
+    "compareButton": "비교",
+    "clearButton": "지우기",
+    "noChanges": "차이 없음 — 두 텍스트가 동일합니다.",
+    "addedLabel": "추가됨",
+    "removedLabel": "삭제됨",
+    "unchangedLabel": "변경 없음",
+    "linesLabel": "줄"
+  },
+  "LoremIpsum": {
+    "typeLabel": "생성 단위",
+    "paragraphs": "단락",
+    "sentences": "문장",
+    "words": "단어",
+    "countLabel": "개수:",
+    "generateButton": "생성",
+    "startWithLoremIpsum": "\"Lorem ipsum\"으로 시작",
+    "outputLabel": "생성된 텍스트"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "인코딩",
+    "decodeTab": "디코딩",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "encodeButton": "인코딩",
+    "decodeButton": "디코딩",
+    "loadSample": "샘플 불러오기"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "convertButton": "변환",
+    "loadSample": "샘플 불러오기",
+    "indentLabel": "들여쓰기:",
+    "twoSpaces": "2칸",
+    "fourSpaces": "4칸",
+    "invalidYaml": "잘못된 YAML",
+    "invalidJson": "잘못된 JSON"
+  },
+  "SlugGenerator": {
+    "inputLabel": "텍스트",
+    "inputPlaceholder": "슬러그로 변환할 텍스트를 입력...",
+    "outputLabel": "슬러그",
+    "separatorLabel": "구분자",
+    "hyphen": "하이픈 (-)",
+    "underscore": "언더스코어 (_)",
+    "lowercaseLabel": "소문자"
+  },
+  "TextRepeater": {
+    "inputLabel": "반복할 텍스트",
+    "inputPlaceholder": "텍스트를 입력하세요...",
+    "countLabel": "반복 횟수:",
+    "separatorLabel": "구분자",
+    "newline": "줄바꿈",
+    "space": "공백",
+    "none": "없음",
+    "custom": "직접 입력",
+    "customSeparatorLabel": "사용자 지정 구분자",
+    "outputLabel": "결과"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "원래 가격",
+    "discountLabel": "할인율 (%)",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "salePrice": "세일 가격",
+    "youSave": "절약 금액",
+    "discountAmount": "할인 금액"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "대출 금액",
+    "annualRateLabel": "연이율 (%)",
+    "loanTermLabel": "대출 기간",
+    "years": "년",
+    "months": "개월",
+    "calculateButton": "계산",
+    "monthlyPayment": "월 상환액",
+    "totalPayment": "총 상환액",
+    "totalInterest": "총 이자",
+    "amortizationTitle": "상환 스케줄",
+    "month": "월",
+    "principal": "원금",
+    "interest": "이자",
+    "balance": "잔액"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "초기 투자액",
+    "finalValueLabel": "최종 가치",
+    "timePeriodLabel": "투자 기간 (년)",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "roi": "ROI",
+    "annualizedRoi": "연간 환산 ROI",
+    "totalProfit": "총 이익",
+    "totalReturn": "총 수익"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "나이",
+    "genderLabel": "성별",
+    "male": "남성",
+    "female": "여성",
+    "weightLabel": "체중",
+    "heightLabel": "키",
+    "metricTab": "미터법",
+    "imperialTab": "야드파운드법",
+    "activityLabel": "활동 수준",
+    "sedentary": "좌식 생활 (거의 운동 안 함)",
+    "lightlyActive": "가벼운 활동 (주 1~3일)",
+    "moderatelyActive": "보통 활동 (주 3~5일)",
+    "veryActive": "활발한 활동 (주 6~7일)",
+    "extraActive": "매우 활발 (매일 격렬한 운동)",
+    "calculateButton": "계산",
+    "tdee": "TDEE",
+    "bmr": "BMR (기초 대사량)",
+    "weightLoss": "체중 감량 (-500 kcal/일)",
+    "maintenance": "유지",
+    "weightGain": "체중 증가 (+500 kcal/일)",
+    "caloriesPerDay": "kcal/일"
+  },
+  "IdealWeight": {
+    "heightLabel": "키",
+    "genderLabel": "성별",
+    "male": "남성",
+    "female": "여성",
+    "metricTab": "미터법 (cm)",
+    "imperialTab": "야드파운드법 (ft/in)",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "resultsTitle": "이상 체중 범위",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "건강한 BMI 범위 (18.5–24.9)"
+  },
+  "BodyFat": {
+    "metricTab": "미터법 (cm)",
+    "imperialTab": "야드파운드법 (in)",
+    "genderLabel": "성별",
+    "male": "남성",
+    "female": "여성",
+    "heightLabel": "키",
+    "neckLabel": "목 둘레",
+    "waistLabel": "허리 둘레",
+    "hipLabel": "엉덩이 둘레",
+    "hipNote": "(여성 전용)",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "bodyFatPercent": "체지방률",
+    "category": "분류",
+    "methodNote": "U.S. Navy 방법으로 계산됨",
+    "essentialFat": "필수 지방",
+    "athletes": "운동선수",
+    "fitness": "피트니스",
+    "acceptable": "허용 범위",
+    "obese": "비만"
+  },
+  "DateDifference": {
+    "startDateLabel": "시작 날짜",
+    "endDateLabel": "종료 날짜",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "useToday": "오늘",
+    "totalDays": "총 일수",
+    "workingDays": "영업일 (월~금)",
+    "weeks": "주",
+    "months": "개월",
+    "years": "년"
+  },
+  "TimeDuration": {
+    "addTab": "시간 더하기",
+    "subtractTab": "시간 빼기",
+    "baseTimeLabel": "시작 시간 (HH:MM:SS)",
+    "durationLabel": "시간",
+    "hoursLabel": "시간",
+    "minutesLabel": "분",
+    "secondsLabel": "초",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "resultLabel": "결과",
+    "totalSeconds": "총 초"
   },
   "ColorConverter": {
     "invalidColor": "유효하지 않은 색상 값입니다",

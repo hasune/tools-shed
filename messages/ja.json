@@ -207,6 +207,120 @@
       "description": "Unixタイムスタンプと人間が読める日付形式を相互変換。",
       "metaTitle": "Unix Timestamp Converter",
       "metaDescription": "Unixタイムスタンプを人間が読める日付に変換し、またその逆も可能。無料オンラインUnixタイムスタンプ変換ツール。"
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON コンバーター",
+      "description": "CSVデータをJSONに変換し、JSON配列をCSV形式に変換。",
+      "metaTitle": "CSV to JSON コンバーター",
+      "metaDescription": "CSVをJSONに、JSONをCSVにブラウザで即時変換。無料オンラインCSV JSONコンバーター — アップロード不要。"
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "2つのテキストを比較し、行ごとの差分をハイライト表示。",
+      "metaTitle": "Diff Checker — 2つのテキストを比較",
+      "metaDescription": "2つのテキストを比較し、追加・削除・変更箇所をハイライト。無料オンラインDiff Checker — すべてブラウザで動作。"
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum ジェネレーター",
+      "description": "デザインや開発用のLorem Ipsumプレースホルダーテキストを生成。",
+      "metaTitle": "Lorem Ipsum ジェネレーター",
+      "metaDescription": "段落・文・単語単位でLorem Ipsumプレースホルダーテキストを生成。無料オンラインLorem Ipsumジェネレーター。"
+    },
+    "html-encoder": {
+      "name": "HTML エンコーダー / デコーダー",
+      "description": "特殊文字をHTMLエンティティにエンコードし、逆変換も可能。",
+      "metaTitle": "HTML エンコーダー / デコーダー",
+      "metaDescription": "特殊文字をHTMLエンティティにエンコードし、HTMLエンティティをテキストにデコード。無料オンラインHTMLエンコーダーデコーダー。"
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON コンバーター",
+      "description": "YAMLとJSON形式を即座に相互変換。",
+      "metaTitle": "YAML to JSON コンバーター",
+      "metaDescription": "YAMLをJSONに、JSONをYAMLにブラウザで即時変換。無料オンラインYAML JSONコンバーター。"
+    },
+    "data-storage-converter": {
+      "name": "データストレージ変換",
+      "description": "バイト、キロバイト、メガバイト、ギガバイト、テラバイトなどを変換。",
+      "metaTitle": "データストレージ変換",
+      "metaDescription": "バイト、KB、MB、GB、TBおよびバイナリ単位（KiB、MiB、GiB）を変換。無料オンラインデータストレージ変換ツール。"
+    },
+    "speed-converter": {
+      "name": "速度変換",
+      "description": "km/h、mph、m/s、ノット、その他の速度単位を変換。",
+      "metaTitle": "速度変換",
+      "metaDescription": "km/h、mph、m/s、ノット、フィート毎秒を変換。無料オンライン速度変換ツール。"
+    },
+    "area-converter": {
+      "name": "面積変換",
+      "description": "平方メートル、平方フィート、エーカー、ヘクタールなどを変換。",
+      "metaTitle": "面積変換",
+      "metaDescription": "平方メートル、平方フィート、エーカー、ヘクタールなどを変換。無料オンライン面積変換ツール。"
+    },
+    "volume-converter": {
+      "name": "体積変換",
+      "description": "リットル、ガロン、液量オンス、立方メートルなどを変換。",
+      "metaTitle": "体積変換",
+      "metaDescription": "リットル、ガロン、液量オンス、カップ、立方メートルを変換。無料オンライン体積変換ツール。"
+    },
+    "slug-generator": {
+      "name": "スラッグジェネレーター",
+      "description": "任意のテキストをURL対応のクリーンなスラッグに変換。",
+      "metaTitle": "スラッグジェネレーター",
+      "metaDescription": "任意のテキストをURLフレンドリーなスラッグに変換。SEOフレンドリーなパーマリンク向け無料スラッグジェネレーター。"
+    },
+    "text-repeater": {
+      "name": "テキストリピーター",
+      "description": "任意のテキストや文字を指定回数繰り返す。",
+      "metaTitle": "テキストリピーター",
+      "metaDescription": "任意のテキスト・単語・文字をカスタム区切り文字付きで何度でも繰り返す。無料オンラインテキストリピーター。"
+    },
+    "discount-calculator": {
+      "name": "割引計算機",
+      "description": "セール価格・割引額・節約額を即座に計算。",
+      "metaTitle": "割引計算機",
+      "metaDescription": "任意の割引率からセール価格と節約額を計算。無料オンライン割引・セール価格計算ツール。"
+    },
+    "loan-calculator": {
+      "name": "ローン計算機",
+      "description": "月々の支払額・総利息・ローンの返済スケジュールを計算。",
+      "metaTitle": "ローン計算機",
+      "metaDescription": "月々のローン支払額・総利息・返済スケジュール全体を計算。無料オンラインローン・住宅ローン計算ツール。"
+    },
+    "roi-calculator": {
+      "name": "ROI 計算機",
+      "description": "任意の投資のROIと年率換算ROIを計算。",
+      "metaTitle": "ROI 計算機",
+      "metaDescription": "任意の投資の投資収益率（ROI）と年率換算ROIを計算。無料オンラインROI計算ツール。"
+    },
+    "tdee-calculator": {
+      "name": "TDEE 計算機",
+      "description": "1日の総消費カロリー（TDEE）と必要カロリーを計算。",
+      "metaTitle": "TDEE 計算機 — 1日のカロリー計算",
+      "metaDescription": "活動レベルに基づいて1日の総消費カロリー（TDEE）と必要カロリーを計算。無料オンラインTDEE計算ツール。"
+    },
+    "ideal-weight": {
+      "name": "理想体重計算機",
+      "description": "複数の計算式を用いて身長に基づく理想体重を計算。",
+      "metaTitle": "理想体重計算機",
+      "metaDescription": "Robinson、Miller、Devine、Hamwi式を使って理想体重を計算。無料オンライン理想体重計算ツール。"
+    },
+    "body-fat": {
+      "name": "体脂肪率計算機",
+      "description": "U.S. Navy法を用いて体脂肪率を推定。",
+      "metaTitle": "体脂肪率計算機",
+      "metaDescription": "U.S. Navy法を用いて体脂肪率を推定。男女対応の無料オンライン体脂肪率計算ツール。"
+    },
+    "date-difference": {
+      "name": "日付差計算機",
+      "description": "2つの日付間の正確な日数・週数・月数を計算。",
+      "metaTitle": "日付差計算機",
+      "metaDescription": "任意の2つの日付間の正確な日数・週数・月数を計算。無料オンライン日付差計算ツール。"
+    },
+    "time-duration": {
+      "name": "時間計算機",
+      "description": "時間・分・秒を加算または減算して所要時間を計算。",
+      "metaTitle": "時間計算機",
+      "metaDescription": "時間・分・秒の所要時間を加算または減算。無料オンライン時間計算ツール。"
     }
   },
   "Common": {
@@ -419,6 +533,207 @@
     "convertButton": "変換",
     "useNowButton": "現在時刻を使用",
     "resultsLabel": "結果"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "convertButton": "変換",
+    "loadSample": "サンプルを読み込む",
+    "delimiterLabel": "区切り文字",
+    "comma": "カンマ (,)",
+    "semicolon": "セミコロン (;)",
+    "tab": "タブ (\\t)",
+    "firstRowHeader": "1行目をヘッダーとして使用",
+    "invalidCsv": "無効なCSV形式",
+    "invalidJson": "入力はJSONオブジェクトの配列である必要があります"
+  },
+  "DiffChecker": {
+    "originalLabel": "変更前",
+    "modifiedLabel": "変更後",
+    "compareButton": "比較",
+    "clearButton": "クリア",
+    "noChanges": "差分なし — テキストは同一です。",
+    "addedLabel": "追加",
+    "removedLabel": "削除",
+    "unchangedLabel": "変更なし",
+    "linesLabel": "行"
+  },
+  "LoremIpsum": {
+    "typeLabel": "生成単位",
+    "paragraphs": "段落",
+    "sentences": "文",
+    "words": "単語",
+    "countLabel": "件数：",
+    "generateButton": "生成",
+    "startWithLoremIpsum": "\"Lorem ipsum\" で始める",
+    "outputLabel": "生成されたテキスト"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "エンコード",
+    "decodeTab": "デコード",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "encodeButton": "エンコード",
+    "decodeButton": "デコード",
+    "loadSample": "サンプルを読み込む"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "convertButton": "変換",
+    "loadSample": "サンプルを読み込む",
+    "indentLabel": "インデント：",
+    "twoSpaces": "2スペース",
+    "fourSpaces": "4スペース",
+    "invalidYaml": "無効なYAML",
+    "invalidJson": "無効なJSON"
+  },
+  "SlugGenerator": {
+    "inputLabel": "テキスト",
+    "inputPlaceholder": "スラッグに変換するテキストを入力...",
+    "outputLabel": "スラッグ",
+    "separatorLabel": "区切り文字",
+    "hyphen": "ハイフン (-)",
+    "underscore": "アンダースコア (_)",
+    "lowercaseLabel": "小文字"
+  },
+  "TextRepeater": {
+    "inputLabel": "繰り返すテキスト",
+    "inputPlaceholder": "テキストを入力...",
+    "countLabel": "繰り返し回数：",
+    "separatorLabel": "区切り文字",
+    "newline": "改行",
+    "space": "スペース",
+    "none": "なし",
+    "custom": "カスタム",
+    "customSeparatorLabel": "カスタム区切り文字",
+    "outputLabel": "結果"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "元の価格",
+    "discountLabel": "割引率 (%)",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "salePrice": "セール価格",
+    "youSave": "節約額",
+    "discountAmount": "割引額"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "ローン金額",
+    "annualRateLabel": "年利率 (%)",
+    "loanTermLabel": "ローン期間",
+    "years": "年",
+    "months": "ヶ月",
+    "calculateButton": "計算",
+    "monthlyPayment": "月々の支払額",
+    "totalPayment": "総支払額",
+    "totalInterest": "総利息",
+    "amortizationTitle": "返済スケジュール",
+    "month": "月",
+    "principal": "元金",
+    "interest": "利息",
+    "balance": "残高"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "初期投資額",
+    "finalValueLabel": "最終価値",
+    "timePeriodLabel": "投資期間（年）",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "roi": "ROI",
+    "annualizedRoi": "年率換算ROI",
+    "totalProfit": "総利益",
+    "totalReturn": "総収益"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "年齢",
+    "genderLabel": "性別",
+    "male": "男性",
+    "female": "女性",
+    "weightLabel": "体重",
+    "heightLabel": "身長",
+    "metricTab": "メートル法",
+    "imperialTab": "ヤード法",
+    "activityLabel": "活動レベル",
+    "sedentary": "座り仕事中心（運動なし）",
+    "lightlyActive": "軽い活動（週1〜3日）",
+    "moderatelyActive": "中程度の活動（週3〜5日）",
+    "veryActive": "活発（週6〜7日）",
+    "extraActive": "非常に活発（毎日激しい運動）",
+    "calculateButton": "計算",
+    "tdee": "TDEE",
+    "bmr": "BMR（基礎代謝量）",
+    "weightLoss": "減量（-500 kcal/日）",
+    "maintenance": "維持",
+    "weightGain": "増量（+500 kcal/日）",
+    "caloriesPerDay": "kcal/日"
+  },
+  "IdealWeight": {
+    "heightLabel": "身長",
+    "genderLabel": "性別",
+    "male": "男性",
+    "female": "女性",
+    "metricTab": "メートル法 (cm)",
+    "imperialTab": "ヤード法 (ft/in)",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "resultsTitle": "理想体重の範囲",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "健康なBMI範囲 (18.5–24.9)"
+  },
+  "BodyFat": {
+    "metricTab": "メートル法 (cm)",
+    "imperialTab": "ヤード法 (in)",
+    "genderLabel": "性別",
+    "male": "男性",
+    "female": "女性",
+    "heightLabel": "身長",
+    "neckLabel": "首周り",
+    "waistLabel": "腹囲",
+    "hipLabel": "腰周り",
+    "hipNote": "（女性のみ）",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "bodyFatPercent": "体脂肪率",
+    "category": "カテゴリー",
+    "methodNote": "U.S. Navy法で計算",
+    "essentialFat": "必須脂肪",
+    "athletes": "アスリート",
+    "fitness": "フィットネス",
+    "acceptable": "許容範囲",
+    "obese": "肥満"
+  },
+  "DateDifference": {
+    "startDateLabel": "開始日",
+    "endDateLabel": "終了日",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "useToday": "今日",
+    "totalDays": "総日数",
+    "workingDays": "営業日（月〜金）",
+    "weeks": "週",
+    "months": "ヶ月",
+    "years": "年"
+  },
+  "TimeDuration": {
+    "addTab": "時間を加算",
+    "subtractTab": "時間を減算",
+    "baseTimeLabel": "開始時刻 (HH:MM:SS)",
+    "durationLabel": "時間",
+    "hoursLabel": "時間",
+    "minutesLabel": "分",
+    "secondsLabel": "秒",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "resultLabel": "結果",
+    "totalSeconds": "総秒数"
   },
   "ColorConverter": {
     "invalidColor": "無効なカラー値です",

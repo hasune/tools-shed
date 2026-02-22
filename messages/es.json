@@ -207,6 +207,120 @@
       "description": "Convierte entre marcas de tiempo Unix y fechas legibles por humanos.",
       "metaTitle": "Conversor de marca de tiempo Unix",
       "metaDescription": "Convierte marcas de tiempo Unix a fechas legibles por humanos y viceversa. Conversor de marca de tiempo Unix gratuito en línea."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON Converter",
+      "description": "Convierte datos CSV a JSON y arrays JSON de vuelta a formato CSV.",
+      "metaTitle": "CSV to JSON Converter",
+      "metaDescription": "Convierte CSV a JSON y JSON a CSV al instante en tu navegador. Conversor CSV JSON gratuito en línea — sin necesidad de subir archivos."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "Compara dos textos y resalta las diferencias línea por línea.",
+      "metaTitle": "Diff Checker — Compare Two Texts",
+      "metaDescription": "Compara dos textos y resalta adiciones, eliminaciones y cambios. Diff checker gratuito en línea — funciona completamente en tu navegador."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Generator",
+      "description": "Genera texto Lorem Ipsum de relleno para diseño y desarrollo.",
+      "metaTitle": "Lorem Ipsum Generator",
+      "metaDescription": "Genera texto Lorem Ipsum de relleno por párrafos, oraciones o palabras. Generador de Lorem Ipsum gratuito en línea."
+    },
+    "html-encoder": {
+      "name": "HTML Encoder / Decoder",
+      "description": "Codifica caracteres especiales a entidades HTML y las decodifica de vuelta.",
+      "metaTitle": "HTML Encoder / Decoder",
+      "metaDescription": "Codifica caracteres especiales a entidades HTML y decodifica entidades HTML de vuelta a texto. Codificador y decodificador HTML gratuito en línea."
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON Converter",
+      "description": "Convierte entre formatos YAML y JSON al instante.",
+      "metaTitle": "YAML to JSON Converter",
+      "metaDescription": "Convierte YAML a JSON y JSON a YAML al instante en tu navegador. Conversor YAML JSON gratuito en línea."
+    },
+    "data-storage-converter": {
+      "name": "Conversor de almacenamiento",
+      "description": "Convierte entre bytes, kilobytes, megabytes, gigabytes, terabytes y más.",
+      "metaTitle": "Data Storage Converter",
+      "metaDescription": "Convierte entre bytes, KB, MB, GB, TB y unidades binarias (KiB, MiB, GiB). Conversor de almacenamiento gratuito en línea."
+    },
+    "speed-converter": {
+      "name": "Conversor de velocidad",
+      "description": "Convierte entre km/h, mph, m/s, nudos y otras unidades de velocidad.",
+      "metaTitle": "Speed Converter",
+      "metaDescription": "Convierte entre km/h, mph, m/s, nudos y pies por segundo. Conversor de velocidad gratuito en línea."
+    },
+    "area-converter": {
+      "name": "Conversor de área",
+      "description": "Convierte entre metros cuadrados, pies cuadrados, acres, hectáreas y más.",
+      "metaTitle": "Area Converter",
+      "metaDescription": "Convierte entre metros cuadrados, pies cuadrados, acres, hectáreas y más. Conversor de área gratuito en línea."
+    },
+    "volume-converter": {
+      "name": "Conversor de volumen",
+      "description": "Convierte entre litros, galones, onzas líquidas, metros cúbicos y más.",
+      "metaTitle": "Volume Converter",
+      "metaDescription": "Convierte entre litros, galones, onzas líquidas, tazas y metros cúbicos. Conversor de volumen gratuito en línea."
+    },
+    "slug-generator": {
+      "name": "Slug Generator",
+      "description": "Convierte cualquier texto en un slug limpio y compatible con URL.",
+      "metaTitle": "Slug Generator",
+      "metaDescription": "Convierte cualquier texto en un slug limpio y compatible con URL. Generador de slugs gratuito en línea para permalinks SEO-friendly."
+    },
+    "text-repeater": {
+      "name": "Repetidor de texto",
+      "description": "Repite cualquier texto o carácter un número determinado de veces.",
+      "metaTitle": "Text Repeater",
+      "metaDescription": "Repite cualquier texto, palabra o carácter todas las veces que quieras con un separador personalizado. Repetidor de texto gratuito en línea."
+    },
+    "discount-calculator": {
+      "name": "Calculadora de descuentos",
+      "description": "Calcula precios de oferta, importes de descuento y ahorros al instante.",
+      "metaTitle": "Discount Calculator",
+      "metaDescription": "Calcula el precio de oferta y el ahorro a partir de cualquier porcentaje de descuento. Calculadora de descuentos gratuita en línea."
+    },
+    "loan-calculator": {
+      "name": "Calculadora de préstamos",
+      "description": "Calcula cuotas mensuales, intereses totales y amortización de préstamos.",
+      "metaTitle": "Loan Calculator",
+      "metaDescription": "Calcula cuotas mensuales, intereses totales y tabla de amortización completa. Calculadora de préstamos e hipotecas gratuita en línea."
+    },
+    "roi-calculator": {
+      "name": "ROI Calculator",
+      "description": "Calcula el retorno de inversión y ROI anualizado para cualquier inversión.",
+      "metaTitle": "ROI Calculator",
+      "metaDescription": "Calcula el retorno de inversión (ROI) y el ROI anualizado para cualquier inversión. Calculadora de ROI gratuita en línea."
+    },
+    "tdee-calculator": {
+      "name": "TDEE Calculator",
+      "description": "Calcula tu Gasto Energético Total Diario y tus necesidades calóricas diarias.",
+      "metaTitle": "TDEE Calculator — Daily Calorie Calculator",
+      "metaDescription": "Calcula tu Gasto Energético Total Diario (TDEE) y tus necesidades calóricas según el nivel de actividad. Calculadora TDEE gratuita en línea."
+    },
+    "ideal-weight": {
+      "name": "Calculadora de peso ideal",
+      "description": "Calcula tu peso corporal ideal según tu altura usando múltiples fórmulas.",
+      "metaTitle": "Ideal Weight Calculator",
+      "metaDescription": "Calcula tu peso corporal ideal usando las fórmulas Robinson, Miller, Devine y Hamwi. Calculadora de peso ideal gratuita en línea."
+    },
+    "body-fat": {
+      "name": "Calculadora de grasa corporal",
+      "description": "Estima el porcentaje de grasa corporal usando el método de la Marina de EE. UU.",
+      "metaTitle": "Body Fat Calculator",
+      "metaDescription": "Estima tu porcentaje de grasa corporal usando el método U.S. Navy. Calculadora de grasa corporal gratuita en línea para hombres y mujeres."
+    },
+    "date-difference": {
+      "name": "Calculadora de diferencia de fechas",
+      "description": "Calcula el número exacto de días, semanas y meses entre dos fechas.",
+      "metaTitle": "Date Difference Calculator",
+      "metaDescription": "Calcula el número exacto de días, semanas y meses entre dos fechas cualesquiera. Calculadora de diferencia de fechas gratuita en línea."
+    },
+    "time-duration": {
+      "name": "Calculadora de duración de tiempo",
+      "description": "Suma o resta horas, minutos y segundos para calcular duraciones de tiempo.",
+      "metaTitle": "Time Duration Calculator",
+      "metaDescription": "Suma o resta duraciones de tiempo en horas, minutos y segundos. Calculadora de duración de tiempo gratuita en línea."
     }
   },
   "Common": {
@@ -419,6 +533,207 @@
     "convertButton": "Convertir",
     "useNowButton": "Usar ahora",
     "resultsLabel": "Resultados"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "Entrada",
+    "outputLabel": "Salida",
+    "convertButton": "Convertir",
+    "loadSample": "Cargar ejemplo",
+    "delimiterLabel": "Delimitador",
+    "comma": "Coma (,)",
+    "semicolon": "Punto y coma (;)",
+    "tab": "Tabulador (\\t)",
+    "firstRowHeader": "La primera fila es el encabezado",
+    "invalidCsv": "Formato CSV no válido",
+    "invalidJson": "La entrada debe ser un array JSON de objetos"
+  },
+  "DiffChecker": {
+    "originalLabel": "Original",
+    "modifiedLabel": "Modificado",
+    "compareButton": "Comparar",
+    "clearButton": "Limpiar",
+    "noChanges": "No se encontraron diferencias — los textos son idénticos.",
+    "addedLabel": "Añadido",
+    "removedLabel": "Eliminado",
+    "unchangedLabel": "Sin cambios",
+    "linesLabel": "líneas"
+  },
+  "LoremIpsum": {
+    "typeLabel": "Generar",
+    "paragraphs": "Párrafos",
+    "sentences": "Oraciones",
+    "words": "Palabras",
+    "countLabel": "Cantidad:",
+    "generateButton": "Generar",
+    "startWithLoremIpsum": "Empezar con \"Lorem ipsum\"",
+    "outputLabel": "Texto generado"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "Codificar",
+    "decodeTab": "Decodificar",
+    "inputLabel": "Entrada",
+    "outputLabel": "Salida",
+    "encodeButton": "Codificar",
+    "decodeButton": "Decodificar",
+    "loadSample": "Cargar ejemplo"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "Entrada",
+    "outputLabel": "Salida",
+    "convertButton": "Convertir",
+    "loadSample": "Cargar ejemplo",
+    "indentLabel": "Sangría:",
+    "twoSpaces": "2 espacios",
+    "fourSpaces": "4 espacios",
+    "invalidYaml": "YAML no válido",
+    "invalidJson": "JSON no válido"
+  },
+  "SlugGenerator": {
+    "inputLabel": "Texto",
+    "inputPlaceholder": "Introduce el texto para convertir en slug...",
+    "outputLabel": "Slug",
+    "separatorLabel": "Separador",
+    "hyphen": "Guion (-)",
+    "underscore": "Guion bajo (_)",
+    "lowercaseLabel": "Minúsculas"
+  },
+  "TextRepeater": {
+    "inputLabel": "Texto a repetir",
+    "inputPlaceholder": "Introduce el texto aquí...",
+    "countLabel": "Repetir:",
+    "separatorLabel": "Separador",
+    "newline": "Nueva línea",
+    "space": "Espacio",
+    "none": "Ninguno",
+    "custom": "Personalizado",
+    "customSeparatorLabel": "Separador personalizado",
+    "outputLabel": "Resultado"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "Precio original",
+    "discountLabel": "Descuento (%)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "salePrice": "Precio de oferta",
+    "youSave": "Ahorras",
+    "discountAmount": "Importe del descuento"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "Importe del préstamo",
+    "annualRateLabel": "Tasa de interés anual (%)",
+    "loanTermLabel": "Plazo del préstamo",
+    "years": "Años",
+    "months": "Meses",
+    "calculateButton": "Calcular",
+    "monthlyPayment": "Cuota mensual",
+    "totalPayment": "Pago total",
+    "totalInterest": "Intereses totales",
+    "amortizationTitle": "Tabla de amortización",
+    "month": "Mes",
+    "principal": "Capital",
+    "interest": "Intereses",
+    "balance": "Saldo"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "Inversión inicial",
+    "finalValueLabel": "Valor final",
+    "timePeriodLabel": "Período de tiempo (años)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "roi": "ROI",
+    "annualizedRoi": "ROI anualizado",
+    "totalProfit": "Beneficio total",
+    "totalReturn": "Retorno total"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "Edad",
+    "genderLabel": "Género",
+    "male": "Hombre",
+    "female": "Mujer",
+    "weightLabel": "Peso",
+    "heightLabel": "Altura",
+    "metricTab": "Métrico",
+    "imperialTab": "Imperial",
+    "activityLabel": "Nivel de actividad",
+    "sedentary": "Sedentario (poco o nada de ejercicio)",
+    "lightlyActive": "Ligeramente activo (1–3 días/semana)",
+    "moderatelyActive": "Moderadamente activo (3–5 días/semana)",
+    "veryActive": "Muy activo (6–7 días/semana)",
+    "extraActive": "Extra activo (ejercicio intenso diario)",
+    "calculateButton": "Calcular",
+    "tdee": "TDEE",
+    "bmr": "BMR (Tasa Metabólica Basal)",
+    "weightLoss": "Pérdida de peso (−500 kcal/día)",
+    "maintenance": "Mantenimiento",
+    "weightGain": "Aumento de peso (+500 kcal/día)",
+    "caloriesPerDay": "kcal/día"
+  },
+  "IdealWeight": {
+    "heightLabel": "Altura",
+    "genderLabel": "Género",
+    "male": "Hombre",
+    "female": "Mujer",
+    "metricTab": "Métrico (cm)",
+    "imperialTab": "Imperial (ft/in)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "resultsTitle": "Rango de peso ideal",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "Rango de BMI saludable (18,5–24,9)"
+  },
+  "BodyFat": {
+    "metricTab": "Métrico (cm)",
+    "imperialTab": "Imperial (in)",
+    "genderLabel": "Género",
+    "male": "Hombre",
+    "female": "Mujer",
+    "heightLabel": "Altura",
+    "neckLabel": "Circunferencia del cuello",
+    "waistLabel": "Circunferencia de la cintura",
+    "hipLabel": "Circunferencia de la cadera",
+    "hipNote": "(solo mujeres)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "bodyFatPercent": "Grasa corporal",
+    "category": "Categoría",
+    "methodNote": "Calculado usando el método U.S. Navy",
+    "essentialFat": "Grasa esencial",
+    "athletes": "Atletas",
+    "fitness": "Fitness",
+    "acceptable": "Aceptable",
+    "obese": "Obesidad"
+  },
+  "DateDifference": {
+    "startDateLabel": "Fecha de inicio",
+    "endDateLabel": "Fecha de fin",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "useToday": "Hoy",
+    "totalDays": "Total de días",
+    "workingDays": "Días laborables (lun–vie)",
+    "weeks": "Semanas",
+    "months": "Meses",
+    "years": "Años"
+  },
+  "TimeDuration": {
+    "addTab": "Sumar tiempo",
+    "subtractTab": "Restar tiempo",
+    "baseTimeLabel": "Hora de inicio (HH:MM:SS)",
+    "durationLabel": "Duración",
+    "hoursLabel": "Horas",
+    "minutesLabel": "Minutos",
+    "secondsLabel": "Segundos",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "resultLabel": "Resultado",
+    "totalSeconds": "Segundos totales"
   },
   "ColorConverter": {
     "invalidColor": "Valor de color no válido",

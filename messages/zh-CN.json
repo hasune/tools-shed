@@ -207,6 +207,120 @@
       "description": "在 Unix 时间戳和人类可读日期之间相互转换。",
       "metaTitle": "Unix Timestamp Converter",
       "metaDescription": "将 Unix 时间戳转换为人类可读的日期，反之亦然。免费在线 Unix 时间戳转换工具。"
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON 转换器",
+      "description": "将 CSV 数据转换为 JSON，将 JSON 数组转换回 CSV 格式。",
+      "metaTitle": "CSV to JSON 转换器",
+      "metaDescription": "在浏览器中即时将 CSV 转换为 JSON、JSON 转换为 CSV。免费在线 CSV JSON 转换器 — 无需上传。"
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "逐行比较两段文本并高亮显示差异。",
+      "metaTitle": "Diff Checker — 对比两段文本",
+      "metaDescription": "比较两段文本并高亮显示新增、删除和修改内容。免费在线 Diff Checker — 完全在浏览器中运行。"
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum 生成器",
+      "description": "为设计和开发生成 Lorem Ipsum 占位文本。",
+      "metaTitle": "Lorem Ipsum 生成器",
+      "metaDescription": "按段落、句子或单词生成 Lorem Ipsum 占位文本。免费在线 Lorem Ipsum 生成器。"
+    },
+    "html-encoder": {
+      "name": "HTML 编码器 / 解码器",
+      "description": "将特殊字符编码为 HTML 实体，并将其解码回来。",
+      "metaTitle": "HTML 编码器 / 解码器",
+      "metaDescription": "将特殊字符编码为 HTML 实体，将 HTML 实体解码回文本。免费在线 HTML 编码解码工具。"
+    },
+    "yaml-json": {
+      "name": "YAML ↔ JSON 转换器",
+      "description": "即时在 YAML 和 JSON 格式之间相互转换。",
+      "metaTitle": "YAML to JSON 转换器",
+      "metaDescription": "在浏览器中即时将 YAML 转换为 JSON、JSON 转换为 YAML。免费在线 YAML JSON 转换器。"
+    },
+    "data-storage-converter": {
+      "name": "数据存储换算",
+      "description": "在字节、千字节、兆字节、吉字节、太字节等之间换算。",
+      "metaTitle": "数据存储换算",
+      "metaDescription": "在字节、KB、MB、GB、TB 及二进制单位（KiB、MiB、GiB）之间换算。免费在线数据存储换算工具。"
+    },
+    "speed-converter": {
+      "name": "速度换算",
+      "description": "在 km/h、mph、m/s、节等速度单位之间换算。",
+      "metaTitle": "速度换算",
+      "metaDescription": "在 km/h、mph、m/s、节和英尺每秒之间换算。免费在线速度换算工具。"
+    },
+    "area-converter": {
+      "name": "面积换算",
+      "description": "在平方米、平方英尺、英亩、公顷等之间换算。",
+      "metaTitle": "面积换算",
+      "metaDescription": "在平方米、平方英尺、英亩、公顷等之间换算。免费在线面积换算工具。"
+    },
+    "volume-converter": {
+      "name": "体积换算",
+      "description": "在升、加仑、液量盎司、立方米等之间换算。",
+      "metaTitle": "体积换算",
+      "metaDescription": "在升、加仑、液量盎司、杯和立方米之间换算。免费在线体积换算工具。"
+    },
+    "slug-generator": {
+      "name": "Slug 生成器",
+      "description": "将任意文本转换为干净的 URL 友好 slug。",
+      "metaTitle": "Slug 生成器",
+      "metaDescription": "将任意文本转换为 URL 友好的 slug。免费在线 slug 生成器，适用于 SEO 友好的固定链接。"
+    },
+    "text-repeater": {
+      "name": "文本重复器",
+      "description": "将任意文本或字符重复指定次数。",
+      "metaTitle": "文本重复器",
+      "metaDescription": "使用自定义分隔符将任意文本、单词或字符重复任意次数。免费在线文本重复工具。"
+    },
+    "discount-calculator": {
+      "name": "折扣计算器",
+      "description": "即时计算促销价格、折扣金额和节省金额。",
+      "metaTitle": "折扣计算器",
+      "metaDescription": "根据折扣百分比计算促销价格和节省金额。免费在线折扣和促销价格计算器。"
+    },
+    "loan-calculator": {
+      "name": "贷款计算器",
+      "description": "计算贷款的月供、总利息和还款计划。",
+      "metaTitle": "贷款计算器",
+      "metaDescription": "计算月供、总利息和完整还款计划。免费在线贷款和房贷计算器。"
+    },
+    "roi-calculator": {
+      "name": "ROI 计算器",
+      "description": "计算任意投资的投资回报率和年化 ROI。",
+      "metaTitle": "ROI 计算器",
+      "metaDescription": "计算任意投资的投资回报率（ROI）和年化 ROI。免费在线 ROI 计算器。"
+    },
+    "tdee-calculator": {
+      "name": "TDEE 计算器",
+      "description": "计算您的每日总能量消耗和每日卡路里需求。",
+      "metaTitle": "TDEE 计算器 — 每日卡路里计算器",
+      "metaDescription": "根据活动水平计算每日总能量消耗（TDEE）和卡路里需求。免费在线 TDEE 计算器。"
+    },
+    "ideal-weight": {
+      "name": "理想体重计算器",
+      "description": "使用多种公式根据身高计算理想体重。",
+      "metaTitle": "理想体重计算器",
+      "metaDescription": "使用 Robinson、Miller、Devine 和 Hamwi 公式计算理想体重。免费在线理想体重计算器。"
+    },
+    "body-fat": {
+      "name": "体脂率计算器",
+      "description": "使用 U.S. Navy 方法估算体脂率。",
+      "metaTitle": "体脂率计算器",
+      "metaDescription": "使用 U.S. Navy 方法估算体脂率。适用于男女的免费在线体脂率计算器。"
+    },
+    "date-difference": {
+      "name": "日期差计算器",
+      "description": "计算两个日期之间确切的天数、周数和月数。",
+      "metaTitle": "日期差计算器",
+      "metaDescription": "计算任意两个日期之间确切的天数、周数和月数。免费在线日期差计算器。"
+    },
+    "time-duration": {
+      "name": "时间计算器",
+      "description": "加减小时、分钟和秒来计算时间段。",
+      "metaTitle": "时间计算器",
+      "metaDescription": "以小时、分钟和秒为单位加减时间段。免费在线时间计算器。"
     }
   },
   "Common": {
@@ -419,6 +533,207 @@
     "convertButton": "转换",
     "useNowButton": "使用当前时间",
     "resultsLabel": "结果"
+  },
+  "CsvJson": {
+    "csvToJsonTab": "CSV → JSON",
+    "jsonToCsvTab": "JSON → CSV",
+    "inputLabel": "输入",
+    "outputLabel": "输出",
+    "convertButton": "转换",
+    "loadSample": "加载示例",
+    "delimiterLabel": "分隔符",
+    "comma": "逗号 (,)",
+    "semicolon": "分号 (;)",
+    "tab": "制表符 (\\t)",
+    "firstRowHeader": "第一行为标题行",
+    "invalidCsv": "无效的 CSV 格式",
+    "invalidJson": "输入必须是 JSON 对象数组"
+  },
+  "DiffChecker": {
+    "originalLabel": "原始文本",
+    "modifiedLabel": "修改文本",
+    "compareButton": "比较",
+    "clearButton": "清除",
+    "noChanges": "未发现差异 — 两段文本完全相同。",
+    "addedLabel": "新增",
+    "removedLabel": "删除",
+    "unchangedLabel": "未变更",
+    "linesLabel": "行"
+  },
+  "LoremIpsum": {
+    "typeLabel": "生成单位",
+    "paragraphs": "段落",
+    "sentences": "句子",
+    "words": "单词",
+    "countLabel": "数量：",
+    "generateButton": "生成",
+    "startWithLoremIpsum": "以 \"Lorem ipsum\" 开头",
+    "outputLabel": "生成的文本"
+  },
+  "HtmlEncoder": {
+    "encodeTab": "编码",
+    "decodeTab": "解码",
+    "inputLabel": "输入",
+    "outputLabel": "输出",
+    "encodeButton": "编码",
+    "decodeButton": "解码",
+    "loadSample": "加载示例"
+  },
+  "YamlJson": {
+    "yamlToJsonTab": "YAML → JSON",
+    "jsonToYamlTab": "JSON → YAML",
+    "inputLabel": "输入",
+    "outputLabel": "输出",
+    "convertButton": "转换",
+    "loadSample": "加载示例",
+    "indentLabel": "缩进：",
+    "twoSpaces": "2个空格",
+    "fourSpaces": "4个空格",
+    "invalidYaml": "无效的 YAML",
+    "invalidJson": "无效的 JSON"
+  },
+  "SlugGenerator": {
+    "inputLabel": "文本",
+    "inputPlaceholder": "输入要转换为 slug 的文本...",
+    "outputLabel": "Slug",
+    "separatorLabel": "分隔符",
+    "hyphen": "连字符 (-)",
+    "underscore": "下划线 (_)",
+    "lowercaseLabel": "小写"
+  },
+  "TextRepeater": {
+    "inputLabel": "要重复的文本",
+    "inputPlaceholder": "在此输入文本...",
+    "countLabel": "重复次数：",
+    "separatorLabel": "分隔符",
+    "newline": "换行",
+    "space": "空格",
+    "none": "无",
+    "custom": "自定义",
+    "customSeparatorLabel": "自定义分隔符",
+    "outputLabel": "结果"
+  },
+  "DiscountCalculator": {
+    "originalPriceLabel": "原价",
+    "discountLabel": "折扣 (%)",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "salePrice": "促销价",
+    "youSave": "节省金额",
+    "discountAmount": "折扣金额"
+  },
+  "LoanCalculator": {
+    "loanAmountLabel": "贷款金额",
+    "annualRateLabel": "年利率 (%)",
+    "loanTermLabel": "贷款期限",
+    "years": "年",
+    "months": "个月",
+    "calculateButton": "计算",
+    "monthlyPayment": "月供",
+    "totalPayment": "总还款额",
+    "totalInterest": "总利息",
+    "amortizationTitle": "还款计划",
+    "month": "期",
+    "principal": "本金",
+    "interest": "利息",
+    "balance": "余额"
+  },
+  "RoiCalculator": {
+    "initialInvestmentLabel": "初始投资额",
+    "finalValueLabel": "最终价值",
+    "timePeriodLabel": "投资期限（年）",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "roi": "ROI",
+    "annualizedRoi": "年化 ROI",
+    "totalProfit": "总利润",
+    "totalReturn": "总收益"
+  },
+  "TdeeCalculator": {
+    "ageLabel": "年龄",
+    "genderLabel": "性别",
+    "male": "男",
+    "female": "女",
+    "weightLabel": "体重",
+    "heightLabel": "身高",
+    "metricTab": "公制",
+    "imperialTab": "英制",
+    "activityLabel": "活动水平",
+    "sedentary": "久坐（几乎不运动）",
+    "lightlyActive": "轻度活动（每周1–3天）",
+    "moderatelyActive": "中度活动（每周3–5天）",
+    "veryActive": "高度活动（每周6–7天）",
+    "extraActive": "极度活跃（每天高强度运动）",
+    "calculateButton": "计算",
+    "tdee": "TDEE",
+    "bmr": "BMR（基础代谢率）",
+    "weightLoss": "减重（每日 −500 kcal）",
+    "maintenance": "维持",
+    "weightGain": "增重（每日 +500 kcal）",
+    "caloriesPerDay": "千卡/天"
+  },
+  "IdealWeight": {
+    "heightLabel": "身高",
+    "genderLabel": "性别",
+    "male": "男",
+    "female": "女",
+    "metricTab": "公制 (cm)",
+    "imperialTab": "英制 (ft/in)",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "resultsTitle": "理想体重范围",
+    "robinson": "Robinson (1983)",
+    "miller": "Miller (1983)",
+    "devine": "Devine (1974)",
+    "hamwi": "Hamwi (1964)",
+    "healthyBmi": "健康 BMI 范围 (18.5–24.9)"
+  },
+  "BodyFat": {
+    "metricTab": "公制 (cm)",
+    "imperialTab": "英制 (in)",
+    "genderLabel": "性别",
+    "male": "男",
+    "female": "女",
+    "heightLabel": "身高",
+    "neckLabel": "颈围",
+    "waistLabel": "腰围",
+    "hipLabel": "臀围",
+    "hipNote": "（仅限女性）",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "bodyFatPercent": "体脂率",
+    "category": "分类",
+    "methodNote": "使用 U.S. Navy 方法计算",
+    "essentialFat": "必需脂肪",
+    "athletes": "运动员",
+    "fitness": "健身",
+    "acceptable": "可接受",
+    "obese": "肥胖"
+  },
+  "DateDifference": {
+    "startDateLabel": "开始日期",
+    "endDateLabel": "结束日期",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "useToday": "今天",
+    "totalDays": "总天数",
+    "workingDays": "工作日（周一至周五）",
+    "weeks": "周",
+    "months": "个月",
+    "years": "年"
+  },
+  "TimeDuration": {
+    "addTab": "加法",
+    "subtractTab": "减法",
+    "baseTimeLabel": "开始时间 (HH:MM:SS)",
+    "durationLabel": "时长",
+    "hoursLabel": "小时",
+    "minutesLabel": "分钟",
+    "secondsLabel": "秒",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "resultLabel": "结果",
+    "totalSeconds": "总秒数"
   },
   "ColorConverter": {
     "invalidColor": "无效的颜色值",

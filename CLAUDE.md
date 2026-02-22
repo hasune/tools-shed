@@ -159,7 +159,11 @@ tools-shed/
 │       │   ├── diff-checker/page.tsx
 │       │   ├── lorem-ipsum/page.tsx
 │       │   ├── html-encoder/page.tsx
-│       │   └── yaml-json/page.tsx
+│       │   ├── yaml-json/page.tsx
+│       │   ├── cron-parser/page.tsx
+│       │   ├── json-to-typescript/page.tsx
+│       │   ├── sql-formatter/page.tsx
+│       │   └── string-escape/page.tsx
 │       ├── converters/
 │       │   ├── length-converter/page.tsx
 │       │   ├── weight-converter/page.tsx
@@ -174,24 +178,33 @@ tools-shed/
 │       │   ├── password-generator/page.tsx
 │       │   ├── markdown-preview/page.tsx
 │       │   ├── slug-generator/page.tsx
-│       │   └── text-repeater/page.tsx
+│       │   ├── text-repeater/page.tsx
+│       │   ├── text-to-binary/page.tsx
+│       │   └── random-name-generator/page.tsx
 │       ├── finance/
 │       │   ├── compound-interest/page.tsx
 │       │   ├── percentage-calculator/page.tsx
 │       │   ├── discount-calculator/page.tsx
 │       │   ├── loan-calculator/page.tsx
-│       │   └── roi-calculator/page.tsx
+│       │   ├── roi-calculator/page.tsx
+│       │   └── tip-calculator/page.tsx
 │       ├── health/
 │       │   ├── bmi-calculator/page.tsx
 │       │   ├── tdee-calculator/page.tsx
 │       │   ├── ideal-weight/page.tsx
-│       │   └── body-fat/page.tsx
-│       └── time/
-│           ├── age-calculator/page.tsx
-│           ├── timezone-converter/page.tsx
-│           ├── unix-timestamp/page.tsx
-│           ├── date-difference/page.tsx
-│           └── time-duration/page.tsx
+│       │   ├── body-fat/page.tsx
+│       │   ├── running-pace/page.tsx
+│       │   └── water-intake/page.tsx
+│       ├── time/
+│       │   ├── age-calculator/page.tsx
+│       │   ├── timezone-converter/page.tsx
+│       │   ├── unix-timestamp/page.tsx
+│       │   ├── date-difference/page.tsx
+│       │   └── time-duration/page.tsx
+│       └── math/
+│           ├── scientific-calculator/page.tsx
+│           ├── gcd-lcm/page.tsx
+│           └── quadratic-solver/page.tsx
 │
 ├── components/
 │   ├── Header.tsx                    # 네비게이션 헤더 (useTranslations + LocaleSwitcher 포함)
@@ -236,7 +249,19 @@ tools-shed/
 │       ├── TimezoneConverter.tsx
 │       ├── UnixTimestamp.tsx
 │       ├── DateDifference.tsx
-│       └── TimeDuration.tsx
+│       ├── TimeDuration.tsx
+│       ├── ScientificCalculator.tsx
+│       ├── GcdLcm.tsx
+│       ├── QuadraticSolver.tsx
+│       ├── CronParser.tsx
+│       ├── JsonToTypescript.tsx
+│       ├── SqlFormatter.tsx
+│       ├── StringEscape.tsx
+│       ├── TextToBinary.tsx
+│       ├── RandomNameGenerator.tsx
+│       ├── TipCalculator.tsx
+│       ├── RunningPace.tsx
+│       └── WaterIntake.tsx
 │
 ├── i18n/
 │   ├── routing.ts                    # 지원 언어 + localePrefix 설정
@@ -266,9 +291,9 @@ tools-shed/
 
 ---
 
-## 현재 구현된 도구 목록 (41개)
+## 현재 구현된 도구 목록 (53개)
 
-### Developer Tools (`/developer`) — 14개
+### Developer Tools (`/developer`) — 18개
 | slug | 도구명 | 설명 |
 |------|--------|------|
 | `json-formatter` | JSON Formatter | 포맷/검증/최소화 |
@@ -285,6 +310,10 @@ tools-shed/
 | `lorem-ipsum` | Lorem Ipsum Generator | 단락/문장/단어 생성 |
 | `html-encoder` | HTML Encoder/Decoder | HTML 엔티티 인코딩/디코딩 |
 | `yaml-json` | YAML ↔ JSON Converter | js-yaml 라이브러리 사용 |
+| `cron-parser` | Cron Expression Parser | Cron 문법 설명 + 다음 5회 실행 시각 |
+| `json-to-typescript` | JSON → TypeScript | JSON에서 TypeScript 인터페이스 자동 생성 |
+| `sql-formatter` | SQL Formatter | SQL 키워드 대소문자/들여쓰기 정리 |
+| `string-escape` | String Escape/Unescape | JSON/JS/HTML 문자열 이스케이프 |
 
 ### Unit Converters (`/converters`) — 7개
 | slug | 도구명 | 비고 |
@@ -299,7 +328,7 @@ tools-shed/
 
 > 위 6개 converter는 `UnitConverter.tsx` 컴포넌트 공유 (UNIT_SETS 레코드에 타입별 단위 정의)
 
-### Text Tools (`/text`) — 6개
+### Text Tools (`/text`) — 8개
 | slug | 도구명 |
 |------|--------|
 | `word-counter` | 단어/글자/문장/단락/읽기 시간 |
@@ -308,8 +337,10 @@ tools-shed/
 | `markdown-preview` | Markdown Preview (커스텀 파서, 외부 deps 없음) |
 | `slug-generator` | Slug Generator (NFD 악센트 정규화) |
 | `text-repeater` | Text Repeater (구분자 옵션) |
+| `text-to-binary` | Text → Binary/Hex/Octal/Decimal 변환 (양방향) |
+| `random-name-generator` | 랜덤 영문 이름 생성기 (성별/유형 옵션) |
 
-### Finance Tools (`/finance`) — 5개
+### Finance Tools (`/finance`) — 6개
 | slug | 도구명 |
 |------|--------|
 | `compound-interest` | 복리 계산기 |
@@ -317,14 +348,17 @@ tools-shed/
 | `discount-calculator` | 할인 계산기 |
 | `loan-calculator` | 대출 계산기 (월납입금 + 상환 일정표) |
 | `roi-calculator` | ROI 계산기 (수익률 + 연환산 ROI) |
+| `tip-calculator` | 팁 계산기 (인원별 분할) |
 
-### Health Tools (`/health`) — 4개
+### Health Tools (`/health`) — 6개
 | slug | 도구명 |
 |------|--------|
 | `bmi-calculator` | BMI 계산기 (metric/imperial) |
 | `tdee-calculator` | TDEE 계산기 (Mifflin-St Jeor BMR, 5가지 활동 레벨) |
 | `ideal-weight` | 적정 체중 계산기 (Robinson/Miller/Devine/Hamwi 4가지 공식) |
 | `body-fat` | 체지방률 계산기 (U.S. Navy 방법) |
+| `running-pace` | 러닝 페이스 계산기 (페이스/시간/거리 3가지 모드) |
+| `water-intake` | 수분 섭취량 계산기 (체중 × 활동량 × 기후) |
 
 ### Time Tools (`/time`) — 5개
 | slug | 도구명 |
@@ -334,6 +368,13 @@ tools-shed/
 | `unix-timestamp` | Unix Timestamp 변환 (라이브 틱, ms/s 자동 감지) |
 | `date-difference` | 날짜 차이 계산 (총 일수, 근무일, 주/월/년) |
 | `time-duration` | 시간 더하기/빼기 (HH:MM:SS) |
+
+### Math Tools (`/math`) — 3개 ← 신규 카테고리
+| slug | 도구명 |
+|------|--------|
+| `scientific-calculator` | 공학용 계산기 (sin/cos/tan/log/sqrt/π/e, DEG/RAD, 계산 기록) |
+| `gcd-lcm` | 최대공약수·최소공배수 (유클리드 알고리즘, 단계별 풀이) |
+| `quadratic-solver` | 이차방정식 풀이기 (실수/복소수 근, 꼭짓점, 단계별 풀이) |
 
 ---
 
@@ -517,11 +558,11 @@ vercel --prod     # 수동 프로덕션 배포
 - [ ] Giscus GitHub App 설치 확인 (https://github.com/apps/giscus)
 
 ### 추가 예정 도구
-- [ ] Running Pace Calculator
 - [ ] Aspect Ratio Calculator
-- [ ] Tip Calculator
 - [ ] Number to Words Converter
 - [ ] Roman Numeral Converter
+- [ ] Fraction Calculator
+- [ ] Statistics Calculator (mean, median, mode, std dev)
 
 ### 검토 중
 - [ ] 아랍어(`ar`) — RTL 레이아웃 추가 CSS 작업 필요
@@ -558,7 +599,7 @@ NEXTAUTH_URL=https://tools-shed.com
 | 파일 | 용도 |
 |------|------|
 | `lib/tools.ts` | **새 도구 추가 시 가장 먼저 수정** |
-| `messages/en.json` | **번역 키 추가 시 먼저 수정 (source of truth, ~600+ 키)** |
+| `messages/en.json` | **번역 키 추가 시 먼저 수정 (source of truth, ~900+ 키)** |
 | `i18n/routing.ts` | 언어 추가 시 수정 |
 | `components/ToolLayout.tsx` | 모든 도구 페이지의 공통 래퍼 |
 | `components/AdSlot.tsx` | 광고 슬롯 (slot ID 교체 필요) |

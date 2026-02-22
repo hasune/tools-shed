@@ -7,11 +7,18 @@ import { useParams } from "next/navigation";
 import { useTransition } from "react";
 
 const LOCALE_LABELS: Record<string, string> = {
-  en: "EN",
+  en: "English",
   ja: "日本語",
   ko: "한국어",
   "zh-CN": "中文",
-  es: "ES",
+  es: "Español",
+  "pt-BR": "Português",
+  fr: "Français",
+  de: "Deutsch",
+  ru: "Русский",
+  it: "Italiano",
+  tr: "Türkçe",
+  id: "Indonesia",
 };
 
 export default function LocaleSwitcher() {

@@ -101,19 +101,14 @@ export default async function ToolLayout({
         <p className="text-gray-400 text-lg">{description}</p>
       </div>
 
-      {/* Top Ad */}
-      <div className="mb-8">
-        <AdSlot slot="1234567890" format="leaderboard" />
-      </div>
-
       {/* Tool Content */}
       <div className="bg-gray-800 rounded-xl border border-gray-700 p-6 mb-8">
         {children}
       </div>
 
-      {/* Bottom Ad */}
+      {/* Ad — between tool and comments */}
       <div className="mb-8">
-        <AdSlot slot="0987654321" format="rectangle" />
+        <AdSlot slot="1234567890" format="rectangle" />
       </div>
 
       {/* Giscus Comments */}

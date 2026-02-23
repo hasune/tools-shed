@@ -536,6 +536,36 @@
       "description": "90 dakikalık uyku döngülerine göre en iyi uyku veya uyanış zamanını bulun.",
       "metaTitle": "Uyku Döngüsü Hesaplayıcı",
       "metaDescription": "90 dakikalık uyku döngülerine göre ideal uyku veya uyanış zamanını hesaplayın. Her sabah dinlenmiş uyanın."
+    },
+    "savings-goal-calculator": {
+      "name": "Birikim Hedefi Hesaplayıcı",
+      "description": "Finansal hedefinize ulaşmak için her ay ne kadar tasarruf etmeniz gerektiğini hesaplayın.",
+      "metaTitle": "Birikim Hedefi Hesaplayıcı",
+      "metaDescription": "Finansal hedefinize ulaşmak için aylık tasarruf miktarını hesaplayın. Faiz oranı destekli ücretsiz hesaplayıcı."
+    },
+    "inflation-calculator": {
+      "name": "Enflasyon Hesaplayıcı",
+      "description": "Enflasyon oranına göre paranın zaman içindeki gerçek değerini hesaplayın.",
+      "metaTitle": "Enflasyon Hesaplayıcı",
+      "metaDescription": "Enflasyona göre düzeltilmiş satın alma gücünü ve gerçek para değerini hesaplayın. Ücretsiz enflasyon hesaplayıcı."
+    },
+    "break-even-calculator": {
+      "name": "Başabaş Noktası Hesaplayıcı",
+      "description": "Maliyet ve gelirlere göre işletmenizin başabaş noktasını bulun.",
+      "metaTitle": "Başabaş Noktası Hesaplayıcı",
+      "metaDescription": "Birim ve gelir bazında başabaş noktanızı hesaplayın. Ücretsiz başabaş analizi aracı."
+    },
+    "meeting-planner": {
+      "name": "Toplantı Saat Dilimi Planlayıcı",
+      "description": "Birden fazla saat diliminde aynı anda en iyi toplantı zamanını bulun.",
+      "metaTitle": "Toplantı Saat Dilimi Planlayıcı",
+      "metaDescription": "Birden fazla saat diliminde toplantı planlayın. Herkes için en uygun zamanı bulun."
+    },
+    "year-progress": {
+      "name": "Yıl İlerlemesi",
+      "description": "Mevcut yılın ne kadarının geçtiğini ve ne kadarının kaldığını görün.",
+      "metaTitle": "Yıl İlerlemesi",
+      "metaDescription": "Yılın ilerleme durumunu ve kalan günleri görün. Gün, hafta ve ay bazında ilerleme takibi."
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "Önerilen",
     "fallAsleepNote": "~14 dakika uykuya dalma süresi dahil",
     "tipLabel": "İpucu: Çoğu yetişkin için 5-6 uyku döngüsü (7,5-9 saat) idealdir."
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "Tasarruf Hedefi ($)",
+    "goalPlaceholder": "Örn: 10000",
+    "currentLabel": "Mevcut Tasarruf ($)",
+    "currentPlaceholder": "Örn: 1000",
+    "rateLabel": "Yıllık Faiz Oranı (%)",
+    "ratePlaceholder": "Örn: 5",
+    "yearsLabel": "Süre (yıl)",
+    "yearsPlaceholder": "Örn: 3",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "monthlySavings": "Gerekli Aylık Tasarruf",
+    "totalContributions": "Toplam Katkı",
+    "interestEarned": "Kazanılan Faiz",
+    "finalAmount": "Son Tutar"
+  },
+  "InflationCalculator": {
+    "amountLabel": "Orijinal Tutar ($)",
+    "amountPlaceholder": "Örn: 1000",
+    "startYearLabel": "Başlangıç Yılı",
+    "endYearLabel": "Bitiş Yılı",
+    "rateLabel": "Yıllık Enflasyon Oranı (%)",
+    "ratePlaceholder": "Örn: 3",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "adjustedValue": "Düzeltilmiş Değer",
+    "purchasingPowerLost": "Satın Alma Gücü Kaybı",
+    "totalInflation": "Toplam Enflasyon",
+    "equivalentToday": "{year} yılındaki ${amount}, bugünkü ${adjusted} ile aynı satın alma gücüne sahipti."
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "Sabit Maliyetler ($)",
+    "fixedCostsPlaceholder": "Örn: 5000",
+    "variableCostLabel": "Birim Başına Değişken Maliyet ($)",
+    "variableCostPlaceholder": "Örn: 10",
+    "sellingPriceLabel": "Birim Satış Fiyatı ($)",
+    "sellingPricePlaceholder": "Örn: 25",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "breakEvenUnits": "Başabaş Noktası (Birim)",
+    "breakEvenRevenue": "Başabaş Noktası (Gelir)",
+    "contributionMargin": "Birim Başına Katkı Payı",
+    "contributionMarginRatio": "Katkı Payı Oranı",
+    "errorSamePrice": "Satış fiyatı değişken maliyetten yüksek olmalıdır."
+  },
+  "MeetingPlanner": {
+    "addTimezone": "Saat Dilimi Ekle",
+    "removeTimezone": "Kaldır",
+    "yourTime": "Sizin Saatiniz",
+    "selectTimezone": "Saat dilimi seçin",
+    "dateLabel": "Tarih",
+    "timeLabel": "Saat",
+    "workingHours": "Çalışma saatleri (09:00 - 18:00)",
+    "outsideHours": "Çalışma saatleri dışında",
+    "midnight": "Gece yarısı",
+    "noon": "Öğlen"
+  },
+  "YearProgress": {
+    "yearProgress": "Yıl İlerlemesi",
+    "monthProgress": "Ay İlerlemesi",
+    "dayProgress": "Gün İlerlemesi",
+    "elapsed": "Geçen",
+    "remaining": "Kalan",
+    "daysElapsed": "{days} gün geçti",
+    "daysRemaining": "{days} gün kaldı",
+    "weeksRemaining": "{weeks} hafta kaldı",
+    "currentDay": "{total} günün {day}. günü",
+    "currentWeek": "52 haftanın {week}. haftası",
+    "liveUpdate": "Her saniye güncellenir"
   },
   "AboutPage": {
     "title": "ToolsShed Hakkında",

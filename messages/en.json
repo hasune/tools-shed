@@ -536,6 +536,36 @@
       "description": "Find the best bedtime or wake-up time based on 90-minute sleep cycles.",
       "metaTitle": "Sleep Cycle Calculator",
       "metaDescription": "Find the ideal bedtime or wake-up time based on 90-minute sleep cycles. Wake up refreshed every morning."
+    },
+    "savings-goal-calculator": {
+      "name": "Savings Goal Calculator",
+      "description": "Calculate how much you need to save each month to reach your financial goal.",
+      "metaTitle": "Savings Goal Calculator",
+      "metaDescription": "Calculate monthly savings needed to reach your financial goal. Free savings goal calculator with interest rate."
+    },
+    "inflation-calculator": {
+      "name": "Inflation Calculator",
+      "description": "Calculate the real value of money over time based on inflation rate.",
+      "metaTitle": "Inflation Calculator",
+      "metaDescription": "Calculate the purchasing power and real value of money adjusted for inflation. Free online inflation calculator."
+    },
+    "break-even-calculator": {
+      "name": "Break-Even Calculator",
+      "description": "Find the break-even point for your business based on costs and revenue.",
+      "metaTitle": "Break-Even Calculator",
+      "metaDescription": "Calculate your break-even point in units and revenue. Free online break-even analysis tool for businesses."
+    },
+    "meeting-planner": {
+      "name": "Meeting Time Zone Planner",
+      "description": "Find the best meeting time across multiple time zones simultaneously.",
+      "metaTitle": "Meeting Time Zone Planner",
+      "metaDescription": "Plan meetings across multiple time zones. See world clocks side by side and find the best meeting time for everyone."
+    },
+    "year-progress": {
+      "name": "Year Progress",
+      "description": "See how much of the current year has passed and what's remaining.",
+      "metaTitle": "Year Progress",
+      "metaDescription": "See how much of the current year has passed and what remains. Day, week, and month progress tracker."
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "Recommended",
     "fallAsleepNote": "Includes ~14 minutes to fall asleep",
     "tipLabel": "Tip: 5–6 sleep cycles (7.5–9 hours) is ideal for most adults."
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "Savings Goal ($)",
+    "goalPlaceholder": "e.g. 10000",
+    "currentLabel": "Current Savings ($)",
+    "currentPlaceholder": "e.g. 1000",
+    "rateLabel": "Annual Interest Rate (%)",
+    "ratePlaceholder": "e.g. 5",
+    "yearsLabel": "Time Period (years)",
+    "yearsPlaceholder": "e.g. 3",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "monthlySavings": "Monthly Savings Needed",
+    "totalContributions": "Total Contributions",
+    "interestEarned": "Interest Earned",
+    "finalAmount": "Final Amount"
+  },
+  "InflationCalculator": {
+    "amountLabel": "Original Amount ($)",
+    "amountPlaceholder": "e.g. 1000",
+    "startYearLabel": "Start Year",
+    "endYearLabel": "End Year",
+    "rateLabel": "Annual Inflation Rate (%)",
+    "ratePlaceholder": "e.g. 3",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "adjustedValue": "Adjusted Value",
+    "purchasingPowerLost": "Purchasing Power Lost",
+    "totalInflation": "Total Inflation",
+    "equivalentToday": "In {year}, ${amount} had the same purchasing power as ${adjusted} today."
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "Fixed Costs ($)",
+    "fixedCostsPlaceholder": "e.g. 5000",
+    "variableCostLabel": "Variable Cost per Unit ($)",
+    "variableCostPlaceholder": "e.g. 10",
+    "sellingPriceLabel": "Selling Price per Unit ($)",
+    "sellingPricePlaceholder": "e.g. 25",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "breakEvenUnits": "Break-Even Units",
+    "breakEvenRevenue": "Break-Even Revenue",
+    "contributionMargin": "Contribution Margin per Unit",
+    "contributionMarginRatio": "Contribution Margin Ratio",
+    "errorSamePrice": "Selling price must be greater than variable cost."
+  },
+  "MeetingPlanner": {
+    "addTimezone": "Add Time Zone",
+    "removeTimezone": "Remove",
+    "yourTime": "Your Time",
+    "selectTimezone": "Select time zone",
+    "dateLabel": "Date",
+    "timeLabel": "Time",
+    "workingHours": "Working hours (9 AM – 6 PM)",
+    "outsideHours": "Outside working hours",
+    "midnight": "Midnight",
+    "noon": "Noon"
+  },
+  "YearProgress": {
+    "yearProgress": "Year Progress",
+    "monthProgress": "Month Progress",
+    "dayProgress": "Day Progress",
+    "elapsed": "Elapsed",
+    "remaining": "Remaining",
+    "daysElapsed": "{days} days elapsed",
+    "daysRemaining": "{days} days remaining",
+    "weeksRemaining": "{weeks} weeks remaining",
+    "currentDay": "Day {day} of {total}",
+    "currentWeek": "Week {week} of 52",
+    "liveUpdate": "Updates every second"
   },
   "AboutPage": {
     "title": "About ToolsShed",

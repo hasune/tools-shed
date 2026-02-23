@@ -536,6 +536,36 @@
       "description": "90分の睡眠サイクルに基づいた最適な就寝時刻または起床時刻を見つけます。",
       "metaTitle": "睡眠サイクル計算機",
       "metaDescription": "90分の睡眠サイクルに基づいた理想的な就寝時刻または起床時刻を見つけます。毎朝すっきり目覚めましょう。"
+    },
+    "savings-goal-calculator": {
+      "name": "貯蓄目標計算機",
+      "description": "目標金額を達成するために毎月いくら貯蓄が必要かを計算します。",
+      "metaTitle": "貯蓄目標計算機",
+      "metaDescription": "目標金額を達成するための月々の貯蓄額を計算します。利率対応の無料貯蓄計算機。"
+    },
+    "inflation-calculator": {
+      "name": "インフレ計算機",
+      "description": "インフレ率に基づいてお金の実質的な価値を計算します。",
+      "metaTitle": "インフレ計算機",
+      "metaDescription": "インフレを考慮したお金の購買力と実質価値を計算します。無料オンラインインフレ計算機。"
+    },
+    "break-even-calculator": {
+      "name": "損益分岐点計算機",
+      "description": "コストと収益に基づいてビジネスの損益分岐点を求めます。",
+      "metaTitle": "損益分岐点計算機",
+      "metaDescription": "単位数と収益での損益分岐点を計算します。ビジネス向け無料損益分岐点分析ツール。"
+    },
+    "meeting-planner": {
+      "name": "会議タイムゾーンプランナー",
+      "description": "複数のタイムゾーンで同時に最適な会議時間を見つけます。",
+      "metaTitle": "会議タイムゾーンプランナー",
+      "metaDescription": "複数のタイムゾーンをまたいだ会議を計画。全員に最適な時間を見つけましょう。"
+    },
+    "year-progress": {
+      "name": "年間進捗",
+      "description": "今年がどれだけ経過し、残りがどれくらいあるかを確認します。",
+      "metaTitle": "年間進捗",
+      "metaDescription": "今年の経過と残り時間を確認。日・週・月の進捗トラッカー。"
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "推奨",
     "fallAsleepNote": "入眠までの約14分を含む",
     "tipLabel": "ヒント：5〜6サイクル（7.5〜9時間）がほとんどの大人に理想的です。"
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "貯蓄目標 ($)",
+    "goalPlaceholder": "例: 10000",
+    "currentLabel": "現在の貯蓄額 ($)",
+    "currentPlaceholder": "例: 1000",
+    "rateLabel": "年利率 (%)",
+    "ratePlaceholder": "例: 5",
+    "yearsLabel": "期間（年）",
+    "yearsPlaceholder": "例: 3",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "monthlySavings": "必要な月間貯蓄額",
+    "totalContributions": "総積立額",
+    "interestEarned": "利息収益",
+    "finalAmount": "最終金額"
+  },
+  "InflationCalculator": {
+    "amountLabel": "元の金額 ($)",
+    "amountPlaceholder": "例: 1000",
+    "startYearLabel": "開始年",
+    "endYearLabel": "終了年",
+    "rateLabel": "年間インフレ率 (%)",
+    "ratePlaceholder": "例: 3",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "adjustedValue": "調整後の価値",
+    "purchasingPowerLost": "購買力の損失",
+    "totalInflation": "総インフレ率",
+    "equivalentToday": "{year}年の${amount}は、今日の${adjusted}と同じ購買力です。"
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "固定費 ($)",
+    "fixedCostsPlaceholder": "例: 5000",
+    "variableCostLabel": "変動費（1単位あたり）($)",
+    "variableCostPlaceholder": "例: 10",
+    "sellingPriceLabel": "販売価格（1単位あたり）($)",
+    "sellingPricePlaceholder": "例: 25",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "breakEvenUnits": "損益分岐点（単位数）",
+    "breakEvenRevenue": "損益分岐点（売上高）",
+    "contributionMargin": "1単位あたりの貢献利益",
+    "contributionMarginRatio": "貢献利益率",
+    "errorSamePrice": "販売価格は変動費より大きくなければなりません。"
+  },
+  "MeetingPlanner": {
+    "addTimezone": "タイムゾーンを追加",
+    "removeTimezone": "削除",
+    "yourTime": "あなたの時刻",
+    "selectTimezone": "タイムゾーンを選択",
+    "dateLabel": "日付",
+    "timeLabel": "時刻",
+    "workingHours": "営業時間（午前9時〜午後6時）",
+    "outsideHours": "営業時間外",
+    "midnight": "深夜",
+    "noon": "正午"
+  },
+  "YearProgress": {
+    "yearProgress": "年間進捗",
+    "monthProgress": "月間進捗",
+    "dayProgress": "日間進捗",
+    "elapsed": "経過",
+    "remaining": "残り",
+    "daysElapsed": "{days}日経過",
+    "daysRemaining": "残り{days}日",
+    "weeksRemaining": "残り{weeks}週間",
+    "currentDay": "{total}日中{day}日目",
+    "currentWeek": "第{week}週（全52週）",
+    "liveUpdate": "毎秒更新"
   },
   "AboutPage": {
     "title": "ToolsShed について",

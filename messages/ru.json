@@ -536,6 +536,36 @@
       "description": "Найдите лучшее время для сна или пробуждения на основе 90-минутных циклов сна.",
       "metaTitle": "Калькулятор циклов сна",
       "metaDescription": "Найдите идеальное время для сна или пробуждения на основе 90-минутных циклов сна. Просыпайтесь бодрым каждое утро."
+    },
+    "savings-goal-calculator": {
+      "name": "Калькулятор цели сбережений",
+      "description": "Рассчитайте, сколько нужно откладывать каждый месяц для достижения финансовой цели.",
+      "metaTitle": "Калькулятор цели сбережений",
+      "metaDescription": "Рассчитайте ежемесячные сбережения для достижения финансовой цели. Бесплатный калькулятор с процентной ставкой."
+    },
+    "inflation-calculator": {
+      "name": "Калькулятор инфляции",
+      "description": "Рассчитайте реальную стоимость денег со временем на основе уровня инфляции.",
+      "metaTitle": "Калькулятор инфляции",
+      "metaDescription": "Рассчитайте покупательную способность и реальную стоимость денег с учётом инфляции. Бесплатный калькулятор."
+    },
+    "break-even-calculator": {
+      "name": "Калькулятор точки безубыточности",
+      "description": "Найдите точку безубыточности вашего бизнеса на основе затрат и выручки.",
+      "metaTitle": "Калькулятор точки безубыточности",
+      "metaDescription": "Рассчитайте точку безубыточности в единицах и выручке. Бесплатный инструмент анализа безубыточности."
+    },
+    "meeting-planner": {
+      "name": "Планировщик встреч по часовым поясам",
+      "description": "Найдите лучшее время для встречи в нескольких часовых поясах одновременно.",
+      "metaTitle": "Планировщик встреч по часовым поясам",
+      "metaDescription": "Планируйте встречи в нескольких часовых поясах. Найдите лучшее время для всех участников."
+    },
+    "year-progress": {
+      "name": "Прогресс года",
+      "description": "Посмотрите, сколько текущего года прошло и сколько осталось.",
+      "metaTitle": "Прогресс года",
+      "metaDescription": "Посмотрите прогресс года и оставшиеся дни. Отслеживание по дням, неделям и месяцам."
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "Рекомендуется",
     "fallAsleepNote": "Включает ~14 минут на засыпание",
     "tipLabel": "Совет: 5–6 циклов сна (7,5–9 часов) идеально подходят для большинства взрослых."
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "Цель сбережений ($)",
+    "goalPlaceholder": "Напр. 10000",
+    "currentLabel": "Текущие сбережения ($)",
+    "currentPlaceholder": "Напр. 1000",
+    "rateLabel": "Годовая процентная ставка (%)",
+    "ratePlaceholder": "Напр. 5",
+    "yearsLabel": "Срок (лет)",
+    "yearsPlaceholder": "Напр. 3",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "monthlySavings": "Необходимые ежемесячные сбережения",
+    "totalContributions": "Всего внесено",
+    "interestEarned": "Начисленные проценты",
+    "finalAmount": "Итоговая сумма"
+  },
+  "InflationCalculator": {
+    "amountLabel": "Исходная сумма ($)",
+    "amountPlaceholder": "Напр. 1000",
+    "startYearLabel": "Начальный год",
+    "endYearLabel": "Конечный год",
+    "rateLabel": "Годовой уровень инфляции (%)",
+    "ratePlaceholder": "Напр. 3",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "adjustedValue": "Скорректированная стоимость",
+    "purchasingPowerLost": "Потеря покупательной способности",
+    "totalInflation": "Общая инфляция",
+    "equivalentToday": "В {year} году ${amount} имели ту же покупательную способность, что и ${adjusted} сегодня."
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "Постоянные затраты ($)",
+    "fixedCostsPlaceholder": "Напр. 5000",
+    "variableCostLabel": "Переменные затраты на единицу ($)",
+    "variableCostPlaceholder": "Напр. 10",
+    "sellingPriceLabel": "Цена продажи за единицу ($)",
+    "sellingPricePlaceholder": "Напр. 25",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "breakEvenUnits": "Точка безубыточности (единиц)",
+    "breakEvenRevenue": "Точка безубыточности (выручка)",
+    "contributionMargin": "Маржинальный доход на единицу",
+    "contributionMarginRatio": "Коэффициент маржинального дохода",
+    "errorSamePrice": "Цена продажи должна быть выше переменных затрат."
+  },
+  "MeetingPlanner": {
+    "addTimezone": "Добавить часовой пояс",
+    "removeTimezone": "Удалить",
+    "yourTime": "Ваше время",
+    "selectTimezone": "Выбрать часовой пояс",
+    "dateLabel": "Дата",
+    "timeLabel": "Время",
+    "workingHours": "Рабочие часы (9:00 – 18:00)",
+    "outsideHours": "Вне рабочего времени",
+    "midnight": "Полночь",
+    "noon": "Полдень"
+  },
+  "YearProgress": {
+    "yearProgress": "Прогресс года",
+    "monthProgress": "Прогресс месяца",
+    "dayProgress": "Прогресс дня",
+    "elapsed": "Прошло",
+    "remaining": "Осталось",
+    "daysElapsed": "Прошло {days} дней",
+    "daysRemaining": "Осталось {days} дней",
+    "weeksRemaining": "Осталось {weeks} недель",
+    "currentDay": "День {day} из {total}",
+    "currentWeek": "Неделя {week} из 52",
+    "liveUpdate": "Обновляется каждую секунду"
   },
   "AboutPage": {
     "title": "О ToolsShed",

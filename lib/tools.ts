@@ -719,6 +719,53 @@ export const tools: Tool[] = [
     icon: "😴",
     keywords: ["sleep", "cycle", "wake up", "bedtime", "90 minutes", "rem", "calculator"],
   },
+  // Finance (new batch)
+  {
+    slug: "savings-goal-calculator",
+    name: "Savings Goal Calculator",
+    description: "Calculate how much you need to save each month to reach your financial goal.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "🏦",
+    keywords: ["savings", "goal", "monthly", "investment", "interest", "target", "finance"],
+  },
+  {
+    slug: "inflation-calculator",
+    name: "Inflation Calculator",
+    description: "Calculate the real value of money over time based on inflation rate.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "📈",
+    keywords: ["inflation", "purchasing power", "cpi", "real value", "money", "finance"],
+  },
+  {
+    slug: "break-even-calculator",
+    name: "Break-Even Calculator",
+    description: "Find the break-even point for your business based on costs and revenue.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "⚖️",
+    keywords: ["break-even", "fixed cost", "variable cost", "revenue", "profit", "business"],
+  },
+  // Time (new batch)
+  {
+    slug: "meeting-planner",
+    name: "Meeting Time Zone Planner",
+    description: "Find the best meeting time across multiple time zones simultaneously.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "🌍",
+    keywords: ["meeting", "time zone", "world clock", "schedule", "international", "remote"],
+  },
+  {
+    slug: "year-progress",
+    name: "Year Progress",
+    description: "See how much of the current year has passed and what's remaining.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "📅",
+    keywords: ["year", "progress", "remaining", "days", "2025", "calendar", "time"],
+  },
 ];
 
 export const categories: Category[] = [

@@ -536,6 +536,36 @@
       "description": "Finden Sie die beste Schlafens- oder Aufwachzeit basierend auf 90-minütigen Schlafzyklen.",
       "metaTitle": "Schlafzyklusrechner",
       "metaDescription": "Finden Sie die ideale Schlafens- oder Aufwachzeit basierend auf 90-minütigen Schlafzyklen. Jeden Morgen erholt aufwachen."
+    },
+    "savings-goal-calculator": {
+      "name": "Sparziel-Rechner",
+      "description": "Berechnen Sie, wie viel Sie monatlich sparen müssen, um Ihr finanzielles Ziel zu erreichen.",
+      "metaTitle": "Sparziel-Rechner",
+      "metaDescription": "Berechnen Sie die monatliche Sparrate, um Ihr Sparziel zu erreichen. Kostenloser Rechner mit Zinssatz."
+    },
+    "inflation-calculator": {
+      "name": "Inflationsrechner",
+      "description": "Berechnen Sie den realen Geldwert über die Zeit basierend auf der Inflationsrate.",
+      "metaTitle": "Inflationsrechner",
+      "metaDescription": "Berechnen Sie die Kaufkraft und den realen Geldwert angepasst an die Inflation. Kostenloser Inflationsrechner."
+    },
+    "break-even-calculator": {
+      "name": "Gewinnschwellen-Rechner",
+      "description": "Finden Sie den Break-Even-Punkt Ihres Unternehmens basierend auf Kosten und Umsatz.",
+      "metaTitle": "Gewinnschwellen-Rechner",
+      "metaDescription": "Berechnen Sie Ihren Break-Even-Punkt in Einheiten und Umsatz. Kostenloses Break-Even-Analyse-Tool."
+    },
+    "meeting-planner": {
+      "name": "Meeting-Zeitzonemplaner",
+      "description": "Finden Sie die beste Meeting-Zeit über mehrere Zeitzonen gleichzeitig.",
+      "metaTitle": "Meeting-Zeitzonemplaner",
+      "metaDescription": "Planen Sie Meetings über mehrere Zeitzonen hinweg. Finden Sie die beste Zeit für alle Teilnehmer."
+    },
+    "year-progress": {
+      "name": "Jahresfortschritt",
+      "description": "Sehen Sie, wie viel des aktuellen Jahres vergangen ist und was noch bleibt.",
+      "metaTitle": "Jahresfortschritt",
+      "metaDescription": "Sehen Sie den Fortschritt des Jahres und die verbleibenden Tage. Fortschritts-Tracker nach Tag, Woche und Monat."
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "Empfohlen",
     "fallAsleepNote": "Beinhaltet ~14 Minuten zum Einschlafen",
     "tipLabel": "Tipp: 5–6 Schlafzyklen (7,5–9 Stunden) sind für die meisten Erwachsenen ideal."
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "Sparziel ($)",
+    "goalPlaceholder": "z.B. 10000",
+    "currentLabel": "Aktuelle Ersparnisse ($)",
+    "currentPlaceholder": "z.B. 1000",
+    "rateLabel": "Jährlicher Zinssatz (%)",
+    "ratePlaceholder": "z.B. 5",
+    "yearsLabel": "Zeitraum (Jahre)",
+    "yearsPlaceholder": "z.B. 3",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "monthlySavings": "Benötigte Monatliche Sparrate",
+    "totalContributions": "Gesamte Einzahlungen",
+    "interestEarned": "Zinserträge",
+    "finalAmount": "Endbetrag"
+  },
+  "InflationCalculator": {
+    "amountLabel": "Ursprünglicher Betrag ($)",
+    "amountPlaceholder": "z.B. 1000",
+    "startYearLabel": "Startjahr",
+    "endYearLabel": "Endjahr",
+    "rateLabel": "Jährliche Inflationsrate (%)",
+    "ratePlaceholder": "z.B. 3",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "adjustedValue": "Angepasster Wert",
+    "purchasingPowerLost": "Kaufkraftverlust",
+    "totalInflation": "Gesamtinflation",
+    "equivalentToday": "Im Jahr {year} hatte ${amount} die gleiche Kaufkraft wie ${adjusted} heute."
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "Fixkosten ($)",
+    "fixedCostsPlaceholder": "z.B. 5000",
+    "variableCostLabel": "Variable Kosten pro Einheit ($)",
+    "variableCostPlaceholder": "z.B. 10",
+    "sellingPriceLabel": "Verkaufspreis pro Einheit ($)",
+    "sellingPricePlaceholder": "z.B. 25",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "breakEvenUnits": "Break-Even-Menge",
+    "breakEvenRevenue": "Break-Even-Umsatz",
+    "contributionMargin": "Deckungsbeitrag pro Einheit",
+    "contributionMarginRatio": "Deckungsbeitragsquote",
+    "errorSamePrice": "Der Verkaufspreis muss höher als die variablen Kosten sein."
+  },
+  "MeetingPlanner": {
+    "addTimezone": "Zeitzone Hinzufügen",
+    "removeTimezone": "Entfernen",
+    "yourTime": "Ihre Zeit",
+    "selectTimezone": "Zeitzone auswählen",
+    "dateLabel": "Datum",
+    "timeLabel": "Uhrzeit",
+    "workingHours": "Arbeitszeiten (9:00 - 18:00 Uhr)",
+    "outsideHours": "Außerhalb der Arbeitszeiten",
+    "midnight": "Mitternacht",
+    "noon": "Mittag"
+  },
+  "YearProgress": {
+    "yearProgress": "Jahresfortschritt",
+    "monthProgress": "Monatsfortschritt",
+    "dayProgress": "Tagesfortschritt",
+    "elapsed": "Vergangen",
+    "remaining": "Verbleibend",
+    "daysElapsed": "{days} Tage vergangen",
+    "daysRemaining": "Noch {days} Tage",
+    "weeksRemaining": "Noch {weeks} Wochen",
+    "currentDay": "Tag {day} von {total}",
+    "currentWeek": "Woche {week} von 52",
+    "liveUpdate": "Wird jede Sekunde aktualisiert"
   },
   "AboutPage": {
     "title": "Über ToolsShed",

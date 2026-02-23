@@ -536,6 +536,36 @@
       "description": "Temukan waktu tidur atau bangun terbaik berdasarkan siklus tidur 90 menit.",
       "metaTitle": "Kalkulator Siklus Tidur",
       "metaDescription": "Temukan waktu tidur atau bangun yang ideal berdasarkan siklus tidur 90 menit. Bangun segar setiap pagi."
+    },
+    "savings-goal-calculator": {
+      "name": "Kalkulator Target Tabungan",
+      "description": "Hitung berapa banyak yang perlu Anda tabung setiap bulan untuk mencapai target keuangan.",
+      "metaTitle": "Kalkulator Target Tabungan",
+      "metaDescription": "Hitung tabungan bulanan yang dibutuhkan untuk mencapai target keuangan. Kalkulator tabungan gratis dengan suku bunga."
+    },
+    "inflation-calculator": {
+      "name": "Kalkulator Inflasi",
+      "description": "Hitung nilai riil uang dari waktu ke waktu berdasarkan tingkat inflasi.",
+      "metaTitle": "Kalkulator Inflasi",
+      "metaDescription": "Hitung daya beli dan nilai riil uang yang disesuaikan dengan inflasi. Kalkulator inflasi online gratis."
+    },
+    "break-even-calculator": {
+      "name": "Kalkulator Titik Impas",
+      "description": "Temukan titik impas bisnis Anda berdasarkan biaya dan pendapatan.",
+      "metaTitle": "Kalkulator Titik Impas",
+      "metaDescription": "Hitung titik impas dalam unit dan pendapatan. Alat analisis titik impas gratis untuk bisnis."
+    },
+    "meeting-planner": {
+      "name": "Perencana Rapat Zona Waktu",
+      "description": "Temukan waktu rapat terbaik di beberapa zona waktu secara bersamaan.",
+      "metaTitle": "Perencana Rapat Zona Waktu",
+      "metaDescription": "Rencanakan rapat di beberapa zona waktu. Temukan waktu terbaik untuk semua peserta."
+    },
+    "year-progress": {
+      "name": "Progres Tahun",
+      "description": "Lihat berapa banyak tahun berjalan yang telah berlalu dan berapa yang tersisa.",
+      "metaTitle": "Progres Tahun",
+      "metaDescription": "Lihat progres tahun dan hari yang tersisa. Pelacak kemajuan per hari, minggu, dan bulan."
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "Direkomendasikan",
     "fallAsleepNote": "Termasuk ~14 menit untuk tertidur",
     "tipLabel": "Tips: 5-6 siklus tidur (7,5-9 jam) adalah ideal untuk kebanyakan orang dewasa."
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "Target Tabungan ($)",
+    "goalPlaceholder": "Contoh: 10000",
+    "currentLabel": "Tabungan Saat Ini ($)",
+    "currentPlaceholder": "Contoh: 1000",
+    "rateLabel": "Suku Bunga Tahunan (%)",
+    "ratePlaceholder": "Contoh: 5",
+    "yearsLabel": "Jangka Waktu (tahun)",
+    "yearsPlaceholder": "Contoh: 3",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "monthlySavings": "Tabungan Bulanan yang Dibutuhkan",
+    "totalContributions": "Total Setoran",
+    "interestEarned": "Bunga yang Diperoleh",
+    "finalAmount": "Jumlah Akhir"
+  },
+  "InflationCalculator": {
+    "amountLabel": "Jumlah Asal ($)",
+    "amountPlaceholder": "Contoh: 1000",
+    "startYearLabel": "Tahun Awal",
+    "endYearLabel": "Tahun Akhir",
+    "rateLabel": "Tingkat Inflasi Tahunan (%)",
+    "ratePlaceholder": "Contoh: 3",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "adjustedValue": "Nilai Disesuaikan",
+    "purchasingPowerLost": "Daya Beli yang Hilang",
+    "totalInflation": "Total Inflasi",
+    "equivalentToday": "Pada tahun {year}, ${amount} memiliki daya beli yang sama dengan ${adjusted} hari ini."
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "Biaya Tetap ($)",
+    "fixedCostsPlaceholder": "Contoh: 5000",
+    "variableCostLabel": "Biaya Variabel per Unit ($)",
+    "variableCostPlaceholder": "Contoh: 10",
+    "sellingPriceLabel": "Harga Jual per Unit ($)",
+    "sellingPricePlaceholder": "Contoh: 25",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "breakEvenUnits": "Unit Titik Impas",
+    "breakEvenRevenue": "Pendapatan Titik Impas",
+    "contributionMargin": "Margin Kontribusi per Unit",
+    "contributionMarginRatio": "Rasio Margin Kontribusi",
+    "errorSamePrice": "Harga jual harus lebih besar dari biaya variabel."
+  },
+  "MeetingPlanner": {
+    "addTimezone": "Tambah Zona Waktu",
+    "removeTimezone": "Hapus",
+    "yourTime": "Waktu Anda",
+    "selectTimezone": "Pilih zona waktu",
+    "dateLabel": "Tanggal",
+    "timeLabel": "Waktu",
+    "workingHours": "Jam kerja (09.00 - 18.00)",
+    "outsideHours": "Di luar jam kerja",
+    "midnight": "Tengah malam",
+    "noon": "Tengah hari"
+  },
+  "YearProgress": {
+    "yearProgress": "Progres Tahun",
+    "monthProgress": "Progres Bulan",
+    "dayProgress": "Progres Hari",
+    "elapsed": "Telah berlalu",
+    "remaining": "Tersisa",
+    "daysElapsed": "{days} hari telah berlalu",
+    "daysRemaining": "{days} hari tersisa",
+    "weeksRemaining": "{weeks} minggu tersisa",
+    "currentDay": "Hari ke-{day} dari {total}",
+    "currentWeek": "Minggu ke-{week} dari 52",
+    "liveUpdate": "Diperbarui setiap detik"
   },
   "AboutPage": {
     "title": "Tentang ToolsShed",

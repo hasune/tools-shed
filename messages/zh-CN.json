@@ -536,6 +536,36 @@
       "description": "根据90分钟睡眠周期找到最佳就寝或起床时间。",
       "metaTitle": "睡眠周期计算器",
       "metaDescription": "根据90分钟睡眠周期计算理想的就寝或起床时间。每天早晨精神抖擞地醒来。"
+    },
+    "savings-goal-calculator": {
+      "name": "储蓄目标计算器",
+      "description": "计算每月需要储蓄多少才能实现您的财务目标。",
+      "metaTitle": "储蓄目标计算器",
+      "metaDescription": "计算实现财务目标所需的月储蓄额。支持利率的免费储蓄目标计算器。"
+    },
+    "inflation-calculator": {
+      "name": "通货膨胀计算器",
+      "description": "根据通货膨胀率计算货币随时间的实际价值。",
+      "metaTitle": "通货膨胀计算器",
+      "metaDescription": "计算经通货膨胀调整后的购买力和货币实际价值。免费在线通胀计算器。"
+    },
+    "break-even-calculator": {
+      "name": "盈亏平衡计算器",
+      "description": "根据成本和收入计算业务的盈亏平衡点。",
+      "metaTitle": "盈亏平衡计算器",
+      "metaDescription": "计算单位数量和收入的盈亏平衡点。适合企业使用的免费在线盈亏平衡分析工具。"
+    },
+    "meeting-planner": {
+      "name": "会议时区规划器",
+      "description": "同时查看多个时区，找到最佳会议时间。",
+      "metaTitle": "会议时区规划器",
+      "metaDescription": "跨多个时区规划会议，找到所有人都方便的最佳时间。免费在线时区规划器。"
+    },
+    "year-progress": {
+      "name": "年度进度",
+      "description": "查看今年已过去多少，还剩多少时间。",
+      "metaTitle": "年度进度",
+      "metaDescription": "查看今年的进度和剩余天数。按日、周、月追踪时间进度。"
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "推荐",
     "fallAsleepNote": "包含约14分钟入睡时间",
     "tipLabel": "提示：5-6个睡眠周期（7.5-9小时）对大多数成年人来说是理想的。"
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "储蓄目标 ($)",
+    "goalPlaceholder": "例: 10000",
+    "currentLabel": "当前储蓄 ($)",
+    "currentPlaceholder": "例: 1000",
+    "rateLabel": "年利率 (%)",
+    "ratePlaceholder": "例: 5",
+    "yearsLabel": "期限（年）",
+    "yearsPlaceholder": "例: 3",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "monthlySavings": "每月所需储蓄",
+    "totalContributions": "总存入金额",
+    "interestEarned": "利息收益",
+    "finalAmount": "最终金额"
+  },
+  "InflationCalculator": {
+    "amountLabel": "原始金额 ($)",
+    "amountPlaceholder": "例: 1000",
+    "startYearLabel": "起始年份",
+    "endYearLabel": "结束年份",
+    "rateLabel": "年通货膨胀率 (%)",
+    "ratePlaceholder": "例: 3",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "adjustedValue": "调整后价值",
+    "purchasingPowerLost": "购买力损失",
+    "totalInflation": "总通胀率",
+    "equivalentToday": "{year}年的${amount}与今天的${adjusted}具有相同的购买力。"
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "固定成本 ($)",
+    "fixedCostsPlaceholder": "例: 5000",
+    "variableCostLabel": "单位可变成本 ($)",
+    "variableCostPlaceholder": "例: 10",
+    "sellingPriceLabel": "单位售价 ($)",
+    "sellingPricePlaceholder": "例: 25",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "breakEvenUnits": "盈亏平衡数量",
+    "breakEvenRevenue": "盈亏平衡收入",
+    "contributionMargin": "单位贡献利润",
+    "contributionMarginRatio": "贡献利润率",
+    "errorSamePrice": "售价必须大于可变成本。"
+  },
+  "MeetingPlanner": {
+    "addTimezone": "添加时区",
+    "removeTimezone": "移除",
+    "yourTime": "您的时间",
+    "selectTimezone": "选择时区",
+    "dateLabel": "日期",
+    "timeLabel": "时间",
+    "workingHours": "工作时间（上午9点至下午6点）",
+    "outsideHours": "非工作时间",
+    "midnight": "午夜",
+    "noon": "正午"
+  },
+  "YearProgress": {
+    "yearProgress": "年度进度",
+    "monthProgress": "月度进度",
+    "dayProgress": "日进度",
+    "elapsed": "已过",
+    "remaining": "剩余",
+    "daysElapsed": "已过{days}天",
+    "daysRemaining": "剩余{days}天",
+    "weeksRemaining": "剩余{weeks}周",
+    "currentDay": "第{day}天（共{total}天）",
+    "currentWeek": "第{week}周（共52周）",
+    "liveUpdate": "每秒更新"
   },
   "AboutPage": {
     "title": "关于 ToolsShed",

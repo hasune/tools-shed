@@ -536,6 +536,36 @@
       "description": "Trova il miglior orario per dormire o svegliarsi basato su cicli del sonno di 90 minuti.",
       "metaTitle": "Calcolatore Cicli del Sonno",
       "metaDescription": "Trova l'orario ideale per dormire o svegliarsi basato su cicli del sonno di 90 minuti. Svegliati riposato ogni mattina."
+    },
+    "savings-goal-calculator": {
+      "name": "Calcolatore Obiettivo di Risparmio",
+      "description": "Calcola quanto devi risparmiare ogni mese per raggiungere il tuo obiettivo finanziario.",
+      "metaTitle": "Calcolatore Obiettivo di Risparmio",
+      "metaDescription": "Calcola il risparmio mensile necessario per raggiungere il tuo obiettivo finanziario. Calcolatore gratuito con tasso di interesse."
+    },
+    "inflation-calculator": {
+      "name": "Calcolatore dell'Inflazione",
+      "description": "Calcola il valore reale del denaro nel tempo in base al tasso di inflazione.",
+      "metaTitle": "Calcolatore dell'Inflazione",
+      "metaDescription": "Calcola il potere d'acquisto e il valore reale del denaro corretto per l'inflazione. Calcolatore di inflazione gratuito."
+    },
+    "break-even-calculator": {
+      "name": "Calcolatore del Punto di Pareggio",
+      "description": "Trova il punto di pareggio della tua azienda in base a costi e ricavi.",
+      "metaTitle": "Calcolatore del Punto di Pareggio",
+      "metaDescription": "Calcola il punto di pareggio in unità e ricavi. Strumento gratuito di analisi del punto di pareggio."
+    },
+    "meeting-planner": {
+      "name": "Pianificatore Riunioni per Fuso Orario",
+      "description": "Trova il miglior orario per riunioni in più fusi orari contemporaneamente.",
+      "metaTitle": "Pianificatore Riunioni per Fuso Orario",
+      "metaDescription": "Pianifica riunioni in più fusi orari. Trova il momento migliore per tutti i partecipanti."
+    },
+    "year-progress": {
+      "name": "Progresso dell'Anno",
+      "description": "Guarda quanto dell'anno corrente è trascorso e quanto resta.",
+      "metaTitle": "Progresso dell'Anno",
+      "metaDescription": "Guarda il progresso dell'anno e i giorni rimanenti. Tracker di progresso per giorno, settimana e mese."
     }
   },
   "Common": {
@@ -1497,6 +1527,76 @@
     "recommendedLabel": "Consigliato",
     "fallAsleepNote": "Include ~14 minuti per addormentarsi",
     "tipLabel": "Suggerimento: 5-6 cicli di sonno (7,5-9 ore) è ideale per la maggior parte degli adulti."
+  },
+  "SavingsGoalCalculator": {
+    "goalLabel": "Obiettivo di Risparmio ($)",
+    "goalPlaceholder": "Es. 10000",
+    "currentLabel": "Risparmi Attuali ($)",
+    "currentPlaceholder": "Es. 1000",
+    "rateLabel": "Tasso di Interesse Annuo (%)",
+    "ratePlaceholder": "Es. 5",
+    "yearsLabel": "Periodo (anni)",
+    "yearsPlaceholder": "Es. 3",
+    "calculateButton": "Calcola",
+    "clearButton": "Cancella",
+    "monthlySavings": "Risparmio Mensile Necessario",
+    "totalContributions": "Totale Versamenti",
+    "interestEarned": "Interessi Maturati",
+    "finalAmount": "Importo Finale"
+  },
+  "InflationCalculator": {
+    "amountLabel": "Importo Originale ($)",
+    "amountPlaceholder": "Es. 1000",
+    "startYearLabel": "Anno Iniziale",
+    "endYearLabel": "Anno Finale",
+    "rateLabel": "Tasso di Inflazione Annuo (%)",
+    "ratePlaceholder": "Es. 3",
+    "calculateButton": "Calcola",
+    "clearButton": "Cancella",
+    "adjustedValue": "Valore Adeguato",
+    "purchasingPowerLost": "Perdita di Potere d'Acquisto",
+    "totalInflation": "Inflazione Totale",
+    "equivalentToday": "Nel {year}, ${amount} aveva lo stesso potere d'acquisto di ${adjusted} oggi."
+  },
+  "BreakEvenCalculator": {
+    "fixedCostsLabel": "Costi Fissi ($)",
+    "fixedCostsPlaceholder": "Es. 5000",
+    "variableCostLabel": "Costo Variabile per Unità ($)",
+    "variableCostPlaceholder": "Es. 10",
+    "sellingPriceLabel": "Prezzo di Vendita per Unità ($)",
+    "sellingPricePlaceholder": "Es. 25",
+    "calculateButton": "Calcola",
+    "clearButton": "Cancella",
+    "breakEvenUnits": "Unità al Punto di Pareggio",
+    "breakEvenRevenue": "Ricavi al Punto di Pareggio",
+    "contributionMargin": "Margine di Contribuzione per Unità",
+    "contributionMarginRatio": "Indice di Contribuzione",
+    "errorSamePrice": "Il prezzo di vendita deve essere maggiore del costo variabile."
+  },
+  "MeetingPlanner": {
+    "addTimezone": "Aggiungi Fuso Orario",
+    "removeTimezone": "Rimuovi",
+    "yourTime": "Il Tuo Orario",
+    "selectTimezone": "Seleziona fuso orario",
+    "dateLabel": "Data",
+    "timeLabel": "Ora",
+    "workingHours": "Orario lavorativo (9:00 - 18:00)",
+    "outsideHours": "Fuori orario lavorativo",
+    "midnight": "Mezzanotte",
+    "noon": "Mezzogiorno"
+  },
+  "YearProgress": {
+    "yearProgress": "Progresso dell'Anno",
+    "monthProgress": "Progresso del Mese",
+    "dayProgress": "Progresso del Giorno",
+    "elapsed": "Trascorso",
+    "remaining": "Rimanente",
+    "daysElapsed": "{days} giorni trascorsi",
+    "daysRemaining": "{days} giorni rimanenti",
+    "weeksRemaining": "{weeks} settimane rimanenti",
+    "currentDay": "Giorno {day} di {total}",
+    "currentWeek": "Settimana {week} di 52",
+    "liveUpdate": "Aggiornamento ogni secondo"
   },
   "AboutPage": {
     "title": "Chi siamo - ToolsShed",

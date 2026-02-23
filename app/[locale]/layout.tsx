@@ -90,11 +90,11 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale}>
       <head>
         {/* Google AdSense */}
-        <Script
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6229200956587599"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
       </head>
       <body className="flex flex-col min-h-screen">

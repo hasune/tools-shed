@@ -398,6 +398,60 @@
       "description": "Berechnet die empfohlene tägliche Wasseraufnahme basierend auf Gewicht und Aktivität.",
       "metaTitle": "Wasserbedarfsrechner",
       "metaDescription": "Empfohlene tägliche Wasseraufnahme nach Gewicht und Aktivitätslevel berechnen. Kostenloser Online-Rechner."
+    },
+    "statistics-calculator": {
+      "name": "Statistikrechner",
+      "description": "Berechne Mittelwert, Median, Modus, Standardabweichung, Varianz und mehr.",
+      "metaTitle": "Statistikrechner",
+      "metaDescription": "Berechne Mittelwert, Median, Modus, Standardabweichung, Varianz und Spannweite. Kostenloser Online-Rechner."
+    },
+    "fraction-calculator": {
+      "name": "Bruchrechner",
+      "description": "Addiere, subtrahiere, multipliziere und dividiere Brüche mit Schritt-für-Schritt-Lösungen.",
+      "metaTitle": "Bruchrechner",
+      "metaDescription": "Berechne Bruchoperationen mit Schritt-für-Schritt-Lösungen. Kostenloser Online-Bruchrechner."
+    },
+    "roman-numeral-converter": {
+      "name": "Römische Zahlen Konverter",
+      "description": "Konvertiere sofort zwischen arabischen und römischen Zahlen.",
+      "metaTitle": "Römische Zahlen Konverter",
+      "metaDescription": "Konvertiere zwischen arabischen und römischen Zahlen (1–3999). Kostenloser Online-Konverter."
+    },
+    "number-to-words": {
+      "name": "Zahl in Wörter",
+      "description": "Wandle Zahlen in englische Wörter um (z.B. 1234 → one thousand two hundred thirty-four).",
+      "metaTitle": "Zahl-zu-Wörter-Konverter",
+      "metaDescription": "Wandle Zahlen in englische Wörter um. Kostenloser Online-Konverter."
+    },
+    "color-palette": {
+      "name": "Farbpaletten-Generator",
+      "description": "Generiere komplementäre, analoge, triadische und andere Farbpaletten aus einer Grundfarbe.",
+      "metaTitle": "Farbpaletten-Generator",
+      "metaDescription": "Generiere Farbpaletten: komplementär, analog, triadisch und mehr. Kostenloser Online-Generator."
+    },
+    "image-to-base64": {
+      "name": "Bild zu Base64",
+      "description": "Konvertiere Bilder in Base64-Daten-URLs zum Einbetten in HTML oder CSS.",
+      "metaTitle": "Bild-zu-Base64-Konverter",
+      "metaDescription": "Konvertiere PNG, JPG, SVG, GIF in Base64-URLs. Kostenloser Online-Bildkodierer."
+    },
+    "text-sorter": {
+      "name": "Textsortierung",
+      "description": "Sortiere Textzeilen alphabetisch, nach Länge oder zufällig.",
+      "metaTitle": "Textsortierung",
+      "metaDescription": "Sortiere Textzeilen alphabetisch, nach Länge oder zufällig. Kostenloses Online-Tool."
+    },
+    "emoji-picker": {
+      "name": "Emoji-Auswahl",
+      "description": "Durchsuche und kopiere Emojis sofort in die Zwischenablage.",
+      "metaTitle": "Emoji-Auswahl",
+      "metaDescription": "Durchsuche und kopiere Emojis nach Kategorie. Kostenloses Online-Tool."
+    },
+    "line-deduplicator": {
+      "name": "Duplikate entfernen",
+      "description": "Entferne doppelte Zeilen aus Text mit Optionen für Groß-/Kleinschreibung und Sortierung.",
+      "metaTitle": "Doppelte Zeilen entfernen",
+      "metaDescription": "Entferne doppelte Zeilen aus beliebigem Text. Kostenloses Tool mit Optionen."
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "Daten (durch Komma, Leerzeichen oder Zeilenumbruch getrennt)",
+    "inputPlaceholder": "z.B. 4, 8, 15, 16, 23, 42",
+    "calculateButton": "Berechnen",
+    "count": "Anzahl",
+    "sum": "Summe",
+    "min": "Minimum",
+    "max": "Maximum",
+    "range": "Spannweite",
+    "mean": "Mittelwert",
+    "median": "Median",
+    "mode": "Modus",
+    "variance": "Varianz",
+    "stdDev": "Standardabw.",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "Kein Modus",
+    "sortedData": "Sortierte Daten"
+  },
+  "FractionCalculator": {
+    "fraction1": "Bruch 1",
+    "fraction2": "Bruch 2",
+    "operation": "Operation",
+    "add": "Addition (+)",
+    "subtract": "Subtraktion (−)",
+    "multiply": "Multiplikation (×)",
+    "divide": "Division (÷)",
+    "calculateButton": "Berechnen",
+    "result": "Ergebnis",
+    "simplified": "Gekürzt",
+    "decimal": "Dezimal",
+    "steps": "Schritte",
+    "numerator": "Zähler",
+    "denominator": "Nenner",
+    "zeroDenominator": "Nenner darf nicht null sein",
+    "divideByZero": "Division durch null nicht möglich"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "Arabische Zahl (1–3999)",
+    "romanLabel": "Römische Zahl",
+    "arabicPlaceholder": "z.B. 2024",
+    "romanPlaceholder": "z.B. MMXXIV",
+    "invalidArabic": "Bitte eine Zahl zwischen 1 und 3999 eingeben",
+    "invalidRoman": "Ungültige römische Zahl",
+    "referenceTitle": "Kurzreferenz"
+  },
+  "NumberToWords": {
+    "inputLabel": "Zahl",
+    "inputPlaceholder": "z.B. 1234567",
+    "convertButton": "Umwandeln",
+    "result": "In Worten",
+    "ordinal": "Ordinalzahl",
+    "ordinalToggle": "Ordinalzahl anzeigen",
+    "invalidNumber": "Bitte eine gültige Zahl eingeben"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "Grundfarbe",
+    "paletteType": "Palettentyp",
+    "complementary": "Komplementär",
+    "analogous": "Analog",
+    "triadic": "Triadisch",
+    "splitComplementary": "Geteilte Komplementärfarbe",
+    "tetradic": "Tetradisch",
+    "monochromatic": "Monochromatisch",
+    "generateButton": "Generieren",
+    "clickToCopy": "Klicken zum Kopieren",
+    "colorCopied": "Kopiert!"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "Bild hierher ziehen oder klicken",
+    "dropZoneHint": "Unterstützt PNG, JPG, GIF, WebP, SVG",
+    "fileName": "Dateiname",
+    "fileSize": "Dateigröße",
+    "dimensions": "Abmessungen",
+    "mimeType": "MIME-Typ",
+    "dataUrl": "Daten-URL",
+    "base64Only": "Nur Base64",
+    "copyDataUrl": "Daten-URL kopieren",
+    "copyBase64": "Base64 kopieren",
+    "clearButton": "Löschen",
+    "previewLabel": "Vorschau"
+  },
+  "TextSorter": {
+    "inputLabel": "Eingabe (ein Element pro Zeile)",
+    "inputPlaceholder": "Zeilen hier einfügen...",
+    "outputLabel": "Sortierergebnis",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "Länge ↑",
+    "sortLengthDesc": "Länge ↓",
+    "sortRandom": "Zufällig",
+    "sortButton": "Sortieren",
+    "optionCaseInsensitive": "Groß-/Kleinschreibung ignorieren",
+    "optionTrimLines": "Leerzeichen entfernen",
+    "optionRemoveEmpty": "Leerzeilen entfernen",
+    "optionRemoveDuplicates": "Duplikate entfernen",
+    "lineCount": "{count} Zeilen"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "Emojis suchen...",
+    "allCategory": "Alle",
+    "smileysCategory": "Gesichter",
+    "peopleCategory": "Personen",
+    "animalsCategory": "Tiere",
+    "foodCategory": "Essen",
+    "travelCategory": "Reisen",
+    "objectsCategory": "Objekte",
+    "symbolsCategory": "Symbole",
+    "noResults": "Keine Emojis gefunden",
+    "clickToCopy": "Klicken zum Kopieren",
+    "copied": "Kopiert!"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "Eingabe",
+    "inputPlaceholder": "Text mit doppelten Zeilen einfügen...",
+    "outputLabel": "Ausgabe",
+    "processButton": "Duplikate entfernen",
+    "optionCaseInsensitive": "Groß-/Kleinschreibung ignorieren",
+    "optionTrimLines": "Leerzeichen entfernen",
+    "optionRemoveEmpty": "Leerzeilen entfernen",
+    "optionSort": "Ergebnis sortieren",
+    "originalLines": "Originalzeilen",
+    "uniqueLines": "Einzigartige Zeilen",
+    "removedLines": "Entfernt"
   },
   "AboutPage": {
     "title": "Über ToolsShed",

@@ -398,6 +398,60 @@
       "description": "体重と活動量に基づいた1日の推奨水分摂取量を計算します。",
       "metaTitle": "水分摂取量計算",
       "metaDescription": "体重と活動レベルに基づいた1日の推奨水分摂取量を計算する無料オンラインツール。"
+    },
+    "statistics-calculator": {
+      "name": "統計計算機",
+      "description": "平均、中央値、最頻値、標準偏差、分散などを計算します。",
+      "metaTitle": "統計計算機",
+      "metaDescription": "データセットから平均、中央値、最頻値、標準偏差、分散、範囲を計算します。無料オンライン統計計算機。"
+    },
+    "fraction-calculator": {
+      "name": "分数計算機",
+      "description": "分数の加算、減算、乗算、除算をステップごとの解説付きで計算します。",
+      "metaTitle": "分数計算機",
+      "metaDescription": "分数の四則演算をステップごとの解説付きで計算します。無料オンライン分数計算機。"
+    },
+    "roman-numeral-converter": {
+      "name": "ローマ数字変換",
+      "description": "アラビア数字とローマ数字を相互に変換します。",
+      "metaTitle": "ローマ数字変換",
+      "metaDescription": "アラビア数字とローマ数字を変換します（1〜3999）。無料オンラインローマ数字変換ツール。"
+    },
+    "number-to-words": {
+      "name": "数字を英語に変換",
+      "description": "数字を英語の単語に変換します（例：1234 → one thousand two hundred thirty-four）。",
+      "metaTitle": "数字を英語に変換",
+      "metaDescription": "数字を英語の単語に変換します。無料オンライン変換ツール。"
+    },
+    "color-palette": {
+      "name": "カラーパレット生成",
+      "description": "ベースカラーから補色、類似色、三角配色などのカラーパレットを生成します。",
+      "metaTitle": "カラーパレット生成",
+      "metaDescription": "任意のベースカラーから補色・類似色・三角配色などのパレットを生成します。無料オンラインカラーパレットジェネレーター。"
+    },
+    "image-to-base64": {
+      "name": "画像をBase64に変換",
+      "description": "画像ファイルをHTMLやCSSに埋め込むためのBase64データURLに変換します。",
+      "metaTitle": "画像をBase64に変換",
+      "metaDescription": "PNG、JPG、SVG、GIF画像をBase64データURLに変換してHTMLやCSSに埋め込めます。無料オンライン画像エンコーダー。"
+    },
+    "text-sorter": {
+      "name": "テキスト並べ替え",
+      "description": "テキストの行をアルファベット順、長さ順、またはランダムに並べ替えます。",
+      "metaTitle": "テキスト並べ替えツール",
+      "metaDescription": "テキストの行をアルファベット順・長さ順・ランダムに並べ替えます。無料オンラインテキスト並べ替えツール。"
+    },
+    "emoji-picker": {
+      "name": "絵文字ピッカー",
+      "description": "絵文字を検索してクリップボードにコピーします。",
+      "metaTitle": "絵文字ピッカー",
+      "metaDescription": "絵文字をカテゴリ別に検索してクリップボードにコピーできます。無料オンライン絵文字ピッカー。"
+    },
+    "line-deduplicator": {
+      "name": "重複行削除",
+      "description": "テキストから重複した行を削除します。",
+      "metaTitle": "重複行削除ツール",
+      "metaDescription": "テキストから重複行を削除します。大文字小文字の区別とソートオプション付き。無料オンライン重複行削除ツール。"
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "言語"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "データ（カンマ、スペース、または改行区切り）",
+    "inputPlaceholder": "例：4, 8, 15, 16, 23, 42",
+    "calculateButton": "計算",
+    "count": "件数",
+    "sum": "合計",
+    "min": "最小値",
+    "max": "最大値",
+    "range": "範囲",
+    "mean": "平均",
+    "median": "中央値",
+    "mode": "最頻値",
+    "variance": "分散",
+    "stdDev": "標準偏差",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "最頻値なし",
+    "sortedData": "ソート済みデータ"
+  },
+  "FractionCalculator": {
+    "fraction1": "分数1",
+    "fraction2": "分数2",
+    "operation": "演算",
+    "add": "加算 (+)",
+    "subtract": "減算 (−)",
+    "multiply": "乗算 (×)",
+    "divide": "除算 (÷)",
+    "calculateButton": "計算",
+    "result": "結果",
+    "simplified": "約分後",
+    "decimal": "小数",
+    "steps": "計算手順",
+    "numerator": "分子",
+    "denominator": "分母",
+    "zeroDenominator": "分母はゼロにできません",
+    "divideByZero": "ゼロで割ることはできません"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "アラビア数字（1〜3999）",
+    "romanLabel": "ローマ数字",
+    "arabicPlaceholder": "例：2024",
+    "romanPlaceholder": "例：MMXXIV",
+    "invalidArabic": "1〜3999の数字を入力してください",
+    "invalidRoman": "無効なローマ数字です",
+    "referenceTitle": "早見表"
+  },
+  "NumberToWords": {
+    "inputLabel": "数字",
+    "inputPlaceholder": "例：1234567",
+    "convertButton": "変換",
+    "result": "英語表記",
+    "ordinal": "序数",
+    "ordinalToggle": "序数を表示",
+    "invalidNumber": "有効な数字を入力してください"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "ベースカラー",
+    "paletteType": "パレットタイプ",
+    "complementary": "補色",
+    "analogous": "類似色",
+    "triadic": "三角配色",
+    "splitComplementary": "スプリット補色",
+    "tetradic": "四角配色",
+    "monochromatic": "モノクロマティック",
+    "generateButton": "生成",
+    "clickToCopy": "クリックしてHEXをコピー",
+    "colorCopied": "コピーしました！"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "ここに画像をドラッグ＆ドロップするか、クリックして選択",
+    "dropZoneHint": "PNG、JPG、GIF、WebP、SVGに対応",
+    "fileName": "ファイル名",
+    "fileSize": "ファイルサイズ",
+    "dimensions": "サイズ",
+    "mimeType": "MIMEタイプ",
+    "dataUrl": "データURL",
+    "base64Only": "Base64のみ",
+    "copyDataUrl": "データURLをコピー",
+    "copyBase64": "Base64をコピー",
+    "clearButton": "クリア",
+    "previewLabel": "プレビュー"
+  },
+  "TextSorter": {
+    "inputLabel": "入力（1行1項目）",
+    "inputPlaceholder": "テキストをここに貼り付けてください...",
+    "outputLabel": "並べ替え結果",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "文字数 ↑",
+    "sortLengthDesc": "文字数 ↓",
+    "sortRandom": "ランダム",
+    "sortButton": "並べ替え",
+    "optionCaseInsensitive": "大文字小文字を区別しない",
+    "optionTrimLines": "前後の空白を削除",
+    "optionRemoveEmpty": "空行を削除",
+    "optionRemoveDuplicates": "重複を削除",
+    "lineCount": "{count}行"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "絵文字を検索...",
+    "allCategory": "すべて",
+    "smileysCategory": "顔・感情",
+    "peopleCategory": "人物",
+    "animalsCategory": "動物",
+    "foodCategory": "食べ物",
+    "travelCategory": "旅行",
+    "objectsCategory": "物",
+    "symbolsCategory": "記号",
+    "noResults": "絵文字が見つかりません",
+    "clickToCopy": "クリックしてコピー",
+    "copied": "コピーしました！"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "入力",
+    "inputPlaceholder": "重複行を含むテキストを貼り付けてください...",
+    "outputLabel": "出力",
+    "processButton": "重複を削除",
+    "optionCaseInsensitive": "大文字小文字を区別しない",
+    "optionTrimLines": "前後の空白を削除",
+    "optionRemoveEmpty": "空行を削除",
+    "optionSort": "結果をソート",
+    "originalLines": "元の行数",
+    "uniqueLines": "ユニーク行数",
+    "removedLines": "削除数"
   },
   "AboutPage": {
     "title": "ToolsShed について",

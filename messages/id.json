@@ -398,6 +398,60 @@
       "description": "Menghitung asupan air harian yang direkomendasikan berdasarkan berat dan tingkat aktivitas.",
       "metaTitle": "Kalkulator Asupan Air",
       "metaDescription": "Hitung asupan air harian yang direkomendasikan berdasarkan berat dan tingkat aktivitas. Alat online gratis."
+    },
+    "statistics-calculator": {
+      "name": "Kalkulator Statistik",
+      "description": "Hitung rata-rata, median, modus, deviasi standar, varians, dan lainnya.",
+      "metaTitle": "Kalkulator Statistik",
+      "metaDescription": "Hitung rata-rata, median, modus, deviasi standar, varians, dan rentang. Kalkulator gratis online."
+    },
+    "fraction-calculator": {
+      "name": "Kalkulator Pecahan",
+      "description": "Jumlahkan, kurangkan, kalikan, dan bagi pecahan dengan solusi langkah demi langkah.",
+      "metaTitle": "Kalkulator Pecahan",
+      "metaDescription": "Hitung operasi pecahan dengan solusi langkah demi langkah. Kalkulator gratis online."
+    },
+    "roman-numeral-converter": {
+      "name": "Konverter Angka Romawi",
+      "description": "Konversi antara angka Arab dan Romawi secara instan.",
+      "metaTitle": "Konverter Angka Romawi",
+      "metaDescription": "Konversi antara angka Arab dan Romawi (1–3999). Konverter gratis online."
+    },
+    "number-to-words": {
+      "name": "Angka ke Kata",
+      "description": "Konversi angka ke kata-kata dalam bahasa Inggris (mis: 1234 → one thousand two hundred thirty-four).",
+      "metaTitle": "Konverter Angka ke Kata",
+      "metaDescription": "Konversi angka ke kata-kata dalam bahasa Inggris. Konverter gratis online."
+    },
+    "color-palette": {
+      "name": "Generator Palet Warna",
+      "description": "Buat palet warna komplementer, analog, triadik, dan lainnya dari warna dasar.",
+      "metaTitle": "Generator Palet Warna",
+      "metaDescription": "Buat palet warna komplementer, analog, dan triadik. Generator palet gratis online."
+    },
+    "image-to-base64": {
+      "name": "Gambar ke Base64",
+      "description": "Konversi file gambar ke URL data Base64 untuk disematkan di HTML atau CSS.",
+      "metaTitle": "Konverter Gambar ke Base64",
+      "metaDescription": "Konversi PNG, JPG, SVG, GIF ke URL Base64. Pengkode gambar gratis online."
+    },
+    "text-sorter": {
+      "name": "Pengurut Teks",
+      "description": "Urutkan baris teks secara alfabetis, berdasarkan panjang, atau acak.",
+      "metaTitle": "Alat Pengurutan Teks",
+      "metaDescription": "Urutkan baris teks secara alfabetis, berdasarkan panjang, atau acak. Alat gratis online."
+    },
+    "emoji-picker": {
+      "name": "Pemilih Emoji",
+      "description": "Cari dan salin emoji ke clipboard secara instan.",
+      "metaTitle": "Pemilih Emoji",
+      "metaDescription": "Cari dan salin emoji berdasarkan kategori. Alat gratis online."
+    },
+    "line-deduplicator": {
+      "name": "Penghapus Duplikat",
+      "description": "Hapus baris duplikat dari teks dengan opsi sensitivitas huruf dan pengurutan.",
+      "metaTitle": "Alat Penghapus Baris Duplikat",
+      "metaDescription": "Hapus baris duplikat dari teks apa pun. Alat gratis dengan opsi huruf dan pengurutan."
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "Bahasa"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "Data (dipisah koma, spasi, atau baris baru)",
+    "inputPlaceholder": "mis: 4, 8, 15, 16, 23, 42",
+    "calculateButton": "Hitung",
+    "count": "Jumlah",
+    "sum": "Total",
+    "min": "Minimum",
+    "max": "Maksimum",
+    "range": "Rentang",
+    "mean": "Rata-rata",
+    "median": "Median",
+    "mode": "Modus",
+    "variance": "Varians",
+    "stdDev": "Std. Dev.",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "Tidak ada modus",
+    "sortedData": "Data terurut"
+  },
+  "FractionCalculator": {
+    "fraction1": "Pecahan 1",
+    "fraction2": "Pecahan 2",
+    "operation": "Operasi",
+    "add": "Penjumlahan (+)",
+    "subtract": "Pengurangan (−)",
+    "multiply": "Perkalian (×)",
+    "divide": "Pembagian (÷)",
+    "calculateButton": "Hitung",
+    "result": "Hasil",
+    "simplified": "Disederhanakan",
+    "decimal": "Desimal",
+    "steps": "Langkah-langkah",
+    "numerator": "Pembilang",
+    "denominator": "Penyebut",
+    "zeroDenominator": "Penyebut tidak boleh nol",
+    "divideByZero": "Tidak bisa dibagi nol"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "Angka Arab (1–3999)",
+    "romanLabel": "Angka Romawi",
+    "arabicPlaceholder": "mis: 2024",
+    "romanPlaceholder": "mis: MMXXIV",
+    "invalidArabic": "Masukkan angka antara 1 dan 3999",
+    "invalidRoman": "Angka Romawi tidak valid",
+    "referenceTitle": "Referensi cepat"
+  },
+  "NumberToWords": {
+    "inputLabel": "Angka",
+    "inputPlaceholder": "mis: 1234567",
+    "convertButton": "Konversi",
+    "result": "Dalam kata-kata",
+    "ordinal": "Ordinal",
+    "ordinalToggle": "Tampilkan ordinal",
+    "invalidNumber": "Masukkan angka yang valid"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "Warna dasar",
+    "paletteType": "Jenis palet",
+    "complementary": "Komplementer",
+    "analogous": "Analog",
+    "triadic": "Triadik",
+    "splitComplementary": "Komplementer terpisah",
+    "tetradic": "Tetradik",
+    "monochromatic": "Monokromatik",
+    "generateButton": "Buat",
+    "clickToCopy": "Klik untuk menyalin hex",
+    "colorCopied": "Disalin!"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "Seret gambar ke sini atau klik untuk memilih",
+    "dropZoneHint": "Mendukung PNG, JPG, GIF, WebP, SVG",
+    "fileName": "Nama file",
+    "fileSize": "Ukuran file",
+    "dimensions": "Dimensi",
+    "mimeType": "Tipe MIME",
+    "dataUrl": "URL data",
+    "base64Only": "Hanya Base64",
+    "copyDataUrl": "Salin URL data",
+    "copyBase64": "Salin Base64",
+    "clearButton": "Hapus",
+    "previewLabel": "Pratinjau"
+  },
+  "TextSorter": {
+    "inputLabel": "Input (satu item per baris)",
+    "inputPlaceholder": "Tempelkan baris Anda di sini...",
+    "outputLabel": "Hasil urutan",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "Panjang ↑",
+    "sortLengthDesc": "Panjang ↓",
+    "sortRandom": "Acak",
+    "sortButton": "Urutkan",
+    "optionCaseInsensitive": "Abaikan huruf besar/kecil",
+    "optionTrimLines": "Hapus spasi",
+    "optionRemoveEmpty": "Hapus baris kosong",
+    "optionRemoveDuplicates": "Hapus duplikat",
+    "lineCount": "{count} baris"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "Cari emoji...",
+    "allCategory": "Semua",
+    "smileysCategory": "Wajah",
+    "peopleCategory": "Orang",
+    "animalsCategory": "Hewan",
+    "foodCategory": "Makanan",
+    "travelCategory": "Perjalanan",
+    "objectsCategory": "Benda",
+    "symbolsCategory": "Simbol",
+    "noResults": "Tidak ada emoji ditemukan",
+    "clickToCopy": "Klik untuk menyalin",
+    "copied": "Disalin!"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "Input",
+    "inputPlaceholder": "Tempelkan teks dengan baris duplikat...",
+    "outputLabel": "Output",
+    "processButton": "Hapus duplikat",
+    "optionCaseInsensitive": "Abaikan huruf besar/kecil",
+    "optionTrimLines": "Hapus spasi",
+    "optionRemoveEmpty": "Hapus baris kosong",
+    "optionSort": "Urutkan hasil",
+    "originalLines": "Baris asli",
+    "uniqueLines": "Baris unik",
+    "removedLines": "Dihapus"
   },
   "AboutPage": {
     "title": "Tentang ToolsShed",

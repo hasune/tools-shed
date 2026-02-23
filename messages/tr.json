@@ -398,6 +398,60 @@
       "description": "Kilo ve aktivite düzeyine göre günlük önerilen su tüketimini hesaplar.",
       "metaTitle": "Su Tüketimi Hesaplayıcı",
       "metaDescription": "Kilo ve aktivite düzeyine göre günlük önerilen su tüketimini hesaplayın. Ücretsiz online araç."
+    },
+    "statistics-calculator": {
+      "name": "İstatistik Hesaplayıcı",
+      "description": "Ortalama, medyan, mod, standart sapma, varyans ve daha fazlasını hesaplayın.",
+      "metaTitle": "İstatistik Hesaplayıcı",
+      "metaDescription": "Ortalama, medyan, mod, standart sapma, varyans ve aralık hesaplayın. Ücretsiz çevrimiçi araç."
+    },
+    "fraction-calculator": {
+      "name": "Kesir Hesaplayıcı",
+      "description": "Adım adım çözümlerle kesirleri toplayın, çıkarın, çarpın ve bölün.",
+      "metaTitle": "Kesir Hesaplayıcı",
+      "metaDescription": "Kesir işlemlerini adım adım çözümlerle hesaplayın. Ücretsiz çevrimiçi hesaplayıcı."
+    },
+    "roman-numeral-converter": {
+      "name": "Roma Rakamı Dönüştürücü",
+      "description": "Arap ve Roma rakamları arasında anında dönüşüm yapın.",
+      "metaTitle": "Roma Rakamı Dönüştürücü",
+      "metaDescription": "Arap ve Roma rakamları arasında dönüşüm yapın (1–3999). Ücretsiz çevrimiçi araç."
+    },
+    "number-to-words": {
+      "name": "Sayıdan Kelimeye",
+      "description": "Sayıları İngilizce kelimelere dönüştürün (örn: 1234 → one thousand two hundred thirty-four).",
+      "metaTitle": "Sayı-Kelime Dönüştürücü",
+      "metaDescription": "Sayıları İngilizce kelimelere dönüştürün. Ücretsiz çevrimiçi araç."
+    },
+    "color-palette": {
+      "name": "Renk Paleti Oluşturucu",
+      "description": "Temel renkten tamamlayıcı, analog, triadik ve diğer renk paletleri oluşturun.",
+      "metaTitle": "Renk Paleti Oluşturucu",
+      "metaDescription": "Tamamlayıcı, analog, triadik renk paletleri oluşturun. Ücretsiz çevrimiçi araç."
+    },
+    "image-to-base64": {
+      "name": "Görsel → Base64",
+      "description": "Görselleri HTML veya CSS'e gömmek için Base64 veri URL'sine dönüştürün.",
+      "metaTitle": "Görsel Base64 Dönüştürücü",
+      "metaDescription": "PNG, JPG, SVG, GIF görsellerini Base64 URL'ye dönüştürün. Ücretsiz çevrimiçi araç."
+    },
+    "text-sorter": {
+      "name": "Metin Sıralayıcı",
+      "description": "Metin satırlarını alfabetik, uzunluğa göre veya rastgele sıralayın.",
+      "metaTitle": "Metin Sıralama Aracı",
+      "metaDescription": "Metin satırlarını alfabetik, uzunluğa göre veya rastgele sıralayın. Ücretsiz çevrimiçi araç."
+    },
+    "emoji-picker": {
+      "name": "Emoji Seçici",
+      "description": "Emojileri arayın ve anında panoya kopyalayın.",
+      "metaTitle": "Emoji Seçici",
+      "metaDescription": "Kategoriye göre emoji arayın ve kopyalayın. Ücretsiz çevrimiçi araç."
+    },
+    "line-deduplicator": {
+      "name": "Tekrar Eden Satır Silici",
+      "description": "Metindeki tekrarlanan satırları büyük/küçük harf ve sıralama seçenekleriyle kaldırın.",
+      "metaTitle": "Tekrar Eden Satır Silici",
+      "metaDescription": "Herhangi bir metinden tekrar eden satırları kaldırın. Ücretsiz çevrimiçi araç."
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "Dil"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "Veriler (virgül, boşluk veya yeni satırla ayrılmış)",
+    "inputPlaceholder": "örn: 4, 8, 15, 16, 23, 42",
+    "calculateButton": "Hesapla",
+    "count": "Sayı",
+    "sum": "Toplam",
+    "min": "Minimum",
+    "max": "Maksimum",
+    "range": "Aralık",
+    "mean": "Ortalama",
+    "median": "Medyan",
+    "mode": "Mod",
+    "variance": "Varyans",
+    "stdDev": "Std. Sapma",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "Mod yok",
+    "sortedData": "Sıralı veriler"
+  },
+  "FractionCalculator": {
+    "fraction1": "Kesir 1",
+    "fraction2": "Kesir 2",
+    "operation": "İşlem",
+    "add": "Toplama (+)",
+    "subtract": "Çıkarma (−)",
+    "multiply": "Çarpma (×)",
+    "divide": "Bölme (÷)",
+    "calculateButton": "Hesapla",
+    "result": "Sonuç",
+    "simplified": "Sadeleştirilmiş",
+    "decimal": "Ondalık",
+    "steps": "Adımlar",
+    "numerator": "Pay",
+    "denominator": "Payda",
+    "zeroDenominator": "Payda sıfır olamaz",
+    "divideByZero": "Sıfıra bölünemez"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "Arap rakamı (1–3999)",
+    "romanLabel": "Roma rakamı",
+    "arabicPlaceholder": "örn: 2024",
+    "romanPlaceholder": "örn: MMXXIV",
+    "invalidArabic": "1 ile 3999 arasında bir sayı girin",
+    "invalidRoman": "Geçersiz Roma rakamı",
+    "referenceTitle": "Hızlı referans"
+  },
+  "NumberToWords": {
+    "inputLabel": "Sayı",
+    "inputPlaceholder": "örn: 1234567",
+    "convertButton": "Dönüştür",
+    "result": "Kelimelerle",
+    "ordinal": "Sıralı sayı",
+    "ordinalToggle": "Sıralı sayıyı göster",
+    "invalidNumber": "Geçerli bir sayı girin"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "Temel renk",
+    "paletteType": "Palet türü",
+    "complementary": "Tamamlayıcı",
+    "analogous": "Analog",
+    "triadic": "Triadik",
+    "splitComplementary": "Bölünmüş tamamlayıcı",
+    "tetradic": "Tetradik",
+    "monochromatic": "Monokromatik",
+    "generateButton": "Oluştur",
+    "clickToCopy": "Hex kopyalamak için tıklayın",
+    "colorCopied": "Kopyalandı!"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "Görseli buraya sürükleyin veya seçmek için tıklayın",
+    "dropZoneHint": "PNG, JPG, GIF, WebP, SVG desteklenir",
+    "fileName": "Dosya adı",
+    "fileSize": "Dosya boyutu",
+    "dimensions": "Boyutlar",
+    "mimeType": "MIME türü",
+    "dataUrl": "Veri URL'si",
+    "base64Only": "Yalnızca Base64",
+    "copyDataUrl": "Veri URL'sini kopyala",
+    "copyBase64": "Base64 kopyala",
+    "clearButton": "Temizle",
+    "previewLabel": "Önizleme"
+  },
+  "TextSorter": {
+    "inputLabel": "Giriş (her satırda bir öğe)",
+    "inputPlaceholder": "Satırlarınızı buraya yapıştırın...",
+    "outputLabel": "Sıralanmış sonuç",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "Uzunluk ↑",
+    "sortLengthDesc": "Uzunluk ↓",
+    "sortRandom": "Rastgele",
+    "sortButton": "Sırala",
+    "optionCaseInsensitive": "Büyük/küçük harf yoksay",
+    "optionTrimLines": "Boşlukları kırp",
+    "optionRemoveEmpty": "Boş satırları kaldır",
+    "optionRemoveDuplicates": "Tekrarları kaldır",
+    "lineCount": "{count} satır"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "Emoji ara...",
+    "allCategory": "Tümü",
+    "smileysCategory": "Yüzler",
+    "peopleCategory": "İnsanlar",
+    "animalsCategory": "Hayvanlar",
+    "foodCategory": "Yiyecek",
+    "travelCategory": "Seyahat",
+    "objectsCategory": "Nesneler",
+    "symbolsCategory": "Semboller",
+    "noResults": "Emoji bulunamadı",
+    "clickToCopy": "Kopyalamak için tıklayın",
+    "copied": "Kopyalandı!"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "Giriş",
+    "inputPlaceholder": "Tekrarlanan satırlar içeren metni yapıştırın...",
+    "outputLabel": "Çıkış",
+    "processButton": "Tekrarları kaldır",
+    "optionCaseInsensitive": "Büyük/küçük harf yoksay",
+    "optionTrimLines": "Boşlukları kırp",
+    "optionRemoveEmpty": "Boş satırları kaldır",
+    "optionSort": "Sonucu sırala",
+    "originalLines": "Orijinal satır sayısı",
+    "uniqueLines": "Benzersiz satır sayısı",
+    "removedLines": "Kaldırıldı"
   },
   "AboutPage": {
     "title": "ToolsShed Hakkında",

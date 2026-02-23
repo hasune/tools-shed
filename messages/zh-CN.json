@@ -398,6 +398,60 @@
       "description": "根据体重和活动量计算每日推荐饮水量。",
       "metaTitle": "日饮水量计算器",
       "metaDescription": "根据体重和活动水平计算每日推荐饮水量的免费在线工具。"
+    },
+    "statistics-calculator": {
+      "name": "统计计算器",
+      "description": "计算均值、中位数、众数、标准差、方差等统计数据。",
+      "metaTitle": "统计计算器",
+      "metaDescription": "从数据集计算均值、中位数、众数、标准差、方差和范围。免费在线统计计算器。"
+    },
+    "fraction-calculator": {
+      "name": "分数计算器",
+      "description": "计算分数的加减乘除，并提供逐步解题过程。",
+      "metaTitle": "分数计算器",
+      "metaDescription": "即时计算分数的四则运算，附逐步解题过程。免费在线分数计算器。"
+    },
+    "roman-numeral-converter": {
+      "name": "罗马数字转换器",
+      "description": "即时转换阿拉伯数字和罗马数字。",
+      "metaTitle": "罗马数字转换器",
+      "metaDescription": "在阿拉伯数字和罗马数字之间转换（1–3999）。免费在线罗马数字转换器。"
+    },
+    "number-to-words": {
+      "name": "数字转英文",
+      "description": "将数字转换为英文单词（如：1234 → one thousand two hundred thirty-four）。",
+      "metaTitle": "数字转英文转换器",
+      "metaDescription": "将数字转换为英文单词。免费在线转换器。"
+    },
+    "color-palette": {
+      "name": "调色板生成器",
+      "description": "从基础颜色生成互补色、类似色、三元色等调色板。",
+      "metaTitle": "调色板生成器",
+      "metaDescription": "从任意基础颜色生成互补色、类似色、三元色等调色板。免费在线调色板生成器。"
+    },
+    "image-to-base64": {
+      "name": "图片转Base64",
+      "description": "将图片文件转换为Base64数据URL，用于嵌入HTML或CSS。",
+      "metaTitle": "图片转Base64转换器",
+      "metaDescription": "将PNG、JPG、SVG、GIF图片转换为Base64数据URL。免费在线图片编码器。"
+    },
+    "text-sorter": {
+      "name": "文本排序器",
+      "description": "按字母顺序、长度或随机顺序对文本行进行排序。",
+      "metaTitle": "文本排序工具",
+      "metaDescription": "按字母顺序、长度或随机顺序排序文本行。免费在线文本排序工具。"
+    },
+    "emoji-picker": {
+      "name": "表情符号选择器",
+      "description": "浏览、搜索并复制表情符号到剪贴板。",
+      "metaTitle": "表情符号选择器",
+      "metaDescription": "按分类浏览和搜索表情符号，点击即可复制。免费在线表情符号工具。"
+    },
+    "line-deduplicator": {
+      "name": "去重工具",
+      "description": "删除文本中的重复行，支持大小写敏感和排序选项。",
+      "metaTitle": "重复行删除工具",
+      "metaDescription": "删除文本中的重复行，支持大小写敏感和排序选项。免费在线去重工具。"
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "语言"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "数据（以逗号、空格或换行分隔）",
+    "inputPlaceholder": "例：4, 8, 15, 16, 23, 42",
+    "calculateButton": "计算",
+    "count": "数量",
+    "sum": "总和",
+    "min": "最小值",
+    "max": "最大值",
+    "range": "范围",
+    "mean": "均值",
+    "median": "中位数",
+    "mode": "众数",
+    "variance": "方差",
+    "stdDev": "标准差",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "无众数",
+    "sortedData": "已排序数据"
+  },
+  "FractionCalculator": {
+    "fraction1": "分数1",
+    "fraction2": "分数2",
+    "operation": "运算",
+    "add": "加法 (+)",
+    "subtract": "减法 (−)",
+    "multiply": "乘法 (×)",
+    "divide": "除法 (÷)",
+    "calculateButton": "计算",
+    "result": "结果",
+    "simplified": "化简后",
+    "decimal": "小数",
+    "steps": "计算步骤",
+    "numerator": "分子",
+    "denominator": "分母",
+    "zeroDenominator": "分母不能为零",
+    "divideByZero": "不能除以零"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "阿拉伯数字（1–3999）",
+    "romanLabel": "罗马数字",
+    "arabicPlaceholder": "例：2024",
+    "romanPlaceholder": "例：MMXXIV",
+    "invalidArabic": "请输入1到3999之间的数字",
+    "invalidRoman": "无效的罗马数字",
+    "referenceTitle": "快速参考"
+  },
+  "NumberToWords": {
+    "inputLabel": "数字",
+    "inputPlaceholder": "例：1234567",
+    "convertButton": "转换",
+    "result": "英文表达",
+    "ordinal": "序数词",
+    "ordinalToggle": "显示序数词",
+    "invalidNumber": "请输入有效数字"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "基础颜色",
+    "paletteType": "调色板类型",
+    "complementary": "互补色",
+    "analogous": "类似色",
+    "triadic": "三元色",
+    "splitComplementary": "分裂互补色",
+    "tetradic": "四元色",
+    "monochromatic": "单色系",
+    "generateButton": "生成",
+    "clickToCopy": "点击复制颜色值",
+    "colorCopied": "已复制！"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "将图片拖放到此处，或点击选择",
+    "dropZoneHint": "支持PNG、JPG、GIF、WebP、SVG",
+    "fileName": "文件名",
+    "fileSize": "文件大小",
+    "dimensions": "尺寸",
+    "mimeType": "MIME类型",
+    "dataUrl": "数据URL",
+    "base64Only": "仅Base64",
+    "copyDataUrl": "复制数据URL",
+    "copyBase64": "复制Base64",
+    "clearButton": "清除",
+    "previewLabel": "预览"
+  },
+  "TextSorter": {
+    "inputLabel": "输入（每行一项）",
+    "inputPlaceholder": "将文本行粘贴到此处...",
+    "outputLabel": "排序结果",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "长度 ↑",
+    "sortLengthDesc": "长度 ↓",
+    "sortRandom": "随机",
+    "sortButton": "排序",
+    "optionCaseInsensitive": "不区分大小写",
+    "optionTrimLines": "去除首尾空格",
+    "optionRemoveEmpty": "删除空行",
+    "optionRemoveDuplicates": "删除重复项",
+    "lineCount": "{count}行"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "搜索表情符号...",
+    "allCategory": "全部",
+    "smileysCategory": "表情",
+    "peopleCategory": "人物",
+    "animalsCategory": "动物",
+    "foodCategory": "食物",
+    "travelCategory": "旅行",
+    "objectsCategory": "物品",
+    "symbolsCategory": "符号",
+    "noResults": "未找到表情符号",
+    "clickToCopy": "点击复制",
+    "copied": "已复制！"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "输入",
+    "inputPlaceholder": "粘贴包含重复行的文本...",
+    "outputLabel": "输出",
+    "processButton": "删除重复行",
+    "optionCaseInsensitive": "不区分大小写",
+    "optionTrimLines": "去除首尾空格",
+    "optionRemoveEmpty": "删除空行",
+    "optionSort": "排序结果",
+    "originalLines": "原始行数",
+    "uniqueLines": "唯一行数",
+    "removedLines": "已删除"
   },
   "AboutPage": {
     "title": "关于 ToolsShed",

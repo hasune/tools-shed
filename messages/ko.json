@@ -398,6 +398,60 @@
       "description": "체중과 활동 수준을 기반으로 하루 권장 수분 섭취량을 계산합니다.",
       "metaTitle": "수분 섭취량 계산기",
       "metaDescription": "체중과 활동량 기반 하루 권장 수분 섭취량을 계산하는 무료 온라인 도구."
+    },
+    "statistics-calculator": {
+      "name": "통계 계산기",
+      "description": "평균, 중앙값, 최빈값, 표준편차, 분산 등을 계산합니다.",
+      "metaTitle": "통계 계산기",
+      "metaDescription": "데이터셋에서 평균, 중앙값, 최빈값, 표준편차, 분산, 범위를 계산합니다. 무료 온라인 통계 계산기."
+    },
+    "fraction-calculator": {
+      "name": "분수 계산기",
+      "description": "단계별 풀이와 함께 분수의 덧셈, 뺄셈, 곱셈, 나눗셈을 계산합니다.",
+      "metaTitle": "분수 계산기",
+      "metaDescription": "단계별 풀이와 함께 분수의 사칙연산을 계산합니다. 무료 온라인 분수 계산기."
+    },
+    "roman-numeral-converter": {
+      "name": "로마 숫자 변환기",
+      "description": "아라비아 숫자와 로마 숫자를 즉시 상호 변환합니다.",
+      "metaTitle": "로마 숫자 변환기",
+      "metaDescription": "아라비아 숫자와 로마 숫자를 변환합니다 (1~3999). 무료 온라인 로마 숫자 변환기."
+    },
+    "number-to-words": {
+      "name": "숫자를 영어로",
+      "description": "숫자를 영어 단어로 변환합니다 (예: 1234 → one thousand two hundred thirty-four).",
+      "metaTitle": "숫자 영어 변환기",
+      "metaDescription": "숫자를 영어 단어로 변환합니다. 무료 온라인 변환기."
+    },
+    "color-palette": {
+      "name": "색상 팔레트 생성기",
+      "description": "기본 색상에서 보색, 유사색, 삼각 배색 등의 팔레트를 생성합니다.",
+      "metaTitle": "색상 팔레트 생성기",
+      "metaDescription": "기본 색상에서 보색·유사색·삼각 배색 등의 색상 팔레트를 생성합니다. 무료 온라인 팔레트 생성기."
+    },
+    "image-to-base64": {
+      "name": "이미지 → Base64",
+      "description": "이미지 파일을 HTML이나 CSS에 삽입할 수 있는 Base64 데이터 URL로 변환합니다.",
+      "metaTitle": "이미지 Base64 변환기",
+      "metaDescription": "PNG, JPG, SVG, GIF 이미지를 Base64 데이터 URL로 변환합니다. 무료 온라인 이미지 인코더."
+    },
+    "text-sorter": {
+      "name": "텍스트 정렬기",
+      "description": "텍스트 줄을 알파벳순, 길이순 또는 무작위로 정렬합니다.",
+      "metaTitle": "텍스트 정렬 도구",
+      "metaDescription": "텍스트 줄을 알파벳순·길이순·무작위로 정렬합니다. 무료 온라인 텍스트 정렬 도구."
+    },
+    "emoji-picker": {
+      "name": "이모지 피커",
+      "description": "이모지를 검색하고 클립보드에 복사합니다.",
+      "metaTitle": "이모지 피커",
+      "metaDescription": "카테고리별로 이모지를 검색하고 클립보드에 복사합니다. 무료 온라인 이모지 피커."
+    },
+    "line-deduplicator": {
+      "name": "중복 줄 제거기",
+      "description": "텍스트에서 중복된 줄을 제거합니다.",
+      "metaTitle": "중복 줄 제거 도구",
+      "metaDescription": "텍스트에서 중복 줄을 제거합니다. 대소문자 구분 및 정렬 옵션 제공. 무료 온라인 도구."
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "언어"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "데이터 (쉼표, 공백, 줄바꿈으로 구분)",
+    "inputPlaceholder": "예: 4, 8, 15, 16, 23, 42",
+    "calculateButton": "계산",
+    "count": "개수",
+    "sum": "합계",
+    "min": "최솟값",
+    "max": "최댓값",
+    "range": "범위",
+    "mean": "평균",
+    "median": "중앙값",
+    "mode": "최빈값",
+    "variance": "분산",
+    "stdDev": "표준편차",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "최빈값 없음",
+    "sortedData": "정렬된 데이터"
+  },
+  "FractionCalculator": {
+    "fraction1": "분수 1",
+    "fraction2": "분수 2",
+    "operation": "연산",
+    "add": "덧셈 (+)",
+    "subtract": "뺄셈 (−)",
+    "multiply": "곱셈 (×)",
+    "divide": "나눗셈 (÷)",
+    "calculateButton": "계산",
+    "result": "결과",
+    "simplified": "기약분수",
+    "decimal": "소수",
+    "steps": "풀이 과정",
+    "numerator": "분자",
+    "denominator": "분모",
+    "zeroDenominator": "분모는 0이 될 수 없습니다",
+    "divideByZero": "0으로 나눌 수 없습니다"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "아라비아 숫자 (1~3999)",
+    "romanLabel": "로마 숫자",
+    "arabicPlaceholder": "예: 2024",
+    "romanPlaceholder": "예: MMXXIV",
+    "invalidArabic": "1~3999 사이의 숫자를 입력하세요",
+    "invalidRoman": "올바르지 않은 로마 숫자입니다",
+    "referenceTitle": "빠른 참조"
+  },
+  "NumberToWords": {
+    "inputLabel": "숫자",
+    "inputPlaceholder": "예: 1234567",
+    "convertButton": "변환",
+    "result": "영어 표기",
+    "ordinal": "서수",
+    "ordinalToggle": "서수 표시",
+    "invalidNumber": "올바른 숫자를 입력하세요"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "기본 색상",
+    "paletteType": "팔레트 유형",
+    "complementary": "보색",
+    "analogous": "유사색",
+    "triadic": "삼각 배색",
+    "splitComplementary": "분열 보색",
+    "tetradic": "사각 배색",
+    "monochromatic": "단색 계열",
+    "generateButton": "생성",
+    "clickToCopy": "클릭하여 HEX 복사",
+    "colorCopied": "복사됨!"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "여기에 이미지를 드래그하거나 클릭하여 선택하세요",
+    "dropZoneHint": "PNG, JPG, GIF, WebP, SVG 지원",
+    "fileName": "파일명",
+    "fileSize": "파일 크기",
+    "dimensions": "크기",
+    "mimeType": "MIME 타입",
+    "dataUrl": "데이터 URL",
+    "base64Only": "Base64만",
+    "copyDataUrl": "데이터 URL 복사",
+    "copyBase64": "Base64 복사",
+    "clearButton": "지우기",
+    "previewLabel": "미리보기"
+  },
+  "TextSorter": {
+    "inputLabel": "입력 (줄당 한 항목)",
+    "inputPlaceholder": "줄을 여기에 붙여넣으세요...",
+    "outputLabel": "정렬 결과",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "길이 ↑",
+    "sortLengthDesc": "길이 ↓",
+    "sortRandom": "무작위",
+    "sortButton": "정렬",
+    "optionCaseInsensitive": "대소문자 무시",
+    "optionTrimLines": "앞뒤 공백 제거",
+    "optionRemoveEmpty": "빈 줄 제거",
+    "optionRemoveDuplicates": "중복 제거",
+    "lineCount": "{count}줄"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "이모지 검색...",
+    "allCategory": "전체",
+    "smileysCategory": "표정·감정",
+    "peopleCategory": "사람",
+    "animalsCategory": "동물",
+    "foodCategory": "음식",
+    "travelCategory": "여행",
+    "objectsCategory": "사물",
+    "symbolsCategory": "기호",
+    "noResults": "이모지를 찾을 수 없습니다",
+    "clickToCopy": "클릭하여 복사",
+    "copied": "복사됨!"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "입력",
+    "inputPlaceholder": "중복 줄이 있는 텍스트를 붙여넣으세요...",
+    "outputLabel": "출력",
+    "processButton": "중복 제거",
+    "optionCaseInsensitive": "대소문자 무시",
+    "optionTrimLines": "앞뒤 공백 제거",
+    "optionRemoveEmpty": "빈 줄 제거",
+    "optionSort": "결과 정렬",
+    "originalLines": "원본 줄 수",
+    "uniqueLines": "고유 줄 수",
+    "removedLines": "제거됨"
   },
   "AboutPage": {
     "title": "ToolsShed 소개",

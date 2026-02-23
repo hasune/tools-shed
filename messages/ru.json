@@ -398,6 +398,60 @@
       "description": "Рассчитывает рекомендуемое суточное потребление воды на основе веса и уровня активности.",
       "metaTitle": "Калькулятор потребления воды",
       "metaDescription": "Рассчитайте рекомендуемое суточное потребление воды по весу и уровню активности. Бесплатный онлайн-инструмент."
+    },
+    "statistics-calculator": {
+      "name": "Статистический калькулятор",
+      "description": "Вычисляйте среднее, медиану, моду, стандартное отклонение, дисперсию и другие статистики.",
+      "metaTitle": "Статистический калькулятор",
+      "metaDescription": "Вычисляйте среднее, медиану, моду, стандартное отклонение, дисперсию и размах. Бесплатный онлайн-калькулятор."
+    },
+    "fraction-calculator": {
+      "name": "Калькулятор дробей",
+      "description": "Складывайте, вычитайте, умножайте и делите дроби с пошаговыми решениями.",
+      "metaTitle": "Калькулятор дробей",
+      "metaDescription": "Выполняйте операции с дробями с пошаговыми решениями. Бесплатный онлайн-калькулятор."
+    },
+    "roman-numeral-converter": {
+      "name": "Конвертер римских цифр",
+      "description": "Мгновенно конвертируйте арабские и римские числа.",
+      "metaTitle": "Конвертер римских цифр",
+      "metaDescription": "Конвертируйте между арабскими и римскими числами (1–3999). Бесплатный онлайн-конвертер."
+    },
+    "number-to-words": {
+      "name": "Число прописью",
+      "description": "Конвертируйте числа в английские слова (например: 1234 → one thousand two hundred thirty-four).",
+      "metaTitle": "Конвертер числа в слова",
+      "metaDescription": "Конвертируйте числа в английские слова. Бесплатный онлайн-конвертер."
+    },
+    "color-palette": {
+      "name": "Генератор цветовой палитры",
+      "description": "Создавайте дополнительные, аналогичные, триадные и другие цветовые палитры из базового цвета.",
+      "metaTitle": "Генератор цветовой палитры",
+      "metaDescription": "Создавайте цветовые палитры: дополнительные, аналогичные, триадные и другие. Бесплатный онлайн-генератор."
+    },
+    "image-to-base64": {
+      "name": "Изображение в Base64",
+      "description": "Конвертируйте изображения в Base64 URL данных для встраивания в HTML или CSS.",
+      "metaTitle": "Конвертер изображения в Base64",
+      "metaDescription": "Конвертируйте PNG, JPG, SVG, GIF в Base64 URL. Бесплатный онлайн-кодировщик изображений."
+    },
+    "text-sorter": {
+      "name": "Сортировка текста",
+      "description": "Сортируйте строки текста по алфавиту, длине или случайным образом.",
+      "metaTitle": "Инструмент сортировки текста",
+      "metaDescription": "Сортируйте строки текста по алфавиту, длине или случайным образом. Бесплатный онлайн-инструмент."
+    },
+    "emoji-picker": {
+      "name": "Выбор эмодзи",
+      "description": "Ищите и копируйте эмодзи в буфер обмена мгновенно.",
+      "metaTitle": "Выбор эмодзи",
+      "metaDescription": "Ищите и копируйте эмодзи по категориям. Бесплатный онлайн-инструмент."
+    },
+    "line-deduplicator": {
+      "name": "Удаление дублей строк",
+      "description": "Удаляйте повторяющиеся строки из текста с настройками чувствительности и сортировки.",
+      "metaTitle": "Удаление дублирующихся строк",
+      "metaDescription": "Удаляйте дублирующиеся строки из любого текста. Бесплатный инструмент с настройками."
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "Язык"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "Данные (через запятую, пробел или перенос строки)",
+    "inputPlaceholder": "напр.: 4, 8, 15, 16, 23, 42",
+    "calculateButton": "Вычислить",
+    "count": "Количество",
+    "sum": "Сумма",
+    "min": "Минимум",
+    "max": "Максимум",
+    "range": "Размах",
+    "mean": "Среднее",
+    "median": "Медиана",
+    "mode": "Мода",
+    "variance": "Дисперсия",
+    "stdDev": "Стд. откл.",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "Нет моды",
+    "sortedData": "Отсортированные данные"
+  },
+  "FractionCalculator": {
+    "fraction1": "Дробь 1",
+    "fraction2": "Дробь 2",
+    "operation": "Операция",
+    "add": "Сложение (+)",
+    "subtract": "Вычитание (−)",
+    "multiply": "Умножение (×)",
+    "divide": "Деление (÷)",
+    "calculateButton": "Вычислить",
+    "result": "Результат",
+    "simplified": "Упрощённый",
+    "decimal": "Десятичная",
+    "steps": "Шаги",
+    "numerator": "Числитель",
+    "denominator": "Знаменатель",
+    "zeroDenominator": "Знаменатель не может быть нулём",
+    "divideByZero": "Деление на ноль невозможно"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "Арабская цифра (1–3999)",
+    "romanLabel": "Римская цифра",
+    "arabicPlaceholder": "напр.: 2024",
+    "romanPlaceholder": "напр.: MMXXIV",
+    "invalidArabic": "Введите число от 1 до 3999",
+    "invalidRoman": "Недопустимая римская цифра",
+    "referenceTitle": "Краткий справочник"
+  },
+  "NumberToWords": {
+    "inputLabel": "Число",
+    "inputPlaceholder": "напр.: 1234567",
+    "convertButton": "Конвертировать",
+    "result": "Прописью",
+    "ordinal": "Порядковое",
+    "ordinalToggle": "Показать порядковое",
+    "invalidNumber": "Введите допустимое число"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "Базовый цвет",
+    "paletteType": "Тип палитры",
+    "complementary": "Дополнительный",
+    "analogous": "Аналогичный",
+    "triadic": "Триадный",
+    "splitComplementary": "Раздельно-дополнительный",
+    "tetradic": "Тетрадный",
+    "monochromatic": "Монохроматический",
+    "generateButton": "Создать",
+    "clickToCopy": "Нажмите, чтобы скопировать",
+    "colorCopied": "Скопировано!"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "Перетащите изображение сюда или нажмите для выбора",
+    "dropZoneHint": "Поддерживает PNG, JPG, GIF, WebP, SVG",
+    "fileName": "Имя файла",
+    "fileSize": "Размер файла",
+    "dimensions": "Размеры",
+    "mimeType": "MIME-тип",
+    "dataUrl": "URL данных",
+    "base64Only": "Только Base64",
+    "copyDataUrl": "Копировать URL данных",
+    "copyBase64": "Копировать Base64",
+    "clearButton": "Очистить",
+    "previewLabel": "Предпросмотр"
+  },
+  "TextSorter": {
+    "inputLabel": "Ввод (по одному элементу на строку)",
+    "inputPlaceholder": "Вставьте строки сюда...",
+    "outputLabel": "Отсортированный результат",
+    "sortAZ": "А → Я",
+    "sortZA": "Я → А",
+    "sortLengthAsc": "Длина ↑",
+    "sortLengthDesc": "Длина ↓",
+    "sortRandom": "Случайно",
+    "sortButton": "Сортировать",
+    "optionCaseInsensitive": "Без учёта регистра",
+    "optionTrimLines": "Убрать пробелы",
+    "optionRemoveEmpty": "Удалить пустые строки",
+    "optionRemoveDuplicates": "Удалить дубликаты",
+    "lineCount": "{count} строк"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "Поиск эмодзи...",
+    "allCategory": "Все",
+    "smileysCategory": "Смайлики",
+    "peopleCategory": "Люди",
+    "animalsCategory": "Животные",
+    "foodCategory": "Еда",
+    "travelCategory": "Путешествия",
+    "objectsCategory": "Предметы",
+    "symbolsCategory": "Символы",
+    "noResults": "Эмодзи не найдены",
+    "clickToCopy": "Нажмите, чтобы скопировать",
+    "copied": "Скопировано!"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "Ввод",
+    "inputPlaceholder": "Вставьте текст с повторяющимися строками...",
+    "outputLabel": "Вывод",
+    "processButton": "Удалить дубликаты",
+    "optionCaseInsensitive": "Без учёта регистра",
+    "optionTrimLines": "Убрать пробелы",
+    "optionRemoveEmpty": "Удалить пустые строки",
+    "optionSort": "Сортировать результат",
+    "originalLines": "Исходных строк",
+    "uniqueLines": "Уникальных строк",
+    "removedLines": "Удалено"
   },
   "AboutPage": {
     "title": "О ToolsShed",

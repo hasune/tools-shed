@@ -398,6 +398,60 @@
       "description": "Calculate your recommended daily water intake based on weight and activity level.",
       "metaTitle": "Water Intake Calculator",
       "metaDescription": "Calculate your recommended daily water intake based on weight and activity level. Free online hydration calculator."
+    },
+    "statistics-calculator": {
+      "name": "Statistics Calculator",
+      "description": "Calculate mean, median, mode, standard deviation, variance, and more.",
+      "metaTitle": "Statistics Calculator",
+      "metaDescription": "Calculate mean, median, mode, standard deviation, variance, and range from a data set. Free online statistics calculator."
+    },
+    "fraction-calculator": {
+      "name": "Fraction Calculator",
+      "description": "Add, subtract, multiply, and divide fractions with step-by-step solutions.",
+      "metaTitle": "Fraction Calculator",
+      "metaDescription": "Add, subtract, multiply, and divide fractions instantly with step-by-step solutions. Free online fraction calculator."
+    },
+    "roman-numeral-converter": {
+      "name": "Roman Numeral Converter",
+      "description": "Convert between Arabic numbers and Roman numerals instantly.",
+      "metaTitle": "Roman Numeral Converter",
+      "metaDescription": "Convert between Arabic numbers and Roman numerals (1–3999). Free online Roman numeral converter."
+    },
+    "number-to-words": {
+      "name": "Number to Words",
+      "description": "Convert numbers to English words (e.g. 1234 → one thousand two hundred thirty-four).",
+      "metaTitle": "Number to Words Converter",
+      "metaDescription": "Convert numbers to English words. Free online number to words converter."
+    },
+    "color-palette": {
+      "name": "Color Palette Generator",
+      "description": "Generate complementary, analogous, triadic, and other color palettes from a base color.",
+      "metaTitle": "Color Palette Generator",
+      "metaDescription": "Generate color palettes — complementary, analogous, triadic, and more — from any base color. Free online palette generator."
+    },
+    "image-to-base64": {
+      "name": "Image to Base64",
+      "description": "Convert image files to Base64 data URLs for embedding in HTML or CSS.",
+      "metaTitle": "Image to Base64 Converter",
+      "metaDescription": "Convert image files (PNG, JPG, SVG, GIF) to Base64 data URLs for embedding in HTML or CSS. Free online image encoder."
+    },
+    "text-sorter": {
+      "name": "Text Sorter",
+      "description": "Sort lines of text alphabetically, by length, or randomly.",
+      "metaTitle": "Text Sorter",
+      "metaDescription": "Sort lines of text alphabetically, by length, or randomly. Free online text sorting tool."
+    },
+    "emoji-picker": {
+      "name": "Emoji Picker",
+      "description": "Browse, search, and copy emojis to your clipboard instantly.",
+      "metaTitle": "Emoji Picker",
+      "metaDescription": "Browse, search, and copy emojis to your clipboard. Free online emoji picker with categories and search."
+    },
+    "line-deduplicator": {
+      "name": "Line Deduplicator",
+      "description": "Remove duplicate lines from text with options for case sensitivity and sorting.",
+      "metaTitle": "Line Deduplicator",
+      "metaDescription": "Remove duplicate lines from any text. Free online line deduplicator with case-sensitivity and sort options."
     }
   },
   "Common": {
@@ -1028,6 +1082,132 @@
   },
   "LocaleSwitcher": {
     "label": "Language"
+  },
+  "StatisticsCalculator": {
+    "inputLabel": "Data (comma, space, or newline separated)",
+    "inputPlaceholder": "e.g. 4, 8, 15, 16, 23, 42",
+    "calculateButton": "Calculate",
+    "count": "Count",
+    "sum": "Sum",
+    "min": "Min",
+    "max": "Max",
+    "range": "Range",
+    "mean": "Mean",
+    "median": "Median",
+    "mode": "Mode",
+    "variance": "Variance",
+    "stdDev": "Std Dev",
+    "q1": "Q1",
+    "q3": "Q3",
+    "iqr": "IQR",
+    "noMode": "No mode",
+    "sortedData": "Sorted Data"
+  },
+  "FractionCalculator": {
+    "fraction1": "Fraction 1",
+    "fraction2": "Fraction 2",
+    "operation": "Operation",
+    "add": "Add (+)",
+    "subtract": "Subtract (−)",
+    "multiply": "Multiply (×)",
+    "divide": "Divide (÷)",
+    "calculateButton": "Calculate",
+    "result": "Result",
+    "simplified": "Simplified",
+    "decimal": "Decimal",
+    "steps": "Steps",
+    "numerator": "Numerator",
+    "denominator": "Denominator",
+    "zeroDenominator": "Denominator cannot be zero",
+    "divideByZero": "Cannot divide by zero"
+  },
+  "RomanNumeralConverter": {
+    "arabicLabel": "Arabic Number (1–3999)",
+    "romanLabel": "Roman Numeral",
+    "arabicPlaceholder": "e.g. 2024",
+    "romanPlaceholder": "e.g. MMXXIV",
+    "invalidArabic": "Enter a number between 1 and 3999",
+    "invalidRoman": "Invalid Roman numeral",
+    "referenceTitle": "Quick Reference"
+  },
+  "NumberToWords": {
+    "inputLabel": "Number",
+    "inputPlaceholder": "e.g. 1234567",
+    "convertButton": "Convert",
+    "result": "In words",
+    "ordinal": "Ordinal",
+    "ordinalToggle": "Show ordinal",
+    "invalidNumber": "Please enter a valid number"
+  },
+  "ColorPalette": {
+    "baseColorLabel": "Base Color",
+    "paletteType": "Palette Type",
+    "complementary": "Complementary",
+    "analogous": "Analogous",
+    "triadic": "Triadic",
+    "splitComplementary": "Split-Complementary",
+    "tetradic": "Tetradic",
+    "monochromatic": "Monochromatic",
+    "generateButton": "Generate",
+    "clickToCopy": "Click to copy hex",
+    "colorCopied": "Copied!"
+  },
+  "ImageToBase64": {
+    "dropZoneLabel": "Drag & drop an image here, or click to browse",
+    "dropZoneHint": "Supports PNG, JPG, GIF, WebP, SVG",
+    "fileName": "File name",
+    "fileSize": "File size",
+    "dimensions": "Dimensions",
+    "mimeType": "MIME type",
+    "dataUrl": "Data URL",
+    "base64Only": "Base64 only",
+    "copyDataUrl": "Copy data URL",
+    "copyBase64": "Copy base64",
+    "clearButton": "Clear",
+    "previewLabel": "Preview"
+  },
+  "TextSorter": {
+    "inputLabel": "Input (one item per line)",
+    "inputPlaceholder": "Paste your lines here...",
+    "outputLabel": "Sorted Output",
+    "sortAZ": "A → Z",
+    "sortZA": "Z → A",
+    "sortLengthAsc": "Length ↑",
+    "sortLengthDesc": "Length ↓",
+    "sortRandom": "Random",
+    "sortButton": "Sort",
+    "optionCaseInsensitive": "Case-insensitive",
+    "optionTrimLines": "Trim whitespace",
+    "optionRemoveEmpty": "Remove empty lines",
+    "optionRemoveDuplicates": "Remove duplicates",
+    "lineCount": "{count} lines"
+  },
+  "EmojiPicker": {
+    "searchPlaceholder": "Search emojis...",
+    "allCategory": "All",
+    "smileysCategory": "Smileys",
+    "peopleCategory": "People",
+    "animalsCategory": "Animals",
+    "foodCategory": "Food",
+    "travelCategory": "Travel",
+    "objectsCategory": "Objects",
+    "symbolsCategory": "Symbols",
+    "noResults": "No emojis found",
+    "clickToCopy": "Click to copy",
+    "copied": "Copied!"
+  },
+  "LineDeduplicator": {
+    "inputLabel": "Input",
+    "inputPlaceholder": "Paste text with duplicate lines...",
+    "outputLabel": "Output",
+    "processButton": "Remove Duplicates",
+    "optionCaseInsensitive": "Case-insensitive",
+    "optionTrimLines": "Trim whitespace",
+    "optionRemoveEmpty": "Remove empty lines",
+    "optionSort": "Sort result",
+    "originalLines": "Original lines",
+    "uniqueLines": "Unique lines",
+    "removedLines": "Removed"
   },
   "AboutPage": {
     "title": "About ToolsShed",

@@ -452,6 +452,42 @@
       "description": "删除文本中的重复行，支持大小写敏感和排序选项。",
       "metaTitle": "重复行删除工具",
       "metaDescription": "删除文本中的重复行，支持大小写敏感和排序选项。免费在线去重工具。"
+    },
+    "pomodoro-timer": {
+      "name": "番茄钟计时器",
+      "description": "使用番茄工作法——25分钟专注会话配合短暂休息，提升工作效率。",
+      "metaTitle": "番茄钟计时器",
+      "metaDescription": "免费在线番茄钟计时器。25分钟专注会话配合可自定义休息间隔，提升您的工作效率。"
+    },
+    "working-hours-calculator": {
+      "name": "工作时间计算器",
+      "description": "扣除休息时间后，计算每日和每周的总工作时间。",
+      "metaTitle": "工作时间计算器",
+      "metaDescription": "计算每日和每周总工作时间。支持多班次、休息扣除和加班计算的免费在线工具。"
+    },
+    "countdown-timer": {
+      "name": "倒计时器",
+      "description": "倒计时到任意未来日期和时间——活动、截止日期、节假日等。",
+      "metaTitle": "倒计时器",
+      "metaDescription": "免费在线倒计时器，可倒计时到任意日期和时间。适合活动、截止日期、生日和节假日。"
+    },
+    "calorie-burn-calculator": {
+      "name": "卡路里燃烧计算器",
+      "description": "根据运动类型、时长和体重估算运动中燃烧的卡路里。",
+      "metaTitle": "卡路里燃烧计算器",
+      "metaDescription": "使用MET值估算运动中燃烧的卡路里。支持20多种运动类型的免费在线卡路里燃烧计算器。"
+    },
+    "heart-rate-zone": {
+      "name": "心率区间计算器",
+      "description": "根据年龄和静息心率计算5个训练心率区间。",
+      "metaTitle": "心率区间计算器",
+      "metaDescription": "使用最大心率和卡沃宁公式计算5个心率训练区间。免费在线心率区间计算器。"
+    },
+    "sleep-cycle-calculator": {
+      "name": "睡眠周期计算器",
+      "description": "根据90分钟睡眠周期找到最佳就寝或起床时间。",
+      "metaTitle": "睡眠周期计算器",
+      "metaDescription": "根据90分钟睡眠周期计算理想的就寝或起床时间。每天早晨精神抖擞地醒来。"
     }
   },
   "Common": {
@@ -1208,6 +1244,108 @@
     "originalLines": "原始行数",
     "uniqueLines": "唯一行数",
     "removedLines": "已删除"
+  },
+  "PomodoroTimer": {
+    "focusLabel": "专注",
+    "shortBreakLabel": "短休息",
+    "longBreakLabel": "长休息",
+    "startButton": "开始",
+    "pauseButton": "暂停",
+    "resetButton": "重置",
+    "sessionsLabel": "会话",
+    "focusDurationLabel": "专注时长（分钟）",
+    "shortBreakDurationLabel": "短休息（分钟）",
+    "longBreakDurationLabel": "长休息（分钟）",
+    "sessionCompleteLabel": "会话完成！休息一下吧。",
+    "breakCompleteLabel": "休息结束！开始专注吧。",
+    "settingsLabel": "设置"
+  },
+  "WorkingHoursCalculator": {
+    "addRowButton": "添加行",
+    "removeButton": "删除",
+    "startTimeLabel": "开始",
+    "endTimeLabel": "结束",
+    "breakLabel": "休息（分钟）",
+    "hoursLabel": "小时",
+    "totalDailyLabel": "总时长",
+    "weeklyTotalLabel": "每周总计",
+    "overtimeLabel": "加班（超过每天8小时）",
+    "dayLabel": "第{n}天",
+    "calculateButton": "计算"
+  },
+  "CountdownTimer": {
+    "targetDateLabel": "目标日期和时间",
+    "eventNameLabel": "活动名称（可选）",
+    "eventNamePlaceholder": "例如：新年、生日...",
+    "daysLabel": "天",
+    "hoursLabel": "小时",
+    "minutesLabel": "分",
+    "secondsLabel": "秒",
+    "expiredMessage": "时间到！🎉",
+    "setTimerButton": "设置计时器",
+    "resetButton": "重置"
+  },
+  "CalorieBurnCalculator": {
+    "weightLabel": "体重",
+    "kgUnit": "千克",
+    "lbUnit": "磅",
+    "activityLabel": "活动",
+    "durationLabel": "时长（分钟）",
+    "calculateButton": "计算",
+    "resultLabel": "消耗卡路里",
+    "metLabel": "MET值",
+    "activityRunning": "跑步（8 km/h）",
+    "activityRunningFast": "跑步（12 km/h）",
+    "activityWalking": "步行（4 km/h）",
+    "activityCycling": "骑行（中等强度）",
+    "activitySwimming": "游泳（中等强度）",
+    "activityWeightLifting": "力量训练",
+    "activityYoga": "瑜伽",
+    "activityHiking": "远足",
+    "activityJumprope": "跳绳",
+    "activityDancing": "舞蹈",
+    "activityBasketball": "篮球",
+    "activitySoccer": "足球",
+    "activityRowingMachine": "划船机",
+    "activityElliptical": "椭圆机",
+    "activityPilates": "普拉提",
+    "activityZumba": "尊巴"
+  },
+  "HeartRateZone": {
+    "ageLabel": "年龄（岁）",
+    "restingHrLabel": "静息心率（bpm，可选）",
+    "restingHrPlaceholder": "例如：60",
+    "calculateButton": "计算",
+    "maxHrLabel": "最大心率",
+    "formulaLabel": "计算公式",
+    "formulaBasic": "基本公式（220 − 年龄）",
+    "formulaKarvonen": "卡沃宁公式（使用静息心率）",
+    "zoneLabel": "区间",
+    "rangeLabel": "范围（bpm）",
+    "descriptionLabel": "描述",
+    "zone1": "区间1 — 极轻松",
+    "zone2": "区间2 — 轻松",
+    "zone3": "区间3 — 中等",
+    "zone4": "区间4 — 高强度",
+    "zone5": "区间5 — 极限",
+    "zone1Desc": "热身、恢复",
+    "zone2Desc": "燃脂、耐力",
+    "zone3Desc": "有氧健身",
+    "zone4Desc": "速度与表现",
+    "zone5Desc": "最大努力"
+  },
+  "SleepCycleCalculator": {
+    "modeWakeUp": "我想在某时间醒来...",
+    "modeBedtime": "我将在某时间入睡...",
+    "wakeUpLabel": "起床时间",
+    "bedtimeLabel": "就寝时间",
+    "calculateButton": "计算",
+    "resultsBedtimeLabel": "就寝时间：",
+    "resultsWakeUpLabel": "起床时间：",
+    "cyclesLabel": "{n}个睡眠周期（{h}小时{m}分钟）",
+    "recommendedLabel": "推荐",
+    "fallAsleepNote": "包含约14分钟入睡时间",
+    "tipLabel": "提示：5-6个睡眠周期（7.5-9小时）对大多数成年人来说是理想的。"
   },
   "AboutPage": {
     "title": "关于 ToolsShed",

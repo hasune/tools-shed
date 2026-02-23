@@ -452,6 +452,42 @@
       "description": "Entferne doppelte Zeilen aus Text mit Optionen für Groß-/Kleinschreibung und Sortierung.",
       "metaTitle": "Doppelte Zeilen entfernen",
       "metaDescription": "Entferne doppelte Zeilen aus beliebigem Text. Kostenloses Tool mit Optionen."
+    },
+    "pomodoro-timer": {
+      "name": "Pomodoro-Timer",
+      "description": "Steigern Sie Ihre Produktivität mit der Pomodoro-Technik — 25-Minuten-Fokussitzungen mit kurzen Pausen.",
+      "metaTitle": "Pomodoro-Timer",
+      "metaDescription": "Kostenloser Online-Pomodoro-Timer. 25-Minuten-Fokussitzungen mit anpassbaren Pausenintervallen zur Steigerung Ihrer Produktivität."
+    },
+    "working-hours-calculator": {
+      "name": "Arbeitszeitrechner",
+      "description": "Berechnen Sie die gesamten Arbeitsstunden pro Tag und Woche mit Abzug der Pausenzeiten.",
+      "metaTitle": "Arbeitszeitrechner",
+      "metaDescription": "Berechnen Sie Ihre gesamten Arbeitsstunden pro Tag und Woche. Unterstützt mehrere Schichten, Pausenabzüge und Überstundenberechnung."
+    },
+    "countdown-timer": {
+      "name": "Countdown-Timer",
+      "description": "Zählen Sie bis zu einem beliebigen zukünftigen Datum und Uhrzeit herunter — Ereignisse, Fristen, Feiertage und mehr.",
+      "metaTitle": "Countdown-Timer",
+      "metaDescription": "Kostenloser Online-Countdown-Timer für beliebige Datum und Uhrzeit. Perfekt für Ereignisse, Fristen, Geburtstage und Feiertage."
+    },
+    "calorie-burn-calculator": {
+      "name": "Kalorienverbrauchsrechner",
+      "description": "Schätzen Sie die beim Sport verbrannten Kalorien anhand von Aktivitätstyp, Dauer und Gewicht.",
+      "metaTitle": "Kalorienverbrauchsrechner",
+      "metaDescription": "Schätzen Sie den Kalorienverbrauch beim Sport mit MET-Werten. Unterstützt 20+ Aktivitäten. Kostenloser Online-Kalorienrechner."
+    },
+    "heart-rate-zone": {
+      "name": "Herzfrequenzzonenrechner",
+      "description": "Berechnen Sie Ihre 5 Trainingsherzfrequenzzonen basierend auf Alter und Ruhepuls.",
+      "metaTitle": "Herzfrequenzzonenrechner",
+      "metaDescription": "Berechnen Sie Ihre 5 Herzfrequenz-Trainingszonen mit maximaler HF und der Karvonen-Formel. Kostenloser Online-Rechner."
+    },
+    "sleep-cycle-calculator": {
+      "name": "Schlafzyklusrechner",
+      "description": "Finden Sie die beste Schlafens- oder Aufwachzeit basierend auf 90-minütigen Schlafzyklen.",
+      "metaTitle": "Schlafzyklusrechner",
+      "metaDescription": "Finden Sie die ideale Schlafens- oder Aufwachzeit basierend auf 90-minütigen Schlafzyklen. Jeden Morgen erholt aufwachen."
     }
   },
   "Common": {
@@ -1208,6 +1244,108 @@
     "originalLines": "Originalzeilen",
     "uniqueLines": "Einzigartige Zeilen",
     "removedLines": "Entfernt"
+  },
+  "PomodoroTimer": {
+    "focusLabel": "Fokus",
+    "shortBreakLabel": "Kurze Pause",
+    "longBreakLabel": "Lange Pause",
+    "startButton": "Starten",
+    "pauseButton": "Pausieren",
+    "resetButton": "Zurücksetzen",
+    "sessionsLabel": "Sitzungen",
+    "focusDurationLabel": "Fokus (Min.)",
+    "shortBreakDurationLabel": "Kurze Pause (Min.)",
+    "longBreakDurationLabel": "Lange Pause (Min.)",
+    "sessionCompleteLabel": "Sitzung abgeschlossen! Machen Sie eine Pause.",
+    "breakCompleteLabel": "Pause vorbei! Zeit für Fokus.",
+    "settingsLabel": "Einstellungen"
+  },
+  "WorkingHoursCalculator": {
+    "addRowButton": "Zeile hinzufügen",
+    "removeButton": "Entfernen",
+    "startTimeLabel": "Beginn",
+    "endTimeLabel": "Ende",
+    "breakLabel": "Pause (Min.)",
+    "hoursLabel": "Stunden",
+    "totalDailyLabel": "Gesamtstunden",
+    "weeklyTotalLabel": "Wochensumme",
+    "overtimeLabel": "Überstunden (>8h/Tag)",
+    "dayLabel": "Tag {n}",
+    "calculateButton": "Berechnen"
+  },
+  "CountdownTimer": {
+    "targetDateLabel": "Zieldatum und -uhrzeit",
+    "eventNameLabel": "Ereignisname (optional)",
+    "eventNamePlaceholder": "z.B. Neujahr, Geburtstag...",
+    "daysLabel": "Tage",
+    "hoursLabel": "Stunden",
+    "minutesLabel": "Minuten",
+    "secondsLabel": "Sekunden",
+    "expiredMessage": "Zeit abgelaufen! 🎉",
+    "setTimerButton": "Timer setzen",
+    "resetButton": "Zurücksetzen"
+  },
+  "CalorieBurnCalculator": {
+    "weightLabel": "Gewicht",
+    "kgUnit": "kg",
+    "lbUnit": "lb",
+    "activityLabel": "Aktivität",
+    "durationLabel": "Dauer (Minuten)",
+    "calculateButton": "Berechnen",
+    "resultLabel": "Verbrannte Kalorien",
+    "metLabel": "MET-Wert",
+    "activityRunning": "Laufen (8 km/h)",
+    "activityRunningFast": "Laufen (12 km/h)",
+    "activityWalking": "Gehen (4 km/h)",
+    "activityCycling": "Radfahren (moderat)",
+    "activitySwimming": "Schwimmen (moderat)",
+    "activityWeightLifting": "Krafttraining",
+    "activityYoga": "Yoga",
+    "activityHiking": "Wandern",
+    "activityJumprope": "Seilspringen",
+    "activityDancing": "Tanzen",
+    "activityBasketball": "Basketball",
+    "activitySoccer": "Fußball",
+    "activityRowingMachine": "Rudergerät",
+    "activityElliptical": "Ellipsentrainer",
+    "activityPilates": "Pilates",
+    "activityZumba": "Zumba"
+  },
+  "HeartRateZone": {
+    "ageLabel": "Alter (Jahre)",
+    "restingHrLabel": "Ruhepuls (bpm, optional)",
+    "restingHrPlaceholder": "z.B. 60",
+    "calculateButton": "Berechnen",
+    "maxHrLabel": "Maximale HF",
+    "formulaLabel": "Formel",
+    "formulaBasic": "Grundformel (220 − Alter)",
+    "formulaKarvonen": "Karvonen (verwendet Ruhepuls)",
+    "zoneLabel": "Zone",
+    "rangeLabel": "Bereich (bpm)",
+    "descriptionLabel": "Beschreibung",
+    "zone1": "Zone 1 — Sehr leicht",
+    "zone2": "Zone 2 — Leicht",
+    "zone3": "Zone 3 — Moderat",
+    "zone4": "Zone 4 — Hart",
+    "zone5": "Zone 5 — Maximum",
+    "zone1Desc": "Aufwärmen, Erholung",
+    "zone2Desc": "Fettverbrennung, Ausdauer",
+    "zone3Desc": "Aerobe Fitness",
+    "zone4Desc": "Geschwindigkeit & Leistung",
+    "zone5Desc": "Maximale Anstrengung"
+  },
+  "SleepCycleCalculator": {
+    "modeWakeUp": "Ich möchte aufwachen um...",
+    "modeBedtime": "Ich schlafe um... ein",
+    "wakeUpLabel": "Aufwachzeit",
+    "bedtimeLabel": "Schlafenszeit",
+    "calculateButton": "Berechnen",
+    "resultsBedtimeLabel": "Schlafen Sie um:",
+    "resultsWakeUpLabel": "Wachen Sie auf um:",
+    "cyclesLabel": "{n} Schlafzyklen ({h}h {m}m)",
+    "recommendedLabel": "Empfohlen",
+    "fallAsleepNote": "Beinhaltet ~14 Minuten zum Einschlafen",
+    "tipLabel": "Tipp: 5–6 Schlafzyklen (7,5–9 Stunden) sind für die meisten Erwachsenen ideal."
   },
   "AboutPage": {
     "title": "Über ToolsShed",

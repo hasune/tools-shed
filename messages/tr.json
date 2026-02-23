@@ -452,6 +452,42 @@
       "description": "Metindeki tekrarlanan satırları büyük/küçük harf ve sıralama seçenekleriyle kaldırın.",
       "metaTitle": "Tekrar Eden Satır Silici",
       "metaDescription": "Herhangi bir metinden tekrar eden satırları kaldırın. Ücretsiz çevrimiçi araç."
+    },
+    "pomodoro-timer": {
+      "name": "Pomodoro Zamanlayıcı",
+      "description": "Pomodoro Tekniği ile verimliliğinizi artırın — 25 dakikalık odaklanma seansları ve kısa molalar.",
+      "metaTitle": "Pomodoro Zamanlayıcı",
+      "metaDescription": "Ücretsiz çevrimiçi Pomodoro zamanlayıcı. Verimliliğinizi artırmak için özelleştirilebilir mola aralıklı 25 dakikalık odaklanma seansları."
+    },
+    "working-hours-calculator": {
+      "name": "Çalışma Saati Hesaplayıcı",
+      "description": "Mola süresi düşülerek günlük ve haftalık toplam çalışma saatini hesaplar.",
+      "metaTitle": "Çalışma Saati Hesaplayıcı",
+      "metaDescription": "Günlük ve haftalık toplam çalışma saatinizi hesaplayın. Birden fazla vardiya, mola düşümü ve fazla mesai hesabını destekler."
+    },
+    "countdown-timer": {
+      "name": "Geri Sayım Zamanlayıcı",
+      "description": "Herhangi bir gelecek tarih ve saate kadar geri sayım yapın — etkinlikler, son tarihler, tatiller ve daha fazlası.",
+      "metaTitle": "Geri Sayım Zamanlayıcı",
+      "metaDescription": "Herhangi bir tarih ve saate ücretsiz çevrimiçi geri sayım zamanlayıcı. Etkinlikler, son tarihler, doğum günleri ve tatiller için mükemmel."
+    },
+    "calorie-burn-calculator": {
+      "name": "Kalori Yakma Hesaplayıcı",
+      "description": "Aktivite türü, süre ve ağırlığa göre egzersiz sırasında yakılan kalorileri tahmin edin.",
+      "metaTitle": "Kalori Yakma Hesaplayıcı",
+      "metaDescription": "MET değerlerini kullanarak egzersiz sırasında yakılan kalorileri tahmin edin. 20'den fazla aktiviteyi destekler. Ücretsiz çevrimiçi hesaplayıcı."
+    },
+    "heart-rate-zone": {
+      "name": "Kalp Atışı Bölgesi Hesaplayıcı",
+      "description": "Yaş ve dinlenme nabzına göre 5 antrenman kalp atışı bölgenizi hesaplayın.",
+      "metaTitle": "Kalp Atışı Bölgesi Hesaplayıcı",
+      "metaDescription": "Maksimum KA ve Karvonen formülü kullanarak 5 kalp atışı antrenman bölgenizi hesaplayın. Ücretsiz çevrimiçi hesaplayıcı."
+    },
+    "sleep-cycle-calculator": {
+      "name": "Uyku Döngüsü Hesaplayıcı",
+      "description": "90 dakikalık uyku döngülerine göre en iyi uyku veya uyanış zamanını bulun.",
+      "metaTitle": "Uyku Döngüsü Hesaplayıcı",
+      "metaDescription": "90 dakikalık uyku döngülerine göre ideal uyku veya uyanış zamanını hesaplayın. Her sabah dinlenmiş uyanın."
     }
   },
   "Common": {
@@ -1208,6 +1244,108 @@
     "originalLines": "Orijinal satır sayısı",
     "uniqueLines": "Benzersiz satır sayısı",
     "removedLines": "Kaldırıldı"
+  },
+  "PomodoroTimer": {
+    "focusLabel": "Odaklanma",
+    "shortBreakLabel": "Kısa mola",
+    "longBreakLabel": "Uzun mola",
+    "startButton": "Başlat",
+    "pauseButton": "Duraklat",
+    "resetButton": "Sıfırla",
+    "sessionsLabel": "Seanslar",
+    "focusDurationLabel": "Odaklanma (dk)",
+    "shortBreakDurationLabel": "Kısa mola (dk)",
+    "longBreakDurationLabel": "Uzun mola (dk)",
+    "sessionCompleteLabel": "Seans tamamlandı! Mola verin.",
+    "breakCompleteLabel": "Mola bitti! Odaklanma zamanı.",
+    "settingsLabel": "Ayarlar"
+  },
+  "WorkingHoursCalculator": {
+    "addRowButton": "Satır ekle",
+    "removeButton": "Kaldır",
+    "startTimeLabel": "Başlangıç",
+    "endTimeLabel": "Bitiş",
+    "breakLabel": "Mola (dk)",
+    "hoursLabel": "Saat",
+    "totalDailyLabel": "Toplam saat",
+    "weeklyTotalLabel": "Haftalık toplam",
+    "overtimeLabel": "Fazla mesai (>8sa/gün)",
+    "dayLabel": "Gün {n}",
+    "calculateButton": "Hesapla"
+  },
+  "CountdownTimer": {
+    "targetDateLabel": "Hedef tarih ve saat",
+    "eventNameLabel": "Etkinlik adı (isteğe bağlı)",
+    "eventNamePlaceholder": "örn. Yeni Yıl, Doğum günü...",
+    "daysLabel": "Gün",
+    "hoursLabel": "Saat",
+    "minutesLabel": "Dakika",
+    "secondsLabel": "Saniye",
+    "expiredMessage": "Süre doldu! 🎉",
+    "setTimerButton": "Zamanlayıcıyı ayarla",
+    "resetButton": "Sıfırla"
+  },
+  "CalorieBurnCalculator": {
+    "weightLabel": "Ağırlık",
+    "kgUnit": "kg",
+    "lbUnit": "lb",
+    "activityLabel": "Aktivite",
+    "durationLabel": "Süre (dakika)",
+    "calculateButton": "Hesapla",
+    "resultLabel": "Yakılan kalori",
+    "metLabel": "MET değeri",
+    "activityRunning": "Koşu (8 km/sa)",
+    "activityRunningFast": "Koşu (12 km/sa)",
+    "activityWalking": "Yürüyüş (4 km/sa)",
+    "activityCycling": "Bisiklet (orta)",
+    "activitySwimming": "Yüzme (orta)",
+    "activityWeightLifting": "Ağırlık antrenmanı",
+    "activityYoga": "Yoga",
+    "activityHiking": "Doğa yürüyüşü",
+    "activityJumprope": "Atlama ipi",
+    "activityDancing": "Dans",
+    "activityBasketball": "Basketbol",
+    "activitySoccer": "Futbol",
+    "activityRowingMachine": "Kürek makinesi",
+    "activityElliptical": "Eliptik bisiklet",
+    "activityPilates": "Pilates",
+    "activityZumba": "Zumba"
+  },
+  "HeartRateZone": {
+    "ageLabel": "Yaş (yıl)",
+    "restingHrLabel": "Dinlenme kalp atışı (atım/dk, isteğe bağlı)",
+    "restingHrPlaceholder": "örn. 60",
+    "calculateButton": "Hesapla",
+    "maxHrLabel": "Maksimum KA",
+    "formulaLabel": "Formül",
+    "formulaBasic": "Temel (220 − yaş)",
+    "formulaKarvonen": "Karvonen (dinlenme KA kullanır)",
+    "zoneLabel": "Bölge",
+    "rangeLabel": "Aralık (atım/dk)",
+    "descriptionLabel": "Açıklama",
+    "zone1": "Bölge 1 — Çok hafif",
+    "zone2": "Bölge 2 — Hafif",
+    "zone3": "Bölge 3 — Orta",
+    "zone4": "Bölge 4 — Yoğun",
+    "zone5": "Bölge 5 — Maksimum",
+    "zone1Desc": "Isınma, toparlanma",
+    "zone2Desc": "Yağ yakma, dayanıklılık",
+    "zone3Desc": "Aerobik kondisyon",
+    "zone4Desc": "Hız ve performans",
+    "zone5Desc": "Maksimum çaba"
+  },
+  "SleepCycleCalculator": {
+    "modeWakeUp": "Şu saatte uyanmak istiyorum...",
+    "modeBedtime": "Şu saatte uyuyacağım...",
+    "wakeUpLabel": "Uyanış saati",
+    "bedtimeLabel": "Uyku saati",
+    "calculateButton": "Hesapla",
+    "resultsBedtimeLabel": "Şu saatte yatın:",
+    "resultsWakeUpLabel": "Şu saatte kalkın:",
+    "cyclesLabel": "{n} uyku döngüsü ({h}sa {m}dk)",
+    "recommendedLabel": "Önerilen",
+    "fallAsleepNote": "~14 dakika uykuya dalma süresi dahil",
+    "tipLabel": "İpucu: Çoğu yetişkin için 5-6 uyku döngüsü (7,5-9 saat) idealdir."
   },
   "AboutPage": {
     "title": "ToolsShed Hakkında",

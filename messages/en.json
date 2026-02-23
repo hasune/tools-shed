@@ -452,6 +452,42 @@
       "description": "Remove duplicate lines from text with options for case sensitivity and sorting.",
       "metaTitle": "Line Deduplicator",
       "metaDescription": "Remove duplicate lines from any text. Free online line deduplicator with case-sensitivity and sort options."
+    },
+    "pomodoro-timer": {
+      "name": "Pomodoro Timer",
+      "description": "Boost productivity with the Pomodoro Technique — 25-minute focus sessions with short breaks.",
+      "metaTitle": "Pomodoro Timer",
+      "metaDescription": "Free online Pomodoro timer. 25-minute focus sessions with customizable break intervals to boost your productivity."
+    },
+    "working-hours-calculator": {
+      "name": "Working Hours Calculator",
+      "description": "Calculate total working hours per day and week with break time deductions.",
+      "metaTitle": "Working Hours Calculator",
+      "metaDescription": "Calculate your total working hours per day and week. Supports multiple shifts, break deductions, and overtime calculation."
+    },
+    "countdown-timer": {
+      "name": "Countdown Timer",
+      "description": "Count down to any future date and time — events, deadlines, holidays, and more.",
+      "metaTitle": "Countdown Timer",
+      "metaDescription": "Free online countdown timer to any date and time. Perfect for events, deadlines, birthdays, and holidays."
+    },
+    "calorie-burn-calculator": {
+      "name": "Calorie Burn Calculator",
+      "description": "Estimate calories burned during exercise based on activity type, duration, and weight.",
+      "metaTitle": "Calorie Burn Calculator",
+      "metaDescription": "Estimate calories burned during exercise using MET values. Supports 20+ activities. Free online calorie burn calculator."
+    },
+    "heart-rate-zone": {
+      "name": "Heart Rate Zone Calculator",
+      "description": "Calculate your 5 training heart rate zones based on age and resting heart rate.",
+      "metaTitle": "Heart Rate Zone Calculator",
+      "metaDescription": "Calculate your 5 heart rate training zones using max HR and the Karvonen formula. Free online heart rate zone calculator."
+    },
+    "sleep-cycle-calculator": {
+      "name": "Sleep Cycle Calculator",
+      "description": "Find the best bedtime or wake-up time based on 90-minute sleep cycles.",
+      "metaTitle": "Sleep Cycle Calculator",
+      "metaDescription": "Find the ideal bedtime or wake-up time based on 90-minute sleep cycles. Wake up refreshed every morning."
     }
   },
   "Common": {
@@ -1208,6 +1244,108 @@
     "originalLines": "Original lines",
     "uniqueLines": "Unique lines",
     "removedLines": "Removed"
+  },
+  "PomodoroTimer": {
+    "focusLabel": "Focus",
+    "shortBreakLabel": "Short Break",
+    "longBreakLabel": "Long Break",
+    "startButton": "Start",
+    "pauseButton": "Pause",
+    "resetButton": "Reset",
+    "sessionsLabel": "Sessions",
+    "focusDurationLabel": "Focus (min)",
+    "shortBreakDurationLabel": "Short break (min)",
+    "longBreakDurationLabel": "Long break (min)",
+    "sessionCompleteLabel": "Session complete! Take a break.",
+    "breakCompleteLabel": "Break over! Time to focus.",
+    "settingsLabel": "Settings"
+  },
+  "WorkingHoursCalculator": {
+    "addRowButton": "Add Row",
+    "removeButton": "Remove",
+    "startTimeLabel": "Start",
+    "endTimeLabel": "End",
+    "breakLabel": "Break (min)",
+    "hoursLabel": "Hours",
+    "totalDailyLabel": "Total hours",
+    "weeklyTotalLabel": "Weekly total",
+    "overtimeLabel": "Overtime (>8h/day)",
+    "dayLabel": "Day {n}",
+    "calculateButton": "Calculate"
+  },
+  "CountdownTimer": {
+    "targetDateLabel": "Target date & time",
+    "eventNameLabel": "Event name (optional)",
+    "eventNamePlaceholder": "e.g. New Year, Birthday...",
+    "daysLabel": "Days",
+    "hoursLabel": "Hours",
+    "minutesLabel": "Minutes",
+    "secondsLabel": "Seconds",
+    "expiredMessage": "Time's up! 🎉",
+    "setTimerButton": "Set Timer",
+    "resetButton": "Reset"
+  },
+  "CalorieBurnCalculator": {
+    "weightLabel": "Weight",
+    "kgUnit": "kg",
+    "lbUnit": "lb",
+    "activityLabel": "Activity",
+    "durationLabel": "Duration (minutes)",
+    "calculateButton": "Calculate",
+    "resultLabel": "Calories burned",
+    "metLabel": "MET value",
+    "activityRunning": "Running (8 km/h)",
+    "activityRunningFast": "Running (12 km/h)",
+    "activityWalking": "Walking (4 km/h)",
+    "activityCycling": "Cycling (moderate)",
+    "activitySwimming": "Swimming (moderate)",
+    "activityWeightLifting": "Weight lifting",
+    "activityYoga": "Yoga",
+    "activityHiking": "Hiking",
+    "activityJumprope": "Jump rope",
+    "activityDancing": "Dancing",
+    "activityBasketball": "Basketball",
+    "activitySoccer": "Soccer",
+    "activityRowingMachine": "Rowing machine",
+    "activityElliptical": "Elliptical",
+    "activityPilates": "Pilates",
+    "activityZumba": "Zumba"
+  },
+  "HeartRateZone": {
+    "ageLabel": "Age (years)",
+    "restingHrLabel": "Resting heart rate (bpm, optional)",
+    "restingHrPlaceholder": "e.g. 60",
+    "calculateButton": "Calculate",
+    "maxHrLabel": "Max heart rate",
+    "formulaLabel": "Formula",
+    "formulaBasic": "Basic (220 − age)",
+    "formulaKarvonen": "Karvonen (uses resting HR)",
+    "zoneLabel": "Zone",
+    "rangeLabel": "Range (bpm)",
+    "descriptionLabel": "Description",
+    "zone1": "Zone 1 — Very Light",
+    "zone2": "Zone 2 — Light",
+    "zone3": "Zone 3 — Moderate",
+    "zone4": "Zone 4 — Hard",
+    "zone5": "Zone 5 — Maximum",
+    "zone1Desc": "Warm-up, recovery",
+    "zone2Desc": "Fat burning, endurance",
+    "zone3Desc": "Aerobic fitness",
+    "zone4Desc": "Speed & performance",
+    "zone5Desc": "Maximum effort"
+  },
+  "SleepCycleCalculator": {
+    "modeWakeUp": "I want to wake up at...",
+    "modeBedtime": "I'm going to sleep at...",
+    "wakeUpLabel": "Wake-up time",
+    "bedtimeLabel": "Bedtime",
+    "calculateButton": "Calculate",
+    "resultsBedtimeLabel": "Go to sleep at:",
+    "resultsWakeUpLabel": "Wake up at:",
+    "cyclesLabel": "{n} sleep cycles ({h}h {m}m)",
+    "recommendedLabel": "Recommended",
+    "fallAsleepNote": "Includes ~14 minutes to fall asleep",
+    "tipLabel": "Tip: 5–6 sleep cycles (7.5–9 hours) is ideal for most adults."
   },
   "AboutPage": {
     "title": "About ToolsShed",

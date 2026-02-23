@@ -589,6 +589,62 @@ export const tools: Tool[] = [
     icon: "💧",
     keywords: ["water", "hydration", "intake", "daily", "health", "calculator", "drink"],
   },
+  // Time (new batch)
+  {
+    slug: "pomodoro-timer",
+    name: "Pomodoro Timer",
+    description: "Boost productivity with the Pomodoro Technique — 25-minute focus sessions with short breaks.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "🍅",
+    keywords: ["pomodoro", "timer", "focus", "productivity", "work", "break", "technique"],
+  },
+  {
+    slug: "working-hours-calculator",
+    name: "Working Hours Calculator",
+    description: "Calculate total working hours per day and week with break time deductions.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "🕐",
+    keywords: ["working hours", "work time", "hours", "break", "overtime", "calculator", "schedule"],
+  },
+  {
+    slug: "countdown-timer",
+    name: "Countdown Timer",
+    description: "Count down to any future date and time — events, deadlines, holidays, and more.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "⏳",
+    keywords: ["countdown", "timer", "date", "event", "deadline", "days", "hours", "minutes"],
+  },
+  // Health (new batch)
+  {
+    slug: "calorie-burn-calculator",
+    name: "Calorie Burn Calculator",
+    description: "Estimate calories burned during exercise based on activity type, duration, and weight.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🔥",
+    keywords: ["calories", "burn", "exercise", "activity", "met", "fitness", "calculator"],
+  },
+  {
+    slug: "heart-rate-zone",
+    name: "Heart Rate Zone Calculator",
+    description: "Calculate your 5 training heart rate zones based on age and resting heart rate.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "❤️",
+    keywords: ["heart rate", "zone", "training", "max hr", "cardio", "fitness", "karvonen"],
+  },
+  {
+    slug: "sleep-cycle-calculator",
+    name: "Sleep Cycle Calculator",
+    description: "Find the best bedtime or wake-up time based on 90-minute sleep cycles.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "😴",
+    keywords: ["sleep", "cycle", "wake up", "bedtime", "90 minutes", "rem", "calculator"],
+  },
 ];
 
 export const categories: Category[] = [

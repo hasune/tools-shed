@@ -452,6 +452,42 @@
       "description": "テキストから重複した行を削除します。",
       "metaTitle": "重複行削除ツール",
       "metaDescription": "テキストから重複行を削除します。大文字小文字の区別とソートオプション付き。無料オンライン重複行削除ツール。"
+    },
+    "pomodoro-timer": {
+      "name": "ポモドーロタイマー",
+      "description": "25分の集中セッションと短い休憩でポモドーロテクニックを活用し、生産性を向上させます。",
+      "metaTitle": "ポモドーロタイマー",
+      "metaDescription": "無料のオンラインポモドーロタイマー。25分の集中セッションとカスタマイズ可能な休憩間隔で生産性を向上させます。"
+    },
+    "working-hours-calculator": {
+      "name": "労働時間計算機",
+      "description": "休憩時間を差し引いた1日および週の労働時間合計を計算します。",
+      "metaTitle": "労働時間計算機",
+      "metaDescription": "1日および週の労働時間を計算します。複数シフト、休憩控除、残業計算に対応した無料オンラインツール。"
+    },
+    "countdown-timer": {
+      "name": "カウントダウンタイマー",
+      "description": "イベント、締め切り、祝日など、任意の日時までカウントダウンします。",
+      "metaTitle": "カウントダウンタイマー",
+      "metaDescription": "任意の日時への無料オンラインカウントダウンタイマー。イベント、締め切り、誕生日、祝日に最適です。"
+    },
+    "calorie-burn-calculator": {
+      "name": "消費カロリー計算機",
+      "description": "活動の種類、時間、体重に基づいて運動中に消費するカロリーを推定します。",
+      "metaTitle": "消費カロリー計算機",
+      "metaDescription": "MET値を使用して運動中の消費カロリーを推定します。20種類以上の活動に対応した無料オンラインカロリー計算機。"
+    },
+    "heart-rate-zone": {
+      "name": "心拍ゾーン計算機",
+      "description": "年齢と安静時心拍数に基づいて5つのトレーニング心拍ゾーンを計算します。",
+      "metaTitle": "心拍ゾーン計算機",
+      "metaDescription": "最大心拍数とカルボーネン公式を使用して5つの心拍トレーニングゾーンを計算します。無料オンラインツール。"
+    },
+    "sleep-cycle-calculator": {
+      "name": "睡眠サイクル計算機",
+      "description": "90分の睡眠サイクルに基づいた最適な就寝時刻または起床時刻を見つけます。",
+      "metaTitle": "睡眠サイクル計算機",
+      "metaDescription": "90分の睡眠サイクルに基づいた理想的な就寝時刻または起床時刻を見つけます。毎朝すっきり目覚めましょう。"
     }
   },
   "Common": {
@@ -1208,6 +1244,108 @@
     "originalLines": "元の行数",
     "uniqueLines": "ユニーク行数",
     "removedLines": "削除数"
+  },
+  "PomodoroTimer": {
+    "focusLabel": "集中",
+    "shortBreakLabel": "短い休憩",
+    "longBreakLabel": "長い休憩",
+    "startButton": "開始",
+    "pauseButton": "一時停止",
+    "resetButton": "リセット",
+    "sessionsLabel": "セッション",
+    "focusDurationLabel": "集中（分）",
+    "shortBreakDurationLabel": "短い休憩（分）",
+    "longBreakDurationLabel": "長い休憩（分）",
+    "sessionCompleteLabel": "セッション完了！休憩しましょう。",
+    "breakCompleteLabel": "休憩終了！集中しましょう。",
+    "settingsLabel": "設定"
+  },
+  "WorkingHoursCalculator": {
+    "addRowButton": "行を追加",
+    "removeButton": "削除",
+    "startTimeLabel": "開始",
+    "endTimeLabel": "終了",
+    "breakLabel": "休憩（分）",
+    "hoursLabel": "時間",
+    "totalDailyLabel": "合計時間",
+    "weeklyTotalLabel": "週合計",
+    "overtimeLabel": "残業（1日8時間超）",
+    "dayLabel": "日 {n}",
+    "calculateButton": "計算"
+  },
+  "CountdownTimer": {
+    "targetDateLabel": "目標日時",
+    "eventNameLabel": "イベント名（任意）",
+    "eventNamePlaceholder": "例：新年、誕生日...",
+    "daysLabel": "日",
+    "hoursLabel": "時間",
+    "minutesLabel": "分",
+    "secondsLabel": "秒",
+    "expiredMessage": "時間切れ！🎉",
+    "setTimerButton": "タイマーを設定",
+    "resetButton": "リセット"
+  },
+  "CalorieBurnCalculator": {
+    "weightLabel": "体重",
+    "kgUnit": "kg",
+    "lbUnit": "lb",
+    "activityLabel": "活動",
+    "durationLabel": "時間（分）",
+    "calculateButton": "計算",
+    "resultLabel": "消費カロリー",
+    "metLabel": "MET値",
+    "activityRunning": "ランニング（8 km/h）",
+    "activityRunningFast": "ランニング（12 km/h）",
+    "activityWalking": "ウォーキング（4 km/h）",
+    "activityCycling": "サイクリング（中程度）",
+    "activitySwimming": "水泳（中程度）",
+    "activityWeightLifting": "ウェイトトレーニング",
+    "activityYoga": "ヨガ",
+    "activityHiking": "ハイキング",
+    "activityJumprope": "縄跳び",
+    "activityDancing": "ダンス",
+    "activityBasketball": "バスケットボール",
+    "activitySoccer": "サッカー",
+    "activityRowingMachine": "ローイングマシン",
+    "activityElliptical": "エリプティカル",
+    "activityPilates": "ピラティス",
+    "activityZumba": "ズンバ"
+  },
+  "HeartRateZone": {
+    "ageLabel": "年齢（歳）",
+    "restingHrLabel": "安静時心拍数（bpm、任意）",
+    "restingHrPlaceholder": "例：60",
+    "calculateButton": "計算",
+    "maxHrLabel": "最大心拍数",
+    "formulaLabel": "計算式",
+    "formulaBasic": "基本（220 − 年齢）",
+    "formulaKarvonen": "カルボーネン法（安静時心拍数使用）",
+    "zoneLabel": "ゾーン",
+    "rangeLabel": "範囲（bpm）",
+    "descriptionLabel": "説明",
+    "zone1": "ゾーン1 — 非常に軽い",
+    "zone2": "ゾーン2 — 軽い",
+    "zone3": "ゾーン3 — 中程度",
+    "zone4": "ゾーン4 — ハード",
+    "zone5": "ゾーン5 — 最大",
+    "zone1Desc": "ウォームアップ、回復",
+    "zone2Desc": "脂肪燃焼、持久力",
+    "zone3Desc": "有酸素フィットネス",
+    "zone4Desc": "スピードとパフォーマンス",
+    "zone5Desc": "最大努力"
+  },
+  "SleepCycleCalculator": {
+    "modeWakeUp": "起床時刻を指定...",
+    "modeBedtime": "就寝時刻を指定...",
+    "wakeUpLabel": "起床時刻",
+    "bedtimeLabel": "就寝時刻",
+    "calculateButton": "計算",
+    "resultsBedtimeLabel": "就寝時刻：",
+    "resultsWakeUpLabel": "起床時刻：",
+    "cyclesLabel": "睡眠サイクル{n}回（{h}時間{m}分）",
+    "recommendedLabel": "推奨",
+    "fallAsleepNote": "入眠までの約14分を含む",
+    "tipLabel": "ヒント：5〜6サイクル（7.5〜9時間）がほとんどの大人に理想的です。"
   },
   "AboutPage": {
     "title": "ToolsShed について",

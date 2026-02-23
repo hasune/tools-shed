@@ -453,6 +453,54 @@
       "metaTitle": "Tekrar Eden Satır Silici",
       "metaDescription": "Herhangi bir metinden tekrar eden satırları kaldırın. Ücretsiz çevrimiçi araç."
     },
+    "qr-code-generator": {
+      "name": "QR Kod Oluşturucu",
+      "description": "Herhangi bir metin veya URL'den anında QR kodu oluşturun.",
+      "metaTitle": "QR Kod Oluşturucu",
+      "metaDescription": "Herhangi bir metin, URL veya veriden anında QR kodu oluşturun. Ücretsiz çevrimiçi QR kod oluşturucu."
+    },
+    "aspect-ratio-calculator": {
+      "name": "En-Boy Oranı Hesaplayıcı",
+      "description": "En-boy oranlarını hesaplayın ve oranları koruyarak boyutları ölçeklendirin.",
+      "metaTitle": "En-Boy Oranı Hesaplayıcı",
+      "metaDescription": "En-boy oranlarını hesaplayın ve görüntü veya video boyutlarını orantılı olarak ölçeklendirin. Eksik genişlik veya yüksekliği bulun."
+    },
+    "color-gradient-generator": {
+      "name": "CSS Degrade Oluşturucu",
+      "description": "Görsel bir editörle güzel CSS doğrusal ve dairesel degradeler oluşturun.",
+      "metaTitle": "CSS Degrade Oluşturucu",
+      "metaDescription": "CSS doğrusal ve dairesel degradeleri görsel olarak oluşturun. Oluşturulan CSS kodunu anında kopyalayın. Ücretsiz çevrimiçi degrade oluşturucu."
+    },
+    "morse-code-converter": {
+      "name": "Mors Kodu Dönüştürücü",
+      "description": "Metni Mors koduna dönüştürün ve Mors kodunu tekrar metne çözün.",
+      "metaTitle": "Mors Kodu Dönüştürücü",
+      "metaDescription": "Metni Mors koduna dönüştürün ve Mors kodunu tekrar metne çözün. Ücretsiz çevrimiçi Mors kodu çevirici."
+    },
+    "prime-factorizer": {
+      "name": "Asal Sayı Denetleyici ve Çarpanlarına Ayırıcı",
+      "description": "Bir sayının asal olup olmadığını kontrol edin ve asal çarpanlarına ayırın.",
+      "metaTitle": "Asal Sayı Denetleyici ve Çarpanlarına Ayırıcı",
+      "metaDescription": "Herhangi bir sayının asal olup olmadığını kontrol edin ve adım adım asal çarpanlarına ayırın. Ücretsiz çevrimiçi asal sayı aracı."
+    },
+    "matrix-calculator": {
+      "name": "Matris Hesaplayıcı",
+      "description": "2×2 ve 3×3 matrisler için toplama, çarpma, transpoze ve determinant hesapları yapın.",
+      "metaTitle": "Matris Hesaplayıcı",
+      "metaDescription": "2×2 ve 3×3 matrisler için toplama, çarpma, transpoze, determinant ve ters matris hesaplamaları yapın. Ücretsiz çevrimiçi matris hesaplayıcı."
+    },
+    "number-sequence": {
+      "name": "Sayı Dizisi Oluşturucu",
+      "description": "Aritmetik, geometrik, Fibonacci ve asal sayı dizileri oluşturun.",
+      "metaTitle": "Sayı Dizisi Oluşturucu",
+      "metaDescription": "Aritmetik, geometrik, Fibonacci ve asal sayı dizileri oluşturun. Ücretsiz çevrimiçi sayı dizisi oluşturucu."
+    },
+    "proportion-solver": {
+      "name": "Oran ve Orantı Çözücü",
+      "description": "Oranları ve orantıları çözün — a/b = c/d'deki eksik değeri bulun.",
+      "metaTitle": "Oran ve Orantı Çözücü",
+      "metaDescription": "Oranları çözün ve a/b = c/d'deki eksik değerleri bulun. Çapraz çarpma ile anında hesaplama. Ücretsiz çevrimiçi orantı hesaplayıcı."
+    },
     "pomodoro-timer": {
       "name": "Pomodoro Zamanlayıcı",
       "description": "Pomodoro Tekniği ile verimliliğinizi artırın — 25 dakikalık odaklanma seansları ve kısa molalar.",
@@ -1244,6 +1292,109 @@
     "originalLines": "Orijinal satır sayısı",
     "uniqueLines": "Benzersiz satır sayısı",
     "removedLines": "Kaldırıldı"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "Metin veya URL",
+    "inputPlaceholder": "Kodlanacak metin veya URL girin...",
+    "generateButton": "QR Kod Oluştur",
+    "sizeLabel": "Boyut",
+    "errorCorrectionLabel": "Hata düzeltme",
+    "downloadButton": "PNG İndir",
+    "copyButton": "Resmi Kopyala",
+    "copied": "Kopyalandı!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "En-boy oranı",
+    "widthLabel": "Genişlik",
+    "heightLabel": "Yükseklik",
+    "calculateButton": "Hesapla",
+    "solveForLabel": "Hesapla",
+    "solveWidth": "Genişlik",
+    "solveHeight": "Yükseklik",
+    "commonRatiosLabel": "Yaygın oranlar",
+    "resultLabel": "Sonuç",
+    "customRatioPlaceholder": "örn. 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "Tür",
+    "typeLinear": "Doğrusal",
+    "typeRadial": "Dairesel",
+    "angleLabel": "Açı",
+    "addColorButton": "Renk ekle",
+    "removeButton": "Kaldır",
+    "positionLabel": "Konum",
+    "cssOutputLabel": "CSS Çıktısı",
+    "copyButton": "CSS Kopyala",
+    "copied": "Kopyalandı!",
+    "previewLabel": "Önizleme"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "Metin → Mors",
+    "morseToText": "Mors → Metin",
+    "inputLabel": "Giriş",
+    "outputLabel": "Çıkış",
+    "textPlaceholder": "Dönüştürülecek metin girin...",
+    "morsePlaceholder": "Mors kodu girin (harfler arası boşluk, kelimeler arası / kullanın)...",
+    "convertButton": "Dönüştür",
+    "copyButton": "Kopyala",
+    "copied": "Kopyalandı!",
+    "referenceLabel": "Referans"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "Sayı",
+    "inputPlaceholder": "Pozitif tam sayı girin...",
+    "checkButton": "Kontrol et ve çarpanlara ayır",
+    "isPrime": "{n} bir asal sayıdır.",
+    "isNotPrime": "{n} bir asal sayı değildir.",
+    "factorizationLabel": "Asal çarpanlara ayırma",
+    "divisorsLabel": "Tüm bölenler",
+    "divisorCountLabel": "Bölen sayısı",
+    "sieveLabel": "Şu ana kadar asal sayılar",
+    "sieveButton": "Oluştur",
+    "sieveResultLabel": "Asal sayılar"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "Matris boyutu",
+    "matrixALabel": "Matris A",
+    "matrixBLabel": "Matris B",
+    "resultLabel": "Sonuç",
+    "operationLabel": "İşlem",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "A'nın Transpozu",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "Hesapla",
+    "noInverseError": "Tekil matris (ters matris mevcut değil)",
+    "dimensionError": "Çarpma için uyumsuz matris boyutları"
+  },
+  "NumberSequence": {
+    "typeLabel": "Dizi türü",
+    "typeArithmetic": "Aritmetik",
+    "typeGeometric": "Geometrik",
+    "typeFibonacci": "Fibonacci",
+    "typePrime": "Asal sayılar",
+    "typeSquare": "Tam kareler",
+    "startLabel": "Başlangıç değeri",
+    "diffLabel": "Ortak fark",
+    "ratioLabel": "Ortak oran",
+    "countLabel": "Terim sayısı",
+    "generateButton": "Oluştur",
+    "sumLabel": "Toplam",
+    "copyButton": "Kopyala"
+  },
+  "ProportionSolver": {
+    "equationLabel": "Orantı: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "Çöz",
+    "resultLabel": "Eksik değer",
+    "stepByStepLabel": "Adım adım",
+    "simplifiedRatioLabel": "Sadeleştirilmiş oran",
+    "leaveOneBlank": "Çözmek için bir alanı boş bırakın"
   },
   "PomodoroTimer": {
     "focusLabel": "Odaklanma",

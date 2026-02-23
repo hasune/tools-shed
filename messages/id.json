@@ -453,6 +453,54 @@
       "metaTitle": "Alat Penghapus Baris Duplikat",
       "metaDescription": "Hapus baris duplikat dari teks apa pun. Alat gratis dengan opsi huruf dan pengurutan."
     },
+    "qr-code-generator": {
+      "name": "Generator Kode QR",
+      "description": "Buat kode QR dari teks atau URL apa pun secara instan.",
+      "metaTitle": "Generator Kode QR",
+      "metaDescription": "Buat kode QR dari teks, URL, atau data apa pun secara instan. Generator kode QR gratis online."
+    },
+    "aspect-ratio-calculator": {
+      "name": "Kalkulator Rasio Aspek",
+      "description": "Hitung rasio aspek dan skala dimensi sambil mempertahankan proporsi.",
+      "metaTitle": "Kalkulator Rasio Aspek",
+      "metaDescription": "Hitung rasio aspek dan skala dimensi gambar atau video secara proporsional. Temukan lebar atau tinggi yang hilang."
+    },
+    "color-gradient-generator": {
+      "name": "Generator Gradien CSS",
+      "description": "Buat gradien CSS linear dan radial yang indah dengan editor visual.",
+      "metaTitle": "Generator Gradien CSS",
+      "metaDescription": "Buat gradien CSS linear dan radial secara visual. Salin kode CSS yang dihasilkan secara instan. Generator gradien gratis online."
+    },
+    "morse-code-converter": {
+      "name": "Konverter Kode Morse",
+      "description": "Ubah teks menjadi kode Morse dan dekode kode Morse kembali menjadi teks.",
+      "metaTitle": "Konverter Kode Morse",
+      "metaDescription": "Ubah teks menjadi kode Morse dan dekode kode Morse kembali menjadi teks. Penerjemah kode Morse gratis online."
+    },
+    "prime-factorizer": {
+      "name": "Pemeriksa Bilangan Prima dan Faktorisasi",
+      "description": "Periksa apakah suatu bilangan prima dan temukan faktorisasi primanya.",
+      "metaTitle": "Pemeriksa Bilangan Prima dan Faktorisasi",
+      "metaDescription": "Periksa apakah bilangan apa pun adalah prima dan temukan faktorisasi primanya dengan penjelasan langkah demi langkah."
+    },
+    "matrix-calculator": {
+      "name": "Kalkulator Matriks",
+      "description": "Jumlahkan, kalikan, transpose, dan hitung determinan matriks 2×2 dan 3×3.",
+      "metaTitle": "Kalkulator Matriks",
+      "metaDescription": "Lakukan penjumlahan, perkalian, transposisi, dan perhitungan determinan untuk matriks 2×2 dan 3×3. Kalkulator matriks gratis."
+    },
+    "number-sequence": {
+      "name": "Generator Deret Bilangan",
+      "description": "Buat deret aritmatika, geometri, Fibonacci, dan bilangan prima.",
+      "metaTitle": "Generator Deret Bilangan",
+      "metaDescription": "Buat deret aritmatika, geometri, Fibonacci, dan bilangan prima. Generator deret bilangan gratis online."
+    },
+    "proportion-solver": {
+      "name": "Pemecah Proporsi",
+      "description": "Selesaikan proporsi dan rasio — temukan nilai yang hilang dalam a/b = c/d.",
+      "metaTitle": "Pemecah Proporsi",
+      "metaDescription": "Selesaikan proporsi dan temukan nilai yang hilang dalam a/b = c/d. Perkalian silang instan. Kalkulator proporsi gratis online."
+    },
     "pomodoro-timer": {
       "name": "Timer Pomodoro",
       "description": "Tingkatkan produktivitas dengan Teknik Pomodoro — sesi fokus 25 menit dengan istirahat singkat.",
@@ -1244,6 +1292,109 @@
     "originalLines": "Baris asli",
     "uniqueLines": "Baris unik",
     "removedLines": "Dihapus"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "Teks atau URL",
+    "inputPlaceholder": "Masukkan teks atau URL untuk dikodekan...",
+    "generateButton": "Buat Kode QR",
+    "sizeLabel": "Ukuran",
+    "errorCorrectionLabel": "Koreksi kesalahan",
+    "downloadButton": "Unduh PNG",
+    "copyButton": "Salin Gambar",
+    "copied": "Disalin!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "Rasio aspek",
+    "widthLabel": "Lebar",
+    "heightLabel": "Tinggi",
+    "calculateButton": "Hitung",
+    "solveForLabel": "Hitung untuk",
+    "solveWidth": "Lebar",
+    "solveHeight": "Tinggi",
+    "commonRatiosLabel": "Rasio umum",
+    "resultLabel": "Hasil",
+    "customRatioPlaceholder": "mis. 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "Jenis",
+    "typeLinear": "Linear",
+    "typeRadial": "Radial",
+    "angleLabel": "Sudut",
+    "addColorButton": "Tambah warna",
+    "removeButton": "Hapus",
+    "positionLabel": "Posisi",
+    "cssOutputLabel": "Output CSS",
+    "copyButton": "Salin CSS",
+    "copied": "Disalin!",
+    "previewLabel": "Pratinjau"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "Teks → Morse",
+    "morseToText": "Morse → Teks",
+    "inputLabel": "Masukan",
+    "outputLabel": "Keluaran",
+    "textPlaceholder": "Masukkan teks untuk dikonversi...",
+    "morsePlaceholder": "Masukkan kode Morse (spasi antar huruf, / antar kata)...",
+    "convertButton": "Konversi",
+    "copyButton": "Salin",
+    "copied": "Disalin!",
+    "referenceLabel": "Referensi"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "Angka",
+    "inputPlaceholder": "Masukkan bilangan bulat positif...",
+    "checkButton": "Periksa dan faktorkan",
+    "isPrime": "{n} adalah bilangan prima.",
+    "isNotPrime": "{n} bukan bilangan prima.",
+    "factorizationLabel": "Faktorisasi prima",
+    "divisorsLabel": "Semua faktor",
+    "divisorCountLabel": "Jumlah faktor",
+    "sieveLabel": "Bilangan prima hingga",
+    "sieveButton": "Buat",
+    "sieveResultLabel": "Bilangan prima"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "Ukuran matriks",
+    "matrixALabel": "Matriks A",
+    "matrixBLabel": "Matriks B",
+    "resultLabel": "Hasil",
+    "operationLabel": "Operasi",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "Transpos A",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "Hitung",
+    "noInverseError": "Matriks singular (invers tidak ada)",
+    "dimensionError": "Dimensi matriks tidak kompatibel untuk perkalian"
+  },
+  "NumberSequence": {
+    "typeLabel": "Jenis barisan",
+    "typeArithmetic": "Aritmatika",
+    "typeGeometric": "Geometri",
+    "typeFibonacci": "Fibonacci",
+    "typePrime": "Bilangan prima",
+    "typeSquare": "Kuadrat sempurna",
+    "startLabel": "Nilai awal",
+    "diffLabel": "Beda",
+    "ratioLabel": "Rasio",
+    "countLabel": "Jumlah suku",
+    "generateButton": "Buat",
+    "sumLabel": "Jumlah",
+    "copyButton": "Salin"
+  },
+  "ProportionSolver": {
+    "equationLabel": "Proporsi: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "Selesaikan",
+    "resultLabel": "Nilai yang hilang",
+    "stepByStepLabel": "Langkah demi langkah",
+    "simplifiedRatioLabel": "Rasio disederhanakan",
+    "leaveOneBlank": "Biarkan satu kolom kosong untuk diselesaikan"
   },
   "PomodoroTimer": {
     "focusLabel": "Fokus",

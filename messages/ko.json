@@ -453,6 +453,54 @@
       "metaTitle": "중복 줄 제거 도구",
       "metaDescription": "텍스트에서 중복 줄을 제거합니다. 대소문자 구분 및 정렬 옵션 제공. 무료 온라인 도구."
     },
+    "qr-code-generator": {
+      "name": "QR 코드 생성기",
+      "description": "텍스트나 URL에서 QR 코드를 즉시 생성합니다.",
+      "metaTitle": "QR 코드 생성기",
+      "metaDescription": "텍스트, URL 또는 데이터에서 QR 코드를 즉시 생성합니다. 무료 온라인 QR 코드 생성기 — 가입 불필요."
+    },
+    "aspect-ratio-calculator": {
+      "name": "화면 비율 계산기",
+      "description": "화면 비율을 계산하고 비율을 유지하면서 치수를 조정합니다.",
+      "metaTitle": "화면 비율 계산기",
+      "metaDescription": "화면 비율을 계산하고 이미지 또는 동영상 치수를 비례적으로 조정합니다. 누락된 너비 또는 높이를 찾을 수 있습니다."
+    },
+    "color-gradient-generator": {
+      "name": "CSS 그라디언트 생성기",
+      "description": "비주얼 에디터로 아름다운 CSS 선형 및 방사형 그라디언트를 만듭니다.",
+      "metaTitle": "CSS 그라디언트 생성기",
+      "metaDescription": "CSS 선형 및 방사형 그라디언트를 시각적으로 생성합니다. 생성된 CSS 코드를 즉시 복사하세요. 무료 온라인 그라디언트 생성기."
+    },
+    "morse-code-converter": {
+      "name": "모스 부호 변환기",
+      "description": "텍스트를 모스 부호로 변환하고 모스 부호를 텍스트로 다시 디코딩합니다.",
+      "metaTitle": "모스 부호 변환기",
+      "metaDescription": "텍스트를 모스 부호로 변환하고 모스 부호를 텍스트로 디코딩합니다. 무료 온라인 모스 부호 번역기."
+    },
+    "prime-factorizer": {
+      "name": "소수 판별 및 소인수분해",
+      "description": "숫자가 소수인지 확인하고 소인수분해를 구합니다.",
+      "metaTitle": "소수 판별 및 소인수분해",
+      "metaDescription": "어떤 숫자가 소수인지 확인하고 단계별 풀이로 소인수분해를 구합니다. 무료 온라인 소수 도구."
+    },
+    "matrix-calculator": {
+      "name": "행렬 계산기",
+      "description": "2×2 및 3×3 행렬의 덧셈, 곱셈, 전치, 행렬식을 계산합니다.",
+      "metaTitle": "행렬 계산기",
+      "metaDescription": "2×2 및 3×3 행렬의 덧셈, 곱셈, 전치, 행렬식, 역행렬을 계산합니다. 무료 온라인 행렬 계산기."
+    },
+    "number-sequence": {
+      "name": "수열 생성기",
+      "description": "등차수열, 등비수열, 피보나치 수열, 소수 수열을 생성합니다.",
+      "metaTitle": "수열 생성기",
+      "metaDescription": "등차수열, 등비수열, 피보나치 수열, 소수 수열을 생성합니다. 무료 온라인 수열 생성기."
+    },
+    "proportion-solver": {
+      "name": "비례식 계산기",
+      "description": "비례식을 풀고 a/b = c/d에서 미지수를 구합니다.",
+      "metaTitle": "비례식 계산기",
+      "metaDescription": "비례식을 풀어 a/b = c/d의 미지수를 구합니다. 교차 곱셈으로 비율을 즉시 계산합니다. 무료 온라인 비례식 계산기."
+    },
     "pomodoro-timer": {
       "name": "뽀모도로 타이머",
       "description": "25분 집중 세션과 짧은 휴식으로 뽀모도로 기법을 활용해 생산성을 높이세요.",
@@ -1244,6 +1292,109 @@
     "originalLines": "원본 줄 수",
     "uniqueLines": "고유 줄 수",
     "removedLines": "제거됨"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "텍스트 또는 URL",
+    "inputPlaceholder": "인코딩할 텍스트 또는 URL 입력...",
+    "generateButton": "QR 코드 생성",
+    "sizeLabel": "크기",
+    "errorCorrectionLabel": "오류 수정",
+    "downloadButton": "PNG 다운로드",
+    "copyButton": "이미지 복사",
+    "copied": "복사됨!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "화면 비율",
+    "widthLabel": "너비",
+    "heightLabel": "높이",
+    "calculateButton": "계산",
+    "solveForLabel": "구할 값",
+    "solveWidth": "너비",
+    "solveHeight": "높이",
+    "commonRatiosLabel": "일반 비율",
+    "resultLabel": "결과",
+    "customRatioPlaceholder": "예: 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "유형",
+    "typeLinear": "선형",
+    "typeRadial": "방사형",
+    "angleLabel": "각도",
+    "addColorButton": "색상 추가",
+    "removeButton": "삭제",
+    "positionLabel": "위치",
+    "cssOutputLabel": "CSS 출력",
+    "copyButton": "CSS 복사",
+    "copied": "복사됨!",
+    "previewLabel": "미리보기"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "텍스트 → 모스 부호",
+    "morseToText": "모스 부호 → 텍스트",
+    "inputLabel": "입력",
+    "outputLabel": "출력",
+    "textPlaceholder": "변환할 텍스트 입력...",
+    "morsePlaceholder": "모스 부호 입력 (문자 사이 공백, 단어 사이 / 사용)...",
+    "convertButton": "변환",
+    "copyButton": "복사",
+    "copied": "복사됨!",
+    "referenceLabel": "참조표"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "숫자",
+    "inputPlaceholder": "양의 정수 입력...",
+    "checkButton": "판별 및 분해",
+    "isPrime": "{n}은(는) 소수입니다.",
+    "isNotPrime": "{n}은(는) 소수가 아닙니다.",
+    "factorizationLabel": "소인수분해",
+    "divisorsLabel": "모든 약수",
+    "divisorCountLabel": "약수 개수",
+    "sieveLabel": "이하 소수 목록",
+    "sieveButton": "생성",
+    "sieveResultLabel": "소수 목록"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "행렬 크기",
+    "matrixALabel": "행렬 A",
+    "matrixBLabel": "행렬 B",
+    "resultLabel": "결과",
+    "operationLabel": "연산",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "A 전치",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "계산",
+    "noInverseError": "특이 행렬 (역행렬이 존재하지 않습니다)",
+    "dimensionError": "행렬 곱셈에 적합하지 않은 차원"
+  },
+  "NumberSequence": {
+    "typeLabel": "수열 종류",
+    "typeArithmetic": "등차수열",
+    "typeGeometric": "등비수열",
+    "typeFibonacci": "피보나치 수열",
+    "typePrime": "소수 수열",
+    "typeSquare": "완전제곱수",
+    "startLabel": "시작 값",
+    "diffLabel": "공차",
+    "ratioLabel": "공비",
+    "countLabel": "항의 개수",
+    "generateButton": "생성",
+    "sumLabel": "합계",
+    "copyButton": "복사"
+  },
+  "ProportionSolver": {
+    "equationLabel": "비례식: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "풀기",
+    "resultLabel": "미지수 값",
+    "stepByStepLabel": "단계별 풀이",
+    "simplifiedRatioLabel": "기약 비",
+    "leaveOneBlank": "구하려는 값을 비워두세요"
   },
   "PomodoroTimer": {
     "focusLabel": "집중",

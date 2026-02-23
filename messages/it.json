@@ -453,6 +453,54 @@
       "metaTitle": "Rimozione Righe Duplicate",
       "metaDescription": "Rimuovi righe duplicate da qualsiasi testo. Strumento gratuito con opzioni."
     },
+    "qr-code-generator": {
+      "name": "Generatore di Codici QR",
+      "description": "Genera codici QR da qualsiasi testo o URL all'istante.",
+      "metaTitle": "Generatore di Codici QR",
+      "metaDescription": "Genera codici QR da qualsiasi testo, URL o dati all'istante. Generatore di codici QR gratuito online."
+    },
+    "aspect-ratio-calculator": {
+      "name": "Calcolatore di Proporzioni",
+      "description": "Calcola le proporzioni e scala le dimensioni mantenendo le proporzioni.",
+      "metaTitle": "Calcolatore di Proporzioni",
+      "metaDescription": "Calcola le proporzioni e scala proporzionalmente le dimensioni di immagini o video. Trova la larghezza o altezza mancante."
+    },
+    "color-gradient-generator": {
+      "name": "Generatore di Gradiente CSS",
+      "description": "Crea bellissimi gradienti CSS lineari e radiali con un editor visivo.",
+      "metaTitle": "Generatore di Gradiente CSS",
+      "metaDescription": "Crea gradienti CSS lineari e radiali visivamente. Copia il codice CSS generato all'istante. Generatore di gradiente gratuito online."
+    },
+    "morse-code-converter": {
+      "name": "Convertitore Codice Morse",
+      "description": "Converti testo in codice Morse e decodifica il codice Morse in testo.",
+      "metaTitle": "Convertitore Codice Morse",
+      "metaDescription": "Converti testo in codice Morse e decodifica il codice Morse in testo. Traduttore di codice Morse gratuito online."
+    },
+    "prime-factorizer": {
+      "name": "Verifica Numeri Primi e Fattorizzatore",
+      "description": "Verifica se un numero è primo e trova la sua fattorizzazione prima.",
+      "metaTitle": "Verifica Numeri Primi e Fattorizzatore",
+      "metaDescription": "Verifica se un numero è primo e trova la sua fattorizzazione prima con spiegazione passo per passo. Strumento gratuito per numeri primi."
+    },
+    "matrix-calculator": {
+      "name": "Calcolatore di Matrici",
+      "description": "Somma, moltiplica, trasponi e calcola il determinante di matrici 2×2 e 3×3.",
+      "metaTitle": "Calcolatore di Matrici",
+      "metaDescription": "Esegui addizione, moltiplicazione, trasposizione e calcolo del determinante per matrici 2×2 e 3×3. Calcolatore di matrici gratuito."
+    },
+    "number-sequence": {
+      "name": "Generatore di Sequenze Numeriche",
+      "description": "Genera sequenze aritmetiche, geometriche, di Fibonacci e di numeri primi.",
+      "metaTitle": "Generatore di Sequenze Numeriche",
+      "metaDescription": "Genera sequenze aritmetiche, geometriche, di Fibonacci e di numeri primi. Generatore di sequenze numeriche gratuito online."
+    },
+    "proportion-solver": {
+      "name": "Risolutore di Proporzioni",
+      "description": "Risolvi proporzioni e rapporti — trova il valore mancante in a/b = c/d.",
+      "metaTitle": "Risolutore di Proporzioni",
+      "metaDescription": "Risolvi proporzioni e trova i valori mancanti in a/b = c/d. Moltiplicazione incrociata istantanea. Calcolatore di proporzioni gratuito."
+    },
     "pomodoro-timer": {
       "name": "Timer Pomodoro",
       "description": "Aumenta la tua produttività con la Tecnica Pomodoro — sessioni di concentrazione da 25 minuti con brevi pause.",
@@ -1244,6 +1292,109 @@
     "originalLines": "Righe originali",
     "uniqueLines": "Righe uniche",
     "removedLines": "Rimosse"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "Testo o URL",
+    "inputPlaceholder": "Inserisci testo o URL da codificare...",
+    "generateButton": "Genera QR Code",
+    "sizeLabel": "Dimensione",
+    "errorCorrectionLabel": "Correzione errori",
+    "downloadButton": "Scarica PNG",
+    "copyButton": "Copia immagine",
+    "copied": "Copiato!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "Proporzione",
+    "widthLabel": "Larghezza",
+    "heightLabel": "Altezza",
+    "calculateButton": "Calcola",
+    "solveForLabel": "Calcola",
+    "solveWidth": "Larghezza",
+    "solveHeight": "Altezza",
+    "commonRatiosLabel": "Proporzioni comuni",
+    "resultLabel": "Risultato",
+    "customRatioPlaceholder": "es. 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "Tipo",
+    "typeLinear": "Lineare",
+    "typeRadial": "Radiale",
+    "angleLabel": "Angolo",
+    "addColorButton": "Aggiungi colore",
+    "removeButton": "Rimuovi",
+    "positionLabel": "Posizione",
+    "cssOutputLabel": "Output CSS",
+    "copyButton": "Copia CSS",
+    "copied": "Copiato!",
+    "previewLabel": "Anteprima"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "Testo → Morse",
+    "morseToText": "Morse → Testo",
+    "inputLabel": "Ingresso",
+    "outputLabel": "Uscita",
+    "textPlaceholder": "Inserisci testo da convertire...",
+    "morsePlaceholder": "Inserisci codice Morse (spazio tra lettere, / tra parole)...",
+    "convertButton": "Converti",
+    "copyButton": "Copia",
+    "copied": "Copiato!",
+    "referenceLabel": "Riferimento"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "Numero",
+    "inputPlaceholder": "Inserisci un intero positivo...",
+    "checkButton": "Verifica e fattorizza",
+    "isPrime": "{n} è un numero primo.",
+    "isNotPrime": "{n} non è un numero primo.",
+    "factorizationLabel": "Fattorizzazione prima",
+    "divisorsLabel": "Tutti i divisori",
+    "divisorCountLabel": "Numero di divisori",
+    "sieveLabel": "Numeri primi fino a",
+    "sieveButton": "Genera",
+    "sieveResultLabel": "Numeri primi"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "Dimensione matrice",
+    "matrixALabel": "Matrice A",
+    "matrixBLabel": "Matrice B",
+    "resultLabel": "Risultato",
+    "operationLabel": "Operazione",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "Trasposta di A",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "Calcola",
+    "noInverseError": "Matrice singolare (nessun inverso esiste)",
+    "dimensionError": "Dimensioni di matrice incompatibili per la moltiplicazione"
+  },
+  "NumberSequence": {
+    "typeLabel": "Tipo di successione",
+    "typeArithmetic": "Aritmetica",
+    "typeGeometric": "Geometrica",
+    "typeFibonacci": "Fibonacci",
+    "typePrime": "Numeri primi",
+    "typeSquare": "Quadrati perfetti",
+    "startLabel": "Valore iniziale",
+    "diffLabel": "Differenza comune",
+    "ratioLabel": "Ragione comune",
+    "countLabel": "Numero di termini",
+    "generateButton": "Genera",
+    "sumLabel": "Somma",
+    "copyButton": "Copia"
+  },
+  "ProportionSolver": {
+    "equationLabel": "Proporzione: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "Risolvi",
+    "resultLabel": "Valore mancante",
+    "stepByStepLabel": "Passo dopo passo",
+    "simplifiedRatioLabel": "Rapporto semplificato",
+    "leaveOneBlank": "Lascia un campo vuoto per risolverlo"
   },
   "PomodoroTimer": {
     "focusLabel": "Concentrazione",

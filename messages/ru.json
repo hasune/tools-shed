@@ -453,6 +453,54 @@
       "metaTitle": "Удаление дублирующихся строк",
       "metaDescription": "Удаляйте дублирующиеся строки из любого текста. Бесплатный инструмент с настройками."
     },
+    "qr-code-generator": {
+      "name": "Генератор QR-кодов",
+      "description": "Мгновенно генерируйте QR-коды из любого текста или URL.",
+      "metaTitle": "Генератор QR-кодов",
+      "metaDescription": "Мгновенно генерируйте QR-коды из любого текста, URL или данных. Бесплатный онлайн генератор QR-кодов."
+    },
+    "aspect-ratio-calculator": {
+      "name": "Калькулятор соотношения сторон",
+      "description": "Вычисляйте соотношения сторон и масштабируйте размеры с сохранением пропорций.",
+      "metaTitle": "Калькулятор соотношения сторон",
+      "metaDescription": "Вычисляйте соотношения сторон и пропорционально масштабируйте размеры изображений или видео. Найдите недостающую ширину или высоту."
+    },
+    "color-gradient-generator": {
+      "name": "Генератор CSS-градиентов",
+      "description": "Создавайте красивые линейные и радиальные CSS-градиенты с визуальным редактором.",
+      "metaTitle": "Генератор CSS-градиентов",
+      "metaDescription": "Создавайте линейные и радиальные CSS-градиенты визуально. Мгновенно копируйте сгенерированный CSS-код. Бесплатный онлайн генератор."
+    },
+    "morse-code-converter": {
+      "name": "Конвертер азбуки Морзе",
+      "description": "Переводите текст в азбуку Морзе и декодируйте азбуку Морзе обратно в текст.",
+      "metaTitle": "Конвертер азбуки Морзе",
+      "metaDescription": "Переводите текст в азбуку Морзе и декодируйте азбуку Морзе обратно в текст. Бесплатный онлайн переводчик азбуки Морзе."
+    },
+    "prime-factorizer": {
+      "name": "Проверка простых чисел и разложение на множители",
+      "description": "Проверьте, является ли число простым, и найдите его разложение на простые множители.",
+      "metaTitle": "Проверка простых чисел и разложение на множители",
+      "metaDescription": "Проверьте, является ли число простым, и найдите его разложение на простые множители с пошаговым объяснением."
+    },
+    "matrix-calculator": {
+      "name": "Калькулятор матриц",
+      "description": "Складывайте, перемножайте, транспонируйте и вычисляйте определитель матриц 2×2 и 3×3.",
+      "metaTitle": "Калькулятор матриц",
+      "metaDescription": "Выполняйте сложение, умножение, транспонирование и вычисление определителя матриц 2×2 и 3×3. Бесплатный онлайн калькулятор матриц."
+    },
+    "number-sequence": {
+      "name": "Генератор числовых последовательностей",
+      "description": "Генерируйте арифметические, геометрические, последовательности Фибоначчи и простых чисел.",
+      "metaTitle": "Генератор числовых последовательностей",
+      "metaDescription": "Генерируйте арифметические, геометрические, последовательности Фибоначчи и простых чисел. Бесплатный онлайн генератор."
+    },
+    "proportion-solver": {
+      "name": "Решатель пропорций",
+      "description": "Решайте пропорции и отношения — найдите недостающее значение в a/b = c/d.",
+      "metaTitle": "Решатель пропорций",
+      "metaDescription": "Решайте пропорции и находите недостающие значения в a/b = c/d. Перекрёстное умножение мгновенно. Бесплатный онлайн калькулятор."
+    },
     "pomodoro-timer": {
       "name": "Таймер Помодоро",
       "description": "Повысьте продуктивность с техникой Помодоро — 25-минутные сессии фокусировки с короткими перерывами.",
@@ -1244,6 +1292,109 @@
     "originalLines": "Исходных строк",
     "uniqueLines": "Уникальных строк",
     "removedLines": "Удалено"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "Текст или URL",
+    "inputPlaceholder": "Введите текст или URL для кодирования...",
+    "generateButton": "Создать QR-код",
+    "sizeLabel": "Размер",
+    "errorCorrectionLabel": "Коррекция ошибок",
+    "downloadButton": "Скачать PNG",
+    "copyButton": "Копировать изображение",
+    "copied": "Скопировано!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "Соотношение сторон",
+    "widthLabel": "Ширина",
+    "heightLabel": "Высота",
+    "calculateButton": "Рассчитать",
+    "solveForLabel": "Вычислить",
+    "solveWidth": "Ширину",
+    "solveHeight": "Высоту",
+    "commonRatiosLabel": "Стандартные соотношения",
+    "resultLabel": "Результат",
+    "customRatioPlaceholder": "напр. 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "Тип",
+    "typeLinear": "Линейный",
+    "typeRadial": "Радиальный",
+    "angleLabel": "Угол",
+    "addColorButton": "Добавить цвет",
+    "removeButton": "Удалить",
+    "positionLabel": "Позиция",
+    "cssOutputLabel": "CSS-код",
+    "copyButton": "Копировать CSS",
+    "copied": "Скопировано!",
+    "previewLabel": "Предпросмотр"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "Текст → Азбука Морзе",
+    "morseToText": "Азбука Морзе → Текст",
+    "inputLabel": "Ввод",
+    "outputLabel": "Вывод",
+    "textPlaceholder": "Введите текст для преобразования...",
+    "morsePlaceholder": "Введите азбуку Морзе (пробел между буквами, / между словами)...",
+    "convertButton": "Конвертировать",
+    "copyButton": "Копировать",
+    "copied": "Скопировано!",
+    "referenceLabel": "Справка"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "Число",
+    "inputPlaceholder": "Введите положительное целое число...",
+    "checkButton": "Проверить и разложить",
+    "isPrime": "{n} — простое число.",
+    "isNotPrime": "{n} — не простое число.",
+    "factorizationLabel": "Разложение на простые множители",
+    "divisorsLabel": "Все делители",
+    "divisorCountLabel": "Количество делителей",
+    "sieveLabel": "Простые числа до",
+    "sieveButton": "Сгенерировать",
+    "sieveResultLabel": "Простые числа"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "Размер матрицы",
+    "matrixALabel": "Матрица A",
+    "matrixBLabel": "Матрица B",
+    "resultLabel": "Результат",
+    "operationLabel": "Операция",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "Транспонирование A",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "Рассчитать",
+    "noInverseError": "Вырожденная матрица (обратная матрица не существует)",
+    "dimensionError": "Несовместимые размеры матриц для умножения"
+  },
+  "NumberSequence": {
+    "typeLabel": "Тип последовательности",
+    "typeArithmetic": "Арифметическая",
+    "typeGeometric": "Геометрическая",
+    "typeFibonacci": "Фибоначчи",
+    "typePrime": "Простые числа",
+    "typeSquare": "Точные квадраты",
+    "startLabel": "Начальное значение",
+    "diffLabel": "Разность",
+    "ratioLabel": "Знаменатель",
+    "countLabel": "Количество членов",
+    "generateButton": "Сгенерировать",
+    "sumLabel": "Сумма",
+    "copyButton": "Копировать"
+  },
+  "ProportionSolver": {
+    "equationLabel": "Пропорция: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "Решить",
+    "resultLabel": "Неизвестное значение",
+    "stepByStepLabel": "Пошаговое решение",
+    "simplifiedRatioLabel": "Упрощённое отношение",
+    "leaveOneBlank": "Оставьте одно поле пустым для решения"
   },
   "PomodoroTimer": {
     "focusLabel": "Фокус",

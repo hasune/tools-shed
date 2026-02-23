@@ -453,6 +453,54 @@
       "metaTitle": "重複行削除ツール",
       "metaDescription": "テキストから重複行を削除します。大文字小文字の区別とソートオプション付き。無料オンライン重複行削除ツール。"
     },
+    "qr-code-generator": {
+      "name": "QRコードジェネレーター",
+      "description": "任意のテキストやURLからQRコードを即座に生成します。",
+      "metaTitle": "QRコードジェネレーター",
+      "metaDescription": "任意のテキスト、URL、データからQRコードを即座に生成します。無料オンラインQRコードジェネレーター。"
+    },
+    "aspect-ratio-calculator": {
+      "name": "アスペクト比計算機",
+      "description": "縦横比を計算し、比率を維持しながら寸法をスケーリングします。",
+      "metaTitle": "アスペクト比計算機",
+      "metaDescription": "アスペクト比を計算し、画像や動画の寸法を比例的にスケーリングします。幅や高さの欠落値を求めます。無料オンラインツール。"
+    },
+    "color-gradient-generator": {
+      "name": "CSSグラデーションジェネレーター",
+      "description": "ビジュアルエディターで美しいCSSリニアおよびラジアルグラデーションを作成します。",
+      "metaTitle": "CSSグラデーションジェネレーター",
+      "metaDescription": "CSSのリニアおよびラジアルグラデーションをビジュアルで作成。生成したCSSコードを即座にコピーできます。無料オンラインツール。"
+    },
+    "morse-code-converter": {
+      "name": "モールス信号変換機",
+      "description": "テキストをモールス信号に変換し、モールス信号をテキストに戻します。",
+      "metaTitle": "モールス信号変換機",
+      "metaDescription": "テキストをモールス信号に変換し、モールス信号をテキストに戻します。無料オンラインモールス信号翻訳機。"
+    },
+    "prime-factorizer": {
+      "name": "素数判定・素因数分解",
+      "description": "数が素数かどうかを確認し、素因数分解を求めます。",
+      "metaTitle": "素数判定・素因数分解",
+      "metaDescription": "任意の数が素数かどうかを確認し、ステップバイステップの解説で素因数分解を求めます。無料オンライン素数ツール。"
+    },
+    "matrix-calculator": {
+      "name": "行列計算機",
+      "description": "2×2および3×3行列の加算、乗算、転置、行列式を計算します。",
+      "metaTitle": "行列計算機",
+      "metaDescription": "2×2および3×3行列の加算、乗算、転置、行列式、逆行列を計算します。無料オンライン行列計算機。"
+    },
+    "number-sequence": {
+      "name": "数列ジェネレーター",
+      "description": "等差数列、等比数列、フィボナッチ数列、素数列を生成します。",
+      "metaTitle": "数列ジェネレーター",
+      "metaDescription": "等差数列、等比数列、フィボナッチ数列、素数列を生成します。無料オンライン数列ジェネレーター。"
+    },
+    "proportion-solver": {
+      "name": "比例計算機",
+      "description": "比例式を解き、a/b = c/dの未知の値を求めます。",
+      "metaTitle": "比例計算機",
+      "metaDescription": "比例式を解いてa/b = c/dの欠落値を求めます。比を交差乗算して即座に解きます。無料オンライン比例計算機。"
+    },
     "pomodoro-timer": {
       "name": "ポモドーロタイマー",
       "description": "25分の集中セッションと短い休憩でポモドーロテクニックを活用し、生産性を向上させます。",
@@ -1244,6 +1292,109 @@
     "originalLines": "元の行数",
     "uniqueLines": "ユニーク行数",
     "removedLines": "削除数"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "テキストまたはURL",
+    "inputPlaceholder": "エンコードするテキストまたはURLを入力...",
+    "generateButton": "QRコードを生成",
+    "sizeLabel": "サイズ",
+    "errorCorrectionLabel": "エラー訂正",
+    "downloadButton": "PNG ダウンロード",
+    "copyButton": "画像をコピー",
+    "copied": "コピー済み！"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "アスペクト比",
+    "widthLabel": "幅",
+    "heightLabel": "高さ",
+    "calculateButton": "計算",
+    "solveForLabel": "求める値",
+    "solveWidth": "幅",
+    "solveHeight": "高さ",
+    "commonRatiosLabel": "一般的な比率",
+    "resultLabel": "結果",
+    "customRatioPlaceholder": "例：16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "タイプ",
+    "typeLinear": "リニア",
+    "typeRadial": "ラジアル",
+    "angleLabel": "角度",
+    "addColorButton": "色を追加",
+    "removeButton": "削除",
+    "positionLabel": "位置",
+    "cssOutputLabel": "CSS出力",
+    "copyButton": "CSSをコピー",
+    "copied": "コピー済み！",
+    "previewLabel": "プレビュー"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "テキスト → モールス",
+    "morseToText": "モールス → テキスト",
+    "inputLabel": "入力",
+    "outputLabel": "出力",
+    "textPlaceholder": "変換するテキストを入力...",
+    "morsePlaceholder": "モールス符号を入力（文字間はスペース、単語間は / を使用）...",
+    "convertButton": "変換",
+    "copyButton": "コピー",
+    "copied": "コピー済み！",
+    "referenceLabel": "参照表"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "数値",
+    "inputPlaceholder": "正の整数を入力...",
+    "checkButton": "判定・分解",
+    "isPrime": "{n} は素数です。",
+    "isNotPrime": "{n} は素数ではありません。",
+    "factorizationLabel": "素因数分解",
+    "divisorsLabel": "すべての約数",
+    "divisorCountLabel": "約数の個数",
+    "sieveLabel": "以下の素数を表示",
+    "sieveButton": "生成",
+    "sieveResultLabel": "素数一覧"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "行列サイズ",
+    "matrixALabel": "行列 A",
+    "matrixBLabel": "行列 B",
+    "resultLabel": "結果",
+    "operationLabel": "演算",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "Aの転置",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "計算",
+    "noInverseError": "行列は特異（逆行列が存在しません）",
+    "dimensionError": "行列の次元が乗算に対して不適合"
+  },
+  "NumberSequence": {
+    "typeLabel": "数列の種類",
+    "typeArithmetic": "等差数列",
+    "typeGeometric": "等比数列",
+    "typeFibonacci": "フィボナッチ数列",
+    "typePrime": "素数列",
+    "typeSquare": "完全平方数",
+    "startLabel": "開始値",
+    "diffLabel": "公差",
+    "ratioLabel": "公比",
+    "countLabel": "項数",
+    "generateButton": "生成",
+    "sumLabel": "合計",
+    "copyButton": "コピー"
+  },
+  "ProportionSolver": {
+    "equationLabel": "比例：a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "解く",
+    "resultLabel": "未知の値",
+    "stepByStepLabel": "ステップバイステップ",
+    "simplifiedRatioLabel": "簡略化された比",
+    "leaveOneBlank": "求めたい値を空白にしてください"
   },
   "PomodoroTimer": {
     "focusLabel": "集中",

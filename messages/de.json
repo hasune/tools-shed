@@ -453,6 +453,54 @@
       "metaTitle": "Doppelte Zeilen entfernen",
       "metaDescription": "Entferne doppelte Zeilen aus beliebigem Text. Kostenloses Tool mit Optionen."
     },
+    "qr-code-generator": {
+      "name": "QR-Code-Generator",
+      "description": "Generieren Sie QR-Codes aus beliebigem Text oder URLs sofort.",
+      "metaTitle": "QR-Code-Generator",
+      "metaDescription": "Generieren Sie QR-Codes aus beliebigem Text, URLs oder Daten sofort. Kostenloser Online-QR-Code-Generator."
+    },
+    "aspect-ratio-calculator": {
+      "name": "Seitenverhältnis-Rechner",
+      "description": "Berechnen Sie Seitenverhältnisse und skalieren Sie Abmessungen unter Beibehaltung der Proportionen.",
+      "metaTitle": "Seitenverhältnis-Rechner",
+      "metaDescription": "Berechnen Sie Seitenverhältnisse und skalieren Sie Bild- oder Videoabmessungen proportional. Finden Sie die fehlende Breite oder Höhe."
+    },
+    "color-gradient-generator": {
+      "name": "CSS-Verlauf-Generator",
+      "description": "Erstellen Sie schöne lineare und radiale CSS-Verläufe mit einem visuellen Editor.",
+      "metaTitle": "CSS-Verlauf-Generator",
+      "metaDescription": "Erstellen Sie CSS-Linear- und Radialverläufe visuell. Kopieren Sie den generierten CSS-Code sofort. Kostenloser Online-Verlauf-Generator."
+    },
+    "morse-code-converter": {
+      "name": "Morsecode-Konverter",
+      "description": "Konvertieren Sie Text in Morsecode und dekodieren Sie Morsecode zurück in Text.",
+      "metaTitle": "Morsecode-Konverter",
+      "metaDescription": "Konvertieren Sie Text in Morsecode und dekodieren Sie Morsecode zurück in Text. Kostenloser Online-Morsecode-Übersetzer."
+    },
+    "prime-factorizer": {
+      "name": "Primzahl-Prüfer und Faktorisierer",
+      "description": "Prüfen Sie, ob eine Zahl prim ist, und finden Sie ihre Primfaktorzerlegung.",
+      "metaTitle": "Primzahl-Prüfer und Faktorisierer",
+      "metaDescription": "Prüfen Sie, ob eine Zahl prim ist, und finden Sie ihre Primfaktorzerlegung mit schrittweiser Aufschlüsselung. Kostenloses Online-Primzahl-Tool."
+    },
+    "matrix-calculator": {
+      "name": "Matrizenrechner",
+      "description": "Addieren, multiplizieren, transponieren und berechnen Sie die Determinante von 2×2 und 3×3 Matrizen.",
+      "metaTitle": "Matrizenrechner",
+      "metaDescription": "Führen Sie Matrixaddition, -multiplikation, -transposition und Determinantenberechnung für 2×2 und 3×3 Matrizen durch. Kostenloser Matrizenrechner."
+    },
+    "number-sequence": {
+      "name": "Zahlenfolgen-Generator",
+      "description": "Generieren Sie arithmetische, geometrische, Fibonacci- und Primzahlenfolgen.",
+      "metaTitle": "Zahlenfolgen-Generator",
+      "metaDescription": "Generieren Sie arithmetische, geometrische, Fibonacci- und Primzahlenfolgen. Kostenloser Online-Zahlenfolgen-Generator."
+    },
+    "proportion-solver": {
+      "name": "Proportionsrechner",
+      "description": "Lösen Sie Proportionen und Verhältnisse — finden Sie den fehlenden Wert in a/b = c/d.",
+      "metaTitle": "Proportionsrechner",
+      "metaDescription": "Lösen Sie Proportionen und finden Sie fehlende Werte in a/b = c/d. Kreuzweise Multiplikation sofort. Kostenloser Online-Proportionsrechner."
+    },
     "pomodoro-timer": {
       "name": "Pomodoro-Timer",
       "description": "Steigern Sie Ihre Produktivität mit der Pomodoro-Technik — 25-Minuten-Fokussitzungen mit kurzen Pausen.",
@@ -1244,6 +1292,109 @@
     "originalLines": "Originalzeilen",
     "uniqueLines": "Einzigartige Zeilen",
     "removedLines": "Entfernt"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "Text oder URL",
+    "inputPlaceholder": "Text oder URL zum Codieren eingeben...",
+    "generateButton": "QR-Code generieren",
+    "sizeLabel": "Größe",
+    "errorCorrectionLabel": "Fehlerkorrektur",
+    "downloadButton": "PNG herunterladen",
+    "copyButton": "Bild kopieren",
+    "copied": "Kopiert!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "Seitenverhältnis",
+    "widthLabel": "Breite",
+    "heightLabel": "Höhe",
+    "calculateButton": "Berechnen",
+    "solveForLabel": "Berechnen für",
+    "solveWidth": "Breite",
+    "solveHeight": "Höhe",
+    "commonRatiosLabel": "Gängige Verhältnisse",
+    "resultLabel": "Ergebnis",
+    "customRatioPlaceholder": "z.B. 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "Typ",
+    "typeLinear": "Linear",
+    "typeRadial": "Radial",
+    "angleLabel": "Winkel",
+    "addColorButton": "Farbe hinzufügen",
+    "removeButton": "Entfernen",
+    "positionLabel": "Position",
+    "cssOutputLabel": "CSS-Ausgabe",
+    "copyButton": "CSS kopieren",
+    "copied": "Kopiert!",
+    "previewLabel": "Vorschau"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "Text → Morsecode",
+    "morseToText": "Morsecode → Text",
+    "inputLabel": "Eingabe",
+    "outputLabel": "Ausgabe",
+    "textPlaceholder": "Text zum Konvertieren eingeben...",
+    "morsePlaceholder": "Morsecode eingeben (Leerzeichen zwischen Buchstaben, / zwischen Wörtern)...",
+    "convertButton": "Konvertieren",
+    "copyButton": "Kopieren",
+    "copied": "Kopiert!",
+    "referenceLabel": "Referenz"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "Zahl",
+    "inputPlaceholder": "Positive ganze Zahl eingeben...",
+    "checkButton": "Prüfen und faktorisieren",
+    "isPrime": "{n} ist eine Primzahl.",
+    "isNotPrime": "{n} ist keine Primzahl.",
+    "factorizationLabel": "Primfaktorzerlegung",
+    "divisorsLabel": "Alle Teiler",
+    "divisorCountLabel": "Anzahl der Teiler",
+    "sieveLabel": "Primzahlen bis",
+    "sieveButton": "Generieren",
+    "sieveResultLabel": "Primzahlen"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "Matrixgröße",
+    "matrixALabel": "Matrix A",
+    "matrixBLabel": "Matrix B",
+    "resultLabel": "Ergebnis",
+    "operationLabel": "Operation",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "Transponierte von A",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "Berechnen",
+    "noInverseError": "Singuläre Matrix (keine Inverse vorhanden)",
+    "dimensionError": "Inkompatible Matrixdimensionen für Multiplikation"
+  },
+  "NumberSequence": {
+    "typeLabel": "Folgentyp",
+    "typeArithmetic": "Arithmetisch",
+    "typeGeometric": "Geometrisch",
+    "typeFibonacci": "Fibonacci",
+    "typePrime": "Primzahlen",
+    "typeSquare": "Quadratzahlen",
+    "startLabel": "Startwert",
+    "diffLabel": "Gemeinsame Differenz",
+    "ratioLabel": "Gemeinsamer Quotient",
+    "countLabel": "Anzahl der Glieder",
+    "generateButton": "Generieren",
+    "sumLabel": "Summe",
+    "copyButton": "Kopieren"
+  },
+  "ProportionSolver": {
+    "equationLabel": "Proportion: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "Lösen",
+    "resultLabel": "Fehlender Wert",
+    "stepByStepLabel": "Schritt für Schritt",
+    "simplifiedRatioLabel": "Vereinfachtes Verhältnis",
+    "leaveOneBlank": "Lassen Sie ein Feld leer, um es zu berechnen"
   },
   "PomodoroTimer": {
     "focusLabel": "Fokus",

@@ -453,6 +453,54 @@
       "metaTitle": "重复行删除工具",
       "metaDescription": "删除文本中的重复行，支持大小写敏感和排序选项。免费在线去重工具。"
     },
+    "qr-code-generator": {
+      "name": "二维码生成器",
+      "description": "即时从任何文本或URL生成二维码。",
+      "metaTitle": "二维码生成器",
+      "metaDescription": "即时从任何文本、URL或数据生成二维码。免费在线二维码生成器——无需注册。"
+    },
+    "aspect-ratio-calculator": {
+      "name": "宽高比计算器",
+      "description": "计算宽高比并在保持比例的同时缩放尺寸。",
+      "metaTitle": "宽高比计算器",
+      "metaDescription": "计算宽高比并按比例缩放图像或视频尺寸。查找缺失的宽度或高度。免费在线工具。"
+    },
+    "color-gradient-generator": {
+      "name": "CSS渐变生成器",
+      "description": "使用可视化编辑器创建美丽的CSS线性和径向渐变。",
+      "metaTitle": "CSS渐变生成器",
+      "metaDescription": "可视化创建CSS线性和径向渐变。即时复制生成的CSS代码。免费在线渐变生成器。"
+    },
+    "morse-code-converter": {
+      "name": "摩斯密码转换器",
+      "description": "将文字转换为摩斯密码，并将摩斯密码解码回文字。",
+      "metaTitle": "摩斯密码转换器",
+      "metaDescription": "将文字转换为摩斯密码并将摩斯密码解码回文字。免费在线摩斯密码翻译器。"
+    },
+    "prime-factorizer": {
+      "name": "质数检验与质因数分解",
+      "description": "检验一个数是否为质数，并求其质因数分解。",
+      "metaTitle": "质数检验与质因数分解",
+      "metaDescription": "检验任意数是否为质数，并逐步展示质因数分解过程。免费在线质数工具。"
+    },
+    "matrix-calculator": {
+      "name": "矩阵计算器",
+      "description": "计算2×2和3×3矩阵的加法、乘法、转置和行列式。",
+      "metaTitle": "矩阵计算器",
+      "metaDescription": "计算2×2和3×3矩阵的加法、乘法、转置、行列式和逆矩阵。免费在线矩阵计算器。"
+    },
+    "number-sequence": {
+      "name": "数列生成器",
+      "description": "生成等差数列、等比数列、斐波那契数列和质数数列。",
+      "metaTitle": "数列生成器",
+      "metaDescription": "生成等差数列、等比数列、斐波那契数列和质数数列。免费在线数列生成器。"
+    },
+    "proportion-solver": {
+      "name": "比例求解器",
+      "description": "求解比例关系，找出a/b = c/d中的缺失值。",
+      "metaTitle": "比例求解器",
+      "metaDescription": "求解比例关系，找出a/b = c/d中的缺失值。交叉相乘即时计算。免费在线比例计算器。"
+    },
     "pomodoro-timer": {
       "name": "番茄钟计时器",
       "description": "使用番茄工作法——25分钟专注会话配合短暂休息，提升工作效率。",
@@ -1244,6 +1292,109 @@
     "originalLines": "原始行数",
     "uniqueLines": "唯一行数",
     "removedLines": "已删除"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "文本或URL",
+    "inputPlaceholder": "输入要编码的文本或URL...",
+    "generateButton": "生成二维码",
+    "sizeLabel": "尺寸",
+    "errorCorrectionLabel": "纠错级别",
+    "downloadButton": "下载PNG",
+    "copyButton": "复制图片",
+    "copied": "已复制！"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "宽高比",
+    "widthLabel": "宽度",
+    "heightLabel": "高度",
+    "calculateButton": "计算",
+    "solveForLabel": "求解",
+    "solveWidth": "宽度",
+    "solveHeight": "高度",
+    "commonRatiosLabel": "常见比例",
+    "resultLabel": "结果",
+    "customRatioPlaceholder": "例如：16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "类型",
+    "typeLinear": "线性",
+    "typeRadial": "径向",
+    "angleLabel": "角度",
+    "addColorButton": "添加颜色",
+    "removeButton": "删除",
+    "positionLabel": "位置",
+    "cssOutputLabel": "CSS输出",
+    "copyButton": "复制CSS",
+    "copied": "已复制！",
+    "previewLabel": "预览"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "文字 → 摩斯密码",
+    "morseToText": "摩斯密码 → 文字",
+    "inputLabel": "输入",
+    "outputLabel": "输出",
+    "textPlaceholder": "输入要转换的文字...",
+    "morsePlaceholder": "输入摩斯密码（字母间用空格，单词间用 / 分隔）...",
+    "convertButton": "转换",
+    "copyButton": "复制",
+    "copied": "已复制！",
+    "referenceLabel": "参考表"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "数字",
+    "inputPlaceholder": "输入正整数...",
+    "checkButton": "检验并分解",
+    "isPrime": "{n} 是质数。",
+    "isNotPrime": "{n} 不是质数。",
+    "factorizationLabel": "质因数分解",
+    "divisorsLabel": "所有因数",
+    "divisorCountLabel": "因数个数",
+    "sieveLabel": "显示以下范围内的质数",
+    "sieveButton": "生成",
+    "sieveResultLabel": "质数列表"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "矩阵大小",
+    "matrixALabel": "矩阵 A",
+    "matrixBLabel": "矩阵 B",
+    "resultLabel": "结果",
+    "operationLabel": "运算",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "A的转置",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "计算",
+    "noInverseError": "奇异矩阵（不存在逆矩阵）",
+    "dimensionError": "矩阵维度不兼容，无法相乘"
+  },
+  "NumberSequence": {
+    "typeLabel": "数列类型",
+    "typeArithmetic": "等差数列",
+    "typeGeometric": "等比数列",
+    "typeFibonacci": "斐波那契数列",
+    "typePrime": "质数数列",
+    "typeSquare": "完全平方数",
+    "startLabel": "起始值",
+    "diffLabel": "公差",
+    "ratioLabel": "公比",
+    "countLabel": "项数",
+    "generateButton": "生成",
+    "sumLabel": "总和",
+    "copyButton": "复制"
+  },
+  "ProportionSolver": {
+    "equationLabel": "比例：a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "求解",
+    "resultLabel": "缺失值",
+    "stepByStepLabel": "逐步解题",
+    "simplifiedRatioLabel": "最简比",
+    "leaveOneBlank": "将一个字段留空以求解"
   },
   "PomodoroTimer": {
     "focusLabel": "专注",

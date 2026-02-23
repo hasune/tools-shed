@@ -453,6 +453,54 @@
       "metaTitle": "Line Deduplicator",
       "metaDescription": "Remove duplicate lines from any text. Free online line deduplicator with case-sensitivity and sort options."
     },
+    "qr-code-generator": {
+      "name": "QR Code Generator",
+      "description": "Generate QR codes from any text or URL instantly.",
+      "metaTitle": "QR Code Generator",
+      "metaDescription": "Generate QR codes from any text, URL, or data instantly. Free online QR code generator — no sign-up required."
+    },
+    "aspect-ratio-calculator": {
+      "name": "Aspect Ratio Calculator",
+      "description": "Calculate aspect ratios and scale dimensions while maintaining proportions.",
+      "metaTitle": "Aspect Ratio Calculator",
+      "metaDescription": "Calculate aspect ratios and proportionally scale image or video dimensions. Find the missing width or height. Free online tool."
+    },
+    "color-gradient-generator": {
+      "name": "CSS Gradient Generator",
+      "description": "Create beautiful CSS linear and radial gradients with a visual editor.",
+      "metaTitle": "CSS Gradient Generator",
+      "metaDescription": "Create CSS linear and radial gradients visually. Copy the generated CSS code instantly. Free online gradient generator."
+    },
+    "morse-code-converter": {
+      "name": "Morse Code Converter",
+      "description": "Convert text to Morse code and decode Morse code back to text.",
+      "metaTitle": "Morse Code Converter",
+      "metaDescription": "Convert text to Morse code and decode Morse code back to text. Free online Morse code translator."
+    },
+    "prime-factorizer": {
+      "name": "Prime Checker & Factorizer",
+      "description": "Check if a number is prime and find its prime factorization.",
+      "metaTitle": "Prime Checker & Factorizer",
+      "metaDescription": "Check if any number is prime and find its prime factorization with step-by-step breakdown. Free online prime number tool."
+    },
+    "matrix-calculator": {
+      "name": "Matrix Calculator",
+      "description": "Add, multiply, transpose, and find the determinant of 2×2 and 3×3 matrices.",
+      "metaTitle": "Matrix Calculator",
+      "metaDescription": "Perform matrix addition, multiplication, transposition, and determinant calculation for 2×2 and 3×3 matrices. Free online tool."
+    },
+    "number-sequence": {
+      "name": "Number Sequence Generator",
+      "description": "Generate arithmetic, geometric, Fibonacci, and prime number sequences.",
+      "metaTitle": "Number Sequence Generator",
+      "metaDescription": "Generate arithmetic, geometric, Fibonacci, and prime number sequences. Free online number sequence generator."
+    },
+    "proportion-solver": {
+      "name": "Proportion Solver",
+      "description": "Solve proportions and ratios — find the missing value in a/b = c/d.",
+      "metaTitle": "Proportion Solver",
+      "metaDescription": "Solve proportions and find missing values in a/b = c/d. Cross-multiply and solve ratios instantly. Free online proportion calculator."
+    },
     "pomodoro-timer": {
       "name": "Pomodoro Timer",
       "description": "Boost productivity with the Pomodoro Technique — 25-minute focus sessions with short breaks.",
@@ -1244,6 +1292,109 @@
     "originalLines": "Original lines",
     "uniqueLines": "Unique lines",
     "removedLines": "Removed"
+  },
+  "QrCodeGenerator": {
+    "inputLabel": "Text or URL",
+    "inputPlaceholder": "Enter text or URL to encode...",
+    "generateButton": "Generate QR Code",
+    "sizeLabel": "Size",
+    "errorCorrectionLabel": "Error correction",
+    "downloadButton": "Download PNG",
+    "copyButton": "Copy Image",
+    "copied": "Copied!"
+  },
+  "AspectRatioCalculator": {
+    "ratioLabel": "Aspect ratio",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "calculateButton": "Calculate",
+    "solveForLabel": "Solve for",
+    "solveWidth": "Width",
+    "solveHeight": "Height",
+    "commonRatiosLabel": "Common ratios",
+    "resultLabel": "Result",
+    "customRatioPlaceholder": "e.g. 16:9"
+  },
+  "ColorGradientGenerator": {
+    "typeLabel": "Type",
+    "typeLinear": "Linear",
+    "typeRadial": "Radial",
+    "angleLabel": "Angle",
+    "addColorButton": "Add Color",
+    "removeButton": "Remove",
+    "positionLabel": "Position",
+    "cssOutputLabel": "CSS Output",
+    "copyButton": "Copy CSS",
+    "copied": "Copied!",
+    "previewLabel": "Preview"
+  },
+  "MorseCodeConverter": {
+    "textToMorse": "Text → Morse",
+    "morseToText": "Morse → Text",
+    "inputLabel": "Input",
+    "outputLabel": "Output",
+    "textPlaceholder": "Enter text to convert...",
+    "morsePlaceholder": "Enter Morse code (use space between letters, / between words)...",
+    "convertButton": "Convert",
+    "copyButton": "Copy",
+    "copied": "Copied!",
+    "referenceLabel": "Reference"
+  },
+  "PrimeFactorizer": {
+    "inputLabel": "Number",
+    "inputPlaceholder": "Enter a positive integer...",
+    "checkButton": "Check & Factorize",
+    "isPrime": "{n} is a prime number.",
+    "isNotPrime": "{n} is not a prime number.",
+    "factorizationLabel": "Prime factorization",
+    "divisorsLabel": "All divisors",
+    "divisorCountLabel": "Number of divisors",
+    "sieveLabel": "Primes up to",
+    "sieveButton": "Generate",
+    "sieveResultLabel": "Prime numbers"
+  },
+  "MatrixCalculator": {
+    "sizeLabel": "Matrix size",
+    "matrixALabel": "Matrix A",
+    "matrixBLabel": "Matrix B",
+    "resultLabel": "Result",
+    "operationLabel": "Operation",
+    "opAdd": "A + B",
+    "opSubtract": "A − B",
+    "opMultiply": "A × B",
+    "opTransposeA": "Transpose A",
+    "opDeterminantA": "det(A)",
+    "opInverseA": "A⁻¹",
+    "calculateButton": "Calculate",
+    "noInverseError": "Matrix is singular (no inverse exists)",
+    "dimensionError": "Incompatible matrix dimensions for multiplication"
+  },
+  "NumberSequence": {
+    "typeLabel": "Sequence type",
+    "typeArithmetic": "Arithmetic",
+    "typeGeometric": "Geometric",
+    "typeFibonacci": "Fibonacci",
+    "typePrime": "Prime",
+    "typeSquare": "Perfect Squares",
+    "startLabel": "Start value",
+    "diffLabel": "Common difference",
+    "ratioLabel": "Common ratio",
+    "countLabel": "Number of terms",
+    "generateButton": "Generate",
+    "sumLabel": "Sum",
+    "copyButton": "Copy"
+  },
+  "ProportionSolver": {
+    "equationLabel": "Proportion: a / b = c / d",
+    "aLabel": "a",
+    "bLabel": "b",
+    "cLabel": "c",
+    "dLabel": "d",
+    "solveButton": "Solve",
+    "resultLabel": "Missing value",
+    "stepByStepLabel": "Step-by-step",
+    "simplifiedRatioLabel": "Simplified ratio",
+    "leaveOneBlank": "Leave one field blank to solve for it"
   },
   "PomodoroTimer": {
     "focusLabel": "Focus",

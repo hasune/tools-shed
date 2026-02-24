@@ -453,6 +453,30 @@
       "metaTitle": "Conversor de Números Romanos",
       "metaDescription": "Convierte entre números arábigos y romanos (1–3999). Conversor gratuito en línea."
     },
+    "triangle-calculator": {
+      "name": "Calculadora de Triángulos",
+      "description": "Resuelve cualquier triángulo con SSS, SAS, ASA, AAS. Calcula área y perímetro.",
+      "metaTitle": "Calculadora de Triángulos",
+      "metaDescription": "Resuelve triángulos por SSS, SAS, ASA o AAS. Obtén todos los lados, ángulos, área y perímetro. Calculadora gratuita."
+    },
+    "angle-converter": {
+      "name": "Convertidor de Ángulos",
+      "description": "Convierte entre grados, radianes, gradianes, miliradianes, minutos y segundos de arco.",
+      "metaTitle": "Convertidor de Ángulos",
+      "metaDescription": "Convierte ángulos entre grados, radianes, gradianes, miliradianes, minutos y segundos de arco. Convertidor gratuito."
+    },
+    "pressure-converter": {
+      "name": "Convertidor de Presión",
+      "description": "Convierte entre Pascal, kPa, MPa, bar, PSI, atmósferas y mmHg.",
+      "metaTitle": "Convertidor de Presión",
+      "metaDescription": "Convierte presión entre Pascal, kPa, MPa, bar, PSI, atmósfera y mmHg. Convertidor gratuito en línea."
+    },
+    "fuel-efficiency-converter": {
+      "name": "Convertidor de Eficiencia de Combustible",
+      "description": "Convierte entre km/L, MPG (EE.UU.), MPG (Reino Unido) y L/100km.",
+      "metaTitle": "Convertidor de Eficiencia de Combustible",
+      "metaDescription": "Convierte entre km/L, MPG (US), MPG (UK) y L/100km. Convertidor gratuito de consumo de combustible."
+    },
     "number-to-words": {
       "name": "Número a Palabras",
       "description": "Convierte números a palabras en inglés (ej: 1234 → one thousand two hundred thirty-four).",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "Ingresa un número entre 1 y 3999",
     "invalidRoman": "Número romano no válido",
     "referenceTitle": "Referencia rápida"
+  },
+  "TriangleCalculator": {
+    "modeSss": "SSS (3 lados)",
+    "modeSas": "SAS (2 lados + ángulo)",
+    "modeAsa": "ASA (2 ángulos + lado)",
+    "modeAas": "AAS (2 ángulos + lado)",
+    "sideA": "Lado a",
+    "sideB": "Lado b",
+    "sideC": "Lado c",
+    "angleA": "Ángulo A (°)",
+    "angleB": "Ángulo B (°)",
+    "angleC": "Ángulo C (°)",
+    "calculateButton": "Resolver Triángulo",
+    "clearButton": "Limpiar",
+    "errorInvalid": "Triángulo inválido. Verifica que los valores formen un triángulo válido.",
+    "resultsTitle": "Resultados",
+    "area": "Área",
+    "perimeter": "Perímetro"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "Limpiar",
+    "note": "Nota: L/100km es una medida inversa — valores más bajos indican mayor eficiencia."
   },
   "NumberToWords": {
     "inputLabel": "Número",

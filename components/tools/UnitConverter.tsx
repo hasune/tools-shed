@@ -73,10 +73,28 @@ const UNIT_SETS: Record<string, Unit[]> = {
     { label: "US Fluid Ounce (fl oz)", toBase: (v) => v * 0.0295735, fromBase: (v) => v / 0.0295735 },
     { label: "Imperial Gallon", toBase: (v) => v * 4.54609, fromBase: (v) => v / 4.54609 },
   ],
+  angle: [
+    { label: "Degree (°)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Radian (rad)", toBase: (v) => v * (180 / Math.PI), fromBase: (v) => v * (Math.PI / 180) },
+    { label: "Gradian (gon)", toBase: (v) => v * 0.9, fromBase: (v) => v / 0.9 },
+    { label: "Milliradian (mrad)", toBase: (v) => v * (180 / (Math.PI * 1000)), fromBase: (v) => v / (180 / (Math.PI * 1000)) },
+    { label: "Arcminute (′)", toBase: (v) => v / 60, fromBase: (v) => v * 60 },
+    { label: "Arcsecond (″)", toBase: (v) => v / 3600, fromBase: (v) => v * 3600 },
+  ],
+  pressure: [
+    { label: "Pascal (Pa)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Kilopascal (kPa)", toBase: (v) => v * 1000, fromBase: (v) => v / 1000 },
+    { label: "Megapascal (MPa)", toBase: (v) => v * 1e6, fromBase: (v) => v / 1e6 },
+    { label: "Bar", toBase: (v) => v * 100000, fromBase: (v) => v / 100000 },
+    { label: "Millibar (mbar)", toBase: (v) => v * 100, fromBase: (v) => v / 100 },
+    { label: "PSI (lb/in²)", toBase: (v) => v * 6894.76, fromBase: (v) => v / 6894.76 },
+    { label: "Atmosphere (atm)", toBase: (v) => v * 101325, fromBase: (v) => v / 101325 },
+    { label: "mmHg / Torr", toBase: (v) => v * 133.322, fromBase: (v) => v / 133.322 },
+  ],
 };
 
 interface UnitConverterProps {
-  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume";
+  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume" | "angle" | "pressure";
   precision?: number;
 }
 

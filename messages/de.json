@@ -453,6 +453,30 @@
       "metaTitle": "Römische Zahlen Konverter",
       "metaDescription": "Konvertiere zwischen arabischen und römischen Zahlen (1–3999). Kostenloser Online-Konverter."
     },
+    "triangle-calculator": {
+      "name": "Dreieck-Rechner",
+      "description": "Lösen Sie jedes Dreieck mit SSS, SAS, ASA, AAS. Berechnen Sie Fläche und Umfang.",
+      "metaTitle": "Dreieck-Rechner",
+      "metaDescription": "Lösen Sie Dreiecke nach SSS, SAS, ASA oder AAS. Erhalten Sie alle Seiten, Winkel, Fläche und Umfang. Kostenloser Online-Rechner."
+    },
+    "angle-converter": {
+      "name": "Winkelumrechner",
+      "description": "Konvertieren Sie zwischen Grad, Radiant, Gon, Milliradiant, Bogenminuten und Bogensekunden.",
+      "metaTitle": "Winkelumrechner",
+      "metaDescription": "Konvertieren Sie Winkel zwischen Grad, Radiant, Gon, Milliradiant, Bogenminuten und Bogensekunden. Kostenloser Online-Umrechner."
+    },
+    "pressure-converter": {
+      "name": "Druckumrechner",
+      "description": "Konvertieren Sie zwischen Pascal, kPa, MPa, Bar, PSI, Atmosphäre und mmHg.",
+      "metaTitle": "Druckumrechner",
+      "metaDescription": "Konvertieren Sie Druck zwischen Pascal, kPa, MPa, Bar, PSI, Atmosphäre und mmHg. Kostenloser Online-Umrechner."
+    },
+    "fuel-efficiency-converter": {
+      "name": "Kraftstoffverbrauch-Umrechner",
+      "description": "Konvertieren Sie zwischen km/L, MPG (US), MPG (UK) und L/100km.",
+      "metaTitle": "Kraftstoffverbrauch-Umrechner",
+      "metaDescription": "Konvertieren Sie zwischen km/L, MPG (US), MPG (UK) und L/100km. Kostenloser Umrechner für Kraftstoffverbrauch."
+    },
     "number-to-words": {
       "name": "Zahl in Wörter",
       "description": "Wandle Zahlen in englische Wörter um (z.B. 1234 → one thousand two hundred thirty-four).",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "Bitte eine Zahl zwischen 1 und 3999 eingeben",
     "invalidRoman": "Ungültige römische Zahl",
     "referenceTitle": "Kurzreferenz"
+  },
+  "TriangleCalculator": {
+    "modeSss": "SSS (3 Seiten)",
+    "modeSas": "SAS (2 Seiten + Winkel)",
+    "modeAsa": "ASA (2 Winkel + Seite)",
+    "modeAas": "AAS (2 Winkel + Seite)",
+    "sideA": "Seite a",
+    "sideB": "Seite b",
+    "sideC": "Seite c",
+    "angleA": "Winkel A (°)",
+    "angleB": "Winkel B (°)",
+    "angleC": "Winkel C (°)",
+    "calculateButton": "Dreieck lösen",
+    "clearButton": "Löschen",
+    "errorInvalid": "Ungültiges Dreieck. Überprüfen Sie, ob die Werte ein gültiges Dreieck bilden.",
+    "resultsTitle": "Ergebnisse",
+    "area": "Fläche",
+    "perimeter": "Umfang"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "Löschen",
+    "note": "Hinweis: L/100km ist ein inverses Maß — niedrigere Werte bedeuten bessere Effizienz."
   },
   "NumberToWords": {
     "inputLabel": "Zahl",

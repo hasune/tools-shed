@@ -453,6 +453,30 @@
       "metaTitle": "Roma Rakamı Dönüştürücü",
       "metaDescription": "Arap ve Roma rakamları arasında dönüşüm yapın (1–3999). Ücretsiz çevrimiçi araç."
     },
+    "triangle-calculator": {
+      "name": "Üçgen Hesaplayıcı",
+      "description": "SSS, SAS, ASA, AAS ile herhangi bir üçgeni çözün. Alan ve çevre hesaplayın.",
+      "metaTitle": "Üçgen Hesaplayıcı",
+      "metaDescription": "SSS, SAS, ASA veya AAS ile üçgenleri çözün. Tüm kenarları, açıları, alanı ve çevreyi öğrenin. Ücretsiz çevrimiçi hesaplayıcı."
+    },
+    "angle-converter": {
+      "name": "Açı Dönüştürücü",
+      "description": "Derece, radyan, gradian, milyradyan, dakika ve saniye arasında dönüştürün.",
+      "metaTitle": "Açı Dönüştürücü",
+      "metaDescription": "Açıları derece, radyan, gradian, milyradyan, dakika ve saniye arasında dönüştürün. Ücretsiz çevrimiçi açı dönüştürücü."
+    },
+    "pressure-converter": {
+      "name": "Basınç Dönüştürücü",
+      "description": "Pascal, kPa, MPa, bar, PSI, atmosfer ve mmHg arasında dönüştürün.",
+      "metaTitle": "Basınç Dönüştürücü",
+      "metaDescription": "Basıncı Pascal, kPa, MPa, bar, PSI, atmosfer ve mmHg arasında dönüştürün. Ücretsiz çevrimiçi dönüştürücü."
+    },
+    "fuel-efficiency-converter": {
+      "name": "Yakıt Verimliliği Dönüştürücü",
+      "description": "km/L, MPG (ABD), MPG (İngiltere) ve L/100km arasında dönüştürün.",
+      "metaTitle": "Yakıt Verimliliği Dönüştürücü",
+      "metaDescription": "km/L, MPG (US), MPG (UK) ve L/100km arasında dönüştürün. Ücretsiz yakıt tüketimi dönüştürücü."
+    },
     "number-to-words": {
       "name": "Sayıdan Kelimeye",
       "description": "Sayıları İngilizce kelimelere dönüştürün (örn: 1234 → one thousand two hundred thirty-four).",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "1 ile 3999 arasında bir sayı girin",
     "invalidRoman": "Geçersiz Roma rakamı",
     "referenceTitle": "Hızlı referans"
+  },
+  "TriangleCalculator": {
+    "modeSss": "KKK (3 Kenar)",
+    "modeSas": "KAK (2 Kenar + Açı)",
+    "modeAsa": "AKA (2 Açı + Kenar)",
+    "modeAas": "AAK (2 Açı + Kenar)",
+    "sideA": "Kenar a",
+    "sideB": "Kenar b",
+    "sideC": "Kenar c",
+    "angleA": "Açı A (°)",
+    "angleB": "Açı B (°)",
+    "angleC": "Açı C (°)",
+    "calculateButton": "Üçgeni Çöz",
+    "clearButton": "Temizle",
+    "errorInvalid": "Geçersiz üçgen. Değerlerin geçerli bir üçgen oluşturduğunu kontrol edin.",
+    "resultsTitle": "Sonuçlar",
+    "area": "Alan",
+    "perimeter": "Çevre"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "Temizle",
+    "note": "Not: L/100km ters bir ölçüdür — düşük değerler daha iyi yakıt verimliliği anlamına gelir."
   },
   "NumberToWords": {
     "inputLabel": "Sayı",

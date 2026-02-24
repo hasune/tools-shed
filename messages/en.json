@@ -453,6 +453,30 @@
       "metaTitle": "Roman Numeral Converter",
       "metaDescription": "Convert between Arabic numbers and Roman numerals (1–3999). Free online Roman numeral converter."
     },
+    "triangle-calculator": {
+      "name": "Triangle Calculator",
+      "description": "Solve any triangle given sides and angles (SSS, SAS, ASA, AAS). Get area and perimeter.",
+      "metaTitle": "Triangle Calculator",
+      "metaDescription": "Solve any triangle by SSS, SAS, ASA, or AAS. Get all sides, angles, area, and perimeter. Free online triangle solver."
+    },
+    "angle-converter": {
+      "name": "Angle Converter",
+      "description": "Convert between degrees, radians, gradians, milliradians, arcminutes, and arcseconds.",
+      "metaTitle": "Angle Converter",
+      "metaDescription": "Convert angles between degrees, radians, gradians, milliradians, arcminutes, and arcseconds. Free online angle converter."
+    },
+    "pressure-converter": {
+      "name": "Pressure Converter",
+      "description": "Convert between Pascal, kPa, MPa, bar, PSI, atm, and mmHg.",
+      "metaTitle": "Pressure Converter",
+      "metaDescription": "Convert pressure between Pascal, kPa, MPa, bar, PSI, atmosphere, and mmHg. Free online pressure converter."
+    },
+    "fuel-efficiency-converter": {
+      "name": "Fuel Efficiency Converter",
+      "description": "Convert between km/L, MPG (US), MPG (UK), and L/100km fuel consumption units.",
+      "metaTitle": "Fuel Efficiency Converter",
+      "metaDescription": "Convert between km/L, MPG (US), MPG (UK), and L/100km. Free online fuel efficiency converter."
+    },
     "number-to-words": {
       "name": "Number to Words",
       "description": "Convert numbers to English words (e.g. 1234 → one thousand two hundred thirty-four).",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "Enter a number between 1 and 3999",
     "invalidRoman": "Invalid Roman numeral",
     "referenceTitle": "Quick Reference"
+  },
+  "TriangleCalculator": {
+    "modeSss": "SSS (3 Sides)",
+    "modeSas": "SAS (2 Sides + Angle)",
+    "modeAsa": "ASA (2 Angles + Side)",
+    "modeAas": "AAS (2 Angles + Side)",
+    "sideA": "Side a",
+    "sideB": "Side b",
+    "sideC": "Side c",
+    "angleA": "Angle A (°)",
+    "angleB": "Angle B (°)",
+    "angleC": "Angle C (°)",
+    "calculateButton": "Solve Triangle",
+    "clearButton": "Clear",
+    "errorInvalid": "Invalid triangle. Check that the values form a valid triangle.",
+    "resultsTitle": "Results",
+    "area": "Area",
+    "perimeter": "Perimeter"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "Clear",
+    "note": "Note: L/100km is an inverse measure — lower values mean better efficiency."
   },
   "NumberToWords": {
     "inputLabel": "Number",

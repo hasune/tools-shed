@@ -453,6 +453,30 @@
       "metaTitle": "ローマ数字変換",
       "metaDescription": "アラビア数字とローマ数字を変換します（1〜3999）。無料オンラインローマ数字変換ツール。"
     },
+    "triangle-calculator": {
+      "name": "三角形計算機",
+      "description": "SSS、SAS、ASA、AASで三角形を解く。面積と周囲を計算。",
+      "metaTitle": "三角形計算機",
+      "metaDescription": "SSS・SAS・ASA・AASで三角形を解き、全辺・全角・面積・周囲を求めます。無料オンライン三角形ソルバー。"
+    },
+    "angle-converter": {
+      "name": "角度変換",
+      "description": "度、ラジアン、グラジアン、ミリラジアン、分角、秒角を変換。",
+      "metaTitle": "角度変換ツール",
+      "metaDescription": "度・ラジアン・グラジアン・ミリラジアン・分角・秒角を変換。無料オンライン角度変換ツール。"
+    },
+    "pressure-converter": {
+      "name": "圧力変換",
+      "description": "パスカル、kPa、MPa、バール、PSI、気圧、mmHgを変換。",
+      "metaTitle": "圧力変換ツール",
+      "metaDescription": "パスカル・kPa・MPa・バール・PSI・気圧・mmHgを変換。無料オンライン圧力変換ツール。"
+    },
+    "fuel-efficiency-converter": {
+      "name": "燃費変換",
+      "description": "km/L、MPG（米国）、MPG（英国）、L/100kmを変換。",
+      "metaTitle": "燃費変換ツール",
+      "metaDescription": "km/L・MPG（US）・MPG（UK）・L/100kmを変換。無料オンライン燃費変換ツール。"
+    },
     "number-to-words": {
       "name": "数字を英語に変換",
       "description": "数字を英語の単語に変換します（例：1234 → one thousand two hundred thirty-four）。",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "1〜3999の数字を入力してください",
     "invalidRoman": "無効なローマ数字です",
     "referenceTitle": "早見表"
+  },
+  "TriangleCalculator": {
+    "modeSss": "SSS（3辺）",
+    "modeSas": "SAS（2辺＋角）",
+    "modeAsa": "ASA（2角＋辺）",
+    "modeAas": "AAS（2角＋辺）",
+    "sideA": "辺a",
+    "sideB": "辺b",
+    "sideC": "辺c",
+    "angleA": "角A（°）",
+    "angleB": "角B（°）",
+    "angleC": "角C（°）",
+    "calculateButton": "三角形を解く",
+    "clearButton": "クリア",
+    "errorInvalid": "無効な三角形です。値を確認してください。",
+    "resultsTitle": "結果",
+    "area": "面積",
+    "perimeter": "周囲"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "クリア",
+    "note": "注：L/100kmは逆比例の指標です — 値が小さいほど燃費が良い。"
   },
   "NumberToWords": {
     "inputLabel": "数字",

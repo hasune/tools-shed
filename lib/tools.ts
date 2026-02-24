@@ -208,6 +208,33 @@ export const tools: Tool[] = [
     icon: "🧊",
     keywords: ["volume", "liter", "gallon", "fluid ounce", "cubic meter", "convert"],
   },
+  {
+    slug: "angle-converter",
+    name: "Angle Converter",
+    description: "Convert between degrees, radians, gradians, and milliradians.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "📐",
+    keywords: ["angle", "degrees", "radians", "gradians", "milliradians", "convert"],
+  },
+  {
+    slug: "pressure-converter",
+    name: "Pressure Converter",
+    description: "Convert between Pascal, bar, PSI, atm, mmHg, and kPa.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "🌡",
+    keywords: ["pressure", "pascal", "bar", "psi", "atm", "mmhg", "kpa", "convert"],
+  },
+  {
+    slug: "fuel-efficiency-converter",
+    name: "Fuel Efficiency Converter",
+    description: "Convert between km/L, mpg (US/UK), and L/100km fuel consumption units.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "⛽",
+    keywords: ["fuel", "mpg", "km/l", "l/100km", "efficiency", "consumption", "convert"],
+  },
   // Text Tools
   {
     slug: "word-counter",
@@ -567,6 +594,15 @@ export const tools: Tool[] = [
     categorySlug: "math",
     icon: "Ⅻ",
     keywords: ["roman numeral", "arabic", "convert", "number", "roman"],
+  },
+  {
+    slug: "triangle-calculator",
+    name: "Triangle Calculator",
+    description: "Solve any triangle given sides and angles (SSS, SAS, ASA, AAS). Get area and perimeter.",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "△",
+    keywords: ["triangle", "solve", "sides", "angles", "area", "perimeter", "sss", "sas", "asa", "aas", "trigonometry"],
   },
   // Developer (new batch 2)
   {

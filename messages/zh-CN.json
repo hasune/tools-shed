@@ -453,6 +453,30 @@
       "metaTitle": "罗马数字转换器",
       "metaDescription": "在阿拉伯数字和罗马数字之间转换（1–3999）。免费在线罗马数字转换器。"
     },
+    "triangle-calculator": {
+      "name": "三角形计算器",
+      "description": "通过SSS、SAS、ASA、AAS求解三角形，计算面积和周长。",
+      "metaTitle": "三角形计算器",
+      "metaDescription": "通过SSS·SAS·ASA·AAS求解三角形的所有边、角、面积和周长。免费在线三角形求解器。"
+    },
+    "angle-converter": {
+      "name": "角度转换器",
+      "description": "在度、弧度、梯度、毫弧度、角分、角秒之间转换。",
+      "metaTitle": "角度转换器",
+      "metaDescription": "在度、弧度、梯度、毫弧度、角分和角秒之间转换。免费在线角度转换工具。"
+    },
+    "pressure-converter": {
+      "name": "压力转换器",
+      "description": "在帕斯卡、千帕、兆帕、巴、PSI、大气压和毫米汞柱之间转换。",
+      "metaTitle": "压力转换器",
+      "metaDescription": "在Pa、kPa、MPa、bar、PSI、atm和mmHg之间转换。免费在线压力转换工具。"
+    },
+    "fuel-efficiency-converter": {
+      "name": "油耗转换器",
+      "description": "在km/L、MPG（美国）、MPG（英国）和L/100km之间转换。",
+      "metaTitle": "油耗转换器",
+      "metaDescription": "在km/L、MPG(US)、MPG(UK)和L/100km之间转换。免费在线油耗转换工具。"
+    },
     "number-to-words": {
       "name": "数字转英文",
       "description": "将数字转换为英文单词（如：1234 → one thousand two hundred thirty-four）。",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "请输入1到3999之间的数字",
     "invalidRoman": "无效的罗马数字",
     "referenceTitle": "快速参考"
+  },
+  "TriangleCalculator": {
+    "modeSss": "SSS（三边）",
+    "modeSas": "SAS（两边+角）",
+    "modeAsa": "ASA（两角+边）",
+    "modeAas": "AAS（两角+边）",
+    "sideA": "边 a",
+    "sideB": "边 b",
+    "sideC": "边 c",
+    "angleA": "角 A（°）",
+    "angleB": "角 B（°）",
+    "angleC": "角 C（°）",
+    "calculateButton": "求解三角形",
+    "clearButton": "清除",
+    "errorInvalid": "三角形无效，请检查输入值。",
+    "resultsTitle": "结果",
+    "area": "面积",
+    "perimeter": "周长"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "清除",
+    "note": "注意：L/100km是反比指标——数值越低，油耗越低。"
   },
   "NumberToWords": {
     "inputLabel": "数字",

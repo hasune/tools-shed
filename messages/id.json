@@ -453,6 +453,30 @@
       "metaTitle": "Konverter Angka Romawi",
       "metaDescription": "Konversi antara angka Arab dan Romawi (1–3999). Konverter gratis online."
     },
+    "triangle-calculator": {
+      "name": "Kalkulator Segitiga",
+      "description": "Selesaikan segitiga apa pun dengan SSS, SAS, ASA, AAS. Hitung luas dan keliling.",
+      "metaTitle": "Kalkulator Segitiga",
+      "metaDescription": "Selesaikan segitiga dengan SSS, SAS, ASA atau AAS. Dapatkan semua sisi, sudut, luas, dan keliling. Kalkulator online gratis."
+    },
+    "angle-converter": {
+      "name": "Konverter Sudut",
+      "description": "Konversi antara derajat, radian, gradian, milliradian, menit busur, dan detik busur.",
+      "metaTitle": "Konverter Sudut",
+      "metaDescription": "Konversi sudut antara derajat, radian, gradian, milliradian, menit busur, dan detik busur. Konverter online gratis."
+    },
+    "pressure-converter": {
+      "name": "Konverter Tekanan",
+      "description": "Konversi antara Pascal, kPa, MPa, bar, PSI, atmosfer, dan mmHg.",
+      "metaTitle": "Konverter Tekanan",
+      "metaDescription": "Konversi tekanan antara Pascal, kPa, MPa, bar, PSI, atmosfer, dan mmHg. Konverter online gratis."
+    },
+    "fuel-efficiency-converter": {
+      "name": "Konverter Efisiensi Bahan Bakar",
+      "description": "Konversi antara km/L, MPG (AS), MPG (UK), dan L/100km.",
+      "metaTitle": "Konverter Efisiensi Bahan Bakar",
+      "metaDescription": "Konversi antara km/L, MPG (US), MPG (UK), dan L/100km. Konverter konsumsi bahan bakar online gratis."
+    },
     "number-to-words": {
       "name": "Angka ke Kata",
       "description": "Konversi angka ke kata-kata dalam bahasa Inggris (mis: 1234 → one thousand two hundred thirty-four).",
@@ -1363,6 +1387,28 @@
     "invalidArabic": "Masukkan angka antara 1 dan 3999",
     "invalidRoman": "Angka Romawi tidak valid",
     "referenceTitle": "Referensi cepat"
+  },
+  "TriangleCalculator": {
+    "modeSss": "SSS (3 Sisi)",
+    "modeSas": "SAS (2 Sisi + Sudut)",
+    "modeAsa": "ASA (2 Sudut + Sisi)",
+    "modeAas": "AAS (2 Sudut + Sisi)",
+    "sideA": "Sisi a",
+    "sideB": "Sisi b",
+    "sideC": "Sisi c",
+    "angleA": "Sudut A (°)",
+    "angleB": "Sudut B (°)",
+    "angleC": "Sudut C (°)",
+    "calculateButton": "Selesaikan Segitiga",
+    "clearButton": "Hapus",
+    "errorInvalid": "Segitiga tidak valid. Periksa apakah nilai-nilai membentuk segitiga yang valid.",
+    "resultsTitle": "Hasil",
+    "area": "Luas",
+    "perimeter": "Keliling"
+  },
+  "FuelEfficiencyConverter": {
+    "clearButton": "Hapus",
+    "note": "Catatan: L/100km adalah ukuran terbalik — nilai lebih rendah berarti efisiensi lebih baik."
   },
   "NumberToWords": {
     "inputLabel": "Angka",

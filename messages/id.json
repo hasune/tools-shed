@@ -477,6 +477,66 @@
       "metaTitle": "Konverter Efisiensi Bahan Bakar",
       "metaDescription": "Konversi antara km/L, MPG (US), MPG (UK), dan L/100km. Konverter konsumsi bahan bakar online gratis."
     },
+    "energy-converter": {
+      "name": "Konverter Energi",
+      "description": "Konversi antara joule, kalori, kilokalori, kWh, BTU, dan elektronvolt.",
+      "metaTitle": "Konverter Energi",
+      "metaDescription": "Konversi energi antara joule, kalori, kcal, kWh, BTU, dan eV. Konverter satuan energi online gratis."
+    },
+    "power-converter": {
+      "name": "Konverter Daya",
+      "description": "Konversi antara watt, kilowatt, megawatt, tenaga kuda, dan BTU/jam.",
+      "metaTitle": "Konverter Daya",
+      "metaDescription": "Konversi daya antara watt, kW, MW, HP, dan BTU/hr. Konverter daya online gratis."
+    },
+    "css-unit-converter": {
+      "name": "Konverter Satuan CSS",
+      "description": "Konversi antara px, em, rem, vw, vh, pt, dan cm untuk desain web responsif.",
+      "metaTitle": "Konverter Satuan CSS",
+      "metaDescription": "Konversi satuan CSS — px, em, rem, vw, vh, pt, cm — untuk desain web responsif. Kalkulator CSS gratis."
+    },
+    "chmod-calculator": {
+      "name": "Kalkulator Chmod",
+      "description": "Hitung izin file Unix. Konversi antara notasi oktal dan simbolik rwx.",
+      "metaTitle": "Kalkulator Chmod",
+      "metaDescription": "Hitung izin file Unix. Konversi antara notasi oktal (755) dan simbolik (rwxr-xr-x). Alat chmod gratis."
+    },
+    "find-replace": {
+      "name": "Cari & Ganti",
+      "description": "Cari dan ganti teks dengan teks biasa atau pola regex.",
+      "metaTitle": "Alat Cari dan Ganti Teks",
+      "metaDescription": "Cari dan ganti teks dengan teks biasa atau ekspresi reguler. Alat pencarian dan penggantian online gratis."
+    },
+    "text-cleaner": {
+      "name": "Pembersih Teks",
+      "description": "Hapus spasi berlebih, baris kosong, karakter khusus, dan tag HTML dari teks.",
+      "metaTitle": "Pembersih Teks",
+      "metaDescription": "Hapus spasi berlebih, baris kosong, karakter khusus, dan tag HTML. Alat pembersih teks online gratis."
+    },
+    "vat-calculator": {
+      "name": "Kalkulator PPN",
+      "description": "Tambahkan atau hapus PPN/pajak dari harga. Mendukung tarif pajak kustom.",
+      "metaTitle": "Kalkulator PPN / Pajak",
+      "metaDescription": "Tambahkan atau hapus PPN dari harga apa pun. Mendukung tarif kustom. Kalkulator PPN gratis online."
+    },
+    "currency-converter": {
+      "name": "Konverter Mata Uang",
+      "description": "Konversi antara mata uang dunia utama menggunakan kurs referensi.",
+      "metaTitle": "Konverter Mata Uang",
+      "metaDescription": "Konversi antara 20+ mata uang utama menggunakan kurs referensi. Konverter mata uang online gratis."
+    },
+    "prime-checker": {
+      "name": "Pemeriksa Bilangan Prima",
+      "description": "Periksa apakah suatu bilangan prima dan temukan semua bilangan prima hingga batas tertentu.",
+      "metaTitle": "Pemeriksa Bilangan Prima",
+      "metaDescription": "Periksa apakah bilangan itu prima dan daftar semua prima menggunakan Saringan Eratosthenes. Pemeriksa gratis."
+    },
+    "combinations-permutations": {
+      "name": "Kombinasi & Permutasi",
+      "description": "Hitung nCr (kombinasi) dan nPr (permutasi) dengan solusi langkah demi langkah.",
+      "metaTitle": "Kalkulator Kombinasi dan Permutasi",
+      "metaDescription": "Hitung nCr dan nPr dengan faktorial langkah demi langkah. Kalkulator kombinatorika online gratis."
+    },
     "number-to-words": {
       "name": "Angka ke Kata",
       "description": "Konversi angka ke kata-kata dalam bahasa Inggris (mis: 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "Hapus",
     "note": "Catatan: L/100km adalah ukuran terbalik — nilai lebih rendah berarti efisiensi lebih baik."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "Ukuran font dasar (px)",
+    "viewportWidthLabel": "Lebar viewport (px)",
+    "viewportHeightLabel": "Tinggi viewport (px)",
+    "inputLabel": "Nilai yang akan dikonversi",
+    "fromUnit": "Dari",
+    "toUnit": "Ke",
+    "convertButton": "Konversi",
+    "resultLabel": "Hasil",
+    "clearButton": "Hapus",
+    "settingsTitle": "Pengaturan"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "Pemilik",
+    "groupLabel": "Grup",
+    "othersLabel": "Lainnya",
+    "readLabel": "Baca (r)",
+    "writeLabel": "Tulis (w)",
+    "executeLabel": "Eksekusi (x)",
+    "octalLabel": "Oktal",
+    "symbolicLabel": "Simbolik",
+    "commandLabel": "Perintah chmod",
+    "octalInputLabel": "Masukkan oktal (mis. 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "Teks masukan",
+    "inputPlaceholder": "Tempelkan teks di sini...",
+    "findLabel": "Cari",
+    "findPlaceholder": "Teks yang dicari...",
+    "replaceLabel": "Ganti dengan",
+    "replacePlaceholder": "Teks pengganti...",
+    "regexToggle": "Regex",
+    "caseToggle": "Perhatikan kapitalisasi",
+    "globalToggle": "Ganti semua",
+    "replaceButton": "Ganti",
+    "outputLabel": "Keluaran",
+    "matchCount": "{count} kecocokan ditemukan"
+  },
+  "TextCleaner": {
+    "inputLabel": "Teks masukan",
+    "inputPlaceholder": "Tempelkan teks yang akan dibersihkan...",
+    "outputLabel": "Teks yang dibersihkan",
+    "removeExtraSpaces": "Hapus spasi berlebih",
+    "removeEmptyLines": "Hapus baris kosong",
+    "trimLines": "Potong setiap baris",
+    "removeHtml": "Hapus tag HTML",
+    "removeSpecialChars": "Hapus karakter khusus",
+    "lowercaseAll": "Ubah semua ke huruf kecil",
+    "cleanButton": "Bersihkan",
+    "copyButton": "Salin"
+  },
+  "VatCalculator": {
+    "priceLabel": "Harga",
+    "vatRateLabel": "Tarif PPN (%)",
+    "modeAdd": "Tambahkan pajak ke harga",
+    "modeRemove": "Hapus pajak dari harga",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "netPrice": "Harga bersih (belum termasuk pajak)",
+    "taxAmount": "Jumlah pajak",
+    "grossPrice": "Harga kotor (sudah termasuk pajak)",
+    "presetLabel": "Tarif umum"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "Jumlah",
+    "fromLabel": "Dari",
+    "toLabel": "Ke",
+    "convertButton": "Konversi",
+    "swapButton": "Tukar",
+    "resultLabel": "Hasil",
+    "disclaimer": "Kurs referensi — tidak cocok untuk transaksi keuangan.",
+    "ratesDate": "Kurs pertengahan 2025 (dasar USD)"
+  },
+  "PrimeChecker": {
+    "checkTab": "Apakah prima?",
+    "listTab": "Daftar prima",
+    "numberLabel": "Bilangan",
+    "numberPlaceholder": "mis. 97",
+    "checkButton": "Periksa",
+    "limitLabel": "Temukan prima hingga",
+    "limitPlaceholder": "mis. 100",
+    "listButton": "Temukan Prima",
+    "isPrime": "{n} adalah bilangan prima.",
+    "notPrime": "{n} bukan prima. Faktor: {factors}",
+    "primeCount": "{count} prima ditemukan",
+    "clearButton": "Hapus"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (total item)",
+    "rLabel": "r (item yang dipilih)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "combinationsTitle": "Kombinasi C(n,r)",
+    "permutationsTitle": "Permutasi P(n,r)",
+    "formulaTitle": "Rumus",
+    "stepsTitle": "Langkah demi langkah",
+    "invalidInput": "n dan r harus bilangan bulat non-negatif dengan r ≤ n (n ≤ 170)"
   },
   "NumberToWords": {
     "inputLabel": "Angka",

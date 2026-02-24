@@ -477,6 +477,66 @@
       "metaTitle": "Yakıt Verimliliği Dönüştürücü",
       "metaDescription": "km/L, MPG (US), MPG (UK) ve L/100km arasında dönüştürün. Ücretsiz yakıt tüketimi dönüştürücü."
     },
+    "energy-converter": {
+      "name": "Enerji Dönüştürücü",
+      "description": "Joule, kalori, kilokalori, kWh, BTU ve elektron volt arasında dönüştürün.",
+      "metaTitle": "Enerji Dönüştürücü",
+      "metaDescription": "Joule, kalori, kcal, kWh, BTU ve eV arasında enerji dönüştürün. Ücretsiz çevrimiçi enerji birimi dönüştürücü."
+    },
+    "power-converter": {
+      "name": "Güç Dönüştürücü",
+      "description": "Watt, kilowatt, megawatt, beygir gücü ve BTU/saat arasında dönüştürün.",
+      "metaTitle": "Güç Dönüştürücü",
+      "metaDescription": "Watt, kW, MW, HP ve BTU/hr arasında güç dönüştürün. Ücretsiz çevrimiçi güç dönüştürücü."
+    },
+    "css-unit-converter": {
+      "name": "CSS Birim Dönüştürücü",
+      "description": "Duyarlı web tasarımı için px, em, rem, vw, vh, pt ve cm arasında dönüştürün.",
+      "metaTitle": "CSS Birim Dönüştürücü",
+      "metaDescription": "CSS birimlerini dönüştürün — px, em, rem, vw, vh, pt, cm. Ücretsiz CSS birim hesaplayıcı."
+    },
+    "chmod-calculator": {
+      "name": "Chmod Hesaplayıcı",
+      "description": "Unix dosya izinlerini hesaplayın. Sekizlik ve sembolik rwx formatı arasında dönüştürün.",
+      "metaTitle": "Chmod Hesaplayıcı",
+      "metaDescription": "Unix dosya izinlerini hesaplayın. Sekizlik (755) ve sembolik (rwxr-xr-x) gösterim arasında dönüştürün."
+    },
+    "find-replace": {
+      "name": "Bul ve Değiştir",
+      "description": "Düz metin veya regex desenleriyle metin bulun ve değiştirin.",
+      "metaTitle": "Metin Bul ve Değiştir Aracı",
+      "metaDescription": "Düz metin veya normal ifadelerle metin bulun ve değiştirin. Ücretsiz çevrimiçi araç."
+    },
+    "text-cleaner": {
+      "name": "Metin Temizleyici",
+      "description": "Metinden fazla boşlukları, boş satırları, özel karakterleri ve HTML etiketlerini kaldırın.",
+      "metaTitle": "Metin Temizleyici",
+      "metaDescription": "Fazla boşluk, boş satır, özel karakter ve HTML etiketlerini kaldırın. Ücretsiz metin temizleme aracı."
+    },
+    "vat-calculator": {
+      "name": "KDV Hesaplayıcı",
+      "description": "Bir fiyata KDV/vergi ekleyin veya çıkarın. Özel vergi oranlarını destekler.",
+      "metaTitle": "KDV / Vergi Hesaplayıcı",
+      "metaDescription": "Herhangi bir fiyata KDV ekleyin veya çıkarın. Özel oranları destekler. Ücretsiz KDV hesaplayıcı."
+    },
+    "currency-converter": {
+      "name": "Döviz Çevirici",
+      "description": "Referans döviz kurlarını kullanarak başlıca dünya para birimleri arasında dönüştürün.",
+      "metaTitle": "Döviz Çevirici",
+      "metaDescription": "20'den fazla başlıca para birimi arasında referans kurlarla dönüştürün. Ücretsiz çevrimiçi döviz çevirici."
+    },
+    "prime-checker": {
+      "name": "Asal Sayı Denetleyici",
+      "description": "Bir sayının asal olup olmadığını kontrol edin ve belirli bir sınıra kadar tüm asal sayıları listeleyin.",
+      "metaTitle": "Asal Sayı Denetleyici",
+      "metaDescription": "Herhangi bir sayının asal olup olmadığını kontrol edin ve Eratosthenes Kalburu ile asal sayıları listeleyin."
+    },
+    "combinations-permutations": {
+      "name": "Kombinasyon ve Permütasyon",
+      "description": "Adım adım çözümlerle nCr (kombinasyon) ve nPr (permütasyon) hesaplayın.",
+      "metaTitle": "Kombinasyon ve Permütasyon Hesaplayıcı",
+      "metaDescription": "nCr ve nPr'yi faktöriyel adımlarla hesaplayın. Ücretsiz çevrimiçi kombinatorik hesaplayıcı."
+    },
     "number-to-words": {
       "name": "Sayıdan Kelimeye",
       "description": "Sayıları İngilizce kelimelere dönüştürün (örn: 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "Temizle",
     "note": "Not: L/100km ters bir ölçüdür — düşük değerler daha iyi yakıt verimliliği anlamına gelir."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "Temel yazı tipi boyutu (px)",
+    "viewportWidthLabel": "Görüntü alanı genişliği (px)",
+    "viewportHeightLabel": "Görüntü alanı yüksekliği (px)",
+    "inputLabel": "Dönüştürülecek değer",
+    "fromUnit": "Kaynak",
+    "toUnit": "Hedef",
+    "convertButton": "Dönüştür",
+    "resultLabel": "Sonuç",
+    "clearButton": "Temizle",
+    "settingsTitle": "Ayarlar"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "Sahip",
+    "groupLabel": "Grup",
+    "othersLabel": "Diğerleri",
+    "readLabel": "Okuma (r)",
+    "writeLabel": "Yazma (w)",
+    "executeLabel": "Çalıştırma (x)",
+    "octalLabel": "Sekizlik",
+    "symbolicLabel": "Sembolik",
+    "commandLabel": "chmod komutu",
+    "octalInputLabel": "Sekizlik girin (ör. 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "Giriş metni",
+    "inputPlaceholder": "Metninizi buraya yapıştırın...",
+    "findLabel": "Bul",
+    "findPlaceholder": "Aranacak metin...",
+    "replaceLabel": "Şununla değiştir",
+    "replacePlaceholder": "Yeni metin...",
+    "regexToggle": "Regex",
+    "caseToggle": "Büyük/küçük harf",
+    "globalToggle": "Tümünü değiştir",
+    "replaceButton": "Değiştir",
+    "outputLabel": "Çıktı",
+    "matchCount": "{count} eşleşme bulundu"
+  },
+  "TextCleaner": {
+    "inputLabel": "Giriş metni",
+    "inputPlaceholder": "Temizlenecek metni yapıştırın...",
+    "outputLabel": "Temizlenmiş metin",
+    "removeExtraSpaces": "Fazla boşlukları kaldır",
+    "removeEmptyLines": "Boş satırları kaldır",
+    "trimLines": "Her satırı kırp",
+    "removeHtml": "HTML etiketlerini kaldır",
+    "removeSpecialChars": "Özel karakterleri kaldır",
+    "lowercaseAll": "Tümünü küçük harfe çevir",
+    "cleanButton": "Temizle",
+    "copyButton": "Kopyala"
+  },
+  "VatCalculator": {
+    "priceLabel": "Fiyat",
+    "vatRateLabel": "KDV oranı (%)",
+    "modeAdd": "Fiyata vergi ekle",
+    "modeRemove": "Fiyattan vergi çıkar",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "netPrice": "Vergisiz fiyat",
+    "taxAmount": "Vergi tutarı",
+    "grossPrice": "Vergili fiyat",
+    "presetLabel": "Yaygın oranlar"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "Tutar",
+    "fromLabel": "Kaynak",
+    "toLabel": "Hedef",
+    "convertButton": "Dönüştür",
+    "swapButton": "Değiştir",
+    "resultLabel": "Sonuç",
+    "disclaimer": "Referans kurlar — finansal işlemler için uygun değildir.",
+    "ratesDate": "2025 ortası referans kurları (USD baz)"
+  },
+  "PrimeChecker": {
+    "checkTab": "Asal mı?",
+    "listTab": "Asalları Listele",
+    "numberLabel": "Sayı",
+    "numberPlaceholder": "örn. 97",
+    "checkButton": "Kontrol Et",
+    "limitLabel": "Bu sayıya kadar asal bul",
+    "limitPlaceholder": "örn. 100",
+    "listButton": "Asalları Bul",
+    "isPrime": "{n} bir asal sayıdır.",
+    "notPrime": "{n} asal değil. Çarpanlar: {factors}",
+    "primeCount": "{count} asal sayı bulundu",
+    "clearButton": "Temizle"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (toplam öğe)",
+    "rLabel": "r (seçilen öğe)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "combinationsTitle": "Kombinasyon C(n,r)",
+    "permutationsTitle": "Permütasyon P(n,r)",
+    "formulaTitle": "Formül",
+    "stepsTitle": "Adım adım",
+    "invalidInput": "n ve r sıfırdan büyük veya eşit tam sayılar olmalı, r ≤ n (n ≤ 170)"
   },
   "NumberToWords": {
     "inputLabel": "Sayı",

@@ -477,6 +477,66 @@
       "metaTitle": "Конвертер расхода топлива",
       "metaDescription": "Конвертируйте между км/л, MPG (US), MPG (UK) и л/100км. Бесплатный онлайн-конвертер расхода топлива."
     },
+    "energy-converter": {
+      "name": "Конвертер энергии",
+      "description": "Конвертируйте между джоулями, калориями, килокалориями, кВт·ч, BTU и электронвольтами.",
+      "metaTitle": "Конвертер энергии",
+      "metaDescription": "Конвертируйте единицы энергии: Дж, кал, ккал, кВт·ч, BTU, эВ. Бесплатный онлайн-конвертер."
+    },
+    "power-converter": {
+      "name": "Конвертер мощности",
+      "description": "Конвертируйте между ваттами, киловаттами, мегаваттами, лошадиными силами и BTU/ч.",
+      "metaTitle": "Конвертер мощности",
+      "metaDescription": "Конвертируйте Вт, кВт, МВт, л.с. и BTU/ч. Бесплатный онлайн-конвертер мощности."
+    },
+    "css-unit-converter": {
+      "name": "Конвертер единиц CSS",
+      "description": "Конвертируйте px, em, rem, vw, vh, pt и cm для адаптивного веб-дизайна.",
+      "metaTitle": "Конвертер единиц CSS",
+      "metaDescription": "Конвертируйте единицы CSS — px, em, rem, vw, vh, pt, cm — для адаптивного дизайна. Бесплатный калькулятор."
+    },
+    "chmod-calculator": {
+      "name": "Калькулятор Chmod",
+      "description": "Вычисляйте права доступа к файлам Unix. Конвертируйте между восьмеричной и символьной (rwx) нотацией.",
+      "metaTitle": "Калькулятор Chmod",
+      "metaDescription": "Вычисляйте права доступа Unix. Конвертируйте между восьмеричной (755) и символьной (rwxr-xr-x) нотацией."
+    },
+    "find-replace": {
+      "name": "Найти и заменить",
+      "description": "Находите и заменяйте текст с помощью обычного текста или шаблонов регулярных выражений.",
+      "metaTitle": "Инструмент поиска и замены",
+      "metaDescription": "Находите и заменяйте текст с использованием обычных или регулярных выражений. Бесплатный онлайн-инструмент."
+    },
+    "text-cleaner": {
+      "name": "Очиститель текста",
+      "description": "Удаляйте лишние пробелы, пустые строки, специальные символы и HTML-теги.",
+      "metaTitle": "Очиститель текста",
+      "metaDescription": "Удаляйте лишние пробелы, пустые строки, спецсимволы и HTML-теги. Бесплатный онлайн-очиститель текста."
+    },
+    "vat-calculator": {
+      "name": "Калькулятор НДС",
+      "description": "Добавляйте или убирайте НДС/налог из цены. Поддерживает пользовательские ставки.",
+      "metaTitle": "Калькулятор НДС / Налога",
+      "metaDescription": "Добавляйте или убирайте НДС из любой цены. Поддерживает пользовательские ставки. Бесплатный онлайн-калькулятор."
+    },
+    "currency-converter": {
+      "name": "Конвертер валют",
+      "description": "Конвертируйте между основными мировыми валютами по справочным курсам.",
+      "metaTitle": "Конвертер валют",
+      "metaDescription": "Конвертируйте между 20+ основными мировыми валютами по справочным курсам. Бесплатный онлайн-конвертер."
+    },
+    "prime-checker": {
+      "name": "Проверка простых чисел",
+      "description": "Проверяйте, является ли число простым, и находите все простые числа до заданного предела.",
+      "metaTitle": "Проверка простых чисел",
+      "metaDescription": "Проверяйте простоту числа и выводите простые числа с помощью решета Эратосфена. Бесплатный онлайн-инструмент."
+    },
+    "combinations-permutations": {
+      "name": "Сочетания и перестановки",
+      "description": "Вычисляйте nCr (сочетания) и nPr (перестановки) с пошаговыми решениями.",
+      "metaTitle": "Калькулятор сочетаний и перестановок",
+      "metaDescription": "Вычисляйте nCr и nPr с пошаговым разложением на факториалы. Бесплатный онлайн-комбинаторный калькулятор."
+    },
     "number-to-words": {
       "name": "Число прописью",
       "description": "Конвертируйте числа в английские слова (например: 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "Очистить",
     "note": "Примечание: л/100км — обратный показатель — меньше значит лучше."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "Базовый размер шрифта (px)",
+    "viewportWidthLabel": "Ширина viewport (px)",
+    "viewportHeightLabel": "Высота viewport (px)",
+    "inputLabel": "Значение для конвертации",
+    "fromUnit": "Из",
+    "toUnit": "В",
+    "convertButton": "Конвертировать",
+    "resultLabel": "Результат",
+    "clearButton": "Очистить",
+    "settingsTitle": "Настройки"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "Владелец",
+    "groupLabel": "Группа",
+    "othersLabel": "Остальные",
+    "readLabel": "Чтение (r)",
+    "writeLabel": "Запись (w)",
+    "executeLabel": "Выполнение (x)",
+    "octalLabel": "Восьмеричный",
+    "symbolicLabel": "Символьный",
+    "commandLabel": "Команда chmod",
+    "octalInputLabel": "Введите восьмеричный (напр. 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "Входной текст",
+    "inputPlaceholder": "Вставьте текст здесь...",
+    "findLabel": "Найти",
+    "findPlaceholder": "Текст для поиска...",
+    "replaceLabel": "Заменить на",
+    "replacePlaceholder": "Текст замены...",
+    "regexToggle": "Regex",
+    "caseToggle": "Учитывать регистр",
+    "globalToggle": "Заменить все",
+    "replaceButton": "Заменить",
+    "outputLabel": "Вывод",
+    "matchCount": "Найдено совпадений: {count}"
+  },
+  "TextCleaner": {
+    "inputLabel": "Входной текст",
+    "inputPlaceholder": "Вставьте текст для очистки...",
+    "outputLabel": "Очищенный текст",
+    "removeExtraSpaces": "Удалить лишние пробелы",
+    "removeEmptyLines": "Удалить пустые строки",
+    "trimLines": "Обрезать каждую строку",
+    "removeHtml": "Удалить HTML-теги",
+    "removeSpecialChars": "Удалить спецсимволы",
+    "lowercaseAll": "Всё в нижний регистр",
+    "cleanButton": "Очистить",
+    "copyButton": "Копировать"
+  },
+  "VatCalculator": {
+    "priceLabel": "Цена",
+    "vatRateLabel": "Ставка НДС (%)",
+    "modeAdd": "Добавить налог к цене",
+    "modeRemove": "Убрать налог из цены",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "netPrice": "Цена без НДС",
+    "taxAmount": "Сумма налога",
+    "grossPrice": "Цена с НДС",
+    "presetLabel": "Распространённые ставки"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "Сумма",
+    "fromLabel": "Из",
+    "toLabel": "В",
+    "convertButton": "Конвертировать",
+    "swapButton": "Поменять",
+    "resultLabel": "Результат",
+    "disclaimer": "Справочные курсы — не подходят для финансовых операций.",
+    "ratesDate": "Курсы середины 2025 г. (база USD)"
+  },
+  "PrimeChecker": {
+    "checkTab": "Простое?",
+    "listTab": "Список простых",
+    "numberLabel": "Число",
+    "numberPlaceholder": "напр. 97",
+    "checkButton": "Проверить",
+    "limitLabel": "Простые числа до",
+    "limitPlaceholder": "напр. 100",
+    "listButton": "Найти простые",
+    "isPrime": "{n} — простое число.",
+    "notPrime": "{n} — не простое. Делители: {factors}",
+    "primeCount": "Найдено простых: {count}",
+    "clearButton": "Очистить"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (всего элементов)",
+    "rLabel": "r (выбранных элементов)",
+    "calculateButton": "Вычислить",
+    "clearButton": "Очистить",
+    "combinationsTitle": "Сочетания C(n,r)",
+    "permutationsTitle": "Перестановки P(n,r)",
+    "formulaTitle": "Формула",
+    "stepsTitle": "Пошаговое решение",
+    "invalidInput": "n и r должны быть неотрицательными целыми числами, r ≤ n (n ≤ 170)"
   },
   "NumberToWords": {
     "inputLabel": "Число",

@@ -381,6 +381,42 @@
       "metaTitle": "随机姓名生成器",
       "metaDescription": "生成随机英文名字、姓氏或全名，适用于测试数据和虚拟数据集。免费在线工具。"
     },
+    "favicon-generator": {
+      "name": "Favicon 生成器",
+      "description": "从文字、表情符号或首字母生成网站 favicon PNG 文件。",
+      "metaTitle": "Favicon 生成器",
+      "metaDescription": "从文字或表情符号生成 favicon PNG。无需设计技能的免费在线 favicon 创建工具。"
+    },
+    "http-status-codes": {
+      "name": "HTTP 状态码参考",
+      "description": "查询带有说明、使用场景和示例的 HTTP 状态码。",
+      "metaTitle": "HTTP 状态码参考",
+      "metaDescription": "完整的 HTTP 状态码参考：1xx、2xx、3xx、4xx、5xx。可按代码或关键字搜索。"
+    },
+    "markdown-table-generator": {
+      "name": "Markdown 表格生成器",
+      "description": "可视化创建 Markdown 表格并立即复制格式化输出。",
+      "metaTitle": "Markdown 表格生成器",
+      "metaDescription": "可视化创建 Markdown 表格。添加行和列，编辑单元格，即时复制格式化的 Markdown 输出。"
+    },
+    "image-base64": {
+      "name": "图片转 Base64",
+      "description": "将图片转换为 Base64 Data URL，直接嵌入 HTML 或 CSS 中。",
+      "metaTitle": "图片 Base64 转换器",
+      "metaDescription": "将 PNG、JPG、GIF、SVG 图片转换为 Base64 Data URL。无需文件托管，直接在 HTML 或 CSS 中嵌入图片。"
+    },
+    "text-to-speech": {
+      "name": "文字转语音",
+      "description": "使用浏览器内置的语音合成引擎将文字转换为语音。",
+      "metaTitle": "文字转语音 (TTS)",
+      "metaDescription": "在浏览器中将文字转换为语音。选择声音、速度和音调。免费在线 TTS，无需安装。"
+    },
+    "word-frequency-counter": {
+      "name": "词频统计器",
+      "description": "分析文本并按频率排名统计每个词的出现次数。",
+      "metaTitle": "词频统计器",
+      "metaDescription": "分析文本并统计词频。查看哪些词出现最频繁，按出现次数排序显示。"
+    },
     "tip-calculator": {
       "name": "小费计算器",
       "description": "计算小费金额，并支持多人分摊。",
@@ -1088,6 +1124,90 @@
     "typeLastName": "仅姓氏",
     "generateButton": "生成",
     "copyAllButton": "全部复制"
+  },
+  "FaviconGenerator": {
+    "textLabel": "文字 / 表情符号",
+    "textPlaceholder": "A、🚀、AB...",
+    "bgColorLabel": "背景颜色",
+    "textColorLabel": "文字颜色",
+    "fontSizeLabel": "字体大小",
+    "sizeLabel": "画布大小 (px)",
+    "shapeLabel": "形状",
+    "shapeSquare": "正方形",
+    "shapeRounded": "圆角",
+    "shapeCircle": "圆形",
+    "generateButton": "生成",
+    "downloadButton": "下载 PNG",
+    "copyButton": "复制 Data URL",
+    "previewLabel": "预览",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "按代码或关键字搜索（例如：404、not found）...",
+    "categoryAll": "全部",
+    "category1xx": "1xx 信息",
+    "category2xx": "2xx 成功",
+    "category3xx": "3xx 重定向",
+    "category4xx": "4xx 客户端错误",
+    "category5xx": "5xx 服务器错误",
+    "useCaseLabel": "使用场景",
+    "noResults": "未找到匹配的状态码。"
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "添加行",
+    "addColumnButton": "添加列",
+    "deleteRowButton": "删除行",
+    "deleteColumnButton": "删除列",
+    "copyButton": "复制 Markdown",
+    "copiedButton": "已复制！",
+    "alignLabel": "对齐",
+    "alignLeft": "左对齐",
+    "alignCenter": "居中",
+    "alignRight": "右对齐",
+    "headerPlaceholder": "标题",
+    "cellPlaceholder": "单元格",
+    "outputLabel": "Markdown 输出"
+  },
+  "ImageBase64": {
+    "dropLabel": "将图片拖放到此处或点击上传",
+    "supportedFormats": "支持 PNG、JPG、GIF、WebP、SVG",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "复制 Data URL",
+    "htmlSnippetLabel": "HTML img 标签",
+    "cssSnippetLabel": "CSS 背景",
+    "fileSizeLabel": "文件大小",
+    "encodedSizeLabel": "编码后大小",
+    "imageInfoLabel": "图片信息"
+  },
+  "TextToSpeech": {
+    "inputLabel": "要朗读的文本",
+    "inputPlaceholder": "在此输入文本...",
+    "voiceLabel": "声音",
+    "rateLabel": "速度: {rate}x",
+    "pitchLabel": "音调: {pitch}",
+    "volumeLabel": "音量: {volume}%",
+    "speakButton": "朗读",
+    "stopButton": "停止",
+    "pauseButton": "暂停",
+    "resumeButton": "继续",
+    "noVoices": "您的浏览器没有可用的语音。",
+    "notSupported": "您的浏览器不支持语音合成。"
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "要分析的文本",
+    "inputPlaceholder": "在此粘贴或输入文本...",
+    "analyzeButton": "分析",
+    "clearButton": "清除",
+    "totalWordsLabel": "总词数",
+    "uniqueWordsLabel": "唯一词数",
+    "topWordsLabel": "高频词汇",
+    "rankLabel": "排名",
+    "wordLabel": "词语",
+    "countLabel": "次数",
+    "percentLabel": "占比",
+    "ignoreCommonLabel": "忽略常用词",
+    "copyButton": "复制为 CSV",
+    "noText": "请输入文本进行分析。"
   },
   "TipCalculator": {
     "billAmountLabel": "账单金额",

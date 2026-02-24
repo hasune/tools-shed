@@ -381,6 +381,42 @@
       "metaTitle": "랜덤 이름 생성기",
       "metaDescription": "랜덤 영문 이름(이름/성/풀네임)을 생성하는 무료 온라인 도구."
     },
+    "favicon-generator": {
+      "name": "파비콘 생성기",
+      "description": "텍스트, 이모지, 이니셜로 웹사이트용 favicon PNG 파일을 생성합니다.",
+      "metaTitle": "파비콘 생성기",
+      "metaDescription": "텍스트나 이모지로 favicon PNG를 생성하세요. 디자인 스킬 없이도 사용 가능한 무료 온라인 파비콘 생성기."
+    },
+    "http-status-codes": {
+      "name": "HTTP 상태 코드 레퍼런스",
+      "description": "설명, 사용 사례, 예시와 함께 HTTP 상태 코드를 조회합니다.",
+      "metaTitle": "HTTP 상태 코드 레퍼런스",
+      "metaDescription": "HTTP 상태 코드 완전 레퍼런스: 1xx, 2xx, 3xx, 4xx, 5xx. 코드 또는 키워드로 검색 가능."
+    },
+    "markdown-table-generator": {
+      "name": "마크다운 테이블 생성기",
+      "description": "시각적으로 마크다운 테이블을 만들고 즉시 복사할 수 있습니다.",
+      "metaTitle": "마크다운 테이블 생성기",
+      "metaDescription": "마크다운 테이블을 시각적으로 생성하세요. 행과 열을 추가하고 포맷된 마크다운을 즉시 복사."
+    },
+    "image-base64": {
+      "name": "이미지 Base64 변환",
+      "description": "이미지를 Base64 Data URL로 변환하여 HTML이나 CSS에 직접 삽입합니다.",
+      "metaTitle": "이미지 Base64 변환기",
+      "metaDescription": "PNG, JPG, GIF, SVG 이미지를 Base64 Data URL로 변환. 파일 호스팅 없이 HTML이나 CSS에 이미지 삽입 가능."
+    },
+    "text-to-speech": {
+      "name": "텍스트 음성 변환",
+      "description": "브라우저 내장 음성 합성 엔진으로 텍스트를 읽어줍니다.",
+      "metaTitle": "텍스트 음성 변환 (TTS)",
+      "metaDescription": "브라우저에서 텍스트를 음성으로 변환하세요. 음성, 속도, 피치를 선택할 수 있습니다. 설치 불필요."
+    },
+    "word-frequency-counter": {
+      "name": "단어 빈도 분석기",
+      "description": "텍스트를 분석하여 각 단어의 출현 빈도를 순위별로 표시합니다.",
+      "metaTitle": "단어 빈도 분석기",
+      "metaDescription": "텍스트를 분석하여 단어 빈도를 계산하세요. 가장 많이 등장한 단어를 출현 횟수 순으로 확인."
+    },
     "tip-calculator": {
       "name": "팁 계산기",
       "description": "팁 금액을 계산하고 여러 명이 나눌 수 있습니다.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "성만",
     "generateButton": "생성",
     "copyAllButton": "전체 복사"
+  },
+  "FaviconGenerator": {
+    "textLabel": "텍스트 / 이모지",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "배경 색상",
+    "textColorLabel": "텍스트 색상",
+    "fontSizeLabel": "폰트 크기",
+    "sizeLabel": "캔버스 크기 (px)",
+    "shapeLabel": "모양",
+    "shapeSquare": "정사각형",
+    "shapeRounded": "둥근 모서리",
+    "shapeCircle": "원형",
+    "generateButton": "생성",
+    "downloadButton": "PNG 다운로드",
+    "copyButton": "Data URL 복사",
+    "previewLabel": "미리보기",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "코드 또는 키워드로 검색 (예: 404, not found)...",
+    "categoryAll": "전체",
+    "category1xx": "1xx 정보",
+    "category2xx": "2xx 성공",
+    "category3xx": "3xx 리다이렉트",
+    "category4xx": "4xx 클라이언트 오류",
+    "category5xx": "5xx 서버 오류",
+    "useCaseLabel": "사용 사례",
+    "noResults": "검색 결과가 없습니다."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "행 추가",
+    "addColumnButton": "열 추가",
+    "deleteRowButton": "행 삭제",
+    "deleteColumnButton": "열 삭제",
+    "copyButton": "마크다운 복사",
+    "copiedButton": "복사됨!",
+    "alignLabel": "정렬",
+    "alignLeft": "왼쪽",
+    "alignCenter": "가운데",
+    "alignRight": "오른쪽",
+    "headerPlaceholder": "헤더",
+    "cellPlaceholder": "셀",
+    "outputLabel": "마크다운 출력"
+  },
+  "ImageBase64": {
+    "dropLabel": "이미지를 여기에 드롭하거나 클릭하여 업로드",
+    "supportedFormats": "PNG, JPG, GIF, WebP, SVG 지원",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Data URL 복사",
+    "htmlSnippetLabel": "HTML img 태그",
+    "cssSnippetLabel": "CSS background",
+    "fileSizeLabel": "파일 크기",
+    "encodedSizeLabel": "인코딩 크기",
+    "imageInfoLabel": "이미지 정보"
+  },
+  "TextToSpeech": {
+    "inputLabel": "읽을 텍스트",
+    "inputPlaceholder": "텍스트를 입력하세요...",
+    "voiceLabel": "음성",
+    "rateLabel": "속도: {rate}x",
+    "pitchLabel": "피치: {pitch}",
+    "volumeLabel": "볼륨: {volume}%",
+    "speakButton": "읽기",
+    "stopButton": "정지",
+    "pauseButton": "일시정지",
+    "resumeButton": "재개",
+    "noVoices": "브라우저에서 사용 가능한 음성이 없습니다.",
+    "notSupported": "이 브라우저는 음성 합성을 지원하지 않습니다."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "분석할 텍스트",
+    "inputPlaceholder": "텍스트를 붙여넣거나 입력하세요...",
+    "analyzeButton": "분석",
+    "clearButton": "초기화",
+    "totalWordsLabel": "총 단어 수",
+    "uniqueWordsLabel": "고유 단어 수",
+    "topWordsLabel": "상위 단어",
+    "rankLabel": "순위",
+    "wordLabel": "단어",
+    "countLabel": "횟수",
+    "percentLabel": "비율",
+    "ignoreCommonLabel": "일반 단어 제외",
+    "copyButton": "CSV로 복사",
+    "noText": "분석할 텍스트를 입력하세요."
   },
   "TipCalculator": {
     "billAmountLabel": "청구 금액",

@@ -381,6 +381,42 @@
       "metaTitle": "Generator Nama Acak",
       "metaDescription": "Hasilkan nama depan, belakang, atau nama lengkap acak dalam bahasa Inggris. Ideal untuk data uji."
     },
+    "favicon-generator": {
+      "name": "Generator Favicon",
+      "description": "Buat file favicon PNG dari teks, emoji, atau inisial untuk website Anda.",
+      "metaTitle": "Generator Favicon",
+      "metaDescription": "Buat favicon PNG dari teks atau emoji. Pembuat favicon gratis — tidak perlu keahlian desain."
+    },
+    "http-status-codes": {
+      "name": "Referensi Kode Status HTTP",
+      "description": "Cari kode status HTTP dengan deskripsi, kasus penggunaan, dan contoh.",
+      "metaTitle": "Referensi Kode Status HTTP",
+      "metaDescription": "Referensi lengkap kode HTTP: 1xx, 2xx, 3xx, 4xx, 5xx. Cari berdasarkan kode atau kata kunci."
+    },
+    "markdown-table-generator": {
+      "name": "Generator Tabel Markdown",
+      "description": "Buat tabel Markdown secara visual dan salin output yang diformat secara instan.",
+      "metaTitle": "Generator Tabel Markdown",
+      "metaDescription": "Buat tabel Markdown secara visual. Tambahkan baris dan kolom, edit sel, dan salin Markdown yang diformat."
+    },
+    "image-base64": {
+      "name": "Gambar ke Base64",
+      "description": "Konversi gambar ke Base64 Data URL untuk disematkan langsung ke HTML atau CSS.",
+      "metaTitle": "Konverter Gambar ke Base64",
+      "metaDescription": "Konversi PNG, JPG, GIF, SVG ke Base64 Data URL. Sematkan gambar di HTML atau CSS tanpa hosting file."
+    },
+    "text-to-speech": {
+      "name": "Teks ke Ucapan",
+      "description": "Konversi teks menjadi ucapan menggunakan mesin sintesis suara bawaan browser.",
+      "metaTitle": "Teks ke Ucapan (TTS)",
+      "metaDescription": "Konversi teks ke ucapan di browser Anda. Pilih suara, kecepatan, dan nada. TTS gratis — tanpa instalasi."
+    },
+    "word-frequency-counter": {
+      "name": "Penghitung Frekuensi Kata",
+      "description": "Analisis teks dan hitung seberapa sering setiap kata muncul, diurutkan berdasarkan frekuensi.",
+      "metaTitle": "Penghitung Frekuensi Kata",
+      "metaDescription": "Analisis teks dan hitung frekuensi kata. Lihat kata mana yang paling sering muncul."
+    },
     "tip-calculator": {
       "name": "Kalkulator Tip",
       "description": "Menghitung jumlah tip dan membagi tagihan di antara beberapa orang.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "Nama belakang saja",
     "generateButton": "Hasilkan",
     "copyAllButton": "Salin semua"
+  },
+  "FaviconGenerator": {
+    "textLabel": "Teks / Emoji",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "Warna Latar Belakang",
+    "textColorLabel": "Warna Teks",
+    "fontSizeLabel": "Ukuran Font",
+    "sizeLabel": "Ukuran Canvas (px)",
+    "shapeLabel": "Bentuk",
+    "shapeSquare": "Persegi",
+    "shapeRounded": "Sudut Bulat",
+    "shapeCircle": "Lingkaran",
+    "generateButton": "Buat",
+    "downloadButton": "Unduh PNG",
+    "copyButton": "Salin Data URL",
+    "previewLabel": "Pratinjau",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "Cari berdasarkan kode atau kata kunci (mis. 404, not found)...",
+    "categoryAll": "Semua",
+    "category1xx": "1xx Informasional",
+    "category2xx": "2xx Sukses",
+    "category3xx": "3xx Pengalihan",
+    "category4xx": "4xx Kesalahan Klien",
+    "category5xx": "5xx Kesalahan Server",
+    "useCaseLabel": "Kasus penggunaan",
+    "noResults": "Tidak ada kode status yang ditemukan."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "Tambah Baris",
+    "addColumnButton": "Tambah Kolom",
+    "deleteRowButton": "Hapus Baris",
+    "deleteColumnButton": "Hapus Kolom",
+    "copyButton": "Salin Markdown",
+    "copiedButton": "Disalin!",
+    "alignLabel": "Rata",
+    "alignLeft": "Kiri",
+    "alignCenter": "Tengah",
+    "alignRight": "Kanan",
+    "headerPlaceholder": "Header",
+    "cellPlaceholder": "Sel",
+    "outputLabel": "Output Markdown"
+  },
+  "ImageBase64": {
+    "dropLabel": "Jatuhkan gambar di sini atau klik untuk mengunggah",
+    "supportedFormats": "Mendukung PNG, JPG, GIF, WebP, SVG",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Salin Data URL",
+    "htmlSnippetLabel": "Tag HTML img",
+    "cssSnippetLabel": "Latar belakang CSS",
+    "fileSizeLabel": "Ukuran file",
+    "encodedSizeLabel": "Ukuran terenkode",
+    "imageInfoLabel": "Info gambar"
+  },
+  "TextToSpeech": {
+    "inputLabel": "Teks untuk diucapkan",
+    "inputPlaceholder": "Masukkan teks di sini...",
+    "voiceLabel": "Suara",
+    "rateLabel": "Kecepatan: {rate}x",
+    "pitchLabel": "Nada: {pitch}",
+    "volumeLabel": "Volume: {volume}%",
+    "speakButton": "Ucapkan",
+    "stopButton": "Berhenti",
+    "pauseButton": "Jeda",
+    "resumeButton": "Lanjutkan",
+    "noVoices": "Tidak ada suara yang tersedia di browser Anda.",
+    "notSupported": "Sintesis ucapan tidak didukung di browser Anda."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "Teks untuk dianalisis",
+    "inputPlaceholder": "Tempel atau ketik teks di sini...",
+    "analyzeButton": "Analisis",
+    "clearButton": "Hapus",
+    "totalWordsLabel": "Total kata",
+    "uniqueWordsLabel": "Kata unik",
+    "topWordsLabel": "Kata paling sering",
+    "rankLabel": "Peringkat",
+    "wordLabel": "Kata",
+    "countLabel": "Jumlah",
+    "percentLabel": "% dari total",
+    "ignoreCommonLabel": "Abaikan kata umum",
+    "copyButton": "Salin sebagai CSV",
+    "noText": "Masukkan teks untuk dianalisis."
   },
   "TipCalculator": {
     "billAmountLabel": "Jumlah tagihan",

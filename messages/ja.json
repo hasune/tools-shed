@@ -381,6 +381,42 @@
       "metaTitle": "ランダム名前ジェネレーター",
       "metaDescription": "ランダムな名・姓・フルネームを生成。テストデータやダミーデータセットに最適。無料オンラインツール。"
     },
+    "favicon-generator": {
+      "name": "ファビコンジェネレーター",
+      "description": "テキスト、絵文字、イニシャルからウェブサイト用のfavicon PNGを生成します。",
+      "metaTitle": "ファビコンジェネレーター",
+      "metaDescription": "テキストや絵文字からfavicon PNGを生成。デザインスキル不要の無料オンラインfaviconクリエーター。"
+    },
+    "http-status-codes": {
+      "name": "HTTPステータスコード一覧",
+      "description": "説明、ユースケース、例を含むHTTPステータスコードを検索します。",
+      "metaTitle": "HTTPステータスコード一覧",
+      "metaDescription": "HTTPステータスコードの完全リファレンス：1xx、2xx、3xx、4xx、5xx。コードやキーワードで検索できます。"
+    },
+    "markdown-table-generator": {
+      "name": "Markdownテーブルジェネレーター",
+      "description": "視覚的にMarkdownテーブルを作成し、フォーマットされた出力をコピーします。",
+      "metaTitle": "Markdownテーブルジェネレーター",
+      "metaDescription": "Markdownテーブルをビジュアルで作成。行や列を追加し、フォーマットされたMarkdownをコピー。"
+    },
+    "image-base64": {
+      "name": "画像をBase64に変換",
+      "description": "画像をBase64 Data URLに変換してHTMLやCSSに直接埋め込みます。",
+      "metaTitle": "画像Base64コンバーター",
+      "metaDescription": "PNG、JPG、GIF、SVG画像をBase64 Data URLに変換。HTMLやCSSにファイルホスティングなしで画像を埋め込めます。"
+    },
+    "text-to-speech": {
+      "name": "テキスト読み上げ",
+      "description": "ブラウザ内蔵の音声合成エンジンを使ってテキストを読み上げます。",
+      "metaTitle": "テキスト読み上げ",
+      "metaDescription": "ブラウザでテキストを音声に変換。声、速度、ピッチを選択できます。インストール不要の無料TTS。"
+    },
+    "word-frequency-counter": {
+      "name": "単語頻度カウンター",
+      "description": "テキストを分析し、各単語の出現頻度を順位付きで表示します。",
+      "metaTitle": "単語頻度カウンター",
+      "metaDescription": "テキストを分析して単語の出現頻度を集計。どの単語が最も多く使われているかを出現回数順に表示。"
+    },
     "tip-calculator": {
       "name": "チップ計算",
       "description": "チップ額を計算し、複数人で割り勘します。",
@@ -1088,6 +1124,90 @@
     "typeLastName": "苗字のみ",
     "generateButton": "生成",
     "copyAllButton": "すべてコピー"
+  },
+  "FaviconGenerator": {
+    "textLabel": "テキスト / 絵文字",
+    "textPlaceholder": "A、🚀、ABなど",
+    "bgColorLabel": "背景色",
+    "textColorLabel": "テキスト色",
+    "fontSizeLabel": "フォントサイズ",
+    "sizeLabel": "キャンバスサイズ (px)",
+    "shapeLabel": "形状",
+    "shapeSquare": "正方形",
+    "shapeRounded": "角丸",
+    "shapeCircle": "円形",
+    "generateButton": "生成",
+    "downloadButton": "PNG ダウンロード",
+    "copyButton": "Data URL コピー",
+    "previewLabel": "プレビュー",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "コードまたはキーワードで検索（例：404、not found）...",
+    "categoryAll": "すべて",
+    "category1xx": "1xx 情報",
+    "category2xx": "2xx 成功",
+    "category3xx": "3xx リダイレクト",
+    "category4xx": "4xx クライアントエラー",
+    "category5xx": "5xx サーバーエラー",
+    "useCaseLabel": "ユースケース",
+    "noResults": "該当するステータスコードが見つかりません。"
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "行を追加",
+    "addColumnButton": "列を追加",
+    "deleteRowButton": "行を削除",
+    "deleteColumnButton": "列を削除",
+    "copyButton": "Markdownをコピー",
+    "copiedButton": "コピー済み！",
+    "alignLabel": "揃え",
+    "alignLeft": "左揃え",
+    "alignCenter": "中央揃え",
+    "alignRight": "右揃え",
+    "headerPlaceholder": "ヘッダー",
+    "cellPlaceholder": "セル",
+    "outputLabel": "Markdown出力"
+  },
+  "ImageBase64": {
+    "dropLabel": "画像をここにドロップするかクリックしてアップロード",
+    "supportedFormats": "PNG、JPG、GIF、WebP、SVGに対応",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Data URLをコピー",
+    "htmlSnippetLabel": "HTML imgタグ",
+    "cssSnippetLabel": "CSSバックグラウンド",
+    "fileSizeLabel": "ファイルサイズ",
+    "encodedSizeLabel": "エンコード後サイズ",
+    "imageInfoLabel": "画像情報"
+  },
+  "TextToSpeech": {
+    "inputLabel": "読み上げるテキスト",
+    "inputPlaceholder": "テキストをここに入力...",
+    "voiceLabel": "音声",
+    "rateLabel": "速度: {rate}x",
+    "pitchLabel": "ピッチ: {pitch}",
+    "volumeLabel": "音量: {volume}%",
+    "speakButton": "読み上げ",
+    "stopButton": "停止",
+    "pauseButton": "一時停止",
+    "resumeButton": "再開",
+    "noVoices": "ブラウザで利用可能な音声がありません。",
+    "notSupported": "お使いのブラウザは音声合成に対応していません。"
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "分析するテキスト",
+    "inputPlaceholder": "テキストをここに貼り付けるか入力してください...",
+    "analyzeButton": "分析",
+    "clearButton": "クリア",
+    "totalWordsLabel": "総単語数",
+    "uniqueWordsLabel": "ユニーク単語数",
+    "topWordsLabel": "頻出単語",
+    "rankLabel": "順位",
+    "wordLabel": "単語",
+    "countLabel": "回数",
+    "percentLabel": "割合",
+    "ignoreCommonLabel": "一般的な単語を除外",
+    "copyButton": "CSVでコピー",
+    "noText": "テキストを入力して分析してください。"
   },
   "TipCalculator": {
     "billAmountLabel": "請求金額",

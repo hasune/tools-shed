@@ -381,6 +381,42 @@
       "metaTitle": "Générateur de Noms Aléatoires",
       "metaDescription": "Générez des prénoms, des noms de famille ou des noms complets aléatoires en anglais. Idéal pour les données de test."
     },
+    "favicon-generator": {
+      "name": "Générateur de Favicon",
+      "description": "Générez des fichiers favicon PNG à partir de texte, d'emoji ou d'initiales.",
+      "metaTitle": "Générateur de Favicon",
+      "metaDescription": "Générez un favicon PNG à partir de texte ou d'emoji. Créateur de favicon gratuit — sans compétences en design."
+    },
+    "http-status-codes": {
+      "name": "Référence des Codes HTTP",
+      "description": "Consultez les codes HTTP avec leurs descriptions, cas d'utilisation et exemples.",
+      "metaTitle": "Référence des Codes HTTP",
+      "metaDescription": "Référence complète des codes HTTP : 1xx, 2xx, 3xx, 4xx, 5xx. Recherchez par code ou mot-clé."
+    },
+    "markdown-table-generator": {
+      "name": "Générateur de Tableaux Markdown",
+      "description": "Créez des tableaux Markdown visuellement et copiez le résultat formaté instantanément.",
+      "metaTitle": "Générateur de Tableaux Markdown",
+      "metaDescription": "Créez des tableaux Markdown visuellement. Ajoutez des lignes et colonnes, éditez les cellules et copiez le Markdown."
+    },
+    "image-base64": {
+      "name": "Image en Base64",
+      "description": "Convertissez des images en Data URL Base64 pour les intégrer directement dans HTML ou CSS.",
+      "metaTitle": "Convertisseur Image en Base64",
+      "metaDescription": "Convertissez PNG, JPG, GIF, SVG en Base64 Data URL. Intégrez des images en HTML ou CSS sans hébergement."
+    },
+    "text-to-speech": {
+      "name": "Texte en Parole",
+      "description": "Convertissez du texte en parole en utilisant le moteur de synthèse vocale intégré au navigateur.",
+      "metaTitle": "Texte en Parole (TTS)",
+      "metaDescription": "Convertissez du texte en parole dans votre navigateur. Choisissez la voix, la vitesse et le ton. TTS gratuit."
+    },
+    "word-frequency-counter": {
+      "name": "Compteur de Fréquence de Mots",
+      "description": "Analysez le texte et comptez combien de fois chaque mot apparaît, classé par fréquence.",
+      "metaTitle": "Compteur de Fréquence de Mots",
+      "metaDescription": "Analysez du texte et calculez la fréquence des mots. Voyez quels mots apparaissent le plus souvent."
+    },
     "tip-calculator": {
       "name": "Calculateur de Pourboire",
       "description": "Calculez le montant du pourboire et partagez l'addition entre plusieurs personnes.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "Nom de famille seulement",
     "generateButton": "Générer",
     "copyAllButton": "Tout copier"
+  },
+  "FaviconGenerator": {
+    "textLabel": "Texte / Emoji",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "Couleur de Fond",
+    "textColorLabel": "Couleur du Texte",
+    "fontSizeLabel": "Taille de Police",
+    "sizeLabel": "Taille du Canevas (px)",
+    "shapeLabel": "Forme",
+    "shapeSquare": "Carré",
+    "shapeRounded": "Arrondi",
+    "shapeCircle": "Cercle",
+    "generateButton": "Générer",
+    "downloadButton": "Télécharger PNG",
+    "copyButton": "Copier Data URL",
+    "previewLabel": "Aperçu",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "Rechercher par code ou mot-clé (ex. 404, not found)...",
+    "categoryAll": "Tous",
+    "category1xx": "1xx Informatif",
+    "category2xx": "2xx Succès",
+    "category3xx": "3xx Redirection",
+    "category4xx": "4xx Erreur Client",
+    "category5xx": "5xx Erreur Serveur",
+    "useCaseLabel": "Cas d'utilisation",
+    "noResults": "Aucun code de statut trouvé."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "Ajouter une Ligne",
+    "addColumnButton": "Ajouter une Colonne",
+    "deleteRowButton": "Supprimer la Ligne",
+    "deleteColumnButton": "Supprimer la Col.",
+    "copyButton": "Copier le Markdown",
+    "copiedButton": "Copié !",
+    "alignLabel": "Aligner",
+    "alignLeft": "Gauche",
+    "alignCenter": "Centre",
+    "alignRight": "Droite",
+    "headerPlaceholder": "En-tête",
+    "cellPlaceholder": "Cellule",
+    "outputLabel": "Sortie Markdown"
+  },
+  "ImageBase64": {
+    "dropLabel": "Déposez une image ici ou cliquez pour télécharger",
+    "supportedFormats": "Supporte PNG, JPG, GIF, WebP, SVG",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Copier la Data URL",
+    "htmlSnippetLabel": "Balise HTML img",
+    "cssSnippetLabel": "Arrière-plan CSS",
+    "fileSizeLabel": "Taille du fichier",
+    "encodedSizeLabel": "Taille encodée",
+    "imageInfoLabel": "Infos image"
+  },
+  "TextToSpeech": {
+    "inputLabel": "Texte à lire",
+    "inputPlaceholder": "Entrez le texte ici...",
+    "voiceLabel": "Voix",
+    "rateLabel": "Vitesse : {rate}x",
+    "pitchLabel": "Ton : {pitch}",
+    "volumeLabel": "Volume : {volume}%",
+    "speakButton": "Lire",
+    "stopButton": "Arrêter",
+    "pauseButton": "Pause",
+    "resumeButton": "Reprendre",
+    "noVoices": "Aucune voix disponible dans votre navigateur.",
+    "notSupported": "La synthèse vocale n'est pas prise en charge par votre navigateur."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "Texte à analyser",
+    "inputPlaceholder": "Collez ou tapez du texte ici...",
+    "analyzeButton": "Analyser",
+    "clearButton": "Effacer",
+    "totalWordsLabel": "Total de mots",
+    "uniqueWordsLabel": "Mots uniques",
+    "topWordsLabel": "Mots les plus fréquents",
+    "rankLabel": "Rang",
+    "wordLabel": "Mot",
+    "countLabel": "Nombre",
+    "percentLabel": "% du total",
+    "ignoreCommonLabel": "Ignorer les mots courants",
+    "copyButton": "Copier en CSV",
+    "noText": "Entrez du texte pour l'analyser."
   },
   "TipCalculator": {
     "billAmountLabel": "Montant de l'addition",

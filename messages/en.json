@@ -381,6 +381,42 @@
       "metaTitle": "Random Name Generator",
       "metaDescription": "Generate random first names, last names, or full names. Perfect for testing, placeholder data, and dummy datasets."
     },
+    "favicon-generator": {
+      "name": "Favicon Generator",
+      "description": "Generate favicon PNG files from text, emoji, or initials for your website.",
+      "metaTitle": "Favicon Generator",
+      "metaDescription": "Generate favicon PNG files from text, emoji, or initials. Free online favicon creator — no design skills needed."
+    },
+    "http-status-codes": {
+      "name": "HTTP Status Code Reference",
+      "description": "Look up HTTP status codes with descriptions, use cases, and examples.",
+      "metaTitle": "HTTP Status Code Reference",
+      "metaDescription": "Complete reference for HTTP status codes: 1xx, 2xx, 3xx, 4xx, 5xx. Search by code or keyword."
+    },
+    "markdown-table-generator": {
+      "name": "Markdown Table Generator",
+      "description": "Build Markdown tables visually and copy the formatted output instantly.",
+      "metaTitle": "Markdown Table Generator",
+      "metaDescription": "Create Markdown tables visually. Add rows and columns, edit cells, and copy formatted Markdown output instantly."
+    },
+    "image-base64": {
+      "name": "Image to Base64",
+      "description": "Convert images to Base64 Data URL for embedding directly in HTML or CSS.",
+      "metaTitle": "Image to Base64 Converter",
+      "metaDescription": "Convert PNG, JPG, GIF, SVG images to Base64 Data URL. Embed images directly in HTML or CSS without file hosting."
+    },
+    "text-to-speech": {
+      "name": "Text to Speech",
+      "description": "Convert text to speech using your browser's built-in speech synthesis engine.",
+      "metaTitle": "Text to Speech",
+      "metaDescription": "Convert text to speech in your browser. Choose voice, speed, and pitch. Free online TTS — no installation needed."
+    },
+    "word-frequency-counter": {
+      "name": "Word Frequency Counter",
+      "description": "Analyze text and count how often each word appears, ranked by frequency.",
+      "metaTitle": "Word Frequency Counter",
+      "metaDescription": "Analyze text and count word frequencies. See which words appear most often, ranked by occurrence."
+    },
     "tip-calculator": {
       "name": "Tip Calculator",
       "description": "Calculate tip amounts and split the bill between multiple people.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "Last name only",
     "generateButton": "Generate",
     "copyAllButton": "Copy All"
+  },
+  "FaviconGenerator": {
+    "textLabel": "Text / Emoji",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "Background Color",
+    "textColorLabel": "Text Color",
+    "fontSizeLabel": "Font Size",
+    "sizeLabel": "Canvas Size (px)",
+    "shapeLabel": "Shape",
+    "shapeSquare": "Square",
+    "shapeRounded": "Rounded",
+    "shapeCircle": "Circle",
+    "generateButton": "Generate",
+    "downloadButton": "Download PNG",
+    "copyButton": "Copy Data URL",
+    "previewLabel": "Preview",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "Search by code or keyword (e.g. 404, not found)...",
+    "categoryAll": "All",
+    "category1xx": "1xx Informational",
+    "category2xx": "2xx Success",
+    "category3xx": "3xx Redirection",
+    "category4xx": "4xx Client Error",
+    "category5xx": "5xx Server Error",
+    "useCaseLabel": "Use case",
+    "noResults": "No status codes found."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "Add Row",
+    "addColumnButton": "Add Column",
+    "deleteRowButton": "Delete Row",
+    "deleteColumnButton": "Delete Col",
+    "copyButton": "Copy Markdown",
+    "copiedButton": "Copied!",
+    "alignLabel": "Align",
+    "alignLeft": "Left",
+    "alignCenter": "Center",
+    "alignRight": "Right",
+    "headerPlaceholder": "Header",
+    "cellPlaceholder": "Cell",
+    "outputLabel": "Markdown Output"
+  },
+  "ImageBase64": {
+    "dropLabel": "Drop an image here or click to upload",
+    "supportedFormats": "Supports PNG, JPG, GIF, WebP, SVG",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Copy Data URL",
+    "htmlSnippetLabel": "HTML img tag",
+    "cssSnippetLabel": "CSS background",
+    "fileSizeLabel": "File size",
+    "encodedSizeLabel": "Encoded size",
+    "imageInfoLabel": "Image info"
+  },
+  "TextToSpeech": {
+    "inputLabel": "Text to speak",
+    "inputPlaceholder": "Enter text here...",
+    "voiceLabel": "Voice",
+    "rateLabel": "Speed: {rate}x",
+    "pitchLabel": "Pitch: {pitch}",
+    "volumeLabel": "Volume: {volume}%",
+    "speakButton": "Speak",
+    "stopButton": "Stop",
+    "pauseButton": "Pause",
+    "resumeButton": "Resume",
+    "noVoices": "No voices available in your browser.",
+    "notSupported": "Speech synthesis is not supported in your browser."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "Text to analyze",
+    "inputPlaceholder": "Paste or type text here...",
+    "analyzeButton": "Analyze",
+    "clearButton": "Clear",
+    "totalWordsLabel": "Total words",
+    "uniqueWordsLabel": "Unique words",
+    "topWordsLabel": "Top words",
+    "rankLabel": "Rank",
+    "wordLabel": "Word",
+    "countLabel": "Count",
+    "percentLabel": "% of total",
+    "ignoreCommonLabel": "Ignore common words",
+    "copyButton": "Copy as CSV",
+    "noText": "Enter some text to analyze."
   },
   "TipCalculator": {
     "billAmountLabel": "Bill amount",

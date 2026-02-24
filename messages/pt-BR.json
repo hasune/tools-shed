@@ -381,6 +381,42 @@
       "metaTitle": "Gerador de Nomes Aleatórios",
       "metaDescription": "Gere nomes, sobrenomes ou nomes completos aleatórios em inglês. Ideal para dados de teste."
     },
+    "favicon-generator": {
+      "name": "Gerador de Favicon",
+      "description": "Gere arquivos favicon PNG a partir de texto, emoji ou iniciais para seu site.",
+      "metaTitle": "Gerador de Favicon",
+      "metaDescription": "Gere favicon PNG a partir de texto ou emoji. Criador de favicon gratuito — sem necessidade de design."
+    },
+    "http-status-codes": {
+      "name": "Referência de Códigos HTTP",
+      "description": "Consulte códigos de status HTTP com descrições, casos de uso e exemplos.",
+      "metaTitle": "Referência de Códigos HTTP",
+      "metaDescription": "Referência completa de códigos HTTP: 1xx, 2xx, 3xx, 4xx, 5xx. Pesquise por código ou palavra-chave."
+    },
+    "markdown-table-generator": {
+      "name": "Gerador de Tabelas Markdown",
+      "description": "Crie tabelas Markdown visualmente e copie o resultado formatado instantaneamente.",
+      "metaTitle": "Gerador de Tabelas Markdown",
+      "metaDescription": "Crie tabelas Markdown visualmente. Adicione linhas e colunas, edite células e copie o Markdown formatado."
+    },
+    "image-base64": {
+      "name": "Imagem para Base64",
+      "description": "Converta imagens para Base64 Data URL para incorporar diretamente em HTML ou CSS.",
+      "metaTitle": "Conversor de Imagem para Base64",
+      "metaDescription": "Converta PNG, JPG, GIF, SVG para Base64 Data URL. Incorpore imagens em HTML ou CSS sem hospedagem."
+    },
+    "text-to-speech": {
+      "name": "Texto para Voz",
+      "description": "Converta texto em voz usando o motor de síntese de voz integrado ao navegador.",
+      "metaTitle": "Texto para Voz (TTS)",
+      "metaDescription": "Converta texto em voz no navegador. Escolha voz, velocidade e tom. TTS gratuito — sem instalação."
+    },
+    "word-frequency-counter": {
+      "name": "Contador de Frequência de Palavras",
+      "description": "Analise texto e conte quantas vezes cada palavra aparece, ordenado por frequência.",
+      "metaTitle": "Contador de Frequência de Palavras",
+      "metaDescription": "Analise texto e calcule a frequência das palavras. Veja quais palavras aparecem mais, por ordem de ocorrência."
+    },
     "tip-calculator": {
       "name": "Calculadora de Gorjeta",
       "description": "Calcule o valor da gorjeta e divida a conta entre várias pessoas.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "Apenas sobrenome",
     "generateButton": "Gerar",
     "copyAllButton": "Copiar tudo"
+  },
+  "FaviconGenerator": {
+    "textLabel": "Texto / Emoji",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "Cor de Fundo",
+    "textColorLabel": "Cor do Texto",
+    "fontSizeLabel": "Tamanho da Fonte",
+    "sizeLabel": "Tamanho da Tela (px)",
+    "shapeLabel": "Forma",
+    "shapeSquare": "Quadrado",
+    "shapeRounded": "Arredondado",
+    "shapeCircle": "Círculo",
+    "generateButton": "Gerar",
+    "downloadButton": "Baixar PNG",
+    "copyButton": "Copiar Data URL",
+    "previewLabel": "Pré-visualização",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "Pesquisar por código ou palavra-chave (ex. 404, not found)...",
+    "categoryAll": "Todos",
+    "category1xx": "1xx Informacional",
+    "category2xx": "2xx Sucesso",
+    "category3xx": "3xx Redirecionamento",
+    "category4xx": "4xx Erro do Cliente",
+    "category5xx": "5xx Erro do Servidor",
+    "useCaseLabel": "Caso de uso",
+    "noResults": "Nenhum código de status encontrado."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "Adicionar Linha",
+    "addColumnButton": "Adicionar Coluna",
+    "deleteRowButton": "Excluir Linha",
+    "deleteColumnButton": "Excluir Col.",
+    "copyButton": "Copiar Markdown",
+    "copiedButton": "Copiado!",
+    "alignLabel": "Alinhar",
+    "alignLeft": "Esquerda",
+    "alignCenter": "Centro",
+    "alignRight": "Direita",
+    "headerPlaceholder": "Cabeçalho",
+    "cellPlaceholder": "Célula",
+    "outputLabel": "Saída Markdown"
+  },
+  "ImageBase64": {
+    "dropLabel": "Solte uma imagem aqui ou clique para fazer upload",
+    "supportedFormats": "Suporta PNG, JPG, GIF, WebP, SVG",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Copiar Data URL",
+    "htmlSnippetLabel": "Tag HTML img",
+    "cssSnippetLabel": "Background CSS",
+    "fileSizeLabel": "Tamanho do arquivo",
+    "encodedSizeLabel": "Tamanho codificado",
+    "imageInfoLabel": "Info da imagem"
+  },
+  "TextToSpeech": {
+    "inputLabel": "Texto para falar",
+    "inputPlaceholder": "Digite o texto aqui...",
+    "voiceLabel": "Voz",
+    "rateLabel": "Velocidade: {rate}x",
+    "pitchLabel": "Tom: {pitch}",
+    "volumeLabel": "Volume: {volume}%",
+    "speakButton": "Falar",
+    "stopButton": "Parar",
+    "pauseButton": "Pausar",
+    "resumeButton": "Retomar",
+    "noVoices": "Nenhuma voz disponível no seu navegador.",
+    "notSupported": "A síntese de voz não é suportada no seu navegador."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "Texto para analisar",
+    "inputPlaceholder": "Cole ou digite texto aqui...",
+    "analyzeButton": "Analisar",
+    "clearButton": "Limpar",
+    "totalWordsLabel": "Total de palavras",
+    "uniqueWordsLabel": "Palavras únicas",
+    "topWordsLabel": "Palavras mais frequentes",
+    "rankLabel": "Posição",
+    "wordLabel": "Palavra",
+    "countLabel": "Contagem",
+    "percentLabel": "% do total",
+    "ignoreCommonLabel": "Ignorar palavras comuns",
+    "copyButton": "Copiar como CSV",
+    "noText": "Digite algum texto para analisar."
   },
   "TipCalculator": {
     "billAmountLabel": "Valor da conta",

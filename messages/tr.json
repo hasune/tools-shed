@@ -381,6 +381,42 @@
       "metaTitle": "Rastgele İsim Üretici",
       "metaDescription": "Rastgele İngilizce ad, soyad veya tam isim oluşturun. Test verileri için idealdir."
     },
+    "favicon-generator": {
+      "name": "Favicon Oluşturucu",
+      "description": "Web siteniz için metin, emoji veya baş harflerden favicon PNG dosyaları oluşturun.",
+      "metaTitle": "Favicon Oluşturucu",
+      "metaDescription": "Metin veya emoji'den favicon PNG oluşturun. Ücretsiz çevrimiçi favicon oluşturucu — tasarım becerisi gerekmez."
+    },
+    "http-status-codes": {
+      "name": "HTTP Durum Kodu Referansı",
+      "description": "Açıklamalar, kullanım durumları ve örneklerle HTTP durum kodlarını arayın.",
+      "metaTitle": "HTTP Durum Kodu Referansı",
+      "metaDescription": "Tam HTTP durum kodu referansı: 1xx, 2xx, 3xx, 4xx, 5xx. Kod veya anahtar kelimeyle arayın."
+    },
+    "markdown-table-generator": {
+      "name": "Markdown Tablo Oluşturucu",
+      "description": "Markdown tablolarını görsel olarak oluşturun ve biçimlendirilmiş çıktıyı anında kopyalayın.",
+      "metaTitle": "Markdown Tablo Oluşturucu",
+      "metaDescription": "Markdown tablolarını görsel olarak oluşturun. Satır ve sütun ekleyin, hücreleri düzenleyin ve biçimlendirilmiş Markdown'ı kopyalayın."
+    },
+    "image-base64": {
+      "name": "Resmi Base64'e Dönüştür",
+      "description": "Resimleri HTML veya CSS'e doğrudan gömmek için Base64 Data URL'ye dönüştürün.",
+      "metaTitle": "Resim Base64 Dönüştürücü",
+      "metaDescription": "PNG, JPG, GIF, SVG'yi Base64 Data URL'ye dönüştürün. Dosya barındırmadan HTML veya CSS'e resim gömin."
+    },
+    "text-to-speech": {
+      "name": "Metinden Sese",
+      "description": "Tarayıcının yerleşik konuşma sentezi motorunu kullanarak metni sese dönüştürün.",
+      "metaTitle": "Metinden Sese (TTS)",
+      "metaDescription": "Tarayıcınızda metni sese dönüştürün. Ses, hız ve ton seçin. Ücretsiz TTS — kurulum gerekmez."
+    },
+    "word-frequency-counter": {
+      "name": "Kelime Sıklığı Sayacı",
+      "description": "Metni analiz edin ve her kelimenin kaç kez göründüğünü sıklığa göre sayın.",
+      "metaTitle": "Kelime Sıklığı Sayacı",
+      "metaDescription": "Metni analiz edin ve kelime sıklıklarını hesaplayın. Hangi kelimelerin en sık geçtiğini görün."
+    },
     "tip-calculator": {
       "name": "Bahşiş Hesaplayıcı",
       "description": "Bahşiş tutarını hesaplar ve hesabı birden fazla kişiye böler.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "Yalnızca soyad",
     "generateButton": "Üret",
     "copyAllButton": "Tümünü kopyala"
+  },
+  "FaviconGenerator": {
+    "textLabel": "Metin / Emoji",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "Arka Plan Rengi",
+    "textColorLabel": "Metin Rengi",
+    "fontSizeLabel": "Yazı Tipi Boyutu",
+    "sizeLabel": "Tuval Boyutu (px)",
+    "shapeLabel": "Şekil",
+    "shapeSquare": "Kare",
+    "shapeRounded": "Yuvarlatılmış",
+    "shapeCircle": "Daire",
+    "generateButton": "Oluştur",
+    "downloadButton": "PNG İndir",
+    "copyButton": "Data URL Kopyala",
+    "previewLabel": "Önizleme",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "Kod veya anahtar kelimeyle arayın (örn. 404, not found)...",
+    "categoryAll": "Tümü",
+    "category1xx": "1xx Bilgilendirici",
+    "category2xx": "2xx Başarılı",
+    "category3xx": "3xx Yönlendirme",
+    "category4xx": "4xx İstemci Hatası",
+    "category5xx": "5xx Sunucu Hatası",
+    "useCaseLabel": "Kullanım durumu",
+    "noResults": "Durum kodu bulunamadı."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "Satır Ekle",
+    "addColumnButton": "Sütun Ekle",
+    "deleteRowButton": "Satır Sil",
+    "deleteColumnButton": "Sütun Sil",
+    "copyButton": "Markdown Kopyala",
+    "copiedButton": "Kopyalandı!",
+    "alignLabel": "Hizala",
+    "alignLeft": "Sol",
+    "alignCenter": "Merkez",
+    "alignRight": "Sağ",
+    "headerPlaceholder": "Başlık",
+    "cellPlaceholder": "Hücre",
+    "outputLabel": "Markdown Çıktısı"
+  },
+  "ImageBase64": {
+    "dropLabel": "Bir resmi buraya bırakın veya yüklemek için tıklayın",
+    "supportedFormats": "PNG, JPG, GIF, WebP, SVG desteklenir",
+    "outputLabel": "Base64 Data URL",
+    "copyButton": "Data URL Kopyala",
+    "htmlSnippetLabel": "HTML img etiketi",
+    "cssSnippetLabel": "CSS arka planı",
+    "fileSizeLabel": "Dosya boyutu",
+    "encodedSizeLabel": "Kodlanmış boyut",
+    "imageInfoLabel": "Resim bilgisi"
+  },
+  "TextToSpeech": {
+    "inputLabel": "Okunacak metin",
+    "inputPlaceholder": "Metni buraya girin...",
+    "voiceLabel": "Ses",
+    "rateLabel": "Hız: {rate}x",
+    "pitchLabel": "Perde: {pitch}",
+    "volumeLabel": "Ses seviyesi: {volume}%",
+    "speakButton": "Oku",
+    "stopButton": "Durdur",
+    "pauseButton": "Duraklat",
+    "resumeButton": "Devam Et",
+    "noVoices": "Tarayıcınızda kullanılabilir ses yok.",
+    "notSupported": "Tarayıcınız konuşma sentezini desteklemiyor."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "Analiz edilecek metin",
+    "inputPlaceholder": "Metni buraya yapıştırın veya yazın...",
+    "analyzeButton": "Analiz Et",
+    "clearButton": "Temizle",
+    "totalWordsLabel": "Toplam kelime",
+    "uniqueWordsLabel": "Benzersiz kelime",
+    "topWordsLabel": "En sık kelimeler",
+    "rankLabel": "Sıra",
+    "wordLabel": "Kelime",
+    "countLabel": "Sayı",
+    "percentLabel": "% toplam",
+    "ignoreCommonLabel": "Yaygın kelimeleri yoksay",
+    "copyButton": "CSV olarak kopyala",
+    "noText": "Analiz etmek için metin girin."
   },
   "TipCalculator": {
     "billAmountLabel": "Hesap tutarı",

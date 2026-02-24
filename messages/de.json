@@ -381,6 +381,42 @@
       "metaTitle": "Zufallsnamengenerator",
       "metaDescription": "Zufällige englische Vor-, Nach- oder Vollnamen generieren. Ideal für Testdaten und Dummy-Datensätze."
     },
+    "favicon-generator": {
+      "name": "Favicon-Generator",
+      "description": "Erstellen Sie Favicon-PNG-Dateien aus Text, Emoji oder Initialen für Ihre Website.",
+      "metaTitle": "Favicon-Generator",
+      "metaDescription": "Favicon-PNG aus Text oder Emoji erstellen. Kostenloser Online-Favicon-Ersteller — keine Designkenntnisse nötig."
+    },
+    "http-status-codes": {
+      "name": "HTTP-Statuscode-Referenz",
+      "description": "Nachschlagen von HTTP-Statuscodes mit Beschreibungen, Anwendungsfällen und Beispielen.",
+      "metaTitle": "HTTP-Statuscode-Referenz",
+      "metaDescription": "Vollständige HTTP-Statuscode-Referenz: 1xx, 2xx, 3xx, 4xx, 5xx. Nach Code oder Stichwort suchen."
+    },
+    "markdown-table-generator": {
+      "name": "Markdown-Tabellen-Generator",
+      "description": "Erstellen Sie Markdown-Tabellen visuell und kopieren Sie die formatierte Ausgabe sofort.",
+      "metaTitle": "Markdown-Tabellen-Generator",
+      "metaDescription": "Markdown-Tabellen visuell erstellen. Zeilen und Spalten hinzufügen, Zellen bearbeiten und formatierten Markdown kopieren."
+    },
+    "image-base64": {
+      "name": "Bild zu Base64",
+      "description": "Konvertieren Sie Bilder in Base64-Data-URLs zum direkten Einbetten in HTML oder CSS.",
+      "metaTitle": "Bild-zu-Base64-Konverter",
+      "metaDescription": "PNG, JPG, GIF, SVG in Base64-Data-URL konvertieren. Bilder ohne Datei-Hosting direkt in HTML oder CSS einbetten."
+    },
+    "text-to-speech": {
+      "name": "Text-zu-Sprache",
+      "description": "Konvertieren Sie Text in Sprache mit der integrierten Sprachsynthese-Engine des Browsers.",
+      "metaTitle": "Text-zu-Sprache (TTS)",
+      "metaDescription": "Text im Browser in Sprache umwandeln. Stimme, Geschwindigkeit und Tonhöhe wählen. Kostenloses TTS ohne Installation."
+    },
+    "word-frequency-counter": {
+      "name": "Wortfrequenz-Zähler",
+      "description": "Text analysieren und zählen, wie oft jedes Wort vorkommt, nach Häufigkeit sortiert.",
+      "metaTitle": "Wortfrequenz-Zähler",
+      "metaDescription": "Text analysieren und Worthäufigkeiten berechnen. Sehen Sie, welche Wörter am häufigsten vorkommen."
+    },
     "tip-calculator": {
       "name": "Trinkgeldrechner",
       "description": "Berechnet den Trinkgeldbetrag und teilt die Rechnung auf mehrere Personen auf.",
@@ -1088,6 +1124,90 @@
     "typeLastName": "Nur Nachname",
     "generateButton": "Generieren",
     "copyAllButton": "Alles kopieren"
+  },
+  "FaviconGenerator": {
+    "textLabel": "Text / Emoji",
+    "textPlaceholder": "A, 🚀, AB...",
+    "bgColorLabel": "Hintergrundfarbe",
+    "textColorLabel": "Textfarbe",
+    "fontSizeLabel": "Schriftgröße",
+    "sizeLabel": "Canvas-Größe (px)",
+    "shapeLabel": "Form",
+    "shapeSquare": "Quadrat",
+    "shapeRounded": "Abgerundet",
+    "shapeCircle": "Kreis",
+    "generateButton": "Erstellen",
+    "downloadButton": "PNG herunterladen",
+    "copyButton": "Data URL kopieren",
+    "previewLabel": "Vorschau",
+    "dataUrlLabel": "Data URL"
+  },
+  "HttpStatusCodes": {
+    "searchPlaceholder": "Nach Code oder Stichwort suchen (z.B. 404, not found)...",
+    "categoryAll": "Alle",
+    "category1xx": "1xx Informativ",
+    "category2xx": "2xx Erfolgreich",
+    "category3xx": "3xx Weiterleitung",
+    "category4xx": "4xx Client-Fehler",
+    "category5xx": "5xx Server-Fehler",
+    "useCaseLabel": "Anwendungsfall",
+    "noResults": "Keine Statuscodes gefunden."
+  },
+  "MarkdownTableGenerator": {
+    "addRowButton": "Zeile hinzufügen",
+    "addColumnButton": "Spalte hinzufügen",
+    "deleteRowButton": "Zeile löschen",
+    "deleteColumnButton": "Spalte löschen",
+    "copyButton": "Markdown kopieren",
+    "copiedButton": "Kopiert!",
+    "alignLabel": "Ausrichten",
+    "alignLeft": "Links",
+    "alignCenter": "Mitte",
+    "alignRight": "Rechts",
+    "headerPlaceholder": "Überschrift",
+    "cellPlaceholder": "Zelle",
+    "outputLabel": "Markdown-Ausgabe"
+  },
+  "ImageBase64": {
+    "dropLabel": "Bild hier ablegen oder klicken zum Hochladen",
+    "supportedFormats": "Unterstützt PNG, JPG, GIF, WebP, SVG",
+    "outputLabel": "Base64-Data-URL",
+    "copyButton": "Data URL kopieren",
+    "htmlSnippetLabel": "HTML-img-Tag",
+    "cssSnippetLabel": "CSS-Hintergrund",
+    "fileSizeLabel": "Dateigröße",
+    "encodedSizeLabel": "Kodierte Größe",
+    "imageInfoLabel": "Bildinfo"
+  },
+  "TextToSpeech": {
+    "inputLabel": "Vorzulesender Text",
+    "inputPlaceholder": "Text hier eingeben...",
+    "voiceLabel": "Stimme",
+    "rateLabel": "Geschwindigkeit: {rate}x",
+    "pitchLabel": "Tonhöhe: {pitch}",
+    "volumeLabel": "Lautstärke: {volume}%",
+    "speakButton": "Vorlesen",
+    "stopButton": "Stoppen",
+    "pauseButton": "Pausieren",
+    "resumeButton": "Fortsetzen",
+    "noVoices": "Keine Stimmen in Ihrem Browser verfügbar.",
+    "notSupported": "Sprachsynthese wird in Ihrem Browser nicht unterstützt."
+  },
+  "WordFrequencyCounter": {
+    "inputLabel": "Zu analysierender Text",
+    "inputPlaceholder": "Text hier einfügen oder eingeben...",
+    "analyzeButton": "Analysieren",
+    "clearButton": "Löschen",
+    "totalWordsLabel": "Gesamtwörter",
+    "uniqueWordsLabel": "Eindeutige Wörter",
+    "topWordsLabel": "Häufigste Wörter",
+    "rankLabel": "Rang",
+    "wordLabel": "Wort",
+    "countLabel": "Anzahl",
+    "percentLabel": "% des Gesamten",
+    "ignoreCommonLabel": "Häufige Wörter ignorieren",
+    "copyButton": "Als CSV kopieren",
+    "noText": "Geben Sie Text zur Analyse ein."
   },
   "TipCalculator": {
     "billAmountLabel": "Rechnungsbetrag",

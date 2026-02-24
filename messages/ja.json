@@ -477,6 +477,66 @@
       "metaTitle": "燃費変換ツール",
       "metaDescription": "km/L・MPG（US）・MPG（UK）・L/100kmを変換。無料オンライン燃費変換ツール。"
     },
+    "energy-converter": {
+      "name": "エネルギー変換",
+      "description": "ジュール、カロリー、キロカロリー、kWh、BTU、電子ボルトを変換。",
+      "metaTitle": "エネルギー変換ツール",
+      "metaDescription": "ジュール・カロリー・kcal・kWh・BTU・eVを変換。無料オンラインエネルギー変換ツール。"
+    },
+    "power-converter": {
+      "name": "電力変換",
+      "description": "ワット、キロワット、メガワット、馬力、BTU/時間を変換。",
+      "metaTitle": "電力変換ツール",
+      "metaDescription": "ワット・kW・MW・馬力・BTU/hrを変換。無料オンライン電力変換ツール。"
+    },
+    "css-unit-converter": {
+      "name": "CSS単位変換",
+      "description": "レスポンシブデザイン用にpx、em、rem、vw、vh、pt、cmを変換。",
+      "metaTitle": "CSS単位変換ツール",
+      "metaDescription": "px・em・rem・vw・vh・pt・cmを変換。レスポンシブウェブデザイン向け無料CSSユニット計算ツール。"
+    },
+    "chmod-calculator": {
+      "name": "Chmod計算機",
+      "description": "Unixファイル権限を計算。8進数と記号表記（rwx）を相互変換。",
+      "metaTitle": "Chmod計算機",
+      "metaDescription": "Unixファイル権限を計算。8進数（755）と記号表記（rwxr-xr-x）を変換。無料オンラインchmodツール。"
+    },
+    "find-replace": {
+      "name": "検索・置換",
+      "description": "プレーンテキストまたは正規表現でテキストを検索・置換。大文字小文字無視対応。",
+      "metaTitle": "テキスト検索・置換ツール",
+      "metaDescription": "プレーンテキストまたは正規表現でテキストを検索・置換。無料オンライン検索置換ツール。"
+    },
+    "text-cleaner": {
+      "name": "テキストクリーナー",
+      "description": "テキストから余分なスペース、空行、特殊文字、HTMLタグを削除。",
+      "metaTitle": "テキストクリーナー",
+      "metaDescription": "余分なスペース・空行・特殊文字・HTMLタグを削除。無料オンラインテキストクリーニングツール。"
+    },
+    "vat-calculator": {
+      "name": "VAT計算機",
+      "description": "価格に消費税を追加または除外。カスタム税率対応。",
+      "metaTitle": "VAT・消費税計算機",
+      "metaDescription": "任意の税率で消費税を追加または除外。無料オンラインVAT計算機。"
+    },
+    "currency-converter": {
+      "name": "通貨換算",
+      "description": "主要な世界通貨間を参考為替レートで換算。",
+      "metaTitle": "通貨換算ツール",
+      "metaDescription": "20以上の主要通貨を参考為替レートで換算。無料オンライン通貨換算ツール。"
+    },
+    "prime-checker": {
+      "name": "素数チェッカー",
+      "description": "数が素数かどうかを確認し、指定範囲の素数をすべて表示。",
+      "metaTitle": "素数チェッカー",
+      "metaDescription": "任意の数が素数かどうかを確認し、エラトステネスの篩で素数を列挙。無料オンライン素数チェッカー。"
+    },
+    "combinations-permutations": {
+      "name": "組み合わせ・順列",
+      "description": "nCr（組み合わせ）とnPr（順列）をステップごとに計算。",
+      "metaTitle": "組み合わせ・順列計算機",
+      "metaDescription": "nCr（組み合わせ）とnPr（順列）を階乗の手順で計算。無料オンライン組み合わせ計算機。"
+    },
     "number-to-words": {
       "name": "数字を英語に変換",
       "description": "数字を英語の単語に変換します（例：1234 → one thousand two hundred thirty-four）。",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "クリア",
     "note": "注：L/100kmは逆比例の指標です — 値が小さいほど燃費が良い。"
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "基本フォントサイズ（px）",
+    "viewportWidthLabel": "ビューポート幅（px）",
+    "viewportHeightLabel": "ビューポート高さ（px）",
+    "inputLabel": "変換する値",
+    "fromUnit": "変換元",
+    "toUnit": "変換先",
+    "convertButton": "変換",
+    "resultLabel": "結果",
+    "clearButton": "クリア",
+    "settingsTitle": "設定"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "オーナー",
+    "groupLabel": "グループ",
+    "othersLabel": "その他",
+    "readLabel": "読み取り（r）",
+    "writeLabel": "書き込み（w）",
+    "executeLabel": "実行（x）",
+    "octalLabel": "8進数",
+    "symbolicLabel": "記号表記",
+    "commandLabel": "chmodコマンド",
+    "octalInputLabel": "8進数を入力（例：755）",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "入力テキスト",
+    "inputPlaceholder": "テキストをここに貼り付け...",
+    "findLabel": "検索",
+    "findPlaceholder": "検索するテキスト...",
+    "replaceLabel": "置換後",
+    "replacePlaceholder": "置換テキスト...",
+    "regexToggle": "正規表現",
+    "caseToggle": "大文字小文字を区別",
+    "globalToggle": "すべて置換",
+    "replaceButton": "置換",
+    "outputLabel": "出力",
+    "matchCount": "{count}件一致"
+  },
+  "TextCleaner": {
+    "inputLabel": "入力テキスト",
+    "inputPlaceholder": "クリーニングするテキストを貼り付け...",
+    "outputLabel": "クリーン後テキスト",
+    "removeExtraSpaces": "余分なスペースを削除",
+    "removeEmptyLines": "空行を削除",
+    "trimLines": "各行をトリム",
+    "removeHtml": "HTMLタグを削除",
+    "removeSpecialChars": "特殊文字を削除",
+    "lowercaseAll": "すべて小文字に",
+    "cleanButton": "クリーニング",
+    "copyButton": "コピー"
+  },
+  "VatCalculator": {
+    "priceLabel": "価格",
+    "vatRateLabel": "税率（%）",
+    "modeAdd": "税込み価格を計算",
+    "modeRemove": "税抜き価格を計算",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "netPrice": "税抜き価格",
+    "taxAmount": "税額",
+    "grossPrice": "税込み価格",
+    "presetLabel": "よく使われる税率"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "金額",
+    "fromLabel": "変換元",
+    "toLabel": "変換先",
+    "convertButton": "変換",
+    "swapButton": "入替",
+    "resultLabel": "結果",
+    "disclaimer": "参考レート — 金融取引には使用しないでください。",
+    "ratesDate": "2025年中頃の参考レート（USD基準）"
+  },
+  "PrimeChecker": {
+    "checkTab": "素数判定",
+    "listTab": "素数リスト",
+    "numberLabel": "数値",
+    "numberPlaceholder": "例：97",
+    "checkButton": "判定",
+    "limitLabel": "指定数までの素数を表示",
+    "limitPlaceholder": "例：100",
+    "listButton": "素数を探す",
+    "isPrime": "{n} は素数です。",
+    "notPrime": "{n} は素数ではありません。約数：{factors}",
+    "primeCount": "{count}個の素数が見つかりました",
+    "clearButton": "クリア"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n（全体の数）",
+    "rLabel": "r（選ぶ数）",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "combinationsTitle": "組み合わせ C(n,r)",
+    "permutationsTitle": "順列 P(n,r)",
+    "formulaTitle": "公式",
+    "stepsTitle": "計算手順",
+    "invalidInput": "n, r は 0 以上の整数で、r ≤ n（n ≤ 170）を満たす必要があります"
   },
   "NumberToWords": {
     "inputLabel": "数字",

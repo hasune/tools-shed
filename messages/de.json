@@ -477,6 +477,66 @@
       "metaTitle": "Kraftstoffverbrauch-Umrechner",
       "metaDescription": "Konvertieren Sie zwischen km/L, MPG (US), MPG (UK) und L/100km. Kostenloser Umrechner für Kraftstoffverbrauch."
     },
+    "energy-converter": {
+      "name": "Energieumrechner",
+      "description": "Konvertieren Sie zwischen Joule, Kalorien, Kilokalorien, kWh, BTU und Elektronenvolt.",
+      "metaTitle": "Energieumrechner",
+      "metaDescription": "Energie umrechnen zwischen Joule, Kalorien, kcal, kWh, BTU und eV. Kostenloser Online-Energieeinheitenrechner."
+    },
+    "power-converter": {
+      "name": "Leistungsumrechner",
+      "description": "Konvertieren Sie zwischen Watt, Kilowatt, Megawatt, Pferdestärken und BTU/h.",
+      "metaTitle": "Leistungsumrechner",
+      "metaDescription": "Leistung umrechnen zwischen Watt, kW, MW, PS und BTU/hr. Kostenloser Online-Leistungsumrechner."
+    },
+    "css-unit-converter": {
+      "name": "CSS-Einheitenrechner",
+      "description": "Konvertieren Sie zwischen px, em, rem, vw, vh, pt und cm für responsives Webdesign.",
+      "metaTitle": "CSS-Einheitenrechner",
+      "metaDescription": "CSS-Einheiten umrechnen — px, em, rem, vw, vh, pt, cm — für responsives Webdesign. Kostenloser CSS-Rechner."
+    },
+    "chmod-calculator": {
+      "name": "Chmod-Rechner",
+      "description": "Berechnen Sie Unix-Dateiberechtigungen. Konvertieren Sie zwischen Oktal- und symbolischer rwx-Notation.",
+      "metaTitle": "Chmod-Rechner",
+      "metaDescription": "Unix-Dateiberechtigungen berechnen. Oktal (755) und symbolisch (rwxr-xr-x) umrechnen. Kostenloser Chmod-Rechner."
+    },
+    "find-replace": {
+      "name": "Suchen und Ersetzen",
+      "description": "Suchen und ersetzen Sie Text mit einfachem Text oder Regex-Mustern.",
+      "metaTitle": "Suchen und Ersetzen Tool",
+      "metaDescription": "Text suchen und ersetzen mit einfachem Text oder regulären Ausdrücken. Kostenloses Online-Tool zum Suchen und Ersetzen."
+    },
+    "text-cleaner": {
+      "name": "Text-Bereiniger",
+      "description": "Entfernen Sie überflüssige Leerzeichen, Leerzeilen, Sonderzeichen und HTML-Tags aus Text.",
+      "metaTitle": "Text-Bereiniger",
+      "metaDescription": "Überflüssige Leerzeichen, Leerzeilen, Sonderzeichen und HTML-Tags entfernen. Kostenloses Online-Text-Bereinigungstool."
+    },
+    "vat-calculator": {
+      "name": "MwSt-Rechner",
+      "description": "MwSt/Steuer zu einem Preis hinzufügen oder entfernen. Unterstützt benutzerdefinierte Steuersätze.",
+      "metaTitle": "MwSt- / Steuerrechner",
+      "metaDescription": "MwSt/USt zu jedem Preis hinzufügen oder entfernen. Unterstützt benutzerdefinierte Steuersätze. Kostenloser MwSt-Rechner."
+    },
+    "currency-converter": {
+      "name": "Währungsumrechner",
+      "description": "Konvertieren Sie zwischen den wichtigsten Weltwährungen mit Referenzwechselkursen.",
+      "metaTitle": "Währungsumrechner",
+      "metaDescription": "Zwischen 20+ wichtigen Weltwährungen mit Referenzkursen umrechnen. Kostenloser Online-Währungsumrechner."
+    },
+    "prime-checker": {
+      "name": "Primzahl-Prüfer",
+      "description": "Prüfen Sie, ob eine Zahl prim ist, und listen Sie alle Primzahlen bis zu einem Limit.",
+      "metaTitle": "Primzahl-Prüfer",
+      "metaDescription": "Prüfen Sie, ob eine Zahl prim ist, und listen Sie Primzahlen mit dem Sieb des Eratosthenes. Kostenloser Primzahlprüfer."
+    },
+    "combinations-permutations": {
+      "name": "Kombinationen und Permutationen",
+      "description": "Berechnen Sie nCr (Kombinationen) und nPr (Permutationen) mit schrittweisen Lösungen.",
+      "metaTitle": "Kombinationen-Permutationen-Rechner",
+      "metaDescription": "nCr und nPr mit Fakultäten Schritt für Schritt berechnen. Kostenloser Online-Kombinatorikrechner."
+    },
     "number-to-words": {
       "name": "Zahl in Wörter",
       "description": "Wandle Zahlen in englische Wörter um (z.B. 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "Löschen",
     "note": "Hinweis: L/100km ist ein inverses Maß — niedrigere Werte bedeuten bessere Effizienz."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "Basis-Schriftgröße (px)",
+    "viewportWidthLabel": "Viewport-Breite (px)",
+    "viewportHeightLabel": "Viewport-Höhe (px)",
+    "inputLabel": "Zu konvertierender Wert",
+    "fromUnit": "Von",
+    "toUnit": "Nach",
+    "convertButton": "Konvertieren",
+    "resultLabel": "Ergebnis",
+    "clearButton": "Löschen",
+    "settingsTitle": "Einstellungen"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "Eigentümer",
+    "groupLabel": "Gruppe",
+    "othersLabel": "Andere",
+    "readLabel": "Lesen (r)",
+    "writeLabel": "Schreiben (w)",
+    "executeLabel": "Ausführen (x)",
+    "octalLabel": "Oktal",
+    "symbolicLabel": "Symbolisch",
+    "commandLabel": "chmod-Befehl",
+    "octalInputLabel": "Oktal eingeben (z.B. 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "Eingabetext",
+    "inputPlaceholder": "Text hier einfügen...",
+    "findLabel": "Suchen",
+    "findPlaceholder": "Zu suchender Text...",
+    "replaceLabel": "Ersetzen durch",
+    "replacePlaceholder": "Ersetzungstext...",
+    "regexToggle": "Regex",
+    "caseToggle": "Groß-/Kleinschreibung",
+    "globalToggle": "Alle ersetzen",
+    "replaceButton": "Ersetzen",
+    "outputLabel": "Ausgabe",
+    "matchCount": "{count} Treffer gefunden"
+  },
+  "TextCleaner": {
+    "inputLabel": "Eingabetext",
+    "inputPlaceholder": "Text zum Bereinigen einfügen...",
+    "outputLabel": "Bereinigter Text",
+    "removeExtraSpaces": "Überflüssige Leerzeichen entfernen",
+    "removeEmptyLines": "Leerzeilen entfernen",
+    "trimLines": "Jede Zeile kürzen",
+    "removeHtml": "HTML-Tags entfernen",
+    "removeSpecialChars": "Sonderzeichen entfernen",
+    "lowercaseAll": "Alles in Kleinbuchstaben",
+    "cleanButton": "Bereinigen",
+    "copyButton": "Kopieren"
+  },
+  "VatCalculator": {
+    "priceLabel": "Preis",
+    "vatRateLabel": "MwSt-Satz (%)",
+    "modeAdd": "Steuer zum Preis hinzufügen",
+    "modeRemove": "Steuer vom Preis entfernen",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "netPrice": "Nettopreis (ohne Steuer)",
+    "taxAmount": "Steuerbetrag",
+    "grossPrice": "Bruttopreis (mit Steuer)",
+    "presetLabel": "Häufige Steuersätze"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "Betrag",
+    "fromLabel": "Von",
+    "toLabel": "Nach",
+    "convertButton": "Umrechnen",
+    "swapButton": "Tauschen",
+    "resultLabel": "Ergebnis",
+    "disclaimer": "Referenzkurse — nicht für Finanztransaktionen geeignet.",
+    "ratesDate": "Kurse von Mitte 2025 (Basis USD)"
+  },
+  "PrimeChecker": {
+    "checkTab": "Ist es prim?",
+    "listTab": "Primzahlen auflisten",
+    "numberLabel": "Zahl",
+    "numberPlaceholder": "z.B. 97",
+    "checkButton": "Prüfen",
+    "limitLabel": "Primzahlen bis",
+    "limitPlaceholder": "z.B. 100",
+    "listButton": "Primzahlen finden",
+    "isPrime": "{n} ist eine Primzahl.",
+    "notPrime": "{n} ist keine Primzahl. Faktoren: {factors}",
+    "primeCount": "{count} Primzahl(en) gefunden",
+    "clearButton": "Löschen"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (Gesamtelemente)",
+    "rLabel": "r (gewählte Elemente)",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "combinationsTitle": "Kombinationen C(n,r)",
+    "permutationsTitle": "Permutationen P(n,r)",
+    "formulaTitle": "Formel",
+    "stepsTitle": "Schritt für Schritt",
+    "invalidInput": "n und r müssen nicht-negative Ganzzahlen sein mit r ≤ n (n ≤ 170)"
   },
   "NumberToWords": {
     "inputLabel": "Zahl",

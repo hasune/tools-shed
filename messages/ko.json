@@ -477,6 +477,66 @@
       "metaTitle": "연비 변환기",
       "metaDescription": "km/L·MPG(US)·MPG(UK)·L/100km 변환. 무료 온라인 연비 변환기."
     },
+    "energy-converter": {
+      "name": "에너지 변환기",
+      "description": "줄, 칼로리, 킬로칼로리, kWh, BTU, 전자볼트를 변환합니다.",
+      "metaTitle": "에너지 변환기",
+      "metaDescription": "줄·칼로리·kcal·kWh·BTU·eV 변환. 무료 온라인 에너지 변환기."
+    },
+    "power-converter": {
+      "name": "전력 변환기",
+      "description": "와트, 킬로와트, 메가와트, 마력, BTU/hr을 변환합니다.",
+      "metaTitle": "전력 변환기",
+      "metaDescription": "와트·kW·MW·마력·BTU/hr 변환. 무료 온라인 전력 변환기."
+    },
+    "css-unit-converter": {
+      "name": "CSS 단위 변환기",
+      "description": "반응형 웹 디자인을 위해 px, em, rem, vw, vh, pt, cm을 변환합니다.",
+      "metaTitle": "CSS 단위 변환기",
+      "metaDescription": "px·em·rem·vw·vh·pt·cm 변환. 무료 온라인 CSS 단위 계산기."
+    },
+    "chmod-calculator": {
+      "name": "Chmod 계산기",
+      "description": "Unix 파일 권한을 계산합니다. 8진수와 기호(rwx) 표기 간 변환.",
+      "metaTitle": "Chmod 계산기",
+      "metaDescription": "Unix 파일 권한 계산. 8진수(755)와 기호(rwxr-xr-x) 표기 변환. 무료 온라인 chmod 도구."
+    },
+    "find-replace": {
+      "name": "찾기 & 바꾸기",
+      "description": "일반 텍스트 또는 정규식 패턴으로 텍스트를 찾아 바꿉니다.",
+      "metaTitle": "텍스트 찾기 & 바꾸기",
+      "metaDescription": "일반 텍스트 또는 정규식으로 텍스트 찾기·바꾸기. 무료 온라인 찾기 바꾸기 도구."
+    },
+    "text-cleaner": {
+      "name": "텍스트 정리기",
+      "description": "텍스트에서 불필요한 공백, 빈 줄, 특수 문자, HTML 태그를 제거합니다.",
+      "metaTitle": "텍스트 정리기",
+      "metaDescription": "불필요한 공백·빈 줄·특수문자·HTML 태그 제거. 무료 온라인 텍스트 정리 도구."
+    },
+    "vat-calculator": {
+      "name": "부가세 계산기",
+      "description": "가격에 부가세를 추가하거나 제외합니다. 커스텀 세율 지원.",
+      "metaTitle": "부가세(VAT) 계산기",
+      "metaDescription": "임의의 세율로 부가세 추가 또는 제외. 무료 온라인 VAT 계산기."
+    },
+    "currency-converter": {
+      "name": "환율 변환기",
+      "description": "주요 세계 통화를 기준 환율로 변환합니다.",
+      "metaTitle": "환율 변환기",
+      "metaDescription": "20개 이상의 주요 통화를 기준 환율로 변환. 무료 온라인 환율 변환기."
+    },
+    "prime-checker": {
+      "name": "소수 판별기",
+      "description": "숫자가 소수인지 확인하고 특정 범위의 모든 소수를 나열합니다.",
+      "metaTitle": "소수 판별기",
+      "metaDescription": "임의의 수가 소수인지 확인하고 에라토스테네스의 체로 소수를 나열. 무료 온라인 소수 판별기."
+    },
+    "combinations-permutations": {
+      "name": "조합 & 순열",
+      "description": "nCr(조합)과 nPr(순열)을 단계별 풀이로 계산합니다.",
+      "metaTitle": "조합·순열 계산기",
+      "metaDescription": "nCr(조합)과 nPr(순열)을 팩토리얼 단계별로 계산. 무료 온라인 조합론 계산기."
+    },
     "number-to-words": {
       "name": "숫자를 영어로",
       "description": "숫자를 영어 단어로 변환합니다 (예: 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "초기화",
     "note": "참고: L/100km는 반비례 지표입니다 — 낮을수록 연비가 좋습니다."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "기본 폰트 크기 (px)",
+    "viewportWidthLabel": "뷰포트 너비 (px)",
+    "viewportHeightLabel": "뷰포트 높이 (px)",
+    "inputLabel": "변환할 값",
+    "fromUnit": "변환 전",
+    "toUnit": "변환 후",
+    "convertButton": "변환",
+    "resultLabel": "결과",
+    "clearButton": "초기화",
+    "settingsTitle": "설정"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "소유자",
+    "groupLabel": "그룹",
+    "othersLabel": "기타",
+    "readLabel": "읽기 (r)",
+    "writeLabel": "쓰기 (w)",
+    "executeLabel": "실행 (x)",
+    "octalLabel": "8진수",
+    "symbolicLabel": "기호 표기",
+    "commandLabel": "chmod 명령어",
+    "octalInputLabel": "8진수 입력 (예: 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "입력 텍스트",
+    "inputPlaceholder": "텍스트를 여기에 붙여넣기...",
+    "findLabel": "찾기",
+    "findPlaceholder": "찾을 텍스트...",
+    "replaceLabel": "바꿀 텍스트",
+    "replacePlaceholder": "대체 텍스트...",
+    "regexToggle": "정규식",
+    "caseToggle": "대소문자 구분",
+    "globalToggle": "모두 바꾸기",
+    "replaceButton": "바꾸기",
+    "outputLabel": "출력",
+    "matchCount": "{count}개 일치"
+  },
+  "TextCleaner": {
+    "inputLabel": "입력 텍스트",
+    "inputPlaceholder": "정리할 텍스트 붙여넣기...",
+    "outputLabel": "정리된 텍스트",
+    "removeExtraSpaces": "불필요한 공백 제거",
+    "removeEmptyLines": "빈 줄 제거",
+    "trimLines": "각 줄 앞뒤 공백 제거",
+    "removeHtml": "HTML 태그 제거",
+    "removeSpecialChars": "특수 문자 제거",
+    "lowercaseAll": "모두 소문자로",
+    "cleanButton": "정리하기",
+    "copyButton": "복사"
+  },
+  "VatCalculator": {
+    "priceLabel": "가격",
+    "vatRateLabel": "세율 (%)",
+    "modeAdd": "세금 포함 가격 계산",
+    "modeRemove": "세금 제외 가격 계산",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "netPrice": "세전 가격",
+    "taxAmount": "세금",
+    "grossPrice": "세후 가격",
+    "presetLabel": "자주 사용하는 세율"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "금액",
+    "fromLabel": "변환 전",
+    "toLabel": "변환 후",
+    "convertButton": "변환",
+    "swapButton": "교환",
+    "resultLabel": "결과",
+    "disclaimer": "참고 환율 — 금융 거래에 사용하지 마세요.",
+    "ratesDate": "2025년 중반 기준 참고 환율 (USD 기준)"
+  },
+  "PrimeChecker": {
+    "checkTab": "소수 판별",
+    "listTab": "소수 목록",
+    "numberLabel": "숫자",
+    "numberPlaceholder": "예: 97",
+    "checkButton": "판별",
+    "limitLabel": "이 숫자까지의 소수 나열",
+    "limitPlaceholder": "예: 100",
+    "listButton": "소수 찾기",
+    "isPrime": "{n}은(는) 소수입니다.",
+    "notPrime": "{n}은(는) 소수가 아닙니다. 약수: {factors}",
+    "primeCount": "{count}개의 소수 발견",
+    "clearButton": "초기화"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (전체 항목 수)",
+    "rLabel": "r (선택하는 수)",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "combinationsTitle": "조합 C(n,r)",
+    "permutationsTitle": "순열 P(n,r)",
+    "formulaTitle": "공식",
+    "stepsTitle": "단계별 풀이",
+    "invalidInput": "n, r은 0 이상의 정수여야 하며 r ≤ n (n ≤ 170) 조건을 만족해야 합니다"
   },
   "NumberToWords": {
     "inputLabel": "숫자",

@@ -477,6 +477,66 @@
       "metaTitle": "油耗转换器",
       "metaDescription": "在km/L、MPG(US)、MPG(UK)和L/100km之间转换。免费在线油耗转换工具。"
     },
+    "energy-converter": {
+      "name": "能量转换器",
+      "description": "在焦耳、卡路里、千卡、千瓦时、BTU和电子伏特之间转换。",
+      "metaTitle": "能量转换器",
+      "metaDescription": "在焦耳、卡路里、kcal、kWh、BTU和eV之间转换。免费在线能量单位转换工具。"
+    },
+    "power-converter": {
+      "name": "功率转换器",
+      "description": "在瓦特、千瓦、兆瓦、马力和BTU/小时之间转换。",
+      "metaTitle": "功率转换器",
+      "metaDescription": "在瓦特、kW、MW、马力和BTU/hr之间转换。免费在线功率转换工具。"
+    },
+    "css-unit-converter": {
+      "name": "CSS单位转换器",
+      "description": "为响应式网页设计转换px、em、rem、vw、vh、pt和cm。",
+      "metaTitle": "CSS单位转换器",
+      "metaDescription": "转换CSS单位——px、em、rem、vw、vh、pt、cm。免费在线CSS单位计算器。"
+    },
+    "chmod-calculator": {
+      "name": "Chmod计算器",
+      "description": "计算Unix文件权限。在八进制和符号rwx格式之间转换。",
+      "metaTitle": "Chmod计算器",
+      "metaDescription": "计算Unix文件权限，在八进制(755)和符号(rwxr-xr-x)表示法之间转换。免费在线chmod工具。"
+    },
+    "find-replace": {
+      "name": "查找与替换",
+      "description": "使用纯文本或正则表达式模式查找和替换文本。",
+      "metaTitle": "文本查找替换工具",
+      "metaDescription": "使用纯文本或正则表达式查找和替换文本。免费在线查找替换工具。"
+    },
+    "text-cleaner": {
+      "name": "文本清理器",
+      "description": "删除文本中的多余空格、空行、特殊字符和HTML标签。",
+      "metaTitle": "文本清理器",
+      "metaDescription": "删除多余空格、空行、特殊字符和HTML标签。免费在线文本清理工具。"
+    },
+    "vat-calculator": {
+      "name": "增值税计算器",
+      "description": "为价格添加或去除增值税/税款。支持自定义税率。",
+      "metaTitle": "增值税(VAT)计算器",
+      "metaDescription": "为任意价格添加或去除增值税/消费税，支持自定义税率。免费在线VAT计算器。"
+    },
+    "currency-converter": {
+      "name": "货币换算器",
+      "description": "使用参考汇率在主要世界货币之间转换。",
+      "metaTitle": "货币换算器",
+      "metaDescription": "使用参考汇率在20多种主要世界货币之间转换。免费在线货币换算器。"
+    },
+    "prime-checker": {
+      "name": "素数检测器",
+      "description": "检测一个数是否为素数，并列出指定范围内的所有素数。",
+      "metaTitle": "素数检测器",
+      "metaDescription": "检测任意数是否为素数，用埃氏筛法列出素数。免费在线素数检测器。"
+    },
+    "combinations-permutations": {
+      "name": "组合与排列",
+      "description": "用逐步解法计算nCr（组合数）和nPr（排列数）。",
+      "metaTitle": "组合排列计算器",
+      "metaDescription": "通过阶乘逐步计算nCr（组合）和nPr（排列）。免费在线组合数学计算器。"
+    },
     "number-to-words": {
       "name": "数字转英文",
       "description": "将数字转换为英文单词（如：1234 → one thousand two hundred thirty-four）。",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "清除",
     "note": "注意：L/100km是反比指标——数值越低，油耗越低。"
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "基础字体大小 (px)",
+    "viewportWidthLabel": "视口宽度 (px)",
+    "viewportHeightLabel": "视口高度 (px)",
+    "inputLabel": "要转换的值",
+    "fromUnit": "从",
+    "toUnit": "到",
+    "convertButton": "转换",
+    "resultLabel": "结果",
+    "clearButton": "清除",
+    "settingsTitle": "设置"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "所有者",
+    "groupLabel": "组",
+    "othersLabel": "其他",
+    "readLabel": "读取 (r)",
+    "writeLabel": "写入 (w)",
+    "executeLabel": "执行 (x)",
+    "octalLabel": "八进制",
+    "symbolicLabel": "符号表示",
+    "commandLabel": "chmod命令",
+    "octalInputLabel": "输入八进制（例如：755）",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "输入文本",
+    "inputPlaceholder": "在此粘贴文本...",
+    "findLabel": "查找",
+    "findPlaceholder": "要查找的文本...",
+    "replaceLabel": "替换为",
+    "replacePlaceholder": "替换文本...",
+    "regexToggle": "正则表达式",
+    "caseToggle": "区分大小写",
+    "globalToggle": "全部替换",
+    "replaceButton": "替换",
+    "outputLabel": "输出",
+    "matchCount": "找到 {count} 个匹配"
+  },
+  "TextCleaner": {
+    "inputLabel": "输入文本",
+    "inputPlaceholder": "粘贴要清理的文本...",
+    "outputLabel": "清理后的文本",
+    "removeExtraSpaces": "删除多余空格",
+    "removeEmptyLines": "删除空行",
+    "trimLines": "修剪每行",
+    "removeHtml": "删除HTML标签",
+    "removeSpecialChars": "删除特殊字符",
+    "lowercaseAll": "全部转为小写",
+    "cleanButton": "清理",
+    "copyButton": "复制"
+  },
+  "VatCalculator": {
+    "priceLabel": "价格",
+    "vatRateLabel": "税率 (%)",
+    "modeAdd": "添加税到价格",
+    "modeRemove": "从价格中去除税",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "netPrice": "税前价格",
+    "taxAmount": "税额",
+    "grossPrice": "含税价格",
+    "presetLabel": "常用税率"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "金额",
+    "fromLabel": "从",
+    "toLabel": "到",
+    "convertButton": "转换",
+    "swapButton": "互换",
+    "resultLabel": "结果",
+    "disclaimer": "参考汇率 — 不适合用于金融交易。",
+    "ratesDate": "2025年中期参考汇率（以美元为基准）"
+  },
+  "PrimeChecker": {
+    "checkTab": "素数判断",
+    "listTab": "素数列表",
+    "numberLabel": "数字",
+    "numberPlaceholder": "例如：97",
+    "checkButton": "判断",
+    "limitLabel": "列出此数以内的所有素数",
+    "limitPlaceholder": "例如：100",
+    "listButton": "查找素数",
+    "isPrime": "{n} 是素数。",
+    "notPrime": "{n} 不是素数。因数：{factors}",
+    "primeCount": "找到 {count} 个素数",
+    "clearButton": "清除"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n（总项目数）",
+    "rLabel": "r（选取数量）",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "combinationsTitle": "组合数 C(n,r)",
+    "permutationsTitle": "排列数 P(n,r)",
+    "formulaTitle": "公式",
+    "stepsTitle": "步骤详解",
+    "invalidInput": "n和r必须是非负整数，且r ≤ n（n ≤ 170）"
   },
   "NumberToWords": {
     "inputLabel": "数字",

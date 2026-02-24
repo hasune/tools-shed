@@ -235,6 +235,24 @@ export const tools: Tool[] = [
     icon: "⛽",
     keywords: ["fuel", "mpg", "km/l", "l/100km", "efficiency", "consumption", "convert"],
   },
+  {
+    slug: "energy-converter",
+    name: "Energy Converter",
+    description: "Convert between joules, calories, kilocalories, kWh, BTU, and electronvolts.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "⚡",
+    keywords: ["energy", "joule", "calorie", "kwh", "btu", "electronvolt", "convert"],
+  },
+  {
+    slug: "power-converter",
+    name: "Power Converter",
+    description: "Convert between watts, kilowatts, megawatts, horsepower, and BTU/hr.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "🔌",
+    keywords: ["power", "watt", "kilowatt", "horsepower", "btu", "convert"],
+  },
   // Text Tools
   {
     slug: "word-counter",
@@ -604,6 +622,43 @@ export const tools: Tool[] = [
     icon: "△",
     keywords: ["triangle", "solve", "sides", "angles", "area", "perimeter", "sss", "sas", "asa", "aas", "trigonometry"],
   },
+  {
+    slug: "prime-checker",
+    name: "Prime Number Checker",
+    description: "Check if a number is prime and find all prime numbers up to a limit.",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "🔢",
+    keywords: ["prime", "number", "checker", "sieve", "factor", "divisible", "prime numbers"],
+  },
+  {
+    slug: "combinations-permutations",
+    name: "Combinations & Permutations",
+    description: "Calculate nCr (combinations) and nPr (permutations) with step-by-step solutions.",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "⊂",
+    keywords: ["combination", "permutation", "ncr", "npr", "factorial", "probability", "counting"],
+  },
+  // Developer (new batch 3)
+  {
+    slug: "css-unit-converter",
+    name: "CSS Unit Converter",
+    description: "Convert between px, em, rem, vw, vh, pt, and cm for responsive web design.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "📐",
+    keywords: ["css", "px", "em", "rem", "vw", "vh", "unit", "convert", "responsive", "web design"],
+  },
+  {
+    slug: "chmod-calculator",
+    name: "Chmod Calculator",
+    description: "Calculate Unix file permissions. Convert between octal notation and symbolic rwx format.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "🔐",
+    keywords: ["chmod", "unix", "permissions", "octal", "rwx", "linux", "file", "symbolic"],
+  },
   // Developer (new batch 2)
   {
     slug: "number-to-words",
@@ -631,6 +686,25 @@ export const tools: Tool[] = [
     categorySlug: "developer",
     icon: "🖼",
     keywords: ["image", "base64", "data url", "convert", "encode", "embed", "png", "jpg"],
+  },
+  // Text (new batch 3)
+  {
+    slug: "find-replace",
+    name: "Find & Replace",
+    description: "Find and replace text with plain text or regex patterns. Supports case-insensitive matching.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "🔍",
+    keywords: ["find", "replace", "regex", "text", "search", "substitute", "pattern"],
+  },
+  {
+    slug: "text-cleaner",
+    name: "Text Cleaner",
+    description: "Remove extra spaces, empty lines, special characters, and HTML tags from text.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "🧹",
+    keywords: ["clean", "text", "remove", "whitespace", "spaces", "html", "strip", "trim"],
   },
   // Text (new batch 2)
   {
@@ -836,6 +910,24 @@ export const tools: Tool[] = [
     categorySlug: "finance",
     icon: "⚖️",
     keywords: ["break-even", "fixed cost", "variable cost", "revenue", "profit", "business"],
+  },
+  {
+    slug: "vat-calculator",
+    name: "VAT Calculator",
+    description: "Add or remove VAT/tax from a price. Supports custom tax rates for any country.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "🧾",
+    keywords: ["vat", "tax", "gst", "sales tax", "price", "calculator", "include", "exclude"],
+  },
+  {
+    slug: "currency-converter",
+    name: "Currency Converter",
+    description: "Convert between major world currencies using reference exchange rates.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "💱",
+    keywords: ["currency", "exchange rate", "convert", "usd", "eur", "gbp", "jpy", "forex"],
   },
   // Time (new batch)
   {

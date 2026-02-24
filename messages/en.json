@@ -477,6 +477,66 @@
       "metaTitle": "Fuel Efficiency Converter",
       "metaDescription": "Convert between km/L, MPG (US), MPG (UK), and L/100km. Free online fuel efficiency converter."
     },
+    "energy-converter": {
+      "name": "Energy Converter",
+      "description": "Convert between joules, calories, kilocalories, kWh, BTU, and electronvolts.",
+      "metaTitle": "Energy Converter",
+      "metaDescription": "Convert energy between joules, calories, kcal, kWh, BTU, and electronvolts. Free online energy unit converter."
+    },
+    "power-converter": {
+      "name": "Power Converter",
+      "description": "Convert between watts, kilowatts, megawatts, horsepower, and BTU/hr.",
+      "metaTitle": "Power Converter",
+      "metaDescription": "Convert power between watts, kilowatts, megawatts, horsepower (mechanical & metric), and BTU/hr. Free online power converter."
+    },
+    "css-unit-converter": {
+      "name": "CSS Unit Converter",
+      "description": "Convert between px, em, rem, vw, vh, pt, and cm for responsive web design.",
+      "metaTitle": "CSS Unit Converter",
+      "metaDescription": "Convert CSS units — px, em, rem, vw, vh, pt, cm — for responsive web design. Free online CSS unit calculator."
+    },
+    "chmod-calculator": {
+      "name": "Chmod Calculator",
+      "description": "Calculate Unix file permissions. Convert between octal notation and symbolic rwx format.",
+      "metaTitle": "Chmod Calculator",
+      "metaDescription": "Calculate Unix file permissions. Convert between octal (755) and symbolic (rwxr-xr-x) notation. Free online chmod tool."
+    },
+    "find-replace": {
+      "name": "Find & Replace",
+      "description": "Find and replace text with plain text or regex patterns. Supports case-insensitive matching.",
+      "metaTitle": "Find & Replace Tool",
+      "metaDescription": "Find and replace text with plain text or regex patterns. Free online find & replace tool with case-insensitive and regex support."
+    },
+    "text-cleaner": {
+      "name": "Text Cleaner",
+      "description": "Remove extra spaces, empty lines, special characters, and HTML tags from text.",
+      "metaTitle": "Text Cleaner",
+      "metaDescription": "Remove extra whitespace, empty lines, special characters, and HTML tags from text. Free online text cleaning tool."
+    },
+    "vat-calculator": {
+      "name": "VAT Calculator",
+      "description": "Add or remove VAT/tax from a price. Supports custom tax rates for any country.",
+      "metaTitle": "VAT / Tax Calculator",
+      "metaDescription": "Add or remove VAT/GST/sales tax from any price. Supports custom tax rates. Free online VAT calculator."
+    },
+    "currency-converter": {
+      "name": "Currency Converter",
+      "description": "Convert between major world currencies using reference exchange rates.",
+      "metaTitle": "Currency Converter",
+      "metaDescription": "Convert between 20+ major world currencies using reference exchange rates. Free online currency converter."
+    },
+    "prime-checker": {
+      "name": "Prime Number Checker",
+      "description": "Check if a number is prime and find all prime numbers up to a limit.",
+      "metaTitle": "Prime Number Checker",
+      "metaDescription": "Check if any number is prime and list all primes up to a limit using the Sieve of Eratosthenes. Free online prime checker."
+    },
+    "combinations-permutations": {
+      "name": "Combinations & Permutations",
+      "description": "Calculate nCr (combinations) and nPr (permutations) with step-by-step solutions.",
+      "metaTitle": "Combinations & Permutations Calculator",
+      "metaDescription": "Calculate nCr (combinations) and nPr (permutations) with factorial step-by-step. Free online combinatorics calculator."
+    },
     "number-to-words": {
       "name": "Number to Words",
       "description": "Convert numbers to English words (e.g. 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "Clear",
     "note": "Note: L/100km is an inverse measure — lower values mean better efficiency."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "Base font size (px)",
+    "viewportWidthLabel": "Viewport width (px)",
+    "viewportHeightLabel": "Viewport height (px)",
+    "inputLabel": "Value to convert",
+    "fromUnit": "From",
+    "toUnit": "To",
+    "convertButton": "Convert",
+    "resultLabel": "Result",
+    "clearButton": "Clear",
+    "settingsTitle": "Settings"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "Owner",
+    "groupLabel": "Group",
+    "othersLabel": "Others",
+    "readLabel": "Read (r)",
+    "writeLabel": "Write (w)",
+    "executeLabel": "Execute (x)",
+    "octalLabel": "Octal",
+    "symbolicLabel": "Symbolic",
+    "commandLabel": "chmod command",
+    "octalInputLabel": "Enter octal (e.g. 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "Input text",
+    "inputPlaceholder": "Paste your text here...",
+    "findLabel": "Find",
+    "findPlaceholder": "Text to find...",
+    "replaceLabel": "Replace with",
+    "replacePlaceholder": "Replacement text...",
+    "regexToggle": "Regex",
+    "caseToggle": "Match case",
+    "globalToggle": "Replace all",
+    "replaceButton": "Replace",
+    "outputLabel": "Output",
+    "matchCount": "{count} match(es) found"
+  },
+  "TextCleaner": {
+    "inputLabel": "Input text",
+    "inputPlaceholder": "Paste text to clean...",
+    "outputLabel": "Cleaned text",
+    "removeExtraSpaces": "Remove extra spaces",
+    "removeEmptyLines": "Remove empty lines",
+    "trimLines": "Trim each line",
+    "removeHtml": "Strip HTML tags",
+    "removeSpecialChars": "Remove special characters",
+    "lowercaseAll": "Lowercase all",
+    "cleanButton": "Clean",
+    "copyButton": "Copy"
+  },
+  "VatCalculator": {
+    "priceLabel": "Price",
+    "vatRateLabel": "VAT / Tax rate (%)",
+    "modeAdd": "Add tax to price",
+    "modeRemove": "Remove tax from price",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "netPrice": "Net price (excl. tax)",
+    "taxAmount": "Tax amount",
+    "grossPrice": "Gross price (incl. tax)",
+    "presetLabel": "Common rates"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "Amount",
+    "fromLabel": "From",
+    "toLabel": "To",
+    "convertButton": "Convert",
+    "swapButton": "Swap",
+    "resultLabel": "Result",
+    "disclaimer": "Reference rates — not suitable for financial transactions.",
+    "ratesDate": "Rates as of mid-2025 (USD base)"
+  },
+  "PrimeChecker": {
+    "checkTab": "Is it prime?",
+    "listTab": "List primes",
+    "numberLabel": "Number",
+    "numberPlaceholder": "e.g. 97",
+    "checkButton": "Check",
+    "limitLabel": "Find primes up to",
+    "limitPlaceholder": "e.g. 100",
+    "listButton": "Find Primes",
+    "isPrime": "{n} is a prime number.",
+    "notPrime": "{n} is not prime. Factors: {factors}",
+    "primeCount": "{count} prime(s) found",
+    "clearButton": "Clear"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (total items)",
+    "rLabel": "r (items chosen)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "combinationsTitle": "Combinations C(n,r)",
+    "permutationsTitle": "Permutations P(n,r)",
+    "formulaTitle": "Formula",
+    "stepsTitle": "Step-by-step",
+    "invalidInput": "n and r must be non-negative integers with r ≤ n"
   },
   "NumberToWords": {
     "inputLabel": "Number",

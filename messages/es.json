@@ -477,6 +477,66 @@
       "metaTitle": "Convertidor de Eficiencia de Combustible",
       "metaDescription": "Convierte entre km/L, MPG (US), MPG (UK) y L/100km. Convertidor gratuito de consumo de combustible."
     },
+    "energy-converter": {
+      "name": "Convertidor de Energía",
+      "description": "Convierte entre julios, calorías, kilocalorías, kWh, BTU y electronvoltios.",
+      "metaTitle": "Convertidor de Energía",
+      "metaDescription": "Convierte energía entre julios, calorías, kcal, kWh, BTU y eV. Convertidor gratuito de unidades de energía."
+    },
+    "power-converter": {
+      "name": "Convertidor de Potencia",
+      "description": "Convierte entre vatios, kilovatios, megavatios, caballos de vapor y BTU/h.",
+      "metaTitle": "Convertidor de Potencia",
+      "metaDescription": "Convierte potencia entre vatios, kW, MW, HP y BTU/hr. Convertidor gratuito de potencia en línea."
+    },
+    "css-unit-converter": {
+      "name": "Convertidor de Unidades CSS",
+      "description": "Convierte entre px, em, rem, vw, vh, pt y cm para diseño web responsivo.",
+      "metaTitle": "Convertidor de Unidades CSS",
+      "metaDescription": "Convierte unidades CSS — px, em, rem, vw, vh, pt, cm — para diseño web responsivo. Calculadora CSS gratuita."
+    },
+    "chmod-calculator": {
+      "name": "Calculadora Chmod",
+      "description": "Calcula permisos de archivos Unix. Convierte entre notación octal y simbólica rwx.",
+      "metaTitle": "Calculadora Chmod",
+      "metaDescription": "Calcula permisos Unix. Convierte entre notación octal (755) y simbólica (rwxr-xr-x). Herramienta chmod gratuita."
+    },
+    "find-replace": {
+      "name": "Buscar y Reemplazar",
+      "description": "Busca y reemplaza texto con texto plano o patrones regex.",
+      "metaTitle": "Herramienta Buscar y Reemplazar",
+      "metaDescription": "Busca y reemplaza texto con texto plano o expresiones regulares. Herramienta gratuita de búsqueda y reemplazo."
+    },
+    "text-cleaner": {
+      "name": "Limpiador de Texto",
+      "description": "Elimina espacios extra, líneas vacías, caracteres especiales y etiquetas HTML del texto.",
+      "metaTitle": "Limpiador de Texto",
+      "metaDescription": "Elimina espacios en blanco, líneas vacías, caracteres especiales y etiquetas HTML. Herramienta gratuita de limpieza de texto."
+    },
+    "vat-calculator": {
+      "name": "Calculadora de IVA",
+      "description": "Añade o elimina IVA/impuesto de un precio. Compatible con tasas impositivas personalizadas.",
+      "metaTitle": "Calculadora de IVA / Impuesto",
+      "metaDescription": "Añade o elimina IVA/GST de cualquier precio. Compatible con tasas personalizadas. Calculadora de IVA gratuita."
+    },
+    "currency-converter": {
+      "name": "Convertidor de Divisas",
+      "description": "Convierte entre las principales monedas del mundo usando tasas de cambio de referencia.",
+      "metaTitle": "Convertidor de Divisas",
+      "metaDescription": "Convierte entre más de 20 monedas principales usando tasas de referencia. Convertidor de divisas gratuito en línea."
+    },
+    "prime-checker": {
+      "name": "Verificador de Números Primos",
+      "description": "Comprueba si un número es primo y lista todos los primos hasta un límite.",
+      "metaTitle": "Verificador de Números Primos",
+      "metaDescription": "Comprueba si un número es primo y lista todos los primos usando la Criba de Eratóstenes. Verificador gratuito."
+    },
+    "combinations-permutations": {
+      "name": "Combinaciones y Permutaciones",
+      "description": "Calcula nCr (combinaciones) y nPr (permutaciones) con soluciones paso a paso.",
+      "metaTitle": "Calculadora de Combinaciones y Permutaciones",
+      "metaDescription": "Calcula nCr y nPr con factoriales paso a paso. Calculadora gratuita de combinatoria en línea."
+    },
     "number-to-words": {
       "name": "Número a Palabras",
       "description": "Convierte números a palabras en inglés (ej: 1234 → one thousand two hundred thirty-four).",
@@ -1409,6 +1469,105 @@
   "FuelEfficiencyConverter": {
     "clearButton": "Limpiar",
     "note": "Nota: L/100km es una medida inversa — valores más bajos indican mayor eficiencia."
+  },
+  "CssUnitConverter": {
+    "baseFontSizeLabel": "Tamaño base de fuente (px)",
+    "viewportWidthLabel": "Ancho de viewport (px)",
+    "viewportHeightLabel": "Alto de viewport (px)",
+    "inputLabel": "Valor a convertir",
+    "fromUnit": "De",
+    "toUnit": "A",
+    "convertButton": "Convertir",
+    "resultLabel": "Resultado",
+    "clearButton": "Limpiar",
+    "settingsTitle": "Configuración"
+  },
+  "ChmodCalculator": {
+    "ownerLabel": "Propietario",
+    "groupLabel": "Grupo",
+    "othersLabel": "Otros",
+    "readLabel": "Lectura (r)",
+    "writeLabel": "Escritura (w)",
+    "executeLabel": "Ejecución (x)",
+    "octalLabel": "Octal",
+    "symbolicLabel": "Simbólico",
+    "commandLabel": "Comando chmod",
+    "octalInputLabel": "Introduce octal (ej. 755)",
+    "octalInputPlaceholder": "755"
+  },
+  "FindReplace": {
+    "inputLabel": "Texto de entrada",
+    "inputPlaceholder": "Pega tu texto aquí...",
+    "findLabel": "Buscar",
+    "findPlaceholder": "Texto a buscar...",
+    "replaceLabel": "Reemplazar con",
+    "replacePlaceholder": "Texto de reemplazo...",
+    "regexToggle": "Regex",
+    "caseToggle": "Mayúsculas/minúsculas",
+    "globalToggle": "Reemplazar todo",
+    "replaceButton": "Reemplazar",
+    "outputLabel": "Salida",
+    "matchCount": "{count} coincidencia(s) encontrada(s)"
+  },
+  "TextCleaner": {
+    "inputLabel": "Texto de entrada",
+    "inputPlaceholder": "Pega el texto a limpiar...",
+    "outputLabel": "Texto limpio",
+    "removeExtraSpaces": "Eliminar espacios extra",
+    "removeEmptyLines": "Eliminar líneas vacías",
+    "trimLines": "Recortar cada línea",
+    "removeHtml": "Eliminar etiquetas HTML",
+    "removeSpecialChars": "Eliminar caracteres especiales",
+    "lowercaseAll": "Todo en minúsculas",
+    "cleanButton": "Limpiar",
+    "copyButton": "Copiar"
+  },
+  "VatCalculator": {
+    "priceLabel": "Precio",
+    "vatRateLabel": "Tipo de IVA (%)",
+    "modeAdd": "Añadir impuesto al precio",
+    "modeRemove": "Eliminar impuesto del precio",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "netPrice": "Precio sin impuesto",
+    "taxAmount": "Importe del impuesto",
+    "grossPrice": "Precio con impuesto",
+    "presetLabel": "Tipos comunes"
+  },
+  "CurrencyConverter": {
+    "amountLabel": "Importe",
+    "fromLabel": "De",
+    "toLabel": "A",
+    "convertButton": "Convertir",
+    "swapButton": "Intercambiar",
+    "resultLabel": "Resultado",
+    "disclaimer": "Tasas de referencia — no aptas para transacciones financieras.",
+    "ratesDate": "Tasas de mediados de 2025 (base USD)"
+  },
+  "PrimeChecker": {
+    "checkTab": "¿Es primo?",
+    "listTab": "Listar primos",
+    "numberLabel": "Número",
+    "numberPlaceholder": "ej. 97",
+    "checkButton": "Verificar",
+    "limitLabel": "Encontrar primos hasta",
+    "limitPlaceholder": "ej. 100",
+    "listButton": "Encontrar Primos",
+    "isPrime": "{n} es un número primo.",
+    "notPrime": "{n} no es primo. Factores: {factors}",
+    "primeCount": "Se encontraron {count} primo(s)",
+    "clearButton": "Limpiar"
+  },
+  "CombinationsPermutations": {
+    "nLabel": "n (total de elementos)",
+    "rLabel": "r (elementos elegidos)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "combinationsTitle": "Combinaciones C(n,r)",
+    "permutationsTitle": "Permutaciones P(n,r)",
+    "formulaTitle": "Fórmula",
+    "stepsTitle": "Paso a paso",
+    "invalidInput": "n y r deben ser enteros no negativos con r ≤ n (n ≤ 170)"
   },
   "NumberToWords": {
     "inputLabel": "Número",

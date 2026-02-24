@@ -91,10 +91,29 @@ const UNIT_SETS: Record<string, Unit[]> = {
     { label: "Atmosphere (atm)", toBase: (v) => v * 101325, fromBase: (v) => v / 101325 },
     { label: "mmHg / Torr", toBase: (v) => v * 133.322, fromBase: (v) => v / 133.322 },
   ],
+  energy: [
+    { label: "Joule (J)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Kilojoule (kJ)", toBase: (v) => v * 1000, fromBase: (v) => v / 1000 },
+    { label: "Calorie (cal)", toBase: (v) => v * 4.184, fromBase: (v) => v / 4.184 },
+    { label: "Kilocalorie (kcal)", toBase: (v) => v * 4184, fromBase: (v) => v / 4184 },
+    { label: "Watt-hour (Wh)", toBase: (v) => v * 3600, fromBase: (v) => v / 3600 },
+    { label: "Kilowatt-hour (kWh)", toBase: (v) => v * 3.6e6, fromBase: (v) => v / 3.6e6 },
+    { label: "BTU", toBase: (v) => v * 1055.06, fromBase: (v) => v / 1055.06 },
+    { label: "Electronvolt (eV)", toBase: (v) => v * 1.60218e-19, fromBase: (v) => v / 1.60218e-19 },
+  ],
+  power: [
+    { label: "Watt (W)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Kilowatt (kW)", toBase: (v) => v * 1000, fromBase: (v) => v / 1000 },
+    { label: "Megawatt (MW)", toBase: (v) => v * 1e6, fromBase: (v) => v / 1e6 },
+    { label: "Horsepower (hp, mechanical)", toBase: (v) => v * 745.7, fromBase: (v) => v / 745.7 },
+    { label: "Horsepower (PS, metric)", toBase: (v) => v * 735.499, fromBase: (v) => v / 735.499 },
+    { label: "BTU/hour", toBase: (v) => v * 0.293071, fromBase: (v) => v / 0.293071 },
+    { label: "Foot-pound/second (ft·lbf/s)", toBase: (v) => v * 1.35582, fromBase: (v) => v / 1.35582 },
+  ],
 };
 
 interface UnitConverterProps {
-  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume" | "angle" | "pressure";
+  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume" | "angle" | "pressure" | "energy" | "power";
   precision?: number;
 }
 

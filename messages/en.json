@@ -824,6 +824,78 @@
       "description": "Calculate 2D and 3D vector addition, subtraction, dot product, cross product, and magnitude.",
       "metaTitle": "Vector Calculator",
       "metaDescription": "Calculate 2D and 3D vector operations: addition, subtraction, dot product, cross product, and magnitude."
+    },
+    "cipher-tool": {
+      "name": "Cipher Tool",
+      "description": "Encode and decode text with Caesar, ROT13, and Vigenère ciphers.",
+      "metaTitle": "Cipher Tool — Caesar, ROT13 & Vigenère",
+      "metaDescription": "Encode and decode text using Caesar cipher, ROT13, and Vigenère cipher. Free online cryptography tool."
+    },
+    "mime-type-lookup": {
+      "name": "MIME Type Lookup",
+      "description": "Look up MIME types by file extension or find extensions for a given MIME type.",
+      "metaTitle": "MIME Type Lookup",
+      "metaDescription": "Look up MIME content types by file extension (jpg, pdf, mp4...) or search by MIME type. Free reference tool."
+    },
+    "frequency-converter": {
+      "name": "Frequency Converter",
+      "description": "Convert between Hz, kHz, MHz, GHz, THz, and RPM.",
+      "metaTitle": "Frequency Converter",
+      "metaDescription": "Convert between Hertz, Kilohertz, Megahertz, Gigahertz, Terahertz, and RPM. Free online frequency converter."
+    },
+    "shoe-size-converter": {
+      "name": "Shoe Size Converter",
+      "description": "Convert shoe sizes between US, EU, UK, Japan, and centimeters.",
+      "metaTitle": "Shoe Size Converter",
+      "metaDescription": "Convert shoe sizes between US, EU, UK, Japan (cm) systems for men and women. Free online shoe size chart."
+    },
+    "nato-alphabet": {
+      "name": "NATO Phonetic Alphabet",
+      "description": "Convert text to NATO phonetic alphabet for clear communication.",
+      "metaTitle": "NATO Phonetic Alphabet Converter",
+      "metaDescription": "Convert any text to NATO phonetic alphabet (Alpha, Bravo, Charlie...). Used in aviation, military, and phone spelling."
+    },
+    "unicode-inspector": {
+      "name": "Unicode Inspector",
+      "description": "Inspect any character's Unicode code point, name, category, and HTML entity.",
+      "metaTitle": "Unicode Inspector",
+      "metaDescription": "Inspect Unicode characters: view code points (U+XXXX), names, categories, and HTML entities for any text."
+    },
+    "fire-calculator": {
+      "name": "FIRE Calculator",
+      "description": "Calculate your Financial Independence number and years to retirement.",
+      "metaTitle": "FIRE Calculator — Financial Independence & Early Retirement",
+      "metaDescription": "Calculate your FIRE number using the 4% rule and find out how many years until you can retire early."
+    },
+    "dividend-calculator": {
+      "name": "Dividend Calculator",
+      "description": "Calculate dividend yield, annual income, and monthly income from stock dividends.",
+      "metaTitle": "Dividend Calculator",
+      "metaDescription": "Calculate dividend yield, annual dividend income, and monthly income from your stock investments."
+    },
+    "due-date-calculator": {
+      "name": "Pregnancy Due Date Calculator",
+      "description": "Calculate your estimated due date and track key pregnancy milestones.",
+      "metaTitle": "Pregnancy Due Date Calculator",
+      "metaDescription": "Calculate your estimated due date using Naegele's rule. Track trimester progress and key pregnancy milestones."
+    },
+    "one-rep-max-calculator": {
+      "name": "One Rep Max Calculator",
+      "description": "Estimate your 1RM maximum lift using Epley, Brzycki, and other formulas.",
+      "metaTitle": "One Rep Max (1RM) Calculator",
+      "metaDescription": "Estimate your one rep max (1RM) using Epley, Brzycki, Lander, and Lombardi formulas. Generate a training percentage table."
+    },
+    "geometry-calculator": {
+      "name": "Geometry Calculator",
+      "description": "Calculate area, perimeter, and volume of circles, rectangles, triangles, and more.",
+      "metaTitle": "Geometry Calculator",
+      "metaDescription": "Calculate area, perimeter, circumference, and volume for circles, rectangles, triangles, spheres, cylinders, and cones."
+    },
+    "ohm-law-calculator": {
+      "name": "Ohm's Law Calculator",
+      "description": "Calculate voltage, current, resistance, and power using Ohm's Law.",
+      "metaTitle": "Ohm's Law Calculator",
+      "metaDescription": "Calculate voltage (V), current (I), resistance (R), and power (P) using Ohm's Law V=IR. Free electronics calculator."
     }
   },
   "Common": {
@@ -2571,5 +2643,167 @@
       "title": "Privacy Policy",
       "description": "Privacy Policy for ToolsShed — how we handle your data."
     }
+  },
+  "CipherTool": {
+    "cipherLabel": "Cipher type",
+    "caesar": "Caesar",
+    "rot13": "ROT13",
+    "vigenere": "Vigenère",
+    "modeLabel": "Mode",
+    "encode": "Encode",
+    "decode": "Decode",
+    "shiftLabel": "Shift (0–25)",
+    "keywordLabel": "Keyword",
+    "keywordPlaceholder": "e.g. SECRET",
+    "inputLabel": "Input text",
+    "outputLabel": "Output",
+    "processButton": "Process",
+    "clearButton": "Clear",
+    "copyButton": "Copy"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "Extension → MIME",
+    "mimeTab": "MIME → Extension",
+    "extensionLabel": "File extension",
+    "extensionPlaceholder": "e.g. jpg or .png",
+    "mimeLabel": "MIME type",
+    "mimePlaceholder": "e.g. image/jpeg",
+    "lookupButton": "Look up",
+    "resultLabel": "Result",
+    "notFound": "Not found",
+    "commonTypesLabel": "Common MIME types"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "Gender",
+    "men": "Men",
+    "women": "Women",
+    "usMenLabel": "US Men",
+    "usWomenLabel": "US Women",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "Japan (cm)",
+    "clearButton": "Clear",
+    "note": "Sizes are approximate. Always try on shoes when possible."
+  },
+  "NatoAlphabet": {
+    "inputLabel": "Text to convert",
+    "inputPlaceholder": "Type or paste text here...",
+    "outputLabel": "NATO phonetic spelling",
+    "copyButton": "Copy",
+    "clearButton": "Clear",
+    "referenceTitle": "NATO Alphabet Reference"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "Text to inspect",
+    "inputPlaceholder": "Type or paste characters...",
+    "columnChar": "Char",
+    "columnCodePoint": "Code Point",
+    "columnName": "Name",
+    "columnCategory": "Category",
+    "columnHtmlEntity": "HTML Entity",
+    "copyAll": "Copy All",
+    "clearButton": "Clear"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "Annual expenses",
+    "annualExpensesPlaceholder": "e.g. 40000",
+    "currentSavingsLabel": "Current savings / investments",
+    "annualSavingsLabel": "Annual savings",
+    "returnRateLabel": "Expected annual return (%)",
+    "withdrawalRateLabel": "Safe withdrawal rate (%)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "fireNumberLabel": "FIRE Number",
+    "fireNumberDesc": "Total savings needed to retire",
+    "yearsToFireLabel": "Years to FIRE",
+    "savingsRateLabel": "Savings Rate",
+    "alreadyFire": "You have already reached FIRE!"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "Share price",
+    "annualDividendLabel": "Annual dividend per share",
+    "sharesLabel": "Number of shares",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "dividendYieldLabel": "Dividend Yield",
+    "annualIncomeLabel": "Annual Income",
+    "monthlyIncomeLabel": "Monthly Income",
+    "quarterlyIncomeLabel": "Quarterly Income",
+    "totalInvestmentLabel": "Total Investment"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "First day of last menstrual period (LMP)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "dueDateLabel": "Estimated Due Date",
+    "gestationalAgeLabel": "Current Gestational Age",
+    "weeks": "{weeks} weeks",
+    "weeksAndDays": "{weeks} weeks, {days} days",
+    "trimesterLabel": "Trimester",
+    "first": "1st Trimester",
+    "second": "2nd Trimester",
+    "third": "3rd Trimester",
+    "milestonesTitle": "Key Milestones",
+    "milestone8w": "8 weeks — First ultrasound",
+    "milestone12w": "12 weeks — End of 1st trimester",
+    "milestone20w": "20 weeks — Anatomy scan",
+    "milestone28w": "28 weeks — End of 2nd trimester",
+    "milestone37w": "37 weeks — Full term",
+    "milestone40w": "40 weeks — Due date"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "Weight lifted",
+    "repsLabel": "Reps performed",
+    "weightUnitLabel": "Unit",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "resultsTitle": "Estimated 1RM by Formula",
+    "epley": "Epley",
+    "brzycki": "Brzycki",
+    "lander": "Lander",
+    "lombardi": "Lombardi",
+    "percentageTitle": "Training Percentages",
+    "percentageDesc": "Based on average estimate"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "Shape",
+    "circle": "Circle",
+    "rectangle": "Rectangle",
+    "triangle": "Triangle",
+    "square": "Square",
+    "trapezoid": "Trapezoid",
+    "ellipse": "Ellipse",
+    "sphere": "Sphere",
+    "cylinder": "Cylinder",
+    "cone": "Cone",
+    "radiusLabel": "Radius (r)",
+    "widthLabel": "Width (a)",
+    "heightLabel": "Height (b or h)",
+    "sideLabel": "Side (a)",
+    "side1Label": "Side a",
+    "side2Label": "Side b",
+    "side3Label": "Side c",
+    "parallelSide1": "Parallel side a",
+    "parallelSide2": "Parallel side b",
+    "semiMajorLabel": "Semi-major axis (a)",
+    "semiMinorLabel": "Semi-minor axis (b)",
+    "slantHeightLabel": "Slant height (l)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "areaLabel": "Area",
+    "perimeterLabel": "Perimeter / Circumference",
+    "volumeLabel": "Volume",
+    "surfaceAreaLabel": "Surface Area"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "Voltage (V) — Volts",
+    "currentLabel": "Current (I) — Amperes",
+    "resistanceLabel": "Resistance (R) — Ohms (Ω)",
+    "powerLabel": "Power (P) — Watts",
+    "inputHint": "Enter any two values to calculate the other two",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "formulasTitle": "Formulas",
+    "unknownCombination": "Please enter exactly two values."
   }
 }

@@ -110,10 +110,19 @@ const UNIT_SETS: Record<string, Unit[]> = {
     { label: "BTU/hour", toBase: (v) => v * 0.293071, fromBase: (v) => v / 0.293071 },
     { label: "Foot-pound/second (ft·lbf/s)", toBase: (v) => v * 1.35582, fromBase: (v) => v / 1.35582 },
   ],
+  frequency: [
+    { label: "Hertz (Hz)", toBase: (v) => v, fromBase: (v) => v },
+    { label: "Kilohertz (kHz)", toBase: (v) => v * 1e3, fromBase: (v) => v / 1e3 },
+    { label: "Megahertz (MHz)", toBase: (v) => v * 1e6, fromBase: (v) => v / 1e6 },
+    { label: "Gigahertz (GHz)", toBase: (v) => v * 1e9, fromBase: (v) => v / 1e9 },
+    { label: "Terahertz (THz)", toBase: (v) => v * 1e12, fromBase: (v) => v / 1e12 },
+    { label: "RPM (rev/min)", toBase: (v) => v / 60, fromBase: (v) => v * 60 },
+    { label: "Radians/second (rad/s)", toBase: (v) => v / (2 * Math.PI), fromBase: (v) => v * (2 * Math.PI) },
+  ],
 };
 
 interface UnitConverterProps {
-  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume" | "angle" | "pressure" | "energy" | "power";
+  type: "length" | "weight" | "data-storage" | "speed" | "area" | "volume" | "angle" | "pressure" | "energy" | "power" | "frequency";
   precision?: number;
 }
 

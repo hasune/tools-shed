@@ -824,6 +824,78 @@
       "description": "2D・3Dベクトルの加算・内積・外積・角度を計算します。",
       "metaTitle": "ベクトル計算機",
       "metaDescription": "2D・3Dベクトルの加算、減算、内積、外積、大きさ、角度を計算。"
+    },
+    "cipher-tool": {
+      "name": "暗号ツール",
+      "description": "シーザー、ROT13、ヴィジュネル暗号でテキストを暗号化・復号します。",
+      "metaTitle": "暗号ツール — シーザー・ROT13・ヴィジュネル",
+      "metaDescription": "シーザー暗号、ROT13、ヴィジュネル暗号でテキストを暗号化・復号できます。無料のオンライン暗号ツール。"
+    },
+    "mime-type-lookup": {
+      "name": "MIMEタイプ検索",
+      "description": "ファイル拡張子からMIMEタイプ、またはMIMEタイプから拡張子を検索します。",
+      "metaTitle": "MIMEタイプ検索",
+      "metaDescription": "ファイル拡張子 (jpg, pdf, mp4...) からMIMEタイプを検索、またはMIMEタイプから拡張子を検索できます。"
+    },
+    "frequency-converter": {
+      "name": "周波数変換",
+      "description": "Hz、kHz、MHz、GHz、THz、RPM間で変換します。",
+      "metaTitle": "周波数変換",
+      "metaDescription": "ヘルツ、キロヘルツ、メガヘルツ、ギガヘルツ、テラヘルツ、RPM間の変換。無料オンライン周波数変換ツール。"
+    },
+    "shoe-size-converter": {
+      "name": "靴サイズ変換",
+      "description": "US、EU、UK、日本のサイズ間で靴のサイズを変換します。",
+      "metaTitle": "靴サイズ変換",
+      "metaDescription": "US、EU、UK、日本（cm）の靴サイズ変換。メンズ・レディース対応。"
+    },
+    "nato-alphabet": {
+      "name": "NATOフォネティックアルファベット",
+      "description": "テキストをNATOフォネティックアルファベットに変換します。",
+      "metaTitle": "NATOフォネティックアルファベット変換",
+      "metaDescription": "テキストをNATOフォネティックアルファベット（Alpha、Bravo、Charlie...）に変換。航空・軍事・電話でのスペルに使用。"
+    },
+    "unicode-inspector": {
+      "name": "Unicode インスペクター",
+      "description": "文字のUnicodeコードポイント、名称、カテゴリ、HTMLエンティティを確認します。",
+      "metaTitle": "Unicode インスペクター",
+      "metaDescription": "Unicode文字のコードポイント（U+XXXX）、名称、カテゴリ、HTMLエンティティを確認できます。"
+    },
+    "fire-calculator": {
+      "name": "FIRE計算機",
+      "description": "経済的独立に必要な資産額と早期退職までの年数を計算します。",
+      "metaTitle": "FIRE計算機 — 経済的独立と早期退職",
+      "metaDescription": "4%ルールを使ったFIRE達成額の計算と早期退職までの年数を算出します。"
+    },
+    "dividend-calculator": {
+      "name": "配当計算機",
+      "description": "配当利回り、年間配当収入、月間配当収入を計算します。",
+      "metaTitle": "配当計算機",
+      "metaDescription": "配当利回り、年間配当収入、月間配当収入を計算できます。"
+    },
+    "due-date-calculator": {
+      "name": "出産予定日計算機",
+      "description": "出産予定日を計算し、妊娠の主要なマイルストーンを追跡します。",
+      "metaTitle": "出産予定日計算機",
+      "metaDescription": "ネーゲレ法則を使って出産予定日を計算。妊娠期間と主要マイルストーンを確認できます。"
+    },
+    "one-rep-max-calculator": {
+      "name": "最大挙上重量計算機",
+      "description": "エプレー、ブルジキなどの公式で1RMを推定します。",
+      "metaTitle": "最大挙上重量 (1RM) 計算機",
+      "metaDescription": "エプレー、ブルジキ、ランダー、ロンバルディ公式で1RMを推定。トレーニング重量比率表を生成。"
+    },
+    "geometry-calculator": {
+      "name": "図形計算機",
+      "description": "円、長方形、三角形などの面積・周長・体積を計算します。",
+      "metaTitle": "図形計算機",
+      "metaDescription": "円、長方形、三角形、球、円柱、円錐の面積・周長・体積を計算できます。"
+    },
+    "ohm-law-calculator": {
+      "name": "オームの法則計算機",
+      "description": "オームの法則を使って電圧・電流・抵抗・電力を計算します。",
+      "metaTitle": "オームの法則計算機",
+      "metaDescription": "オームの法則 V=IR を使って電圧（V）、電流（I）、抵抗（R）、電力（P）を計算できます。"
     }
   },
   "Common": {
@@ -2572,5 +2644,167 @@
     "zLabel": "z",
     "degreesLabel": "度",
     "invalidInput": "全てのベクトル成分に有効な数値を入力してください。"
+  },
+  "CipherTool": {
+    "cipherLabel": "暗号タイプ",
+    "caesar": "シーザー",
+    "rot13": "ROT13",
+    "vigenere": "ヴィジュネル",
+    "modeLabel": "モード",
+    "encode": "暗号化",
+    "decode": "復号",
+    "shiftLabel": "シフト (0–25)",
+    "keywordLabel": "キーワード",
+    "keywordPlaceholder": "例: SECRET",
+    "inputLabel": "入力テキスト",
+    "outputLabel": "出力",
+    "processButton": "実行",
+    "clearButton": "クリア",
+    "copyButton": "コピー"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "拡張子 → MIME",
+    "mimeTab": "MIME → 拡張子",
+    "extensionLabel": "ファイル拡張子",
+    "extensionPlaceholder": "例: jpg または .png",
+    "mimeLabel": "MIMEタイプ",
+    "mimePlaceholder": "例: image/jpeg",
+    "lookupButton": "検索",
+    "resultLabel": "結果",
+    "notFound": "見つかりません",
+    "commonTypesLabel": "主要なMIMEタイプ"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "性別",
+    "men": "メンズ",
+    "women": "レディース",
+    "usMenLabel": "US メンズ",
+    "usWomenLabel": "US レディース",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "日本 (cm)",
+    "clearButton": "クリア",
+    "note": "サイズは目安です。可能であれば必ず試し履きしてください。"
+  },
+  "NatoAlphabet": {
+    "inputLabel": "変換するテキスト",
+    "inputPlaceholder": "テキストを入力または貼り付け...",
+    "outputLabel": "NATOフォネティック表記",
+    "copyButton": "コピー",
+    "clearButton": "クリア",
+    "referenceTitle": "NATOアルファベット一覧"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "検査するテキスト",
+    "inputPlaceholder": "文字を入力または貼り付け...",
+    "columnChar": "文字",
+    "columnCodePoint": "コードポイント",
+    "columnName": "名称",
+    "columnCategory": "カテゴリ",
+    "columnHtmlEntity": "HTMLエンティティ",
+    "copyAll": "全てコピー",
+    "clearButton": "クリア"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "年間支出",
+    "annualExpensesPlaceholder": "例: 40000",
+    "currentSavingsLabel": "現在の貯蓄・投資額",
+    "annualSavingsLabel": "年間貯蓄額",
+    "returnRateLabel": "期待年利率 (%)",
+    "withdrawalRateLabel": "安全引き出し率 (%)",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "fireNumberLabel": "FIRE達成額",
+    "fireNumberDesc": "引退に必要な総貯蓄額",
+    "yearsToFireLabel": "FIRE達成まで",
+    "savingsRateLabel": "貯蓄率",
+    "alreadyFire": "すでにFIREを達成しています！"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "株価",
+    "annualDividendLabel": "1株あたり年間配当",
+    "sharesLabel": "保有株数",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "dividendYieldLabel": "配当利回り",
+    "annualIncomeLabel": "年間配当収入",
+    "monthlyIncomeLabel": "月間配当収入",
+    "quarterlyIncomeLabel": "四半期配当収入",
+    "totalInvestmentLabel": "総投資額"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "最終月経開始日 (LMP)",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "dueDateLabel": "出産予定日",
+    "gestationalAgeLabel": "現在の妊娠週数",
+    "weeks": "{weeks}週",
+    "weeksAndDays": "{weeks}週{days}日",
+    "trimesterLabel": "妊娠期",
+    "first": "第1トリメスター",
+    "second": "第2トリメスター",
+    "third": "第3トリメスター",
+    "milestonesTitle": "主要マイルストーン",
+    "milestone8w": "8週 — 初回超音波検査",
+    "milestone12w": "12週 — 第1トリメスター終了",
+    "milestone20w": "20週 — 形態超音波検査",
+    "milestone28w": "28週 — 第2トリメスター終了",
+    "milestone37w": "37週 — 正期産",
+    "milestone40w": "40週 — 出産予定日"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "持ち上げた重量",
+    "repsLabel": "実施回数",
+    "weightUnitLabel": "単位",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "resultsTitle": "公式別推定1RM",
+    "epley": "エプレー",
+    "brzycki": "ブルジキ",
+    "lander": "ランダー",
+    "lombardi": "ロンバルディ",
+    "percentageTitle": "トレーニング重量比率",
+    "percentageDesc": "平均推定値に基づく"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "図形",
+    "circle": "円",
+    "rectangle": "長方形",
+    "triangle": "三角形",
+    "square": "正方形",
+    "trapezoid": "台形",
+    "ellipse": "楕円",
+    "sphere": "球",
+    "cylinder": "円柱",
+    "cone": "円錐",
+    "radiusLabel": "半径 (r)",
+    "widthLabel": "幅 (a)",
+    "heightLabel": "高さ (b または h)",
+    "sideLabel": "辺 (a)",
+    "side1Label": "辺 a",
+    "side2Label": "辺 b",
+    "side3Label": "辺 c",
+    "parallelSide1": "平行辺 a",
+    "parallelSide2": "平行辺 b",
+    "semiMajorLabel": "長半径 (a)",
+    "semiMinorLabel": "短半径 (b)",
+    "slantHeightLabel": "母線の長さ (l)",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "areaLabel": "面積",
+    "perimeterLabel": "周長 / 円周",
+    "volumeLabel": "体積",
+    "surfaceAreaLabel": "表面積"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "電圧 (V) — ボルト",
+    "currentLabel": "電流 (I) — アンペア",
+    "resistanceLabel": "抵抗 (R) — オーム (Ω)",
+    "powerLabel": "電力 (P) — ワット",
+    "inputHint": "任意の2つの値を入力すると残り2つを計算します",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "formulasTitle": "公式",
+    "unknownCombination": "2つの値を正確に入力してください。"
   }
 }

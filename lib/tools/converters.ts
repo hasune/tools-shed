@@ -145,4 +145,22 @@ export const converterTools: Tool[] = [
     icon: "\u{1F4A1}",
     keywords: ["illuminance", "lux", "foot-candle", "phot", "light", "brightness", "convert"],
   },
+  {
+    slug: "frequency-converter",
+    name: "Frequency Converter",
+    description: "Convert between Hz, kHz, MHz, GHz, THz, and RPM.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "〜",
+    keywords: ["frequency", "hz", "khz", "mhz", "ghz", "thz", "rpm", "hertz", "convert"],
+  },
+  {
+    slug: "shoe-size-converter",
+    name: "Shoe Size Converter",
+    description: "Convert shoe sizes between US, EU, UK, Japan, and centimeters.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "👟",
+    keywords: ["shoe size", "us", "eu", "uk", "japan", "cm", "convert", "footwear", "sizing"],
+  },
 ];

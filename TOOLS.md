@@ -3,11 +3,11 @@
 > **이 파일은 현재 구현된 모든 도구의 공식 목록입니다.**
 > - 새 도구를 추가하기 전에 **반드시 이 파일을 확인**해 중복을 방지할 것
 > - 도구 추가/삭제 시 이 파일을 함께 업데이트할 것
-> - 총 **124개** 도구 (2026-02-25 기준)
+> - 총 **136개** 도구 (2026-02-26 기준)
 
 ---
 
-## Developer Tools (`/developer`) — 34개
+## Developer Tools (`/developer`) — 36개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -45,10 +45,12 @@
 | `morse-code-converter` | Morse Code Converter | 텍스트 ↔ 모스 부호 |
 | `ip-subnet-calculator` | IP Subnet Calculator | CIDR 서브넷 마스크/네트워크/호스트 범위 |
 | `ascii-art` | ASCII Art Generator | FIGlet 스타일 블록 폰트 |
+| `cipher-tool` | Cipher Tool | Caesar/ROT13/Vigenère 암호화·복호화 |
+| `mime-type-lookup` | MIME Type Lookup | 확장자↔MIME 타입 조회, 약 70개 항목 |
 
 ---
 
-## Unit Converters (`/converters`) — 16개
+## Unit Converters (`/converters`) — 18개
 
 > `length`, `weight`, `data-storage`, `speed`, `area`, `volume`, `angle`, `pressure`, `fuel-efficiency`, `energy`, `power`, `cooking`, `time-unit`은 `UnitConverter.tsx` 공유 컴포넌트 사용
 
@@ -70,10 +72,12 @@
 | `time-unit-converter` | Time Unit Converter | 초/분/시/일/주/월/년 |
 | `torque-converter` | Torque Converter | N·m, ft·lb, kgf·m, dyn·cm 등 |
 | `illuminance-converter` | Illuminance Converter | lux, foot-candle, phot, nox |
+| `frequency-converter` | Frequency Converter | Hz, kHz, MHz, GHz, THz, RPM |
+| `shoe-size-converter` | Shoe Size Converter | US Men/Women, EU, UK, Japan(cm) |
 
 ---
 
-## Text Tools (`/text`) — 19개
+## Text Tools (`/text`) — 21개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -96,10 +100,12 @@
 | `anagram-solver` | Anagram Solver | 두 단어/구문 비교 |
 | `palindrome-checker` | Palindrome Checker | 단어/구문/숫자 |
 | `text-statistics` | Text Readability Analyzer | Flesch/Flesch-Kincaid/Gunning Fog |
+| `nato-alphabet` | NATO Phonetic Alphabet | 텍스트 → NATO 음성 알파벳 변환 |
+| `unicode-inspector` | Unicode Inspector | 코드 포인트/이름/카테고리/HTML 엔티티 |
 
 ---
 
-## Finance Tools (`/finance`) — 15개
+## Finance Tools (`/finance`) — 17개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -118,10 +124,12 @@
 | `hourly-to-salary` | Hourly to Salary Converter | 시급 ↔ 연/월/주 급여 양방향 |
 | `tax-bracket-calculator` | Tax Bracket Calculator | 2024 미국 연방 소득세 (4가지 신고 유형) |
 | `stock-profit-calculator` | Stock Profit Calculator | 매수/매도/수수료 → 수익/ROI |
+| `fire-calculator` | FIRE Calculator | 4% 룰, FIRE 목표액 + 달성 연수 |
+| `dividend-calculator` | Dividend Calculator | 배당수익률/연간·월간·분기 소득 |
 
 ---
 
-## Health Tools (`/health`) — 13개
+## Health Tools (`/health`) — 15개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -138,6 +146,8 @@
 | `blood-pressure-checker` | Blood Pressure Checker | AHA 기준 카테고리 분류 |
 | `macro-calculator` | Macro Calculator | 식단 프리셋 (balanced/low-carb/keto 등) |
 | `menstrual-cycle-calculator` | Menstrual Cycle Calculator | 다음 4사이클 예측, 가임 기간 |
+| `due-date-calculator` | Pregnancy Due Date Calculator | Naegele's rule, 삼분기·마일스톤 |
+| `one-rep-max-calculator` | One Rep Max Calculator | Epley/Brzycki/Lander/Lombardi 4공식 |
 
 ---
 
@@ -158,7 +168,7 @@
 
 ---
 
-## Math Tools (`/math`) — 17개
+## Math Tools (`/math`) — 19개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -179,6 +189,8 @@
 | `log-calculator` | Logarithm Calculator | 자연로그/상용로그/임의 밑 |
 | `binary-calculator` | Binary Calculator | 산술/비트 연산 (AND/OR/XOR/NOT/SHIFT) |
 | `vector-calculator` | Vector Calculator | 2D/3D 벡터 연산, 내적/외적/크기/각도 |
+| `geometry-calculator` | Geometry Calculator | 9개 도형 면적/둘레/부피 (2D·3D) |
+| `ohm-law-calculator` | Ohm's Law Calculator | V/I/R/P 중 2값 입력 → 나머지 계산 |
 
 ---
 

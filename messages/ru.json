@@ -824,6 +824,78 @@
       "description": "Calculate 2D and 3D vector addition, subtraction, dot product, cross product, and magnitude.",
       "metaTitle": "Vector Calculator",
       "metaDescription": "Calculate 2D and 3D vector operations: addition, subtraction, dot product, cross product, and magnitude."
+    },
+    "cipher-tool": {
+      "name": "Инструмент Шифрования",
+      "description": "Шифруйте и дешифруйте текст с помощью шифров Цезаря, ROT13 и Виженера.",
+      "metaTitle": "Инструмент Шифрования — Цезарь, ROT13 и Виженер",
+      "metaDescription": "Шифруйте и дешифруйте текст с шифрами Цезаря, ROT13 и Виженера. Бесплатный онлайн-инструмент криптографии."
+    },
+    "mime-type-lookup": {
+      "name": "Поиск MIME-типа",
+      "description": "Найдите MIME-типы по расширению файла или расширения по MIME-типу.",
+      "metaTitle": "Поиск MIME-типа",
+      "metaDescription": "Поиск MIME-типов по расширению файла (jpg, pdf, mp4...) или обратный поиск. Бесплатный справочный инструмент."
+    },
+    "frequency-converter": {
+      "name": "Конвертер Частоты",
+      "description": "Конвертируйте между Гц, кГц, МГц, ГГц, ТГц и об/мин.",
+      "metaTitle": "Конвертер Частоты",
+      "metaDescription": "Конвертируйте между герцами, килогерцами, мегагерцами, гигагерцами, тера­герцами и об/мин. Бесплатный онлайн-конвертер."
+    },
+    "shoe-size-converter": {
+      "name": "Конвертер Размера Обуви",
+      "description": "Конвертируйте размеры обуви между системами США, ЕС, Великобритании и Японии.",
+      "metaTitle": "Конвертер Размера Обуви",
+      "metaDescription": "Конвертируйте размеры обуви между системами США, ЕС, Великобритании и Японии (см) для мужчин и женщин."
+    },
+    "nato-alphabet": {
+      "name": "Фонетический Алфавит НАТО",
+      "description": "Конвертируйте текст в фонетический алфавит НАТО для чёткой коммуникации.",
+      "metaTitle": "Конвертер Фонетического Алфавита НАТО",
+      "metaDescription": "Конвертируйте любой текст в фонетический алфавит НАТО (Alpha, Bravo, Charlie...)."
+    },
+    "unicode-inspector": {
+      "name": "Инспектор Unicode",
+      "description": "Проверяйте кодовую точку, название, категорию и HTML-сущность любого символа.",
+      "metaTitle": "Инспектор Unicode",
+      "metaDescription": "Проверяйте символы Unicode: кодовые точки (U+XXXX), названия, категории и HTML-сущности."
+    },
+    "fire-calculator": {
+      "name": "Калькулятор FIRE",
+      "description": "Рассчитайте число финансовой независимости и годы до досрочного выхода на пенсию.",
+      "metaTitle": "Калькулятор FIRE — Финансовая Независимость и Досрочная Пенсия",
+      "metaDescription": "Рассчитайте число FIRE по правилу 4% и узнайте, сколько лет до досрочного выхода на пенсию."
+    },
+    "dividend-calculator": {
+      "name": "Калькулятор Дивидендов",
+      "description": "Рассчитайте дивидендную доходность, годовой и ежемесячный доход.",
+      "metaTitle": "Калькулятор Дивидендов",
+      "metaDescription": "Рассчитайте дивидендную доходность, годовой и ежемесячный доход от ваших акций."
+    },
+    "due-date-calculator": {
+      "name": "Калькулятор Даты Родов",
+      "description": "Рассчитайте предполагаемую дату родов и отслеживайте ключевые этапы беременности.",
+      "metaTitle": "Калькулятор Даты Родов",
+      "metaDescription": "Рассчитайте предполагаемую дату родов по правилу Негеле. Отслеживайте триместры и этапы беременности."
+    },
+    "one-rep-max-calculator": {
+      "name": "Калькулятор Максимального Повторения",
+      "description": "Оцените свой 1ПМ по формулам Эпли, Бжицки и другим.",
+      "metaTitle": "Калькулятор 1ПМ (Максимального Повторения)",
+      "metaDescription": "Оцените максимальное повторение (1ПМ) по формулам Эпли, Бжицки, Лэндера и Ломбарди."
+    },
+    "geometry-calculator": {
+      "name": "Калькулятор Геометрии",
+      "description": "Вычисляйте площадь, периметр и объём кругов, прямоугольников, треугольников и других фигур.",
+      "metaTitle": "Калькулятор Геометрии",
+      "metaDescription": "Вычисляйте площадь, периметр, длину окружности и объём для кругов, прямоугольников, треугольников, сфер, цилиндров и конусов."
+    },
+    "ohm-law-calculator": {
+      "name": "Калькулятор Закона Ома",
+      "description": "Рассчитывайте напряжение, ток, сопротивление и мощность по закону Ома.",
+      "metaTitle": "Калькулятор Закона Ома",
+      "metaDescription": "Рассчитывайте напряжение (V), ток (I), сопротивление (R) и мощность (P) по закону Ома V=IR."
     }
   },
   "Common": {
@@ -2571,5 +2643,167 @@
     "zLabel": "z",
     "degreesLabel": "degrees",
     "invalidInput": "Please enter valid numbers for all vector components."
+  },
+  "CipherTool": {
+    "cipherLabel": "Тип шифра",
+    "caesar": "Цезарь",
+    "rot13": "ROT13",
+    "vigenere": "Виженер",
+    "modeLabel": "Режим",
+    "encode": "Зашифровать",
+    "decode": "Расшифровать",
+    "shiftLabel": "Сдвиг (0–25)",
+    "keywordLabel": "Ключевое слово",
+    "keywordPlaceholder": "напр. SECRET",
+    "inputLabel": "Входной текст",
+    "outputLabel": "Результат",
+    "processButton": "Выполнить",
+    "clearButton": "Очистить",
+    "copyButton": "Копировать"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "Расширение → MIME",
+    "mimeTab": "MIME → Расширение",
+    "extensionLabel": "Расширение файла",
+    "extensionPlaceholder": "напр. jpg или .png",
+    "mimeLabel": "MIME-тип",
+    "mimePlaceholder": "напр. image/jpeg",
+    "lookupButton": "Найти",
+    "resultLabel": "Результат",
+    "notFound": "Не найдено",
+    "commonTypesLabel": "Распространённые MIME-типы"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "Пол",
+    "men": "Мужской",
+    "women": "Женский",
+    "usMenLabel": "США Мужской",
+    "usWomenLabel": "США Женский",
+    "euLabel": "ЕС",
+    "ukLabel": "Великобритания",
+    "jpLabel": "Япония (см)",
+    "clearButton": "Очистить",
+    "note": "Размеры приблизительные. По возможности всегда примеряйте обувь."
+  },
+  "NatoAlphabet": {
+    "inputLabel": "Текст для конвертации",
+    "inputPlaceholder": "Введите или вставьте текст сюда...",
+    "outputLabel": "Фонетическое написание НАТО",
+    "copyButton": "Копировать",
+    "clearButton": "Очистить",
+    "referenceTitle": "Справочник Фонетического Алфавита НАТО"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "Текст для проверки",
+    "inputPlaceholder": "Введите или вставьте символы...",
+    "columnChar": "Символ",
+    "columnCodePoint": "Кодовая точка",
+    "columnName": "Название",
+    "columnCategory": "Категория",
+    "columnHtmlEntity": "HTML-сущность",
+    "copyAll": "Копировать всё",
+    "clearButton": "Очистить"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "Годовые расходы",
+    "annualExpensesPlaceholder": "напр. 40000",
+    "currentSavingsLabel": "Текущие сбережения/инвестиции",
+    "annualSavingsLabel": "Годовые сбережения",
+    "returnRateLabel": "Ожидаемая годовая доходность (%)",
+    "withdrawalRateLabel": "Безопасная ставка изъятия (%)",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "fireNumberLabel": "Число FIRE",
+    "fireNumberDesc": "Общие сбережения, необходимые для выхода на пенсию",
+    "yearsToFireLabel": "Лет до FIRE",
+    "savingsRateLabel": "Норма сбережений",
+    "alreadyFire": "Вы уже достигли FIRE!"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "Цена акции",
+    "annualDividendLabel": "Годовой дивиденд на акцию",
+    "sharesLabel": "Количество акций",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "dividendYieldLabel": "Дивидендная доходность",
+    "annualIncomeLabel": "Годовой доход",
+    "monthlyIncomeLabel": "Ежемесячный доход",
+    "quarterlyIncomeLabel": "Квартальный доход",
+    "totalInvestmentLabel": "Общие инвестиции"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "Первый день последней менструации (LMP)",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "dueDateLabel": "Предполагаемая дата родов",
+    "gestationalAgeLabel": "Текущий срок беременности",
+    "weeks": "{weeks} недель",
+    "weeksAndDays": "{weeks} нед. {days} дн.",
+    "trimesterLabel": "Триместр",
+    "first": "1-й триместр",
+    "second": "2-й триместр",
+    "third": "3-й триместр",
+    "milestonesTitle": "Ключевые этапы",
+    "milestone8w": "8 недель — Первое УЗИ",
+    "milestone12w": "12 недель — Конец 1-го триместра",
+    "milestone20w": "20 недель — Анатомическое УЗИ",
+    "milestone28w": "28 недель — Конец 2-го триместра",
+    "milestone37w": "37 недель — Доношенный срок",
+    "milestone40w": "40 недель — Дата родов"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "Поднятый вес",
+    "repsLabel": "Выполненные повторения",
+    "weightUnitLabel": "Единица",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "resultsTitle": "Расчётный 1ПМ по формуле",
+    "epley": "Эпли",
+    "brzycki": "Бжицки",
+    "lander": "Лэндер",
+    "lombardi": "Ломбарди",
+    "percentageTitle": "Тренировочные проценты",
+    "percentageDesc": "На основе средней оценки"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "Фигура",
+    "circle": "Круг",
+    "rectangle": "Прямоугольник",
+    "triangle": "Треугольник",
+    "square": "Квадрат",
+    "trapezoid": "Трапеция",
+    "ellipse": "Эллипс",
+    "sphere": "Сфера",
+    "cylinder": "Цилиндр",
+    "cone": "Конус",
+    "radiusLabel": "Радиус (r)",
+    "widthLabel": "Ширина (a)",
+    "heightLabel": "Высота (b или h)",
+    "sideLabel": "Сторона (a)",
+    "side1Label": "Сторона a",
+    "side2Label": "Сторона b",
+    "side3Label": "Сторона c",
+    "parallelSide1": "Параллельная сторона a",
+    "parallelSide2": "Параллельная сторона b",
+    "semiMajorLabel": "Большая полуось (a)",
+    "semiMinorLabel": "Малая полуось (b)",
+    "slantHeightLabel": "Образующая (l)",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "areaLabel": "Площадь",
+    "perimeterLabel": "Периметр / Длина окружности",
+    "volumeLabel": "Объём",
+    "surfaceAreaLabel": "Площадь поверхности"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "Напряжение (V) — Вольты",
+    "currentLabel": "Ток (I) — Амперы",
+    "resistanceLabel": "Сопротивление (R) — Омы (Ω)",
+    "powerLabel": "Мощность (P) — Ватты",
+    "inputHint": "Введите любые два значения для расчёта двух других",
+    "calculateButton": "Рассчитать",
+    "clearButton": "Очистить",
+    "formulasTitle": "Формулы",
+    "unknownCombination": "Пожалуйста, введите ровно два значения."
   }
 }

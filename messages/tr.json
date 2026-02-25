@@ -824,6 +824,78 @@
       "description": "Calculate 2D and 3D vector addition, subtraction, dot product, cross product, and magnitude.",
       "metaTitle": "Vector Calculator",
       "metaDescription": "Calculate 2D and 3D vector operations: addition, subtraction, dot product, cross product, and magnitude."
+    },
+    "cipher-tool": {
+      "name": "Şifreleme Aracı",
+      "description": "Sezar, ROT13 ve Vigenère şifreleriyle metni şifreleyin ve çözün.",
+      "metaTitle": "Şifreleme Aracı — Sezar, ROT13 ve Vigenère",
+      "metaDescription": "Sezar şifresi, ROT13 ve Vigenère şifresiyle metni şifreleyin ve çözün. Ücretsiz online kriptografi aracı."
+    },
+    "mime-type-lookup": {
+      "name": "MIME Türü Arama",
+      "description": "Dosya uzantısına göre MIME türünü veya MIME türüne göre uzantıları bulun.",
+      "metaTitle": "MIME Türü Arama",
+      "metaDescription": "Dosya uzantısına (jpg, pdf, mp4...) göre MIME türünü veya tersini arayın. Ücretsiz referans aracı."
+    },
+    "frequency-converter": {
+      "name": "Frekans Dönüştürücü",
+      "description": "Hz, kHz, MHz, GHz, THz ve RPM arasında dönüştürün.",
+      "metaTitle": "Frekans Dönüştürücü",
+      "metaDescription": "Hertz, Kilohertz, Megahertz, Gigahertz, Terahertz ve RPM arasında dönüştürün. Ücretsiz online frekans dönüştürücü."
+    },
+    "shoe-size-converter": {
+      "name": "Ayakkabı Numarası Dönüştürücü",
+      "description": "ABD, AB, İngiltere ve Japonya ayakkabı numaraları arasında dönüştürün.",
+      "metaTitle": "Ayakkabı Numarası Dönüştürücü",
+      "metaDescription": "ABD, AB, İngiltere ve Japonya (cm) ayakkabı numarası sistemleri arasında erkek ve kadın için dönüşüm yapın."
+    },
+    "nato-alphabet": {
+      "name": "NATO Fonetik Alfabesi",
+      "description": "Metni net iletişim için NATO fonetik alfabesine dönüştürün.",
+      "metaTitle": "NATO Fonetik Alfabesi Dönüştürücü",
+      "metaDescription": "Herhangi bir metni NATO fonetik alfabesine (Alpha, Bravo, Charlie...) dönüştürün."
+    },
+    "unicode-inspector": {
+      "name": "Unicode Denetçisi",
+      "description": "Herhangi bir karakterin Unicode kod noktasını, adını, kategorisini ve HTML varlığını inceleyin.",
+      "metaTitle": "Unicode Denetçisi",
+      "metaDescription": "Unicode karakterleri inceleyin: kod noktaları (U+XXXX), adlar, kategoriler ve HTML varlıkları."
+    },
+    "fire-calculator": {
+      "name": "FIRE Hesaplayıcı",
+      "description": "Finansal bağımsızlık sayınızı ve erken emeklilik için gereken yılları hesaplayın.",
+      "metaTitle": "FIRE Hesaplayıcı — Finansal Bağımsızlık ve Erken Emeklilik",
+      "metaDescription": "%4 kuralını kullanarak FIRE sayınızı hesaplayın ve erken emekliliğe kaç yıl kaldığını öğrenin."
+    },
+    "dividend-calculator": {
+      "name": "Temettü Hesaplayıcı",
+      "description": "Temettü verimi, yıllık ve aylık geliri hesaplayın.",
+      "metaTitle": "Temettü Hesaplayıcı",
+      "metaDescription": "Hisse senedi yatırımlarınızdan temettü verimini, yıllık ve aylık geliri hesaplayın."
+    },
+    "due-date-calculator": {
+      "name": "Doğum Tarihi Hesaplayıcı",
+      "description": "Tahmini doğum tarihinizi hesaplayın ve gebelik kilometre taşlarını takip edin.",
+      "metaTitle": "Doğum Tarihi Hesaplayıcı",
+      "metaDescription": "Naegele kuralıyla tahmini doğum tarihini hesaplayın. Trimester ilerlemesini ve önemli kilometre taşlarını takip edin."
+    },
+    "one-rep-max-calculator": {
+      "name": "Tek Tekrar Maksimum Hesaplayıcı",
+      "description": "Epley, Brzycki ve diğer formüllerle 1TM maksimumunuzu tahmin edin.",
+      "metaTitle": "1TM (Tek Tekrar Maksimum) Hesaplayıcı",
+      "metaDescription": "Epley, Brzycki, Lander ve Lombardi formülleriyle tek tekrar maksimumunuzu (1TM) tahmin edin."
+    },
+    "geometry-calculator": {
+      "name": "Geometri Hesaplayıcı",
+      "description": "Daire, dikdörtgen, üçgen ve daha fazlasının alan, çevre ve hacmini hesaplayın.",
+      "metaTitle": "Geometri Hesaplayıcı",
+      "metaDescription": "Daire, dikdörtgen, üçgen, küre, silindir ve koniler için alan, çevre ve hacim hesaplayın."
+    },
+    "ohm-law-calculator": {
+      "name": "Ohm Yasası Hesaplayıcı",
+      "description": "Ohm Yasasını kullanarak voltaj, akım, direnç ve gücü hesaplayın.",
+      "metaTitle": "Ohm Yasası Hesaplayıcı",
+      "metaDescription": "Ohm Yasası V=IR kullanarak voltaj (V), akım (I), direnç (R) ve güç (P) hesaplayın."
     }
   },
   "Common": {
@@ -2571,5 +2643,167 @@
     "zLabel": "z",
     "degreesLabel": "degrees",
     "invalidInput": "Please enter valid numbers for all vector components."
+  },
+  "CipherTool": {
+    "cipherLabel": "Şifre türü",
+    "caesar": "Sezar",
+    "rot13": "ROT13",
+    "vigenere": "Vigenère",
+    "modeLabel": "Mod",
+    "encode": "Şifrele",
+    "decode": "Çöz",
+    "shiftLabel": "Kaydırma (0–25)",
+    "keywordLabel": "Anahtar kelime",
+    "keywordPlaceholder": "örn. SECRET",
+    "inputLabel": "Giriş metni",
+    "outputLabel": "Çıkış",
+    "processButton": "İşle",
+    "clearButton": "Temizle",
+    "copyButton": "Kopyala"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "Uzantı → MIME",
+    "mimeTab": "MIME → Uzantı",
+    "extensionLabel": "Dosya uzantısı",
+    "extensionPlaceholder": "örn. jpg veya .png",
+    "mimeLabel": "MIME türü",
+    "mimePlaceholder": "örn. image/jpeg",
+    "lookupButton": "Ara",
+    "resultLabel": "Sonuç",
+    "notFound": "Bulunamadı",
+    "commonTypesLabel": "Yaygın MIME türleri"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "Cinsiyet",
+    "men": "Erkek",
+    "women": "Kadın",
+    "usMenLabel": "ABD Erkek",
+    "usWomenLabel": "ABD Kadın",
+    "euLabel": "AB",
+    "ukLabel": "Birleşik Krallık",
+    "jpLabel": "Japonya (cm)",
+    "clearButton": "Temizle",
+    "note": "Numaralar yaklaşıktır. Mümkün olduğunda daima deneyin."
+  },
+  "NatoAlphabet": {
+    "inputLabel": "Dönüştürülecek metin",
+    "inputPlaceholder": "Metni buraya yazın veya yapıştırın...",
+    "outputLabel": "NATO fonetik yazım",
+    "copyButton": "Kopyala",
+    "clearButton": "Temizle",
+    "referenceTitle": "NATO Alfabesi Referansı"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "İncelenecek metin",
+    "inputPlaceholder": "Karakterleri yazın veya yapıştırın...",
+    "columnChar": "Karakter",
+    "columnCodePoint": "Kod noktası",
+    "columnName": "Ad",
+    "columnCategory": "Kategori",
+    "columnHtmlEntity": "HTML varlığı",
+    "copyAll": "Tümünü kopyala",
+    "clearButton": "Temizle"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "Yıllık harcamalar",
+    "annualExpensesPlaceholder": "örn. 40000",
+    "currentSavingsLabel": "Mevcut tasarruf/yatırımlar",
+    "annualSavingsLabel": "Yıllık tasarruf",
+    "returnRateLabel": "Beklenen yıllık getiri (%)",
+    "withdrawalRateLabel": "Güvenli çekim oranı (%)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "fireNumberLabel": "FIRE Sayısı",
+    "fireNumberDesc": "Emeklilik için gereken toplam tasarruf",
+    "yearsToFireLabel": "FIRE'a kalan yıllar",
+    "savingsRateLabel": "Tasarruf oranı",
+    "alreadyFire": "FIRE'a zaten ulaştınız!"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "Hisse fiyatı",
+    "annualDividendLabel": "Hisse başına yıllık temettü",
+    "sharesLabel": "Hisse adedi",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "dividendYieldLabel": "Temettü verimi",
+    "annualIncomeLabel": "Yıllık gelir",
+    "monthlyIncomeLabel": "Aylık gelir",
+    "quarterlyIncomeLabel": "Çeyreklik gelir",
+    "totalInvestmentLabel": "Toplam yatırım"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "Son adet döneminin ilk günü (LMP)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "dueDateLabel": "Tahmini doğum tarihi",
+    "gestationalAgeLabel": "Mevcut gebelik haftası",
+    "weeks": "{weeks} hafta",
+    "weeksAndDays": "{weeks} hafta, {days} gün",
+    "trimesterLabel": "Trimester",
+    "first": "1. Trimester",
+    "second": "2. Trimester",
+    "third": "3. Trimester",
+    "milestonesTitle": "Önemli kilometre taşları",
+    "milestone8w": "8. hafta — İlk ultrason",
+    "milestone12w": "12. hafta — 1. trimester sonu",
+    "milestone20w": "20. hafta — Anatomik ultrason",
+    "milestone28w": "28. hafta — 2. trimester sonu",
+    "milestone37w": "37. hafta — Miadında doğum",
+    "milestone40w": "40. hafta — Doğum tarihi"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "Kaldırılan ağırlık",
+    "repsLabel": "Yapılan tekrar",
+    "weightUnitLabel": "Birim",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "resultsTitle": "Formüle göre tahmini 1TM",
+    "epley": "Epley",
+    "brzycki": "Brzycki",
+    "lander": "Lander",
+    "lombardi": "Lombardi",
+    "percentageTitle": "Antrenman yüzdeleri",
+    "percentageDesc": "Ortalama tahmini esas alınarak"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "Şekil",
+    "circle": "Daire",
+    "rectangle": "Dikdörtgen",
+    "triangle": "Üçgen",
+    "square": "Kare",
+    "trapezoid": "Yamuk",
+    "ellipse": "Elips",
+    "sphere": "Küre",
+    "cylinder": "Silindir",
+    "cone": "Koni",
+    "radiusLabel": "Yarıçap (r)",
+    "widthLabel": "Genişlik (a)",
+    "heightLabel": "Yükseklik (b veya h)",
+    "sideLabel": "Kenar (a)",
+    "side1Label": "Kenar a",
+    "side2Label": "Kenar b",
+    "side3Label": "Kenar c",
+    "parallelSide1": "Paralel kenar a",
+    "parallelSide2": "Paralel kenar b",
+    "semiMajorLabel": "Büyük yarı eksen (a)",
+    "semiMinorLabel": "Küçük yarı eksen (b)",
+    "slantHeightLabel": "Eğik yükseklik (l)",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "areaLabel": "Alan",
+    "perimeterLabel": "Çevre / Çember",
+    "volumeLabel": "Hacim",
+    "surfaceAreaLabel": "Yüzey alanı"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "Voltaj (V) — Volt",
+    "currentLabel": "Akım (I) — Amper",
+    "resistanceLabel": "Direnç (R) — Ohm (Ω)",
+    "powerLabel": "Güç (P) — Watt",
+    "inputHint": "Diğer iki değeri hesaplamak için herhangi iki değer girin",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "formulasTitle": "Formüller",
+    "unknownCombination": "Lütfen tam olarak iki değer girin."
   }
 }

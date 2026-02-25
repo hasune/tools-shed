@@ -136,4 +136,22 @@ export const financeTools: Tool[] = [
     icon: "📈",
     keywords: ["stock", "profit", "loss", "roi", "shares", "buy", "sell", "investment", "return"],
   },
+  {
+    slug: "fire-calculator",
+    name: "FIRE Calculator",
+    description: "Calculate your Financial Independence number and years to retirement using the 4% rule.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "🔥",
+    keywords: ["fire", "financial independence", "retire early", "4% rule", "savings rate", "retirement", "calculator"],
+  },
+  {
+    slug: "dividend-calculator",
+    name: "Dividend Calculator",
+    description: "Calculate dividend yield, annual income, and monthly income from stock dividends.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "💰",
+    keywords: ["dividend", "yield", "income", "stock", "shares", "annual", "monthly", "calculator"],
+  },
 ];

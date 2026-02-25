@@ -824,6 +824,78 @@
       "description": "Calculate 2D and 3D vector addition, subtraction, dot product, cross product, and magnitude.",
       "metaTitle": "Vector Calculator",
       "metaDescription": "Calculate 2D and 3D vector operations: addition, subtraction, dot product, cross product, and magnitude."
+    },
+    "cipher-tool": {
+      "name": "Alat Sandi",
+      "description": "Enkripsi dan dekripsi teks dengan sandi Caesar, ROT13, dan Vigenère.",
+      "metaTitle": "Alat Sandi — Caesar, ROT13 & Vigenère",
+      "metaDescription": "Enkripsi dan dekripsi teks menggunakan sandi Caesar, ROT13, dan Vigenère. Alat kriptografi gratis online."
+    },
+    "mime-type-lookup": {
+      "name": "Pencarian Tipe MIME",
+      "description": "Cari tipe MIME berdasarkan ekstensi file atau temukan ekstensi untuk tipe MIME.",
+      "metaTitle": "Pencarian Tipe MIME",
+      "metaDescription": "Cari tipe MIME berdasarkan ekstensi file (jpg, pdf, mp4...) atau sebaliknya. Alat referensi gratis."
+    },
+    "frequency-converter": {
+      "name": "Konverter Frekuensi",
+      "description": "Konversi antara Hz, kHz, MHz, GHz, THz, dan RPM.",
+      "metaTitle": "Konverter Frekuensi",
+      "metaDescription": "Konversi antara Hertz, Kilohertz, Megahertz, Gigahertz, Terahertz, dan RPM. Konverter frekuensi gratis online."
+    },
+    "shoe-size-converter": {
+      "name": "Konverter Ukuran Sepatu",
+      "description": "Konversi ukuran sepatu antara sistem AS, EU, UK, dan Jepang.",
+      "metaTitle": "Konverter Ukuran Sepatu",
+      "metaDescription": "Konversi ukuran sepatu antara sistem AS, EU, UK, dan Jepang (cm) untuk pria dan wanita."
+    },
+    "nato-alphabet": {
+      "name": "Alfabet Fonetik NATO",
+      "description": "Konversi teks ke alfabet fonetik NATO untuk komunikasi yang jelas.",
+      "metaTitle": "Konverter Alfabet Fonetik NATO",
+      "metaDescription": "Konversi teks apa pun ke alfabet fonetik NATO (Alpha, Bravo, Charlie...)."
+    },
+    "unicode-inspector": {
+      "name": "Inspektur Unicode",
+      "description": "Periksa titik kode, nama, kategori, dan entitas HTML dari karakter apa pun.",
+      "metaTitle": "Inspektur Unicode",
+      "metaDescription": "Periksa karakter Unicode: titik kode (U+XXXX), nama, kategori, dan entitas HTML."
+    },
+    "fire-calculator": {
+      "name": "Kalkulator FIRE",
+      "description": "Hitung angka independensi finansial Anda dan tahun menuju pensiun dini.",
+      "metaTitle": "Kalkulator FIRE — Independensi Finansial & Pensiun Dini",
+      "metaDescription": "Hitung angka FIRE Anda menggunakan aturan 4% dan cari tahu berapa tahun lagi hingga pensiun dini."
+    },
+    "dividend-calculator": {
+      "name": "Kalkulator Dividen",
+      "description": "Hitung hasil dividen, pendapatan tahunan, dan pendapatan bulanan.",
+      "metaTitle": "Kalkulator Dividen",
+      "metaDescription": "Hitung hasil dividen, pendapatan dividen tahunan dan bulanan dari investasi saham Anda."
+    },
+    "due-date-calculator": {
+      "name": "Kalkulator Tanggal Kelahiran",
+      "description": "Hitung perkiraan tanggal kelahiran dan pantau tonggak kehamilan.",
+      "metaTitle": "Kalkulator Tanggal Kelahiran",
+      "metaDescription": "Hitung perkiraan tanggal kelahiran menggunakan aturan Naegele. Pantau perkembangan trimester dan tonggak kehamilan."
+    },
+    "one-rep-max-calculator": {
+      "name": "Kalkulator Repetisi Maksimum",
+      "description": "Perkirakan 1RM maksimum Anda menggunakan rumus Epley, Brzycki, dan lainnya.",
+      "metaTitle": "Kalkulator 1RM (Repetisi Maksimum)",
+      "metaDescription": "Perkirakan repetisi maksimum (1RM) menggunakan rumus Epley, Brzycki, Lander, dan Lombardi."
+    },
+    "geometry-calculator": {
+      "name": "Kalkulator Geometri",
+      "description": "Hitung luas, keliling, dan volume lingkaran, persegi panjang, segitiga, dan lainnya.",
+      "metaTitle": "Kalkulator Geometri",
+      "metaDescription": "Hitung luas, keliling, dan volume untuk lingkaran, persegi panjang, segitiga, bola, silinder, dan kerucut."
+    },
+    "ohm-law-calculator": {
+      "name": "Kalkulator Hukum Ohm",
+      "description": "Hitung tegangan, arus, resistansi, dan daya menggunakan Hukum Ohm.",
+      "metaTitle": "Kalkulator Hukum Ohm",
+      "metaDescription": "Hitung tegangan (V), arus (I), resistansi (R), dan daya (P) menggunakan Hukum Ohm V=IR."
     }
   },
   "Common": {
@@ -2571,5 +2643,167 @@
     "zLabel": "z",
     "degreesLabel": "degrees",
     "invalidInput": "Please enter valid numbers for all vector components."
+  },
+  "CipherTool": {
+    "cipherLabel": "Jenis sandi",
+    "caesar": "Caesar",
+    "rot13": "ROT13",
+    "vigenere": "Vigenère",
+    "modeLabel": "Mode",
+    "encode": "Enkripsi",
+    "decode": "Dekripsi",
+    "shiftLabel": "Pergeseran (0–25)",
+    "keywordLabel": "Kata kunci",
+    "keywordPlaceholder": "mis. SECRET",
+    "inputLabel": "Teks masukan",
+    "outputLabel": "Keluaran",
+    "processButton": "Proses",
+    "clearButton": "Hapus",
+    "copyButton": "Salin"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "Ekstensi → MIME",
+    "mimeTab": "MIME → Ekstensi",
+    "extensionLabel": "Ekstensi file",
+    "extensionPlaceholder": "mis. jpg atau .png",
+    "mimeLabel": "Tipe MIME",
+    "mimePlaceholder": "mis. image/jpeg",
+    "lookupButton": "Cari",
+    "resultLabel": "Hasil",
+    "notFound": "Tidak ditemukan",
+    "commonTypesLabel": "Tipe MIME umum"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "Jenis Kelamin",
+    "men": "Pria",
+    "women": "Wanita",
+    "usMenLabel": "AS Pria",
+    "usWomenLabel": "AS Wanita",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "Jepang (cm)",
+    "clearButton": "Hapus",
+    "note": "Ukuran bersifat perkiraan. Selalu coba sepatu jika memungkinkan."
+  },
+  "NatoAlphabet": {
+    "inputLabel": "Teks untuk dikonversi",
+    "inputPlaceholder": "Ketik atau tempel teks di sini...",
+    "outputLabel": "Ejaan fonetik NATO",
+    "copyButton": "Salin",
+    "clearButton": "Hapus",
+    "referenceTitle": "Referensi Alfabet NATO"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "Teks untuk diperiksa",
+    "inputPlaceholder": "Ketik atau tempel karakter...",
+    "columnChar": "Karakter",
+    "columnCodePoint": "Titik Kode",
+    "columnName": "Nama",
+    "columnCategory": "Kategori",
+    "columnHtmlEntity": "Entitas HTML",
+    "copyAll": "Salin Semua",
+    "clearButton": "Hapus"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "Pengeluaran tahunan",
+    "annualExpensesPlaceholder": "mis. 40000",
+    "currentSavingsLabel": "Tabungan/investasi saat ini",
+    "annualSavingsLabel": "Tabungan tahunan",
+    "returnRateLabel": "Perkiraan return tahunan (%)",
+    "withdrawalRateLabel": "Tingkat penarikan aman (%)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "fireNumberLabel": "Angka FIRE",
+    "fireNumberDesc": "Total tabungan yang dibutuhkan untuk pensiun",
+    "yearsToFireLabel": "Tahun menuju FIRE",
+    "savingsRateLabel": "Tingkat tabungan",
+    "alreadyFire": "Anda sudah mencapai FIRE!"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "Harga saham",
+    "annualDividendLabel": "Dividen tahunan per saham",
+    "sharesLabel": "Jumlah saham",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "dividendYieldLabel": "Hasil dividen",
+    "annualIncomeLabel": "Pendapatan tahunan",
+    "monthlyIncomeLabel": "Pendapatan bulanan",
+    "quarterlyIncomeLabel": "Pendapatan triwulanan",
+    "totalInvestmentLabel": "Total investasi"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "Hari pertama menstruasi terakhir (LMP)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "dueDateLabel": "Perkiraan tanggal kelahiran",
+    "gestationalAgeLabel": "Usia kehamilan saat ini",
+    "weeks": "{weeks} minggu",
+    "weeksAndDays": "{weeks} minggu, {days} hari",
+    "trimesterLabel": "Trimester",
+    "first": "Trimester 1",
+    "second": "Trimester 2",
+    "third": "Trimester 3",
+    "milestonesTitle": "Tonggak penting",
+    "milestone8w": "8 minggu — USG pertama",
+    "milestone12w": "12 minggu — Akhir trimester 1",
+    "milestone20w": "20 minggu — USG anatomi",
+    "milestone28w": "28 minggu — Akhir trimester 2",
+    "milestone37w": "37 minggu — Aterm",
+    "milestone40w": "40 minggu — Tanggal kelahiran"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "Beban yang diangkat",
+    "repsLabel": "Repetisi yang dilakukan",
+    "weightUnitLabel": "Satuan",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "resultsTitle": "Perkiraan 1RM per rumus",
+    "epley": "Epley",
+    "brzycki": "Brzycki",
+    "lander": "Lander",
+    "lombardi": "Lombardi",
+    "percentageTitle": "Persentase latihan",
+    "percentageDesc": "Berdasarkan estimasi rata-rata"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "Bentuk",
+    "circle": "Lingkaran",
+    "rectangle": "Persegi panjang",
+    "triangle": "Segitiga",
+    "square": "Persegi",
+    "trapezoid": "Trapesium",
+    "ellipse": "Elips",
+    "sphere": "Bola",
+    "cylinder": "Silinder",
+    "cone": "Kerucut",
+    "radiusLabel": "Jari-jari (r)",
+    "widthLabel": "Lebar (a)",
+    "heightLabel": "Tinggi (b atau h)",
+    "sideLabel": "Sisi (a)",
+    "side1Label": "Sisi a",
+    "side2Label": "Sisi b",
+    "side3Label": "Sisi c",
+    "parallelSide1": "Sisi sejajar a",
+    "parallelSide2": "Sisi sejajar b",
+    "semiMajorLabel": "Sumbu semi-mayor (a)",
+    "semiMinorLabel": "Sumbu semi-minor (b)",
+    "slantHeightLabel": "Tinggi miring (l)",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "areaLabel": "Luas",
+    "perimeterLabel": "Keliling / Lingkaran",
+    "volumeLabel": "Volume",
+    "surfaceAreaLabel": "Luas permukaan"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "Tegangan (V) — Volt",
+    "currentLabel": "Arus (I) — Ampere",
+    "resistanceLabel": "Resistansi (R) — Ohm (Ω)",
+    "powerLabel": "Daya (P) — Watt",
+    "inputHint": "Masukkan dua nilai mana saja untuk menghitung dua nilai lainnya",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "formulasTitle": "Rumus",
+    "unknownCombination": "Harap masukkan tepat dua nilai."
   }
 }

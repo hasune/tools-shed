@@ -154,4 +154,22 @@ export const mathTools: Tool[] = [
     icon: "→",
     keywords: ["vector", "dot product", "cross product", "magnitude", "2d", "3d", "math", "physics"],
   },
+  {
+    slug: "geometry-calculator",
+    name: "Geometry Calculator",
+    description: "Calculate area, perimeter, and volume of circles, rectangles, triangles, spheres, and more.",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "📐",
+    keywords: ["geometry", "area", "perimeter", "volume", "circle", "rectangle", "triangle", "sphere", "cylinder"],
+  },
+  {
+    slug: "ohm-law-calculator",
+    name: "Ohm's Law Calculator",
+    description: "Calculate voltage, current, resistance, and power using Ohm's Law (V = IR).",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "Ω",
+    keywords: ["ohm", "voltage", "current", "resistance", "power", "v=ir", "electronics", "circuit", "calculator"],
+  },
 ];

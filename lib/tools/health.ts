@@ -118,4 +118,22 @@ export const healthTools: Tool[] = [
     icon: "📆",
     keywords: ["menstrual", "period", "cycle", "fertile", "ovulation", "fertility", "calculator"],
   },
+  {
+    slug: "due-date-calculator",
+    name: "Pregnancy Due Date Calculator",
+    description: "Calculate your estimated due date using Naegele's rule and track key pregnancy milestones.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🤰",
+    keywords: ["pregnancy", "due date", "naegele", "gestational age", "trimester", "baby", "calculator"],
+  },
+  {
+    slug: "one-rep-max-calculator",
+    name: "One Rep Max Calculator",
+    description: "Estimate your 1RM maximum lift using Epley, Brzycki, and other popular formulas.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🏋️",
+    keywords: ["1rm", "one rep max", "weightlifting", "strength", "epley", "brzycki", "fitness", "gym"],
+  },
 ];

@@ -172,4 +172,22 @@ export const textTools: Tool[] = [
     icon: "🎙️",
     keywords: ["speech", "voice", "recognition", "transcribe", "dictate", "microphone", "text"],
   },
+  {
+    slug: "nato-alphabet",
+    name: "NATO Phonetic Alphabet",
+    description: "Convert text to NATO phonetic alphabet (Alpha, Bravo, Charlie...) for clear communication.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "📡",
+    keywords: ["nato", "phonetic", "alphabet", "alpha", "bravo", "charlie", "spelling", "aviation", "military"],
+  },
+  {
+    slug: "unicode-inspector",
+    name: "Unicode Inspector",
+    description: "Inspect any character's Unicode code point, name, category, and HTML entity.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "U+",
+    keywords: ["unicode", "code point", "character", "utf-8", "utf-16", "html entity", "inspect"],
+  },
 ];

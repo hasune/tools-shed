@@ -307,4 +307,22 @@ export const developerTools: Tool[] = [
     icon: "JWT",
     keywords: ["jwt", "json web token", "generate", "sign", "hs256", "auth", "bearer", "token"],
   },
+  {
+    slug: "cipher-tool",
+    name: "Cipher Tool",
+    description: "Encode and decode text with Caesar, ROT13, and Vigenère ciphers.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "🔐",
+    keywords: ["cipher", "caesar", "rot13", "vigenere", "encrypt", "decrypt", "encode", "decode", "cryptography"],
+  },
+  {
+    slug: "mime-type-lookup",
+    name: "MIME Type Lookup",
+    description: "Look up MIME types by file extension or find extensions for a given MIME type.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "📄",
+    keywords: ["mime", "type", "content-type", "file extension", "media type", "http", "lookup"],
+  },
 ];

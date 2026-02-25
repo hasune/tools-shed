@@ -824,6 +824,78 @@
       "description": "2D·3D 벡터의 덧셈·내적·외적·각도를 계산합니다.",
       "metaTitle": "벡터 계산기",
       "metaDescription": "2D·3D 벡터의 덧셈, 뺄셈, 내적, 외적, 크기, 각도 계산."
+    },
+    "cipher-tool": {
+      "name": "암호 도구",
+      "description": "시저, ROT13, 비제네르 암호로 텍스트를 암호화·복호화합니다.",
+      "metaTitle": "암호 도구 — 시저·ROT13·비제네르",
+      "metaDescription": "시저 암호, ROT13, 비제네르 암호로 텍스트를 암호화·복호화합니다. 무료 온라인 암호화 도구."
+    },
+    "mime-type-lookup": {
+      "name": "MIME 타입 조회",
+      "description": "파일 확장자로 MIME 타입을 찾거나 MIME 타입으로 확장자를 검색합니다.",
+      "metaTitle": "MIME 타입 조회",
+      "metaDescription": "파일 확장자(jpg, pdf, mp4...)로 MIME 타입을 검색하거나 MIME 타입으로 확장자를 찾습니다."
+    },
+    "frequency-converter": {
+      "name": "주파수 변환기",
+      "description": "Hz, kHz, MHz, GHz, THz, RPM 간 변환합니다.",
+      "metaTitle": "주파수 변환기",
+      "metaDescription": "헤르츠, 킬로헤르츠, 메가헤르츠, 기가헤르츠, 테라헤르츠, RPM 간 변환. 무료 온라인 주파수 변환기."
+    },
+    "shoe-size-converter": {
+      "name": "신발 사이즈 변환기",
+      "description": "US, EU, UK, 일본 단위의 신발 사이즈를 변환합니다.",
+      "metaTitle": "신발 사이즈 변환기",
+      "metaDescription": "US, EU, UK, 일본(cm) 신발 사이즈 변환. 남성·여성 모두 지원."
+    },
+    "nato-alphabet": {
+      "name": "NATO 음성 알파벳",
+      "description": "텍스트를 NATO 음성 알파벳으로 변환합니다.",
+      "metaTitle": "NATO 음성 알파벳 변환기",
+      "metaDescription": "텍스트를 NATO 음성 알파벳(Alpha, Bravo, Charlie...)으로 변환합니다."
+    },
+    "unicode-inspector": {
+      "name": "유니코드 인스펙터",
+      "description": "문자의 유니코드 코드 포인트, 이름, 카테고리, HTML 엔티티를 확인합니다.",
+      "metaTitle": "유니코드 인스펙터",
+      "metaDescription": "유니코드 문자의 코드 포인트(U+XXXX), 이름, 카테고리, HTML 엔티티를 확인할 수 있습니다."
+    },
+    "fire-calculator": {
+      "name": "FIRE 계산기",
+      "description": "재정적 독립에 필요한 자산과 조기 은퇴까지의 기간을 계산합니다.",
+      "metaTitle": "FIRE 계산기 — 재정적 독립과 조기 은퇴",
+      "metaDescription": "4% 룰을 사용한 FIRE 달성 금액 계산과 조기 은퇴까지의 연수를 산출합니다."
+    },
+    "dividend-calculator": {
+      "name": "배당금 계산기",
+      "description": "배당 수익률, 연간 배당 소득, 월간 배당 소득을 계산합니다.",
+      "metaTitle": "배당금 계산기",
+      "metaDescription": "배당 수익률, 연간 배당 소득, 월간 배당 소득을 계산합니다."
+    },
+    "due-date-calculator": {
+      "name": "출산 예정일 계산기",
+      "description": "출산 예정일을 계산하고 임신 주요 마일스톤을 추적합니다.",
+      "metaTitle": "출산 예정일 계산기",
+      "metaDescription": "네겔레 공식으로 출산 예정일을 계산합니다. 임신 기간과 주요 마일스톤을 확인하세요."
+    },
+    "one-rep-max-calculator": {
+      "name": "1회 최대 중량 계산기",
+      "description": "엡리, 브르지키 등의 공식으로 1RM을 추정합니다.",
+      "metaTitle": "1회 최대 중량(1RM) 계산기",
+      "metaDescription": "엡리, 브르지키, 란더, 롬바르디 공식으로 1RM을 추정합니다. 훈련 중량 비율표를 생성합니다."
+    },
+    "geometry-calculator": {
+      "name": "기하 계산기",
+      "description": "원, 직사각형, 삼각형 등의 넓이, 둘레, 부피를 계산합니다.",
+      "metaTitle": "기하 계산기",
+      "metaDescription": "원, 직사각형, 삼각형, 구, 원기둥, 원뿔의 넓이, 둘레, 부피를 계산합니다."
+    },
+    "ohm-law-calculator": {
+      "name": "옴의 법칙 계산기",
+      "description": "옴의 법칙으로 전압, 전류, 저항, 전력을 계산합니다.",
+      "metaTitle": "옴의 법칙 계산기",
+      "metaDescription": "옴의 법칙 V=IR로 전압(V), 전류(I), 저항(R), 전력(P)을 계산합니다. 무료 전자공학 계산기."
     }
   },
   "Common": {
@@ -2572,5 +2644,167 @@
     "zLabel": "z",
     "degreesLabel": "도",
     "invalidInput": "모든 벡터 성분에 유효한 숫자를 입력하세요."
+  },
+  "CipherTool": {
+    "cipherLabel": "암호 유형",
+    "caesar": "시저",
+    "rot13": "ROT13",
+    "vigenere": "비제네르",
+    "modeLabel": "모드",
+    "encode": "암호화",
+    "decode": "복호화",
+    "shiftLabel": "시프트 (0–25)",
+    "keywordLabel": "키워드",
+    "keywordPlaceholder": "예: SECRET",
+    "inputLabel": "입력 텍스트",
+    "outputLabel": "출력",
+    "processButton": "실행",
+    "clearButton": "초기화",
+    "copyButton": "복사"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "확장자 → MIME",
+    "mimeTab": "MIME → 확장자",
+    "extensionLabel": "파일 확장자",
+    "extensionPlaceholder": "예: jpg 또는 .png",
+    "mimeLabel": "MIME 타입",
+    "mimePlaceholder": "예: image/jpeg",
+    "lookupButton": "검색",
+    "resultLabel": "결과",
+    "notFound": "찾을 수 없음",
+    "commonTypesLabel": "주요 MIME 타입"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "성별",
+    "men": "남성",
+    "women": "여성",
+    "usMenLabel": "US 남성",
+    "usWomenLabel": "US 여성",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "일본 (cm)",
+    "clearButton": "초기화",
+    "note": "사이즈는 참고용입니다. 가능하면 직접 착용해 보세요."
+  },
+  "NatoAlphabet": {
+    "inputLabel": "변환할 텍스트",
+    "inputPlaceholder": "텍스트를 입력하거나 붙여넣기...",
+    "outputLabel": "NATO 음성 표기",
+    "copyButton": "복사",
+    "clearButton": "초기화",
+    "referenceTitle": "NATO 알파벳 목록"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "검사할 텍스트",
+    "inputPlaceholder": "문자를 입력하거나 붙여넣기...",
+    "columnChar": "문자",
+    "columnCodePoint": "코드 포인트",
+    "columnName": "이름",
+    "columnCategory": "카테고리",
+    "columnHtmlEntity": "HTML 엔티티",
+    "copyAll": "전체 복사",
+    "clearButton": "초기화"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "연간 지출",
+    "annualExpensesPlaceholder": "예: 40000",
+    "currentSavingsLabel": "현재 저축/투자액",
+    "annualSavingsLabel": "연간 저축액",
+    "returnRateLabel": "기대 연수익률 (%)",
+    "withdrawalRateLabel": "안전 인출률 (%)",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "fireNumberLabel": "FIRE 달성 금액",
+    "fireNumberDesc": "은퇴에 필요한 총 저축액",
+    "yearsToFireLabel": "FIRE 달성까지",
+    "savingsRateLabel": "저축률",
+    "alreadyFire": "이미 FIRE를 달성했습니다!"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "주가",
+    "annualDividendLabel": "주당 연간 배당금",
+    "sharesLabel": "보유 주식 수",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "dividendYieldLabel": "배당 수익률",
+    "annualIncomeLabel": "연간 배당 소득",
+    "monthlyIncomeLabel": "월간 배당 소득",
+    "quarterlyIncomeLabel": "분기 배당 소득",
+    "totalInvestmentLabel": "총 투자금"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "마지막 생리 시작일 (LMP)",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "dueDateLabel": "출산 예정일",
+    "gestationalAgeLabel": "현재 임신 주수",
+    "weeks": "{weeks}주",
+    "weeksAndDays": "{weeks}주 {days}일",
+    "trimesterLabel": "임신 분기",
+    "first": "1삼분기",
+    "second": "2삼분기",
+    "third": "3삼분기",
+    "milestonesTitle": "주요 마일스톤",
+    "milestone8w": "8주 — 첫 번째 초음파 검사",
+    "milestone12w": "12주 — 1삼분기 종료",
+    "milestone20w": "20주 — 정밀 초음파 검사",
+    "milestone28w": "28주 — 2삼분기 종료",
+    "milestone37w": "37주 — 만삭",
+    "milestone40w": "40주 — 출산 예정일"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "들어올린 중량",
+    "repsLabel": "반복 횟수",
+    "weightUnitLabel": "단위",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "resultsTitle": "공식별 추정 1RM",
+    "epley": "엡리",
+    "brzycki": "브르지키",
+    "lander": "란더",
+    "lombardi": "롬바르디",
+    "percentageTitle": "훈련 중량 비율",
+    "percentageDesc": "평균 추정값 기반"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "도형",
+    "circle": "원",
+    "rectangle": "직사각형",
+    "triangle": "삼각형",
+    "square": "정사각형",
+    "trapezoid": "사다리꼴",
+    "ellipse": "타원",
+    "sphere": "구",
+    "cylinder": "원기둥",
+    "cone": "원뿔",
+    "radiusLabel": "반지름 (r)",
+    "widthLabel": "너비 (a)",
+    "heightLabel": "높이 (b 또는 h)",
+    "sideLabel": "변 (a)",
+    "side1Label": "변 a",
+    "side2Label": "변 b",
+    "side3Label": "변 c",
+    "parallelSide1": "평행변 a",
+    "parallelSide2": "평행변 b",
+    "semiMajorLabel": "장반경 (a)",
+    "semiMinorLabel": "단반경 (b)",
+    "slantHeightLabel": "모선 (l)",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "areaLabel": "넓이",
+    "perimeterLabel": "둘레 / 원주",
+    "volumeLabel": "부피",
+    "surfaceAreaLabel": "겉넓이"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "전압 (V) — 볼트",
+    "currentLabel": "전류 (I) — 암페어",
+    "resistanceLabel": "저항 (R) — 옴 (Ω)",
+    "powerLabel": "전력 (P) — 와트",
+    "inputHint": "임의의 두 값을 입력하면 나머지 두 값을 계산합니다",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "formulasTitle": "공식",
+    "unknownCombination": "정확히 두 개의 값을 입력해 주세요."
   }
 }

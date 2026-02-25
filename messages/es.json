@@ -824,6 +824,78 @@
       "description": "Calcula suma, producto punto, producto cruz y ángulo de vectores 2D/3D.",
       "metaTitle": "Calculadora de Vectores",
       "metaDescription": "Calcula suma, resta, producto punto, producto cruz, módulo y ángulo de vectores 2D/3D."
+    },
+    "cipher-tool": {
+      "name": "Herramienta de Cifrado",
+      "description": "Codifica y decodifica texto con cifrados César, ROT13 y Vigenère.",
+      "metaTitle": "Herramienta de Cifrado — César, ROT13 y Vigenère",
+      "metaDescription": "Codifica y decodifica texto con cifrado César, ROT13 y Vigenère. Herramienta criptográfica gratuita en línea."
+    },
+    "mime-type-lookup": {
+      "name": "Búsqueda de Tipo MIME",
+      "description": "Busca tipos MIME por extensión de archivo o encuentra extensiones para un tipo MIME.",
+      "metaTitle": "Búsqueda de Tipo MIME",
+      "metaDescription": "Busca tipos MIME por extensión de archivo (jpg, pdf, mp4...) o por tipo MIME. Herramienta de referencia gratuita."
+    },
+    "frequency-converter": {
+      "name": "Convertidor de Frecuencia",
+      "description": "Convierte entre Hz, kHz, MHz, GHz, THz y RPM.",
+      "metaTitle": "Convertidor de Frecuencia",
+      "metaDescription": "Convierte entre Hertz, Kilohertz, Megahertz, Gigahertz, Terahertz y RPM. Convertidor de frecuencia en línea gratuito."
+    },
+    "shoe-size-converter": {
+      "name": "Convertidor de Talla de Zapatos",
+      "description": "Convierte tallas de zapatos entre sistemas US, EU, UK y Japón.",
+      "metaTitle": "Convertidor de Talla de Zapatos",
+      "metaDescription": "Convierte tallas de zapatos entre sistemas US, EU, UK y Japón (cm) para hombre y mujer."
+    },
+    "nato-alphabet": {
+      "name": "Alfabeto Fonético OTAN",
+      "description": "Convierte texto al alfabeto fonético de la OTAN para comunicación clara.",
+      "metaTitle": "Convertidor de Alfabeto Fonético OTAN",
+      "metaDescription": "Convierte cualquier texto al alfabeto fonético de la OTAN (Alpha, Bravo, Charlie...). Usado en aviación y comunicaciones."
+    },
+    "unicode-inspector": {
+      "name": "Inspector Unicode",
+      "description": "Inspecciona el punto de código, nombre, categoría y entidad HTML de cualquier carácter.",
+      "metaTitle": "Inspector Unicode",
+      "metaDescription": "Inspecciona caracteres Unicode: ve puntos de código (U+XXXX), nombres, categorías y entidades HTML."
+    },
+    "fire-calculator": {
+      "name": "Calculadora FIRE",
+      "description": "Calcula tu número de independencia financiera y años para la jubilación anticipada.",
+      "metaTitle": "Calculadora FIRE — Independencia Financiera y Jubilación Anticipada",
+      "metaDescription": "Calcula tu número FIRE usando la regla del 4% y descubre cuántos años faltan para jubilarte anticipadamente."
+    },
+    "dividend-calculator": {
+      "name": "Calculadora de Dividendos",
+      "description": "Calcula la rentabilidad por dividendo, ingresos anuales y mensuales.",
+      "metaTitle": "Calculadora de Dividendos",
+      "metaDescription": "Calcula la rentabilidad por dividendo, ingresos anuales y mensuales de tus inversiones en acciones."
+    },
+    "due-date-calculator": {
+      "name": "Calculadora de Fecha de Parto",
+      "description": "Calcula tu fecha estimada de parto y sigue los hitos del embarazo.",
+      "metaTitle": "Calculadora de Fecha de Parto",
+      "metaDescription": "Calcula tu fecha estimada de parto usando la regla de Naegele. Sigue el progreso del trimestre y los hitos del embarazo."
+    },
+    "one-rep-max-calculator": {
+      "name": "Calculadora de Repetición Máxima",
+      "description": "Estima tu 1RM máximo usando fórmulas de Epley, Brzycki y otras.",
+      "metaTitle": "Calculadora de 1RM (Repetición Máxima)",
+      "metaDescription": "Estima tu 1RM usando las fórmulas de Epley, Brzycki, Lander y Lombardi. Genera una tabla de porcentajes de entrenamiento."
+    },
+    "geometry-calculator": {
+      "name": "Calculadora de Geometría",
+      "description": "Calcula área, perímetro y volumen de círculos, rectángulos, triángulos y más.",
+      "metaTitle": "Calculadora de Geometría",
+      "metaDescription": "Calcula área, perímetro, circunferencia y volumen para círculos, rectángulos, triángulos, esferas, cilindros y conos."
+    },
+    "ohm-law-calculator": {
+      "name": "Calculadora de Ley de Ohm",
+      "description": "Calcula voltaje, corriente, resistencia y potencia usando la Ley de Ohm.",
+      "metaTitle": "Calculadora de Ley de Ohm",
+      "metaDescription": "Calcula voltaje (V), corriente (I), resistencia (R) y potencia (P) usando la Ley de Ohm V=IR."
     }
   },
   "Common": {
@@ -2572,5 +2644,167 @@
     "zLabel": "z",
     "degreesLabel": "grados",
     "invalidInput": "Introduce números válidos para todos los componentes del vector."
+  },
+  "CipherTool": {
+    "cipherLabel": "Tipo de cifrado",
+    "caesar": "César",
+    "rot13": "ROT13",
+    "vigenere": "Vigenère",
+    "modeLabel": "Modo",
+    "encode": "Cifrar",
+    "decode": "Descifrar",
+    "shiftLabel": "Desplazamiento (0–25)",
+    "keywordLabel": "Palabra clave",
+    "keywordPlaceholder": "ej. SECRET",
+    "inputLabel": "Texto de entrada",
+    "outputLabel": "Salida",
+    "processButton": "Procesar",
+    "clearButton": "Limpiar",
+    "copyButton": "Copiar"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "Extensión → MIME",
+    "mimeTab": "MIME → Extensión",
+    "extensionLabel": "Extensión de archivo",
+    "extensionPlaceholder": "ej. jpg o .png",
+    "mimeLabel": "Tipo MIME",
+    "mimePlaceholder": "ej. image/jpeg",
+    "lookupButton": "Buscar",
+    "resultLabel": "Resultado",
+    "notFound": "No encontrado",
+    "commonTypesLabel": "Tipos MIME comunes"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "Género",
+    "men": "Hombre",
+    "women": "Mujer",
+    "usMenLabel": "US Hombre",
+    "usWomenLabel": "US Mujer",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "Japón (cm)",
+    "clearButton": "Limpiar",
+    "note": "Las tallas son aproximadas. Pruébate siempre los zapatos cuando sea posible."
+  },
+  "NatoAlphabet": {
+    "inputLabel": "Texto a convertir",
+    "inputPlaceholder": "Escribe o pega texto aquí...",
+    "outputLabel": "Deletreo fonético OTAN",
+    "copyButton": "Copiar",
+    "clearButton": "Limpiar",
+    "referenceTitle": "Referencia del Alfabeto OTAN"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "Texto a inspeccionar",
+    "inputPlaceholder": "Escribe o pega caracteres...",
+    "columnChar": "Carácter",
+    "columnCodePoint": "Punto de código",
+    "columnName": "Nombre",
+    "columnCategory": "Categoría",
+    "columnHtmlEntity": "Entidad HTML",
+    "copyAll": "Copiar todo",
+    "clearButton": "Limpiar"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "Gastos anuales",
+    "annualExpensesPlaceholder": "ej. 40000",
+    "currentSavingsLabel": "Ahorros/inversiones actuales",
+    "annualSavingsLabel": "Ahorros anuales",
+    "returnRateLabel": "Rendimiento anual esperado (%)",
+    "withdrawalRateLabel": "Tasa de retiro seguro (%)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "fireNumberLabel": "Número FIRE",
+    "fireNumberDesc": "Total de ahorros necesarios para jubilarse",
+    "yearsToFireLabel": "Años para FIRE",
+    "savingsRateLabel": "Tasa de ahorro",
+    "alreadyFire": "¡Ya has alcanzado FIRE!"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "Precio de la acción",
+    "annualDividendLabel": "Dividendo anual por acción",
+    "sharesLabel": "Número de acciones",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "dividendYieldLabel": "Rentabilidad por dividendo",
+    "annualIncomeLabel": "Ingreso anual",
+    "monthlyIncomeLabel": "Ingreso mensual",
+    "quarterlyIncomeLabel": "Ingreso trimestral",
+    "totalInvestmentLabel": "Inversión total"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "Primer día de la última menstruación (LMP)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "dueDateLabel": "Fecha estimada de parto",
+    "gestationalAgeLabel": "Edad gestacional actual",
+    "weeks": "{weeks} semanas",
+    "weeksAndDays": "{weeks} semanas, {days} días",
+    "trimesterLabel": "Trimestre",
+    "first": "1er Trimestre",
+    "second": "2º Trimestre",
+    "third": "3er Trimestre",
+    "milestonesTitle": "Hitos clave",
+    "milestone8w": "8 semanas — Primera ecografía",
+    "milestone12w": "12 semanas — Fin del 1er trimestre",
+    "milestone20w": "20 semanas — Ecografía morfológica",
+    "milestone28w": "28 semanas — Fin del 2º trimestre",
+    "milestone37w": "37 semanas — A término",
+    "milestone40w": "40 semanas — Fecha de parto"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "Peso levantado",
+    "repsLabel": "Repeticiones realizadas",
+    "weightUnitLabel": "Unidad",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "resultsTitle": "1RM estimado por fórmula",
+    "epley": "Epley",
+    "brzycki": "Brzycki",
+    "lander": "Lander",
+    "lombardi": "Lombardi",
+    "percentageTitle": "Porcentajes de entrenamiento",
+    "percentageDesc": "Basado en estimación promedio"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "Figura",
+    "circle": "Círculo",
+    "rectangle": "Rectángulo",
+    "triangle": "Triángulo",
+    "square": "Cuadrado",
+    "trapezoid": "Trapecio",
+    "ellipse": "Elipse",
+    "sphere": "Esfera",
+    "cylinder": "Cilindro",
+    "cone": "Cono",
+    "radiusLabel": "Radio (r)",
+    "widthLabel": "Ancho (a)",
+    "heightLabel": "Alto (b o h)",
+    "sideLabel": "Lado (a)",
+    "side1Label": "Lado a",
+    "side2Label": "Lado b",
+    "side3Label": "Lado c",
+    "parallelSide1": "Lado paralelo a",
+    "parallelSide2": "Lado paralelo b",
+    "semiMajorLabel": "Semieje mayor (a)",
+    "semiMinorLabel": "Semieje menor (b)",
+    "slantHeightLabel": "Generatriz (l)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "areaLabel": "Área",
+    "perimeterLabel": "Perímetro / Circunferencia",
+    "volumeLabel": "Volumen",
+    "surfaceAreaLabel": "Área superficial"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "Voltaje (V) — Voltios",
+    "currentLabel": "Corriente (I) — Amperios",
+    "resistanceLabel": "Resistencia (R) — Ohmios (Ω)",
+    "powerLabel": "Potencia (P) — Vatios",
+    "inputHint": "Introduce cualquier dos valores para calcular los otros dos",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "formulasTitle": "Fórmulas",
+    "unknownCombination": "Por favor, introduce exactamente dos valores."
   }
 }

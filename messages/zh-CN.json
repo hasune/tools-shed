@@ -824,6 +824,78 @@
       "description": "计算2D/3D向量的加法、点积、叉积和角度。",
       "metaTitle": "向量计算器",
       "metaDescription": "计算2D/3D向量的加法、减法、点积、叉积、模长和角度。"
+    },
+    "cipher-tool": {
+      "name": "加密工具",
+      "description": "使用凯撒密码、ROT13和维吉尼亚密码对文本进行加密和解密。",
+      "metaTitle": "加密工具 — 凯撒、ROT13 & 维吉尼亚",
+      "metaDescription": "使用凯撒密码、ROT13、维吉尼亚密码加密和解密文本。免费在线密码工具。"
+    },
+    "mime-type-lookup": {
+      "name": "MIME类型查询",
+      "description": "通过文件扩展名查找MIME类型，或通过MIME类型查找扩展名。",
+      "metaTitle": "MIME类型查询",
+      "metaDescription": "通过文件扩展名（jpg、pdf、mp4...）查找MIME类型，或反向查找。免费参考工具。"
+    },
+    "frequency-converter": {
+      "name": "频率转换器",
+      "description": "在Hz、kHz、MHz、GHz、THz和RPM之间转换。",
+      "metaTitle": "频率转换器",
+      "metaDescription": "在赫兹、千赫兹、兆赫兹、吉赫兹、太赫兹和RPM之间转换。免费在线频率转换器。"
+    },
+    "shoe-size-converter": {
+      "name": "鞋码转换器",
+      "description": "在美国、欧盟、英国和日本尺码之间转换鞋码。",
+      "metaTitle": "鞋码转换器",
+      "metaDescription": "在美国、欧盟、英国、日本（厘米）鞋码系统间转换，支持男女款。"
+    },
+    "nato-alphabet": {
+      "name": "北约音标字母",
+      "description": "将文本转换为北约音标字母以便清晰通讯。",
+      "metaTitle": "北约音标字母转换器",
+      "metaDescription": "将任意文本转换为北约音标字母（Alpha、Bravo、Charlie...）。用于航空、军事和电话拼写。"
+    },
+    "unicode-inspector": {
+      "name": "Unicode 检查器",
+      "description": "查看任意字符的Unicode码点、名称、类别和HTML实体。",
+      "metaTitle": "Unicode 检查器",
+      "metaDescription": "查看Unicode字符的码点（U+XXXX）、名称、类别和HTML实体。"
+    },
+    "fire-calculator": {
+      "name": "FIRE计算器",
+      "description": "计算财务独立所需资产和提前退休所需年数。",
+      "metaTitle": "FIRE计算器 — 财务独立与提前退休",
+      "metaDescription": "使用4%规则计算FIRE达成金额，了解提前退休所需年数。"
+    },
+    "dividend-calculator": {
+      "name": "股息计算器",
+      "description": "计算股息收益率、年度股息收入和月度股息收入。",
+      "metaTitle": "股息计算器",
+      "metaDescription": "计算股息收益率、年度股息收入和月度股息收入。"
+    },
+    "due-date-calculator": {
+      "name": "预产期计算器",
+      "description": "计算预产期并追踪妊娠关键里程碑。",
+      "metaTitle": "预产期计算器",
+      "metaDescription": "使用内格莱法则计算预产期，追踪孕期进展和关键里程碑。"
+    },
+    "one-rep-max-calculator": {
+      "name": "最大力量计算器",
+      "description": "使用Epley、Brzycki等公式估算1RM最大举重。",
+      "metaTitle": "最大力量(1RM)计算器",
+      "metaDescription": "使用Epley、Brzycki、Lander、Lombardi公式估算一次最大重复重量(1RM)。生成训练重量百分比表。"
+    },
+    "geometry-calculator": {
+      "name": "几何计算器",
+      "description": "计算圆形、矩形、三角形等图形的面积、周长和体积。",
+      "metaTitle": "几何计算器",
+      "metaDescription": "计算圆形、矩形、三角形、球体、圆柱体和圆锥体的面积、周长和体积。"
+    },
+    "ohm-law-calculator": {
+      "name": "欧姆定律计算器",
+      "description": "使用欧姆定律计算电压、电流、电阻和功率。",
+      "metaTitle": "欧姆定律计算器",
+      "metaDescription": "使用欧姆定律V=IR计算电压（V）、电流（I）、电阻（R）和功率（P）。免费电子计算工具。"
     }
   },
   "Common": {
@@ -2572,5 +2644,167 @@
     "zLabel": "z",
     "degreesLabel": "度",
     "invalidInput": "请为所有向量分量输入有效数字。"
+  },
+  "CipherTool": {
+    "cipherLabel": "密码类型",
+    "caesar": "凯撒",
+    "rot13": "ROT13",
+    "vigenere": "维吉尼亚",
+    "modeLabel": "模式",
+    "encode": "加密",
+    "decode": "解密",
+    "shiftLabel": "位移 (0–25)",
+    "keywordLabel": "关键词",
+    "keywordPlaceholder": "例如: SECRET",
+    "inputLabel": "输入文本",
+    "outputLabel": "输出",
+    "processButton": "执行",
+    "clearButton": "清除",
+    "copyButton": "复制"
+  },
+  "MimeTypeLookup": {
+    "extensionTab": "扩展名 → MIME",
+    "mimeTab": "MIME → 扩展名",
+    "extensionLabel": "文件扩展名",
+    "extensionPlaceholder": "例如: jpg 或 .png",
+    "mimeLabel": "MIME类型",
+    "mimePlaceholder": "例如: image/jpeg",
+    "lookupButton": "查询",
+    "resultLabel": "结果",
+    "notFound": "未找到",
+    "commonTypesLabel": "常用MIME类型"
+  },
+  "ShoeSizeConverter": {
+    "genderLabel": "性别",
+    "men": "男款",
+    "women": "女款",
+    "usMenLabel": "美国男款",
+    "usWomenLabel": "美国女款",
+    "euLabel": "欧盟",
+    "ukLabel": "英国",
+    "jpLabel": "日本 (厘米)",
+    "clearButton": "清除",
+    "note": "尺码仅供参考。有条件时请实际试穿。"
+  },
+  "NatoAlphabet": {
+    "inputLabel": "要转换的文本",
+    "inputPlaceholder": "在此输入或粘贴文本...",
+    "outputLabel": "北约音标拼写",
+    "copyButton": "复制",
+    "clearButton": "清除",
+    "referenceTitle": "北约字母表参考"
+  },
+  "UnicodeInspector": {
+    "inputLabel": "要检查的文本",
+    "inputPlaceholder": "在此输入或粘贴字符...",
+    "columnChar": "字符",
+    "columnCodePoint": "码点",
+    "columnName": "名称",
+    "columnCategory": "类别",
+    "columnHtmlEntity": "HTML实体",
+    "copyAll": "全部复制",
+    "clearButton": "清除"
+  },
+  "FireCalculator": {
+    "annualExpensesLabel": "年度支出",
+    "annualExpensesPlaceholder": "例如: 40000",
+    "currentSavingsLabel": "当前储蓄/投资额",
+    "annualSavingsLabel": "年度储蓄额",
+    "returnRateLabel": "预期年回报率 (%)",
+    "withdrawalRateLabel": "安全提款率 (%)",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "fireNumberLabel": "FIRE目标金额",
+    "fireNumberDesc": "退休所需总储蓄",
+    "yearsToFireLabel": "距FIRE年数",
+    "savingsRateLabel": "储蓄率",
+    "alreadyFire": "您已经达到FIRE目标！"
+  },
+  "DividendCalculator": {
+    "sharePriceLabel": "股价",
+    "annualDividendLabel": "每股年度股息",
+    "sharesLabel": "持有股数",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "dividendYieldLabel": "股息收益率",
+    "annualIncomeLabel": "年度收入",
+    "monthlyIncomeLabel": "月度收入",
+    "quarterlyIncomeLabel": "季度收入",
+    "totalInvestmentLabel": "总投资额"
+  },
+  "DueDateCalculator": {
+    "lmpLabel": "最后一次月经开始日期 (LMP)",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "dueDateLabel": "预计预产期",
+    "gestationalAgeLabel": "当前妊娠周数",
+    "weeks": "{weeks}周",
+    "weeksAndDays": "{weeks}周{days}天",
+    "trimesterLabel": "妊娠期",
+    "first": "第一妊娠期",
+    "second": "第二妊娠期",
+    "third": "第三妊娠期",
+    "milestonesTitle": "关键里程碑",
+    "milestone8w": "8周 — 首次超声波检查",
+    "milestone12w": "12周 — 第一妊娠期结束",
+    "milestone20w": "20周 — 解剖学超声波检查",
+    "milestone28w": "28周 — 第二妊娠期结束",
+    "milestone37w": "37周 — 足月",
+    "milestone40w": "40周 — 预产期"
+  },
+  "OneRepMaxCalculator": {
+    "weightLabel": "举起的重量",
+    "repsLabel": "重复次数",
+    "weightUnitLabel": "单位",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "resultsTitle": "各公式估算1RM",
+    "epley": "埃普利",
+    "brzycki": "布尔奇基",
+    "lander": "兰德",
+    "lombardi": "隆巴迪",
+    "percentageTitle": "训练重量百分比",
+    "percentageDesc": "基于平均估算值"
+  },
+  "GeometryCalculator": {
+    "shapeLabel": "图形",
+    "circle": "圆形",
+    "rectangle": "矩形",
+    "triangle": "三角形",
+    "square": "正方形",
+    "trapezoid": "梯形",
+    "ellipse": "椭圆",
+    "sphere": "球体",
+    "cylinder": "圆柱体",
+    "cone": "圆锥",
+    "radiusLabel": "半径 (r)",
+    "widthLabel": "宽度 (a)",
+    "heightLabel": "高度 (b 或 h)",
+    "sideLabel": "边长 (a)",
+    "side1Label": "边 a",
+    "side2Label": "边 b",
+    "side3Label": "边 c",
+    "parallelSide1": "平行边 a",
+    "parallelSide2": "平行边 b",
+    "semiMajorLabel": "长半轴 (a)",
+    "semiMinorLabel": "短半轴 (b)",
+    "slantHeightLabel": "母线长度 (l)",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "areaLabel": "面积",
+    "perimeterLabel": "周长 / 圆周",
+    "volumeLabel": "体积",
+    "surfaceAreaLabel": "表面积"
+  },
+  "OhmLawCalculator": {
+    "voltageLabel": "电压 (V) — 伏特",
+    "currentLabel": "电流 (I) — 安培",
+    "resistanceLabel": "电阻 (R) — 欧姆 (Ω)",
+    "powerLabel": "功率 (P) — 瓦特",
+    "inputHint": "输入任意两个值即可计算另外两个值",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "formulasTitle": "公式",
+    "unknownCombination": "请输入恰好两个值。"
   }
 }

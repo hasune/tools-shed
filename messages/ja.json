@@ -758,6 +758,78 @@
       "description": "任意の底の対数を計算します — 自然対数 (ln)、常用対数 (log₁₀)、またはカスタム底。",
       "metaTitle": "対数計算機",
       "metaDescription": "log₁₀、自然対数 (ln)、log₂、または任意の底の対数を計算します。"
+    },
+    "xml-formatter": {
+      "name": "XMLフォーマッター",
+      "description": "XMLを整形・検証・最小化します。",
+      "metaTitle": "XMLフォーマッター＆バリデーター",
+      "metaDescription": "XMLコードを整形・検証・最小化。ブラウザ上で動作する無料のXMLフォーマッターです。"
+    },
+    "jwt-generator": {
+      "name": "JWTジェネレーター",
+      "description": "HS256署名付きJWTトークンを生成します。",
+      "metaTitle": "JWTジェネレーター",
+      "metaDescription": "HS256署名でJWTトークンを生成。テスト・開発用の無料ツールです。"
+    },
+    "text-statistics": {
+      "name": "テキスト可読性分析ツール",
+      "description": "Flesch・Gunning Fogなどの指標でテキストの可読性を分析します。",
+      "metaTitle": "テキスト可読性分析ツール",
+      "metaDescription": "Flesch Reading Ease・Flesch-Kincaid・Gunning Fogでテキストの可読性を分析。"
+    },
+    "speech-to-text": {
+      "name": "音声テキスト変換",
+      "description": "マイクを使ってリアルタイムで音声をテキストに変換します。",
+      "metaTitle": "音声テキスト変換 - 無料オンラインツール",
+      "metaDescription": "ブラウザのマイクでリアルタイム音声認識。13言語対応の無料ツールです。"
+    },
+    "torque-converter": {
+      "name": "トルク変換ツール",
+      "description": "N·m、ft·lb、in·lbなどのトルク単位を変換します。",
+      "metaTitle": "トルク変換ツール",
+      "metaDescription": "ニュートンメートル、フットポンド、インチポンドなどのトルク単位を変換。"
+    },
+    "illuminance-converter": {
+      "name": "照度変換ツール",
+      "description": "ルクス、フートキャンドル、フォトなどの照度単位を変換します。",
+      "metaTitle": "照度変換ツール",
+      "metaDescription": "ルクス、フートキャンドル、フォトなどの照度単位を変換。"
+    },
+    "macro-calculator": {
+      "name": "マクロ栄養素計算機",
+      "description": "カロリー目標に基づいてタンパク質・炭水化物・脂質の摂取量を計算します。",
+      "metaTitle": "マクロ栄養素計算機",
+      "metaDescription": "カロリー目標とダイエットタイプからマクロ栄養素を計算。"
+    },
+    "menstrual-cycle-calculator": {
+      "name": "月経周期計算機",
+      "description": "次の生理日・排卵日・妊娠可能期間を予測します。",
+      "metaTitle": "月経周期計算機",
+      "metaDescription": "次の生理日、排卵日、妊娠可能期間を予測する無料ツール。"
+    },
+    "tax-bracket-calculator": {
+      "name": "米国税率ブラケット計算機",
+      "description": "2024年の米国連邦所得税を申告ステータス別に試算します。",
+      "metaTitle": "米国連邦税計算機 2024",
+      "metaDescription": "2024年の米国連邦所得税を申告ステータス別に試算。実効税率と限界税率を表示。"
+    },
+    "stock-profit-calculator": {
+      "name": "株式損益計算機",
+      "description": "株式投資の損益・ROI・1株あたり利益を計算します。",
+      "metaTitle": "株式損益計算機",
+      "metaDescription": "株式投資の利益・損失・ROI・1株あたり損益を計算。手数料考慮あり。"
+    },
+    "binary-calculator": {
+      "name": "バイナリ計算機",
+      "description": "2進数・10進数・16進数で算術・論理演算を行います。",
+      "metaTitle": "バイナリ計算機",
+      "metaDescription": "2進数・10進数・16進数でAND、OR、XOR、加算などの演算を実行。"
+    },
+    "vector-calculator": {
+      "name": "ベクトル計算機",
+      "description": "2D・3Dベクトルの加算・内積・外積・角度を計算します。",
+      "metaTitle": "ベクトル計算機",
+      "metaDescription": "2D・3Dベクトルの加算、減算、内積、外積、大きさ、角度を計算。"
     }
   },
   "Common": {
@@ -2305,5 +2377,206 @@
       "title": "プライバシーポリシー",
       "description": "ToolsShed のプライバシーポリシー — データの取り扱いについて。"
     }
+  },
+  "XmlFormatter": {
+    "inputLabel": "入力XML",
+    "inputPlaceholder": "XMLをここに貼り付け...",
+    "outputLabel": "出力",
+    "formatButton": "整形",
+    "minifyButton": "最小化",
+    "clearButton": "クリア",
+    "sampleButton": "サンプル",
+    "indentLabel": "インデント:",
+    "twoSpaces": "スペース2",
+    "fourSpaces": "スペース4",
+    "validXml": "有効なXML",
+    "invalidXml": "無効なXML",
+    "copyButton": "コピー"
+  },
+  "JwtGenerator": {
+    "headerLabel": "ヘッダー",
+    "payloadLabel": "ペイロード",
+    "secretLabel": "秘密鍵",
+    "secretPlaceholder": "your-256-bit-secret",
+    "algorithmLabel": "アルゴリズム",
+    "generateButton": "JWT生成",
+    "clearButton": "クリア",
+    "outputLabel": "生成されたJWT",
+    "warningLabel": "⚠ テスト専用 — 実際の秘密鍵を公開しないでください。",
+    "copyButton": "コピー"
+  },
+  "TextStatistics": {
+    "inputLabel": "テキスト",
+    "inputPlaceholder": "テキストを貼り付けるか入力してください...",
+    "clearButton": "クリア",
+    "wordsLabel": "単語数",
+    "sentencesLabel": "文数",
+    "syllablesLabel": "音節数",
+    "avgWordsPerSentence": "文あたり平均単語数",
+    "avgSyllablesPerWord": "単語あたり平均音節数",
+    "fleschEaseLabel": "Flesch読みやすさスコア",
+    "fleschGradeLabel": "Flesch-Kincaid学年レベル",
+    "gunningFogLabel": "Gunning Fogインデックス",
+    "gradeLabel": "学年レベル",
+    "readabilityLabel": "可読性",
+    "veryEasy": "非常に簡単",
+    "easy": "簡単",
+    "fairlyEasy": "やや簡単",
+    "standard": "標準",
+    "fairlyDifficult": "やや難しい",
+    "difficult": "難しい",
+    "veryDifficult": "非常に難しい"
+  },
+  "SpeechToText": {
+    "startButton": "録音開始",
+    "stopButton": "録音停止",
+    "clearButton": "クリア",
+    "copyButton": "コピー",
+    "listenLabel": "聴き取り中...",
+    "outputLabel": "文字起こし",
+    "outputPlaceholder": "音声がここに表示されます...",
+    "languageLabel": "言語",
+    "notSupportedError": "このブラウザは音声認識をサポートしていません。ChromeまたはEdgeをご使用ください。",
+    "permissionError": "マイクへのアクセスが拒否されました。マイクの使用を許可してください。"
+  },
+  "TorqueConverter": {
+    "fromLabel": "変換元",
+    "toLabel": "変換先",
+    "amountLabel": "値",
+    "amountPlaceholder": "1",
+    "convertButton": "変換",
+    "clearButton": "クリア",
+    "resultLabel": "結果",
+    "newtonMeter": "ニュートンメートル (N·m)",
+    "newtonCentimeter": "ニュートンセンチメートル (N·cm)",
+    "kilonewtonMeter": "キロニュートンメートル (kN·m)",
+    "footPound": "フットポンド (ft·lb)",
+    "inchPound": "インチポンド (in·lb)",
+    "inchOunce": "インチオンス (in·oz)",
+    "kgfMeter": "キログラム力メートル (kgf·m)",
+    "kgfCentimeter": "キログラム力センチメートル (kgf·cm)",
+    "dyneCentimeter": "ダインセンチメートル (dyn·cm)"
+  },
+  "IlluminanceConverter": {
+    "fromLabel": "変換元",
+    "toLabel": "変換先",
+    "amountLabel": "値",
+    "amountPlaceholder": "1",
+    "convertButton": "変換",
+    "clearButton": "クリア",
+    "resultLabel": "結果",
+    "lux": "ルクス (lx)",
+    "millilux": "ミリルクス (mlx)",
+    "kilolux": "キロルクス (klx)",
+    "footCandle": "フートキャンドル (fc)",
+    "phot": "フォト (ph)",
+    "nox": "ノックス (nx)"
+  },
+  "MacroCalculator": {
+    "caloriesLabel": "1日のカロリー目標",
+    "caloriesPlaceholder": "2000",
+    "dietLabel": "ダイエットタイプ",
+    "dietBalanced": "バランス",
+    "dietLowCarb": "低糖質",
+    "dietHighProtein": "高タンパク",
+    "dietKeto": "ケトジェニック",
+    "dietCustom": "カスタム",
+    "proteinPctLabel": "タンパク質 %",
+    "carbsPctLabel": "炭水化物 %",
+    "fatPctLabel": "脂質 %",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "proteinLabel": "タンパク質",
+    "carbsLabel": "炭水化物",
+    "fatLabel": "脂質",
+    "gramsLabel": "g",
+    "calPerGramNote": "タンパク質・炭水化物は4kcal/g、脂質は9kcal/g"
+  },
+  "MenstrualCycleCalculator": {
+    "lastPeriodLabel": "最終生理開始日",
+    "cycleLengthLabel": "周期（日）",
+    "periodDurationLabel": "生理期間（日）",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "nextPeriodLabel": "次回生理予定日",
+    "fertileWindowLabel": "妊娠可能期間",
+    "ovulationLabel": "推定排卵日",
+    "followingPeriods": "次の3サイクル",
+    "disclaimer": "この計算機は参考情報のみを提供し、医学的アドバイスの代替ではありません。",
+    "daysUntil": "{days}日後"
+  },
+  "TaxBracketCalculator": {
+    "incomeLabel": "年収（USD）",
+    "incomePlaceholder": "75000",
+    "filingStatusLabel": "申告ステータス",
+    "single": "独身",
+    "marriedJoint": "夫婦合算申告",
+    "marriedSeparate": "夫婦別々申告",
+    "headOfHousehold": "世帯主",
+    "taxYearLabel": "課税年度",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "estimatedTaxLabel": "推定連邦税",
+    "effectiveRateLabel": "実効税率",
+    "marginalRateLabel": "限界税率",
+    "afterTaxLabel": "税引き後所得",
+    "bracketBreakdown": "税率ブラケット内訳",
+    "disclaimer": "概算のみ。控除・税額控除・州税は含まれません。税務専門家にご相談ください。"
+  },
+  "StockProfitCalculator": {
+    "buyPriceLabel": "購入価格（1株）",
+    "buyPricePlaceholder": "100.00",
+    "sellPriceLabel": "売却価格（1株）",
+    "sellPricePlaceholder": "150.00",
+    "sharesLabel": "株数",
+    "sharesPlaceholder": "100",
+    "buyCommissionLabel": "購入手数料",
+    "sellCommissionLabel": "売却手数料",
+    "commissionPlaceholder": "0.00",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "totalCostLabel": "総費用",
+    "totalRevenueLabel": "総収益",
+    "profitLossLabel": "損益",
+    "roiLabel": "投資収益率（ROI）",
+    "profitPerShareLabel": "1株あたり損益"
+  },
+  "BinaryCalculator": {
+    "num1Label": "数値 1",
+    "num2Label": "数値 2",
+    "inputModeBIN": "2進数",
+    "inputModeDEC": "10進数",
+    "inputModeHEX": "16進数",
+    "operationLabel": "演算",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "resultLabel": "結果",
+    "binaryLabel": "2進数",
+    "decimalLabel": "10進数",
+    "hexLabel": "16進数",
+    "invalidInput": "選択された基数に対して無効な入力です。"
+  },
+  "VectorCalculator": {
+    "dimensionLabel": "次元",
+    "dim2d": "2D",
+    "dim3d": "3D",
+    "vector1Label": "ベクトル A",
+    "vector2Label": "ベクトル B",
+    "operationLabel": "演算",
+    "opAdd": "A + B（加算）",
+    "opSubtract": "A − B（減算）",
+    "opDot": "A · B（内積）",
+    "opCross": "A × B（外積、3Dのみ）",
+    "opMagnitudeA": "|A|（Aの大きさ）",
+    "opMagnitudeB": "|B|（Bの大きさ）",
+    "opAngle": "A と B の角度",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "resultLabel": "結果",
+    "xLabel": "x",
+    "yLabel": "y",
+    "zLabel": "z",
+    "degreesLabel": "度",
+    "invalidInput": "全てのベクトル成分に有効な数値を入力してください。"
   }
 }

@@ -758,6 +758,78 @@
       "description": "자연 로그 (ln), 상용 로그 (log₁₀), 또는 임의의 밑을 가진 로그를 계산합니다.",
       "metaTitle": "로그 계산기",
       "metaDescription": "log₁₀, 자연 로그 (ln), log₂ 또는 임의의 밑 로그를 계산합니다."
+    },
+    "xml-formatter": {
+      "name": "XML 포매터",
+      "description": "XML을 정형화·검증·최소화합니다.",
+      "metaTitle": "XML 포매터 & 검증기",
+      "metaDescription": "XML 코드를 정형화·검증·최소화. 브라우저에서 동작하는 무료 XML 포매터."
+    },
+    "jwt-generator": {
+      "name": "JWT 생성기",
+      "description": "HS256 서명이 포함된 JWT 토큰을 생성합니다.",
+      "metaTitle": "JWT 생성기",
+      "metaDescription": "HS256 서명으로 JWT 토큰 생성. 테스트·개발용 무료 도구."
+    },
+    "text-statistics": {
+      "name": "텍스트 가독성 분석기",
+      "description": "Flesch, Gunning Fog 등의 지표로 텍스트 가독성을 분석합니다.",
+      "metaTitle": "텍스트 가독성 분석기",
+      "metaDescription": "Flesch Reading Ease, Flesch-Kincaid, Gunning Fog로 텍스트 가독성 분석."
+    },
+    "speech-to-text": {
+      "name": "음성 텍스트 변환",
+      "description": "마이크를 사용해 실시간으로 음성을 텍스트로 변환합니다.",
+      "metaTitle": "음성 텍스트 변환 - 무료 온라인 도구",
+      "metaDescription": "브라우저 마이크로 실시간 음성 인식. 13개 언어 지원 무료 도구."
+    },
+    "torque-converter": {
+      "name": "토크 변환기",
+      "description": "N·m, ft·lb, in·lb 등의 토크 단위를 변환합니다.",
+      "metaTitle": "토크 변환기",
+      "metaDescription": "뉴턴미터, 풋파운드, 인치파운드 등의 토크 단위 변환."
+    },
+    "illuminance-converter": {
+      "name": "조도 변환기",
+      "description": "럭스, 풋캔들, 포트 등의 조도 단위를 변환합니다.",
+      "metaTitle": "조도 변환기",
+      "metaDescription": "럭스, 풋캔들, 포트 등의 조도 단위 변환."
+    },
+    "macro-calculator": {
+      "name": "매크로 계산기",
+      "description": "칼로리 목표에 따라 단백질·탄수화물·지방 섭취량을 계산합니다.",
+      "metaTitle": "매크로 영양소 계산기",
+      "metaDescription": "칼로리 목표와 식단 유형으로 매크로 영양소 계산."
+    },
+    "menstrual-cycle-calculator": {
+      "name": "생리 주기 계산기",
+      "description": "다음 생리일·배란일·가임 기간을 예측합니다.",
+      "metaTitle": "생리 주기 계산기",
+      "metaDescription": "다음 생리일, 배란일, 가임 기간을 예측하는 무료 도구."
+    },
+    "tax-bracket-calculator": {
+      "name": "미국 세율 구간 계산기",
+      "description": "2024년 미국 연방 소득세를 신고 상태별로 추산합니다.",
+      "metaTitle": "미국 연방 세금 계산기 2024",
+      "metaDescription": "2024년 미국 연방 소득세를 신고 상태별로 추산. 실효세율과 한계세율 표시."
+    },
+    "stock-profit-calculator": {
+      "name": "주식 손익 계산기",
+      "description": "주식 투자의 손익·ROI·주당 이익을 계산합니다.",
+      "metaTitle": "주식 손익 계산기",
+      "metaDescription": "주식 투자의 이익·손실·ROI·주당 손익 계산. 수수료 포함."
+    },
+    "binary-calculator": {
+      "name": "이진수 계산기",
+      "description": "2진수·10진수·16진수로 산술·논리 연산을 수행합니다.",
+      "metaTitle": "이진수 계산기",
+      "metaDescription": "2진수·10진수·16진수로 AND, OR, XOR, 덧셈 등의 연산 수행."
+    },
+    "vector-calculator": {
+      "name": "벡터 계산기",
+      "description": "2D·3D 벡터의 덧셈·내적·외적·각도를 계산합니다.",
+      "metaTitle": "벡터 계산기",
+      "metaDescription": "2D·3D 벡터의 덧셈, 뺄셈, 내적, 외적, 크기, 각도 계산."
     }
   },
   "Common": {
@@ -2305,5 +2377,206 @@
       "title": "개인정보 처리방침",
       "description": "ToolsShed 개인정보 처리방침 — 데이터 처리 방법."
     }
+  },
+  "XmlFormatter": {
+    "inputLabel": "입력 XML",
+    "inputPlaceholder": "XML을 여기에 붙여넣기...",
+    "outputLabel": "출력",
+    "formatButton": "정형화",
+    "minifyButton": "최소화",
+    "clearButton": "지우기",
+    "sampleButton": "샘플",
+    "indentLabel": "들여쓰기:",
+    "twoSpaces": "공백 2",
+    "fourSpaces": "공백 4",
+    "validXml": "유효한 XML",
+    "invalidXml": "유효하지 않은 XML",
+    "copyButton": "복사"
+  },
+  "JwtGenerator": {
+    "headerLabel": "헤더",
+    "payloadLabel": "페이로드",
+    "secretLabel": "비밀 키",
+    "secretPlaceholder": "your-256-bit-secret",
+    "algorithmLabel": "알고리즘",
+    "generateButton": "JWT 생성",
+    "clearButton": "지우기",
+    "outputLabel": "생성된 JWT",
+    "warningLabel": "⚠ 테스트 전용 — 실제 비밀 키를 노출하지 마세요.",
+    "copyButton": "복사"
+  },
+  "TextStatistics": {
+    "inputLabel": "텍스트",
+    "inputPlaceholder": "텍스트를 붙여넣거나 입력하세요...",
+    "clearButton": "지우기",
+    "wordsLabel": "단어 수",
+    "sentencesLabel": "문장 수",
+    "syllablesLabel": "음절 수",
+    "avgWordsPerSentence": "문장당 평균 단어 수",
+    "avgSyllablesPerWord": "단어당 평균 음절 수",
+    "fleschEaseLabel": "Flesch 읽기 쉬움 점수",
+    "fleschGradeLabel": "Flesch-Kincaid 학년 수준",
+    "gunningFogLabel": "Gunning Fog 지수",
+    "gradeLabel": "학년 수준",
+    "readabilityLabel": "가독성",
+    "veryEasy": "매우 쉬움",
+    "easy": "쉬움",
+    "fairlyEasy": "약간 쉬움",
+    "standard": "보통",
+    "fairlyDifficult": "약간 어려움",
+    "difficult": "어려움",
+    "veryDifficult": "매우 어려움"
+  },
+  "SpeechToText": {
+    "startButton": "녹음 시작",
+    "stopButton": "녹음 중지",
+    "clearButton": "지우기",
+    "copyButton": "복사",
+    "listenLabel": "듣는 중...",
+    "outputLabel": "텍스트",
+    "outputPlaceholder": "음성이 여기에 표시됩니다...",
+    "languageLabel": "언어",
+    "notSupportedError": "이 브라우저는 음성 인식을 지원하지 않습니다. Chrome 또는 Edge를 사용하세요.",
+    "permissionError": "마이크 접근이 거부되었습니다. 마이크 사용을 허용하고 다시 시도하세요."
+  },
+  "TorqueConverter": {
+    "fromLabel": "변환 전",
+    "toLabel": "변환 후",
+    "amountLabel": "값",
+    "amountPlaceholder": "1",
+    "convertButton": "변환",
+    "clearButton": "지우기",
+    "resultLabel": "결과",
+    "newtonMeter": "뉴턴미터 (N·m)",
+    "newtonCentimeter": "뉴턴센티미터 (N·cm)",
+    "kilonewtonMeter": "킬로뉴턴미터 (kN·m)",
+    "footPound": "풋파운드 (ft·lb)",
+    "inchPound": "인치파운드 (in·lb)",
+    "inchOunce": "인치온스 (in·oz)",
+    "kgfMeter": "킬로그램힘미터 (kgf·m)",
+    "kgfCentimeter": "킬로그램힘센티미터 (kgf·cm)",
+    "dyneCentimeter": "다인센티미터 (dyn·cm)"
+  },
+  "IlluminanceConverter": {
+    "fromLabel": "변환 전",
+    "toLabel": "변환 후",
+    "amountLabel": "값",
+    "amountPlaceholder": "1",
+    "convertButton": "변환",
+    "clearButton": "지우기",
+    "resultLabel": "결과",
+    "lux": "럭스 (lx)",
+    "millilux": "밀리럭스 (mlx)",
+    "kilolux": "킬로럭스 (klx)",
+    "footCandle": "풋캔들 (fc)",
+    "phot": "포트 (ph)",
+    "nox": "녹스 (nx)"
+  },
+  "MacroCalculator": {
+    "caloriesLabel": "1일 칼로리 목표",
+    "caloriesPlaceholder": "2000",
+    "dietLabel": "식단 유형",
+    "dietBalanced": "균형",
+    "dietLowCarb": "저탄수화물",
+    "dietHighProtein": "고단백",
+    "dietKeto": "케토제닉",
+    "dietCustom": "사용자 정의",
+    "proteinPctLabel": "단백질 %",
+    "carbsPctLabel": "탄수화물 %",
+    "fatPctLabel": "지방 %",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "proteinLabel": "단백질",
+    "carbsLabel": "탄수화물",
+    "fatLabel": "지방",
+    "gramsLabel": "g",
+    "calPerGramNote": "단백질·탄수화물 4kcal/g, 지방 9kcal/g"
+  },
+  "MenstrualCycleCalculator": {
+    "lastPeriodLabel": "마지막 생리 시작일",
+    "cycleLengthLabel": "주기 (일)",
+    "periodDurationLabel": "생리 기간 (일)",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "nextPeriodLabel": "다음 생리 예정일",
+    "fertileWindowLabel": "가임 기간",
+    "ovulationLabel": "예상 배란일",
+    "followingPeriods": "다음 3 주기",
+    "disclaimer": "이 계산기는 참고 정보만 제공하며 의학적 조언을 대체하지 않습니다.",
+    "daysUntil": "{days}일 후"
+  },
+  "TaxBracketCalculator": {
+    "incomeLabel": "연간 소득 (USD)",
+    "incomePlaceholder": "75000",
+    "filingStatusLabel": "신고 상태",
+    "single": "독신",
+    "marriedJoint": "부부 합산 신고",
+    "marriedSeparate": "부부 별도 신고",
+    "headOfHousehold": "세대주",
+    "taxYearLabel": "과세 연도",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "estimatedTaxLabel": "추산 연방세",
+    "effectiveRateLabel": "실효세율",
+    "marginalRateLabel": "한계세율",
+    "afterTaxLabel": "세후 소득",
+    "bracketBreakdown": "세율 구간 내역",
+    "disclaimer": "추산치만 제공. 공제·세액공제·주세 미포함. 세무 전문가와 상담하세요."
+  },
+  "StockProfitCalculator": {
+    "buyPriceLabel": "매수가 (주당)",
+    "buyPricePlaceholder": "100.00",
+    "sellPriceLabel": "매도가 (주당)",
+    "sellPricePlaceholder": "150.00",
+    "sharesLabel": "주식 수",
+    "sharesPlaceholder": "100",
+    "buyCommissionLabel": "매수 수수료",
+    "sellCommissionLabel": "매도 수수료",
+    "commissionPlaceholder": "0.00",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "totalCostLabel": "총 비용",
+    "totalRevenueLabel": "총 수익",
+    "profitLossLabel": "손익",
+    "roiLabel": "투자 수익률 (ROI)",
+    "profitPerShareLabel": "주당 손익"
+  },
+  "BinaryCalculator": {
+    "num1Label": "숫자 1",
+    "num2Label": "숫자 2",
+    "inputModeBIN": "2진수",
+    "inputModeDEC": "10진수",
+    "inputModeHEX": "16진수",
+    "operationLabel": "연산",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "resultLabel": "결과",
+    "binaryLabel": "2진수",
+    "decimalLabel": "10진수",
+    "hexLabel": "16진수",
+    "invalidInput": "선택한 진수에 맞지 않는 입력입니다."
+  },
+  "VectorCalculator": {
+    "dimensionLabel": "차원",
+    "dim2d": "2D",
+    "dim3d": "3D",
+    "vector1Label": "벡터 A",
+    "vector2Label": "벡터 B",
+    "operationLabel": "연산",
+    "opAdd": "A + B (덧셈)",
+    "opSubtract": "A − B (뺄셈)",
+    "opDot": "A · B (내적)",
+    "opCross": "A × B (외적, 3D 전용)",
+    "opMagnitudeA": "|A| (A의 크기)",
+    "opMagnitudeB": "|B| (B의 크기)",
+    "opAngle": "A와 B 사이의 각도",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "resultLabel": "결과",
+    "xLabel": "x",
+    "yLabel": "y",
+    "zLabel": "z",
+    "degreesLabel": "도",
+    "invalidInput": "모든 벡터 성분에 유효한 숫자를 입력하세요."
   }
 }

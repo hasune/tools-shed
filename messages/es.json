@@ -758,6 +758,78 @@
       "description": "Calcula logaritmos en cualquier base — logaritmo natural (ln), base 10 o base personalizada.",
       "metaTitle": "Calculadora de Logaritmos",
       "metaDescription": "Calcula log base 10, logaritmo natural (ln), log base 2 o cualquier base personalizada."
+    },
+    "xml-formatter": {
+      "name": "Formateador XML",
+      "description": "Formatea, valida y minimiza código XML.",
+      "metaTitle": "Formateador y Validador XML",
+      "metaDescription": "Formatea, valida y minimiza código XML en línea. Herramienta gratuita para el navegador."
+    },
+    "jwt-generator": {
+      "name": "Generador JWT",
+      "description": "Genera tokens JWT con firma HS256.",
+      "metaTitle": "Generador JWT",
+      "metaDescription": "Genera tokens JWT con firma HS256. Herramienta gratuita para pruebas y desarrollo."
+    },
+    "text-statistics": {
+      "name": "Analizador de Legibilidad de Texto",
+      "description": "Analiza la legibilidad con métricas como Flesch y Gunning Fog.",
+      "metaTitle": "Analizador de Legibilidad de Texto",
+      "metaDescription": "Analiza la legibilidad con Flesch Reading Ease, Flesch-Kincaid y Gunning Fog."
+    },
+    "speech-to-text": {
+      "name": "Voz a Texto",
+      "description": "Convierte voz a texto en tiempo real usando el micrófono.",
+      "metaTitle": "Voz a Texto - Herramienta Gratuita",
+      "metaDescription": "Reconocimiento de voz en tiempo real con micrófono del navegador. Soporta 13 idiomas."
+    },
+    "torque-converter": {
+      "name": "Convertidor de Torque",
+      "description": "Convierte entre N·m, ft·lb, in·lb y otras unidades de torque.",
+      "metaTitle": "Convertidor de Torque",
+      "metaDescription": "Convierte entre Newton-metro, pie-libra, pulgada-libra y otras unidades de torque."
+    },
+    "illuminance-converter": {
+      "name": "Convertidor de Iluminancia",
+      "description": "Convierte entre lux, pie-candela, fot y otras unidades de iluminancia.",
+      "metaTitle": "Convertidor de Iluminancia",
+      "metaDescription": "Convierte entre lux, pie-candela, fot y otras unidades de iluminancia."
+    },
+    "macro-calculator": {
+      "name": "Calculadora de Macros",
+      "description": "Calcula la ingesta de proteínas, carbohidratos y grasas según el objetivo calórico.",
+      "metaTitle": "Calculadora de Macronutrientes",
+      "metaDescription": "Calcula macronutrientes según tu objetivo calórico y tipo de dieta."
+    },
+    "menstrual-cycle-calculator": {
+      "name": "Calculadora de Ciclo Menstrual",
+      "description": "Predice la próxima menstruación, la ovulación y la ventana fértil.",
+      "metaTitle": "Calculadora de Ciclo Menstrual",
+      "metaDescription": "Predice la próxima menstruación, ovulación y ventana fértil. Herramienta gratuita."
+    },
+    "tax-bracket-calculator": {
+      "name": "Calculadora de Tramos del Impuesto Federal (EE.UU.)",
+      "description": "Estima el impuesto federal sobre la renta de EE.UU. 2024 por estado civil.",
+      "metaTitle": "Calculadora de Impuesto Federal EE.UU. 2024",
+      "metaDescription": "Estima el impuesto federal sobre la renta de EE.UU. 2024 con tasa efectiva y marginal."
+    },
+    "stock-profit-calculator": {
+      "name": "Calculadora de Ganancias en Bolsa",
+      "description": "Calcula ganancias/pérdidas, ROI y beneficio por acción en inversiones.",
+      "metaTitle": "Calculadora de Ganancias en Bolsa",
+      "metaDescription": "Calcula ganancias/pérdidas, ROI y beneficio por acción. Incluye comisiones."
+    },
+    "binary-calculator": {
+      "name": "Calculadora Binaria",
+      "description": "Realiza operaciones aritméticas y lógicas en binario, decimal y hexadecimal.",
+      "metaTitle": "Calculadora Binaria",
+      "metaDescription": "Realiza AND, OR, XOR, suma y otras operaciones en binario, decimal y hexadecimal."
+    },
+    "vector-calculator": {
+      "name": "Calculadora de Vectores",
+      "description": "Calcula suma, producto punto, producto cruz y ángulo de vectores 2D/3D.",
+      "metaTitle": "Calculadora de Vectores",
+      "metaDescription": "Calcula suma, resta, producto punto, producto cruz, módulo y ángulo de vectores 2D/3D."
     }
   },
   "Common": {
@@ -2305,5 +2377,206 @@
       "title": "Política de privacidad",
       "description": "Política de privacidad de ToolsShed — cómo gestionamos tus datos."
     }
+  },
+  "XmlFormatter": {
+    "inputLabel": "XML de entrada",
+    "inputPlaceholder": "Pega el XML aquí...",
+    "outputLabel": "Salida",
+    "formatButton": "Formatear",
+    "minifyButton": "Minimizar",
+    "clearButton": "Limpiar",
+    "sampleButton": "Ejemplo",
+    "indentLabel": "Sangría:",
+    "twoSpaces": "2 espacios",
+    "fourSpaces": "4 espacios",
+    "validXml": "XML válido",
+    "invalidXml": "XML inválido",
+    "copyButton": "Copiar"
+  },
+  "JwtGenerator": {
+    "headerLabel": "Cabecera",
+    "payloadLabel": "Carga útil",
+    "secretLabel": "Clave secreta",
+    "secretPlaceholder": "your-256-bit-secret",
+    "algorithmLabel": "Algoritmo",
+    "generateButton": "Generar JWT",
+    "clearButton": "Limpiar",
+    "outputLabel": "JWT generado",
+    "warningLabel": "⚠ Solo para pruebas — nunca expongas claves reales.",
+    "copyButton": "Copiar"
+  },
+  "TextStatistics": {
+    "inputLabel": "Tu texto",
+    "inputPlaceholder": "Pega o escribe tu texto aquí...",
+    "clearButton": "Limpiar",
+    "wordsLabel": "Palabras",
+    "sentencesLabel": "Oraciones",
+    "syllablesLabel": "Sílabas",
+    "avgWordsPerSentence": "Prom. palabras/oración",
+    "avgSyllablesPerWord": "Prom. sílabas/palabra",
+    "fleschEaseLabel": "Facilidad de Lectura Flesch",
+    "fleschGradeLabel": "Nivel Escolar Flesch-Kincaid",
+    "gunningFogLabel": "Índice Gunning Fog",
+    "gradeLabel": "Nivel Escolar",
+    "readabilityLabel": "Legibilidad",
+    "veryEasy": "Muy fácil",
+    "easy": "Fácil",
+    "fairlyEasy": "Bastante fácil",
+    "standard": "Estándar",
+    "fairlyDifficult": "Bastante difícil",
+    "difficult": "Difícil",
+    "veryDifficult": "Muy difícil"
+  },
+  "SpeechToText": {
+    "startButton": "Iniciar grabación",
+    "stopButton": "Detener grabación",
+    "clearButton": "Limpiar",
+    "copyButton": "Copiar",
+    "listenLabel": "Escuchando...",
+    "outputLabel": "Transcripción",
+    "outputPlaceholder": "Tu voz aparecerá aquí...",
+    "languageLabel": "Idioma",
+    "notSupportedError": "El reconocimiento de voz no es compatible con este navegador. Usa Chrome o Edge.",
+    "permissionError": "Acceso al micrófono denegado. Permite el acceso al micrófono e inténtalo de nuevo."
+  },
+  "TorqueConverter": {
+    "fromLabel": "De",
+    "toLabel": "A",
+    "amountLabel": "Cantidad",
+    "amountPlaceholder": "1",
+    "convertButton": "Convertir",
+    "clearButton": "Limpiar",
+    "resultLabel": "Resultado",
+    "newtonMeter": "Newton-metro (N·m)",
+    "newtonCentimeter": "Newton-centímetro (N·cm)",
+    "kilonewtonMeter": "Kilonewton-metro (kN·m)",
+    "footPound": "Pie-libra (ft·lb)",
+    "inchPound": "Pulgada-libra (in·lb)",
+    "inchOunce": "Pulgada-onza (in·oz)",
+    "kgfMeter": "Kilogramo-fuerza metro (kgf·m)",
+    "kgfCentimeter": "Kilogramo-fuerza centímetro (kgf·cm)",
+    "dyneCentimeter": "Dina-centímetro (dyn·cm)"
+  },
+  "IlluminanceConverter": {
+    "fromLabel": "De",
+    "toLabel": "A",
+    "amountLabel": "Cantidad",
+    "amountPlaceholder": "1",
+    "convertButton": "Convertir",
+    "clearButton": "Limpiar",
+    "resultLabel": "Resultado",
+    "lux": "Lux (lx)",
+    "millilux": "Mililux (mlx)",
+    "kilolux": "Kilolux (klx)",
+    "footCandle": "Pie-candela (fc)",
+    "phot": "Fot (ph)",
+    "nox": "Nox (nx)"
+  },
+  "MacroCalculator": {
+    "caloriesLabel": "Objetivo calórico diario",
+    "caloriesPlaceholder": "2000",
+    "dietLabel": "Tipo de dieta",
+    "dietBalanced": "Equilibrada",
+    "dietLowCarb": "Baja en carbohidratos",
+    "dietHighProtein": "Alta en proteínas",
+    "dietKeto": "Cetogénica",
+    "dietCustom": "Personalizada",
+    "proteinPctLabel": "Proteínas %",
+    "carbsPctLabel": "Carbohidratos %",
+    "fatPctLabel": "Grasas %",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "proteinLabel": "Proteínas",
+    "carbsLabel": "Carbohidratos",
+    "fatLabel": "Grasas",
+    "gramsLabel": "g",
+    "calPerGramNote": "4 kcal/g para proteínas y carbohidratos, 9 kcal/g para grasas"
+  },
+  "MenstrualCycleCalculator": {
+    "lastPeriodLabel": "Primer día del último período",
+    "cycleLengthLabel": "Duración del ciclo (días)",
+    "periodDurationLabel": "Duración del período (días)",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "nextPeriodLabel": "Próximo período",
+    "fertileWindowLabel": "Ventana fértil",
+    "ovulationLabel": "Ovulación estimada",
+    "followingPeriods": "3 ciclos siguientes",
+    "disclaimer": "Esta calculadora es solo para fines informativos y no sustituye el consejo médico.",
+    "daysUntil": "en {days} días"
+  },
+  "TaxBracketCalculator": {
+    "incomeLabel": "Ingresos anuales (USD)",
+    "incomePlaceholder": "75000",
+    "filingStatusLabel": "Estado civil fiscal",
+    "single": "Soltero/a",
+    "marriedJoint": "Casado/a declaración conjunta",
+    "marriedSeparate": "Casado/a declaración separada",
+    "headOfHousehold": "Cabeza de familia",
+    "taxYearLabel": "Año fiscal",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "estimatedTaxLabel": "Impuesto federal estimado",
+    "effectiveRateLabel": "Tasa efectiva",
+    "marginalRateLabel": "Tasa marginal",
+    "afterTaxLabel": "Ingresos después de impuestos",
+    "bracketBreakdown": "Desglose por tramos",
+    "disclaimer": "Solo estimación. No incluye deducciones, créditos ni impuestos estatales. Consulta un profesional fiscal."
+  },
+  "StockProfitCalculator": {
+    "buyPriceLabel": "Precio de compra por acción",
+    "buyPricePlaceholder": "100.00",
+    "sellPriceLabel": "Precio de venta por acción",
+    "sellPricePlaceholder": "150.00",
+    "sharesLabel": "Número de acciones",
+    "sharesPlaceholder": "100",
+    "buyCommissionLabel": "Comisión de compra",
+    "sellCommissionLabel": "Comisión de venta",
+    "commissionPlaceholder": "0.00",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "totalCostLabel": "Coste total",
+    "totalRevenueLabel": "Ingresos totales",
+    "profitLossLabel": "Ganancia / Pérdida",
+    "roiLabel": "Retorno sobre la inversión",
+    "profitPerShareLabel": "Ganancia por acción"
+  },
+  "BinaryCalculator": {
+    "num1Label": "Número 1",
+    "num2Label": "Número 2",
+    "inputModeBIN": "BIN",
+    "inputModeDEC": "DEC",
+    "inputModeHEX": "HEX",
+    "operationLabel": "Operación",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "resultLabel": "Resultado",
+    "binaryLabel": "Binario",
+    "decimalLabel": "Decimal",
+    "hexLabel": "Hexadecimal",
+    "invalidInput": "Entrada no válida para la base seleccionada."
+  },
+  "VectorCalculator": {
+    "dimensionLabel": "Dimensiones",
+    "dim2d": "2D",
+    "dim3d": "3D",
+    "vector1Label": "Vector A",
+    "vector2Label": "Vector B",
+    "operationLabel": "Operación",
+    "opAdd": "A + B (Suma)",
+    "opSubtract": "A − B (Resta)",
+    "opDot": "A · B (Producto escalar)",
+    "opCross": "A × B (Producto vectorial, solo 3D)",
+    "opMagnitudeA": "|A| (Módulo de A)",
+    "opMagnitudeB": "|B| (Módulo de B)",
+    "opAngle": "Ángulo entre A y B",
+    "calculateButton": "Calcular",
+    "clearButton": "Limpiar",
+    "resultLabel": "Resultado",
+    "xLabel": "x",
+    "yLabel": "y",
+    "zLabel": "z",
+    "degreesLabel": "grados",
+    "invalidInput": "Introduce números válidos para todos los componentes del vector."
   }
 }

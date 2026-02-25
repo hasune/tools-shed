@@ -758,6 +758,78 @@
       "description": "Calculez des logarithmes dans n'importe quelle base — logarithme naturel (ln), base 10 ou base personnalisée.",
       "metaTitle": "Calculateur de Logarithme",
       "metaDescription": "Calculez des logarithmes dans n'importe quelle base — logarithme naturel (ln), base 10 ou base personnalisée."
+    },
+    "xml-formatter": {
+      "name": "XML Formatter",
+      "description": "Format, validate, and minify XML documents with syntax highlighting.",
+      "metaTitle": "XML Formatter & Validator",
+      "metaDescription": "Format, validate, and minify XML documents online. Free XML beautifier with syntax checking — works in your browser."
+    },
+    "jwt-generator": {
+      "name": "JWT Generator",
+      "description": "Generate signed JWT tokens with custom header, payload, and secret key.",
+      "metaTitle": "JWT Generator",
+      "metaDescription": "Generate signed JWT tokens with custom payload and HS256 secret. Free browser-based JWT generator — no data sent to server."
+    },
+    "text-statistics": {
+      "name": "Text Readability Analyzer",
+      "description": "Analyze text readability with Flesch score, average sentence length, and more.",
+      "metaTitle": "Text Readability Analyzer",
+      "metaDescription": "Analyze text readability with Flesch Reading Ease, Gunning Fog Index, and grade level scores."
+    },
+    "speech-to-text": {
+      "name": "Speech to Text",
+      "description": "Convert speech to text using your browser's built-in voice recognition engine.",
+      "metaTitle": "Speech to Text",
+      "metaDescription": "Convert speech to text using your browser's built-in Web Speech API. Free, no upload required."
+    },
+    "torque-converter": {
+      "name": "Torque Converter",
+      "description": "Convert between Newton-meters, foot-pounds, kilogram-force meters, and more torque units.",
+      "metaTitle": "Torque Converter",
+      "metaDescription": "Convert between Newton-meters, foot-pounds, kilogram-force meters, and other torque units. Free online torque converter."
+    },
+    "illuminance-converter": {
+      "name": "Illuminance Converter",
+      "description": "Convert between lux, foot-candle, and phot illuminance units.",
+      "metaTitle": "Illuminance Converter",
+      "metaDescription": "Convert between lux, foot-candle, and phot illuminance units. Free online light intensity converter."
+    },
+    "macro-calculator": {
+      "name": "Macro Calculator",
+      "description": "Calculate daily carbohydrate, protein, and fat targets based on your calorie goal.",
+      "metaTitle": "Macro Calculator",
+      "metaDescription": "Calculate your daily macros — carbs, protein, and fat — based on your calorie goal and diet type."
+    },
+    "menstrual-cycle-calculator": {
+      "name": "Menstrual Cycle Calculator",
+      "description": "Predict your next period and fertile window based on cycle length and last period date.",
+      "metaTitle": "Menstrual Cycle Calculator",
+      "metaDescription": "Predict your next period date and fertile window based on your cycle length and last period start date."
+    },
+    "tax-bracket-calculator": {
+      "name": "Tax Bracket Calculator",
+      "description": "Estimate US federal income tax, effective rate, and marginal rate for any income.",
+      "metaTitle": "US Federal Tax Bracket Calculator",
+      "metaDescription": "Estimate your US federal income tax, effective tax rate, and marginal tax bracket for 2024."
+    },
+    "stock-profit-calculator": {
+      "name": "Stock Profit Calculator",
+      "description": "Calculate profit, loss, and return on investment for stock trades.",
+      "metaTitle": "Stock Profit Calculator",
+      "metaDescription": "Calculate your stock trade profit, loss, and ROI. Enter buy and sell price with number of shares."
+    },
+    "binary-calculator": {
+      "name": "Binary Calculator",
+      "description": "Perform arithmetic and bitwise operations on binary, decimal, and hexadecimal numbers.",
+      "metaTitle": "Binary Calculator",
+      "metaDescription": "Perform binary arithmetic and bitwise operations (AND, OR, XOR, NOT, shift). Supports binary, decimal, and hex."
+    },
+    "vector-calculator": {
+      "name": "Vector Calculator",
+      "description": "Calculate 2D and 3D vector addition, subtraction, dot product, cross product, and magnitude.",
+      "metaTitle": "Vector Calculator",
+      "metaDescription": "Calculate 2D and 3D vector operations: addition, subtraction, dot product, cross product, and magnitude."
     }
   },
   "Common": {
@@ -2305,5 +2377,205 @@
       "title": "Politique de confidentialité",
       "description": "Politique de confidentialité de ToolsShed — comment nous traitons vos données."
     }
+  },
+  "XmlFormatter": {
+    "inputLabel": "Input XML",
+    "inputPlaceholder": "Paste XML here...",
+    "outputLabel": "Output",
+    "formatButton": "Format",
+    "minifyButton": "Minify",
+    "clearButton": "Clear",
+    "sampleButton": "Sample",
+    "indentLabel": "Indent:",
+    "twoSpaces": "2 spaces",
+    "fourSpaces": "4 spaces",
+    "validXml": "Valid XML",
+    "invalidXml": "Invalid XML"
+  },
+  "JwtGenerator": {
+    "headerLabel": "Header",
+    "payloadLabel": "Payload",
+    "secretLabel": "Secret Key",
+    "secretPlaceholder": "your-256-bit-secret",
+    "algorithmLabel": "Algorithm",
+    "generateButton": "Generate JWT",
+    "clearButton": "Clear",
+    "outputLabel": "Generated JWT",
+    "warningLabel": "⚠ For testing only — never expose real secrets.",
+    "copyButton": "Copy"
+  },
+  "TextStatistics": {
+    "inputLabel": "Your text",
+    "inputPlaceholder": "Paste or type your text here...",
+    "clearButton": "Clear",
+    "wordsLabel": "Words",
+    "sentencesLabel": "Sentences",
+    "syllablesLabel": "Syllables",
+    "avgWordsPerSentence": "Avg. words/sentence",
+    "avgSyllablesPerWord": "Avg. syllables/word",
+    "fleschEaseLabel": "Flesch Reading Ease",
+    "fleschGradeLabel": "Flesch-Kincaid Grade",
+    "gunningFogLabel": "Gunning Fog Index",
+    "gradeLabel": "Grade Level",
+    "readabilityLabel": "Readability",
+    "veryEasy": "Very Easy",
+    "easy": "Easy",
+    "fairlyEasy": "Fairly Easy",
+    "standard": "Standard",
+    "fairlyDifficult": "Fairly Difficult",
+    "difficult": "Difficult",
+    "veryDifficult": "Very Difficult"
+  },
+  "SpeechToText": {
+    "startButton": "Start Recording",
+    "stopButton": "Stop Recording",
+    "clearButton": "Clear",
+    "copyButton": "Copy",
+    "listenLabel": "Listening...",
+    "outputLabel": "Transcript",
+    "outputPlaceholder": "Your speech will appear here...",
+    "languageLabel": "Language",
+    "notSupportedError": "Speech recognition is not supported in this browser. Please use Chrome or Edge.",
+    "permissionError": "Microphone access denied. Please allow microphone access and try again."
+  },
+  "TorqueConverter": {
+    "fromLabel": "From",
+    "toLabel": "To",
+    "amountLabel": "Amount",
+    "amountPlaceholder": "1",
+    "convertButton": "Convert",
+    "clearButton": "Clear",
+    "resultLabel": "Result",
+    "newtonMeter": "Newton-meter (N·m)",
+    "newtonCentimeter": "Newton-centimeter (N·cm)",
+    "kilonewtonMeter": "Kilonewton-meter (kN·m)",
+    "footPound": "Foot-pound (ft·lb)",
+    "inchPound": "Inch-pound (in·lb)",
+    "inchOunce": "Inch-ounce (in·oz)",
+    "kgfMeter": "Kilogram-force meter (kgf·m)",
+    "kgfCentimeter": "Kilogram-force centimeter (kgf·cm)",
+    "dyneCentimeter": "Dyne-centimeter (dyn·cm)"
+  },
+  "IlluminanceConverter": {
+    "fromLabel": "From",
+    "toLabel": "To",
+    "amountLabel": "Amount",
+    "amountPlaceholder": "1",
+    "convertButton": "Convert",
+    "clearButton": "Clear",
+    "resultLabel": "Result",
+    "lux": "Lux (lx)",
+    "millilux": "Millilux (mlx)",
+    "kilolux": "Kilolux (klx)",
+    "footCandle": "Foot-candle (fc)",
+    "phot": "Phot (ph)",
+    "nox": "Nox (nx)"
+  },
+  "MacroCalculator": {
+    "caloriesLabel": "Daily calorie goal",
+    "caloriesPlaceholder": "2000",
+    "dietLabel": "Diet type",
+    "dietBalanced": "Balanced",
+    "dietLowCarb": "Low-carb",
+    "dietHighProtein": "High-protein",
+    "dietKeto": "Ketogenic",
+    "dietCustom": "Custom",
+    "proteinPctLabel": "Protein %",
+    "carbsPctLabel": "Carbs %",
+    "fatPctLabel": "Fat %",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "proteinLabel": "Protein",
+    "carbsLabel": "Carbohydrates",
+    "fatLabel": "Fat",
+    "gramsLabel": "g",
+    "calPerGramNote": "4 kcal/g for protein & carbs, 9 kcal/g for fat"
+  },
+  "MenstrualCycleCalculator": {
+    "lastPeriodLabel": "First day of last period",
+    "cycleLengthLabel": "Cycle length (days)",
+    "periodDurationLabel": "Period duration (days)",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "nextPeriodLabel": "Next Period",
+    "fertileWindowLabel": "Fertile Window",
+    "ovulationLabel": "Estimated Ovulation",
+    "followingPeriods": "Following 3 cycles",
+    "disclaimer": "This calculator is for informational purposes only and is not a substitute for medical advice.",
+    "daysUntil": "in {days} days"
+  },
+  "TaxBracketCalculator": {
+    "incomeLabel": "Annual Income (USD)",
+    "incomePlaceholder": "75000",
+    "filingStatusLabel": "Filing Status",
+    "single": "Single",
+    "marriedJoint": "Married Filing Jointly",
+    "marriedSeparate": "Married Filing Separately",
+    "headOfHousehold": "Head of Household",
+    "taxYearLabel": "Tax Year",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "estimatedTaxLabel": "Estimated Federal Tax",
+    "effectiveRateLabel": "Effective Tax Rate",
+    "marginalRateLabel": "Marginal Tax Rate",
+    "afterTaxLabel": "After-Tax Income",
+    "bracketBreakdown": "Bracket Breakdown",
+    "disclaimer": "Estimate only. Does not include deductions, credits, or state taxes. Consult a tax professional for advice."
+  },
+  "StockProfitCalculator": {
+    "buyPriceLabel": "Buy Price per Share",
+    "buyPricePlaceholder": "100.00",
+    "sellPriceLabel": "Sell Price per Share",
+    "sellPricePlaceholder": "150.00",
+    "sharesLabel": "Number of Shares",
+    "sharesPlaceholder": "100",
+    "buyCommissionLabel": "Buy Commission / Fees",
+    "sellCommissionLabel": "Sell Commission / Fees",
+    "commissionPlaceholder": "0.00",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "totalCostLabel": "Total Cost",
+    "totalRevenueLabel": "Total Revenue",
+    "profitLossLabel": "Profit / Loss",
+    "roiLabel": "Return on Investment",
+    "profitPerShareLabel": "Profit per Share"
+  },
+  "BinaryCalculator": {
+    "num1Label": "Number 1",
+    "num2Label": "Number 2",
+    "inputModeBin": "BIN",
+    "inputModeDec": "DEC",
+    "inputModeHex": "HEX",
+    "operationLabel": "Operation",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "resultLabel": "Result",
+    "binaryLabel": "Binary",
+    "decimalLabel": "Decimal",
+    "hexLabel": "Hexadecimal",
+    "invalidInput": "Invalid input for the selected base."
+  },
+  "VectorCalculator": {
+    "dimensionLabel": "Dimensions",
+    "dim2d": "2D",
+    "dim3d": "3D",
+    "vector1Label": "Vector A",
+    "vector2Label": "Vector B",
+    "operationLabel": "Operation",
+    "opAdd": "A + B (Addition)",
+    "opSubtract": "A − B (Subtraction)",
+    "opDot": "A · B (Dot Product)",
+    "opCross": "A × B (Cross Product, 3D only)",
+    "opMagnitudeA": "|A| (Magnitude of A)",
+    "opMagnitudeB": "|B| (Magnitude of B)",
+    "opAngle": "Angle between A and B",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "resultLabel": "Result",
+    "xLabel": "x",
+    "yLabel": "y",
+    "zLabel": "z",
+    "degreesLabel": "degrees",
+    "invalidInput": "Please enter valid numbers for all vector components."
   }
 }

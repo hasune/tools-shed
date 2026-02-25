@@ -758,6 +758,78 @@
       "description": "计算任意底的对数——自然对数 (ln)、常用对数 (log₁₀) 或自定义底数。",
       "metaTitle": "对数计算器",
       "metaDescription": "计算log₁₀、自然对数(ln)、log₂或任意自定义底数的对数。免费在线对数计算器。"
+    },
+    "xml-formatter": {
+      "name": "XML格式化工具",
+      "description": "格式化、验证和压缩XML代码。",
+      "metaTitle": "XML格式化工具与验证器",
+      "metaDescription": "在线格式化、验证和压缩XML代码。免费浏览器端XML工具。"
+    },
+    "jwt-generator": {
+      "name": "JWT生成器",
+      "description": "生成带HS256签名的JWT令牌。",
+      "metaTitle": "JWT生成器",
+      "metaDescription": "生成HS256签名的JWT令牌。免费测试和开发工具。"
+    },
+    "text-statistics": {
+      "name": "文本可读性分析器",
+      "description": "使用Flesch、Gunning Fog等指标分析文本可读性。",
+      "metaTitle": "文本可读性分析器",
+      "metaDescription": "使用Flesch Reading Ease、Flesch-Kincaid和Gunning Fog分析文本可读性。"
+    },
+    "speech-to-text": {
+      "name": "语音转文字",
+      "description": "使用麦克风实时将语音转换为文字。",
+      "metaTitle": "语音转文字 - 免费在线工具",
+      "metaDescription": "浏览器麦克风实时语音识别，支持13种语言的免费工具。"
+    },
+    "torque-converter": {
+      "name": "扭矩转换器",
+      "description": "在N·m、ft·lb、in·lb等扭矩单位之间转换。",
+      "metaTitle": "扭矩转换器",
+      "metaDescription": "在牛顿米、英尺磅、英寸磅等扭矩单位之间转换。"
+    },
+    "illuminance-converter": {
+      "name": "照度转换器",
+      "description": "在勒克斯、英尺烛光、照度等单位之间转换。",
+      "metaTitle": "照度转换器",
+      "metaDescription": "在勒克斯、英尺烛光、照度等照度单位之间转换。"
+    },
+    "macro-calculator": {
+      "name": "宏量营养素计算器",
+      "description": "根据卡路里目标计算蛋白质、碳水化合物和脂肪摄入量。",
+      "metaTitle": "宏量营养素计算器",
+      "metaDescription": "根据卡路里目标和饮食类型计算宏量营养素。"
+    },
+    "menstrual-cycle-calculator": {
+      "name": "月经周期计算器",
+      "description": "预测下次月经日、排卵日和受孕窗口期。",
+      "metaTitle": "月经周期计算器",
+      "metaDescription": "预测下次月经日、排卵日和受孕窗口期的免费工具。"
+    },
+    "tax-bracket-calculator": {
+      "name": "美国税率档次计算器",
+      "description": "按申报状态估算2024年美国联邦所得税。",
+      "metaTitle": "美国联邦税计算器 2024",
+      "metaDescription": "按申报状态估算2024年美国联邦所得税，显示有效税率和边际税率。"
+    },
+    "stock-profit-calculator": {
+      "name": "股票损益计算器",
+      "description": "计算股票投资的损益、ROI和每股收益。",
+      "metaTitle": "股票损益计算器",
+      "metaDescription": "计算股票投资的利润/亏损、ROI和每股损益，含手续费。"
+    },
+    "binary-calculator": {
+      "name": "二进制计算器",
+      "description": "在二进制、十进制、十六进制下进行算术和逻辑运算。",
+      "metaTitle": "二进制计算器",
+      "metaDescription": "在二进制、十进制、十六进制下执行AND、OR、XOR、加法等运算。"
+    },
+    "vector-calculator": {
+      "name": "向量计算器",
+      "description": "计算2D/3D向量的加法、点积、叉积和角度。",
+      "metaTitle": "向量计算器",
+      "metaDescription": "计算2D/3D向量的加法、减法、点积、叉积、模长和角度。"
     }
   },
   "Common": {
@@ -2305,5 +2377,206 @@
       "title": "隐私政策",
       "description": "ToolsShed 隐私政策 — 我们如何处理您的数据。"
     }
+  },
+  "XmlFormatter": {
+    "inputLabel": "输入XML",
+    "inputPlaceholder": "在此粘贴XML...",
+    "outputLabel": "输出",
+    "formatButton": "格式化",
+    "minifyButton": "压缩",
+    "clearButton": "清空",
+    "sampleButton": "示例",
+    "indentLabel": "缩进:",
+    "twoSpaces": "2空格",
+    "fourSpaces": "4空格",
+    "validXml": "有效XML",
+    "invalidXml": "无效XML",
+    "copyButton": "复制"
+  },
+  "JwtGenerator": {
+    "headerLabel": "头部",
+    "payloadLabel": "载荷",
+    "secretLabel": "密钥",
+    "secretPlaceholder": "your-256-bit-secret",
+    "algorithmLabel": "算法",
+    "generateButton": "生成JWT",
+    "clearButton": "清空",
+    "outputLabel": "生成的JWT",
+    "warningLabel": "⚠ 仅用于测试 — 请勿泄露真实密钥。",
+    "copyButton": "复制"
+  },
+  "TextStatistics": {
+    "inputLabel": "文本",
+    "inputPlaceholder": "粘贴或输入文本...",
+    "clearButton": "清空",
+    "wordsLabel": "单词数",
+    "sentencesLabel": "句子数",
+    "syllablesLabel": "音节数",
+    "avgWordsPerSentence": "每句平均单词数",
+    "avgSyllablesPerWord": "每词平均音节数",
+    "fleschEaseLabel": "Flesch阅读难易度",
+    "fleschGradeLabel": "Flesch-Kincaid年级水平",
+    "gunningFogLabel": "Gunning Fog指数",
+    "gradeLabel": "年级水平",
+    "readabilityLabel": "可读性",
+    "veryEasy": "非常容易",
+    "easy": "容易",
+    "fairlyEasy": "较容易",
+    "standard": "标准",
+    "fairlyDifficult": "较难",
+    "difficult": "困难",
+    "veryDifficult": "非常困难"
+  },
+  "SpeechToText": {
+    "startButton": "开始录音",
+    "stopButton": "停止录音",
+    "clearButton": "清空",
+    "copyButton": "复制",
+    "listenLabel": "正在聆听...",
+    "outputLabel": "转录文本",
+    "outputPlaceholder": "语音将显示在此处...",
+    "languageLabel": "语言",
+    "notSupportedError": "此浏览器不支持语音识别。请使用Chrome或Edge。",
+    "permissionError": "麦克风访问被拒绝。请允许麦克风访问后重试。"
+  },
+  "TorqueConverter": {
+    "fromLabel": "从",
+    "toLabel": "到",
+    "amountLabel": "数值",
+    "amountPlaceholder": "1",
+    "convertButton": "转换",
+    "clearButton": "清空",
+    "resultLabel": "结果",
+    "newtonMeter": "牛顿米 (N·m)",
+    "newtonCentimeter": "牛顿厘米 (N·cm)",
+    "kilonewtonMeter": "千牛顿米 (kN·m)",
+    "footPound": "英尺磅 (ft·lb)",
+    "inchPound": "英寸磅 (in·lb)",
+    "inchOunce": "英寸盎司 (in·oz)",
+    "kgfMeter": "千克力米 (kgf·m)",
+    "kgfCentimeter": "千克力厘米 (kgf·cm)",
+    "dyneCentimeter": "达因厘米 (dyn·cm)"
+  },
+  "IlluminanceConverter": {
+    "fromLabel": "从",
+    "toLabel": "到",
+    "amountLabel": "数值",
+    "amountPlaceholder": "1",
+    "convertButton": "转换",
+    "clearButton": "清空",
+    "resultLabel": "结果",
+    "lux": "勒克斯 (lx)",
+    "millilux": "毫勒克斯 (mlx)",
+    "kilolux": "千勒克斯 (klx)",
+    "footCandle": "英尺烛光 (fc)",
+    "phot": "照度 (ph)",
+    "nox": "诺克斯 (nx)"
+  },
+  "MacroCalculator": {
+    "caloriesLabel": "每日卡路里目标",
+    "caloriesPlaceholder": "2000",
+    "dietLabel": "饮食类型",
+    "dietBalanced": "均衡",
+    "dietLowCarb": "低碳水",
+    "dietHighProtein": "高蛋白",
+    "dietKeto": "生酮",
+    "dietCustom": "自定义",
+    "proteinPctLabel": "蛋白质 %",
+    "carbsPctLabel": "碳水化合物 %",
+    "fatPctLabel": "脂肪 %",
+    "calculateButton": "计算",
+    "clearButton": "清空",
+    "proteinLabel": "蛋白质",
+    "carbsLabel": "碳水化合物",
+    "fatLabel": "脂肪",
+    "gramsLabel": "克",
+    "calPerGramNote": "蛋白质和碳水化合物4千卡/克，脂肪9千卡/克"
+  },
+  "MenstrualCycleCalculator": {
+    "lastPeriodLabel": "上次月经开始日期",
+    "cycleLengthLabel": "周期长度（天）",
+    "periodDurationLabel": "经期时长（天）",
+    "calculateButton": "计算",
+    "clearButton": "清空",
+    "nextPeriodLabel": "下次月经预计日期",
+    "fertileWindowLabel": "受孕窗口期",
+    "ovulationLabel": "预计排卵日",
+    "followingPeriods": "接下来3个周期",
+    "disclaimer": "本计算器仅提供参考信息，不能替代医疗建议。",
+    "daysUntil": "{days}天后"
+  },
+  "TaxBracketCalculator": {
+    "incomeLabel": "年收入（美元）",
+    "incomePlaceholder": "75000",
+    "filingStatusLabel": "申报状态",
+    "single": "单身",
+    "marriedJoint": "已婚联合申报",
+    "marriedSeparate": "已婚分开申报",
+    "headOfHousehold": "户主",
+    "taxYearLabel": "纳税年度",
+    "calculateButton": "计算",
+    "clearButton": "清空",
+    "estimatedTaxLabel": "预计联邦税",
+    "effectiveRateLabel": "实际税率",
+    "marginalRateLabel": "边际税率",
+    "afterTaxLabel": "税后收入",
+    "bracketBreakdown": "税率档次明细",
+    "disclaimer": "仅为估算。不含扣除、抵税额或州税。请咨询税务专业人员。"
+  },
+  "StockProfitCalculator": {
+    "buyPriceLabel": "买入价（每股）",
+    "buyPricePlaceholder": "100.00",
+    "sellPriceLabel": "卖出价（每股）",
+    "sellPricePlaceholder": "150.00",
+    "sharesLabel": "股数",
+    "sharesPlaceholder": "100",
+    "buyCommissionLabel": "买入佣金/手续费",
+    "sellCommissionLabel": "卖出佣金/手续费",
+    "commissionPlaceholder": "0.00",
+    "calculateButton": "计算",
+    "clearButton": "清空",
+    "totalCostLabel": "总成本",
+    "totalRevenueLabel": "总收益",
+    "profitLossLabel": "盈亏",
+    "roiLabel": "投资回报率（ROI）",
+    "profitPerShareLabel": "每股盈亏"
+  },
+  "BinaryCalculator": {
+    "num1Label": "数字 1",
+    "num2Label": "数字 2",
+    "inputModeBIN": "二进制",
+    "inputModeDEC": "十进制",
+    "inputModeHEX": "十六进制",
+    "operationLabel": "运算",
+    "calculateButton": "计算",
+    "clearButton": "清空",
+    "resultLabel": "结果",
+    "binaryLabel": "二进制",
+    "decimalLabel": "十进制",
+    "hexLabel": "十六进制",
+    "invalidInput": "所选进制的输入无效。"
+  },
+  "VectorCalculator": {
+    "dimensionLabel": "维度",
+    "dim2d": "2D",
+    "dim3d": "3D",
+    "vector1Label": "向量 A",
+    "vector2Label": "向量 B",
+    "operationLabel": "运算",
+    "opAdd": "A + B（加法）",
+    "opSubtract": "A − B（减法）",
+    "opDot": "A · B（点积）",
+    "opCross": "A × B（叉积，仅3D）",
+    "opMagnitudeA": "|A|（A的模）",
+    "opMagnitudeB": "|B|（B的模）",
+    "opAngle": "A与B的夹角",
+    "calculateButton": "计算",
+    "clearButton": "清空",
+    "resultLabel": "结果",
+    "xLabel": "x",
+    "yLabel": "y",
+    "zLabel": "z",
+    "degreesLabel": "度",
+    "invalidInput": "请为所有向量分量输入有效数字。"
   }
 }

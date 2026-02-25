@@ -549,12 +549,6 @@
       "metaTitle": "Generador de Paleta de Colores",
       "metaDescription": "Genera paletas de colores complementarios, análogos, triádicos y más. Generador de paletas gratuito."
     },
-    "image-to-base64": {
-      "name": "Imagen a Base64",
-      "description": "Convierte imágenes a URLs de datos Base64 para incrustar en HTML o CSS.",
-      "metaTitle": "Conversor de Imagen a Base64",
-      "metaDescription": "Convierte imágenes PNG, JPG, SVG, GIF a URLs Base64. Codificador de imágenes gratuito."
-    },
     "text-sorter": {
       "name": "Ordenador de Texto",
       "description": "Ordena líneas de texto alfabéticamente, por longitud o aleatoriamente.",

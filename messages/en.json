@@ -549,12 +549,6 @@
       "metaTitle": "Color Palette Generator",
       "metaDescription": "Generate color palettes — complementary, analogous, triadic, and more — from any base color. Free online palette generator."
     },
-    "image-to-base64": {
-      "name": "Image to Base64",
-      "description": "Convert image files to Base64 data URLs for embedding in HTML or CSS.",
-      "metaTitle": "Image to Base64 Converter",
-      "metaDescription": "Convert image files (PNG, JPG, SVG, GIF) to Base64 data URLs for embedding in HTML or CSS. Free online image encoder."
-    },
     "text-sorter": {
       "name": "Text Sorter",
       "description": "Sort lines of text alphabetically, by length, or randomly.",

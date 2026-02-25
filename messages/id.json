@@ -549,12 +549,6 @@
       "metaTitle": "Generator Palet Warna",
       "metaDescription": "Buat palet warna komplementer, analog, dan triadik. Generator palet gratis online."
     },
-    "image-to-base64": {
-      "name": "Gambar ke Base64",
-      "description": "Konversi file gambar ke URL data Base64 untuk disematkan di HTML atau CSS.",
-      "metaTitle": "Konverter Gambar ke Base64",
-      "metaDescription": "Konversi PNG, JPG, SVG, GIF ke URL Base64. Pengkode gambar gratis online."
-    },
     "text-sorter": {
       "name": "Pengurut Teks",
       "description": "Urutkan baris teks secara alfabetis, berdasarkan panjang, atau acak.",

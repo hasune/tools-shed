@@ -549,12 +549,6 @@
       "metaTitle": "调色板生成器",
       "metaDescription": "从任意基础颜色生成互补色、类似色、三元色等调色板。免费在线调色板生成器。"
     },
-    "image-to-base64": {
-      "name": "图片转Base64",
-      "description": "将图片文件转换为Base64数据URL，用于嵌入HTML或CSS。",
-      "metaTitle": "图片转Base64转换器",
-      "metaDescription": "将PNG、JPG、SVG、GIF图片转换为Base64数据URL。免费在线图片编码器。"
-    },
     "text-sorter": {
       "name": "文本排序器",
       "description": "按字母顺序、长度或随机顺序对文本行进行排序。",

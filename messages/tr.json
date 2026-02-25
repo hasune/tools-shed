@@ -549,12 +549,6 @@
       "metaTitle": "Renk Paleti Oluşturucu",
       "metaDescription": "Tamamlayıcı, analog, triadik renk paletleri oluşturun. Ücretsiz çevrimiçi araç."
     },
-    "image-to-base64": {
-      "name": "Görsel → Base64",
-      "description": "Görselleri HTML veya CSS'e gömmek için Base64 veri URL'sine dönüştürün.",
-      "metaTitle": "Görsel Base64 Dönüştürücü",
-      "metaDescription": "PNG, JPG, SVG, GIF görsellerini Base64 URL'ye dönüştürün. Ücretsiz çevrimiçi araç."
-    },
     "text-sorter": {
       "name": "Metin Sıralayıcı",
       "description": "Metin satırlarını alfabetik, uzunluğa göre veya rastgele sıralayın.",

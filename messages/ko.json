@@ -549,12 +549,6 @@
       "metaTitle": "색상 팔레트 생성기",
       "metaDescription": "기본 색상에서 보색·유사색·삼각 배색 등의 색상 팔레트를 생성합니다. 무료 온라인 팔레트 생성기."
     },
-    "image-to-base64": {
-      "name": "이미지 → Base64",
-      "description": "이미지 파일을 HTML이나 CSS에 삽입할 수 있는 Base64 데이터 URL로 변환합니다.",
-      "metaTitle": "이미지 Base64 변환기",
-      "metaDescription": "PNG, JPG, SVG, GIF 이미지를 Base64 데이터 URL로 변환합니다. 무료 온라인 이미지 인코더."
-    },
     "text-sorter": {
       "name": "텍스트 정렬기",
       "description": "텍스트 줄을 알파벳순, 길이순 또는 무작위로 정렬합니다.",

@@ -549,12 +549,6 @@
       "metaTitle": "カラーパレット生成",
       "metaDescription": "任意のベースカラーから補色・類似色・三角配色などのパレットを生成します。無料オンラインカラーパレットジェネレーター。"
     },
-    "image-to-base64": {
-      "name": "画像をBase64に変換",
-      "description": "画像ファイルをHTMLやCSSに埋め込むためのBase64データURLに変換します。",
-      "metaTitle": "画像をBase64に変換",
-      "metaDescription": "PNG、JPG、SVG、GIF画像をBase64データURLに変換してHTMLやCSSに埋め込めます。無料オンライン画像エンコーダー。"
-    },
     "text-sorter": {
       "name": "テキスト並べ替え",
       "description": "テキストの行をアルファベット順、長さ順、またはランダムに並べ替えます。",

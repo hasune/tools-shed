@@ -696,15 +696,6 @@ export const tools: Tool[] = [
     icon: "🎨",
     keywords: ["color", "palette", "complementary", "analogous", "triadic", "hsl", "hex", "design"],
   },
-  {
-    slug: "image-to-base64",
-    name: "Image to Base64",
-    description: "Convert image files to Base64 data URLs for embedding in HTML or CSS.",
-    category: "Developer Tools",
-    categorySlug: "developer",
-    icon: "🖼",
-    keywords: ["image", "base64", "data url", "convert", "encode", "embed", "png", "jpg"],
-  },
   // Text (new batch 3)
   {
     slug: "find-replace",

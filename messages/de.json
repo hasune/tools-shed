@@ -549,12 +549,6 @@
       "metaTitle": "Farbpaletten-Generator",
       "metaDescription": "Generiere Farbpaletten: komplementär, analog, triadisch und mehr. Kostenloser Online-Generator."
     },
-    "image-to-base64": {
-      "name": "Bild zu Base64",
-      "description": "Konvertiere Bilder in Base64-Daten-URLs zum Einbetten in HTML oder CSS.",
-      "metaTitle": "Bild-zu-Base64-Konverter",
-      "metaDescription": "Konvertiere PNG, JPG, SVG, GIF in Base64-URLs. Kostenloser Online-Bildkodierer."
-    },
     "text-sorter": {
       "name": "Textsortierung",
       "description": "Sortiere Textzeilen alphabetisch, nach Länge oder zufällig.",

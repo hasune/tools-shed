@@ -1417,7 +1417,10 @@
     "typeFirstName": "이름만",
     "typeLastName": "성만",
     "generateButton": "생성",
-    "copyAllButton": "전체 복사"
+    "copyAllButton": "전체 복사",
+    "copiedButton": "복사됨!",
+    "copyButton": "복사",
+    "emptyHintText": "생성 버튼을 클릭하면 이름이 만들어집니다."
   },
   "FaviconGenerator": {
     "textLabel": "텍스트 / 이모지",

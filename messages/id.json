@@ -1414,10 +1414,13 @@
     "genderFemale": "Perempuan",
     "typeLabel": "Jenis nama",
     "typeFullName": "Nama lengkap",
-    "typeFirstName": "Nama depan saja",
-    "typeLastName": "Nama belakang saja",
+    "typeFirstName": "Nama",
+    "typeLastName": "Marga",
     "generateButton": "Hasilkan",
-    "copyAllButton": "Salin semua"
+    "copyAllButton": "Salin semua",
+    "copiedButton": "Disalin!",
+    "copyButton": "Salin",
+    "emptyHintText": "Klik Buat untuk membuat nama."
   },
   "FaviconGenerator": {
     "textLabel": "Teks / Emoji",

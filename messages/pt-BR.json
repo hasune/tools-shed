@@ -1414,10 +1414,13 @@
     "genderFemale": "Feminino",
     "typeLabel": "Tipo de nome",
     "typeFullName": "Nome completo",
-    "typeFirstName": "Apenas nome",
-    "typeLastName": "Apenas sobrenome",
+    "typeFirstName": "Nome",
+    "typeLastName": "Sobrenome",
     "generateButton": "Gerar",
-    "copyAllButton": "Copiar tudo"
+    "copyAllButton": "Copiar tudo",
+    "copiedButton": "Copiado!",
+    "copyButton": "Copiar",
+    "emptyHintText": "Clique em Gerar para criar nomes."
   },
   "FaviconGenerator": {
     "textLabel": "Texto / Emoji",

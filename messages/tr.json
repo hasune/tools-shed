@@ -1414,10 +1414,13 @@
     "genderFemale": "Kadın",
     "typeLabel": "İsim türü",
     "typeFullName": "Tam isim",
-    "typeFirstName": "Yalnızca ad",
-    "typeLastName": "Yalnızca soyad",
+    "typeFirstName": "Ad",
+    "typeLastName": "Soyad",
     "generateButton": "Üret",
-    "copyAllButton": "Tümünü kopyala"
+    "copyAllButton": "Tümünü kopyala",
+    "copiedButton": "Kopyalandı!",
+    "copyButton": "Kopyala",
+    "emptyHintText": "İsim oluşturmak için Oluştur'a tıklayın."
   },
   "FaviconGenerator": {
     "textLabel": "Metin / Emoji",

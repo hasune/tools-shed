@@ -1414,10 +1414,13 @@
     "genderFemale": "Женский",
     "typeLabel": "Тип имени",
     "typeFullName": "Полное имя",
-    "typeFirstName": "Только имя",
-    "typeLastName": "Только фамилия",
+    "typeFirstName": "Имя",
+    "typeLastName": "Фамилия",
     "generateButton": "Сгенерировать",
-    "copyAllButton": "Скопировать всё"
+    "copyAllButton": "Скопировать всё",
+    "copiedButton": "Скопировано!",
+    "copyButton": "Копировать",
+    "emptyHintText": "Нажмите «Создать», чтобы сгенерировать имена."
   },
   "FaviconGenerator": {
     "textLabel": "Текст / Эмодзи",

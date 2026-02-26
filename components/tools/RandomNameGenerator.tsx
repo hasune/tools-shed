@@ -83,9 +83,9 @@ export default function RandomNameGenerator() {
   ];
 
   const typeOptions: { value: NameType; label: string }[] = [
-    { value: "full", label: t("typeFull") },
-    { value: "first", label: t("typeFirst") },
-    { value: "last", label: t("typeLast") },
+    { value: "full", label: t("typeFullName") },
+    { value: "first", label: t("typeFirstName") },
+    { value: "last", label: t("typeLastName") },
   ];
 
   return (
@@ -135,7 +135,7 @@ export default function RandomNameGenerator() {
               <button
                 key={value}
                 onClick={() => setNameType(value)}
-                className={`flex-1 py-2.5 rounded-lg text-xs font-medium transition-colors ${
+                className={`flex-1 py-2 rounded-lg text-xs font-medium transition-colors leading-tight text-center break-words min-w-0 ${
                   nameType === value
                     ? "bg-indigo-600 text-white"
                     : "bg-gray-800 text-gray-400 hover:text-white border border-gray-700"
@@ -161,7 +161,7 @@ export default function RandomNameGenerator() {
             onClick={copyAll}
             className="text-sm px-3 py-1.5 text-gray-400 hover:text-white border border-gray-600 hover:border-gray-500 rounded-lg transition-colors"
           >
-            {copied ? t("copied") : t("copyAll")}
+            {copied ? t("copiedButton") : t("copyAllButton")}
           </button>
         )}
       </div>
@@ -184,7 +184,7 @@ export default function RandomNameGenerator() {
                 }}
                 className="text-xs text-gray-600 group-hover:text-indigo-400 transition-colors"
               >
-                {t("copy")}
+                {t("copyButton")}
               </button>
             </div>
           ))}
@@ -193,7 +193,7 @@ export default function RandomNameGenerator() {
 
       {names.length === 0 && (
         <div className="bg-gray-900 border border-gray-700 rounded-lg py-12 text-center">
-          <p className="text-gray-500 text-sm">{t("emptyHint")}</p>
+          <p className="text-gray-500 text-sm">{t("emptyHintText")}</p>
         </div>
       )}
     </div>

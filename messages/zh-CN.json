@@ -1414,10 +1414,13 @@
     "genderFemale": "女",
     "typeLabel": "姓名类型",
     "typeFullName": "全名",
-    "typeFirstName": "仅名字",
-    "typeLastName": "仅姓氏",
+    "typeFirstName": "仅名",
+    "typeLastName": "仅姓",
     "generateButton": "生成",
-    "copyAllButton": "全部复制"
+    "copyAllButton": "全部复制",
+    "copiedButton": "已复制!",
+    "copyButton": "复制",
+    "emptyHintText": "点击「生成」按钮创建名字。"
   },
   "FaviconGenerator": {
     "textLabel": "文字 / 表情符号",

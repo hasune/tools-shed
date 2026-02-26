@@ -1415,9 +1415,12 @@
     "typeLabel": "名前の種類",
     "typeFullName": "フルネーム",
     "typeFirstName": "名前のみ",
-    "typeLastName": "苗字のみ",
+    "typeLastName": "姓のみ",
     "generateButton": "生成",
-    "copyAllButton": "すべてコピー"
+    "copyAllButton": "すべてコピー",
+    "copiedButton": "コピー済み!",
+    "copyButton": "コピー",
+    "emptyHintText": "「生成」ボタンをクリックして名前を作成してください。"
   },
   "FaviconGenerator": {
     "textLabel": "テキスト / 絵文字",

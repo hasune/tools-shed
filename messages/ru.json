@@ -1028,7 +1028,8 @@
     "strengthWeak": "Слабый",
     "strengthFair": "Средний",
     "strengthGood": "Хороший",
-    "strengthStrong": "Надёжный"
+    "strengthStrong": "Надёжный",
+    "characterTypesLabel": "Типы символов"
   },
   "CompoundInterest": {
     "principalLabel": "Начальный капитал ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "Пауза",
     "resumeButton": "Продолжить",
     "noVoices": "В вашем браузере нет доступных голосов.",
-    "notSupported": "Синтез речи не поддерживается в вашем браузере."
+    "notSupported": "Синтез речи не поддерживается в вашем браузере.",
+    "speakingLabel": "Воспроизведение..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "Текст для анализа",
@@ -1504,7 +1506,8 @@
     "percentLabel": "% от общего",
     "ignoreCommonLabel": "Игнорировать общие слова",
     "copyButton": "Копировать как CSV",
-    "noText": "Введите текст для анализа."
+    "noText": "Введите текст для анализа.",
+    "copiedButton": "Скопировано!"
   },
   "TipCalculator": {
     "billAmountLabel": "Сумма счёта",
@@ -2505,7 +2508,8 @@
     "outputPlaceholder": "Your speech will appear here...",
     "languageLabel": "Language",
     "notSupportedError": "Speech recognition is not supported in this browser. Please use Chrome or Edge.",
-    "permissionError": "Microphone access denied. Please allow microphone access and try again."
+    "permissionError": "Microphone access denied. Please allow microphone access and try again.",
+    "copiedButton": "Скопировано!"
   },
   "TorqueConverter": {
     "fromLabel": "From",

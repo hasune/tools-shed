@@ -141,7 +141,7 @@ export default function SpeechToText() {
               onClick={copy}
               className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
             >
-              {copied ? "Copied!" : t("copyButton")}
+              {copied ? t("copiedButton") : t("copyButton")}
             </button>
           )}
         </div>

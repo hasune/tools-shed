@@ -113,7 +113,7 @@ export default function WordFrequencyCounter() {
             <p className="text-sm font-medium text-gray-300">{t("topWordsLabel")}</p>
             <button onClick={copyCSV}
               className="text-xs px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-300 rounded-lg transition-colors">
-              {copied ? "Copied!" : t("copyButton")}
+              {copied ? t("copiedButton") : t("copyButton")}
             </button>
           </div>
 

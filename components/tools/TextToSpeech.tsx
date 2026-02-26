@@ -164,7 +164,7 @@ export default function TextToSpeech() {
       {status === "speaking" && (
         <div className="flex items-center gap-2 text-indigo-400 text-sm">
           <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
-          Speaking...
+          {t("speakingLabel")}
         </div>
       )}
     </div>

@@ -105,7 +105,7 @@ export default function PasswordGenerator() {
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-gray-300">Character types</label>
+          <label className="text-sm font-medium text-gray-300">{t("characterTypesLabel")}</label>
           <div className="grid grid-cols-2 gap-2">
             {(Object.keys(options) as (keyof typeof options)[]).map((key) => (
               <label key={key} className="flex items-center gap-2 cursor-pointer">

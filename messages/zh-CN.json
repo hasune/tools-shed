@@ -1028,7 +1028,8 @@
     "strengthWeak": "弱",
     "strengthFair": "一般",
     "strengthGood": "良好",
-    "strengthStrong": "强"
+    "strengthStrong": "强",
+    "characterTypesLabel": "字符类型"
   },
   "CompoundInterest": {
     "principalLabel": "初始本金 ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "暂停",
     "resumeButton": "继续",
     "noVoices": "您的浏览器没有可用的语音。",
-    "notSupported": "您的浏览器不支持语音合成。"
+    "notSupported": "您的浏览器不支持语音合成。",
+    "speakingLabel": "正在朗读..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "要分析的文本",
@@ -1504,7 +1506,8 @@
     "percentLabel": "占比",
     "ignoreCommonLabel": "忽略常用词",
     "copyButton": "复制为 CSV",
-    "noText": "请输入文本进行分析。"
+    "noText": "请输入文本进行分析。",
+    "copiedButton": "已复制!"
   },
   "TipCalculator": {
     "billAmountLabel": "账单金额",
@@ -2506,7 +2509,8 @@
     "outputPlaceholder": "语音将显示在此处...",
     "languageLabel": "语言",
     "notSupportedError": "此浏览器不支持语音识别。请使用Chrome或Edge。",
-    "permissionError": "麦克风访问被拒绝。请允许麦克风访问后重试。"
+    "permissionError": "麦克风访问被拒绝。请允许麦克风访问后重试。",
+    "copiedButton": "已复制!"
   },
   "TorqueConverter": {
     "fromLabel": "从",

@@ -1028,7 +1028,8 @@
     "strengthWeak": "Débil",
     "strengthFair": "Regular",
     "strengthGood": "Buena",
-    "strengthStrong": "Fuerte"
+    "strengthStrong": "Fuerte",
+    "characterTypesLabel": "Tipos de caracteres"
   },
   "CompoundInterest": {
     "principalLabel": "Capital inicial ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "Pausar",
     "resumeButton": "Reanudar",
     "noVoices": "No hay voces disponibles en tu navegador.",
-    "notSupported": "La síntesis de voz no está soportada en tu navegador."
+    "notSupported": "La síntesis de voz no está soportada en tu navegador.",
+    "speakingLabel": "Hablando..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "Texto a analizar",
@@ -1504,7 +1506,8 @@
     "percentLabel": "% del total",
     "ignoreCommonLabel": "Ignorar palabras comunes",
     "copyButton": "Copiar como CSV",
-    "noText": "Introduce texto para analizar."
+    "noText": "Introduce texto para analizar.",
+    "copiedButton": "¡Copiado!"
   },
   "TipCalculator": {
     "billAmountLabel": "Importe de la cuenta",
@@ -2506,7 +2509,8 @@
     "outputPlaceholder": "Tu voz aparecerá aquí...",
     "languageLabel": "Idioma",
     "notSupportedError": "El reconocimiento de voz no es compatible con este navegador. Usa Chrome o Edge.",
-    "permissionError": "Acceso al micrófono denegado. Permite el acceso al micrófono e inténtalo de nuevo."
+    "permissionError": "Acceso al micrófono denegado. Permite el acceso al micrófono e inténtalo de nuevo.",
+    "copiedButton": "¡Copiado!"
   },
   "TorqueConverter": {
     "fromLabel": "De",

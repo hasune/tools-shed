@@ -1028,7 +1028,8 @@
     "strengthWeak": "Lemah",
     "strengthFair": "Cukup",
     "strengthGood": "Baik",
-    "strengthStrong": "Kuat"
+    "strengthStrong": "Kuat",
+    "characterTypesLabel": "Jenis karakter"
   },
   "CompoundInterest": {
     "principalLabel": "Modal Awal ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "Jeda",
     "resumeButton": "Lanjutkan",
     "noVoices": "Tidak ada suara yang tersedia di browser Anda.",
-    "notSupported": "Sintesis ucapan tidak didukung di browser Anda."
+    "notSupported": "Sintesis ucapan tidak didukung di browser Anda.",
+    "speakingLabel": "Sedang berbicara..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "Teks untuk dianalisis",
@@ -1504,7 +1506,8 @@
     "percentLabel": "% dari total",
     "ignoreCommonLabel": "Abaikan kata umum",
     "copyButton": "Salin sebagai CSV",
-    "noText": "Masukkan teks untuk dianalisis."
+    "noText": "Masukkan teks untuk dianalisis.",
+    "copiedButton": "Disalin!"
   },
   "TipCalculator": {
     "billAmountLabel": "Jumlah tagihan",
@@ -2505,7 +2508,8 @@
     "outputPlaceholder": "Your speech will appear here...",
     "languageLabel": "Language",
     "notSupportedError": "Speech recognition is not supported in this browser. Please use Chrome or Edge.",
-    "permissionError": "Microphone access denied. Please allow microphone access and try again."
+    "permissionError": "Microphone access denied. Please allow microphone access and try again.",
+    "copiedButton": "Disalin!"
   },
   "TorqueConverter": {
     "fromLabel": "From",

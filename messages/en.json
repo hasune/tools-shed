@@ -1028,7 +1028,8 @@
     "strengthWeak": "Weak",
     "strengthFair": "Fair",
     "strengthGood": "Good",
-    "strengthStrong": "Strong"
+    "strengthStrong": "Strong",
+    "characterTypesLabel": "Character types"
   },
   "CompoundInterest": {
     "principalLabel": "Initial Principal ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "Pause",
     "resumeButton": "Resume",
     "noVoices": "No voices available in your browser.",
-    "notSupported": "Speech synthesis is not supported in your browser."
+    "notSupported": "Speech synthesis is not supported in your browser.",
+    "speakingLabel": "Speaking..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "Text to analyze",
@@ -1504,7 +1506,8 @@
     "percentLabel": "% of total",
     "ignoreCommonLabel": "Ignore common words",
     "copyButton": "Copy as CSV",
-    "noText": "Enter some text to analyze."
+    "noText": "Enter some text to analyze.",
+    "copiedButton": "Copied!"
   },
   "TipCalculator": {
     "billAmountLabel": "Bill amount",
@@ -2227,7 +2230,8 @@
     "outputPlaceholder": "Your speech will appear here...",
     "languageLabel": "Language",
     "notSupportedError": "Speech recognition is not supported in this browser. Please use Chrome or Edge.",
-    "permissionError": "Microphone access denied. Please allow microphone access and try again."
+    "permissionError": "Microphone access denied. Please allow microphone access and try again.",
+    "copiedButton": "Copied!"
   },
   "TorqueConverter": {
     "fromLabel": "From",

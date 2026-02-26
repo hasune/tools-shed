@@ -1028,7 +1028,8 @@
     "strengthWeak": "Faible",
     "strengthFair": "Passable",
     "strengthGood": "Bon",
-    "strengthStrong": "Fort"
+    "strengthStrong": "Fort",
+    "characterTypesLabel": "Types de caractères"
   },
   "CompoundInterest": {
     "principalLabel": "Capital initial ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "Pause",
     "resumeButton": "Reprendre",
     "noVoices": "Aucune voix disponible dans votre navigateur.",
-    "notSupported": "La synthèse vocale n'est pas prise en charge par votre navigateur."
+    "notSupported": "La synthèse vocale n'est pas prise en charge par votre navigateur.",
+    "speakingLabel": "Lecture en cours..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "Texte à analyser",
@@ -1504,7 +1506,8 @@
     "percentLabel": "% du total",
     "ignoreCommonLabel": "Ignorer les mots courants",
     "copyButton": "Copier en CSV",
-    "noText": "Entrez du texte pour l'analyser."
+    "noText": "Entrez du texte pour l'analyser.",
+    "copiedButton": "Copié !"
   },
   "TipCalculator": {
     "billAmountLabel": "Montant de l'addition",
@@ -2505,7 +2508,8 @@
     "outputPlaceholder": "Your speech will appear here...",
     "languageLabel": "Language",
     "notSupportedError": "Speech recognition is not supported in this browser. Please use Chrome or Edge.",
-    "permissionError": "Microphone access denied. Please allow microphone access and try again."
+    "permissionError": "Microphone access denied. Please allow microphone access and try again.",
+    "copiedButton": "Copié !"
   },
   "TorqueConverter": {
     "fromLabel": "From",

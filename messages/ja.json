@@ -1028,7 +1028,8 @@
     "strengthWeak": "弱い",
     "strengthFair": "普通",
     "strengthGood": "良い",
-    "strengthStrong": "強い"
+    "strengthStrong": "強い",
+    "characterTypesLabel": "文字の種類"
   },
   "CompoundInterest": {
     "principalLabel": "元本 ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "一時停止",
     "resumeButton": "再開",
     "noVoices": "ブラウザで利用可能な音声がありません。",
-    "notSupported": "お使いのブラウザは音声合成に対応していません。"
+    "notSupported": "お使いのブラウザは音声合成に対応していません。",
+    "speakingLabel": "読み上げ中..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "分析するテキスト",
@@ -1504,7 +1506,8 @@
     "percentLabel": "割合",
     "ignoreCommonLabel": "一般的な単語を除外",
     "copyButton": "CSVでコピー",
-    "noText": "テキストを入力して分析してください。"
+    "noText": "テキストを入力して分析してください。",
+    "copiedButton": "コピー済み!"
   },
   "TipCalculator": {
     "billAmountLabel": "請求金額",
@@ -2506,7 +2509,8 @@
     "outputPlaceholder": "音声がここに表示されます...",
     "languageLabel": "言語",
     "notSupportedError": "このブラウザは音声認識をサポートしていません。ChromeまたはEdgeをご使用ください。",
-    "permissionError": "マイクへのアクセスが拒否されました。マイクの使用を許可してください。"
+    "permissionError": "マイクへのアクセスが拒否されました。マイクの使用を許可してください。",
+    "copiedButton": "コピー済み!"
   },
   "TorqueConverter": {
     "fromLabel": "変換元",

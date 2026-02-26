@@ -1028,7 +1028,8 @@
     "strengthWeak": "약함",
     "strengthFair": "보통",
     "strengthGood": "양호",
-    "strengthStrong": "강함"
+    "strengthStrong": "강함",
+    "characterTypesLabel": "문자 유형"
   },
   "CompoundInterest": {
     "principalLabel": "초기 원금 ($)",
@@ -1488,7 +1489,8 @@
     "pauseButton": "일시정지",
     "resumeButton": "재개",
     "noVoices": "브라우저에서 사용 가능한 음성이 없습니다.",
-    "notSupported": "이 브라우저는 음성 합성을 지원하지 않습니다."
+    "notSupported": "이 브라우저는 음성 합성을 지원하지 않습니다.",
+    "speakingLabel": "재생 중..."
   },
   "WordFrequencyCounter": {
     "inputLabel": "분석할 텍스트",
@@ -1504,7 +1506,8 @@
     "percentLabel": "비율",
     "ignoreCommonLabel": "일반 단어 제외",
     "copyButton": "CSV로 복사",
-    "noText": "분석할 텍스트를 입력하세요."
+    "noText": "분석할 텍스트를 입력하세요.",
+    "copiedButton": "복사됨!"
   },
   "TipCalculator": {
     "billAmountLabel": "청구 금액",
@@ -2506,7 +2509,8 @@
     "outputPlaceholder": "음성이 여기에 표시됩니다...",
     "languageLabel": "언어",
     "notSupportedError": "이 브라우저는 음성 인식을 지원하지 않습니다. Chrome 또는 Edge를 사용하세요.",
-    "permissionError": "마이크 접근이 거부되었습니다. 마이크 사용을 허용하고 다시 시도하세요."
+    "permissionError": "마이크 접근이 거부되었습니다. 마이크 사용을 허용하고 다시 시도하세요.",
+    "copiedButton": "복사됨!"
   },
   "TorqueConverter": {
     "fromLabel": "변환 전",

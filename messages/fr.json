@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "Plage d'IMC sain (18,5–24,9)"
+    "healthyBmi": "Plage d'IMC sain (18,5–24,9)",
+    "formulaHeader": "Formule"
   },
   "BodyFat": {
     "metricTab": "Métrique (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "Historique",
-    "noHistory": "Aucun calcul pour l'instant"
+    "noHistory": "Aucun calcul pour l'instant",
+    "error": "Erreur",
+    "angleMode": "Angle",
+    "clearHistory": "Effacer"
   },
   "GcdLcm": {
     "inputLabel": "Entrez les nombres (séparés par des virgules)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "Télécharger PNG",
     "copyButton": "Copier Data URL",
     "previewLabel": "Aperçu",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "Copié !"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "Rechercher par code ou mot-clé (ex. 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "Calculer",
     "noInverseError": "Matrice singulière (pas d'inverse)",
-    "dimensionError": "Dimensions de matrice incompatibles pour la multiplication"
+    "dimensionError": "Dimensions de matrice incompatibles pour la multiplication",
+    "calcError": "Erreur lors du calcul."
   },
   "NumberSequence": {
     "typeLabel": "Type de suite",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "Chiffre d'Affaires au Seuil",
     "contributionMargin": "Marge sur Coût Variable par Unité",
     "contributionMarginRatio": "Taux de Marge sur Coût Variable",
-    "errorSamePrice": "Le prix de vente doit être supérieur au coût variable."
+    "errorSamePrice": "Le prix de vente doit être supérieur au coût variable.",
+    "chartFixedCosts": "Coûts fixes",
+    "chartRevenue": "Chiffre d'affaires"
   },
   "MeetingPlanner": {
     "addTimezone": "Ajouter un Fuseau Horaire",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "Hypertension stade 1 — consultez un professionnel de santé.",
     "tipHigh2": "Hypertension stade 2 — consultez rapidement un professionnel de santé.",
     "tipCrisis": "Crise hypertensive — consultez immédiatement les urgences médicales.",
-    "disclaimer": "Cet outil est uniquement à des fins informatives. Consultez un professionnel de santé pour un avis médical."
+    "disclaimer": "Cet outil est uniquement à des fins informatives. Consultez un professionnel de santé pour un avis médical.",
+    "colSystolic": "Systolique",
+    "colDiastolic": "Diastolique"
   },
   "NetWorthCalculator": {
     "assetsTitle": "Actifs",
@@ -2626,7 +2636,8 @@
     "binaryLabel": "Binary",
     "decimalLabel": "Decimal",
     "hexLabel": "Hexadecimal",
-    "invalidInput": "Invalid input for the selected base."
+    "invalidInput": "Invalid input for the selected base.",
+    "inputBaseLabel": "Base d'entrée"
   },
   "VectorCalculator": {
     "dimensionLabel": "Dimensions",
@@ -2649,7 +2660,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "degrees",
-    "invalidInput": "Please enter valid numbers for all vector components."
+    "invalidInput": "Please enter valid numbers for all vector components.",
+    "crossProduct3dOnly": "Le produit vectoriel nécessite des vecteurs 3D."
   },
   "CipherTool": {
     "cipherLabel": "Type de chiffrement",
@@ -2690,7 +2702,9 @@
     "ukLabel": "UK",
     "jpLabel": "Japon (cm)",
     "clearButton": "Effacer",
-    "note": "Les pointures sont approximatives. Essayez toujours les chaussures si possible."
+    "note": "Les pointures sont approximatives. Essayez toujours les chaussures si possible.",
+    "convertButton": "Convertir",
+    "notFoundMessage": "Pointure non trouvée dans le tableau."
   },
   "NatoAlphabet": {
     "inputLabel": "Texte à convertir",
@@ -2800,7 +2814,10 @@
     "areaLabel": "Aire",
     "perimeterLabel": "Périmètre / Circonférence",
     "volumeLabel": "Volume",
-    "surfaceAreaLabel": "Aire de surface"
+    "surfaceAreaLabel": "Aire de surface",
+    "circumferenceLabel": "Circonférence",
+    "invalidValueError": "Valeur d'entrée invalide.",
+    "invalidTriangleError": "Côtés du triangle invalides (inégalité triangulaire)."
   },
   "OhmLawCalculator": {
     "voltageLabel": "Tension (V) — Volts",

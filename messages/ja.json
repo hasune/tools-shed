@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "健康なBMI範囲 (18.5–24.9)"
+    "healthyBmi": "健康なBMI範囲 (18.5–24.9)",
+    "formulaHeader": "計算式"
   },
   "BodyFat": {
     "metricTab": "メートル法 (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "履歴",
-    "noHistory": "まだ計算履歴がありません"
+    "noHistory": "まだ計算履歴がありません",
+    "error": "エラー",
+    "angleMode": "角度",
+    "clearHistory": "削除"
   },
   "GcdLcm": {
     "inputLabel": "数値を入力（カンマ区切り）",
@@ -1438,7 +1442,8 @@
     "downloadButton": "PNG ダウンロード",
     "copyButton": "Data URL コピー",
     "previewLabel": "プレビュー",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "コピー済み!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "コードまたはキーワードで検索（例：404、not found）...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "計算",
     "noInverseError": "行列は特異（逆行列が存在しません）",
-    "dimensionError": "行列の次元が乗算に対して不適合"
+    "dimensionError": "行列の次元が乗算に対して不適合",
+    "calcError": "計算中にエラーが発生しました。"
   },
   "NumberSequence": {
     "typeLabel": "数列の種類",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "損益分岐点（売上高）",
     "contributionMargin": "1単位あたりの貢献利益",
     "contributionMarginRatio": "貢献利益率",
-    "errorSamePrice": "販売価格は変動費より大きくなければなりません。"
+    "errorSamePrice": "販売価格は変動費より大きくなければなりません。",
+    "chartFixedCosts": "固定費",
+    "chartRevenue": "収益"
   },
   "MeetingPlanner": {
     "addTimezone": "タイムゾーンを追加",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "高血圧ステージ1 — 医療機関に相談してください。",
     "tipHigh2": "高血圧ステージ2 — 速やかに医療機関に相談してください。",
     "tipCrisis": "高血圧緊急症 — 直ちに救急医療を受けてください。",
-    "disclaimer": "このツールは情報提供のみを目的としています。医療アドバイスは医療専門家にご相談ください。"
+    "disclaimer": "このツールは情報提供のみを目的としています。医療アドバイスは医療専門家にご相談ください。",
+    "colSystolic": "収縮期",
+    "colDiastolic": "拡張期"
   },
   "NetWorthCalculator": {
     "assetsTitle": "資産",
@@ -2627,7 +2637,8 @@
     "binaryLabel": "2進数",
     "decimalLabel": "10進数",
     "hexLabel": "16進数",
-    "invalidInput": "選択された基数に対して無効な入力です。"
+    "invalidInput": "選択された基数に対して無効な入力です。",
+    "inputBaseLabel": "入力の基数"
   },
   "VectorCalculator": {
     "dimensionLabel": "次元",
@@ -2650,7 +2661,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "度",
-    "invalidInput": "全てのベクトル成分に有効な数値を入力してください。"
+    "invalidInput": "全てのベクトル成分に有効な数値を入力してください。",
+    "crossProduct3dOnly": "外積には3Dベクトルが必要です。"
   },
   "CipherTool": {
     "cipherLabel": "暗号タイプ",
@@ -2691,7 +2703,9 @@
     "ukLabel": "UK",
     "jpLabel": "日本 (cm)",
     "clearButton": "クリア",
-    "note": "サイズは目安です。可能であれば必ず試し履きしてください。"
+    "note": "サイズは目安です。可能であれば必ず試し履きしてください。",
+    "convertButton": "変換",
+    "notFoundMessage": "チャートにサイズが見つかりません。"
   },
   "NatoAlphabet": {
     "inputLabel": "変換するテキスト",
@@ -2801,7 +2815,10 @@
     "areaLabel": "面積",
     "perimeterLabel": "周長 / 円周",
     "volumeLabel": "体積",
-    "surfaceAreaLabel": "表面積"
+    "surfaceAreaLabel": "表面積",
+    "circumferenceLabel": "円周",
+    "invalidValueError": "無効な入力値です。",
+    "invalidTriangleError": "無効な三角形の辺（三角不等式）。"
   },
   "OhmLawCalculator": {
     "voltageLabel": "電圧 (V) — ボルト",

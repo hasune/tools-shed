@@ -426,7 +426,7 @@ export default function ScientificCalculator() {
       {history.length > 0 && (
         <div className="space-y-2">
           <div className="flex items-center justify-between">
-            <h3 className="text-sm font-medium text-gray-400">{t("history")}</h3>
+            <h3 className="text-sm font-medium text-gray-400">{t("historyLabel")}</h3>
             <button
               onClick={() => setHistory([])}
               className="text-xs text-gray-600 hover:text-gray-400 transition-colors"

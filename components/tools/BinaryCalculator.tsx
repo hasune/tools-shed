@@ -62,7 +62,7 @@ export default function BinaryCalculator() {
   return (
     <div className="space-y-5">
       <div className="space-y-2">
-        <label className="text-sm font-medium text-gray-400">Input Base</label>
+        <label className="text-sm font-medium text-gray-400">{t("inputBaseLabel")}</label>
         <div className="flex gap-2">
           {modes.map((m) => (
             <button

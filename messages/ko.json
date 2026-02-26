@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "건강한 BMI 범위 (18.5–24.9)"
+    "healthyBmi": "건강한 BMI 범위 (18.5–24.9)",
+    "formulaHeader": "공식"
   },
   "BodyFat": {
     "metricTab": "미터법 (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "계산 기록",
-    "noHistory": "아직 계산 기록이 없습니다"
+    "noHistory": "아직 계산 기록이 없습니다",
+    "error": "오류",
+    "angleMode": "각도",
+    "clearHistory": "삭제"
   },
   "GcdLcm": {
     "inputLabel": "숫자 입력 (쉼표로 구분)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "PNG 다운로드",
     "copyButton": "Data URL 복사",
     "previewLabel": "미리보기",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "복사됨!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "코드 또는 키워드로 검색 (예: 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "계산",
     "noInverseError": "특이 행렬 (역행렬이 존재하지 않습니다)",
-    "dimensionError": "행렬 곱셈에 적합하지 않은 차원"
+    "dimensionError": "행렬 곱셈에 적합하지 않은 차원",
+    "calcError": "계산 중 오류가 발생했습니다."
   },
   "NumberSequence": {
     "typeLabel": "수열 종류",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "손익분기 매출",
     "contributionMargin": "단위당 공헌이익",
     "contributionMarginRatio": "공헌이익률",
-    "errorSamePrice": "판매 가격은 변동 비용보다 커야 합니다."
+    "errorSamePrice": "판매 가격은 변동 비용보다 커야 합니다.",
+    "chartFixedCosts": "고정비용",
+    "chartRevenue": "매출"
   },
   "MeetingPlanner": {
     "addTimezone": "시간대 추가",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "고혈압 1단계 — 의료 전문가와 상담하세요.",
     "tipHigh2": "고혈압 2단계 — 즉시 의료 전문가와 상담하세요.",
     "tipCrisis": "고혈압 위기 — 즉시 응급 의료 도움을 받으세요.",
-    "disclaimer": "이 도구는 정보 제공 목적으로만 제공됩니다. 의학적 조언은 의료 전문가와 상담하세요."
+    "disclaimer": "이 도구는 정보 제공 목적으로만 제공됩니다. 의학적 조언은 의료 전문가와 상담하세요.",
+    "colSystolic": "수축기",
+    "colDiastolic": "이완기"
   },
   "NetWorthCalculator": {
     "assetsTitle": "자산",
@@ -2627,7 +2637,8 @@
     "binaryLabel": "2진수",
     "decimalLabel": "10진수",
     "hexLabel": "16진수",
-    "invalidInput": "선택한 진수에 맞지 않는 입력입니다."
+    "invalidInput": "선택한 진수에 맞지 않는 입력입니다.",
+    "inputBaseLabel": "입력 진법"
   },
   "VectorCalculator": {
     "dimensionLabel": "차원",
@@ -2650,7 +2661,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "도",
-    "invalidInput": "모든 벡터 성분에 유효한 숫자를 입력하세요."
+    "invalidInput": "모든 벡터 성분에 유효한 숫자를 입력하세요.",
+    "crossProduct3dOnly": "외적은 3D 벡터가 필요합니다."
   },
   "CipherTool": {
     "cipherLabel": "암호 유형",
@@ -2691,7 +2703,9 @@
     "ukLabel": "UK",
     "jpLabel": "일본 (cm)",
     "clearButton": "초기화",
-    "note": "사이즈는 참고용입니다. 가능하면 직접 착용해 보세요."
+    "note": "사이즈는 참고용입니다. 가능하면 직접 착용해 보세요.",
+    "convertButton": "변환",
+    "notFoundMessage": "차트에서 사이즈를 찾을 수 없습니다."
   },
   "NatoAlphabet": {
     "inputLabel": "변환할 텍스트",
@@ -2801,7 +2815,10 @@
     "areaLabel": "넓이",
     "perimeterLabel": "둘레 / 원주",
     "volumeLabel": "부피",
-    "surfaceAreaLabel": "겉넓이"
+    "surfaceAreaLabel": "겉넓이",
+    "circumferenceLabel": "원주",
+    "invalidValueError": "유효하지 않은 입력값입니다.",
+    "invalidTriangleError": "유효하지 않은 삼각형 변 (삼각 부등식)."
   },
   "OhmLawCalculator": {
     "voltageLabel": "전압 (V) — 볼트",

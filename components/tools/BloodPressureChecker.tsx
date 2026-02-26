@@ -109,8 +109,8 @@ export default function BloodPressureChecker() {
           <thead>
             <tr className="bg-gray-800 text-gray-400">
               <th className="px-3 py-2 text-left">{t("categoryLabel")}</th>
-              <th className="px-3 py-2 text-center">Systolic</th>
-              <th className="px-3 py-2 text-center">Diastolic</th>
+              <th className="px-3 py-2 text-center">{t("colSystolic")}</th>
+              <th className="px-3 py-2 text-center">{t("colDiastolic")}</th>
             </tr>
           </thead>
           <tbody>

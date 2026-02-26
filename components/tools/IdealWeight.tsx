@@ -167,7 +167,7 @@ export default function IdealWeight() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-gray-800 text-gray-400 text-xs">
-                  <th className="px-4 py-2 text-left">Formula</th>
+                  <th className="px-4 py-2 text-left">{t("formulaHeader")}</th>
                   <th className="px-4 py-2 text-right">kg</th>
                   <th className="px-4 py-2 text-right">lbs</th>
                 </tr>

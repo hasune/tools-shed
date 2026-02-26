@@ -129,11 +129,11 @@ export default function BreakEvenCalculator() {
             <div className="flex items-center gap-3 mb-3">
               <div className="flex items-center gap-2 text-xs text-gray-400">
                 <span className="w-3 h-3 rounded-sm bg-red-500/60 inline-block" />
-                Fixed Costs
+                {t("chartFixedCosts")}
               </div>
               <div className="flex items-center gap-2 text-xs text-gray-400">
                 <span className="w-3 h-3 rounded-sm bg-indigo-500/60 inline-block" />
-                Revenue
+                {t("chartRevenue")}
               </div>
             </div>
             <div className="space-y-2">

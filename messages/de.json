@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "Gesunder BMI-Bereich (18,5–24,9)"
+    "healthyBmi": "Gesunder BMI-Bereich (18,5–24,9)",
+    "formulaHeader": "Formel"
   },
   "BodyFat": {
     "metricTab": "Metrisch (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "Verlauf",
-    "noHistory": "Noch keine Berechnungen"
+    "noHistory": "Noch keine Berechnungen",
+    "error": "Fehler",
+    "angleMode": "Winkel",
+    "clearHistory": "Löschen"
   },
   "GcdLcm": {
     "inputLabel": "Zahlen eingeben (kommagetrennt)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "PNG herunterladen",
     "copyButton": "Data URL kopieren",
     "previewLabel": "Vorschau",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "Kopiert!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "Nach Code oder Stichwort suchen (z.B. 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "Berechnen",
     "noInverseError": "Singuläre Matrix (keine Inverse vorhanden)",
-    "dimensionError": "Inkompatible Matrixdimensionen für Multiplikation"
+    "dimensionError": "Inkompatible Matrixdimensionen für Multiplikation",
+    "calcError": "Fehler bei der Berechnung."
   },
   "NumberSequence": {
     "typeLabel": "Folgentyp",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "Break-Even-Umsatz",
     "contributionMargin": "Deckungsbeitrag pro Einheit",
     "contributionMarginRatio": "Deckungsbeitragsquote",
-    "errorSamePrice": "Der Verkaufspreis muss höher als die variablen Kosten sein."
+    "errorSamePrice": "Der Verkaufspreis muss höher als die variablen Kosten sein.",
+    "chartFixedCosts": "Fixkosten",
+    "chartRevenue": "Umsatz"
   },
   "MeetingPlanner": {
     "addTimezone": "Zeitzone Hinzufügen",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "Bluthochdruck Stufe 1 — konsultieren Sie einen Arzt.",
     "tipHigh2": "Bluthochdruck Stufe 2 — konsultieren Sie umgehend einen Arzt.",
     "tipCrisis": "Hypertensive Krise — suchen Sie sofort notärztliche Hilfe.",
-    "disclaimer": "Dieses Tool dient nur zu Informationszwecken. Konsultieren Sie einen Arzt für medizinischen Rat."
+    "disclaimer": "Dieses Tool dient nur zu Informationszwecken. Konsultieren Sie einen Arzt für medizinischen Rat.",
+    "colSystolic": "Systolisch",
+    "colDiastolic": "Diastolisch"
   },
   "NetWorthCalculator": {
     "assetsTitle": "Vermögenswerte",
@@ -2626,7 +2636,8 @@
     "binaryLabel": "Binary",
     "decimalLabel": "Decimal",
     "hexLabel": "Hexadecimal",
-    "invalidInput": "Invalid input for the selected base."
+    "invalidInput": "Invalid input for the selected base.",
+    "inputBaseLabel": "Eingabebasis"
   },
   "VectorCalculator": {
     "dimensionLabel": "Dimensions",
@@ -2649,7 +2660,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "degrees",
-    "invalidInput": "Please enter valid numbers for all vector components."
+    "invalidInput": "Please enter valid numbers for all vector components.",
+    "crossProduct3dOnly": "Das Kreuzprodukt erfordert 3D-Vektoren."
   },
   "CipherTool": {
     "cipherLabel": "Verschlüsselungsart",
@@ -2690,7 +2702,9 @@
     "ukLabel": "UK",
     "jpLabel": "Japan (cm)",
     "clearButton": "Löschen",
-    "note": "Größen sind Richtwerte. Probieren Sie Schuhe nach Möglichkeit immer an."
+    "note": "Größen sind Richtwerte. Probieren Sie Schuhe nach Möglichkeit immer an.",
+    "convertButton": "Umrechnen",
+    "notFoundMessage": "Größe nicht in der Tabelle gefunden."
   },
   "NatoAlphabet": {
     "inputLabel": "Zu konvertierender Text",
@@ -2800,7 +2814,10 @@
     "areaLabel": "Fläche",
     "perimeterLabel": "Umfang / Kreisumfang",
     "volumeLabel": "Volumen",
-    "surfaceAreaLabel": "Oberfläche"
+    "surfaceAreaLabel": "Oberfläche",
+    "circumferenceLabel": "Umfang",
+    "invalidValueError": "Ungültiger Eingabewert.",
+    "invalidTriangleError": "Ungültige Dreiecksseiten (Dreiecksungleichung)."
   },
   "OhmLawCalculator": {
     "voltageLabel": "Spannung (V) — Volt",

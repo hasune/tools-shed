@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "Healthy BMI range (18.5–24.9)"
+    "healthyBmi": "Healthy BMI range (18.5–24.9)",
+    "formulaHeader": "Formula"
   },
   "BodyFat": {
     "metricTab": "Metric (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "History",
-    "noHistory": "No calculations yet"
+    "noHistory": "No calculations yet",
+    "error": "Error",
+    "angleMode": "Angle",
+    "clearHistory": "Clear"
   },
   "GcdLcm": {
     "inputLabel": "Enter numbers (comma-separated)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "Download PNG",
     "copyButton": "Copy Data URL",
     "previewLabel": "Preview",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "Copied!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "Search by code or keyword (e.g. 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "Calculate",
     "noInverseError": "Matrix is singular (no inverse exists)",
-    "dimensionError": "Incompatible matrix dimensions for multiplication"
+    "dimensionError": "Incompatible matrix dimensions for multiplication",
+    "calcError": "Error during calculation."
   },
   "NumberSequence": {
     "typeLabel": "Sequence type",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "Break-Even Revenue",
     "contributionMargin": "Contribution Margin per Unit",
     "contributionMarginRatio": "Contribution Margin Ratio",
-    "errorSamePrice": "Selling price must be greater than variable cost."
+    "errorSamePrice": "Selling price must be greater than variable cost.",
+    "chartFixedCosts": "Fixed Costs",
+    "chartRevenue": "Revenue"
   },
   "MeetingPlanner": {
     "addTimezone": "Add Time Zone",
@@ -2348,7 +2356,8 @@
     "binaryLabel": "Binary",
     "decimalLabel": "Decimal",
     "hexLabel": "Hexadecimal",
-    "invalidInput": "Invalid input for the selected base."
+    "invalidInput": "Invalid input for the selected base.",
+    "inputBaseLabel": "Input Base"
   },
   "VectorCalculator": {
     "dimensionLabel": "Dimensions",
@@ -2371,7 +2380,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "degrees",
-    "invalidInput": "Please enter valid numbers for all vector components."
+    "invalidInput": "Please enter valid numbers for all vector components.",
+    "crossProduct3dOnly": "Cross product requires 3D vectors."
   },
   "IpSubnetCalculator": {
     "ipLabel": "IP Address / CIDR",
@@ -2473,7 +2483,9 @@
     "tipHigh1": "Stage 1 hypertension — consult a healthcare provider.",
     "tipHigh2": "Stage 2 hypertension — consult a healthcare provider promptly.",
     "tipCrisis": "Hypertensive crisis — seek emergency medical care immediately.",
-    "disclaimer": "This tool is for informational purposes only. Consult a healthcare professional for medical advice."
+    "disclaimer": "This tool is for informational purposes only. Consult a healthcare professional for medical advice.",
+    "colSystolic": "Systolic",
+    "colDiastolic": "Diastolic"
   },
   "NetWorthCalculator": {
     "assetsTitle": "Assets",
@@ -2690,7 +2702,9 @@
     "ukLabel": "UK",
     "jpLabel": "Japan (cm)",
     "clearButton": "Clear",
-    "note": "Sizes are approximate. Always try on shoes when possible."
+    "note": "Sizes are approximate. Always try on shoes when possible.",
+    "convertButton": "Convert",
+    "notFoundMessage": "Size not found in chart."
   },
   "NatoAlphabet": {
     "inputLabel": "Text to convert",
@@ -2800,7 +2814,10 @@
     "areaLabel": "Area",
     "perimeterLabel": "Perimeter / Circumference",
     "volumeLabel": "Volume",
-    "surfaceAreaLabel": "Surface Area"
+    "surfaceAreaLabel": "Surface Area",
+    "circumferenceLabel": "Circumference",
+    "invalidValueError": "Invalid input value.",
+    "invalidTriangleError": "Invalid triangle sides (triangle inequality)."
   },
   "OhmLawCalculator": {
     "voltageLabel": "Voltage (V) — Volts",

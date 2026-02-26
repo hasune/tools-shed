@@ -123,7 +123,7 @@ export default function MatrixCalculator() {
         else setResult(inv);
       }
     } catch {
-      setError("Error during calculation.");
+      setError(t("calcError"));
     }
   };
 

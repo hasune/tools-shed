@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "Sağlıklı BMI aralığı (18,5–24,9)"
+    "healthyBmi": "Sağlıklı BMI aralığı (18,5–24,9)",
+    "formulaHeader": "Formül"
   },
   "BodyFat": {
     "metricTab": "Metrik (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "Geçmiş",
-    "noHistory": "Henüz hesaplama yok"
+    "noHistory": "Henüz hesaplama yok",
+    "error": "Hata",
+    "angleMode": "Açı",
+    "clearHistory": "Temizle"
   },
   "GcdLcm": {
     "inputLabel": "Sayıları girin (virgülle ayrılmış)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "PNG İndir",
     "copyButton": "Data URL Kopyala",
     "previewLabel": "Önizleme",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "Kopyalandı!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "Kod veya anahtar kelimeyle arayın (örn. 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "Hesapla",
     "noInverseError": "Tekil matris (ters matris mevcut değil)",
-    "dimensionError": "Çarpma için uyumsuz matris boyutları"
+    "dimensionError": "Çarpma için uyumsuz matris boyutları",
+    "calcError": "Hesaplama sırasında hata oluştu."
   },
   "NumberSequence": {
     "typeLabel": "Dizi türü",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "Başabaş Noktası (Gelir)",
     "contributionMargin": "Birim Başına Katkı Payı",
     "contributionMarginRatio": "Katkı Payı Oranı",
-    "errorSamePrice": "Satış fiyatı değişken maliyetten yüksek olmalıdır."
+    "errorSamePrice": "Satış fiyatı değişken maliyetten yüksek olmalıdır.",
+    "chartFixedCosts": "Sabit maliyetler",
+    "chartRevenue": "Gelir"
   },
   "MeetingPlanner": {
     "addTimezone": "Saat Dilimi Ekle",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "Evre 1 hipertansiyon — bir sağlık uzmanına danışın.",
     "tipHigh2": "Evre 2 hipertansiyon — bir sağlık uzmanına hemen danışın.",
     "tipCrisis": "Hipertansif kriz — acil tıbbi yardım alın.",
-    "disclaimer": "Bu araç yalnızca bilgilendirme amaçlıdır. Tıbbi tavsiye için bir sağlık uzmanına danışın."
+    "disclaimer": "Bu araç yalnızca bilgilendirme amaçlıdır. Tıbbi tavsiye için bir sağlık uzmanına danışın.",
+    "colSystolic": "Sistolik",
+    "colDiastolic": "Diastolik"
   },
   "NetWorthCalculator": {
     "assetsTitle": "Varlıklar",
@@ -2626,7 +2636,8 @@
     "binaryLabel": "Binary",
     "decimalLabel": "Decimal",
     "hexLabel": "Hexadecimal",
-    "invalidInput": "Invalid input for the selected base."
+    "invalidInput": "Invalid input for the selected base.",
+    "inputBaseLabel": "Giriş tabanı"
   },
   "VectorCalculator": {
     "dimensionLabel": "Dimensions",
@@ -2649,7 +2660,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "degrees",
-    "invalidInput": "Please enter valid numbers for all vector components."
+    "invalidInput": "Please enter valid numbers for all vector components.",
+    "crossProduct3dOnly": "Vektörel çarpım için 3D vektörler gereklidir."
   },
   "CipherTool": {
     "cipherLabel": "Şifre türü",
@@ -2690,7 +2702,9 @@
     "ukLabel": "Birleşik Krallık",
     "jpLabel": "Japonya (cm)",
     "clearButton": "Temizle",
-    "note": "Numaralar yaklaşıktır. Mümkün olduğunda daima deneyin."
+    "note": "Numaralar yaklaşıktır. Mümkün olduğunda daima deneyin.",
+    "convertButton": "Dönüştür",
+    "notFoundMessage": "Tablo'da numara bulunamadı."
   },
   "NatoAlphabet": {
     "inputLabel": "Dönüştürülecek metin",
@@ -2800,7 +2814,10 @@
     "areaLabel": "Alan",
     "perimeterLabel": "Çevre / Çember",
     "volumeLabel": "Hacim",
-    "surfaceAreaLabel": "Yüzey alanı"
+    "surfaceAreaLabel": "Yüzey alanı",
+    "circumferenceLabel": "Çevre",
+    "invalidValueError": "Geçersiz giriş değeri.",
+    "invalidTriangleError": "Geçersiz üçgen kenarları (üçgen eşitsizliği)."
   },
   "OhmLawCalculator": {
     "voltageLabel": "Voltaj (V) — Volt",

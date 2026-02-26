@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "健康 BMI 范围 (18.5–24.9)"
+    "healthyBmi": "健康 BMI 范围 (18.5–24.9)",
+    "formulaHeader": "公式"
   },
   "BodyFat": {
     "metricTab": "公制 (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "历史记录",
-    "noHistory": "暂无计算记录"
+    "noHistory": "暂无计算记录",
+    "error": "错误",
+    "angleMode": "角度",
+    "clearHistory": "清除"
   },
   "GcdLcm": {
     "inputLabel": "输入数字（用逗号分隔）",
@@ -1438,7 +1442,8 @@
     "downloadButton": "下载 PNG",
     "copyButton": "复制 Data URL",
     "previewLabel": "预览",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "已复制!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "按代码或关键字搜索（例如：404、not found）...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "计算",
     "noInverseError": "奇异矩阵（不存在逆矩阵）",
-    "dimensionError": "矩阵维度不兼容，无法相乘"
+    "dimensionError": "矩阵维度不兼容，无法相乘",
+    "calcError": "计算过程中出错。"
   },
   "NumberSequence": {
     "typeLabel": "数列类型",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "盈亏平衡收入",
     "contributionMargin": "单位贡献利润",
     "contributionMarginRatio": "贡献利润率",
-    "errorSamePrice": "售价必须大于可变成本。"
+    "errorSamePrice": "售价必须大于可变成本。",
+    "chartFixedCosts": "固定成本",
+    "chartRevenue": "收入"
   },
   "MeetingPlanner": {
     "addTimezone": "添加时区",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "高血压一期——请咨询医疗专业人员。",
     "tipHigh2": "高血压二期——请及时咨询医疗专业人员。",
     "tipCrisis": "高血压危象——请立即寻求紧急医疗救助。",
-    "disclaimer": "本工具仅供参考，请咨询医疗专业人员获取医学建议。"
+    "disclaimer": "本工具仅供参考，请咨询医疗专业人员获取医学建议。",
+    "colSystolic": "收缩压",
+    "colDiastolic": "舒张压"
   },
   "NetWorthCalculator": {
     "assetsTitle": "资产",
@@ -2627,7 +2637,8 @@
     "binaryLabel": "二进制",
     "decimalLabel": "十进制",
     "hexLabel": "十六进制",
-    "invalidInput": "所选进制的输入无效。"
+    "invalidInput": "所选进制的输入无效。",
+    "inputBaseLabel": "输入进制"
   },
   "VectorCalculator": {
     "dimensionLabel": "维度",
@@ -2650,7 +2661,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "度",
-    "invalidInput": "请为所有向量分量输入有效数字。"
+    "invalidInput": "请为所有向量分量输入有效数字。",
+    "crossProduct3dOnly": "叉积需要3D向量。"
   },
   "CipherTool": {
     "cipherLabel": "密码类型",
@@ -2691,7 +2703,9 @@
     "ukLabel": "英国",
     "jpLabel": "日本 (厘米)",
     "clearButton": "清除",
-    "note": "尺码仅供参考。有条件时请实际试穿。"
+    "note": "尺码仅供参考。有条件时请实际试穿。",
+    "convertButton": "转换",
+    "notFoundMessage": "图表中未找到该尺码。"
   },
   "NatoAlphabet": {
     "inputLabel": "要转换的文本",
@@ -2801,7 +2815,10 @@
     "areaLabel": "面积",
     "perimeterLabel": "周长 / 圆周",
     "volumeLabel": "体积",
-    "surfaceAreaLabel": "表面积"
+    "surfaceAreaLabel": "表面积",
+    "circumferenceLabel": "圆周",
+    "invalidValueError": "输入值无效。",
+    "invalidTriangleError": "三角形边无效（三角不等式）。"
   },
   "OhmLawCalculator": {
     "voltageLabel": "电压 (V) — 伏特",

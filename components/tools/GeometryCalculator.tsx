@@ -79,7 +79,7 @@ export default function GeometryCalculator() {
     for (const f of fields) {
       const v = parseFloat(inputs[f] || "");
       if (isNaN(v) || v <= 0) {
-        setError(`Invalid value for ${f}`);
+        setError(t("invalidValueError"));
         return;
       }
       vals[f] = v;
@@ -103,7 +103,7 @@ export default function GeometryCalculator() {
         const s = (a + b + c) / 2;
         const areaVal = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         if (isNaN(areaVal) || areaVal <= 0) {
-          setError("Invalid triangle sides");
+          setError(t("invalidTriangleError"));
           return;
         }
         res.area = areaVal;
@@ -232,7 +232,7 @@ export default function GeometryCalculator() {
                 className="bg-gray-800 border border-indigo-500/50 rounded-lg p-4"
               >
                 <p className="text-xs text-gray-400 uppercase tracking-wide mb-1">
-                  {key === "circumference" ? "Circumference" : label}
+                  {key === "circumference" ? t("circumferenceLabel") : label}
                 </p>
                 <p className="text-2xl font-bold text-indigo-400">{fmt(val)}</p>
               </div>

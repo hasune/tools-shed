@@ -76,7 +76,7 @@ export default function ShoeSizeConverter() {
           />
         </div>
         <div className="flex items-end gap-2">
-          <button onClick={lookup} className="flex-1 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm font-medium transition-colors">Convert</button>
+          <button onClick={lookup} className="flex-1 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm font-medium transition-colors">{t("convertButton")}</button>
           <button onClick={() => { setSelected(null); setInputVal(""); }} className="px-4 py-2.5 bg-gray-700 hover:bg-gray-600 text-white rounded-lg text-sm font-medium transition-colors">{t("clearButton")}</button>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function ShoeSizeConverter() {
       )}
 
       {selected === null && inputVal && (
-        <p className="text-red-400 text-sm">Size not found in chart.</p>
+        <p className="text-red-400 text-sm">{t("notFoundMessage")}</p>
       )}
 
       <div className="space-y-2">

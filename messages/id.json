@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "Rentang BMI sehat (18,5–24,9)"
+    "healthyBmi": "Rentang BMI sehat (18,5–24,9)",
+    "formulaHeader": "Rumus"
   },
   "BodyFat": {
     "metricTab": "Metrik (cm)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "Riwayat",
-    "noHistory": "Belum ada perhitungan"
+    "noHistory": "Belum ada perhitungan",
+    "error": "Kesalahan",
+    "angleMode": "Sudut",
+    "clearHistory": "Hapus"
   },
   "GcdLcm": {
     "inputLabel": "Masukkan angka (pisahkan dengan koma)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "Unduh PNG",
     "copyButton": "Salin Data URL",
     "previewLabel": "Pratinjau",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "Disalin!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "Cari berdasarkan kode atau kata kunci (mis. 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "Hitung",
     "noInverseError": "Matriks singular (invers tidak ada)",
-    "dimensionError": "Dimensi matriks tidak kompatibel untuk perkalian"
+    "dimensionError": "Dimensi matriks tidak kompatibel untuk perkalian",
+    "calcError": "Terjadi kesalahan saat perhitungan."
   },
   "NumberSequence": {
     "typeLabel": "Jenis barisan",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "Pendapatan Titik Impas",
     "contributionMargin": "Margin Kontribusi per Unit",
     "contributionMarginRatio": "Rasio Margin Kontribusi",
-    "errorSamePrice": "Harga jual harus lebih besar dari biaya variabel."
+    "errorSamePrice": "Harga jual harus lebih besar dari biaya variabel.",
+    "chartFixedCosts": "Biaya tetap",
+    "chartRevenue": "Pendapatan"
   },
   "MeetingPlanner": {
     "addTimezone": "Tambah Zona Waktu",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "Hipertensi Tahap 1 — konsultasikan dengan tenaga kesehatan.",
     "tipHigh2": "Hipertensi Tahap 2 — segera konsultasikan dengan tenaga kesehatan.",
     "tipCrisis": "Krisis hipertensi — cari pertolongan medis darurat segera.",
-    "disclaimer": "Alat ini hanya untuk tujuan informasi. Konsultasikan dengan profesional kesehatan untuk saran medis."
+    "disclaimer": "Alat ini hanya untuk tujuan informasi. Konsultasikan dengan profesional kesehatan untuk saran medis.",
+    "colSystolic": "Sistolik",
+    "colDiastolic": "Diastolik"
   },
   "NetWorthCalculator": {
     "assetsTitle": "Aset",
@@ -2626,7 +2636,8 @@
     "binaryLabel": "Binary",
     "decimalLabel": "Decimal",
     "hexLabel": "Hexadecimal",
-    "invalidInput": "Invalid input for the selected base."
+    "invalidInput": "Invalid input for the selected base.",
+    "inputBaseLabel": "Basis input"
   },
   "VectorCalculator": {
     "dimensionLabel": "Dimensions",
@@ -2649,7 +2660,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "degrees",
-    "invalidInput": "Please enter valid numbers for all vector components."
+    "invalidInput": "Please enter valid numbers for all vector components.",
+    "crossProduct3dOnly": "Perkalian silang memerlukan vektor 3D."
   },
   "CipherTool": {
     "cipherLabel": "Jenis sandi",
@@ -2690,7 +2702,9 @@
     "ukLabel": "UK",
     "jpLabel": "Jepang (cm)",
     "clearButton": "Hapus",
-    "note": "Ukuran bersifat perkiraan. Selalu coba sepatu jika memungkinkan."
+    "note": "Ukuran bersifat perkiraan. Selalu coba sepatu jika memungkinkan.",
+    "convertButton": "Konversi",
+    "notFoundMessage": "Ukuran tidak ditemukan di tabel."
   },
   "NatoAlphabet": {
     "inputLabel": "Teks untuk dikonversi",
@@ -2800,7 +2814,10 @@
     "areaLabel": "Luas",
     "perimeterLabel": "Keliling / Lingkaran",
     "volumeLabel": "Volume",
-    "surfaceAreaLabel": "Luas permukaan"
+    "surfaceAreaLabel": "Luas permukaan",
+    "circumferenceLabel": "Keliling",
+    "invalidValueError": "Nilai input tidak valid.",
+    "invalidTriangleError": "Sisi segitiga tidak valid (pertidaksamaan segitiga)."
   },
   "OhmLawCalculator": {
     "voltageLabel": "Tegangan (V) — Volt",

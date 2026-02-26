@@ -171,7 +171,7 @@ export default function FaviconGenerator() {
             </button>
             <button onClick={copyDataUrl}
               className="flex-1 bg-gray-700 hover:bg-gray-600 text-gray-300 py-2 px-4 rounded-lg transition-colors text-sm">
-              {copied ? "Copied!" : t("copyButton")}
+              {copied ? t("copiedButton") : t("copyButton")}
             </button>
           </div>
         </div>

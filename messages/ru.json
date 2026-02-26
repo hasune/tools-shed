@@ -1262,7 +1262,8 @@
     "miller": "Miller (1983)",
     "devine": "Devine (1974)",
     "hamwi": "Hamwi (1964)",
-    "healthyBmi": "Здоровый диапазон BMI (18,5–24,9)"
+    "healthyBmi": "Здоровый диапазон BMI (18,5–24,9)",
+    "formulaHeader": "Формула"
   },
   "BodyFat": {
     "metricTab": "Метрическая (см)",
@@ -1317,7 +1318,10 @@
     "clearButton": "C",
     "clearEntryButton": "CE",
     "historyLabel": "История",
-    "noHistory": "Вычислений пока нет"
+    "noHistory": "Вычислений пока нет",
+    "error": "Ошибка",
+    "angleMode": "Угол",
+    "clearHistory": "Очистить"
   },
   "GcdLcm": {
     "inputLabel": "Введите числа (через запятую)",
@@ -1438,7 +1442,8 @@
     "downloadButton": "Скачать PNG",
     "copyButton": "Копировать Data URL",
     "previewLabel": "Предпросмотр",
-    "dataUrlLabel": "Data URL"
+    "dataUrlLabel": "Data URL",
+    "copiedButton": "Скопировано!"
   },
   "HttpStatusCodes": {
     "searchPlaceholder": "Поиск по коду или ключевому слову (напр. 404, not found)...",
@@ -1938,7 +1943,8 @@
     "opInverseA": "A⁻¹",
     "calculateButton": "Рассчитать",
     "noInverseError": "Вырожденная матрица (обратная матрица не существует)",
-    "dimensionError": "Несовместимые размеры матриц для умножения"
+    "dimensionError": "Несовместимые размеры матриц для умножения",
+    "calcError": "Ошибка при вычислении."
   },
   "NumberSequence": {
     "typeLabel": "Тип последовательности",
@@ -2112,7 +2118,9 @@
     "breakEvenRevenue": "Точка безубыточности (выручка)",
     "contributionMargin": "Маржинальный доход на единицу",
     "contributionMarginRatio": "Коэффициент маржинального дохода",
-    "errorSamePrice": "Цена продажи должна быть выше переменных затрат."
+    "errorSamePrice": "Цена продажи должна быть выше переменных затрат.",
+    "chartFixedCosts": "Постоянные затраты",
+    "chartRevenue": "Выручка"
   },
   "MeetingPlanner": {
     "addTimezone": "Добавить часовой пояс",
@@ -2272,7 +2280,9 @@
     "tipHigh1": "Гипертония 1 степени — обратитесь к врачу.",
     "tipHigh2": "Гипертония 2 степени — срочно обратитесь к врачу.",
     "tipCrisis": "Гипертонический криз — немедленно вызовите скорую помощь.",
-    "disclaimer": "Инструмент носит информационный характер. Проконсультируйтесь с врачом."
+    "disclaimer": "Инструмент носит информационный характер. Проконсультируйтесь с врачом.",
+    "colSystolic": "Систолическое",
+    "colDiastolic": "Диастолическое"
   },
   "NetWorthCalculator": {
     "assetsTitle": "Активы",
@@ -2626,7 +2636,8 @@
     "binaryLabel": "Binary",
     "decimalLabel": "Decimal",
     "hexLabel": "Hexadecimal",
-    "invalidInput": "Invalid input for the selected base."
+    "invalidInput": "Invalid input for the selected base.",
+    "inputBaseLabel": "Основание ввода"
   },
   "VectorCalculator": {
     "dimensionLabel": "Dimensions",
@@ -2649,7 +2660,8 @@
     "yLabel": "y",
     "zLabel": "z",
     "degreesLabel": "degrees",
-    "invalidInput": "Please enter valid numbers for all vector components."
+    "invalidInput": "Please enter valid numbers for all vector components.",
+    "crossProduct3dOnly": "Векторное произведение требует 3D-векторов."
   },
   "CipherTool": {
     "cipherLabel": "Тип шифра",
@@ -2690,7 +2702,9 @@
     "ukLabel": "Великобритания",
     "jpLabel": "Япония (см)",
     "clearButton": "Очистить",
-    "note": "Размеры приблизительные. По возможности всегда примеряйте обувь."
+    "note": "Размеры приблизительные. По возможности всегда примеряйте обувь.",
+    "convertButton": "Конвертировать",
+    "notFoundMessage": "Размер не найден в таблице."
   },
   "NatoAlphabet": {
     "inputLabel": "Текст для конвертации",
@@ -2800,7 +2814,10 @@
     "areaLabel": "Площадь",
     "perimeterLabel": "Периметр / Длина окружности",
     "volumeLabel": "Объём",
-    "surfaceAreaLabel": "Площадь поверхности"
+    "surfaceAreaLabel": "Площадь поверхности",
+    "circumferenceLabel": "Длина окружности",
+    "invalidValueError": "Недопустимое значение.",
+    "invalidTriangleError": "Недопустимые стороны треугольника."
   },
   "OhmLawCalculator": {
     "voltageLabel": "Напряжение (V) — Вольты",

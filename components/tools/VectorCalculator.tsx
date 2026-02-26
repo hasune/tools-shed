@@ -33,7 +33,7 @@ export default function VectorCalculator() {
 
   const calculate = () => {
     const A = getVec(ax, ay, az);
-    if (!A) { setError("Invalid input for Vector A."); setResult(null); return; }
+    if (!A) { setError(t("invalidInput")); setResult(null); return; }
 
     if (op === "magA") {
       setResult({ type: "scalar", value: mag(A), label: "|A|" });
@@ -41,11 +41,11 @@ export default function VectorCalculator() {
     }
 
     if (op === "cross" && dim === "2d") {
-      setError("Cross product requires 3D vectors."); setResult(null); return;
+      setError(t("crossProduct3dOnly")); setResult(null); return;
     }
 
     const B = getVec(bx, by, bz);
-    if (!B) { setError("Invalid input for Vector B."); setResult(null); return; }
+    if (!B) { setError(t("invalidInput")); setResult(null); return; }
 
     setError("");
     if (op === "add") setResult({ type: "vector", value: { x: A.x + B.x, y: A.y + B.y, z: A.z + B.z }, label: "A + B" });

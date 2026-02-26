@@ -896,6 +896,54 @@
       "description": "使用欧姆定律计算电压、电流、电阻和功率。",
       "metaTitle": "欧姆定律计算器",
       "metaDescription": "使用欧姆定律V=IR计算电压（V）、电流（I）、电阻（R）和功率（P）。免费电子计算工具。"
+    },
+    "color-blindness-simulator": {
+      "name": "色觉模拟器",
+      "description": "预览色觉缺陷患者看到颜色的方式。",
+      "metaTitle": "色觉模拟器",
+      "metaDescription": "模拟红绿色盲、蓝黄色盲和全色盲。预览色觉障碍者看到的颜色效果。"
+    },
+    "json-diff": {
+      "name": "JSON 差异对比工具",
+      "description": "比较两个JSON对象，高亮显示添加、删除和更改的键。",
+      "metaTitle": "JSON 差异对比工具",
+      "metaDescription": "并排比较两个JSON对象，高亮显示添加、删除和修改的键。免费的浏览器端JSON差异工具。"
+    },
+    "number-formatter": {
+      "name": "数字格式化工具",
+      "description": "将数字格式化为货币、百分比、科学计数法或自定义分隔符格式。",
+      "metaTitle": "数字格式化工具",
+      "metaDescription": "将数字格式化为货币、百分比、科学计数法，或使用自定义千位和小数分隔符。免费在线数字格式化工具。"
+    },
+    "pace-converter": {
+      "name": "配速转换器",
+      "description": "在min/km、min/英里、km/h和mph之间转换跑步配速。",
+      "metaTitle": "跑步配速转换器",
+      "metaDescription": "在min/km、min/英里、km/h和mph之间转换跑步配速。面向跑步者的免费在线配速计算器。"
+    },
+    "clothing-size-converter": {
+      "name": "服装尺码转换器",
+      "description": "在美国、欧洲、英国和日本尺码之间转换上衣、下装和连衣裙尺码。",
+      "metaTitle": "服装尺码转换器",
+      "metaDescription": "在美国、欧洲、英国和日本尺码之间转换上衣、下装和连衣裙尺码。免费国际服装尺码对照表。"
+    },
+    "word-wrap": {
+      "name": "文字换行",
+      "description": "在指定列宽处换行长文本，支持单词换行和字符换行选项。",
+      "metaTitle": "文字换行工具",
+      "metaDescription": "在指定列宽处换行长文本行，选择单词换行或字符换行模式。免费在线文字换行工具。"
+    },
+    "currency-formatter": {
+      "name": "货币格式化工具",
+      "description": "以USD、EUR、JPY、GBP、KRW等货币格式显示数字。",
+      "metaTitle": "货币格式化工具",
+      "metaDescription": "以USD、EUR、JPY、GBP、KRW等货币格式化数字。预览区域设置感知的货币显示。免费在线货币格式化工具。"
+    },
+    "date-calculator": {
+      "name": "日期计算器",
+      "description": "从任意日期加减天数、周数、月数或年数。",
+      "metaTitle": "日期计算器",
+      "metaDescription": "从任意日期加减天数、周数、月数或年数。轻松查找未来或过去的日期。免费在线日期计算器。"
     }
   },
   "Common": {
@@ -2830,5 +2878,120 @@
     "clearButton": "清除",
     "formulasTitle": "公式",
     "unknownCombination": "请输入恰好两个值。"
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "上传图片",
+    "uploadPrompt": "点击或拖拽上传图片",
+    "normalVision": "正常视觉",
+    "deuteranopia": "第二色盲（红绿）",
+    "protanopia": "第一色盲（红绿）",
+    "tritanopia": "第三色盲（蓝黄）",
+    "achromatopsia": "全色盲（无颜色）",
+    "noImagePlaceholder": "上传图片以查看模拟效果",
+    "aboutTitle": "关于色觉缺陷",
+    "aboutDesc": "色觉缺陷（色盲）影响着全球约8%的男性和0.5%的女性。此工具可模拟不同类型色觉缺陷人群所见的图像效果。"
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "粘贴第一个JSON...",
+    "rightPlaceholder": "粘贴第二个JSON...",
+    "compareButton": "比较",
+    "clearButton": "清除",
+    "resultsTitle": "差异",
+    "noChanges": "未发现差异 — 两个JSON对象相同。",
+    "addedLabel": "已添加",
+    "removedLabel": "已删除",
+    "changedLabel": "已更改",
+    "invalidJsonA": "字段A中的JSON无效。",
+    "invalidJsonB": "字段B中的JSON无效。",
+    "keyLabel": "键",
+    "oldValueLabel": "旧值",
+    "newValueLabel": "新值"
+  },
+  "NumberFormatter": {
+    "numberLabel": "数字",
+    "numberPlaceholder": "输入数字...",
+    "formatLabel": "格式",
+    "formatDecimal": "小数 (1,234.56)",
+    "formatCurrency": "货币",
+    "formatPercent": "百分比",
+    "formatScientific": "科学计数法",
+    "currencyLabel": "货币",
+    "localeLabel": "区域设置",
+    "decimalPlacesLabel": "小数位数",
+    "resultLabel": "结果",
+    "clearButton": "清除"
+  },
+  "PaceConverter": {
+    "inputLabel": "输入值",
+    "inputUnitLabel": "输入单位",
+    "minPerKm": "分/公里",
+    "minPerMile": "分/英里",
+    "kmPerHour": "公里/小时",
+    "milesPerHour": "英里/小时",
+    "convertButton": "转换",
+    "clearButton": "清除",
+    "resultsTitle": "转换结果",
+    "invalidInput": "请输入有效的配速/速度值。",
+    "minutesAbbr": "分",
+    "secondsAbbr": "秒"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "类别",
+    "tops": "上衣/衬衫",
+    "bottoms": "下装/裤子",
+    "dresses": "连衣裙/套装",
+    "shoes": "鞋子",
+    "sizeLabel": "您的尺码",
+    "systemLabel": "尺码体系",
+    "usLabel": "美国",
+    "euLabel": "欧洲",
+    "ukLabel": "英国",
+    "jpLabel": "日本",
+    "convertButton": "转换",
+    "clearButton": "清除",
+    "equivalentSizes": "对应尺码",
+    "notFound": "在尺码表中未找到该尺码。"
+  },
+  "WordWrap": {
+    "inputLabel": "输入文本",
+    "inputPlaceholder": "在此粘贴您的长文本...",
+    "columnWidthLabel": "列宽（字符数）",
+    "breakModeLabel": "换行模式",
+    "breakWord": "单词换行",
+    "breakChar": "字符换行",
+    "wrapButton": "换行",
+    "clearButton": "清除",
+    "outputLabel": "换行后的文本",
+    "copyButton": "复制",
+    "copiedButton": "已复制!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "金额",
+    "numberPlaceholder": "输入金额...",
+    "currencyLabel": "货币",
+    "localeLabel": "区域设置 / 地区",
+    "showSymbol": "显示货币符号",
+    "showCode": "显示货币代码",
+    "resultLabel": "格式化结果",
+    "clearButton": "清除",
+    "copyButton": "复制",
+    "copiedButton": "已复制!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "开始日期",
+    "operationLabel": "操作",
+    "operationAdd": "加",
+    "operationSubtract": "减",
+    "yearsLabel": "年",
+    "monthsLabel": "月",
+    "weeksLabel": "周",
+    "daysLabel": "天",
+    "calculateButton": "计算",
+    "clearButton": "清除",
+    "resultLabel": "结果日期",
+    "dayOfWeekLabel": "星期",
+    "daysFromTodayLabel": "距今天的天数"
   }
 }

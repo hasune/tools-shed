@@ -896,6 +896,54 @@
       "description": "Berechnen Sie Spannung, Strom, Widerstand und Leistung mit dem Ohmschen Gesetz.",
       "metaTitle": "Ohmsches Gesetz Rechner",
       "metaDescription": "Berechnen Sie Spannung (V), Strom (I), Widerstand (R) und Leistung (P) mit dem Ohmschen Gesetz V=IR."
+    },
+    "color-blindness-simulator": {
+      "name": "Farbenblindheits-Simulator",
+      "description": "Vorschau, wie Farben für Menschen mit Farbsehschwäche aussehen.",
+      "metaTitle": "Farbenblindheits-Simulator",
+      "metaDescription": "Simulieren Sie Deuteranopie, Protanopie, Tritanopie und Achromatopsie. Sehen Sie Farben wie Menschen mit Farbsehschwäche."
+    },
+    "json-diff": {
+      "name": "JSON-Unterschied",
+      "description": "Vergleichen Sie zwei JSON-Objekte und heben Sie hinzugefügte, entfernte und geänderte Schlüssel hervor.",
+      "metaTitle": "JSON-Unterschied — JSON-Objekte vergleichen",
+      "metaDescription": "Vergleichen Sie zwei JSON-Objekte nebeneinander und heben Sie hinzugefügte, entfernte und geänderte Schlüssel hervor. Kostenloses JSON-Diff-Tool."
+    },
+    "number-formatter": {
+      "name": "Zahlenformatierer",
+      "description": "Formatieren Sie Zahlen als Währung, Prozentsatz, wissenschaftliche Notation oder mit benutzerdefinierten Trennzeichen.",
+      "metaTitle": "Zahlenformatierer",
+      "metaDescription": "Formatieren Sie Zahlen als Währung, Prozentsatz, wissenschaftliche Notation oder mit benutzerdefinierten Tausender- und Dezimaltrennzeichen. Kostenloser Zahlenformatierer."
+    },
+    "pace-converter": {
+      "name": "Tempo-Konverter",
+      "description": "Konvertieren Sie das Lauftempo zwischen min/km, min/Meile, km/h und mph.",
+      "metaTitle": "Lauftempo-Konverter",
+      "metaDescription": "Konvertieren Sie das Lauftempo zwischen min/km, min/Meile, km/h und mph. Kostenloser Online-Temporechner für Läufer."
+    },
+    "clothing-size-converter": {
+      "name": "Kleidergrößen-Konverter",
+      "description": "Konvertieren Sie Kleidergrößen zwischen den USA, EU, UK und Japan für Oberteile, Hosen und Kleider.",
+      "metaTitle": "Kleidergrößen-Konverter",
+      "metaDescription": "Konvertieren Sie Kleidergrößen zwischen den USA, EU, UK und Japan für Oberteile, Hosen und Kleider. Kostenlose internationale Größentabelle."
+    },
+    "word-wrap": {
+      "name": "Zeilenumbruch",
+      "description": "Brechen Sie langen Text bei einer bestimmten Spaltenbreite um, mit Optionen für Wort- oder Zeichenumbruch.",
+      "metaTitle": "Zeilenumbruch-Tool",
+      "metaDescription": "Brechen Sie lange Textzeilen bei einer bestimmten Spaltenbreite um. Wählen Sie den Wort- oder Zeichenumbruchmodus. Kostenloses Online-Zeilenumbruch-Tool."
+    },
+    "currency-formatter": {
+      "name": "Währungsformatierer",
+      "description": "Formatieren Sie Zahlen in Währungsstilen für USD, EUR, JPY, GBP, KRW und mehr.",
+      "metaTitle": "Währungsformatierer",
+      "metaDescription": "Formatieren Sie Zahlen als Währung für USD, EUR, JPY, GBP, KRW und viele mehr. Vorschau der regionalen Währungsanzeige. Kostenloser Währungsformatierer."
+    },
+    "date-calculator": {
+      "name": "Datumsrechner",
+      "description": "Addieren oder subtrahieren Sie Tage, Wochen, Monate oder Jahre von einem beliebigen Datum.",
+      "metaTitle": "Datumsrechner",
+      "metaDescription": "Addieren oder subtrahieren Sie Tage, Wochen, Monate oder Jahre von einem beliebigen Datum. Finden Sie einfach ein zukünftiges oder vergangenes Datum. Kostenloser Datumsrechner."
     }
   },
   "Common": {
@@ -2829,5 +2877,120 @@
     "clearButton": "Löschen",
     "formulasTitle": "Formeln",
     "unknownCombination": "Bitte geben Sie genau zwei Werte ein."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "Bild hochladen",
+    "uploadPrompt": "Klicken oder ziehen Sie, um ein Bild hochzuladen",
+    "normalVision": "Normales Sehen",
+    "deuteranopia": "Deuteranopie (Rot-Grün)",
+    "protanopia": "Protanopie (Rot-Grün)",
+    "tritanopia": "Tritanopie (Blau-Gelb)",
+    "achromatopsia": "Achromatopsie (Kein Farbsehen)",
+    "noImagePlaceholder": "Laden Sie ein Bild hoch, um die Simulation zu sehen",
+    "aboutTitle": "Über Farbsehschwäche",
+    "aboutDesc": "Farbsehschwäche (Farbenblindheit) betrifft etwa 8% der Männer und 0,5% der Frauen weltweit. Dieses Tool simuliert, wie Bilder für Menschen mit verschiedenen Arten von Farbsehschwäche aussehen."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "Erstes JSON hier einfügen...",
+    "rightPlaceholder": "Zweites JSON hier einfügen...",
+    "compareButton": "Vergleichen",
+    "clearButton": "Löschen",
+    "resultsTitle": "Unterschiede",
+    "noChanges": "Keine Unterschiede gefunden — die beiden JSON-Objekte sind identisch.",
+    "addedLabel": "Hinzugefügt",
+    "removedLabel": "Entfernt",
+    "changedLabel": "Geändert",
+    "invalidJsonA": "Ungültiges JSON in Feld A.",
+    "invalidJsonB": "Ungültiges JSON in Feld B.",
+    "keyLabel": "Schlüssel",
+    "oldValueLabel": "Alter Wert",
+    "newValueLabel": "Neuer Wert"
+  },
+  "NumberFormatter": {
+    "numberLabel": "Zahl",
+    "numberPlaceholder": "Zahl eingeben...",
+    "formatLabel": "Format",
+    "formatDecimal": "Dezimal (1.234,56)",
+    "formatCurrency": "Währung",
+    "formatPercent": "Prozentsatz",
+    "formatScientific": "Wissenschaftliche Notation",
+    "currencyLabel": "Währung",
+    "localeLabel": "Gebietsschema",
+    "decimalPlacesLabel": "Dezimalstellen",
+    "resultLabel": "Ergebnis",
+    "clearButton": "Löschen"
+  },
+  "PaceConverter": {
+    "inputLabel": "Eingabewert",
+    "inputUnitLabel": "Eingabeeinheit",
+    "minPerKm": "min/km",
+    "minPerMile": "min/Meile",
+    "kmPerHour": "km/h",
+    "milesPerHour": "mph",
+    "convertButton": "Umrechnen",
+    "clearButton": "Löschen",
+    "resultsTitle": "Umrechnungsergebnisse",
+    "invalidInput": "Bitte geben Sie einen gültigen Tempo/Geschwindigkeitswert ein.",
+    "minutesAbbr": "Min",
+    "secondsAbbr": "Sek"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "Kategorie",
+    "tops": "Oberteile/Hemden",
+    "bottoms": "Hosen/Röcke",
+    "dresses": "Kleider/Anzüge",
+    "shoes": "Schuhe",
+    "sizeLabel": "Ihre Größe",
+    "systemLabel": "Größensystem",
+    "usLabel": "USA",
+    "euLabel": "EU",
+    "ukLabel": "Vereinigtes Königreich",
+    "jpLabel": "Japan",
+    "convertButton": "Umrechnen",
+    "clearButton": "Löschen",
+    "equivalentSizes": "Entsprechende Größen",
+    "notFound": "Größe nicht in der Tabelle gefunden."
+  },
+  "WordWrap": {
+    "inputLabel": "Eingabetext",
+    "inputPlaceholder": "Langen Text hier einfügen...",
+    "columnWidthLabel": "Spaltenbreite (Zeichen)",
+    "breakModeLabel": "Umbruchmodus",
+    "breakWord": "Wortumbruch",
+    "breakChar": "Zeichenumbruch",
+    "wrapButton": "Umbrechen",
+    "clearButton": "Löschen",
+    "outputLabel": "Umgebrochener Text",
+    "copyButton": "Kopieren",
+    "copiedButton": "Kopiert!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "Betrag",
+    "numberPlaceholder": "Betrag eingeben...",
+    "currencyLabel": "Währung",
+    "localeLabel": "Gebietsschema",
+    "showSymbol": "Währungssymbol anzeigen",
+    "showCode": "Währungscode anzeigen",
+    "resultLabel": "Formatiertes Ergebnis",
+    "clearButton": "Löschen",
+    "copyButton": "Kopieren",
+    "copiedButton": "Kopiert!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "Startdatum",
+    "operationLabel": "Operation",
+    "operationAdd": "Hinzufügen",
+    "operationSubtract": "Subtrahieren",
+    "yearsLabel": "Jahre",
+    "monthsLabel": "Monate",
+    "weeksLabel": "Wochen",
+    "daysLabel": "Tage",
+    "calculateButton": "Berechnen",
+    "clearButton": "Löschen",
+    "resultLabel": "Ergebnisdatum",
+    "dayOfWeekLabel": "Wochentag",
+    "daysFromTodayLabel": "Tage ab heute"
   }
 }

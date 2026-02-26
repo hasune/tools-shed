@@ -896,6 +896,54 @@
       "description": "Calculate voltage, current, resistance, and power using Ohm's Law.",
       "metaTitle": "Ohm's Law Calculator",
       "metaDescription": "Calculate voltage (V), current (I), resistance (R), and power (P) using Ohm's Law V=IR. Free electronics calculator."
+    },
+    "color-blindness-simulator": {
+      "name": "Color Blindness Simulator",
+      "description": "Preview how colors appear to people with different types of color vision deficiency.",
+      "metaTitle": "Color Blindness Simulator",
+      "metaDescription": "Simulate deuteranopia, protanopia, tritanopia, and achromatopsia. Preview colors as seen by people with color vision deficiency."
+    },
+    "json-diff": {
+      "name": "JSON Diff",
+      "description": "Compare two JSON objects and highlight added, removed, and changed keys.",
+      "metaTitle": "JSON Diff — Compare JSON Objects",
+      "metaDescription": "Compare two JSON objects side by side and highlight added, removed, and changed keys. Free browser-based JSON diff tool."
+    },
+    "number-formatter": {
+      "name": "Number Formatter",
+      "description": "Format numbers as currency, percentage, scientific notation, or with custom separators.",
+      "metaTitle": "Number Formatter",
+      "metaDescription": "Format numbers as currency, percentage, scientific notation, or with custom thousand and decimal separators. Free online number formatter."
+    },
+    "pace-converter": {
+      "name": "Pace Converter",
+      "description": "Convert running pace between min/km, min/mile, km/h, and mph.",
+      "metaTitle": "Running Pace Converter",
+      "metaDescription": "Convert running pace between min/km, min/mile, km/h, and mph. Free online pace calculator for runners."
+    },
+    "clothing-size-converter": {
+      "name": "Clothing Size Converter",
+      "description": "Convert clothing sizes between US, EU, UK, Japan, and international standards.",
+      "metaTitle": "Clothing Size Converter",
+      "metaDescription": "Convert clothing sizes between US, EU, UK, and Japan for tops, bottoms, and dresses. Free international clothing size chart."
+    },
+    "word-wrap": {
+      "name": "Word Wrap",
+      "description": "Wrap long text at a specified column width, with word or character break options.",
+      "metaTitle": "Word Wrap Tool",
+      "metaDescription": "Wrap long lines of text at a specified column width. Choose word-break or character-break mode. Free online text wrapping tool."
+    },
+    "currency-formatter": {
+      "name": "Currency Formatter",
+      "description": "Format numbers in currency styles for USD, EUR, JPY, GBP, KRW, and more.",
+      "metaTitle": "Currency Formatter",
+      "metaDescription": "Format numbers as currency for USD, EUR, JPY, GBP, KRW, and many more. Preview locale-aware currency display. Free online currency formatter."
+    },
+    "date-calculator": {
+      "name": "Date Calculator",
+      "description": "Add or subtract days, weeks, months, or years from any date.",
+      "metaTitle": "Date Calculator",
+      "metaDescription": "Add or subtract days, weeks, months, or years from any date. Find a future or past date easily. Free online date calculator."
     }
   },
   "Common": {
@@ -2829,5 +2877,120 @@
     "clearButton": "Clear",
     "formulasTitle": "Formulas",
     "unknownCombination": "Please enter exactly two values."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "Upload image",
+    "uploadPrompt": "Click or drag to upload an image",
+    "normalVision": "Normal Vision",
+    "deuteranopia": "Deuteranopia (Red-Green)",
+    "protanopia": "Protanopia (Red-Green)",
+    "tritanopia": "Tritanopia (Blue-Yellow)",
+    "achromatopsia": "Achromatopsia (No Color)",
+    "noImagePlaceholder": "Upload an image to see the simulation",
+    "aboutTitle": "About Color Vision Deficiency",
+    "aboutDesc": "Color vision deficiency (color blindness) affects approximately 8% of males and 0.5% of females worldwide. This tool simulates how images appear to people with different types of color vision deficiency."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "Paste first JSON here...",
+    "rightPlaceholder": "Paste second JSON here...",
+    "compareButton": "Compare",
+    "clearButton": "Clear",
+    "resultsTitle": "Differences",
+    "noChanges": "No differences found — the two JSON objects are identical.",
+    "addedLabel": "Added",
+    "removedLabel": "Removed",
+    "changedLabel": "Changed",
+    "invalidJsonA": "Invalid JSON in field A.",
+    "invalidJsonB": "Invalid JSON in field B.",
+    "keyLabel": "Key",
+    "oldValueLabel": "Old Value",
+    "newValueLabel": "New Value"
+  },
+  "NumberFormatter": {
+    "numberLabel": "Number",
+    "numberPlaceholder": "Enter a number...",
+    "formatLabel": "Format",
+    "formatDecimal": "Decimal (1,234.56)",
+    "formatCurrency": "Currency",
+    "formatPercent": "Percentage",
+    "formatScientific": "Scientific Notation",
+    "currencyLabel": "Currency",
+    "localeLabel": "Locale",
+    "decimalPlacesLabel": "Decimal places",
+    "resultLabel": "Result",
+    "clearButton": "Clear"
+  },
+  "PaceConverter": {
+    "inputLabel": "Input value",
+    "inputUnitLabel": "Input unit",
+    "minPerKm": "min/km",
+    "minPerMile": "min/mile",
+    "kmPerHour": "km/h",
+    "milesPerHour": "mph",
+    "convertButton": "Convert",
+    "clearButton": "Clear",
+    "resultsTitle": "Conversion Results",
+    "invalidInput": "Please enter a valid pace/speed value.",
+    "minutesAbbr": "min",
+    "secondsAbbr": "sec"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "Category",
+    "tops": "Tops / Shirts",
+    "bottoms": "Bottoms / Pants",
+    "dresses": "Dresses / Suits",
+    "shoes": "Shoes",
+    "sizeLabel": "Your size",
+    "systemLabel": "Size system",
+    "usLabel": "US",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "Japan",
+    "convertButton": "Convert",
+    "clearButton": "Clear",
+    "equivalentSizes": "Equivalent Sizes",
+    "notFound": "Size not found in chart."
+  },
+  "WordWrap": {
+    "inputLabel": "Input text",
+    "inputPlaceholder": "Paste your long text here...",
+    "columnWidthLabel": "Column width (characters)",
+    "breakModeLabel": "Break mode",
+    "breakWord": "Word break",
+    "breakChar": "Character break",
+    "wrapButton": "Wrap",
+    "clearButton": "Clear",
+    "outputLabel": "Wrapped output",
+    "copyButton": "Copy",
+    "copiedButton": "Copied!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "Amount",
+    "numberPlaceholder": "Enter amount...",
+    "currencyLabel": "Currency",
+    "localeLabel": "Locale / Region",
+    "showSymbol": "Show currency symbol",
+    "showCode": "Show currency code",
+    "resultLabel": "Formatted Result",
+    "clearButton": "Clear",
+    "copyButton": "Copy",
+    "copiedButton": "Copied!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "Start date",
+    "operationLabel": "Operation",
+    "operationAdd": "Add",
+    "operationSubtract": "Subtract",
+    "yearsLabel": "Years",
+    "monthsLabel": "Months",
+    "weeksLabel": "Weeks",
+    "daysLabel": "Days",
+    "calculateButton": "Calculate",
+    "clearButton": "Clear",
+    "resultLabel": "Result Date",
+    "dayOfWeekLabel": "Day of week",
+    "daysFromTodayLabel": "Days from today"
   }
 }

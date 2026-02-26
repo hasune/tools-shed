@@ -896,6 +896,54 @@
       "description": "Calculez la tension, le courant, la résistance et la puissance avec la loi d'Ohm.",
       "metaTitle": "Calculateur de la Loi d'Ohm",
       "metaDescription": "Calculez la tension (V), le courant (I), la résistance (R) et la puissance (P) avec la loi d'Ohm V=IR."
+    },
+    "color-blindness-simulator": {
+      "name": "Simulateur de Daltonisme",
+      "description": "Prévisualisez comment les couleurs apparaissent aux personnes atteintes de déficience visuelle des couleurs.",
+      "metaTitle": "Simulateur de Daltonisme",
+      "metaDescription": "Simulez la deutéranopie, protanopie, tritanopie et achromatopsie. Voyez les couleurs comme les perçoivent les daltoniens."
+    },
+    "json-diff": {
+      "name": "Différence JSON",
+      "description": "Comparez deux objets JSON et mettez en évidence les clés ajoutées, supprimées et modifiées.",
+      "metaTitle": "Différence JSON — Comparer des objets JSON",
+      "metaDescription": "Comparez deux objets JSON côte à côte et mettez en évidence les clés ajoutées, supprimées et modifiées. Outil JSON diff gratuit."
+    },
+    "number-formatter": {
+      "name": "Formateur de Nombres",
+      "description": "Formatez les nombres en devise, pourcentage, notation scientifique ou avec des séparateurs personnalisés.",
+      "metaTitle": "Formateur de Nombres",
+      "metaDescription": "Formatez les nombres en devise, pourcentage, notation scientifique ou avec des séparateurs de milliers et décimaux personnalisés. Formateur de nombres gratuit."
+    },
+    "pace-converter": {
+      "name": "Convertisseur d'Allure",
+      "description": "Convertissez l'allure de course entre min/km, min/mile, km/h et mph.",
+      "metaTitle": "Convertisseur d'Allure de Course",
+      "metaDescription": "Convertissez l'allure de course entre min/km, min/mile, km/h et mph. Calculateur d'allure gratuit pour les coureurs."
+    },
+    "clothing-size-converter": {
+      "name": "Convertisseur de Tailles de Vêtements",
+      "description": "Convertissez les tailles de vêtements entre les États-Unis, l'UE, le Royaume-Uni et le Japon.",
+      "metaTitle": "Convertisseur de Tailles de Vêtements",
+      "metaDescription": "Convertissez les tailles de vêtements entre les États-Unis, l'UE, le Royaume-Uni et le Japon pour les hauts, bas et robes. Tableau des tailles internationales gratuit."
+    },
+    "word-wrap": {
+      "name": "Retour à la Ligne",
+      "description": "Enveloppez le texte long à une largeur de colonne spécifiée, avec des options de rupture par mots ou caractères.",
+      "metaTitle": "Outil de Retour à la Ligne",
+      "metaDescription": "Enveloppez les longues lignes de texte à une largeur de colonne spécifiée. Choisissez le mode de rupture par mot ou caractère. Outil de retour à la ligne gratuit."
+    },
+    "currency-formatter": {
+      "name": "Formateur de Devise",
+      "description": "Formatez les nombres en styles de devise pour USD, EUR, JPY, GBP, KRW et plus encore.",
+      "metaTitle": "Formateur de Devise",
+      "metaDescription": "Formatez les nombres en devise pour USD, EUR, JPY, GBP, KRW et bien d'autres. Prévisualisez l'affichage de devise par région. Formateur de devise gratuit."
+    },
+    "date-calculator": {
+      "name": "Calculateur de Dates",
+      "description": "Ajoutez ou soustrayez des jours, semaines, mois ou années à n'importe quelle date.",
+      "metaTitle": "Calculateur de Dates",
+      "metaDescription": "Ajoutez ou soustrayez des jours, semaines, mois ou années à n'importe quelle date. Trouvez facilement une date future ou passée. Calculateur de dates gratuit."
     }
   },
   "Common": {
@@ -2829,5 +2877,120 @@
     "clearButton": "Effacer",
     "formulasTitle": "Formules",
     "unknownCombination": "Veuillez entrer exactement deux valeurs."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "Télécharger une image",
+    "uploadPrompt": "Cliquez ou faites glisser pour télécharger une image",
+    "normalVision": "Vision Normale",
+    "deuteranopia": "Deutéranopie (Rouge-Vert)",
+    "protanopia": "Protanopie (Rouge-Vert)",
+    "tritanopia": "Tritanopie (Bleu-Jaune)",
+    "achromatopsia": "Achromatopsie (Sans Couleur)",
+    "noImagePlaceholder": "Téléchargez une image pour voir la simulation",
+    "aboutTitle": "À Propos de la Déficience de la Vision des Couleurs",
+    "aboutDesc": "La déficience de la vision des couleurs (daltonisme) affecte environ 8% des hommes et 0,5% des femmes dans le monde. Cet outil simule la façon dont les images apparaissent aux personnes atteintes de différents types de déficiences de la vision des couleurs."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "Collez le premier JSON ici...",
+    "rightPlaceholder": "Collez le deuxième JSON ici...",
+    "compareButton": "Comparer",
+    "clearButton": "Effacer",
+    "resultsTitle": "Différences",
+    "noChanges": "Aucune différence trouvée — les deux objets JSON sont identiques.",
+    "addedLabel": "Ajouté",
+    "removedLabel": "Supprimé",
+    "changedLabel": "Modifié",
+    "invalidJsonA": "JSON invalide dans le champ A.",
+    "invalidJsonB": "JSON invalide dans le champ B.",
+    "keyLabel": "Clé",
+    "oldValueLabel": "Ancienne Valeur",
+    "newValueLabel": "Nouvelle Valeur"
+  },
+  "NumberFormatter": {
+    "numberLabel": "Nombre",
+    "numberPlaceholder": "Entrez un nombre...",
+    "formatLabel": "Format",
+    "formatDecimal": "Décimal (1 234,56)",
+    "formatCurrency": "Devise",
+    "formatPercent": "Pourcentage",
+    "formatScientific": "Notation Scientifique",
+    "currencyLabel": "Devise",
+    "localeLabel": "Paramètres régionaux",
+    "decimalPlacesLabel": "Décimales",
+    "resultLabel": "Résultat",
+    "clearButton": "Effacer"
+  },
+  "PaceConverter": {
+    "inputLabel": "Valeur d'entrée",
+    "inputUnitLabel": "Unité d'entrée",
+    "minPerKm": "min/km",
+    "minPerMile": "min/mile",
+    "kmPerHour": "km/h",
+    "milesPerHour": "mph",
+    "convertButton": "Convertir",
+    "clearButton": "Effacer",
+    "resultsTitle": "Résultats de Conversion",
+    "invalidInput": "Veuillez saisir une valeur d'allure/vitesse valide.",
+    "minutesAbbr": "min",
+    "secondsAbbr": "s"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "Catégorie",
+    "tops": "Hauts/Chemises",
+    "bottoms": "Bas/Pantalons",
+    "dresses": "Robes/Costumes",
+    "shoes": "Chaussures",
+    "sizeLabel": "Votre taille",
+    "systemLabel": "Système de tailles",
+    "usLabel": "É.-U.",
+    "euLabel": "EU",
+    "ukLabel": "Royaume-Uni",
+    "jpLabel": "Japon",
+    "convertButton": "Convertir",
+    "clearButton": "Effacer",
+    "equivalentSizes": "Tailles Équivalentes",
+    "notFound": "Taille introuvable dans le tableau."
+  },
+  "WordWrap": {
+    "inputLabel": "Texte d'entrée",
+    "inputPlaceholder": "Collez votre texte long ici...",
+    "columnWidthLabel": "Largeur de colonne (caractères)",
+    "breakModeLabel": "Mode de rupture",
+    "breakWord": "Rupture par mots",
+    "breakChar": "Rupture par caractères",
+    "wrapButton": "Retour à la ligne",
+    "clearButton": "Effacer",
+    "outputLabel": "Texte avec retour à la ligne",
+    "copyButton": "Copier",
+    "copiedButton": "Copié !"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "Montant",
+    "numberPlaceholder": "Saisissez le montant...",
+    "currencyLabel": "Devise",
+    "localeLabel": "Paramètres régionaux",
+    "showSymbol": "Afficher le symbole de devise",
+    "showCode": "Afficher le code de devise",
+    "resultLabel": "Résultat Formaté",
+    "clearButton": "Effacer",
+    "copyButton": "Copier",
+    "copiedButton": "Copié !"
+  },
+  "DateCalculator": {
+    "startDateLabel": "Date de début",
+    "operationLabel": "Opération",
+    "operationAdd": "Ajouter",
+    "operationSubtract": "Soustraire",
+    "yearsLabel": "Années",
+    "monthsLabel": "Mois",
+    "weeksLabel": "Semaines",
+    "daysLabel": "Jours",
+    "calculateButton": "Calculer",
+    "clearButton": "Effacer",
+    "resultLabel": "Date résultante",
+    "dayOfWeekLabel": "Jour de la semaine",
+    "daysFromTodayLabel": "Jours depuis aujourd'hui"
   }
 }

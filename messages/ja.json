@@ -896,6 +896,54 @@
       "description": "オームの法則を使って電圧・電流・抵抗・電力を計算します。",
       "metaTitle": "オームの法則計算機",
       "metaDescription": "オームの法則 V=IR を使って電圧（V）、電流（I）、抵抗（R）、電力（P）を計算できます。"
+    },
+    "color-blindness-simulator": {
+      "name": "色覚シミュレーター",
+      "description": "色覚異常を持つ人々の見え方をシミュレートします。",
+      "metaTitle": "色覚シミュレーター",
+      "metaDescription": "第一色盲・第二色盲・第三色盲・全色盲のシミュレーション。色覚障害者の見え方を確認できます。"
+    },
+    "json-diff": {
+      "name": "JSON比較ツール",
+      "description": "2つのJSONオブジェクトを比較し、追加・削除・変更されたキーを強調表示します。",
+      "metaTitle": "JSON比較ツール",
+      "metaDescription": "2つのJSONオブジェクトの差異を並べて比較。追加・削除・変更されたキーをハイライト表示します。"
+    },
+    "number-formatter": {
+      "name": "数値フォーマッター",
+      "description": "数値を通貨、パーセント、指数表記などの形式にフォーマットします。",
+      "metaTitle": "数値フォーマッター",
+      "metaDescription": "数値を通貨・パーセント・指数表記や、カスタムの区切り文字でフォーマット。無料のオンライン数値フォーマッターです。"
+    },
+    "pace-converter": {
+      "name": "ペースコンバーター",
+      "description": "ランニングペースをmin/km、min/マイル、km/h、mphの間で変換します。",
+      "metaTitle": "ランニングペースコンバーター",
+      "metaDescription": "ランニングペースをmin/km・min/マイル・km/h・mphの間で変換。ランナー向け無料オンラインペース計算ツールです。"
+    },
+    "clothing-size-converter": {
+      "name": "服のサイズ変換",
+      "description": "US・EU・UK・日本のサイズ間でトップス・ボトムス・ドレスのサイズを変換します。",
+      "metaTitle": "服のサイズ変換",
+      "metaDescription": "US・EU・UK・日本のサイズ間でトップス・ボトムス・ドレスのサイズを変換。国際的な服サイズ早見表。"
+    },
+    "word-wrap": {
+      "name": "ワードラップ",
+      "description": "指定した列幅でテキストを折り返します。単語区切りまたは文字区切りを選択できます。",
+      "metaTitle": "ワードラップツール",
+      "metaDescription": "指定した列幅でテキストの長い行を折り返します。単語区切りまたは文字区切りモードを選択できます。"
+    },
+    "currency-formatter": {
+      "name": "通貨フォーマッター",
+      "description": "USD、EUR、JPY、GBP、KRWなど多くの通貨形式で数値をフォーマットします。",
+      "metaTitle": "通貨フォーマッター",
+      "metaDescription": "USD・EUR・JPY・GBP・KRWなど多くの通貨形式で数値をフォーマット。ロケール対応の表示をプレビューできます。"
+    },
+    "date-calculator": {
+      "name": "日付計算機",
+      "description": "任意の日付から日数・週数・月数・年数を加算または減算します。",
+      "metaTitle": "日付計算機",
+      "metaDescription": "任意の日付から日数・週数・月数・年数を加算または減算。将来または過去の日付を簡単に計算できます。"
     }
   },
   "Common": {
@@ -2830,5 +2878,120 @@
     "clearButton": "クリア",
     "formulasTitle": "公式",
     "unknownCombination": "2つの値を正確に入力してください。"
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "画像をアップロード",
+    "uploadPrompt": "クリックまたはドラッグして画像をアップロード",
+    "normalVision": "通常視",
+    "deuteranopia": "第二色盲（赤緑）",
+    "protanopia": "第一色盲（赤緑）",
+    "tritanopia": "第三色盲（青黄）",
+    "achromatopsia": "全色盲（色なし）",
+    "noImagePlaceholder": "シミュレーションを見るには画像をアップロードしてください",
+    "aboutTitle": "色覚異常について",
+    "aboutDesc": "色覚異常（色盲）は世界の男性の約8%、女性の約0.5%に影響しています。このツールは、さまざまな種類の色覚異常を持つ人々に画像がどのように見えるかをシミュレートします。"
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "1つ目のJSONを貼り付け...",
+    "rightPlaceholder": "2つ目のJSONを貼り付け...",
+    "compareButton": "比較",
+    "clearButton": "クリア",
+    "resultsTitle": "差異",
+    "noChanges": "差異はありません — 2つのJSONオブジェクトは同一です。",
+    "addedLabel": "追加",
+    "removedLabel": "削除",
+    "changedLabel": "変更",
+    "invalidJsonA": "フィールドAのJSONが無効です。",
+    "invalidJsonB": "フィールドBのJSONが無効です。",
+    "keyLabel": "キー",
+    "oldValueLabel": "変更前",
+    "newValueLabel": "変更後"
+  },
+  "NumberFormatter": {
+    "numberLabel": "数値",
+    "numberPlaceholder": "数値を入力...",
+    "formatLabel": "フォーマット",
+    "formatDecimal": "小数 (1,234.56)",
+    "formatCurrency": "通貨",
+    "formatPercent": "パーセント",
+    "formatScientific": "指数表記",
+    "currencyLabel": "通貨",
+    "localeLabel": "ロケール",
+    "decimalPlacesLabel": "小数点以下桁数",
+    "resultLabel": "結果",
+    "clearButton": "クリア"
+  },
+  "PaceConverter": {
+    "inputLabel": "入力値",
+    "inputUnitLabel": "入力単位",
+    "minPerKm": "分/km",
+    "minPerMile": "分/マイル",
+    "kmPerHour": "km/h",
+    "milesPerHour": "mph",
+    "convertButton": "変換",
+    "clearButton": "クリア",
+    "resultsTitle": "変換結果",
+    "invalidInput": "有効なペース/速度の値を入力してください。",
+    "minutesAbbr": "分",
+    "secondsAbbr": "秒"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "カテゴリー",
+    "tops": "トップス/シャツ",
+    "bottoms": "ボトムス/パンツ",
+    "dresses": "ドレス/スーツ",
+    "shoes": "シューズ",
+    "sizeLabel": "サイズ",
+    "systemLabel": "サイズシステム",
+    "usLabel": "US",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "日本",
+    "convertButton": "変換",
+    "clearButton": "クリア",
+    "equivalentSizes": "対応サイズ",
+    "notFound": "チャートにサイズが見つかりません。"
+  },
+  "WordWrap": {
+    "inputLabel": "入力テキスト",
+    "inputPlaceholder": "長いテキストをここに貼り付け...",
+    "columnWidthLabel": "列幅（文字数）",
+    "breakModeLabel": "折り返しモード",
+    "breakWord": "単語区切り",
+    "breakChar": "文字区切り",
+    "wrapButton": "折り返す",
+    "clearButton": "クリア",
+    "outputLabel": "折り返し後のテキスト",
+    "copyButton": "コピー",
+    "copiedButton": "コピー済み!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "金額",
+    "numberPlaceholder": "金額を入力...",
+    "currencyLabel": "通貨",
+    "localeLabel": "ロケール / 地域",
+    "showSymbol": "通貨記号を表示",
+    "showCode": "通貨コードを表示",
+    "resultLabel": "フォーマット結果",
+    "clearButton": "クリア",
+    "copyButton": "コピー",
+    "copiedButton": "コピー済み!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "開始日",
+    "operationLabel": "操作",
+    "operationAdd": "加算",
+    "operationSubtract": "減算",
+    "yearsLabel": "年",
+    "monthsLabel": "月",
+    "weeksLabel": "週",
+    "daysLabel": "日",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "resultLabel": "結果の日付",
+    "dayOfWeekLabel": "曜日",
+    "daysFromTodayLabel": "今日からの日数"
   }
 }

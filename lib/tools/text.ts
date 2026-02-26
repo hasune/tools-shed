@@ -190,4 +190,13 @@ export const textTools: Tool[] = [
     icon: "U+",
     keywords: ["unicode", "code point", "character", "utf-8", "utf-16", "html entity", "inspect"],
   },
+  {
+    slug: "word-wrap",
+    name: "Word Wrap",
+    description: "Wrap long text at a specified column width, with word or character break options.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "↵",
+    keywords: ["word wrap", "line break", "column width", "text wrap", "format", "wrap text"],
+  },
 ];

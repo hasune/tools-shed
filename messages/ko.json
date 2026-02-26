@@ -896,6 +896,54 @@
       "description": "옴의 법칙으로 전압, 전류, 저항, 전력을 계산합니다.",
       "metaTitle": "옴의 법칙 계산기",
       "metaDescription": "옴의 법칙 V=IR로 전압(V), 전류(I), 저항(R), 전력(P)을 계산합니다. 무료 전자공학 계산기."
+    },
+    "color-blindness-simulator": {
+      "name": "색맹 시뮬레이터",
+      "description": "색각 이상을 가진 사람들이 보는 방식을 미리 봅니다.",
+      "metaTitle": "색맹 시뮬레이터",
+      "metaDescription": "적록색맹, 청황색맹, 전색맹 시뮬레이션. 색각 장애를 가진 사람들이 보는 방식을 미리 확인하세요."
+    },
+    "json-diff": {
+      "name": "JSON 비교 도구",
+      "description": "두 JSON 객체를 비교하고 추가, 삭제, 변경된 키를 강조 표시합니다.",
+      "metaTitle": "JSON Diff — JSON 객체 비교",
+      "metaDescription": "두 JSON 객체를 나란히 비교하고 추가, 삭제, 변경된 키를 강조 표시합니다. 무료 브라우저 기반 JSON 비교 도구."
+    },
+    "number-formatter": {
+      "name": "숫자 포맷터",
+      "description": "숫자를 통화, 백분율, 지수 표기법 또는 사용자 정의 구분 기호로 형식화합니다.",
+      "metaTitle": "숫자 포맷터",
+      "metaDescription": "숫자를 통화, 백분율, 지수 표기법 또는 사용자 정의 천 단위/소수점 구분 기호로 형식화합니다. 무료 온라인 숫자 포맷터."
+    },
+    "pace-converter": {
+      "name": "페이스 변환기",
+      "description": "달리기 페이스를 min/km, min/마일, km/h, mph 사이에서 변환합니다.",
+      "metaTitle": "달리기 페이스 변환기",
+      "metaDescription": "달리기 페이스를 min/km, min/마일, km/h, mph 사이에서 변환합니다. 러너를 위한 무료 온라인 페이스 계산기."
+    },
+    "clothing-size-converter": {
+      "name": "의류 사이즈 변환기",
+      "description": "미국, EU, 영국, 일본 사이즈 간에 상의, 하의, 드레스 사이즈를 변환합니다.",
+      "metaTitle": "의류 사이즈 변환기",
+      "metaDescription": "상의, 하의, 드레스의 의류 사이즈를 미국, EU, 영국, 일본 기준으로 변환합니다. 무료 국제 의류 사이즈 비교표."
+    },
+    "word-wrap": {
+      "name": "줄 바꿈",
+      "description": "지정된 열 너비에서 긴 텍스트를 줄 바꿈합니다. 단어 또는 문자 구분 옵션을 선택하세요.",
+      "metaTitle": "줄 바꿈 도구",
+      "metaDescription": "지정된 열 너비에서 긴 텍스트 줄을 줄 바꿈합니다. 단어 구분 또는 문자 구분 모드를 선택하세요. 무료 온라인 텍스트 줄 바꿈 도구."
+    },
+    "currency-formatter": {
+      "name": "통화 포맷터",
+      "description": "USD, EUR, JPY, GBP, KRW 등 다양한 통화 형식으로 숫자를 표시합니다.",
+      "metaTitle": "통화 포맷터",
+      "metaDescription": "USD, EUR, JPY, GBP, KRW 등 다양한 통화로 숫자를 형식화합니다. 로케일별 통화 표시를 미리 확인하세요. 무료 온라인 통화 포맷터."
+    },
+    "date-calculator": {
+      "name": "날짜 계산기",
+      "description": "날짜에서 일, 주, 월, 년을 더하거나 빼서 날짜를 계산합니다.",
+      "metaTitle": "날짜 계산기",
+      "metaDescription": "모든 날짜에서 일, 주, 월, 년을 더하거나 빼세요. 미래 또는 과거의 날짜를 쉽게 찾을 수 있는 무료 온라인 날짜 계산기."
     }
   },
   "Common": {
@@ -2830,5 +2878,120 @@
     "clearButton": "초기화",
     "formulasTitle": "공식",
     "unknownCombination": "정확히 두 개의 값을 입력해 주세요."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "이미지 업로드",
+    "uploadPrompt": "클릭하거나 이미지를 드래그하여 업로드",
+    "normalVision": "정상 시각",
+    "deuteranopia": "제2색맹(적록)",
+    "protanopia": "제1색맹(적록)",
+    "tritanopia": "제3색맹(청황)",
+    "achromatopsia": "전색맹(색 없음)",
+    "noImagePlaceholder": "시뮬레이션을 보려면 이미지를 업로드하세요",
+    "aboutTitle": "색각 이상에 대해",
+    "aboutDesc": "색각 이상(색맹)은 전 세계 남성의 약 8%, 여성의 0.5%에 영향을 미칩니다. 이 도구는 다양한 유형의 색각 이상을 가진 사람들에게 이미지가 어떻게 보이는지 시뮬레이션합니다."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "첫 번째 JSON을 붙여넣기...",
+    "rightPlaceholder": "두 번째 JSON을 붙여넣기...",
+    "compareButton": "비교",
+    "clearButton": "지우기",
+    "resultsTitle": "차이점",
+    "noChanges": "차이점 없음 — 두 JSON 객체가 동일합니다.",
+    "addedLabel": "추가됨",
+    "removedLabel": "제거됨",
+    "changedLabel": "변경됨",
+    "invalidJsonA": "필드 A의 JSON이 유효하지 않습니다.",
+    "invalidJsonB": "필드 B의 JSON이 유효하지 않습니다.",
+    "keyLabel": "키",
+    "oldValueLabel": "이전 값",
+    "newValueLabel": "새 값"
+  },
+  "NumberFormatter": {
+    "numberLabel": "숫자",
+    "numberPlaceholder": "숫자를 입력...",
+    "formatLabel": "형식",
+    "formatDecimal": "십진수 (1,234.56)",
+    "formatCurrency": "통화",
+    "formatPercent": "백분율",
+    "formatScientific": "지수 표기법",
+    "currencyLabel": "통화",
+    "localeLabel": "로케일",
+    "decimalPlacesLabel": "소수 자리 수",
+    "resultLabel": "결과",
+    "clearButton": "지우기"
+  },
+  "PaceConverter": {
+    "inputLabel": "입력 값",
+    "inputUnitLabel": "입력 단위",
+    "minPerKm": "분/km",
+    "minPerMile": "분/마일",
+    "kmPerHour": "km/h",
+    "milesPerHour": "mph",
+    "convertButton": "변환",
+    "clearButton": "지우기",
+    "resultsTitle": "변환 결과",
+    "invalidInput": "유효한 페이스/속도 값을 입력하세요.",
+    "minutesAbbr": "분",
+    "secondsAbbr": "초"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "카테고리",
+    "tops": "상의/셔츠",
+    "bottoms": "하의/바지",
+    "dresses": "드레스/정장",
+    "shoes": "신발",
+    "sizeLabel": "사이즈",
+    "systemLabel": "사이즈 체계",
+    "usLabel": "미국",
+    "euLabel": "EU",
+    "ukLabel": "영국",
+    "jpLabel": "일본",
+    "convertButton": "변환",
+    "clearButton": "지우기",
+    "equivalentSizes": "동등한 사이즈",
+    "notFound": "차트에서 사이즈를 찾을 수 없습니다."
+  },
+  "WordWrap": {
+    "inputLabel": "입력 텍스트",
+    "inputPlaceholder": "긴 텍스트를 여기에 붙여넣기...",
+    "columnWidthLabel": "열 너비(문자 수)",
+    "breakModeLabel": "줄 바꿈 방식",
+    "breakWord": "단어 구분",
+    "breakChar": "문자 구분",
+    "wrapButton": "줄 바꿈",
+    "clearButton": "지우기",
+    "outputLabel": "줄 바꿈된 텍스트",
+    "copyButton": "복사",
+    "copiedButton": "복사됨!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "금액",
+    "numberPlaceholder": "금액을 입력...",
+    "currencyLabel": "통화",
+    "localeLabel": "로케일 / 지역",
+    "showSymbol": "통화 기호 표시",
+    "showCode": "통화 코드 표시",
+    "resultLabel": "형식화된 결과",
+    "clearButton": "지우기",
+    "copyButton": "복사",
+    "copiedButton": "복사됨!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "시작 날짜",
+    "operationLabel": "연산",
+    "operationAdd": "더하기",
+    "operationSubtract": "빼기",
+    "yearsLabel": "년",
+    "monthsLabel": "월",
+    "weeksLabel": "주",
+    "daysLabel": "일",
+    "calculateButton": "계산",
+    "clearButton": "지우기",
+    "resultLabel": "결과 날짜",
+    "dayOfWeekLabel": "요일",
+    "daysFromTodayLabel": "오늘부터 일수"
   }
 }

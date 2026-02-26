@@ -896,6 +896,54 @@
       "description": "Calcola tensione, corrente, resistenza e potenza con la Legge di Ohm.",
       "metaTitle": "Calcolatore Legge di Ohm",
       "metaDescription": "Calcola tensione (V), corrente (I), resistenza (R) e potenza (P) con la Legge di Ohm V=IR."
+    },
+    "color-blindness-simulator": {
+      "name": "Simulatore di Daltonismo",
+      "description": "Visualizza come le persone con difetti della visione dei colori vedono i colori.",
+      "metaTitle": "Simulatore di Daltonismo",
+      "metaDescription": "Simula deuteranopia, protanopia, tritanopia e acromatopsia. Guarda i colori come li vedono i daltoni."
+    },
+    "json-diff": {
+      "name": "Differenza JSON",
+      "description": "Confronta due oggetti JSON ed evidenzia le chiavi aggiunte, rimosse e modificate.",
+      "metaTitle": "Differenza JSON — Confronta oggetti JSON",
+      "metaDescription": "Confronta due oggetti JSON fianco a fianco ed evidenzia le chiavi aggiunte, rimosse e modificate. Strumento JSON diff gratuito."
+    },
+    "number-formatter": {
+      "name": "Formattatore di Numeri",
+      "description": "Formatta i numeri come valuta, percentuale, notazione scientifica o con separatori personalizzati.",
+      "metaTitle": "Formattatore di Numeri",
+      "metaDescription": "Formatta i numeri come valuta, percentuale, notazione scientifica o con separatori di migliaia e decimali personalizzati. Formattatore di numeri gratuito."
+    },
+    "pace-converter": {
+      "name": "Convertitore di Passo",
+      "description": "Converti il passo di corsa tra min/km, min/miglio, km/h e mph.",
+      "metaTitle": "Convertitore di Passo di Corsa",
+      "metaDescription": "Converti il passo di corsa tra min/km, min/miglio, km/h e mph. Calcolatore di passo gratuito per i corridori."
+    },
+    "clothing-size-converter": {
+      "name": "Convertitore di Taglie Abbigliamento",
+      "description": "Converti le taglie di abbigliamento tra USA, EU, UK e Giappone.",
+      "metaTitle": "Convertitore di Taglie Abbigliamento",
+      "metaDescription": "Converti le taglie di abbigliamento tra USA, EU, UK e Giappone per top, pantaloni e abiti. Tabella taglie internazionale gratuita."
+    },
+    "word-wrap": {
+      "name": "A Capo del Testo",
+      "description": "Vai a capo il testo lungo a una larghezza di colonna specificata, con opzioni di interruzione per parola o carattere.",
+      "metaTitle": "Strumento di A Capo del Testo",
+      "metaDescription": "Vai a capo le righe di testo lunghe a una larghezza di colonna specificata. Scegli la modalità di interruzione per parola o carattere. Strumento gratuito."
+    },
+    "currency-formatter": {
+      "name": "Formattatore di Valuta",
+      "description": "Formatta i numeri in stili di valuta per USD, EUR, JPY, GBP, KRW e altro.",
+      "metaTitle": "Formattatore di Valuta",
+      "metaDescription": "Formatta i numeri come valuta per USD, EUR, JPY, GBP, KRW e molti altri. Anteprima della visualizzazione valutaria per area geografica. Formattatore di valuta gratuito."
+    },
+    "date-calculator": {
+      "name": "Calcolatore di Date",
+      "description": "Aggiungi o sottrai giorni, settimane, mesi o anni da qualsiasi data.",
+      "metaTitle": "Calcolatore di Date",
+      "metaDescription": "Aggiungi o sottrai giorni, settimane, mesi o anni da qualsiasi data. Trova facilmente una data futura o passata. Calcolatore di date gratuito."
     }
   },
   "Common": {
@@ -2829,5 +2877,120 @@
     "clearButton": "Cancella",
     "formulasTitle": "Formule",
     "unknownCombination": "Inserisci esattamente due valori."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "Carica immagine",
+    "uploadPrompt": "Clicca o trascina per caricare un'immagine",
+    "normalVision": "Visione Normale",
+    "deuteranopia": "Deuteranopia (Rosso-Verde)",
+    "protanopia": "Protanopia (Rosso-Verde)",
+    "tritanopia": "Tritanopia (Blu-Giallo)",
+    "achromatopsia": "Acromatopsia (Nessun Colore)",
+    "noImagePlaceholder": "Carica un'immagine per vedere la simulazione",
+    "aboutTitle": "Informazioni sulla Deficienza della Visione dei Colori",
+    "aboutDesc": "La deficienza della visione dei colori (daltonismo) colpisce circa l'8% dei maschi e lo 0,5% delle femmine nel mondo. Questo strumento simula come le immagini appaiono alle persone con diversi tipi di deficienze della visione dei colori."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "Incolla il primo JSON qui...",
+    "rightPlaceholder": "Incolla il secondo JSON qui...",
+    "compareButton": "Confronta",
+    "clearButton": "Cancella",
+    "resultsTitle": "Differenze",
+    "noChanges": "Nessuna differenza trovata — i due oggetti JSON sono identici.",
+    "addedLabel": "Aggiunto",
+    "removedLabel": "Rimosso",
+    "changedLabel": "Modificato",
+    "invalidJsonA": "JSON non valido nel campo A.",
+    "invalidJsonB": "JSON non valido nel campo B.",
+    "keyLabel": "Chiave",
+    "oldValueLabel": "Valore Precedente",
+    "newValueLabel": "Nuovo Valore"
+  },
+  "NumberFormatter": {
+    "numberLabel": "Numero",
+    "numberPlaceholder": "Inserisci un numero...",
+    "formatLabel": "Formato",
+    "formatDecimal": "Decimale (1.234,56)",
+    "formatCurrency": "Valuta",
+    "formatPercent": "Percentuale",
+    "formatScientific": "Notazione Scientifica",
+    "currencyLabel": "Valuta",
+    "localeLabel": "Impostazioni Locali",
+    "decimalPlacesLabel": "Decimali",
+    "resultLabel": "Risultato",
+    "clearButton": "Cancella"
+  },
+  "PaceConverter": {
+    "inputLabel": "Valore di input",
+    "inputUnitLabel": "Unità di input",
+    "minPerKm": "min/km",
+    "minPerMile": "min/miglio",
+    "kmPerHour": "km/h",
+    "milesPerHour": "mph",
+    "convertButton": "Converti",
+    "clearButton": "Cancella",
+    "resultsTitle": "Risultati della Conversione",
+    "invalidInput": "Si prega di inserire un valore di passo/velocità valido.",
+    "minutesAbbr": "min",
+    "secondsAbbr": "sec"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "Categoria",
+    "tops": "Top/Camicie",
+    "bottoms": "Pantaloni/Gonne",
+    "dresses": "Abiti/Completi",
+    "shoes": "Scarpe",
+    "sizeLabel": "La tua taglia",
+    "systemLabel": "Sistema taglie",
+    "usLabel": "USA",
+    "euLabel": "EU",
+    "ukLabel": "Regno Unito",
+    "jpLabel": "Giappone",
+    "convertButton": "Converti",
+    "clearButton": "Cancella",
+    "equivalentSizes": "Taglie Equivalenti",
+    "notFound": "Taglia non trovata nella tabella."
+  },
+  "WordWrap": {
+    "inputLabel": "Testo di input",
+    "inputPlaceholder": "Incolla il tuo testo lungo qui...",
+    "columnWidthLabel": "Larghezza colonna (caratteri)",
+    "breakModeLabel": "Modalità di interruzione",
+    "breakWord": "Interruzione per parola",
+    "breakChar": "Interruzione per carattere",
+    "wrapButton": "A capo",
+    "clearButton": "Cancella",
+    "outputLabel": "Testo a capo",
+    "copyButton": "Copia",
+    "copiedButton": "Copiato!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "Importo",
+    "numberPlaceholder": "Inserisci l'importo...",
+    "currencyLabel": "Valuta",
+    "localeLabel": "Impostazioni locali",
+    "showSymbol": "Mostra simbolo valuta",
+    "showCode": "Mostra codice valuta",
+    "resultLabel": "Risultato Formattato",
+    "clearButton": "Cancella",
+    "copyButton": "Copia",
+    "copiedButton": "Copiato!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "Data di inizio",
+    "operationLabel": "Operazione",
+    "operationAdd": "Aggiungere",
+    "operationSubtract": "Sottrarre",
+    "yearsLabel": "Anni",
+    "monthsLabel": "Mesi",
+    "weeksLabel": "Settimane",
+    "daysLabel": "Giorni",
+    "calculateButton": "Calcola",
+    "clearButton": "Cancella",
+    "resultLabel": "Data risultante",
+    "dayOfWeekLabel": "Giorno della settimana",
+    "daysFromTodayLabel": "Giorni da oggi"
   }
 }

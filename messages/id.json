@@ -896,6 +896,54 @@
       "description": "Hitung tegangan, arus, resistansi, dan daya menggunakan Hukum Ohm.",
       "metaTitle": "Kalkulator Hukum Ohm",
       "metaDescription": "Hitung tegangan (V), arus (I), resistansi (R), dan daya (P) menggunakan Hukum Ohm V=IR."
+    },
+    "color-blindness-simulator": {
+      "name": "Simulator Buta Warna",
+      "description": "Pratinjau bagaimana orang dengan kekurangan penglihatan warna melihat warna.",
+      "metaTitle": "Simulator Buta Warna",
+      "metaDescription": "Simulasikan deuteranopia, protanopia, tritanopia, dan akromatopsia. Lihat warna seperti yang dilihat oleh penderita buta warna."
+    },
+    "json-diff": {
+      "name": "Perbedaan JSON",
+      "description": "Bandingkan dua objek JSON dan soroti kunci yang ditambahkan, dihapus, dan diubah.",
+      "metaTitle": "Perbedaan JSON — Bandingkan Objek JSON",
+      "metaDescription": "Bandingkan dua objek JSON secara berdampingan dan soroti kunci yang ditambahkan, dihapus, dan diubah. Alat JSON diff gratis."
+    },
+    "number-formatter": {
+      "name": "Pemformat Angka",
+      "description": "Format angka sebagai mata uang, persentase, notasi ilmiah, atau dengan pemisah kustom.",
+      "metaTitle": "Pemformat Angka",
+      "metaDescription": "Format angka sebagai mata uang, persentase, notasi ilmiah, atau dengan pemisah ribuan dan desimal kustom. Pemformat angka online gratis."
+    },
+    "pace-converter": {
+      "name": "Konverter Kecepatan Lari",
+      "description": "Konversi kecepatan lari antara min/km, min/mil, km/jam, dan mph.",
+      "metaTitle": "Konverter Kecepatan Lari",
+      "metaDescription": "Konversi kecepatan lari antara min/km, min/mil, km/jam, dan mph. Kalkulator kecepatan lari gratis untuk pelari."
+    },
+    "clothing-size-converter": {
+      "name": "Konverter Ukuran Pakaian",
+      "description": "Konversi ukuran pakaian antara AS, EU, UK, dan Jepang untuk atasan, bawahan, dan gaun.",
+      "metaTitle": "Konverter Ukuran Pakaian",
+      "metaDescription": "Konversi ukuran pakaian antara AS, EU, UK, dan Jepang untuk atasan, bawahan, dan gaun. Tabel ukuran pakaian internasional gratis."
+    },
+    "word-wrap": {
+      "name": "Pembungkus Kata",
+      "description": "Bungkus teks panjang pada lebar kolom yang ditentukan, dengan opsi pemisah kata atau karakter.",
+      "metaTitle": "Alat Pembungkus Kata",
+      "metaDescription": "Bungkus baris teks panjang pada lebar kolom yang ditentukan. Pilih mode pemisah kata atau karakter. Alat pembungkus teks online gratis."
+    },
+    "currency-formatter": {
+      "name": "Pemformat Mata Uang",
+      "description": "Format angka dalam gaya mata uang untuk USD, EUR, JPY, GBP, KRW, dan lainnya.",
+      "metaTitle": "Pemformat Mata Uang",
+      "metaDescription": "Format angka sebagai mata uang untuk USD, EUR, JPY, GBP, KRW, dan banyak lagi. Pratinjau tampilan mata uang per wilayah. Pemformat mata uang online gratis."
+    },
+    "date-calculator": {
+      "name": "Kalkulator Tanggal",
+      "description": "Tambahkan atau kurangi hari, minggu, bulan, atau tahun dari tanggal mana pun.",
+      "metaTitle": "Kalkulator Tanggal",
+      "metaDescription": "Tambahkan atau kurangi hari, minggu, bulan, atau tahun dari tanggal mana pun. Temukan tanggal masa depan atau masa lalu dengan mudah. Kalkulator tanggal online gratis."
     }
   },
   "Common": {
@@ -2829,5 +2877,120 @@
     "clearButton": "Hapus",
     "formulasTitle": "Rumus",
     "unknownCombination": "Harap masukkan tepat dua nilai."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "Unggah gambar",
+    "uploadPrompt": "Klik atau seret untuk mengunggah gambar",
+    "normalVision": "Penglihatan Normal",
+    "deuteranopia": "Deuteranopia (Merah-Hijau)",
+    "protanopia": "Protanopia (Merah-Hijau)",
+    "tritanopia": "Tritanopia (Biru-Kuning)",
+    "achromatopsia": "Akromatopsia (Tanpa Warna)",
+    "noImagePlaceholder": "Unggah gambar untuk melihat simulasi",
+    "aboutTitle": "Tentang Defisiensi Penglihatan Warna",
+    "aboutDesc": "Defisiensi penglihatan warna (buta warna) mempengaruhi sekitar 8% pria dan 0,5% wanita di seluruh dunia. Alat ini mensimulasikan bagaimana gambar terlihat oleh orang-orang dengan berbagai jenis defisiensi penglihatan warna."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "Tempel JSON pertama di sini...",
+    "rightPlaceholder": "Tempel JSON kedua di sini...",
+    "compareButton": "Bandingkan",
+    "clearButton": "Hapus",
+    "resultsTitle": "Perbedaan",
+    "noChanges": "Tidak ada perbedaan ditemukan — dua objek JSON identik.",
+    "addedLabel": "Ditambahkan",
+    "removedLabel": "Dihapus",
+    "changedLabel": "Diubah",
+    "invalidJsonA": "JSON tidak valid di bidang A.",
+    "invalidJsonB": "JSON tidak valid di bidang B.",
+    "keyLabel": "Kunci",
+    "oldValueLabel": "Nilai Lama",
+    "newValueLabel": "Nilai Baru"
+  },
+  "NumberFormatter": {
+    "numberLabel": "Angka",
+    "numberPlaceholder": "Masukkan angka...",
+    "formatLabel": "Format",
+    "formatDecimal": "Desimal (1.234,56)",
+    "formatCurrency": "Mata Uang",
+    "formatPercent": "Persentase",
+    "formatScientific": "Notasi Ilmiah",
+    "currencyLabel": "Mata Uang",
+    "localeLabel": "Pengaturan Lokal",
+    "decimalPlacesLabel": "Tempat Desimal",
+    "resultLabel": "Hasil",
+    "clearButton": "Hapus"
+  },
+  "PaceConverter": {
+    "inputLabel": "Nilai input",
+    "inputUnitLabel": "Satuan input",
+    "minPerKm": "mnt/km",
+    "minPerMile": "mnt/mil",
+    "kmPerHour": "km/jam",
+    "milesPerHour": "mph",
+    "convertButton": "Konversi",
+    "clearButton": "Hapus",
+    "resultsTitle": "Hasil Konversi",
+    "invalidInput": "Harap masukkan nilai pace/kecepatan yang valid.",
+    "minutesAbbr": "mnt",
+    "secondsAbbr": "dtk"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "Kategori",
+    "tops": "Atasan/Kemeja",
+    "bottoms": "Bawahan/Celana",
+    "dresses": "Gaun/Setelan",
+    "shoes": "Sepatu",
+    "sizeLabel": "Ukuran Anda",
+    "systemLabel": "Sistem ukuran",
+    "usLabel": "AS",
+    "euLabel": "EU",
+    "ukLabel": "UK",
+    "jpLabel": "Jepang",
+    "convertButton": "Konversi",
+    "clearButton": "Hapus",
+    "equivalentSizes": "Ukuran yang Setara",
+    "notFound": "Ukuran tidak ditemukan dalam tabel."
+  },
+  "WordWrap": {
+    "inputLabel": "Teks masukan",
+    "inputPlaceholder": "Tempel teks panjang Anda di sini...",
+    "columnWidthLabel": "Lebar kolom (karakter)",
+    "breakModeLabel": "Mode pemisah",
+    "breakWord": "Pemisah kata",
+    "breakChar": "Pemisah karakter",
+    "wrapButton": "Bungkus",
+    "clearButton": "Hapus",
+    "outputLabel": "Teks yang dibungkus",
+    "copyButton": "Salin",
+    "copiedButton": "Disalin!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "Jumlah",
+    "numberPlaceholder": "Masukkan jumlah...",
+    "currencyLabel": "Mata Uang",
+    "localeLabel": "Pengaturan Lokal",
+    "showSymbol": "Tampilkan simbol mata uang",
+    "showCode": "Tampilkan kode mata uang",
+    "resultLabel": "Hasil yang Diformat",
+    "clearButton": "Hapus",
+    "copyButton": "Salin",
+    "copiedButton": "Disalin!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "Tanggal mulai",
+    "operationLabel": "Operasi",
+    "operationAdd": "Tambah",
+    "operationSubtract": "Kurangi",
+    "yearsLabel": "Tahun",
+    "monthsLabel": "Bulan",
+    "weeksLabel": "Minggu",
+    "daysLabel": "Hari",
+    "calculateButton": "Hitung",
+    "clearButton": "Hapus",
+    "resultLabel": "Tanggal Hasil",
+    "dayOfWeekLabel": "Hari dalam seminggu",
+    "daysFromTodayLabel": "Hari dari hari ini"
   }
 }

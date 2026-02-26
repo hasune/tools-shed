@@ -154,4 +154,13 @@ export const financeTools: Tool[] = [
     icon: "💰",
     keywords: ["dividend", "yield", "income", "stock", "shares", "annual", "monthly", "calculator"],
   },
+  {
+    slug: "currency-formatter",
+    name: "Currency Formatter",
+    description: "Format numbers in currency styles for USD, EUR, JPY, GBP, KRW, and more.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "💱",
+    keywords: ["currency", "format", "usd", "eur", "jpy", "gbp", "krw", "number format", "locale"],
+  },
 ];

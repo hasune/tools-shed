@@ -896,6 +896,54 @@
       "description": "Ohm Yasasını kullanarak voltaj, akım, direnç ve gücü hesaplayın.",
       "metaTitle": "Ohm Yasası Hesaplayıcı",
       "metaDescription": "Ohm Yasası V=IR kullanarak voltaj (V), akım (I), direnç (R) ve güç (P) hesaplayın."
+    },
+    "color-blindness-simulator": {
+      "name": "Renk Körlüğü Simülatörü",
+      "description": "Renk görme bozukluğu olan kişilerin renkleri nasıl gördüğünü önizleyin.",
+      "metaTitle": "Renk Körlüğü Simülatörü",
+      "metaDescription": "Deuteranopi, protanopi, tritanopi ve akromatopsiyi simüle edin. Renk körlüğü olan kişilerin bakış açısından renkleri görün."
+    },
+    "json-diff": {
+      "name": "JSON Farkı",
+      "description": "İki JSON nesnesini karşılaştırın ve eklenen, kaldırılan ve değiştirilen anahtarları vurgulayın.",
+      "metaTitle": "JSON Farkı — JSON Nesnelerini Karşılaştır",
+      "metaDescription": "İki JSON nesnesini yan yana karşılaştırın ve eklenen, kaldırılan ve değiştirilen anahtarları vurgulayın. Ücretsiz JSON diff aracı."
+    },
+    "number-formatter": {
+      "name": "Sayı Biçimlendirici",
+      "description": "Sayıları para birimi, yüzde, bilimsel gösterim veya özel ayırıcılarla biçimlendirin.",
+      "metaTitle": "Sayı Biçimlendirici",
+      "metaDescription": "Sayıları para birimi, yüzde, bilimsel gösterim veya özel binlik ve ondalık ayırıcılarla biçimlendirin. Ücretsiz çevrimiçi sayı biçimlendirici."
+    },
+    "pace-converter": {
+      "name": "Tempo Dönüştürücü",
+      "description": "Koşu temposunu min/km, min/mil, km/s ve mph arasında dönüştürün.",
+      "metaTitle": "Koşu Tempo Dönüştürücü",
+      "metaDescription": "Koşu temposunu min/km, min/mil, km/s ve mph arasında dönüştürün. Koşucular için ücretsiz çevrimiçi tempo hesaplayıcı."
+    },
+    "clothing-size-converter": {
+      "name": "Giysi Beden Dönüştürücü",
+      "description": "Giysi bedenlerini ABD, AB, İngiltere ve Japonya arasında dönüştürün.",
+      "metaTitle": "Giysi Beden Dönüştürücü",
+      "metaDescription": "Üstler, altlar ve elbiseler için giysi bedenlerini ABD, AB, İngiltere ve Japonya arasında dönüştürün. Ücretsiz uluslararası giysi beden tablosu."
+    },
+    "word-wrap": {
+      "name": "Kelime Sarma",
+      "description": "Uzun metni belirtilen sütun genişliğinde sarar, kelime veya karakter kesmesi seçenekleriyle.",
+      "metaTitle": "Kelime Sarma Aracı",
+      "metaDescription": "Uzun metin satırlarını belirtilen sütun genişliğinde sarın. Kelime veya karakter kesmesi modunu seçin. Ücretsiz çevrimiçi metin sarma aracı."
+    },
+    "currency-formatter": {
+      "name": "Para Birimi Biçimlendirici",
+      "description": "USD, EUR, JPY, GBP, KRW ve daha fazlası için para birimi stillerinde sayıları biçimlendirin.",
+      "metaTitle": "Para Birimi Biçimlendirici",
+      "metaDescription": "USD, EUR, JPY, GBP, KRW ve daha fazlası için sayıları para birimi olarak biçimlendirin. Bölgesel para birimi görünümünü önizleyin. Ücretsiz para birimi biçimlendirici."
+    },
+    "date-calculator": {
+      "name": "Tarih Hesaplayıcı",
+      "description": "Herhangi bir tarihten gün, hafta, ay veya yıl ekleyin ya da çıkarın.",
+      "metaTitle": "Tarih Hesaplayıcı",
+      "metaDescription": "Herhangi bir tarihten gün, hafta, ay veya yıl ekleyin ya da çıkarın. Gelecekteki veya geçmişteki tarihi kolayca bulun. Ücretsiz çevrimiçi tarih hesaplayıcı."
     }
   },
   "Common": {
@@ -2829,5 +2877,120 @@
     "clearButton": "Temizle",
     "formulasTitle": "Formüller",
     "unknownCombination": "Lütfen tam olarak iki değer girin."
+  },
+  "ColorBlindnessSimulator": {
+    "imageLabel": "Resim yükle",
+    "uploadPrompt": "Resim yüklemek için tıklayın veya sürükleyin",
+    "normalVision": "Normal Görüş",
+    "deuteranopia": "Deuteranopi (Kırmızı-Yeşil)",
+    "protanopia": "Protanopi (Kırmızı-Yeşil)",
+    "tritanopia": "Tritanopi (Mavi-Sarı)",
+    "achromatopsia": "Akromatopsi (Renk Yok)",
+    "noImagePlaceholder": "Simülasyonu görmek için bir resim yükleyin",
+    "aboutTitle": "Renk Görme Bozukluğu Hakkında",
+    "aboutDesc": "Renk görme bozukluğu (renk körlüğü) dünya genelinde erkeklerin yaklaşık %8'ini ve kadınların %0,5'ini etkiler. Bu araç, farklı renk görme bozukluğu türlerine sahip kişiler için görüntülerin nasıl göründüğünü simüle eder."
+  },
+  "JsonDiff": {
+    "leftLabel": "JSON A",
+    "rightLabel": "JSON B",
+    "leftPlaceholder": "İlk JSON'u buraya yapıştırın...",
+    "rightPlaceholder": "İkinci JSON'u buraya yapıştırın...",
+    "compareButton": "Karşılaştır",
+    "clearButton": "Temizle",
+    "resultsTitle": "Farklılıklar",
+    "noChanges": "Farklılık bulunamadı — iki JSON nesnesi aynı.",
+    "addedLabel": "Eklendi",
+    "removedLabel": "Kaldırıldı",
+    "changedLabel": "Değiştirildi",
+    "invalidJsonA": "A alanındaki JSON geçersiz.",
+    "invalidJsonB": "B alanındaki JSON geçersiz.",
+    "keyLabel": "Anahtar",
+    "oldValueLabel": "Eski Değer",
+    "newValueLabel": "Yeni Değer"
+  },
+  "NumberFormatter": {
+    "numberLabel": "Sayı",
+    "numberPlaceholder": "Bir sayı girin...",
+    "formatLabel": "Biçim",
+    "formatDecimal": "Ondalık (1.234,56)",
+    "formatCurrency": "Para Birimi",
+    "formatPercent": "Yüzde",
+    "formatScientific": "Bilimsel Gösterim",
+    "currencyLabel": "Para Birimi",
+    "localeLabel": "Yerel Ayar",
+    "decimalPlacesLabel": "Ondalık Basamak",
+    "resultLabel": "Sonuç",
+    "clearButton": "Temizle"
+  },
+  "PaceConverter": {
+    "inputLabel": "Giriş değeri",
+    "inputUnitLabel": "Giriş birimi",
+    "minPerKm": "dak/km",
+    "minPerMile": "dak/mil",
+    "kmPerHour": "km/s",
+    "milesPerHour": "mph",
+    "convertButton": "Dönüştür",
+    "clearButton": "Temizle",
+    "resultsTitle": "Dönüşüm Sonuçları",
+    "invalidInput": "Lütfen geçerli bir tempo/hız değeri girin.",
+    "minutesAbbr": "dak",
+    "secondsAbbr": "sn"
+  },
+  "ClothingSizeConverter": {
+    "categoryLabel": "Kategori",
+    "tops": "Üstler/Gömlekler",
+    "bottoms": "Altlar/Pantolonlar",
+    "dresses": "Elbiseler/Takımlar",
+    "shoes": "Ayakkabılar",
+    "sizeLabel": "Bedeniniz",
+    "systemLabel": "Beden sistemi",
+    "usLabel": "ABD",
+    "euLabel": "AB",
+    "ukLabel": "İngiltere",
+    "jpLabel": "Japonya",
+    "convertButton": "Dönüştür",
+    "clearButton": "Temizle",
+    "equivalentSizes": "Eşdeğer Bedenler",
+    "notFound": "Bedeni tabloda bulunamadı."
+  },
+  "WordWrap": {
+    "inputLabel": "Giriş metni",
+    "inputPlaceholder": "Uzun metninizi buraya yapıştırın...",
+    "columnWidthLabel": "Sütun genişliği (karakter)",
+    "breakModeLabel": "Kırma modu",
+    "breakWord": "Kelime kesmesi",
+    "breakChar": "Karakter kesmesi",
+    "wrapButton": "Sar",
+    "clearButton": "Temizle",
+    "outputLabel": "Sarılmış metin",
+    "copyButton": "Kopyala",
+    "copiedButton": "Kopyalandı!"
+  },
+  "CurrencyFormatter": {
+    "numberLabel": "Tutar",
+    "numberPlaceholder": "Tutarı girin...",
+    "currencyLabel": "Para Birimi",
+    "localeLabel": "Yerel Ayar",
+    "showSymbol": "Para birimi sembolünü göster",
+    "showCode": "Para birimi kodunu göster",
+    "resultLabel": "Biçimlendirilmiş Sonuç",
+    "clearButton": "Temizle",
+    "copyButton": "Kopyala",
+    "copiedButton": "Kopyalandı!"
+  },
+  "DateCalculator": {
+    "startDateLabel": "Başlangıç tarihi",
+    "operationLabel": "İşlem",
+    "operationAdd": "Ekle",
+    "operationSubtract": "Çıkar",
+    "yearsLabel": "Yıllar",
+    "monthsLabel": "Aylar",
+    "weeksLabel": "Haftalar",
+    "daysLabel": "Günler",
+    "calculateButton": "Hesapla",
+    "clearButton": "Temizle",
+    "resultLabel": "Sonuç Tarihi",
+    "dayOfWeekLabel": "Haftanın günü",
+    "daysFromTodayLabel": "Bugünden itibaren gün"
   }
 }

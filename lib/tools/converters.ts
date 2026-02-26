@@ -163,4 +163,22 @@ export const converterTools: Tool[] = [
     icon: "👟",
     keywords: ["shoe size", "us", "eu", "uk", "japan", "cm", "convert", "footwear", "sizing"],
   },
+  {
+    slug: "pace-converter",
+    name: "Pace Converter",
+    description: "Convert running pace between min/km, min/mile, km/h, and mph.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "🏃",
+    keywords: ["pace", "running", "min/km", "min/mile", "km/h", "mph", "speed", "convert", "jogging"],
+  },
+  {
+    slug: "clothing-size-converter",
+    name: "Clothing Size Converter",
+    description: "Convert clothing sizes between US, EU, UK, Japan, and international standards.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "👕",
+    keywords: ["clothing size", "apparel", "us", "eu", "uk", "japan", "xs", "small", "medium", "large", "convert"],
+  },
 ];

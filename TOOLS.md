@@ -3,11 +3,11 @@
 > **이 파일은 현재 구현된 모든 도구의 공식 목록입니다.**
 > - 새 도구를 추가하기 전에 **반드시 이 파일을 확인**해 중복을 방지할 것
 > - 도구 추가/삭제 시 이 파일을 함께 업데이트할 것
-> - 총 **136개** 도구 (2026-02-26 기준)
+> - 총 **144개** 도구 (2026-02-27 기준)
 
 ---
 
-## Developer Tools (`/developer`) — 36개
+## Developer Tools (`/developer`) — 39개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -47,10 +47,13 @@
 | `ascii-art` | ASCII Art Generator | FIGlet 스타일 블록 폰트 |
 | `cipher-tool` | Cipher Tool | Caesar/ROT13/Vigenère 암호화·복호화 |
 | `mime-type-lookup` | MIME Type Lookup | 확장자↔MIME 타입 조회, 약 70개 항목 |
+| `color-blindness-simulator` | Color Blindness Simulator | Canvas API 기반, 5가지 색각 이상 시뮬레이션 |
+| `json-diff` | JSON Diff | flat key 기반 추가/삭제/변경 비교 |
+| `number-formatter` | Number Formatter | Intl.NumberFormat, 통화/백분율/지수 |
 
 ---
 
-## Unit Converters (`/converters`) — 18개
+## Unit Converters (`/converters`) — 20개
 
 > `length`, `weight`, `data-storage`, `speed`, `area`, `volume`, `angle`, `pressure`, `fuel-efficiency`, `energy`, `power`, `cooking`, `time-unit`은 `UnitConverter.tsx` 공유 컴포넌트 사용
 
@@ -74,10 +77,12 @@
 | `illuminance-converter` | Illuminance Converter | lux, foot-candle, phot, nox |
 | `frequency-converter` | Frequency Converter | Hz, kHz, MHz, GHz, THz, RPM |
 | `shoe-size-converter` | Shoe Size Converter | US Men/Women, EU, UK, Japan(cm) |
+| `pace-converter` | Pace Converter | min/km, min/mile, km/h, mph 상호 변환 |
+| `clothing-size-converter` | Clothing Size Converter | US/EU/UK/JP, 상의·하의·드레스 |
 
 ---
 
-## Text Tools (`/text`) — 21개
+## Text Tools (`/text`) — 22개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -102,10 +107,11 @@
 | `text-statistics` | Text Readability Analyzer | Flesch/Flesch-Kincaid/Gunning Fog |
 | `nato-alphabet` | NATO Phonetic Alphabet | 텍스트 → NATO 음성 알파벳 변환 |
 | `unicode-inspector` | Unicode Inspector | 코드 포인트/이름/카테고리/HTML 엔티티 |
+| `word-wrap` | Word Wrap | 지정 열 너비 줄 바꿈, 단어/문자 구분 |
 
 ---
 
-## Finance Tools (`/finance`) — 17개
+## Finance Tools (`/finance`) — 18개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -126,6 +132,7 @@
 | `stock-profit-calculator` | Stock Profit Calculator | 매수/매도/수수료 → 수익/ROI |
 | `fire-calculator` | FIRE Calculator | 4% 룰, FIRE 목표액 + 달성 연수 |
 | `dividend-calculator` | Dividend Calculator | 배당수익률/연간·월간·분기 소득 |
+| `currency-formatter` | Currency Formatter | Intl.NumberFormat, 28개 통화, 12개 로케일 |
 
 ---
 
@@ -151,7 +158,7 @@
 
 ---
 
-## Time Tools (`/time`) — 10개
+## Time Tools (`/time`) — 11개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -165,6 +172,7 @@
 | `countdown-timer` | Countdown Timer | 미래 날짜/시간 카운트다운 |
 | `meeting-planner` | Meeting Time Zone Planner | 다중 시간대 동시 표시 |
 | `year-progress` | Year Progress | 올해 경과/잔여 비율 |
+| `date-calculator` | Date Calculator | 날짜 ± 일/주/월/년, 요일 + 오늘 기준 일수 |
 
 ---
 

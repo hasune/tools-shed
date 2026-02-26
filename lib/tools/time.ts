@@ -91,4 +91,13 @@ export const timeTools: Tool[] = [
     icon: "📅",
     keywords: ["year", "progress", "remaining", "days", "2025", "calendar", "time"],
   },
+  {
+    slug: "date-calculator",
+    name: "Date Calculator",
+    description: "Add or subtract days, weeks, months, or years from any date.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "🗓️",
+    keywords: ["date", "add", "subtract", "days", "weeks", "months", "years", "calculate", "calendar"],
+  },
 ];

@@ -12,7 +12,7 @@
 - **목표**: Google AdSense 수익 + 글로벌 개발자/일반 사용자 트래픽
 - **특징**: 서버 없음, 브라우저에서 모든 계산 처리, 로그인 불필요, 12개 언어 지원
 - **참고**: 한국어 자매 사이트(life-tools.net)가 별도로 존재함 (이 프로젝트와 무관)
-- **도구 목록**: [`TOOLS.md`](./TOOLS.md) — 현재 구현된 124개 도구 전체 인벤토리 (새 도구 제안 전 반드시 확인)
+- **도구 목록**: [`TOOLS.md`](./TOOLS.md) — 현재 구현된 155개 도구 전체 인벤토리 (새 도구 제안 전 반드시 확인)
 
 ---
 
@@ -103,7 +103,7 @@
 | `i18n/request.ts` | 서버 사이드 메시지 로딩 |
 | `i18n/navigation.ts` | locale-aware `Link`, `useRouter`, `usePathname` |
 | `proxy.ts` | 미들웨어 (로케일 감지 + 리다이렉트) |
-| `messages/en.json` | 번역 파일 (source of truth, ~900+ 키) |
+| `messages/en.json` | 번역 파일 (source of truth, ~1200+ 키) |
 | `messages/{locale}.json` | 각 언어 번역 파일 (11개) |
 
 ### 번역 방식
@@ -137,13 +137,13 @@ tools-shed/
 │       ├── about/page.tsx
 │       ├── privacy/page.tsx
 │       ├── [category]/page.tsx       # 카테고리 인덱스
-│       ├── developer/                # 34개 도구 페이지
-│       ├── converters/               # 16개 도구 페이지
-│       ├── text/                     # 19개 도구 페이지
-│       ├── finance/                  # 15개 도구 페이지
-│       ├── health/                   # 13개 도구 페이지
-│       ├── time/                     # 10개 도구 페이지
-│       └── math/                     # 17개 도구 페이지
+│       ├── developer/                # 42개 도구 페이지
+│       ├── converters/               # 22개 도구 페이지
+│       ├── text/                     # 23개 도구 페이지
+│       ├── finance/                  # 19개 도구 페이지
+│       ├── health/                   # 18개 도구 페이지
+│       ├── time/                     # 12개 도구 페이지
+│       └── math/                     # 19개 도구 페이지
 │
 ├── components/
 │   ├── Header.tsx                    # useTranslations + LocaleSwitcher
@@ -152,7 +152,7 @@ tools-shed/
 │   ├── AdSlot.tsx                    # Google AdSense 슬롯
 │   ├── GiscusComments.tsx            # Giscus 댓글
 │   ├── ToolLayout.tsx                # 도구 페이지 공통 래퍼 (광고/댓글/빵부스러기)
-│   └── tools/                        # 124개 도구 UI 컴포넌트 ("use client" + useTranslations)
+│   └── tools/                        # 155개 도구 UI 컴포넌트 ("use client" + useTranslations)
 │       ├── UnitConverter.tsx         # length/weight/data-storage/speed/area/volume 등 공유
 │       ├── TemperatureConverter.tsx  # 온도 전용
 │       └── ...                       # 각 도구별 컴포넌트
@@ -160,13 +160,13 @@ tools-shed/
 ├── lib/
 │   └── tools/                        # 도구 메타데이터 레지스트리 (카테고리별 분리)
 │       ├── types.ts                  # Tool, Category 인터페이스
-│       ├── developer.ts              # Developer Tools (34개)
-│       ├── converters.ts             # Unit Converters (16개)
-│       ├── text.ts                   # Text Tools (19개)
-│       ├── finance.ts                # Finance Tools (15개)
-│       ├── health.ts                 # Health Tools (13개)
-│       ├── time.ts                   # Time Tools (10개)
-│       ├── math.ts                   # Math Tools (17개)
+│       ├── developer.ts              # Developer Tools (42개)
+│       ├── converters.ts             # Unit Converters (22개)
+│       ├── text.ts                   # Text Tools (23개)
+│       ├── finance.ts                # Finance Tools (19개)
+│       ├── health.ts                 # Health Tools (18개)
+│       ├── time.ts                   # Time Tools (12개)
+│       ├── math.ts                   # Math Tools (19개)
 │       └── index.ts                  # 전체 통합 + 헬퍼 함수 export
 │
 ├── i18n/
@@ -178,6 +178,14 @@ tools-shed/
 │   ├── en.json                       # Source of truth (~900+ 키)
 │   └── {ja,ko,zh-CN,es,pt-BR,fr,de,ru,it,tr,id}.json
 │
+├── .claude/
+│   ├── settings.json                 # Claude Code 훅 설정 (커밋됨, public)
+│   └── hooks/
+│       ├── protect-files.sh          # package-lock.json 등 보호 (PreToolUse)
+│       ├── check-translation-keys.py # 번역 키 누락 검사 (PostToolUse)
+│       ├── translation-reminder.sh   # en.json 수정 시 11개 언어 파일 상기
+│       ├── tools-md-reminder.sh      # lib/tools 수정 시 TOOLS.md 상기
+│       └── completion-checklist.sh   # 작업 완료 시 page.tsx/번역/TOOLS.md 검증 (Stop)
 ├── TOOLS.md                          # ← 도구 전체 인벤토리 (새 도구 추가 전 참조)
 ├── proxy.ts                          # next-intl 미들웨어
 └── next.config.ts                    # createNextIntlPlugin 래핑
@@ -369,3 +377,5 @@ NEXTAUTH_SECRET=...
 | `components/ToolLayout.tsx` | 모든 도구 페이지의 공통 래퍼 |
 | `app/sitemap.ts` | 사이트맵 (언어 추가 시 LOCALES 수정) |
 | `proxy.ts` | next-intl 미들웨어 |
+| `.claude/settings.json` | Claude Code 훅 설정 |
+| `.claude/hooks/` | 프로젝트 품질 자동 검사 훅 스크립트 |

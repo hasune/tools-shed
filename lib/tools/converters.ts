@@ -181,4 +181,23 @@ export const converterTools: Tool[] = [
     icon: "👕",
     keywords: ["clothing size", "apparel", "us", "eu", "uk", "japan", "xs", "small", "medium", "large", "convert"],
   },
+
+  {
+    slug: "data-transfer-speed",
+    name: "Data Transfer Speed Converter",
+    description: "Convert between Mbps, MB/s, Gbps, KB/s, and other internet speed units.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "📡",
+    keywords: ["mbps", "mb/s", "gbps", "kb/s", "internet speed", "bandwidth", "convert", "data rate"],
+  },
+  {
+    slug: "pixel-density-converter",
+    name: "Pixel Density Calculator",
+    description: "Calculate PPI (pixels per inch) and DPI from screen resolution and physical size.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "🖥️",
+    keywords: ["ppi", "dpi", "pixel density", "resolution", "screen", "inches", "monitor", "display"],
+  },
 ];

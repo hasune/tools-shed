@@ -199,4 +199,14 @@ export const textTools: Tool[] = [
     icon: "↵",
     keywords: ["word wrap", "line break", "column width", "text wrap", "format", "wrap text"],
   },
+
+  {
+    slug: "text-truncator",
+    name: "Text Truncator",
+    description: "Truncate text to a specified character or word limit with a customizable ellipsis.",
+    category: "Text Tools",
+    categorySlug: "text",
+    icon: "✂️",
+    keywords: ["truncate", "text", "limit", "ellipsis", "shorten", "character", "word"],
+  },
 ];

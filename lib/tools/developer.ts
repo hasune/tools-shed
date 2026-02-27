@@ -352,4 +352,32 @@ export const developerTools: Tool[] = [
     icon: "🔢",
     keywords: ["number", "format", "currency", "percentage", "scientific", "thousand separator", "decimal"],
   },
+
+  {
+    slug: "markdown-to-html",
+    name: "Markdown to HTML",
+    description: "Convert Markdown source to HTML code for copy-pasting into projects.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "MD",
+    keywords: ["markdown", "html", "convert", "source", "code", "output"],
+  },
+  {
+    slug: "css-minifier",
+    name: "CSS Minifier / Beautifier",
+    description: "Minify CSS to reduce file size, or beautify minified CSS for readability.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "CSS",
+    keywords: ["css", "minify", "beautify", "compress", "format", "stylesheet"],
+  },
+  {
+    slug: "color-name-lookup",
+    name: "Color Name Lookup",
+    description: "Find the nearest CSS color name for any HEX or RGB color value.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "🎨",
+    keywords: ["color", "name", "css", "hex", "rgb", "nearest", "lookup", "palette"],
+  },
 ];

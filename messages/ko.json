@@ -944,6 +944,72 @@
       "description": "날짜에서 일, 주, 월, 년을 더하거나 빼서 날짜를 계산합니다.",
       "metaTitle": "날짜 계산기",
       "metaDescription": "모든 날짜에서 일, 주, 월, 년을 더하거나 빼세요. 미래 또는 과거의 날짜를 쉽게 찾을 수 있는 무료 온라인 날짜 계산기."
+    },
+    "markdown-to-html": {
+      "name": "Markdown to HTML",
+      "description": "Markdown 소스를 HTML 코드로 변환하여 프로젝트에 붙여넣기.",
+      "metaTitle": "Markdown to HTML 변환기",
+      "metaDescription": "Markdown 소스를 깔끔한 HTML 코드로 즉시 변환. HTML 출력물을 복사하여 모든 프로젝트에 사용. 무료 브라우저 기반 Markdown→HTML 변환기."
+    },
+    "css-minifier": {
+      "name": "CSS 압축 / 정렬",
+      "description": "CSS를 압축하여 파일 크기를 줄이거나, 압축된 CSS를 정렬하여 가독성 향상.",
+      "metaTitle": "CSS 압축 & 정렬 도구",
+      "metaDescription": "CSS를 압축하여 파일 크기를 줄이거나 압축된 CSS를 정렬하여 가독성 향상. 무료 온라인 CSS 압축기."
+    },
+    "color-name-lookup": {
+      "name": "색상 이름 검색",
+      "description": "HEX 또는 RGB 색상 값에 가장 가까운 CSS 색상 이름 검색.",
+      "metaTitle": "색상 이름 검색 도구",
+      "metaDescription": "HEX 또는 RGB 값에 가장 가까운 CSS 명명 색상 검색. 140개 이상 CSS 색상 이름을 미리보기와 함께 탐색."
+    },
+    "data-transfer-speed": {
+      "name": "데이터 전송 속도 변환기",
+      "description": "Mbps, MB/s, Gbps, KB/s 등 인터넷 속도 단위 변환.",
+      "metaTitle": "데이터 전송 속도 변환기",
+      "metaDescription": "Mbps, MB/s, Gbps, KB/s 등 인터넷 대역폭 단위 변환. 무료 온라인 데이터 전송 속도 계산기."
+    },
+    "pixel-density-converter": {
+      "name": "픽셀 밀도 계산기",
+      "description": "화면 해상도와 물리적 크기에서 PPI(픽셀/인치)와 DPI 계산.",
+      "metaTitle": "픽셀 밀도(PPI/DPI) 계산기",
+      "metaDescription": "화면 해상도와 물리적 디스플레이 크기에서 PPI와 DPI 계산. 모니터와 휴대폰용 무료 온라인 픽셀 밀도 계산기."
+    },
+    "text-truncator": {
+      "name": "텍스트 자르기 도구",
+      "description": "사용자 정의 말줄임표로 지정된 글자 수 또는 단어 수로 텍스트 자르기.",
+      "metaTitle": "텍스트 자르기 도구",
+      "metaDescription": "사용자 정의 말줄임표 접미사로 문자 수 또는 단어 수로 텍스트 자르기. 무료 온라인 텍스트 자르기 도구."
+    },
+    "budget-calculator": {
+      "name": "예산 계산기 (50/30/20)",
+      "description": "50/30/20 규칙으로 소득 분배: 필수 지출, 여가, 저축.",
+      "metaTitle": "50/30/20 예산 계산기",
+      "metaDescription": "50/30/20 예산 규칙으로 월 소득 분배: 50% 필수 지출, 30% 여가, 20% 저축. 무료 개인 예산 플래너."
+    },
+    "waist-to-hip-ratio": {
+      "name": "허리-엉덩이 비율 계산기",
+      "description": "WHR을 계산하고 WHO 가이드라인에 따른 건강 위험도 평가.",
+      "metaTitle": "허리-엉덩이 비율(WHR) 계산기",
+      "metaDescription": "허리-엉덩이 비율(WHR)을 계산하고 WHO 가이드라인으로 심혈관 건강 위험도 평가. 무료 온라인 WHR 계산기."
+    },
+    "vo2max-calculator": {
+      "name": "VO2 최대 계산기",
+      "description": "쿠퍼 또는 록포트 테스트를 사용하여 최대 유산소 능력(VO2 Max) 추정.",
+      "metaTitle": "VO2 최대 계산기",
+      "metaDescription": "쿠퍼 12분 달리기 또는 록포트 걷기 테스트로 VO2 Max 유산소 능력 추정. 무료 온라인 피트니스 계산기."
+    },
+    "smoking-cost-calculator": {
+      "name": "흡연 비용 계산기",
+      "description": "흡연의 일일·월간·연간 재정 비용과 금연으로 절약할 금액 계산.",
+      "metaTitle": "흡연 비용 계산기",
+      "metaDescription": "담배에 일일·월간·연간 얼마나 지출하는지, 금연 시 얼마나 절약할 수 있는지 계산. 무료 온라인 흡연 비용 계산기."
+    },
+    "business-days-calculator": {
+      "name": "영업일 계산기",
+      "description": "주말을 제외한 두 날짜 사이의 영업일 수 계산.",
+      "metaTitle": "영업일 계산기",
+      "metaDescription": "두 날짜 사이의 영업일(월-금) 수를 주말 제외하여 계산. 무료 온라인 영업일 카운터."
     }
   },
   "Common": {
@@ -2993,5 +3059,168 @@
     "resultLabel": "결과 날짜",
     "dayOfWeekLabel": "요일",
     "daysFromTodayLabel": "오늘부터 일수"
+  },
+  "MarkdownToHtml": {
+    "inputLabel": "Markdown 입력",
+    "outputLabel": "HTML 출력",
+    "copyButton": "복사",
+    "clearButton": "초기화",
+    "sampleButton": "샘플",
+    "placeholder": "# 안녕하세요\n\n**굵은** 및 *기울임* 텍스트."
+  },
+  "CssMinifier": {
+    "inputLabel": "CSS 입력",
+    "outputLabel": "출력",
+    "minifyButton": "압축",
+    "beautifyButton": "정렬",
+    "copyButton": "복사",
+    "clearButton": "초기화",
+    "sampleButton": "샘플",
+    "statsLabel": "통계",
+    "originalSize": "원본 크기",
+    "outputSize": "출력 크기",
+    "savings": "절감"
+  },
+  "ColorNameLookup": {
+    "inputLabel": "색상 입력 (예: #ff6b6b 또는 rgb(255,107,107))",
+    "lookupButton": "검색",
+    "clearButton": "초기화",
+    "nearestLabel": "가장 가까운 CSS 색상",
+    "hexLabel": "HEX",
+    "rgbLabel": "RGB",
+    "distanceLabel": "거리",
+    "browseModeButton": "전체 색상 보기",
+    "searchModeButton": "검색 모드",
+    "searchPlaceholder": "색상 검색...",
+    "allColorsTitle": "전체 CSS 색상",
+    "invalidInput": "잘못된 색상 값입니다. HEX (#rgb, #rrggbb) 또는 RGB (r,g,b)를 입력하세요."
+  },
+  "DataTransferSpeed": {
+    "fromLabel": "변환 전",
+    "toLabel": "변환 후",
+    "inputLabel": "값"
+  },
+  "PixelDensityConverter": {
+    "widthLabel": "가로 해상도 (px)",
+    "heightLabel": "세로 해상도 (px)",
+    "diagonalLabel": "대각선 크기 (인치)",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "ppiLabel": "PPI",
+    "dpiLabel": "DPI",
+    "presetsLabel": "프리셋",
+    "resultTitle": "결과"
+  },
+  "TextTruncator": {
+    "inputLabel": "텍스트 입력",
+    "outputLabel": "자르기 결과",
+    "modeLabel": "자르기 모드",
+    "modeChars": "글자 수",
+    "modeWords": "단어 수",
+    "limitLabel": "제한",
+    "ellipsisLabel": "말줄임표",
+    "copyButton": "복사",
+    "clearButton": "초기화",
+    "charsLabel": "글자",
+    "wordsLabel": "단어"
+  },
+  "BudgetCalculator": {
+    "incomeLabel": "월 소득 (세후)",
+    "currencyLabel": "통화 기호",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "needsLabel": "필수 지출 (50%)",
+    "wantsLabel": "여가비 (30%)",
+    "savingsLabel": "저축 (20%)",
+    "needsDesc": "월세, 공과금, 식료품, 교통비, 보험",
+    "wantsDesc": "외식, 오락, 취미, 구독 서비스",
+    "savingsDesc": "비상금, 투자, 부채 상환",
+    "ruleTitle": "50/30/20 규칙이란?",
+    "ruleDesc": "간단한 예산 관리 방법: 세후 소득의 50%를 필수 지출에, 30%를 여가에, 20%를 저축이나 부채 상환에 배분합니다.",
+    "monthlyLabel": "월간",
+    "yearlyLabel": "연간"
+  },
+  "WaistToHipRatio": {
+    "waistLabel": "허리 둘레",
+    "hipLabel": "엉덩이 둘레",
+    "unitLabel": "단위",
+    "unitCm": "cm",
+    "unitInch": "인치",
+    "sexLabel": "성별",
+    "sexMale": "남성",
+    "sexFemale": "여성",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "whrLabel": "WHR",
+    "riskLabel": "건강 위험도",
+    "riskLow": "낮은 위험",
+    "riskModerate": "중간 위험",
+    "riskHigh": "높은 위험",
+    "riskVeryHigh": "매우 높은 위험",
+    "whoTitle": "WHO 위험 분류",
+    "whoSubtitle": "허리-엉덩이 비율 기준값",
+    "colSex": "성별",
+    "colLow": "낮음",
+    "colModerate": "중간",
+    "colHigh": "높음",
+    "colVeryHigh": "매우 높음"
+  },
+  "Vo2MaxCalculator": {
+    "testLabel": "테스트 방법",
+    "testCooper": "쿠퍼 12분 달리기",
+    "testRockport": "록포트 걷기",
+    "distanceLabel": "달린 거리 (미터)",
+    "distanceMileLabel": "걸은 거리 (1마일)",
+    "walkTimeLabel": "걷기 시간 (분)",
+    "heartRateLabel": "종료 시 심박수 (bpm)",
+    "weightLabel": "체중",
+    "ageLabel": "나이",
+    "sexLabel": "성별",
+    "sexMale": "남성",
+    "sexFemale": "여성",
+    "unitLabel": "체중 단위",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "vo2maxLabel": "VO2 최대",
+    "categoryLabel": "체력 수준",
+    "unitMlKgMin": "ml/kg/min",
+    "categoryPoor": "낮음",
+    "categoryFair": "보통 이하",
+    "categoryGood": "좋음",
+    "categoryExcellent": "우수",
+    "categorySuperior": "탁월",
+    "aboutTitle": "VO2 최대란?",
+    "aboutDesc": "VO2 최대는 운동 중 신체가 산소를 소비할 수 있는 최대 속도입니다. 심폐 체력 측정의 표준 지표입니다."
+  },
+  "SmokingCostCalculator": {
+    "cigarettesLabel": "하루 흡연 개비 수",
+    "priceLabel": "한 갑 가격",
+    "cigarettesPerPackLabel": "한 갑 개비 수",
+    "currencyLabel": "통화 기호",
+    "yearsLabel": "흡연 기간 (년)",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "dailyCostLabel": "하루 비용",
+    "monthlyCostLabel": "월간 비용",
+    "yearlyCostLabel": "연간 비용",
+    "totalSpentLabel": "총 지출",
+    "ifQuitTitle": "오늘 금연한다면...",
+    "savingsIn1Year": "1년간 절약액",
+    "savingsIn5Years": "5년간 절약액",
+    "savingsIn10Years": "10년간 절약액",
+    "packsPerDayLabel": "하루 갑 수",
+    "healthNote": "이 계산기는 재정적 비용만 다룹니다. 건강 관련 조언은 의사에게 상담하세요."
+  },
+  "BusinessDaysCalculator": {
+    "startDateLabel": "시작일",
+    "endDateLabel": "종료일",
+    "calculateButton": "계산",
+    "clearButton": "초기화",
+    "swapButton": "교환",
+    "resultLabel": "영업일 수",
+    "totalDaysLabel": "총 일수",
+    "weekendsLabel": "주말 일수",
+    "note": "토요일과 일요일을 제외합니다. 공휴일은 제외되지 않습니다.",
+    "invalidRange": "종료일은 시작일보다 늦어야 합니다."
   }
 }

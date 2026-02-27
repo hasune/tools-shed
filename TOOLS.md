@@ -3,11 +3,11 @@
 > **이 파일은 현재 구현된 모든 도구의 공식 목록입니다.**
 > - 새 도구를 추가하기 전에 **반드시 이 파일을 확인**해 중복을 방지할 것
 > - 도구 추가/삭제 시 이 파일을 함께 업데이트할 것
-> - 총 **144개** 도구 (2026-02-27 기준)
+> - 총 **155개** 도구 (2026-02-27 기준)
 
 ---
 
-## Developer Tools (`/developer`) — 39개
+## Developer Tools (`/developer`) — 42개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -50,10 +50,13 @@
 | `color-blindness-simulator` | Color Blindness Simulator | Canvas API 기반, 5가지 색각 이상 시뮬레이션 |
 | `json-diff` | JSON Diff | flat key 기반 추가/삭제/변경 비교 |
 | `number-formatter` | Number Formatter | Intl.NumberFormat, 통화/백분율/지수 |
+| `markdown-to-html` | Markdown to HTML | Markdown 소스 → HTML 코드 변환 |
+| `css-minifier` | CSS Minifier / Beautifier | CSS 압축 및 정렬 |
+| `color-name-lookup` | Color Name Lookup | HEX/RGB → CSS 색상 이름 검색, 140개 |
 
 ---
 
-## Unit Converters (`/converters`) — 20개
+## Unit Converters (`/converters`) — 22개
 
 > `length`, `weight`, `data-storage`, `speed`, `area`, `volume`, `angle`, `pressure`, `fuel-efficiency`, `energy`, `power`, `cooking`, `time-unit`은 `UnitConverter.tsx` 공유 컴포넌트 사용
 
@@ -79,10 +82,12 @@
 | `shoe-size-converter` | Shoe Size Converter | US Men/Women, EU, UK, Japan(cm) |
 | `pace-converter` | Pace Converter | min/km, min/mile, km/h, mph 상호 변환 |
 | `clothing-size-converter` | Clothing Size Converter | US/EU/UK/JP, 상의·하의·드레스 |
+| `data-transfer-speed` | Data Transfer Speed Converter | Mbps/MB/s/Gbps/KB/s 등 9개 단위 |
+| `pixel-density-converter` | Pixel Density Calculator | PPI/DPI, 화면 해상도+물리 크기 입력 |
 
 ---
 
-## Text Tools (`/text`) — 22개
+## Text Tools (`/text`) — 23개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -108,10 +113,11 @@
 | `nato-alphabet` | NATO Phonetic Alphabet | 텍스트 → NATO 음성 알파벳 변환 |
 | `unicode-inspector` | Unicode Inspector | 코드 포인트/이름/카테고리/HTML 엔티티 |
 | `word-wrap` | Word Wrap | 지정 열 너비 줄 바꿈, 단어/문자 구분 |
+| `text-truncator` | Text Truncator | 글자수/단어수 자르기, 말줄임표 커스텀 |
 
 ---
 
-## Finance Tools (`/finance`) — 18개
+## Finance Tools (`/finance`) — 19개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -133,10 +139,11 @@
 | `fire-calculator` | FIRE Calculator | 4% 룰, FIRE 목표액 + 달성 연수 |
 | `dividend-calculator` | Dividend Calculator | 배당수익률/연간·월간·분기 소득 |
 | `currency-formatter` | Currency Formatter | Intl.NumberFormat, 28개 통화, 12개 로케일 |
+| `budget-calculator` | Budget Calculator (50/30/20) | 50/30/20 규칙, 월/년 자동 분할 |
 
 ---
 
-## Health Tools (`/health`) — 15개
+## Health Tools (`/health`) — 18개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -155,10 +162,13 @@
 | `menstrual-cycle-calculator` | Menstrual Cycle Calculator | 다음 4사이클 예측, 가임 기간 |
 | `due-date-calculator` | Pregnancy Due Date Calculator | Naegele's rule, 삼분기·마일스톤 |
 | `one-rep-max-calculator` | One Rep Max Calculator | Epley/Brzycki/Lander/Lombardi 4공식 |
+| `waist-to-hip-ratio` | Waist-to-Hip Ratio Calculator | WHO 기준 4단계 위험도 분류 |
+| `vo2max-calculator` | VO2 Max Calculator | Cooper 12분 / Rockport 걷기 테스트 |
+| `smoking-cost-calculator` | Smoking Cost Calculator | 일/월/년 비용 + 금연 절약 효과 |
 
 ---
 
-## Time Tools (`/time`) — 11개
+## Time Tools (`/time`) — 12개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -173,6 +183,7 @@
 | `meeting-planner` | Meeting Time Zone Planner | 다중 시간대 동시 표시 |
 | `year-progress` | Year Progress | 올해 경과/잔여 비율 |
 | `date-calculator` | Date Calculator | 날짜 ± 일/주/월/년, 요일 + 오늘 기준 일수 |
+| `business-days-calculator` | Business Days Calculator | 두 날짜 사이 영업일 수 (주말 제외) |
 
 ---
 

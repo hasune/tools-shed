@@ -163,4 +163,14 @@ export const financeTools: Tool[] = [
     icon: "💱",
     keywords: ["currency", "format", "usd", "eur", "jpy", "gbp", "krw", "number format", "locale"],
   },
+
+  {
+    slug: "budget-calculator",
+    name: "Budget Calculator (50/30/20)",
+    description: "Split your income using the 50/30/20 rule: needs, wants, and savings.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "💰",
+    keywords: ["budget", "50/30/20", "income", "savings", "needs", "wants", "personal finance", "rule"],
+  },
 ];

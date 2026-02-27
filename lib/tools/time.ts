@@ -100,4 +100,14 @@ export const timeTools: Tool[] = [
     icon: "🗓️",
     keywords: ["date", "add", "subtract", "days", "weeks", "months", "years", "calculate", "calendar"],
   },
+
+  {
+    slug: "business-days-calculator",
+    name: "Business Days Calculator",
+    description: "Count the number of working days between two dates, excluding weekends.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "📆",
+    keywords: ["business days", "working days", "weekdays", "exclude weekends", "calendar", "date", "calculator"],
+  },
 ];

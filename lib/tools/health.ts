@@ -136,4 +136,32 @@ export const healthTools: Tool[] = [
     icon: "🏋️",
     keywords: ["1rm", "one rep max", "weightlifting", "strength", "epley", "brzycki", "fitness", "gym"],
   },
+
+  {
+    slug: "waist-to-hip-ratio",
+    name: "Waist-to-Hip Ratio Calculator",
+    description: "Calculate your WHR and assess health risk based on WHO guidelines.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "📏",
+    keywords: ["waist", "hip", "ratio", "whr", "health risk", "obesity", "who", "calculator"],
+  },
+  {
+    slug: "vo2max-calculator",
+    name: "VO2 Max Calculator",
+    description: "Estimate your maximum aerobic capacity (VO2 Max) using the Cooper or Rockport test.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🫁",
+    keywords: ["vo2max", "aerobic", "fitness", "cooper test", "rockport", "oxygen", "cardio", "calculator"],
+  },
+  {
+    slug: "smoking-cost-calculator",
+    name: "Smoking Cost Calculator",
+    description: "Calculate the daily, monthly, and yearly financial cost of smoking and savings from quitting.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🚭",
+    keywords: ["smoking", "cigarette", "cost", "quit", "savings", "health", "money", "calculator"],
+  },
 ];

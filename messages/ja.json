@@ -944,6 +944,72 @@
       "description": "任意の日付から日数・週数・月数・年数を加算または減算します。",
       "metaTitle": "日付計算機",
       "metaDescription": "任意の日付から日数・週数・月数・年数を加算または減算。将来または過去の日付を簡単に計算できます。"
+    },
+    "markdown-to-html": {
+      "name": "Markdown to HTML",
+      "description": "MarkdownソースをHTMLコードに変換してプロジェクトに貼り付けられます。",
+      "metaTitle": "Markdown to HTML コンバーター",
+      "metaDescription": "MarkdownソースをクリーンなHTMLコードに即座に変換。HTMLをコピーして任意のプロジェクトで使用。無料ブラウザベースのMarkdown→HTMLコンバーター。"
+    },
+    "css-minifier": {
+      "name": "CSSミニファイ / 整形",
+      "description": "CSSを圧縮してファイルサイズを削減、またはミニファイされたCSSを整形して可読性を向上。",
+      "metaTitle": "CSSミニファイ & 整形ツール",
+      "metaDescription": "CSSを圧縮してファイルサイズを削減、または圧縮CSSを整形して可読性向上。無料オンラインCSSミニファイヤー。"
+    },
+    "color-name-lookup": {
+      "name": "カラー名検索",
+      "description": "HEXまたはRGBカラー値に最も近いCSSカラー名を検索。",
+      "metaTitle": "カラー名検索ツール",
+      "metaDescription": "任意のHEXまたはRGB値に最も近いCSS命名色を検索。140以上のCSS色名をプレビュー付きで閲覧。"
+    },
+    "data-transfer-speed": {
+      "name": "データ転送速度コンバーター",
+      "description": "Mbps、MB/s、Gbps、KB/sなどのインターネット速度単位を変換。",
+      "metaTitle": "データ転送速度コンバーター",
+      "metaDescription": "Mbps、MB/s、Gbps、KB/sなどのインターネット帯域幅単位を変換。無料オンラインデータ転送速度計算機。"
+    },
+    "pixel-density-converter": {
+      "name": "ピクセル密度計算機",
+      "description": "画面解像度と物理サイズからPPI（ピクセル/インチ）とDPIを計算。",
+      "metaTitle": "ピクセル密度（PPI/DPI）計算機",
+      "metaDescription": "画面解像度と物理ディスプレイサイズからPPIとDPIを計算。モニターや携帯電話向け無料オンラインピクセル密度計算機。"
+    },
+    "text-truncator": {
+      "name": "テキスト切り捨てツール",
+      "description": "カスタマイズ可能な省略記号で指定した文字数または単語数にテキストを切り捨て。",
+      "metaTitle": "テキスト切り捨てツール",
+      "metaDescription": "カスタマイズ可能な省略記号サフィックスで文字数または単語数にテキストを切り捨て。無料オンラインテキスト切り捨てツール。"
+    },
+    "budget-calculator": {
+      "name": "予算計算機（50/30/20）",
+      "description": "50/30/20ルールで収入を振り分け：生活費、娯楽費、貯蓄。",
+      "metaTitle": "50/30/20 予算計算機",
+      "metaDescription": "50/30/20予算ルールで月収を振り分け：50%生活費、30%娯楽費、20%貯蓄。無料個人予算プランナー。"
+    },
+    "waist-to-hip-ratio": {
+      "name": "ウエスト・ヒップ比計算機",
+      "description": "WHRを計算してWHOガイドラインに基づく健康リスクを評価。",
+      "metaTitle": "ウエスト・ヒップ比（WHR）計算機",
+      "metaDescription": "ウエスト・ヒップ比（WHR）を計算してWHOガイドラインで心血管健康リスクを評価。無料オンラインWHR計算機。"
+    },
+    "vo2max-calculator": {
+      "name": "VO2最大計算機",
+      "description": "クーパーテストまたはロックポートテストを使用して最大有酸素能力（VO2Max）を推定。",
+      "metaTitle": "VO2最大計算機",
+      "metaDescription": "クーパー12分走テストまたはロックポートウォーキングテストを使用してVO2Max有酸素能力を推定。無料オンラインフィットネス計算機。"
+    },
+    "smoking-cost-calculator": {
+      "name": "喫煙コスト計算機",
+      "description": "喫煙の日次・月次・年次の財務コストと禁煙による節約額を計算。",
+      "metaTitle": "喫煙コスト計算機",
+      "metaDescription": "タバコに日次・月次・年次でいくら費やしているか、禁煙でいくら節約できるかを計算。無料オンライン喫煙コスト計算機。"
+    },
+    "business-days-calculator": {
+      "name": "営業日計算機",
+      "description": "週末を除く2つの日付の間の営業日数をカウント。",
+      "metaTitle": "営業日計算機",
+      "metaDescription": "任意の2つの日付間の営業日数（月〜金）を週末を除いてカウント。無料オンライン営業日カウンター。"
     }
   },
   "Common": {
@@ -2993,5 +3059,168 @@
     "resultLabel": "結果の日付",
     "dayOfWeekLabel": "曜日",
     "daysFromTodayLabel": "今日からの日数"
+  },
+  "MarkdownToHtml": {
+    "inputLabel": "Markdown入力",
+    "outputLabel": "HTML出力",
+    "copyButton": "コピー",
+    "clearButton": "クリア",
+    "sampleButton": "サンプル",
+    "placeholder": "# こんにちは\n\n**太字**と*斜体*テキスト。"
+  },
+  "CssMinifier": {
+    "inputLabel": "CSS入力",
+    "outputLabel": "出力",
+    "minifyButton": "圧縮",
+    "beautifyButton": "整形",
+    "copyButton": "コピー",
+    "clearButton": "クリア",
+    "sampleButton": "サンプル",
+    "statsLabel": "統計",
+    "originalSize": "元のサイズ",
+    "outputSize": "出力サイズ",
+    "savings": "削減"
+  },
+  "ColorNameLookup": {
+    "inputLabel": "カラー入力 (例: #ff6b6b または rgb(255,107,107))",
+    "lookupButton": "検索",
+    "clearButton": "クリア",
+    "nearestLabel": "最も近いCSS色",
+    "hexLabel": "HEX",
+    "rgbLabel": "RGB",
+    "distanceLabel": "距離",
+    "browseModeButton": "全色を表示",
+    "searchModeButton": "検索モード",
+    "searchPlaceholder": "色を検索...",
+    "allColorsTitle": "全CSSカラー",
+    "invalidInput": "無効なカラー値。HEX (#rgb, #rrggbb) またはRGB (r,g,b) を入力してください。"
+  },
+  "DataTransferSpeed": {
+    "fromLabel": "変換元",
+    "toLabel": "変換先",
+    "inputLabel": "値"
+  },
+  "PixelDensityConverter": {
+    "widthLabel": "水平解像度 (px)",
+    "heightLabel": "垂直解像度 (px)",
+    "diagonalLabel": "対角線サイズ (インチ)",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "ppiLabel": "PPI",
+    "dpiLabel": "DPI",
+    "presetsLabel": "プリセット",
+    "resultTitle": "結果"
+  },
+  "TextTruncator": {
+    "inputLabel": "テキスト入力",
+    "outputLabel": "切り捨て結果",
+    "modeLabel": "切り捨てモード",
+    "modeChars": "文字数",
+    "modeWords": "単語数",
+    "limitLabel": "制限",
+    "ellipsisLabel": "省略記号",
+    "copyButton": "コピー",
+    "clearButton": "クリア",
+    "charsLabel": "文字",
+    "wordsLabel": "単語"
+  },
+  "BudgetCalculator": {
+    "incomeLabel": "月収（税引き後）",
+    "currencyLabel": "通貨記号",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "needsLabel": "必要支出 (50%)",
+    "wantsLabel": "娯楽費 (30%)",
+    "savingsLabel": "貯蓄 (20%)",
+    "needsDesc": "家賃・光熱費・食料品・交通費・保険",
+    "wantsDesc": "外食・娯楽・趣味・サブスクリプション",
+    "savingsDesc": "緊急資金・投資・借金返済",
+    "ruleTitle": "50/30/20ルールについて",
+    "ruleDesc": "シンプルな予算管理フレームワーク：税引き後収入の50%を必要支出に、30%を娯楽に、20%を貯蓄や借金返済に充てます。",
+    "monthlyLabel": "月間",
+    "yearlyLabel": "年間"
+  },
+  "WaistToHipRatio": {
+    "waistLabel": "ウエスト周囲",
+    "hipLabel": "ヒップ周囲",
+    "unitLabel": "単位",
+    "unitCm": "cm",
+    "unitInch": "インチ",
+    "sexLabel": "性別",
+    "sexMale": "男性",
+    "sexFemale": "女性",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "whrLabel": "WHR",
+    "riskLabel": "健康リスク",
+    "riskLow": "低リスク",
+    "riskModerate": "中リスク",
+    "riskHigh": "高リスク",
+    "riskVeryHigh": "非常に高いリスク",
+    "whoTitle": "WHO リスクカテゴリー",
+    "whoSubtitle": "ウエスト・ヒップ比の閾値",
+    "colSex": "性別",
+    "colLow": "低",
+    "colModerate": "中",
+    "colHigh": "高",
+    "colVeryHigh": "非常に高"
+  },
+  "Vo2MaxCalculator": {
+    "testLabel": "テスト方法",
+    "testCooper": "クーパー12分走",
+    "testRockport": "ロックポートウォーキング",
+    "distanceLabel": "走行距離 (メートル)",
+    "distanceMileLabel": "歩行距離 (1マイル)",
+    "walkTimeLabel": "歩行時間 (分)",
+    "heartRateLabel": "終了時心拍数 (bpm)",
+    "weightLabel": "体重",
+    "ageLabel": "年齢",
+    "sexLabel": "性別",
+    "sexMale": "男性",
+    "sexFemale": "女性",
+    "unitLabel": "体重単位",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "vo2maxLabel": "VO2 最大",
+    "categoryLabel": "フィットネスレベル",
+    "unitMlKgMin": "ml/kg/min",
+    "categoryPoor": "低い",
+    "categoryFair": "やや低い",
+    "categoryGood": "良い",
+    "categoryExcellent": "優秀",
+    "categorySuperior": "卓越",
+    "aboutTitle": "VO2最大とは？",
+    "aboutDesc": "VO2最大は運動中に体が酸素を消費できる最大速度です。心肺フィットネスの測定においてゴールドスタンダードです。"
+  },
+  "SmokingCostCalculator": {
+    "cigarettesLabel": "1日の喫煙本数",
+    "priceLabel": "1箱の価格",
+    "cigarettesPerPackLabel": "1箱の本数",
+    "currencyLabel": "通貨記号",
+    "yearsLabel": "喫煙年数",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "dailyCostLabel": "1日のコスト",
+    "monthlyCostLabel": "月間コスト",
+    "yearlyCostLabel": "年間コスト",
+    "totalSpentLabel": "累計支出",
+    "ifQuitTitle": "今日禁煙したら...",
+    "savingsIn1Year": "1年間の節約額",
+    "savingsIn5Years": "5年間の節約額",
+    "savingsIn10Years": "10年間の節約額",
+    "packsPerDayLabel": "1日のパック数",
+    "healthNote": "この計算機は財務コストのみを対象としています。健康に関するアドバイスは医師に相談してください。"
+  },
+  "BusinessDaysCalculator": {
+    "startDateLabel": "開始日",
+    "endDateLabel": "終了日",
+    "calculateButton": "計算",
+    "clearButton": "クリア",
+    "swapButton": "入替",
+    "resultLabel": "営業日数",
+    "totalDaysLabel": "合計日数",
+    "weekendsLabel": "週末日数",
+    "note": "土曜日と日曜日を除きます。祝日は除外されません。",
+    "invalidRange": "終了日は開始日より後でなければなりません。"
   }
 }

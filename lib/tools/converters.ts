@@ -200,4 +200,23 @@ export const converterTools: Tool[] = [
     icon: "🖥️",
     keywords: ["ppi", "dpi", "pixel density", "resolution", "screen", "inches", "monitor", "display"],
   },
+
+  {
+    slug: "ring-size-converter",
+    name: "Ring Size Converter",
+    description: "Convert ring sizes between US, EU, UK, Japan standards and diameter in millimeters.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "💍",
+    keywords: ["ring", "size", "converter", "us", "eu", "uk", "japan", "diameter", "mm", "jewelry"],
+  },
+  {
+    slug: "bra-size-converter",
+    name: "Bra Size Converter",
+    description: "Convert bra sizes between US, UK, EU, FR/BE, and JP sizing systems.",
+    category: "Unit Converters",
+    categorySlug: "converters",
+    icon: "👙",
+    keywords: ["bra", "size", "converter", "us", "uk", "eu", "fr", "jp", "lingerie", "band", "cup"],
+  },
 ];

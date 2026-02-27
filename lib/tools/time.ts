@@ -110,4 +110,14 @@ export const timeTools: Tool[] = [
     icon: "📆",
     keywords: ["business days", "working days", "weekdays", "exclude weekends", "calendar", "date", "calculator"],
   },
+
+  {
+    slug: "stopwatch",
+    name: "Stopwatch",
+    description: "Precise stopwatch with lap recording, running in the foreground and background tab.",
+    category: "Time Tools",
+    categorySlug: "time",
+    icon: "⏱️",
+    keywords: ["stopwatch", "timer", "lap", "split", "time", "track", "running", "sport", "chronometer"],
+  },
 ];

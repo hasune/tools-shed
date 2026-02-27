@@ -3,11 +3,11 @@
 > **이 파일은 현재 구현된 모든 도구의 공식 목록입니다.**
 > - 새 도구를 추가하기 전에 **반드시 이 파일을 확인**해 중복을 방지할 것
 > - 도구 추가/삭제 시 이 파일을 함께 업데이트할 것
-> - 총 **155개** 도구 (2026-02-27 기준)
+> - 총 **167개** 도구 (2026-02-27 기준)
 
 ---
 
-## Developer Tools (`/developer`) — 42개
+## Developer Tools (`/developer`) — 44개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -53,10 +53,12 @@
 | `markdown-to-html` | Markdown to HTML | Markdown 소스 → HTML 코드 변환 |
 | `css-minifier` | CSS Minifier / Beautifier | CSS 압축 및 정렬 |
 | `color-name-lookup` | Color Name Lookup | HEX/RGB → CSS 색상 이름 검색, 140개 |
+| `color-contrast-checker` | Color Contrast Checker | WCAG 2.1 AA/AAA 대비 비율 검사 (접근성) |
+| `uri-parser` | URL / URI Parser | URL 구성 요소(프로토콜/호스트/경로/쿼리/해시) 분해 |
 
 ---
 
-## Unit Converters (`/converters`) — 22개
+## Unit Converters (`/converters`) — 24개
 
 > `length`, `weight`, `data-storage`, `speed`, `area`, `volume`, `angle`, `pressure`, `fuel-efficiency`, `energy`, `power`, `cooking`, `time-unit`은 `UnitConverter.tsx` 공유 컴포넌트 사용
 
@@ -84,6 +86,8 @@
 | `clothing-size-converter` | Clothing Size Converter | US/EU/UK/JP, 상의·하의·드레스 |
 | `data-transfer-speed` | Data Transfer Speed Converter | Mbps/MB/s/Gbps/KB/s 등 9개 단위 |
 | `pixel-density-converter` | Pixel Density Calculator | PPI/DPI, 화면 해상도+물리 크기 입력 |
+| `ring-size-converter` | Ring Size Converter | US/EU/UK/JP/mm 반지 사이즈 변환표 |
+| `bra-size-converter` | Bra Size Converter | US/UK/EU/FR·BE/JP 브라 사이즈 변환 |
 
 ---
 
@@ -117,7 +121,7 @@
 
 ---
 
-## Finance Tools (`/finance`) — 19개
+## Finance Tools (`/finance`) — 21개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -140,10 +144,12 @@
 | `dividend-calculator` | Dividend Calculator | 배당수익률/연간·월간·분기 소득 |
 | `currency-formatter` | Currency Formatter | Intl.NumberFormat, 28개 통화, 12개 로케일 |
 | `budget-calculator` | Budget Calculator (50/30/20) | 50/30/20 규칙, 월/년 자동 분할 |
+| `mortgage-calculator` | Mortgage Calculator | 원리금균등/원금균등, LTV, 상환 일정표 |
+| `dca-calculator` | DCA Calculator | 달러 코스트 평균 정기 투자 수익 시뮬레이션 |
 
 ---
 
-## Health Tools (`/health`) — 18개
+## Health Tools (`/health`) — 21개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -165,10 +171,13 @@
 | `waist-to-hip-ratio` | Waist-to-Hip Ratio Calculator | WHO 기준 4단계 위험도 분류 |
 | `vo2max-calculator` | VO2 Max Calculator | Cooper 12분 / Rockport 걷기 테스트 |
 | `smoking-cost-calculator` | Smoking Cost Calculator | 일/월/년 비용 + 금연 절약 효과 |
+| `blood-sugar-converter` | Blood Sugar Converter | mg/dL ↔ mmol/L 변환, 정상 범위 표 |
+| `alcohol-unit-calculator` | Alcohol Unit Calculator | 음료별 알코올 단위·칼로리 + WHO 주간 한도 |
+| `caffeine-calculator` | Caffeine Calculator | 음료/식품 카페인 합산, 400mg 일일 한도 비교 |
 
 ---
 
-## Time Tools (`/time`) — 12개
+## Time Tools (`/time`) — 13개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -184,10 +193,11 @@
 | `year-progress` | Year Progress | 올해 경과/잔여 비율 |
 | `date-calculator` | Date Calculator | 날짜 ± 일/주/월/년, 요일 + 오늘 기준 일수 |
 | `business-days-calculator` | Business Days Calculator | 두 날짜 사이 영업일 수 (주말 제외) |
+| `stopwatch` | Stopwatch | 랩 기록 스톱워치, performance.now() 고정밀 |
 
 ---
 
-## Math Tools (`/math`) — 19개
+## Math Tools (`/math`) — 21개
 
 | slug | 도구명 | 비고 |
 |------|--------|------|
@@ -210,6 +220,8 @@
 | `vector-calculator` | Vector Calculator | 2D/3D 벡터 연산, 내적/외적/크기/각도 |
 | `geometry-calculator` | Geometry Calculator | 9개 도형 면적/둘레/부피 (2D·3D) |
 | `ohm-law-calculator` | Ohm's Law Calculator | V/I/R/P 중 2값 입력 → 나머지 계산 |
+| `percentile-calculator` | Percentile & Z-Score Calculator | 백분위수/Z점수/정규분포 확률 계산 |
+| `complex-number-calculator` | Complex Number Calculator | 복소수 사칙연산, 극형식 변환, 절댓값/편각 |
 
 ---
 

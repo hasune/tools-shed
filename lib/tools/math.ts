@@ -172,4 +172,23 @@ export const mathTools: Tool[] = [
     icon: "Ω",
     keywords: ["ohm", "voltage", "current", "resistance", "power", "v=ir", "electronics", "circuit", "calculator"],
   },
+
+  {
+    slug: "percentile-calculator",
+    name: "Percentile & Z-Score Calculator",
+    description: "Calculate percentile rank, Z-score, and normal distribution probability for a data set.",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "📊",
+    keywords: ["percentile", "z-score", "normal distribution", "statistics", "rank", "probability", "bell curve", "calculator"],
+  },
+  {
+    slug: "complex-number-calculator",
+    name: "Complex Number Calculator",
+    description: "Perform arithmetic on complex numbers: add, subtract, multiply, divide, and convert to polar form.",
+    category: "Math Tools",
+    categorySlug: "math",
+    icon: "🔢",
+    keywords: ["complex number", "imaginary", "real", "polar", "rectangular", "add", "multiply", "divide", "conjugate", "modulus"],
+  },
 ];

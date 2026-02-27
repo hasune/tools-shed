@@ -173,4 +173,23 @@ export const financeTools: Tool[] = [
     icon: "💰",
     keywords: ["budget", "50/30/20", "income", "savings", "needs", "wants", "personal finance", "rule"],
   },
+
+  {
+    slug: "mortgage-calculator",
+    name: "Mortgage Calculator",
+    description: "Calculate mortgage payments with amortization schedule, LTV ratio, and principal/interest breakdown.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "🏠",
+    keywords: ["mortgage", "home loan", "house", "ltv", "amortization", "payment", "interest", "principal", "calculator"],
+  },
+  {
+    slug: "dca-calculator",
+    name: "DCA Calculator",
+    description: "Simulate dollar-cost averaging (DCA) investment returns with periodic contributions.",
+    category: "Finance Tools",
+    categorySlug: "finance",
+    icon: "📈",
+    keywords: ["dca", "dollar cost averaging", "investment", "periodic", "contribution", "return", "portfolio", "stock"],
+  },
 ];

@@ -380,4 +380,23 @@ export const developerTools: Tool[] = [
     icon: "🎨",
     keywords: ["color", "name", "css", "hex", "rgb", "nearest", "lookup", "palette"],
   },
+
+  {
+    slug: "color-contrast-checker",
+    name: "Color Contrast Checker",
+    description: "Check WCAG 2.1 color contrast ratio for text and background colors (AA/AAA compliance).",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "🔍",
+    keywords: ["color", "contrast", "wcag", "accessibility", "a11y", "aa", "aaa", "ratio", "text", "background"],
+  },
+  {
+    slug: "uri-parser",
+    name: "URL / URI Parser",
+    description: "Parse any URL into its components: protocol, host, path, query parameters, and hash.",
+    category: "Developer Tools",
+    categorySlug: "developer",
+    icon: "🔗",
+    keywords: ["url", "uri", "parser", "protocol", "host", "path", "query", "hash", "decode", "components"],
+  },
 ];

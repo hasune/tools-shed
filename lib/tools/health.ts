@@ -164,4 +164,32 @@ export const healthTools: Tool[] = [
     icon: "🚭",
     keywords: ["smoking", "cigarette", "cost", "quit", "savings", "health", "money", "calculator"],
   },
+
+  {
+    slug: "blood-sugar-converter",
+    name: "Blood Sugar Converter",
+    description: "Convert blood glucose between mg/dL and mmol/L with normal range reference.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🩸",
+    keywords: ["blood sugar", "glucose", "mg/dl", "mmol/l", "converter", "diabetes", "normal range", "fasting"],
+  },
+  {
+    slug: "alcohol-unit-calculator",
+    name: "Alcohol Unit Calculator",
+    description: "Calculate alcohol units and calories from drinks, compared to WHO weekly guidelines.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "🍺",
+    keywords: ["alcohol", "unit", "drink", "calories", "who", "weekly", "limit", "beer", "wine", "spirits"],
+  },
+  {
+    slug: "caffeine-calculator",
+    name: "Caffeine Calculator",
+    description: "Track daily caffeine intake from beverages and food against the 400mg recommended limit.",
+    category: "Health Tools",
+    categorySlug: "health",
+    icon: "☕",
+    keywords: ["caffeine", "coffee", "tea", "energy drink", "daily limit", "intake", "calculator", "mg", "400mg"],
+  },
 ];

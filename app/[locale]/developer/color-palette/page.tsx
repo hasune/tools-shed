@@ -25,8 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title: t("metaTitle"),
       description: t("metaDescription"),
       url: `${BASE_URL}/${locale}/developer/color-palette`,
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }],
     },
-    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") },
+    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") , images: ["/opengraph-image"] },
   };
 }
 

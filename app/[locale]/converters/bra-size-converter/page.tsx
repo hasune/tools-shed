@@ -21,6 +21,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         routing.locales.map((l) => [l, `${BASE_URL}/${l}/converters/bra-size-converter`])
       ),
     },
+    openGraph: {
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      url: `${BASE_URL}/${locale}/converters/bra-size-converter`,
+      type: "website",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      images: ["/opengraph-image"],
+    },
   };
 }
 

@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `${BASE_URL}/${locale}/developer/ascii-art`,
       languages: Object.fromEntries(routing.locales.map((l) => [l, `${BASE_URL}/${l}/developer/ascii-art`])),
     },
-    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/developer/ascii-art`, type: "website" },
-    twitter: { card: "summary_large_image", title: t("metaTitle"), description: t("metaDescription") },
+    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/developer/ascii-art`, type: "website" , images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }] },
+    twitter: { card: "summary_large_image", title: t("metaTitle"), description: t("metaDescription") , images: ["/opengraph-image"] },
   };
 }
 

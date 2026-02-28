@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `${BASE_URL}/${locale}/developer/favicon-generator`,
       languages: Object.fromEntries(routing.locales.map((l) => [l, `${BASE_URL}/${l}/developer/favicon-generator`])),
     },
-    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/developer/favicon-generator` },
-    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") },
+    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/developer/favicon-generator` , images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }] },
+    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") , images: ["/opengraph-image"] },
   };
 }
 

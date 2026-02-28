@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `${BASE_URL}/${locale}/developer/morse-code-converter`,
       languages: Object.fromEntries(routing.locales.map((l) => [l, `${BASE_URL}/${l}/developer/morse-code-converter`])),
     },
-    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/developer/morse-code-converter` },
-    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") },
+    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/developer/morse-code-converter` , images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }] },
+    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") , images: ["/opengraph-image"] },
   };
 }
 

@@ -29,11 +29,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("metaDescription"),
       url: `https://tools-shed.com/${locale}/converters/length-converter`,
       type: "website",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }],
     },
     twitter: {
       card: "summary_large_image",
       title: t("metaTitle"),
       description: t("metaDescription"),
+      images: ["/opengraph-image"],
     },
   };
 }

@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `${BASE_URL}/${locale}/finance/inflation-calculator`,
       languages: Object.fromEntries(routing.locales.map((l) => [l, `${BASE_URL}/${l}/finance/inflation-calculator`])),
     },
-    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/finance/inflation-calculator` },
-    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") },
+    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `${BASE_URL}/${locale}/finance/inflation-calculator` , images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }] },
+    twitter: { card: "summary", title: t("metaTitle"), description: t("metaDescription") , images: ["/opengraph-image"] },
   };
 }
 

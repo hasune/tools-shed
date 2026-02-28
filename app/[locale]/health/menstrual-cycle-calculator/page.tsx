@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         routing.locales.map((l) => [l, `https://tools-shed.com/${l}/health/menstrual-cycle-calculator`])
       ),
     },
-    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `https://tools-shed.com/${locale}/health/menstrual-cycle-calculator`, type: "website" },
-    twitter: { card: "summary_large_image", title: t("metaTitle"), description: t("metaDescription") },
+    openGraph: { title: t("metaTitle"), description: t("metaDescription"), url: `https://tools-shed.com/${locale}/health/menstrual-cycle-calculator`, type: "website" , images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }] },
+    twitter: { card: "summary_large_image", title: t("metaTitle"), description: t("metaDescription") , images: ["/opengraph-image"] },
   };
 }
 

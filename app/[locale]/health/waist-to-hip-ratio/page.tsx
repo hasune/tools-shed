@@ -21,6 +21,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         routing.locales.map((l) => [l, `${BASE_URL}/${l}/health/waist-to-hip-ratio`])
       ),
     },
+    openGraph: {
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      url: `${BASE_URL}/${locale}/health/waist-to-hip-ratio`,
+      type: "website",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      images: ["/opengraph-image"],
+    },
   };
 }
 

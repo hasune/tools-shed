@@ -12,7 +12,7 @@
 - **목표**: Google AdSense 수익 + 글로벌 개발자/일반 사용자 트래픽
 - **특징**: 서버 없음, 브라우저에서 모든 계산 처리, 로그인 불필요, 12개 언어 지원
 - **참고**: 한국어 자매 사이트(life-tools.net)가 별도로 존재함 (이 프로젝트와 무관)
-- **도구 목록**: [`TOOLS.md`](./TOOLS.md) — 현재 구현된 155개 도구 전체 인벤토리 (새 도구 제안 전 반드시 확인)
+- **도구 목록**: [`TOOLS.md`](./TOOLS.md) — 현재 구현된 167개 도구 전체 인벤토리 (새 도구 제안 전 반드시 확인)
 
 ---
 
@@ -102,7 +102,7 @@
 | `i18n/routing.ts` | 지원 언어 목록 + `localePrefix: "always"` 설정 |
 | `i18n/request.ts` | 서버 사이드 메시지 로딩 |
 | `i18n/navigation.ts` | locale-aware `Link`, `useRouter`, `usePathname` |
-| `proxy.ts` | 미들웨어 (로케일 감지 + 리다이렉트) |
+| `proxy.ts` | 미들웨어 (로케일 감지 + 리다이렉트, `opengraph-image` 경로 제외됨) |
 | `messages/en.json` | 번역 파일 (source of truth, ~1200+ 키) |
 | `messages/{locale}.json` | 각 언어 번역 파일 (11개) |
 
@@ -129,21 +129,22 @@ tools-shed/
 │   ├── globals.css                   # Tailwind + 전역 스타일
 │   ├── sitemap.ts                    # sitemap.xml 자동 생성 (12 × 전체 페이지)
 │   ├── robots.ts
-│   ├── opengraph-image.tsx           # 홈 OG 이미지
+│   ├── opengraph-image.tsx           # OG 이미지 (/opengraph-image 에서 서빙)
 │   └── [locale]/
 │       ├── layout.tsx                # html lang={locale} + NextIntlClientProvider + AdSense
+│       ├── opengraph-image.tsx       # OG 이미지 (/en/opengraph-image 등 locale별 경로)
 │       ├── page.tsx                  # 홈페이지
 │       ├── not-found.tsx
 │       ├── about/page.tsx
 │       ├── privacy/page.tsx
 │       ├── [category]/page.tsx       # 카테고리 인덱스
-│       ├── developer/                # 42개 도구 페이지
-│       ├── converters/               # 22개 도구 페이지
+│       ├── developer/                # 44개 도구 페이지
+│       ├── converters/               # 24개 도구 페이지
 │       ├── text/                     # 23개 도구 페이지
-│       ├── finance/                  # 19개 도구 페이지
-│       ├── health/                   # 18개 도구 페이지
-│       ├── time/                     # 12개 도구 페이지
-│       └── math/                     # 19개 도구 페이지
+│       ├── finance/                  # 21개 도구 페이지
+│       ├── health/                   # 21개 도구 페이지
+│       ├── time/                     # 13개 도구 페이지
+│       └── math/                     # 21개 도구 페이지
 │
 ├── components/
 │   ├── Header.tsx                    # useTranslations + LocaleSwitcher
@@ -152,7 +153,7 @@ tools-shed/
 │   ├── AdSlot.tsx                    # Google AdSense 슬롯
 │   ├── GiscusComments.tsx            # Giscus 댓글
 │   ├── ToolLayout.tsx                # 도구 페이지 공통 래퍼 (광고/댓글/빵부스러기)
-│   └── tools/                        # 155개 도구 UI 컴포넌트 ("use client" + useTranslations)
+│   └── tools/                        # 167개 도구 UI 컴포넌트 ("use client" + useTranslations)
 │       ├── UnitConverter.tsx         # length/weight/data-storage/speed/area/volume 등 공유
 │       ├── TemperatureConverter.tsx  # 온도 전용
 │       └── ...                       # 각 도구별 컴포넌트
@@ -160,13 +161,13 @@ tools-shed/
 ├── lib/
 │   └── tools/                        # 도구 메타데이터 레지스트리 (카테고리별 분리)
 │       ├── types.ts                  # Tool, Category 인터페이스
-│       ├── developer.ts              # Developer Tools (42개)
-│       ├── converters.ts             # Unit Converters (22개)
+│       ├── developer.ts              # Developer Tools (44개)
+│       ├── converters.ts             # Unit Converters (24개)
 │       ├── text.ts                   # Text Tools (23개)
-│       ├── finance.ts                # Finance Tools (19개)
-│       ├── health.ts                 # Health Tools (18개)
-│       ├── time.ts                   # Time Tools (12개)
-│       ├── math.ts                   # Math Tools (19개)
+│       ├── finance.ts                # Finance Tools (21개)
+│       ├── health.ts                 # Health Tools (21개)
+│       ├── time.ts                   # Time Tools (13개)
+│       ├── math.ts                   # Math Tools (21개)
 │       └── index.ts                  # 전체 통합 + 헬퍼 함수 export
 │
 ├── i18n/
@@ -263,6 +264,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         routing.locales.map((l) => [l, `${BASE_URL}/${l}/developer/new-tool-slug`])
       ),
     },
+    openGraph: {
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      url: `${BASE_URL}/${locale}/developer/new-tool-slug`,
+      type: "website",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      images: ["/opengraph-image"],
+    },
   };
 }
 
@@ -305,6 +319,8 @@ export default async function NewToolPage({ params }: { params: Promise<{ locale
 | metadataBase | `https://tools-shed.com` ✅ |
 | hreflang | 12개 언어 alternate 태그 자동 삽입 ✅ |
 | html lang | 언어별 동적 설정 ✅ |
+| og:image | `app/opengraph-image.tsx` → `/opengraph-image` (200 image/png) ✅ |
+| og:image (locale별) | `app/[locale]/opengraph-image.tsx` → `/en/opengraph-image` 등 ✅ |
 | sitemap.xml | 12개 언어 × 전체 페이지, GSC 제출 완료 ✅ |
 | JSON-LD | `ToolLayout.tsx`에서 WebApplication 스키마 자동 삽입 ✅ |
 | Favicon | SVG emoji (`🛠️`) ✅ |
@@ -314,6 +330,20 @@ export default async function NewToolPage({ params }: { params: Promise<{ locale
 ### SEO 원칙
 - `metaTitle` 60자 이내, `metaDescription` 150자 이내
 - 모든 `h1`은 페이지당 하나
+
+### OG Image 구조 주의사항
+- OG 이미지는 `app/opengraph-image.tsx` + `app/[locale]/opengraph-image.tsx` 두 파일로 관리
+- `proxy.ts` 미들웨어에서 `opengraph-image` 경로를 명시적으로 제외함 (locale prefix 추가 방지)
+- 모든 도구 page.tsx의 `generateMetadata`에 반드시 `openGraph.images`와 `twitter.images` 명시:
+  ```tsx
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "ToolsShed - Free Online Tools" }],
+  },
+  twitter: {
+    images: ["/opengraph-image"],
+  }
+  ```
+- `/og-image.png` 같은 정적 파일 참조는 `public/`에 없으므로 사용 금지
 
 ---
 
